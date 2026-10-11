@@ -55,7 +55,7 @@
           "number": 3,
           "title": "3장 정책과 실행계획을 분리한다",
           "purpose": "지켜야 할 경계와 실행 방법을 나누어 서로 다른 변경 주기를 다룬다.",
-          "status": "설계",
+          "status": "초고",
           "patterns": [
             "P02",
             "P03"
@@ -415,9 +415,11 @@
     "organization": "roboco-io",
     "name": "idd-book",
     "visibility": "private",
-    "requested_local_path": "/Users/dohyunjung/Workspace/roboco-io/education",
-    "remote_created": false,
-    "local_mac_clone_verified": false
+    "requested_local_path": "/Users/dohyunjung/Workspace/roboco-io/education/idd-book",
+    "remote_created": true,
+    "local_mac_clone_verified": true,
+    "actual_clone_path": "/Users/dohyunjung/Workspace/roboco-io/education/idd-book",
+    "local_checkout_verified": true
   },
   "confirmed_choices": {
     "primary_reader": "More Effective Agile과 동일한 소프트웨어 조직 리더: 경영진·임원·부서장·개발 관리자·팀 리더, 기술·비기술 배경 포함",

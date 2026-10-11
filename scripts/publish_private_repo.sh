@@ -4,7 +4,7 @@ set -euo pipefail
 
 project_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
 book_repository="roboco-io/idd-book"
-book_clone_path="${1:-/Users/dohyunjung/Workspace/roboco-io/education}"
+book_clone_path="${1:-/Users/dohyunjung/Workspace/roboco-io/education/idd-book}"
 
 if [[ "$(uname -s)" != "Darwin" ]]; then
   echo "Run this Mac checkout script on the user's Mac. No external changes were made." >&2

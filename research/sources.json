@@ -165,6 +165,52 @@
       "verification_scope": "도서 목록의 소개와 서지",
       "use": "도서 소개의 보조 근거",
       "limit": "본문 논증의 검토 근거 아님"
+    },
+    {
+      "id": "S16",
+      "title": "About rulesets",
+      "author": "GitHub",
+      "url": "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets",
+      "published_on": null,
+      "checked_on": "2026-10-11",
+      "verification_status": "본문 관련 부분 직접 확인",
+      "verification_scope": "공식 문서의 편집·우회 권한, 브랜치·태그 적용, 규칙 중첩과 집행 상태 설명 직접 확인.",
+      "use": "3장 정책·계획과 실행 권한의 경계",
+      "limit": "제품 구조 설명. 특정 저장소 설정·실행·조직 성과 미검증.",
+      "usage_review": {
+        "files": [
+          "manuscript/chapters/ch03.md",
+          "research/claims/ch03.json",
+          "planning/sessions/2026-10-11-ch03.md",
+          "STATUS.md",
+          "research/sources.json"
+        ],
+        "direct_quote_words": 0,
+        "summary_check": "원문의 구조 설명을 짧게 의역. 기록 파일 포함 출처별 200단어 상한 이내로 검토. 효과 수치·장문 번역 없음."
+      }
+    },
+    {
+      "id": "S17",
+      "title": "Beyond permission prompts: making Claude Code more secure and autonomous",
+      "author": "David Dworken, Oliver Weller-Davies / Anthropic",
+      "url": "https://www.anthropic.com/engineering/claude-code-sandboxing",
+      "published_on": "2025-10-20",
+      "checked_on": "2026-10-11",
+      "verification_status": "본문 관련 부분 직접 확인",
+      "verification_scope": "파일·네트워크 경계와 경계 밖 허용 판단의 공개 설계 설명 직접 확인.",
+      "use": "3장 정책·계획과 실행 권한의 경계",
+      "limit": "업체 자체 설명. 설치·실행 미수행. 성과 수치와 안전성의 절대적 표현을 채택하지 않음.",
+      "usage_review": {
+        "files": [
+          "manuscript/chapters/ch03.md",
+          "research/claims/ch03.json",
+          "planning/sessions/2026-10-11-ch03.md",
+          "STATUS.md",
+          "research/sources.json"
+        ],
+        "direct_quote_words": 0,
+        "summary_check": "원문의 구조 설명을 짧게 의역. 기록 파일 포함 출처별 200단어 상한 이내로 검토. 효과 수치·장문 번역 없음."
+      }
     }
   ],
   "source_aliases": {

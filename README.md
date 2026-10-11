@@ -19,7 +19,7 @@
 | `planning/` | 기획, 확정 결정, 집필 규칙, 클라이언트 인계 |
 | `outline/` | 5부 20장 목차와 장별 질문·완료 목표 |
 | `manuscript/front-matter/` | 서문 초고 |
-| `manuscript/chapters/` | 장별 원고. 2장은 초고, 나머지는 집필 카드 |
+| `manuscript/chapters/` | 장별 원고. 2·3장은 초고, 나머지는 집필 카드 |
 | `manuscript/patterns/` | 패턴 원고. P06은 샘플 초고, 나머지는 설계 카드 |
 | `patterns/` | 패턴 관계와 집필 안내 |
 | `research/` | 출처 대장, 주장 메모, 공개 사례, 맥코넬 대응표 |
@@ -43,14 +43,14 @@
 원격 저장소가 준비되면 요청한 Mac 경로에서 다음과 같이 시작한다.
 
 ```bash
-git clone git@github.com:roboco-io/idd-book.git /Users/dohyunjung/Workspace/roboco-io/education
-cd /Users/dohyunjung/Workspace/roboco-io/education
+git clone git@github.com:roboco-io/idd-book.git /Users/dohyunjung/Workspace/roboco-io/education/idd-book
+cd /Users/dohyunjung/Workspace/roboco-io/education/idd-book
 python3 scripts/check_project.py
 ```
 
 초기 파일 묶음을 받은 경우 원격 저장소 생성·연결은 `scripts/publish_private_repo.sh`를 사용할 수 있다. 실행 전 GitHub CLI의 인증 계정과 조직 권한을 확인한다. 기존 저장소나 경로는 덮어쓰지 않는다.
 
-클라이언트에는 “AGENTS.md와 STATUS.md를 읽고 다음 작업인 3장 초고를 진행해줘”라고 지시하면 된다. 집필 일정과 최종 분량은 아직 확정하지 않았으며 현재 작업의 선행 조건은 아니다.
+클라이언트에는 “AGENTS.md와 STATUS.md를 읽고 다음 작업인 7장 초고를 진행해줘”라고 지시하면 된다. 집필 일정과 최종 분량은 아직 확정하지 않았으며 현재 작업의 선행 조건은 아니다.
 
 ## 검증
 

@@ -37,3 +37,7 @@ More Effective Agile의 재고찰은 관련 장에 분산한다. 16장은 리더
 
 공개 자료에서 새로운 사실을 확인한 경우에는 해당 주장과 출처의 상태를 먼저 갱신한다. 기존 결정을 유지하거나 변경할 판단은 그 근거와 구분하여 기록한다.
 
+
+## 후속 확정
+
+- D06 · 2026-10-11: 기존 education 폴더에 다수 프로젝트가 있음을 확인한 뒤 저자가 `education/idd-book에 클론`을 선택했다. D05의 최초 경로를 하위 `/Users/dohyunjung/Workspace/roboco-io/education/idd-book`으로 구체화한다. README·인계·프로젝트 메타데이터·초기화 스크립트 기본 경로에 반영했다.

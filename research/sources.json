@@ -104,12 +104,32 @@
       "id": "S10",
       "title": "Demystifying evals for AI agents",
       "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
-      "use": "2장과 패턴의 공개 근거",
+      "use": "2·7장과 P06의 평가 설계 근거",
       "published_on": "2026-01-09",
       "checked_on": "2026-10-11",
       "verification_status": "본문 관련 부분 직접 확인",
-      "verification_scope": "2026-01-09 Anthropic 원문 중 transcript와 outcome 정의, 판정 유형과 한계 직접 확인. 예약 사례는 원문의 설명 예시이며 실제 사건이나 성과 사례로 제시하지 않았다.",
-      "limit": "업체의 자체 보고 또는 평가 지침. 보편적인 생산성 인과 효과를 주장하지 않음"
+      "verification_scope": "원문 정의 절과 판정 유형 절 재확인. 결과 상태와 수행 기록, 판정 수단의 구분.",
+      "limit": "업체 지침. 운영 성과·인과 효과 미검증.",
+      "author": "Anthropic",
+      "usage_review": {
+        "checked_on": "2026-10-11",
+        "files": [
+          "manuscript/chapters/ch02.md",
+          "manuscript/chapters/ch07.md",
+          "manuscript/patterns/p06.md",
+          "research/cases/anthropic-evals.md",
+          "research/claims/ch02.json",
+          "research/claims/ch07.json",
+          "research/README.md",
+          "research/sources.json",
+          "STATUS.md",
+          "planning/sessions/2026-10-11-ch07.md"
+        ],
+        "direct_quote_words": 0,
+        "manuscript_summary_whitespace_units": 55,
+        "count_method": "본문·패턴의 해당 출처 표식 이전 설명을 공백으로 집계. 한국어 어절 수이며 영어 단어 수나 전체 파생량의 자동 판정은 아님.",
+        "summary_check": "조사 카드·주장 메모·대장·진행 기록도 읽고 출처에서 가져온 설명을 합산 검토. 저자 해석·설계 제안·확인 한계를 구분. 출처별 200단어 상한 안에서 짧은 요약만 사용. 원문의 예시·코드·수치·장문 번역을 추가하지 않음."
+      }
     },
     {
       "id": "S11",
@@ -137,12 +157,29 @@
       "id": "S13",
       "title": "OpenHands PR #18048 — restore bundled VS Code consumer support",
       "url": "https://github.com/OpenHands/OpenHands/pull/18048",
-      "published_on": null,
+      "published_on": "2026-10-06",
       "checked_on": "2026-10-11",
       "verification_status": "PR 본문 및 병합 기록 확인",
-      "verification_scope": "변경 #17660이 Enterprise의 VS Code 사용을 막을 수 있어 되돌린다는 PR 설명",
-      "use": "검증 경계와 복구의 반례 후보",
-      "limit": "관련 PR 전체 리뷰와 Enterprise 저장소 미확인. AI 승인 여부·인과는 단정하지 않음"
+      "verification_scope": "PR 본문과 2026-10-06 병합 기록 재확인. 날짜는 생성일·병합일의 공개 표시에 근거.",
+      "use": "7장 검증 범위와 소비자 조건의 검토",
+      "limit": "작성자 설명과 공개 기록. Enterprise 실행·피해 규모·전체 CI·승인 인과 미확인.",
+      "author": "Graham Neubig / OpenHands 공개 PR",
+      "usage_review": {
+        "checked_on": "2026-10-11",
+        "files": [
+          "manuscript/chapters/ch07.md",
+          "research/cases/openhands-revert.md",
+          "research/claims/ch07.json",
+          "research/README.md",
+          "research/sources.json",
+          "STATUS.md",
+          "planning/sessions/2026-10-11-ch07.md"
+        ],
+        "direct_quote_words": 0,
+        "manuscript_summary_whitespace_units": 23,
+        "count_method": "본문·패턴의 해당 출처 표식 이전 설명을 공백으로 집계. 한국어 어절 수이며 영어 단어 수나 전체 파생량의 자동 판정은 아님.",
+        "summary_check": "조사 카드·주장 메모·대장·진행 기록도 읽고 출처에서 가져온 설명을 합산 검토. 저자 해석·설계 제안·확인 한계를 구분. 출처별 200단어 상한 안에서 짧은 요약만 사용. 원문의 예시·코드·수치·장문 번역을 추가하지 않음."
+      }
     },
     {
       "id": "S14",
@@ -183,7 +220,8 @@
           "research/claims/ch03.json",
           "planning/sessions/2026-10-11-ch03.md",
           "STATUS.md",
-          "research/sources.json"
+          "research/sources.json",
+          "research/README.md"
         ],
         "direct_quote_words": 0,
         "summary_check": "원문의 구조 설명을 짧게 의역. 기록 파일 포함 출처별 200단어 상한 이내로 검토. 효과 수치·장문 번역 없음."
@@ -206,10 +244,39 @@
           "research/claims/ch03.json",
           "planning/sessions/2026-10-11-ch03.md",
           "STATUS.md",
-          "research/sources.json"
+          "research/sources.json",
+          "research/README.md"
         ],
         "direct_quote_words": 0,
         "summary_check": "원문의 구조 설명을 짧게 의역. 기록 파일 포함 출처별 200단어 상한 이내로 검토. 효과 수치·장문 번역 없음."
+      }
+    },
+    {
+      "id": "S18",
+      "title": "OpenHands PR #17660 — refactor(canvas): remove bundled VSCode consumer assumptions",
+      "author": "Graham Neubig / OpenHands 공개 PR",
+      "url": "https://github.com/OpenHands/OpenHands/pull/17660",
+      "published_on": "2026-09-24",
+      "checked_on": "2026-10-11",
+      "verification_status": "PR 본문 관련 부분 직접 확인",
+      "verification_scope": "Why·Summary·How to Test·Notes 확인. 작성자의 테스트 보고와 배포 검증 한계만 사용.",
+      "use": "7장 검증 범위의 제한",
+      "limit": "검색 제공 본문은 이전 수집본의 Draft 표시. 현재 상태·전체 리뷰·CI 로그 미확인. Checks·Files changed·API 열기 실패. 제품 실행 미수행.",
+      "usage_review": {
+        "checked_on": "2026-10-11",
+        "files": [
+          "manuscript/chapters/ch07.md",
+          "research/cases/openhands-revert.md",
+          "research/claims/ch07.json",
+          "research/sources.json",
+          "STATUS.md",
+          "planning/sessions/2026-10-11-ch07.md",
+          "research/README.md"
+        ],
+        "direct_quote_words": 0,
+        "manuscript_summary_whitespace_units": 17,
+        "count_method": "본문·패턴의 해당 출처 표식 이전 설명을 공백으로 집계. 한국어 어절 수이며 영어 단어 수나 전체 파생량의 자동 판정은 아님.",
+        "summary_check": "조사 카드·주장 메모·대장·진행 기록도 읽고 출처에서 가져온 설명을 합산 검토. 저자 해석·설계 제안·확인 한계를 구분. 출처별 200단어 상한 안에서 짧은 요약만 사용. 원문의 예시·코드·수치·장문 번역을 추가하지 않음."
       }
     }
   ],

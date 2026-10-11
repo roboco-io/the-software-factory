@@ -13,11 +13,14 @@
 | S07 | [Servantworks More Effective Agile 공식 목차](https://www.servantworks.co.jp/works/books/moreeffectiveagile/) | 일본어판 감역자 회사의 공식 목차 |
 | S08 | [Anthropic Effective harnesses for long running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents) | 장기 실행과 맥락 및 진행 기록의 구현 사례 |
 | S09 | [Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/) | 2장과 패턴의 공개 근거 |
-| S10 | [Demystifying evals for AI agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) | 2장과 패턴의 공개 근거 |
+| S10 | [Demystifying evals for AI agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) | 2·7장과 P06의 평가 설계 근거 |
 | S11 | [Steve McConnell Current Projects](https://stevemcconnell.com/current-projects/) | 독자 정의 |
 | S12 | [More Effective Agile 공개 미리보기](https://www.everand.com/book/506951019/More-Effective-Agile-A-Roadmap-for-Software-Leaders) | 독자 정의 |
 | S13 | [OpenHands PR #18048 — restore bundled VS Code consumer support](https://github.com/OpenHands/OpenHands/pull/18048) | 검증 경계와 복구의 반례 후보 |
 | S14 | [YES24 한국어판 도서 목차](https://www.yes24.com/Product/Goods/110282214) | 23장 순서 교차 확인 |
 | S15 | [Steve McConnell Books](https://stevemcconnell.com/books/) | 도서 소개의 보조 근거 |
+| S16 | [GitHub About rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets) | 3장 실행 권한의 경계 |
+| S17 | [Anthropic Claude Code sandboxing](https://www.anthropic.com/engineering/claude-code-sandboxing) | 3장 실행 환경의 경계 |
+| S18 | [OpenHands PR #17660](https://github.com/OpenHands/OpenHands/pull/17660) | 7장 검증 범위의 제한 |
 
 공개 사실과 주체의 자체 보고, 저자 해석 및 설계 제안의 경계는 [근거 규칙](evidence-policy.md)에 따른다. [맥코넬 대응표](mcconnell/chapter-map.md)와 [사례 목록](cases/README.md)을 함께 본다.

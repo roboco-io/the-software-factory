@@ -34,3 +34,11 @@ S16(GitHub 공식 규칙 문서)과 S17(2025-10-20 Anthropic 실행 경계 설�
 - 목표 출판일·주당 집필 시간·최종 분량·원서 대조 판본 미정
 
 미결 사항은 다음 초고 집필의 선행 조건이 아니다. 세션 기록은 [planning/sessions/2026-10-11-ch03.md](planning/sessions/2026-10-11-ch03.md)에 있다.
+
+## 검증 기록
+
+- 구조 검사 PASS: 20장·15개 패턴·17개 출처, JSON·내부 링크·ID 연결 확인.
+- `bash -n scripts/publish_private_repo.sh`, `git diff --check` 통과.
+- 3장 원고·자료 갱신 커밋 757edee의 main 푸시 성공. `git ls-remote`와 로컬 HEAD의 전체 SHA 일치 확인.
+- 원격 PRIVATE 재확인, 갱신 커밋 직후 작업 트리 변경 없음 확인.
+- 이 검증 기록은 별도 후속 커밋으로 보존한다. 초고의 저자 승인과 패턴 효과 검증은 포함하지 않는다.

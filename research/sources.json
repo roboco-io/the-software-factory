@@ -1,0 +1,176 @@
+{
+  "checked_on": "2026-10-11",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "정도현 바이브 코딩을 넘어서 소프트웨어 팩토리로",
+      "url": "https://roboco.io/posts/beyond-vibe-coding-software-factory/",
+      "use": "개발과 운영 피드백 및 보고 체계의 출발점",
+      "checked_on": "2026-10-11",
+      "published_on": "2026-09-16",
+      "verification_status": "본문 또는 공개 소개 확인",
+      "limit": "저자의 전망과 제안. 생산성 인과 효과를 입증하는 연구가 아님",
+      "verification_scope": "한국어 글 본문 확인"
+    },
+    {
+      "id": "S02",
+      "title": "정도현 오픈소스 프로젝트들로부터 배우는 소프트웨어 팩토리 모범사례 첫 번째 글",
+      "url": "https://roboco.io/posts/software-factory-best-practices-from-open-source/",
+      "use": "공개 저장소 사례와 운영 기준 및 검증의 경계",
+      "checked_on": "2026-10-11",
+      "published_on": "2026-10-10",
+      "verification_status": "본문 또는 공개 소개 확인",
+      "limit": "저자의 판별 기준과 비대표 표본. 팩토리 보급률·완전 자동화·생산성 효과로 일반화하지 않음",
+      "verification_scope": "한국어 글 본문 확인. 공개 저장소의 개별 관찰은 후속 대조 필요"
+    },
+    {
+      "id": "S03",
+      "title": "Richard Stockley Intent Driven Development",
+      "url": "https://intentdrivendevelopment.org/",
+      "use": "기존 명칭과 의도 및 거버넌스와 조직 확장의 정의",
+      "checked_on": "2026-10-11",
+      "published_on": null,
+      "verification_status": "본문 또는 공개 소개 확인",
+      "limit": "기존 명칭 사용 확인. 최초 시점·권리·상표는 미검토",
+      "verification_scope": "홈페이지의 정의와 소개 확인. ebook 본문 미확보"
+    },
+    {
+      "id": "S04",
+      "title": "J Tech Japan What is Intent Driven Development",
+      "url": "https://www.intent-driven-development.com/what-is-idd",
+      "use": "의도와 구현 및 현실 피드백을 연결하는 기존 정의",
+      "checked_on": "2026-10-11",
+      "published_on": null,
+      "verification_status": "본문 또는 공개 소개 확인",
+      "limit": "해당 프로젝트의 방법 설명. 효과 검증이 아님",
+      "verification_scope": "개념 페이지 본문 확인. 도구 설치·실행 미수행"
+    },
+    {
+      "id": "S05",
+      "title": "Construx More Effective Agile",
+      "url": "https://www.construx.com/more-effective-agile/",
+      "use": "원 출판사의 공식 도서 소개",
+      "checked_on": "2026-10-11",
+      "published_on": null,
+      "verification_status": "본문 또는 공개 소개 확인",
+      "limit": "원서 본문 전체 미확보",
+      "verification_scope": "공식 도서 소개 확인"
+    },
+    {
+      "id": "S06",
+      "title": "인사이트 애자일 조직은 이렇게 일합니다",
+      "url": "https://blog.insightbook.co.kr/2022/07/06/《애자일-조직은-이렇게-일합니다》/",
+      "use": "한국어판 출판사의 소개",
+      "checked_on": "2026-10-11",
+      "published_on": null,
+      "verification_status": "본문 또는 공개 소개 확인",
+      "limit": "한국어판 본문 전체 미확보",
+      "verification_scope": "한국어판 공식 소개·서지 확인"
+    },
+    {
+      "id": "S07",
+      "title": "Servantworks More Effective Agile 공식 목차",
+      "url": "https://www.servantworks.co.jp/works/books/moreeffectiveagile/",
+      "use": "일본어판 감역자 회사의 공식 목차",
+      "checked_on": "2026-10-11",
+      "published_on": null,
+      "verification_status": "본문 또는 공개 소개 확인",
+      "limit": "번호가 있는 23장 주제 대응. 본문 논증 대조는 미완료",
+      "verification_scope": "공식 목차 확인"
+    },
+    {
+      "id": "S08",
+      "title": "Anthropic Effective harnesses for long running agents",
+      "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+      "use": "장기 실행과 맥락 및 진행 기록의 구현 사례",
+      "checked_on": "2026-10-11",
+      "published_on": null,
+      "verification_status": "본문 또는 공개 소개 확인",
+      "limit": "공급사의 제한된 사례. 일반 조직의 효과 증명으로 사용하지 않음",
+      "verification_scope": "장기 에이전트 엔지니어링 글의 구조와 진행 기록 설명 확인"
+    },
+    {
+      "id": "S09",
+      "title": "Harness engineering: leveraging Codex in an agent-first world",
+      "url": "https://openai.com/index/harness-engineering/",
+      "use": "2장과 패턴의 공개 근거",
+      "published_on": "2026-02-11",
+      "checked_on": "2026-10-11",
+      "verification_status": "본문 관련 부분 직접 확인",
+      "verification_scope": "2026-02-11 OpenAI 원문 중 저장소 지식 관리, 계획, 구조 제약 검증 부분 직접 확인. 팀의 자기보고 사례로 사용하며 보편적 생산성 효과는 주장하지 않는다.",
+      "limit": "업체의 자체 보고 또는 평가 지침. 보편적인 생산성 인과 효과를 주장하지 않음"
+    },
+    {
+      "id": "S10",
+      "title": "Demystifying evals for AI agents",
+      "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+      "use": "2장과 패턴의 공개 근거",
+      "published_on": "2026-01-09",
+      "checked_on": "2026-10-11",
+      "verification_status": "본문 관련 부분 직접 확인",
+      "verification_scope": "2026-01-09 Anthropic 원문 중 transcript와 outcome 정의, 판정 유형과 한계 직접 확인. 예약 사례는 원문의 설명 예시이며 실제 사건이나 성과 사례로 제시하지 않았다.",
+      "limit": "업체의 자체 보고 또는 평가 지침. 보편적인 생산성 인과 효과를 주장하지 않음"
+    },
+    {
+      "id": "S11",
+      "title": "Steve McConnell Current Projects",
+      "url": "https://stevemcconnell.com/current-projects/",
+      "published_on": null,
+      "checked_on": "2026-10-11",
+      "verification_status": "공식 소개 확인",
+      "verification_scope": "도서가 조직 리더의 도입 및 개선을 돕는다는 소개",
+      "use": "독자 정의",
+      "limit": "현재 소개의 범위"
+    },
+    {
+      "id": "S12",
+      "title": "More Effective Agile 공개 미리보기",
+      "url": "https://www.everand.com/book/506951019/More-Effective-Agile-A-Roadmap-for-Software-Leaders",
+      "published_on": null,
+      "checked_on": "2026-10-11",
+      "verification_status": "1장 독자 설명 일부 확인",
+      "verification_scope": "제3자 서비스에서 공개한 저자 원문. 직위와 기술·비기술 독자 설명",
+      "use": "독자 정의",
+      "limit": "본문 전체 통독 아님"
+    },
+    {
+      "id": "S13",
+      "title": "OpenHands PR #18048 — restore bundled VS Code consumer support",
+      "url": "https://github.com/OpenHands/OpenHands/pull/18048",
+      "published_on": null,
+      "checked_on": "2026-10-11",
+      "verification_status": "PR 본문 및 병합 기록 확인",
+      "verification_scope": "변경 #17660이 Enterprise의 VS Code 사용을 막을 수 있어 되돌린다는 PR 설명",
+      "use": "검증 경계와 복구의 반례 후보",
+      "limit": "관련 PR 전체 리뷰와 Enterprise 저장소 미확인. AI 승인 여부·인과는 단정하지 않음"
+    },
+    {
+      "id": "S14",
+      "title": "YES24 한국어판 도서 목차",
+      "url": "https://www.yes24.com/Product/Goods/110282214",
+      "published_on": null,
+      "checked_on": "2026-10-11",
+      "verification_status": "공개 목차 확인",
+      "verification_scope": "한국어판 출판사가 연결한 서점의 장 순서와 공개 목차",
+      "use": "맥코넬 23장 주제 대응의 교차 확인",
+      "limit": "본문 전체 대조 아님"
+    },
+    {
+      "id": "S15",
+      "title": "Steve McConnell Books",
+      "url": "https://stevemcconnell.com/books/",
+      "published_on": null,
+      "checked_on": "2026-10-11",
+      "verification_status": "저자 도서 목록 확인",
+      "verification_scope": "도서 목록의 소개와 서지",
+      "use": "도서 소개의 보조 근거",
+      "limit": "본문 논증의 검토 근거 아님"
+    }
+  ],
+  "source_aliases": {
+    "C02-S1": "S04",
+    "C02-S2": "S09",
+    "C02-S3": "S10"
+  },
+  "note": "장별 초고의 C02-S1~3은 기존/신규 전역 ID S04/S09/S10으로 통합했다."
+}

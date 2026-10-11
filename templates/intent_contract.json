@@ -1,0 +1,24 @@
+{
+  "intent_id": "EXAMPLE-001",
+  "status": "예시",
+  "purpose": "변경으로 달성할 사용자 결과",
+  "success_criteria": [
+    "관찰 가능한 수용 조건"
+  ],
+  "constraints": [
+    "지켜야 할 경계"
+  ],
+  "policy_version": "정책 식별자",
+  "plan_version": "계획 식별자",
+  "allowed_actions": [
+    "허용한 작업"
+  ],
+  "stop_conditions": [
+    "중단 및 판단 요청 조건"
+  ],
+  "required_evidence": [
+    "완료 판정에 사용할 증거"
+  ],
+  "recovery": "실패 복구 방식",
+  "owner": "의도를 책임지는 역할"
+}

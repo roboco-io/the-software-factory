@@ -1,0 +1,20 @@
+{
+  "run_id": "EXAMPLE-RUN-001",
+  "intent_id": "EXAMPLE-001",
+  "policy_version": "",
+  "plan_version": "",
+  "executor": {
+    "model": "",
+    "agent": "",
+    "harness": "",
+    "environment": ""
+  },
+  "actions": [],
+  "evidence": [],
+  "decision": "",
+  "human_intervention_minutes": null,
+  "cost_scope": "",
+  "cost": null,
+  "failures": [],
+  "improvement_proposals": []
+}

@@ -19,8 +19,8 @@
 | `planning/` | 기획, 확정 결정, 집필 규칙, 클라이언트 인계 |
 | `outline/` | 5부 20장 목차와 장별 질문·완료 목표 |
 | `manuscript/front-matter/` | 서문 초고 |
-| `manuscript/chapters/` | 장별 원고. 2·3·7장은 초고, 나머지는 집필 카드 |
-| `manuscript/patterns/` | 패턴 원고. P06은 샘플 초고, 나머지는 설계 카드 |
+| `manuscript/chapters/` | 장별 원고. 20장 모두 초고, 저자 검토·편집 확정 대기 |
+| `manuscript/patterns/` | 패턴 원고. 15개 모두 초고, P06은 기존 샘플 초고 보존 |
 | `patterns/` | 패턴 관계와 집필 안내 |
 | `research/` | 출처 대장, 주장 메모, 공개 사례, 맥코넬 대응표 |
 | `templates/` | 장·패턴·조사·세션 기록 양식 |
@@ -50,7 +50,7 @@ python3 scripts/check_project.py
 
 초기 파일 묶음을 받은 경우 원격 저장소 생성·연결은 `scripts/publish_private_repo.sh`를 사용할 수 있다. 실행 전 GitHub CLI의 인증 계정과 조직 권한을 확인한다. 기존 저장소나 경로는 덮어쓰지 않는다.
 
-클라이언트에는 “AGENTS.md와 STATUS.md를 읽고 다음 작업인 4장 초고를 진행해줘”라고 지시하면 된다. 집필 일정과 최종 분량은 아직 확정하지 않았으며 현재 작업의 선행 조건은 아니다.
+클라이언트에는 “AGENTS.md와 STATUS.md, 전체 초고 검토 기록을 읽고 사실 대조와 통합 퇴고를 진행해줘”라고 지시하면 된다. 집필 일정과 최종 분량은 아직 확정하지 않았으며 현재 작업의 선행 조건은 아니다.
 
 ## 검증
 
@@ -59,3 +59,7 @@ python3 scripts/check_project.py
 ```
 
 이 검사는 구조, 내부 링크, 장과 패턴 ID 및 출처 연결을 확인한다. 논증의 타당성과 자료의 진실성은 편집 검토에서 별도로 확인한다.
+
+로보코 기존 글의 차용 출처와 반영 위치: [검토 메모](research/roboco-blog-review.md).
+
+전체 초고 작성과 남은 검토 범위: [통합 검토 기록](planning/draft-review-2026-10-12.md).

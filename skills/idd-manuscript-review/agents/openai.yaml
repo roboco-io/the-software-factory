@@ -1,0 +1,4 @@
+interface:
+  display_name: "IDD 원고 리뷰"
+  short_description: "IDD 원고의 논증·근거·독자 판단을 검토하고 수정 결과를 검증"
+  default_prompt: "Use $idd-manuscript-review to review the requested IDD manuscript scope under the project review policy and report findings with evidence and acceptance criteria."

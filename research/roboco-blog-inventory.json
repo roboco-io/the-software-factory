@@ -1,0 +1,590 @@
+{
+  "repository": "https://github.com/roboco-io/roboco-io.github.io",
+  "requested_path": "content/ko/posts",
+  "ref": "main",
+  "resolved_commit": "2a96f577e7ae0cf36b01814cdb93461d8000007d",
+  "checked_on": "2026-10-11",
+  "post_count": 49,
+  "selected_count": 17,
+  "scope": "49개 파일의 제목·표기일·draft·본문 헤딩을 선별하고 17개 글의 기록한 범위를 읽음. 전체 49개 본문 통독·외부 인용 재검증·코드 실행은 아님.",
+  "permission_scope": "저자가 자기 글의 아이디어를 출처를 밝히고 차용하도록 요청. 이 작업은 짧은 요약·재구성만 수행하며 제3자 자료의 권리를 확장하지 않음.",
+  "posts": [
+    {
+      "path": "content/ko/posts/GPT4.1-released.md",
+      "title": "소프트웨어 개발에 특화된 GPT4.1 출시",
+      "declared_date": "2025-04-15T07:22:08+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/GPT4.1-released.md",
+      "blob_sha": "9cc38b3256561b510ce9a7ed76d55a8f952f59d3",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/agentic-coding-recommendations-explained.md",
+      "title": "에이전틱 코딩 권장사항 해설",
+      "declared_date": "2025-06-17T13:38:18+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/agentic-coding-recommendations-explained.md",
+      "blob_sha": "f442733c79799429a205e3a9976d3e7ed6c5d535",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/ai-adoption-guide.md",
+      "title": "기업 AI 도입 가이드",
+      "declared_date": "2025-12-26T09:16:27+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/ai-adoption-guide.md",
+      "blob_sha": "ff00126b07ad26da1a378eabfce148c61d825cc9",
+      "review_scope": "2·7·8·9·10절",
+      "status": "본문·설계 차용",
+      "source_id": "S37",
+      "chapters": [
+        16,
+        18
+      ],
+      "idea": "노하우의 실제 전파를 인정하고 사용률과 성과를 구분"
+    },
+    {
+      "path": "content/ko/posts/ai-be-my-nakama.md",
+      "title": "AI, 내 동료가 되어라!",
+      "declared_date": "2025-05-25T07:30:47+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/ai-be-my-nakama.md",
+      "blob_sha": "b1c06d19a59c0671815b366385dc82cb37565e42",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/ai-era-hiring-strategy.md",
+      "title": "AI 네이티브 시대의 ‘일머리’ 있는 사람을 뽑는 법",
+      "declared_date": "2026-10-03T10:00:00+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/ai-era-hiring-strategy.md",
+      "blob_sha": "a4876424ed73eb476deca74b2754c79013f4ad3c",
+      "review_scope": "1·2·3·4·5·7·8절",
+      "status": "본문·설계 차용",
+      "source_id": "S40",
+      "chapters": [
+        13
+      ],
+      "idea": "직무 과제로 판단·설명·기록·결과 대조"
+    },
+    {
+      "path": "content/ko/posts/best-production-vibe-coding-tool-jan2026.md",
+      "title": "기업/헤비유저 관점에서 본 최고의 프로덕션레벨 가성비 바이브 코딩 도구 (2026년 1월 기준)",
+      "declared_date": "2026-01-25T11:45:52+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/best-production-vibe-coding-tool-jan2026.md",
+      "blob_sha": "eea4a9c4992f764b90c2da4d901e5c4287d30ba4",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/beyond-vibe-coding-software-factory.md",
+      "title": "바이브 코딩을 넘어서 소프트웨어 팩토리로",
+      "declared_date": "2026-09-16T10:00:00+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/beyond-vibe-coding-software-factory.md",
+      "blob_sha": "ff7089ad459eadf0f310e935d280180dc7bc0971",
+      "review_scope": "4절·결론",
+      "status": "본문·설계 차용",
+      "source_id": "S01",
+      "chapters": [
+        9
+      ],
+      "idea": "결정에 필요한 보고"
+    },
+    {
+      "path": "content/ko/posts/claude-code-deep-dive.md",
+      "title": "Claude Code Deep Dive: 클로드 코드는 어떻게 구현되었는가?",
+      "declared_date": "2025-11-25T10:05:54+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/claude-code-deep-dive.md",
+      "blob_sha": "1b7079401963b608f9fdff2a4464a972657133b1",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/cline3.15-released.md",
+      "title": "클라인이 심상치 않다",
+      "declared_date": "2025-05-15T08:08:46+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/cline3.15-released.md",
+      "blob_sha": "76303dbd2e8da30a4ce2effdaa1a100f1ec4b199",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/cognitive-debt.md",
+      "title": "인지부채 - 바이브 코딩 시대의 새로운 부채 관리법",
+      "declared_date": "2026-07-18T10:00:00+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/cognitive-debt.md",
+      "blob_sha": "90f63b8d3b78f20753f2cc48d6a459c01dc94723",
+      "review_scope": "사람을 끼워 넣으면 해결되는가·부채는 없애는 것이 아니라 관리하는 것이다·쪽지시험·리터릿 코드 디프·서술형 문서·결론",
+      "status": "본문·설계 차용",
+      "source_id": "S36",
+      "chapters": [
+        16
+      ],
+      "idea": "판단 가능한 수준의 이해와 회상 확인"
+    },
+    {
+      "path": "content/ko/posts/everything-claude-code-distilled.md",
+      "title": "Everything Claude Code - 해커톤 우승자의 AI 개발 팀 레시피",
+      "declared_date": "2026-01-20T09:30:07+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/everything-claude-code-distilled.md",
+      "blob_sha": "d668bdf112bafce837b795bfa1916f7e1ebe9d18",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/everything-claude-code-vs-oh-my-claude-code.md",
+      "title": "Everything Claude Code vs Oh My ClaudeCode - 팀/기업 도입 관점 비교",
+      "declared_date": "2026-01-27T09:30:31+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/everything-claude-code-vs-oh-my-claude-code.md",
+      "blob_sha": "5dc1611457d775e4dfa62e5fb40ca43b4d19734e",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/google-prompt-engineering-whitepaper.md",
+      "title": "구글 프롬프트 엔지니어링 백서 바이브 코딩 관련 내용 요약",
+      "declared_date": "2025-04-13T08:32:57+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/google-prompt-engineering-whitepaper.md",
+      "blob_sha": "2f0f38354e1c17fccfb759aee2814a6d4336065a",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/how-to-draw-diagram.md",
+      "title": "AI로 아키텍처 다이어그램 그리기",
+      "declared_date": "2025-06-14T12:35:06+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/how-to-draw-diagram.md",
+      "blob_sha": "55608a4ae8a67d53f6d361c3a7668df93b211081",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/introduce.md",
+      "title": "로보코(Robot Co-worker)를 소개합니다",
+      "declared_date": "2025-02-17T11:47:08+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/introduce.md",
+      "blob_sha": "97dd209c1edd1b424ee0bb9013dc40021d832259",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/is-mcp-necessary-for-vibecoding.md",
+      "title": "MCP는 바이브 코딩에 필수인가? (feat. CLI)",
+      "declared_date": "2025-04-01T10:28:00+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/is-mcp-necessary-for-vibecoding.md",
+      "blob_sha": "e6d32d519ecad2716519e6379e6734d7be70b43f",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/karpathy-llm-wiki-72-run-benchmark.md",
+      "title": "Karpathy LLM Wiki, 진짜 효과가 있을까 - 72-run 벤치마크",
+      "declared_date": "2026-05-07T11:00:00+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/karpathy-llm-wiki-72-run-benchmark.md",
+      "blob_sha": "f16f642f92261a6edc6ab9ec624ede502567dccf",
+      "review_scope": "2·3·5·6절의 실험 설계·과제별 결과·운영 원칙·한계",
+      "status": "설계 차용",
+      "source_id": "S46",
+      "chapters": [
+        11
+      ],
+      "idea": "대표 업무에서 과제별 결과와 평가 조건을 비교"
+    },
+    {
+      "path": "content/ko/posts/oh-my-claudecode-distilled.md",
+      "title": "Oh My Claude Code - Claude Code를 ‘팀’으로 쓰는 플러그인",
+      "declared_date": "2026-01-21T22:03:59+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/oh-my-claudecode-distilled.md",
+      "blob_sha": "6aebb8b5cc9ef611915dc5ac92cbaf1322b0f4f7",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/openclaw-agents-md-productivity-secrets.md",
+      "title": "OpenClaw 생산성의 비밀: AGENTS.md 해부",
+      "declared_date": "2026-03-25T10:00:00+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/openclaw-agents-md-productivity-secrets.md",
+      "blob_sha": "f8bb75ac608469aa146520e1d3e88b687c044e04",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/openclaw-gatekeeping-architecture.md",
+      "title": "OpenClaw의 5계층 게이트키핑: AI 에이전트 시대의 품질 관리",
+      "declared_date": "2026-03-27T00:00:00+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/openclaw-gatekeeping-architecture.md",
+      "blob_sha": "f68049ef2eb0bb90402db250f79536ca0856044b",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/openclaw-vibe-coding-best-practices.md",
+      "title": "OpenClaw: 세계 최대 바이브 코딩 프로젝트에서 배우는 9가지 모범 사례",
+      "declared_date": "2026-03-14T10:00:00+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/openclaw-vibe-coding-best-practices.md",
+      "blob_sha": "411254bdc328efe1dbc55ea85dddbb6b9f847dad",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/organizational-design-for-vibe-coding.md",
+      "title": "바이브 코딩 도입을 위한 조직 설계",
+      "declared_date": "2026-03-20T21:23:40+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/organizational-design-for-vibe-coding.md",
+      "blob_sha": "0c963173e282d0815df56faf92f5406ecf226263",
+      "review_scope": "권장 조직 모델·Human-in-the-Loop·운영 지표·결론",
+      "status": "본문·설계 차용",
+      "source_id": "S39",
+      "chapters": [
+        9
+      ],
+      "idea": "공통 기반·현장 맥락·제품 책임 연결"
+    },
+    {
+      "path": "content/ko/posts/persona-vs-metacognition.md",
+      "title": "LLM 프롬프팅: 페르소나 지정 vs 메타인지 방식의 차이점",
+      "declared_date": "2025-11-27T07:57:49+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/persona-vs-metacognition.md",
+      "blob_sha": "355ec358e7080fe489ad4c0e3e21027063a3e91b",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/ruflo-claude-code-multi-agent-orchestration.md",
+      "title": "Ruflo 톺아보기: Claude Code에 멀티 에이전트 오케스트레이션을 얹는다는 것",
+      "declared_date": "2026-05-04T11:30:00+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/ruflo-claude-code-multi-agent-orchestration.md",
+      "blob_sha": "eb99b569a1890e93aae1ff290f22cd838b020e46",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/serverless-autoresearch-vibe-coding.md",
+      "title": "Serverless Autoresearch: 바이브 코딩으로 ML 실험 파이프라인을 서버리스화한 기록",
+      "declared_date": "2026-03-29T16:00:00+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/serverless-autoresearch-vibe-coding.md",
+      "blob_sha": "66f7ada4e8692360d6e34eca8db28cd9e612caa2",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/software-factory-best-practices-from-open-source.md",
+      "title": "오픈소스 프로젝트들로부터 배우는 소프트웨어 팩토리 모범사례 (1/4): 판별 기준과 12개 저장소",
+      "declared_date": "2026-10-10T10:00:00+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/software-factory-best-practices-from-open-source.md",
+      "blob_sha": "e0b931648511e917a0010a128d30b3efeaf90466",
+      "review_scope": "도입·3절·결론",
+      "status": "기존 출처 재확인",
+      "source_id": "S02",
+      "chapters": [],
+      "idea": "기존 자료 재확인, 외부 사례 후속 조사 연결"
+    },
+    {
+      "path": "content/ko/posts/software-factory-evidence-before-fix.md",
+      "title": "오픈소스 프로젝트들로부터 배우는 소프트웨어 팩토리 모범사례 (3/4): 증거로 거르는 팩토리",
+      "declared_date": "2026-10-10T10:00:00+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/software-factory-evidence-before-fix.md",
+      "blob_sha": "dc4af92537bc7c8b6222db6c56aa9da206abcabb",
+      "review_scope": "1절·결론",
+      "status": "본문·설계 차용",
+      "source_id": "S42",
+      "chapters": [
+        7
+      ],
+      "idea": "재현·수정 전 실패·실제 동작을 구분"
+    },
+    {
+      "path": "content/ko/posts/software-factory-failures-into-rules.md",
+      "title": "오픈소스 프로젝트들로부터 배우는 소프트웨어 팩토리 모범사례 (4/4): 실패를 규칙으로",
+      "declared_date": "2026-10-10T10:00:00+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/software-factory-failures-into-rules.md",
+      "blob_sha": "29a03bfcb6cc94411a035f08b06945ef2f37ced0",
+      "review_scope": "1·6·7절·연재를 마치며",
+      "status": "본문·설계 차용",
+      "source_id": "S43",
+      "chapters": [
+        4,
+        19
+      ],
+      "idea": "실패 발견·진단·규칙화·효과 확인을 분리"
+    },
+    {
+      "path": "content/ko/posts/software-factory-who-merges.md",
+      "title": "오픈소스 프로젝트들로부터 배우는 소프트웨어 팩토리 모범사례 (2/4): 누가 병합하는가",
+      "declared_date": "2026-10-10T10:00:00+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/software-factory-who-merges.md",
+      "blob_sha": "08fa8bb12225f59e04d3e0119e87889682957402",
+      "review_scope": "1·5·6절·결론",
+      "status": "본문·설계 차용",
+      "source_id": "S44",
+      "chapters": [
+        9,
+        12
+      ],
+      "idea": "병합 주체와 실제 검토 증거 구분"
+    },
+    {
+      "path": "content/ko/posts/the-art-of-vibe-coding.md",
+      "title": "바이브 코딩의 기술",
+      "declared_date": "2025-05-04T11:59:09-07:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/the-art-of-vibe-coding.md",
+      "blob_sha": "0450e1fb6d03d7eaf39b4e57aa25c2e3c28a9100",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/tidy-first-methodology.md",
+      "title": "Tidy First 방법론: Kent Beck의 Augmented Coding 해석과 적용",
+      "declared_date": "2025-07-27T06:29:39+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/tidy-first-methodology.md",
+      "blob_sha": "376adc307d38881c6c1b94176e75b3bcf785371f",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/vibe-coding-and-xyproblem.md",
+      "title": "바이브 코딩과 XY 문제",
+      "declared_date": "2025-06-06T09:56:25+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/vibe-coding-and-xyproblem.md",
+      "blob_sha": "86941d06d0c291c45b144821539577e582a409df",
+      "review_scope": "전체 원고",
+      "status": "본문·설계 차용",
+      "source_id": "S32",
+      "chapters": [
+        2
+      ],
+      "idea": "목적과 추정한 해결책을 구분"
+    },
+    {
+      "path": "content/ko/posts/vibe-coding-documentation.md",
+      "title": "바이브 코딩 시대의 문서 관리: 무엇을 남기고, 어떻게 읽게 할 것인가",
+      "declared_date": "2026-09-10T10:00:00+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/vibe-coding-documentation.md",
+      "blob_sha": "e11156a01e98cf74e2a0d7c307fe48a5f40860b5",
+      "review_scope": "전체 원문 관련 절",
+      "status": "본문·설계 차용",
+      "source_id": "S41",
+      "chapters": [
+        4,
+        10
+      ],
+      "idea": "현재 기준·과거 기록과 읽는 목적 구분"
+    },
+    {
+      "path": "content/ko/posts/vibe-coding-hiring-strategy.md",
+      "title": "바이브 코딩 시대의 채용 전략",
+      "declared_date": "2025-07-06T19:04:33+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/vibe-coding-hiring-strategy.md",
+      "blob_sha": "fd12b2508120ee9bdaf262a38304b52387e4b5ef",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/vibe-coding-infrastructure-lock-in.md",
+      "title": "누가 종속 소리를 내었는가 - 바이브 코딩 시대의 인프라에 대한 고찰",
+      "declared_date": "2026-09-26T10:00:00+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/vibe-coding-infrastructure-lock-in.md",
+      "blob_sha": "b95d7b0c18dfd688ae6d83282e550060288539c3",
+      "review_scope": "3·6·7절",
+      "status": "본문·설계 차용",
+      "source_id": "S45",
+      "chapters": [
+        20
+      ],
+      "idea": "추정 종속성 대신 실제 전환·검증·복구 비용 확인"
+    },
+    {
+      "path": "content/ko/posts/vibe-coding-manual.md",
+      "title": "Vibe Coding 매뉴얼: AI 지원 개발을 위한 템플릿",
+      "declared_date": "2025-03-11T06:52:53+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/vibe-coding-manual.md",
+      "blob_sha": "0723223ac75f0d4d8c2bab3b719ffa78f82a7ced",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/vibe-coding-productivity.md",
+      "title": "바이브 코딩 생산성 방정식",
+      "declared_date": "2025-05-21T08:56:24+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/vibe-coding-productivity.md",
+      "blob_sha": "bd053bf1e01a4199da90c898d623002dfbe29df6",
+      "review_scope": "전체 원고",
+      "status": "본문·설계 차용",
+      "source_id": "S33",
+      "chapters": [
+        17
+      ],
+      "idea": "역량·도구·프로세스를 함께 평가"
+    },
+    {
+      "path": "content/ko/posts/vibe-coding-review-strategy.md",
+      "title": "바이브 코딩 리뷰 전략",
+      "declared_date": "2025-06-07T12:21:04+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/vibe-coding-review-strategy.md",
+      "blob_sha": "b1f80fb9117651c91caedbe37f0fc1b4f4ad08bd",
+      "review_scope": "전체 원고",
+      "status": "본문·설계 차용",
+      "source_id": "S34",
+      "chapters": [
+        16
+      ],
+      "idea": "위험·능동 검토·결과 피드백"
+    },
+    {
+      "path": "content/ko/posts/vibe-coding-rules-vs-taste.md",
+      "title": "바이브 코딩 시대, 저장소 규칙과 개인 취향의 경계",
+      "declared_date": "2026-03-26T17:26:21+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/vibe-coding-rules-vs-taste.md",
+      "blob_sha": "28ff41231c74562ca70c11033dfd4bef9df99fa2",
+      "review_scope": "전체 원문 관련 절",
+      "status": "본문·설계 차용",
+      "source_id": "S38",
+      "chapters": [
+        3
+      ],
+      "idea": "위반 영향으로 공통 규칙과 취향 구분"
+    },
+    {
+      "path": "content/ko/posts/vibe-coding-scale.md",
+      "title": "바이브 코딩 척도",
+      "declared_date": "2025-05-16T09:06:12+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/vibe-coding-scale.md",
+      "blob_sha": "ee35426a11fd0daa9873c4002c5b7d19140298b7",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/vibe-coding-strengths-and-weaknesses.md",
+      "title": "바이브 코딩의 약점과 장점",
+      "declared_date": "2025-06-02T10:40:26+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/vibe-coding-strengths-and-weaknesses.md",
+      "blob_sha": "5b8dbcf1920eca4f214bca8876483a5558f1b4cd",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/vibe-coding-token-experiments.md",
+      "title": "의외로 9배 저렴한 랄프 루프 - 컨텍스트 캐싱의 경제학",
+      "declared_date": "2026-07-26T10:00:00+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/vibe-coding-token-experiments.md",
+      "blob_sha": "cfc8432e1674e76c075739642e07e8e518e9bf5e",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/vibe-coding-token-management-strategy.md",
+      "title": "바이브 코딩의 토큰 관리 전략",
+      "declared_date": "2026-03-19T09:00:00+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/vibe-coding-token-management-strategy.md",
+      "blob_sha": "40d9c39032d7d5c32ed2050b6f33bd0c730b0c78",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/vibe-coding-truth.md",
+      "title": "바이브 코딩에 대한 진실 혹은 거짓",
+      "declared_date": "2025-03-27T10:18:33+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/vibe-coding-truth.md",
+      "blob_sha": "1362774e7498b2ddc1170552458906987acf43b3",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/vibe-coding-vs-Engineering-Maturity.md",
+      "title": "바이브 코딩과 엔지니어링 성숙도 향상, 어느쪽이 먼저일까?",
+      "declared_date": "2025-07-11T14:46:42+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/vibe-coding-vs-Engineering-Maturity.md",
+      "blob_sha": "6ae73e2ea8bd409aecc5027cf8e4d7d6948c1ef2",
+      "review_scope": "전체 원고",
+      "status": "본문·설계 차용",
+      "source_id": "S35",
+      "chapters": [
+        18
+      ],
+      "idea": "기본기를 갖추는 작업에도 AI를 활용"
+    },
+    {
+      "path": "content/ko/posts/vibecoding-best-programmers.md",
+      "title": "바이브 코딩 시대 개발자가 지녀야 하는 특성",
+      "declared_date": "2025-04-11T12:21:17+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/vibecoding-best-programmers.md",
+      "blob_sha": "1a4eda15b596680ab61c68ef6f3f3fa44813ee78",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/vibecoding-lang-choice.md",
+      "title": "바이브 코딩시 한국어보다 영어가 더 잘 작동할까?",
+      "declared_date": "2025-04-04T08:12:04+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/vibecoding-lang-choice.md",
+      "blob_sha": "827e7bd8fa5d7e84a9074deee273f2e130ca6d63",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/vibecoding-security.md",
+      "title": "바이브 코딩과 보안: 진실 혹은 거짓",
+      "declared_date": "2025-12-30T10:01:21+09:00",
+      "draft": true,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/vibecoding-security.md",
+      "blob_sha": "378854c367e0d2bd8060ed380a0e15b6d6dcbfb0",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    },
+    {
+      "path": "content/ko/posts/why-pi-coding-agent-matters.md",
+      "title": "작고 유연한 코딩 에이전트 Pi를 주목해야 하는 이유",
+      "declared_date": "2026-09-25T10:00:00+09:00",
+      "draft": false,
+      "repository_url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/why-pi-coding-agent-matters.md",
+      "blob_sha": "7cf538a0bb5d3b117fa50b127f2d745dbe211078",
+      "review_scope": "파일 목록·제목·본문 헤딩 선별",
+      "status": "본문 차용 제외 또는 후속 검토"
+    }
+  ]
+}

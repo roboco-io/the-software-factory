@@ -31,7 +31,7 @@
       "note": "P15의 고정 회귀 과제와 기준 안정성 유지. 기준 변경은 개선과 분리. 긴급 복구는 후속 검증을 남기는 조건부 예외. 19장의 세부 운영을 대신하지 않음."
     },
     {
-      "location": "다음 실행이 이전 판단을 이어받게 한다 / 문단 1",
+      "location": "다음 실행이 이전 판단을 이어받게 한다 / Anthropic 장기 실행 문단",
       "type": "업체 실험 설명 확인",
       "source": "S08",
       "note": "진행 기록과 완료 상태 관리 구조만 사용. 코드 실행·성과 재현 없음."
@@ -107,5 +107,21 @@
     "status": "수정 검증 완료·저자 편집 확정 미완료",
     "scope": "본문·주장·패턴 연결의 내용 검토. 실제 원문 확인 범위는 sources.json review_checks 참조.",
     "reviewer": "작성 에이전트, 독립 인간/독자 리뷰 아님"
+  },
+  "integrated_review": {
+    "reviewed_on": "2026-10-13",
+    "base_commit": "d017186550571a0162c2fb7f2311ee408e162f13",
+    "before_sha256": "1a0b53747eb76f73648694feecf59ac481a017e8952492359ae18429a7f9dfa8",
+    "report": "planning/reviews/2026-10-13-integrated-review.md",
+    "manifest": "planning/reviews/2026-10-13-integrated-review-manifest.json",
+    "scope": "장 간 중복·용어·논증 흐름·연결과 기존 출처 표식 대조",
+    "findings": [
+      "IR06",
+      "IR07",
+      "IR12",
+      "IR13"
+    ],
+    "status": "통합 수정 검증 완료·저자 편집 확정 미완료",
+    "limit": "작성 에이전트 점검. 새 원문 대조·독립 인간·실제 독자·운영 효과·저자 편집 확정 미수행."
   }
 }

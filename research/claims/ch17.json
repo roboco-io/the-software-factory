@@ -144,5 +144,23 @@
     "manifest": "planning/reviews/2026-10-13-remaining-review-manifest.json",
     "scope": "사이트 자료 추가 문단과 기존 논증 연결만 재검토",
     "status": "추가 문단 검토·전체 재리뷰/편집 확정 미수행"
+  },
+  "integrated_review": {
+    "reviewed_on": "2026-10-13",
+    "base_commit": "d017186550571a0162c2fb7f2311ee408e162f13",
+    "before_sha256": "3c5a0bc71d8635e2255af3518f790606ecc897c679875bf044656153a837d67a",
+    "report": "planning/reviews/2026-10-13-integrated-review.md",
+    "manifest": "planning/reviews/2026-10-13-integrated-review-manifest.json",
+    "scope": "장 간 중복·용어·논증 흐름·연결과 기존 출처 표식 대조",
+    "findings": [
+      "IR01",
+      "IR03",
+      "IR07",
+      "IR10",
+      "IR12",
+      "IR13"
+    ],
+    "status": "통합 수정 검증 완료·저자 편집 확정 미완료",
+    "limit": "작성 에이전트 점검. 새 원문 대조·독립 인간·실제 독자·운영 효과·저자 편집 확정 미수행."
   }
 }

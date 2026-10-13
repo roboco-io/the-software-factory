@@ -187,5 +187,17 @@
     ],
     "report": "planning/reviews/2026-10-13-remaining-review.md",
     "scope": "비용 설명과 공통 종료 문장 정리. 정의·관계·고유 실패/검증 조건 보존."
+  },
+  "integrated_review": {
+    "base_commit": "d017186550571a0162c2fb7f2311ee408e162f13",
+    "reviewed_on": "2026-10-13",
+    "report": "planning/reviews/2026-10-13-integrated-review.md",
+    "manifest": "planning/reviews/2026-10-13-integrated-review-manifest.json",
+    "findings": [
+      "IR01",
+      "IR14"
+    ],
+    "status": "통합 수정 검증 완료·효과·편집 확정 미완료",
+    "scope": "15개 카드 통독·장 연결 대조. 14개 카드의 중복 일반 문장 제거, P03 계약 표기 통일. 정의의 의미·ID·이름·연결·고유 실패 경계·검증 기준 보존."
   }
 }

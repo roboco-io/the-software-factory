@@ -73,6 +73,12 @@
       "source": "S75",
       "type": "앞선 공개 문서 확인 → 책의 조건부 해석·제안",
       "note": "원작의 시간 상한·추정 구분; 현재 책의 자원 상한과 분리"
+    },
+    {
+      "location": "계약의 다섯 연결을 확인한다",
+      "type": "저자 용어 정리·설계 제안",
+      "note": "성공 기준·완료 조건·수용 기준의 관계와 후속 관찰 범위를 설명한다.",
+      "integrated_finding": "IR03"
     }
   ],
   "review": {
@@ -108,5 +114,21 @@
     "status": "수정 검증 완료·저자 편집 확정 미완료",
     "scope": "본문·주장·패턴 연결의 내용 검토. 실제 원문 확인 범위는 sources.json review_checks 참조.",
     "reviewer": "작성 에이전트, 독립 인간/독자 리뷰 아님"
+  },
+  "integrated_review": {
+    "reviewed_on": "2026-10-13",
+    "base_commit": "d017186550571a0162c2fb7f2311ee408e162f13",
+    "before_sha256": "5edb3bad9b7bcc26589788efd8d19596de8bd1c03590daed85c3209f584e09a0",
+    "report": "planning/reviews/2026-10-13-integrated-review.md",
+    "manifest": "planning/reviews/2026-10-13-integrated-review-manifest.json",
+    "scope": "장 간 중복·용어·논증 흐름·연결과 기존 출처 표식 대조",
+    "findings": [
+      "IR01",
+      "IR03",
+      "IR12",
+      "IR13"
+    ],
+    "status": "통합 수정 검증 완료·저자 편집 확정 미완료",
+    "limit": "작성 에이전트 점검. 새 원문 대조·독립 인간·실제 독자·운영 효과·저자 편집 확정 미수행."
   }
 }

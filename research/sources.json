@@ -308,7 +308,14 @@
           "report": "planning/reviews/2026-10-13-remaining-review.md",
           "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
         }
-      ]
+      ],
+      "integration_usage_check": {
+        "checked_on": "2026-10-13",
+        "report": "planning/reviews/2026-10-13-integrated-review.md",
+        "scope": "기존 출처 표식 문단의 축약과 해당 장 주장 메모 대조. 새로운 원문·직접 인용·성과 수치·사실 추가 없음.",
+        "changed_manuscript": "manuscript/chapters/ch02.md",
+        "limit": "이전 외부 확인 범위를 승격하지 않음. 기존 누적 사용 기록은 확인 당시의 이력으로 보존."
+      }
     },
     {
       "id": "S11",
@@ -1495,7 +1502,14 @@
           "report": "planning/reviews/2026-10-13-remaining-review.md",
           "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
         }
-      ]
+      ],
+      "integration_usage_check": {
+        "checked_on": "2026-10-13",
+        "report": "planning/reviews/2026-10-13-integrated-review.md",
+        "scope": "기존 출처 표식 문단의 축약과 해당 장 주장 메모 대조. 새로운 원문·직접 인용·성과 수치·사실 추가 없음.",
+        "changed_manuscript": "manuscript/chapters/ch04.md",
+        "limit": "이전 외부 확인 범위를 승격하지 않음. 기존 누적 사용 기록은 확인 당시의 이력으로 보존."
+      }
     },
     {
       "id": "S45",

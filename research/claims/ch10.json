@@ -83,5 +83,21 @@
     "status": "수정 검증 완료·저자 편집 확정 미완료",
     "scope": "본문·주장·패턴 연결의 내용 검토. 실제 원문 확인 범위는 sources.json review_checks 참조.",
     "reviewer": "작성 에이전트, 독립 인간/독자 리뷰 아님"
+  },
+  "integrated_review": {
+    "reviewed_on": "2026-10-13",
+    "base_commit": "d017186550571a0162c2fb7f2311ee408e162f13",
+    "before_sha256": "8b9c78a9b01fd1ab7ef9e2e46bbc86fc4db4ffbb99b7b23c5b8fd62496f79bfa",
+    "report": "planning/reviews/2026-10-13-integrated-review.md",
+    "manifest": "planning/reviews/2026-10-13-integrated-review-manifest.json",
+    "scope": "장 간 중복·용어·논증 흐름·연결과 기존 출처 표식 대조",
+    "findings": [
+      "IR01",
+      "IR06",
+      "IR12",
+      "IR13"
+    ],
+    "status": "통합 수정 검증 완료·저자 편집 확정 미완료",
+    "limit": "작성 에이전트 점검. 새 원문 대조·독립 인간·실제 독자·운영 효과·저자 편집 확정 미수행."
   }
 }

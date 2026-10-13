@@ -4,7 +4,7 @@ import {resolve,dirname} from 'node:path';
 import {transformMarkdown} from './publication.mjs';
 const site=fileURLToPath(new URL('..',import.meta.url)),root=resolve(site,'..');
 const read=p=>readFileSync(resolve(root,p),'utf8');
-const release=JSON.parse(read('book-release.json'));
+const publication=JSON.parse(read('book-publication.json'));
 const project=JSON.parse(read('book_project.json')),patterns=JSON.parse(read('pattern_catalog.json')),sources=JSON.parse(read('research/sources.json')).sources;
 const manifestPath=resolve(site,'content-manifest.json'),update=process.argv.includes('--update-anchors');
 const manifest=existsSync(manifestPath)?JSON.parse(readFileSync(manifestPath,'utf8')):{};
@@ -12,7 +12,7 @@ const entries=[{id:'preface',path:'manuscript/front-matter/00-preface.md',route:
 const out=resolve(site,'src/content/docs');mkdirSync(out,{recursive:true});
 // Only this generated directory is replaced; authored pages and manuscript are untouched.
 rmSync(out,{recursive:true,force:true});mkdirSync(out,{recursive:true});
-const cite=new Set(),book={release,title:project.working_title,subtitle:project.working_subtitle,author:project.author,parts:project.parts.map(p=>p.title),chapters:[],patterns:[]};
+const cite=new Set(),book={publication,title:project.working_title,subtitle:project.working_subtitle,author:project.author,parts:project.parts.map(p=>p.title),chapters:[],patterns:[]};
 const front=(data,body)=>'---\n'+Object.entries(data).map(([k,v])=>`${k}: ${JSON.stringify(v)}`).join('\n')+'\n---\n\n'+body+'\n';
 function write(route,data,body){const file=resolve(out,route+'.md');mkdirSync(dirname(file),{recursive:true});writeFileSync(file,front(data,body));}
 for(const entry of entries){
@@ -38,7 +38,7 @@ for(const s of sources.filter(s=>cite.has(s.id))) {
  if(!/^https?:\/\//.test(s.url))throw Error('Invalid public source URL '+s.id);
  bibliography+=`<span id="${s.id}"></span>\n\n### ${s.id} · ${safe(s.title)}\n\n[원문 읽기](${s.url})\n\n${safe(s.author??'작성 주체는 원문 참조')}\n\n발표일: ${safe(s.published_on??'미확인')} / 확인일: ${safe(s.checked_on??'미확인')}\n\n**확인 범위:** ${safe(s.verification_scope??s.verification_status)}\n\n**한계:** ${safe(s.limit)}\n\n`;
 }
-write('releases',{title:'릴리즈 노트',description:'책의 판본과 변경 이력',tableOfContents:false,prev:false,next:false},read('RELEASE_NOTES.md').replace(/^# .+\n/,''));
+write('changelog',{title:'체인지 로그',description:'독자가 알아둘 중요한 변경',tableOfContents:false,prev:false,next:false},read('CHANGELOG.md').replace(/^# .+\n/,''));
 write('sources',{title:'참고문헌',description:'본문의 원문 출처와 확인 범위',tableOfContents:false,prev:false,next:false},bibliography);
 mkdirSync(resolve(site,'src/data'),{recursive:true});writeFileSync(resolve(site,'src/data/book.json'),JSON.stringify(book,null,2)+'\n');
 if(update)writeFileSync(manifestPath,JSON.stringify(manifest,null,2)+'\n');

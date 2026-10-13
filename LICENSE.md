@@ -6,7 +6,7 @@ Copyright © 2026 정도현. 2026-10-14부터 아래 범위에 적용합니다.
 
 『The Software Factory』의 저자가 권리를 가진 서문·본문·패턴 설명·직접 작성한 도표는 **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**로 제공합니다.
 
-대상은 manuscript 디렉터리의 책 콘텐츠와 독자용 RELEASE_NOTES.md, pattern_catalog.json의 저자 작성 패턴 설명, 이를 변환한 웹·전자책·인쇄용 본문과 메타데이터의 동일한 책 콘텐츠입니다. 웹 빌드에서 생성한 Markdown·JSON·HTML로 형식이 바뀌어도 이 콘텐츠에 MIT가 대신 적용되지는 않습니다.
+대상은 manuscript 디렉터리의 책 콘텐츠와 독자용 CHANGELOG.md, pattern_catalog.json의 저자 작성 패턴 설명, 이를 변환한 웹·전자책·인쇄용 본문과 메타데이터의 동일한 책 콘텐츠입니다. 웹 빌드에서 생성한 Markdown·JSON·HTML로 형식이 바뀌어도 이 콘텐츠에 MIT가 대신 적용되지는 않습니다.
 
 저작자와 출처·라이선스를 표시하고 변경 여부를 알리는 조건으로 상업적 이용을 포함한 공유와 개작이 가능합니다. 개작물을 공유할 때에는 CC BY-SA 4.0에서 허용하는 동일조건 또는 호환 라이선스를 적용해야 합니다. 정확한 조건과 보증 부인은 [라이선스 전문](LICENSES/CC-BY-SA-4.0.txt)을 따릅니다. [공식 한국어 안내](https://creativecommons.org/licenses/by-sa/4.0/deed.ko)도 참고할 수 있습니다.
 

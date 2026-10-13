@@ -1,8 +1,6 @@
 {
-  "version": "0.1",
-  "channel": "preview",
-  "label": "0.1 프리뷰",
-  "date": "2026-10-14",
+  "status": "preview",
+  "status_label": "공개 초안",
   "feedback": {
     "url": "https://github.com/roboco-io/the-software-factory/issues",
     "access": "public"

@@ -2,7 +2,7 @@
 
 웹 독서판: [factory.roboco.io](https://factory.roboco.io)
 
-현재 책 판본: **0.1 프리뷰** · [릴리즈 노트](RELEASE_NOTES.md) · [GitHub 피드백](https://github.com/roboco-io/the-software-factory/issues)
+**공개 초안** · [체인지 로그](CHANGELOG.md) · [GitHub 피드백](https://github.com/roboco-io/the-software-factory/issues)
 
 **The Software Factory — 소프트웨어 팩토리와 AI 시대의 조직 설계**
 
@@ -73,3 +73,5 @@ python3 scripts/check_project.py
 ## 라이선스
 
 저자가 권리를 가진 책 본문·패턴·도표는 **CC BY-SA 4.0**, 직접 작성한 웹사이트 코드는 **MIT**입니다. 제3자 자료와 의존 패키지는 원래 조건을 따릅니다. [적용 범위와 전문](LICENSE.md)을 확인하세요.
+
+체인지 로그는 [독자용 작성 정책](skills/book-changelog/references/policy.md)에 따라 중요한 변화만 기록합니다. 작성·검토에는 [book-changelog 스킬](skills/book-changelog/SKILL.md)을 사용합니다.

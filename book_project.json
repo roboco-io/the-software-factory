@@ -436,8 +436,9 @@
     "tool_policy": "수명이 짧은 구현·제품 설정은 본문 중심에서 제외하고 필요한 경우 확인일을 붙인 보조 자료로 관리"
   },
   "publication": {
-    "release_manifest": "book-release.json",
-    "release_notes": "RELEASE_NOTES.md",
-    "note": "독자용 판본. 최상위 version은 집필 기획 버전이며 웹 패키지 버전도 별도다."
+    "metadata": "book-publication.json",
+    "changelog": "CHANGELOG.md",
+    "policy": "skills/book-changelog/references/policy.md",
+    "note": "독자용 버전 번호를 사용하지 않고 중요한 변화만 날짜별로 기록한다. 내부 기획·코드·읽기 상태의 식별자는 별도다."
   }
 }

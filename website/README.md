@@ -60,7 +60,7 @@ planning, research/claims, STATUS 및 원고의 내부 검토 메모는 공개 �
 
 ## 실제 공개 시
 
-대표 주소는 `https://factory.roboco.io`다. book-release.json의 site_url이 기본 canonical·sitemap 주소이며 SITE_URL로 별도 검증 주소를 지정할 수 있다. `.github/workflows/pages.yml`이 main 변경에서 검사·빌드·브라우저 테스트 후 `website/dist`만 GitHub Pages에 배포한다. GitHub Pages의 사용자 지정 도메인 설정은 factory.roboco.io이며 가비아 DNS의 factory CNAME은 roboco-io.github.io를 가리킨다. DNS 전파와 인증서 발급은 배포 성공과 별도로 확인한다.
+대표 주소는 `https://factory.roboco.io`다. book-publication.json의 site_url이 기본 canonical·sitemap 주소이며 SITE_URL로 별도 검증 주소를 지정할 수 있다. `.github/workflows/pages.yml`이 main 변경에서 검사·빌드·브라우저 테스트 후 `website/dist`만 GitHub Pages에 배포한다. GitHub Pages의 사용자 지정 도메인 설정은 factory.roboco.io이며 가비아 DNS의 factory CNAME은 roboco-io.github.io를 가리킨다. DNS 전파와 인증서 발급은 배포 성공과 별도로 확인한다.
 
 의존성은 lockfile로 고정한다. `postcss-selector-parser`는 GHSA-rj75-hqrm-r3gf가 수정된 7.1.6으로 override했다. Starlight 상위 의존성이 수정되면 override 제거를 검토하고 CSS 빌드와 화면을 다시 확인한다.
 
@@ -68,11 +68,13 @@ planning, research/claims, STATUS 및 원고의 내부 검토 메모는 공개 �
 
 직접 작성한 웹사이트 코드는 MIT입니다. 원고에서 생성한 본문·패턴·도표 등 책 콘텐츠는 CC BY-SA 4.0을 유지합니다. [범위 안내](../LICENSE.md), [MIT 전문](../LICENSES/MIT.txt), [CC BY-SA 전문](../LICENSES/CC-BY-SA-4.0.txt)을 따릅니다. 빌드 과정에서 전문을 public/licenses에 복사해 배포본에도 포함합니다.
 
-## 책의 버전과 릴리즈 노트
+## 공개 상태와 체인지 로그
 
-`book-release.json`이 독자에게 표시할 버전·단계·판본 기준일·피드백 URL의 기준이다. 현재 **0.1 프리뷰**다. 홈·페이지 제목 위·바닥글·소개에 같은 표시를 사용한다. 루트의 [릴리즈 노트](../RELEASE_NOTES.md)를 변경한 뒤 빌드하면 `/releases/` 페이지에 반영된다. 책의 판본, 내부 기획 버전, npm 패키지 버전, 장별 읽음 판본은 서로 다른 용도다.
+`book-publication.json`은 공개 상태·피드백 URL·대표 도메인을 보관한다. 독자용 책 버전 번호는 사용하지 않는다. [CHANGELOG.md](../CHANGELOG.md)를 빌드하면 `/changelog/`로 발행한다. 기존 `/releases/`는 새 페이지로 안내한다.
 
-피드백 저장소가 비공개이면 `feedback.access`를 `restricted`로 두고 접근 권한 안내를 표시한다. 공개 창구를 정하면 URL과 접근 상태, 서문·릴리즈 노트·루트 README의 피드백 안내도 함께 갱신한다. 현재 원고 저장소와 이슈는 공개되어 있으며 기존 저장소의 이슈를 피드백 창구로 사용한다.
+작성은 [정책](../skills/book-changelog/references/policy.md)과 [book-changelog 스킬](../skills/book-changelog/SKILL.md)을 따른다. 내부 기획·npm 패키지 버전과 장별 읽음 판본 식별자는 유지하며 공개 로그에 나열하지 않는다. 이번 표기 변경은 독자의 기존 읽음 상태를 초기화하지 않는다.
+
+현재 원고 저장소와 이슈는 공개되어 있다. 피드백 창구를 바꾸면 공개 메타데이터·서문·체인지 로그·README도 함께 확인한다.
 
 ## 로보코 로고
 

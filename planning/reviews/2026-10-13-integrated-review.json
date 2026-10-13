@@ -1,0 +1,442 @@
+{
+  "date": "2026-10-13",
+  "base_commit": "d017186550571a0162c2fb7f2311ee408e162f13",
+  "scope": "서문·20장·15패턴 전체 통합 내용 점검. 관련 주장 메모·출처 대장 확인 범위 대조.",
+  "findings": [
+    {
+      "id": "IR01",
+      "priority": "P2",
+      "status": "검증 완료",
+      "category": "용어",
+      "location": "3·5·8·9·12장과 P03, 1·10·11·12·13·17장",
+      "version": "d017186550571a0162c2fb7f2311ee408e162f13",
+      "problem": "작업 계약/실행 계약, 수행 조합/실행 조합, 총비용/전체 비용, 컨텍스트/맥락이 같은 뜻으로 혼용된다.",
+      "reader_impact": "독자가 별도 산출물·평가 대상을 상정하거나 정의를 다시 찾는다.",
+      "evidence": "원고·장별 주장 메모·패턴 카탈로그·목차의 내부 대조. 새 외부 사실 주장 없음.",
+      "minimum_fix": "실행 계약·실행 조합·전체 비용·맥락으로 통일하고 11장에 조합의 식별 범위를 설명한다. P03 카탈로그의 작업 계약을 실행 계약으로 표기만 바꾼다.",
+      "acceptance": "원고에서 이전 동의어가 없어지고 P03 다섯 연결 및 P08 네 구성 요소의 뜻이 유지된다.",
+      "chapters": [
+        1,
+        3,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        17
+      ],
+      "verification": "수정 문단과 관련 장·패턴을 재독하고 수용 조건을 대조했다. 파일·정의·출처·인용 보존 검사 통과. 검토 버전은 수정본 명세의 SHA-256으로 식별한다.",
+      "files": [
+        "manuscript/chapters/ch01.md",
+        "manuscript/chapters/ch03.md",
+        "manuscript/chapters/ch05.md",
+        "manuscript/chapters/ch08.md",
+        "manuscript/chapters/ch09.md",
+        "manuscript/chapters/ch10.md",
+        "manuscript/chapters/ch11.md",
+        "manuscript/chapters/ch12.md",
+        "manuscript/chapters/ch13.md",
+        "manuscript/chapters/ch17.md",
+        "pattern_catalog.json",
+        "manuscript/patterns/p03.md"
+      ]
+    },
+    {
+      "id": "IR02",
+      "priority": "P2",
+      "status": "검증 완료",
+      "category": "용어",
+      "location": "2장 기준을 바꾸는 권한 / 16장 오너십 구분",
+      "version": "d017186550571a0162c2fb7f2311ee408e162f13",
+      "problem": "의도의 책임자와 의도 소유자의 관계가 설명되지 않아 심리적 오너십과 혼동할 수 있다.",
+      "reader_impact": "목적 변경 권한을 태도의 자기보고로 읽을 위험이 있다.",
+      "evidence": "원고·장별 주장 메모·패턴 카탈로그·목차의 내부 대조. 새 외부 사실 주장 없음.",
+      "minimum_fix": "2장에서 의도 소유자를 목적·약속 변경의 책임자로 설명하고 심리적 오너십과 구분한다.",
+      "acceptance": "2장의 책임 역할과 16장의 심리적 상태가 별도 개념임을 읽을 수 있다.",
+      "chapters": [
+        2,
+        16
+      ],
+      "verification": "수정 문단과 관련 장·패턴을 재독하고 수용 조건을 대조했다. 파일·정의·출처·인용 보존 검사 통과. 검토 버전은 수정본 명세의 SHA-256으로 식별한다.",
+      "files": [
+        "manuscript/chapters/ch02.md",
+        "manuscript/chapters/ch16.md"
+      ]
+    },
+    {
+      "id": "IR03",
+      "priority": "P2",
+      "status": "검증 완료",
+      "category": "용어",
+      "location": "5장 계약의 다섯 연결 / 7장 구현 수용",
+      "version": "d017186550571a0162c2fb7f2311ee408e162f13",
+      "problem": "성공 기준·완료 조건·수용 기준의 적용 범위가 여러 장에 흩어져 있다.",
+      "reader_impact": "구현 수용과 사용자 효과 확인을 같은 완료로 읽기 쉽다.",
+      "evidence": "원고·장별 주장 메모·패턴 카탈로그·목차의 내부 대조. 새 외부 사실 주장 없음.",
+      "minimum_fix": "5장에서 목적 수준의 성공 기준, 작업의 완료 조건, 결과 수용 판단의 관계를 설명한다.",
+      "acceptance": "7·17장의 후속 관찰과 모순 없이 현재 수용 범위와 남은 약속을 구분한다.",
+      "chapters": [
+        5,
+        7,
+        17
+      ],
+      "verification": "수정 문단과 관련 장·패턴을 재독하고 수용 조건을 대조했다. 파일·정의·출처·인용 보존 검사 통과. 검토 버전은 수정본 명세의 SHA-256으로 식별한다.",
+      "files": [
+        "manuscript/chapters/ch05.md",
+        "manuscript/chapters/ch07.md",
+        "manuscript/chapters/ch17.md"
+      ]
+    },
+    {
+      "id": "IR04",
+      "priority": "P2",
+      "status": "검증 완료",
+      "category": "논증",
+      "location": "12장 도입 문단 / 7장 독립성 / P07",
+      "version": "d017186550571a0162c2fb7f2311ee408e162f13",
+      "problem": "독립 검증을 실행자의 해석과 다른 기준으로 설명해 다른 성공 기준을 쓰는 것으로 읽힐 수 있다.",
+      "reader_impact": "평가자가 약속 자체를 바꾸어도 독립 검증으로 오해할 수 있다.",
+      "evidence": "원고·장별 주장 메모·패턴 카탈로그·목차의 내부 대조. 새 외부 사실 주장 없음.",
+      "minimum_fix": "의도 소유자의 기준을 유지하고 별도 자료·평가 경로로 해석을 확인한다고 수정한다.",
+      "acceptance": "12장 문구가 P07의 기준·자료·경로 구분과 일치한다.",
+      "chapters": [
+        7,
+        12
+      ],
+      "verification": "수정 문단과 관련 장·패턴을 재독하고 수용 조건을 대조했다. 파일·정의·출처·인용 보존 검사 통과. 검토 버전은 수정본 명세의 SHA-256으로 식별한다.",
+      "files": [
+        "manuscript/chapters/ch07.md",
+        "manuscript/chapters/ch12.md",
+        "pattern_catalog.json",
+        "manuscript/patterns/p07.md"
+      ]
+    },
+    {
+      "id": "IR05",
+      "priority": "P2",
+      "status": "검증 완료",
+      "category": "중복",
+      "location": "2장 완료에는 결과와 증거 / 공유 기준과 조직 경계",
+      "version": "d017186550571a0162c2fb7f2311ee408e162f13",
+      "problem": "2장에 7장의 판정 설명과 14·15장의 소통·개편 판단이 다시 길게 나온다.",
+      "reader_impact": "의도를 유지하는 장의 고유 결정이 흐려지고 뒤 장의 기여가 중복된다.",
+      "evidence": "원고·장별 주장 메모·패턴 카탈로그·목차의 내부 대조. 새 외부 사실 주장 없음.",
+      "minimum_fix": "2장은 현재 의도 버전·공유 기준·후속 책임에 집중하고 세부 판정·병목·팀 경계는 해당 장으로 연결한다.",
+      "acceptance": "현재 기준을 찾고 유지할 책임이 남고 판정·개편의 상세 설명은 7·14·15장에서 읽을 수 있다.",
+      "chapters": [
+        2,
+        7,
+        14,
+        15
+      ],
+      "verification": "수정 문단과 관련 장·패턴을 재독하고 수용 조건을 대조했다. 파일·정의·출처·인용 보존 검사 통과. 검토 버전은 수정본 명세의 SHA-256으로 식별한다.",
+      "files": [
+        "manuscript/chapters/ch02.md",
+        "manuscript/chapters/ch07.md",
+        "manuscript/chapters/ch14.md",
+        "manuscript/chapters/ch15.md"
+      ]
+    },
+    {
+      "id": "IR06",
+      "priority": "P2",
+      "status": "검증 완료",
+      "category": "중복",
+      "location": "4장 변경안을 다시 확인 / 다음 실행의 판단 / 10·19장",
+      "version": "d017186550571a0162c2fb7f2311ee408e162f13",
+      "problem": "개선 비교·회귀·기록 보존의 운영 설명이 4·10·19장에 겹친다.",
+      "reader_impact": "루프의 원리와 운영 선택의 차이를 찾기 어렵다.",
+      "evidence": "원고·장별 주장 메모·패턴 카탈로그·목차의 내부 대조. 새 외부 사실 주장 없음.",
+      "minimum_fix": "4장은 변경 이유·후속 확인·다음 실행의 연결을 남기고 자료 책임은 10장, 회귀·제한 반영·효과 비교는 19장으로 연결한다.",
+      "acceptance": "4장에 기준 변경과 수행 개선의 구분·긴급 조치의 후속 확인이 남으며 상세 운영을 찾을 수 있다.",
+      "chapters": [
+        4,
+        10,
+        19
+      ],
+      "verification": "수정 문단과 관련 장·패턴을 재독하고 수용 조건을 대조했다. 파일·정의·출처·인용 보존 검사 통과. 검토 버전은 수정본 명세의 SHA-256으로 식별한다.",
+      "files": [
+        "manuscript/chapters/ch04.md",
+        "manuscript/chapters/ch10.md",
+        "manuscript/chapters/ch19.md"
+      ]
+    },
+    {
+      "id": "IR07",
+      "priority": "P2",
+      "status": "검증 완료",
+      "category": "연결",
+      "location": "서문 / 2→3 / 4→7 / 9→7 / 16→17",
+      "version": "d017186550571a0162c2fb7f2311ee408e162f13",
+      "problem": "4장이 이후 7장의 가상 예시를 이미 읽은 것으로 전제하고 일부 연결은 장 역할을 분명히 드러내지 않는다.",
+      "reader_impact": "순서대로 읽는 독자가 예시를 찾으러 되돌아가거나 조회와 변경의 권한을 혼동한다.",
+      "evidence": "원고·장별 주장 메모·패턴 카탈로그·목차의 내부 대조. 새 외부 사실 주장 없음.",
+      "minimum_fix": "4장에서 예시를 직접 소개하고 7장에서 이어받는다. 서문에 다섯 부의 진행·가상 예시 구분을 설명하고 2·9·16장의 연결을 보강한다.",
+      "acceptance": "4장의 이해에 7장의 선독이 필요 없고 조회·변경·초안·발송의 판단이 섞이지 않는다.",
+      "chapters": [
+        2,
+        4,
+        7,
+        9,
+        16,
+        17
+      ],
+      "verification": "수정 문단과 관련 장·패턴을 재독하고 수용 조건을 대조했다. 파일·정의·출처·인용 보존 검사 통과. 검토 버전은 수정본 명세의 SHA-256으로 식별한다.",
+      "files": [
+        "manuscript/front-matter/00-preface.md",
+        "manuscript/chapters/ch02.md",
+        "manuscript/chapters/ch04.md",
+        "manuscript/chapters/ch07.md",
+        "manuscript/chapters/ch09.md",
+        "manuscript/chapters/ch16.md",
+        "manuscript/chapters/ch17.md"
+      ]
+    },
+    {
+      "id": "IR08",
+      "priority": "P2",
+      "status": "검증 완료",
+      "category": "중복",
+      "location": "12장 검증을 권한 밖에서 유지 / 7장 독립성",
+      "version": "d017186550571a0162c2fb7f2311ee408e162f13",
+      "problem": "독립 검증의 일반 설명이 반복되어 12장의 실제 권한 집행 문제가 약해진다.",
+      "reader_impact": "검토자를 바꾸는 것과 검사를 유지할 권한을 나누는 차이가 흐려진다.",
+      "evidence": "원고·장별 주장 메모·패턴 카탈로그·목차의 내부 대조. 새 외부 사실 주장 없음.",
+      "minimum_fix": "12장은 검사·평가 자료 변경, 충분성 판단, 반영 권한의 관계에 집중한다.",
+      "acceptance": "검사 미실행·오래된 증거·잘못된 거부 및 예외 판단이 유지되고 7장의 일반 원리와 역할이 나뉜다.",
+      "chapters": [
+        7,
+        12
+      ],
+      "verification": "수정 문단과 관련 장·패턴을 재독하고 수용 조건을 대조했다. 파일·정의·출처·인용 보존 검사 통과. 검토 버전은 수정본 명세의 SHA-256으로 식별한다.",
+      "files": [
+        "manuscript/chapters/ch07.md",
+        "manuscript/chapters/ch12.md"
+      ]
+    },
+    {
+      "id": "IR09",
+      "priority": "P2",
+      "status": "검증 완료",
+      "category": "중복",
+      "location": "13장 학습 역량과 실행 조합 / 판단 능력 / 11·16장",
+      "version": "d017186550571a0162c2fb7f2311ee408e162f13",
+      "problem": "조합 평가와 오류 분석·참여 조건의 설명이 반복된다.",
+      "reader_impact": "평가 결과를 어떤 투자로 바꿔야 할지보다 일반 원칙을 다시 읽게 된다.",
+      "evidence": "원고·장별 주장 메모·패턴 카탈로그·목차의 내부 대조. 새 외부 사실 주장 없음.",
+      "minimum_fix": "13장은 구매·학습·지원의 배분과 비용에 집중하고 11장의 평가를 입력으로, 16장의 업무 설계를 후속으로 연결한다.",
+      "acceptance": "인간 채용과 조합 평가를 동일시하지 않으며 역량·자료·권한·지원 투자 판단이 남는다.",
+      "chapters": [
+        11,
+        13,
+        16
+      ],
+      "verification": "수정 문단과 관련 장·패턴을 재독하고 수용 조건을 대조했다. 파일·정의·출처·인용 보존 검사 통과. 검토 버전은 수정본 명세의 SHA-256으로 식별한다.",
+      "files": [
+        "manuscript/chapters/ch11.md",
+        "manuscript/chapters/ch13.md",
+        "manuscript/chapters/ch16.md"
+      ]
+    },
+    {
+      "id": "IR10",
+      "priority": "P2",
+      "status": "검증 완료",
+      "category": "중복",
+      "location": "17장 오너십과 실제 대응 / 16장 참여 평가",
+      "version": "d017186550571a0162c2fb7f2311ee408e162f13",
+      "problem": "심리적 오너십·인지적 참여·책임 행동의 측정 정의가 반복된다.",
+      "reader_impact": "업무 설계와 조직 투자 평가의 차이가 불명확하다.",
+      "evidence": "원고·장별 주장 메모·패턴 카탈로그·목차의 내부 대조. 새 외부 사실 주장 없음.",
+      "minimum_fix": "정의는 16장으로 연결하고 17장은 사용자 결과·잘못된 거부·대기·학습과 검토 비용으로 투자 판단을 다룬다.",
+      "acceptance": "자기보고가 실제 책임 행동을 대신하지 않으며 개인 과제와 조직 효과의 구분이 유지된다.",
+      "chapters": [
+        16,
+        17
+      ],
+      "verification": "수정 문단과 관련 장·패턴을 재독하고 수용 조건을 대조했다. 파일·정의·출처·인용 보존 검사 통과. 검토 버전은 수정본 명세의 SHA-256으로 식별한다.",
+      "files": [
+        "manuscript/chapters/ch16.md",
+        "manuscript/chapters/ch17.md"
+      ]
+    },
+    {
+      "id": "IR11",
+      "priority": "P2",
+      "status": "검증 완료",
+      "category": "중복",
+      "location": "18장 검증·확산·일상 운영 / 20장 새 범위",
+      "version": "d017186550571a0162c2fb7f2311ee408e162f13",
+      "problem": "지원과 새 팀 조건 설명이 초기 도입과 범위 확대에서 겹친다.",
+      "reader_impact": "실험 결과를 일상 운영으로 넘길 조건과 새 대상의 검증을 섞을 수 있다.",
+      "evidence": "원고·장별 주장 메모·패턴 카탈로그·목차의 내부 대조. 새 외부 사실 주장 없음.",
+      "minimum_fix": "18장은 초기 지원의 지속 가능성과 비용·담당 책임에 집중하고 새 팀·자료·소비자는 20장으로 연결한다.",
+      "acceptance": "지원이 있을 때만 성립한 성공을 지원 없이 재현했다고 쓰지 않으며 다른 준비·중단 조건도 남는다.",
+      "chapters": [
+        18,
+        20
+      ],
+      "verification": "수정 문단과 관련 장·패턴을 재독하고 수용 조건을 대조했다. 파일·정의·출처·인용 보존 검사 통과. 검토 버전은 수정본 명세의 SHA-256으로 식별한다.",
+      "files": [
+        "manuscript/chapters/ch18.md",
+        "manuscript/chapters/ch20.md"
+      ]
+    },
+    {
+      "id": "IR12",
+      "priority": "P2",
+      "status": "검증 완료",
+      "category": "중복",
+      "location": "서문 자료 범위 / 각 장 원서 연결·출처와 검토",
+      "version": "d017186550571a0162c2fb7f2311ee408e162f13",
+      "problem": "일반적인 효과 미검증·편집 미확정·원서 전문 미대조 문구가 장마다 반복된다.",
+      "reader_impact": "본문 논증이 제작 상태 안내로 자주 끊긴다.",
+      "evidence": "원고·장별 주장 메모·패턴 카탈로그·목차의 내부 대조. 새 외부 사실 주장 없음.",
+      "minimum_fix": "공통 자료 해석은 서문에 모으고 장별 원서 주제·공개 목차 표기·자료 고유 한계는 유지한다. 제작 상태는 STATUS와 검토 기록에 남긴다.",
+      "acceptance": "실제 확인 범위는 넓어지지 않으며 16장의 연구별 제한, 17장의 시점·측정 한계, 각 장의 초고 상태가 남는다.",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "verification": "수정 문단과 관련 장·패턴을 재독하고 수용 조건을 대조했다. 파일·정의·출처·인용 보존 검사 통과. 검토 버전은 수정본 명세의 SHA-256으로 식별한다.",
+      "files": [
+        "manuscript/front-matter/00-preface.md",
+        "manuscript/chapters/ch01.md",
+        "manuscript/chapters/ch02.md",
+        "manuscript/chapters/ch03.md",
+        "manuscript/chapters/ch04.md",
+        "manuscript/chapters/ch05.md",
+        "manuscript/chapters/ch06.md",
+        "manuscript/chapters/ch07.md",
+        "manuscript/chapters/ch08.md",
+        "manuscript/chapters/ch09.md",
+        "manuscript/chapters/ch10.md",
+        "manuscript/chapters/ch11.md",
+        "manuscript/chapters/ch12.md",
+        "manuscript/chapters/ch13.md",
+        "manuscript/chapters/ch14.md",
+        "manuscript/chapters/ch15.md",
+        "manuscript/chapters/ch16.md",
+        "manuscript/chapters/ch17.md",
+        "manuscript/chapters/ch18.md",
+        "manuscript/chapters/ch19.md",
+        "manuscript/chapters/ch20.md"
+      ]
+    },
+    {
+      "id": "IR13",
+      "priority": "P2",
+      "status": "검증 완료",
+      "category": "연결",
+      "location": "1~20장 출처와 검토 목록",
+      "version": "d017186550571a0162c2fb7f2311ee408e162f13",
+      "problem": "데모와 사이트 반영 뒤 일부 장말 목록에 본문에서 사용한 출처가 빠져 있다.",
+      "reader_impact": "요약 목록만 읽는 독자가 확인 근거를 놓칠 수 있다.",
+      "evidence": "원고·장별 주장 메모·패턴 카탈로그·목차의 내부 대조. 새 외부 사실 주장 없음.",
+      "minimum_fix": "본문 표식에서 장말 출처 목록을 맞추되 본문 인용·대장 ID·URL은 보존한다.",
+      "acceptance": "모든 장에서 본문 출처 집합과 장말 출처 집합이 같고 관련 주장 메모 연결이 존재한다.",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "verification": "수정 문단과 관련 장·패턴을 재독하고 수용 조건을 대조했다. 파일·정의·출처·인용 보존 검사 통과. 검토 버전은 수정본 명세의 SHA-256으로 식별한다.",
+      "files": [
+        "manuscript/chapters/ch01.md",
+        "manuscript/chapters/ch02.md",
+        "manuscript/chapters/ch03.md",
+        "manuscript/chapters/ch04.md",
+        "manuscript/chapters/ch05.md",
+        "manuscript/chapters/ch06.md",
+        "manuscript/chapters/ch07.md",
+        "manuscript/chapters/ch08.md",
+        "manuscript/chapters/ch09.md",
+        "manuscript/chapters/ch10.md",
+        "manuscript/chapters/ch11.md",
+        "manuscript/chapters/ch12.md",
+        "manuscript/chapters/ch13.md",
+        "manuscript/chapters/ch14.md",
+        "manuscript/chapters/ch15.md",
+        "manuscript/chapters/ch16.md",
+        "manuscript/chapters/ch17.md",
+        "manuscript/chapters/ch18.md",
+        "manuscript/chapters/ch19.md",
+        "manuscript/chapters/ch20.md"
+      ]
+    },
+    {
+      "id": "IR14",
+      "priority": "P2",
+      "status": "검증 완료",
+      "category": "중복",
+      "location": "P01~P05·P07~P15 문제·상충 요구·적용·실패 경계",
+      "version": "d017186550571a0162c2fb7f2311ee408e162f13",
+      "problem": "고유 문제 뒤에 동일한 일반 설명 네 문장이 14개 카드에서 반복된다.",
+      "reader_impact": "서로 다른 패턴의 문제·실패 조건·판단이 비슷하게 읽힌다.",
+      "evidence": "원고·장별 주장 메모·패턴 카탈로그·목차의 내부 대조. 새 외부 사실 주장 없음.",
+      "minimum_fix": "카드별 정의·고유 적용·비용·경계·검증은 유지하고 중복 일반 문장만 제거한다.",
+      "acceptance": "P03 표기 정리를 제외한 정의·고유 실패 경계·검증·연결 관계가 수정 전과 일치한다.",
+      "chapters": [],
+      "verification": "수정 문단과 관련 장·패턴을 재독하고 수용 조건을 대조했다. 파일·정의·출처·인용 보존 검사 통과. 검토 버전은 수정본 명세의 SHA-256으로 식별한다.",
+      "files": [
+        "manuscript/patterns/p01.md",
+        "manuscript/patterns/p02.md",
+        "manuscript/patterns/p03.md",
+        "manuscript/patterns/p04.md",
+        "manuscript/patterns/p05.md",
+        "manuscript/patterns/p06.md",
+        "manuscript/patterns/p07.md",
+        "manuscript/patterns/p08.md",
+        "manuscript/patterns/p09.md",
+        "manuscript/patterns/p10.md",
+        "manuscript/patterns/p11.md",
+        "manuscript/patterns/p12.md",
+        "manuscript/patterns/p13.md",
+        "manuscript/patterns/p14.md",
+        "manuscript/patterns/p15.md"
+      ]
+    }
+  ],
+  "verification": {
+    "structure": "PASS: 20장·15패턴·75출처, JSON·로컬 링크",
+    "format": "git diff --check 통과",
+    "limits": "통합 내용·용어·연결의 작성 에이전트 점검. 외부 원문 신규 대조·실제 독자·현장 효과·저자 편집 확정 미수행."
+  }
+}

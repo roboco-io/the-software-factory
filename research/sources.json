@@ -2405,7 +2405,8 @@
       "limit": "저자 측 데모 설명과 코드 구조. 전체 운영 효과·독립 재현 아님.",
       "supporting_urls": [
         "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/LICENSE",
-        "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/state/machine.ts"
+        "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/state/machine.ts",
+        "https://roboco.io/the-software-factory-demo/"
       ],
       "usage_review": {
         "checked_on": "2026-10-13",
@@ -2443,6 +2444,15 @@
       "reader_presentation": {
         "checked_on": "2026-10-13",
         "note": "1장에서 확인일·커밋 ID를 적은 독립 문장을 삭제했다. 원문 URL·고정 버전과 관찰 범위는 대장과 구현 사례 지도에 유지한다."
+      },
+      "repository_rename_check": {
+        "checked_on": "2026-10-14",
+        "repository": "https://github.com/roboco-io/the-software-factory-demo",
+        "scope": "PUBLIC 새 저장소와 기존 기준 커밋 25a73b9c342ef380f96ff0d705df9b7ef33dd82c 존재 확인. 코드·원문 내용 재검증 아님."
+      },
+      "deployed_demo_check": {
+        "checked_on": "2026-10-14",
+        "scope": "홈페이지 HTTPS 응답과 문서 제목 확인. 업무 수행·서비스 기능·현재 코드 버전은 시험하지 않음."
       }
     },
     {
@@ -2486,7 +2496,12 @@
           "report": "planning/reviews/2026-10-13-remaining-review.md",
           "status": "새 실행 검증·실시간 전체 상태 확인 아님"
         }
-      ]
+      ],
+      "repository_rename_check": {
+        "checked_on": "2026-10-14",
+        "repository": "https://github.com/roboco-io/the-software-factory-demo",
+        "scope": "PUBLIC 새 저장소와 기존 기준 커밋 25a73b9c342ef380f96ff0d705df9b7ef33dd82c 존재 확인. 코드·원문 내용 재검증 아님."
+      }
     },
     {
       "id": "S61",
@@ -2528,7 +2543,12 @@
           "report": "planning/reviews/2026-10-13-remaining-review.md",
           "status": "새 실행 검증·실시간 전체 상태 확인 아님"
         }
-      ]
+      ],
+      "repository_rename_check": {
+        "checked_on": "2026-10-14",
+        "repository": "https://github.com/roboco-io/the-software-factory-demo",
+        "scope": "PUBLIC 새 저장소와 기존 기준 커밋 25a73b9c342ef380f96ff0d705df9b7ef33dd82c 존재 확인. 코드·원문 내용 재검증 아님."
+      }
     },
     {
       "id": "S62",
@@ -2562,6 +2582,11 @@
         "cited_paragraph_whitespace_units": 44,
         "count_limit": "원고의 출처 표식 문단 전체 공백 집계. 책의 해석·제한도 포함하며 영어 단어 수나 원문 파생량의 자동 판정이 아니다.",
         "manual_review": "원고의 관측 문장과 대장·주장·사례 지도의 짧은 설명을 누적 검토. 반복 요약보다 원문 위치로 연결하고 저자 해석·질문을 구분했다. 직접 인용·원문/코드/로그 복제 없음."
+      },
+      "repository_rename_check": {
+        "checked_on": "2026-10-14",
+        "repository": "https://github.com/roboco-io/the-software-factory-demo",
+        "scope": "PUBLIC 새 저장소와 기존 기준 커밋 25a73b9c342ef380f96ff0d705df9b7ef33dd82c 존재 확인. 코드·원문 내용 재검증 아님."
       }
     },
     {
@@ -2603,7 +2628,12 @@
           "report": "planning/reviews/2026-10-13-remaining-review.md",
           "status": "새 실행 검증·실시간 전체 상태 확인 아님"
         }
-      ]
+      ],
+      "repository_rename_check": {
+        "checked_on": "2026-10-14",
+        "repository": "https://github.com/roboco-io/the-software-factory-demo",
+        "scope": "PUBLIC 새 저장소와 기존 기준 커밋 25a73b9c342ef380f96ff0d705df9b7ef33dd82c 존재 확인. 코드·원문 내용 재검증 아님."
+      }
     },
     {
       "id": "S64",
@@ -2634,6 +2664,11 @@
         "cited_paragraph_whitespace_units": 38,
         "count_limit": "원고의 출처 표식 문단 전체 공백 집계. 책의 해석·제한도 포함하며 영어 단어 수나 원문 파생량의 자동 판정이 아니다.",
         "manual_review": "원고의 관측 문장과 대장·주장·사례 지도의 짧은 설명을 누적 검토. 반복 요약보다 원문 위치로 연결하고 저자 해석·질문을 구분했다. 직접 인용·원문/코드/로그 복제 없음."
+      },
+      "repository_rename_check": {
+        "checked_on": "2026-10-14",
+        "repository": "https://github.com/roboco-io/the-software-factory-demo",
+        "scope": "PUBLIC 새 저장소와 기존 기준 커밋 25a73b9c342ef380f96ff0d705df9b7ef33dd82c 존재 확인. 코드·원문 내용 재검증 아님."
       }
     },
     {
@@ -2675,7 +2710,12 @@
           "report": "planning/reviews/2026-10-13-remaining-review.md",
           "status": "새 실행 검증·실시간 전체 상태 확인 아님"
         }
-      ]
+      ],
+      "repository_rename_check": {
+        "checked_on": "2026-10-14",
+        "repository": "https://github.com/roboco-io/the-software-factory-demo",
+        "scope": "PUBLIC 새 저장소와 기존 기준 커밋 25a73b9c342ef380f96ff0d705df9b7ef33dd82c 존재 확인. 코드·원문 내용 재검증 아님."
+      }
     },
     {
       "id": "S66",
@@ -2708,6 +2748,11 @@
         "cited_paragraph_whitespace_units": 44,
         "count_limit": "원고의 출처 표식 문단 전체 공백 집계. 책의 해석·제한도 포함하며 영어 단어 수나 원문 파생량의 자동 판정이 아니다.",
         "manual_review": "원고의 관측 문장과 대장·주장·사례 지도의 짧은 설명을 누적 검토. 반복 요약보다 원문 위치로 연결하고 저자 해석·질문을 구분했다. 직접 인용·원문/코드/로그 복제 없음."
+      },
+      "repository_rename_check": {
+        "checked_on": "2026-10-14",
+        "repository": "https://github.com/roboco-io/the-software-factory-demo",
+        "scope": "PUBLIC 새 저장소와 기존 기준 커밋 25a73b9c342ef380f96ff0d705df9b7ef33dd82c 존재 확인. 코드·원문 내용 재검증 아님."
       }
     },
     {
@@ -2751,7 +2796,12 @@
           "report": "planning/reviews/2026-10-13-remaining-review.md",
           "status": "새 실행 검증·실시간 전체 상태 확인 아님"
         }
-      ]
+      ],
+      "repository_rename_check": {
+        "checked_on": "2026-10-14",
+        "repository": "https://github.com/roboco-io/the-software-factory-demo",
+        "scope": "PUBLIC 새 저장소와 기존 기준 커밋 25a73b9c342ef380f96ff0d705df9b7ef33dd82c 존재 확인. 코드·원문 내용 재검증 아님."
+      }
     },
     {
       "id": "S68",
@@ -2798,7 +2848,12 @@
           "report": "planning/reviews/2026-10-13-remaining-review.md",
           "status": "새 실행 검증·실시간 전체 상태 확인 아님"
         }
-      ]
+      ],
+      "repository_rename_check": {
+        "checked_on": "2026-10-14",
+        "repository": "https://github.com/roboco-io/the-software-factory-demo",
+        "scope": "PUBLIC 새 저장소와 기존 기준 커밋 25a73b9c342ef380f96ff0d705df9b7ef33dd82c 존재 확인. 코드·원문 내용 재검증 아님."
+      }
     },
     {
       "id": "S69",

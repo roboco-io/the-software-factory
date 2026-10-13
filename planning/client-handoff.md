@@ -1,5 +1,7 @@
 # 클라이언트 인계
 
+현재 독자용 책 버전은 사용하지 않는다(D23). 주요 변화는 [체인지 로그](../CHANGELOG.md)와 [작성 정책](../skills/book-changelog/references/policy.md)을 따른다. 작성에는 [book-changelog 스킬](../skills/book-changelog/SKILL.md)을 사용한다. 데모의 현재 이름은 roboco-io/the-software-factory-demo다(D24).
+
 2026-10-14 공개 발행: 저장소는 PUBLIC, 피드백은 현재 저장소 이슈, 대표 주소는 https://factory.roboco.io 이다(D22). Pages workflow·로고·홈 링크를 구성했다. GitHub Pages 배포와 DNS·HTTPS 검증을 완료했다. 상세 결과는 STATUS.md 마지막 검증과 배포 세션을 따른다.
 
 현재 기획은 0.5다(D18·D19). 모델·에이전트·하네스의 필수 역할과 9장 중심 보강은 [하네스 편집 기록](../research/harness-editorial-note.md)을 따른다. 팩토리를 IDD의 구현체로 설명하던 구도를 제거하고 소프트웨어 생산·운영 체계 자체를 중심에 두었다. [재정렬 기록](sessions/2026-10-13-factory-reframe.md)을 읽고 이 방향으로 이어간다. 선행 IDD는 머리말의 짧은 참고이며 이전 기획·리뷰의 중심 정의를 다시 적용하지 않는다.

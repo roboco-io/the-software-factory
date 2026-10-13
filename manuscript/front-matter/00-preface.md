@@ -28,7 +28,7 @@
 
 ## 구현을 따라 읽는 공통 예제
 
-로보코가 제안하는 소프트웨어 팩토리의 구현체인 [The Software Factory Demo](https://github.com/roboco-io/the-software-factory-demo)가 공개되어 있다.[S59] 이 책은 직관적인 이해를 돕기 위해 이 데모를 책 전체의 공통 예시로 활용한다. 요청이 작업으로 정리되고 에이전트가 수행하며, 검증·반영·실패 처리와 개선으로 이어지는 구조를 관련 장에서 함께 살펴본다.
+로보코가 제안하는 소프트웨어 팩토리의 구현체인 [The Software Factory Demo](https://github.com/roboco-io/the-software-factory-demo)가 공개되어 있다.[S59] 이 책은 직관적인 이해를 돕기 위해 이 데모를 책 전체의 공통 예시로 활용한다. 요청이 작업으로 정리되고 에이전트가 수행하며, 검증·반영·실패 처리와 개선으로 이어지는 구조를 관련 장에서 함께 살펴본다. [배포된 데모](https://roboco.io/the-software-factory-demo/)에서 실제 화면을 살펴볼 수 있다.
 
 독자는 원칙을 읽은 뒤 데모에서 그 판단이 어디에 연결되는지 확인할 수 있다. 문서와 코드에서 확인한 구조, 공개 실행 기록에서 관찰한 결과의 범위를 각 장에 밝히며 자신의 업무에 적용할 조건을 판단하도록 돕는다.
 
@@ -58,7 +58,7 @@
 
 ## 독자의 의견을 기다린다
 
-읽으며 발견한 오탈자, 설명이 부족한 부분, 다른 관점은 [책의 GitHub 이슈](https://github.com/roboco-io/the-software-factory/issues)에 남겨 주시기 바란다. 장·절이나 페이지 주소와 읽은 판본을 함께 알려주면 검토에 도움이 된다.
+읽으며 발견한 오탈자, 설명이 부족한 부분, 다른 관점은 [책의 GitHub 이슈](https://github.com/roboco-io/the-software-factory/issues)에 남겨 주시기 바란다. 장·절이나 페이지 주소와 확인한 날짜를 함께 알려주면 검토에 도움이 된다.
 
 ## 근거
 

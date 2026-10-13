@@ -139,6 +139,11 @@
       "location": "독자의 의견을 기다린다",
       "type": "편집 안내·운영 상태 확인",
       "note": "원고 저장소 이슈 URL을 사용. 2026-10-14 저자 지시로 저장소를 공개한 뒤 PUBLIC·이슈 활성 상태를 확인했다."
+    },
+    {
+      "location": "구현을 따라 읽는 공통 예제",
+      "type": "배포 URL 접근 확인",
+      "note": "새 저장소·고정 커밋과 배포 홈페이지의 HTTPS 응답을 확인하고 링크를 갱신했다. 실제 기능·운영 성과 시험은 하지 않음."
     }
   ],
   "limits": [
@@ -158,5 +163,11 @@
     "label": "0.1 프리뷰",
     "notes": "RELEASE_NOTES.md",
     "scope": "판본과 릴리즈 노트는 서문 밖의 공통 UI/문서에 표시"
+  },
+  "changelog_update": {
+    "date": "2026-10-14",
+    "metadata": "book-publication.json",
+    "changelog": "CHANGELOG.md",
+    "scope": "독자용 버전을 제거하고 날짜별 주요 변경과 확인 날짜를 안내한다."
   }
 }

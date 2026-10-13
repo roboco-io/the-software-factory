@@ -1,7 +1,7 @@
 # 현재 상태
 
 - 책 제목: The Software Factory
-- 독자용 판본: 0.1 프리뷰 ([릴리즈 노트](RELEASE_NOTES.md))
+- 공개 상태: 공개 초안 ([체인지 로그](CHANGELOG.md))
 
 - 기준일: 2026-10-13
 - 기획 버전: 0.5
@@ -390,3 +390,17 @@ S16(GitHub 공식 규칙 문서)과 S17(2025-10-20 Anthropic 실행 경계 설�
 - 요청: 데모 저장소 이름 변경에 맞춰 공개 링크를 `roboco-io/the-software-factory-demo`로 갱신한다. README·서문·10개 장·기획·사례 지도·출처/조사 JSON·웹 소개의 URL 72곳과 저장소 표시 이름을 수정했다. 고정 SHA·인용·날짜·원고 주장·판본·로컬 경로·조사 파일 식별자는 유지했다.
 - 검증: 구조 검사(20장·15패턴·97출처), 웹 테스트 13개, Astro 오류/경고/힌트 0, 45페이지 빌드·링크/앵커 검사, 변경 전후의 기계적 교체 대조, 기존 공개 URL 검색 0건, `git diff --check` 통과. 새 외부 원문·운영 효과·편집 확정은 확인하지 않았다.
 - [세션 기록](planning/sessions/2026-10-14-demo-repository-rename.md). 커밋·푸시·GitHub 저장소 이름 변경·외부 배포는 수행하지 않았다. 통합 작업에서 이름 변경과 게시 결과를 확인한다.
+
+## 2026-10-14 데모 저장소 이름 변경 확인 대기
+
+- 저자가 데모 저장소 이름이 the-software-factory-demo로 바뀌었다고 알렸다. 원고·웹 소개·출처·사례 기록의 갱신 대상을 확인했다.
+- GitHub CLI·연결된 GitHub API·비로그인 HTTP에서 roboco-io/the-software-factory-demo는 404였다. 기존 roboco-io/software-factory-demo는 PUBLIC·HTTP 200으로 확인됐다. 새 경로의 고정 커밋 접근도 확인하지 못했다.
+- 정확한 새 URL을 비동기 질문으로 요청했다. 확인 전에는 원고 링크와 공개 사이트를 변경하지 않았다. 응답 후 현재 사용 참조를 갱신하고 과거 변경 기록은 이력으로 보존한다.
+
+## 2026-10-14 체인지 로그·작성 정책·데모 링크 갱신
+
+- 저자 지시로 독자용 버전 번호를 제거하고 CHANGELOG.md를 날짜 중심의 중요 변경 기록으로 전환했다. /changelog/에 제공하고 /releases/는 새 페이지로 안내한다. book-publication.json은 공개 상태·피드백·도메인만 보관한다.
+- [작성 정책](skills/book-changelog/references/policy.md)과 [book-changelog 스킬](skills/book-changelog/SKILL.md)을 만들고 Codex 개인 스킬 디렉터리에도 설치했다. 작은 수정이라도 의미·권한·책임을 바꾸면 기록하고, 독자 영향이 없는 오탈자·내부 유지보수는 제외한다. 중요 변경이 없으면 기록을 늘리지 않는다.
+- 데모 이름 변경 대기 해소: 새 공개 저장소와 기존 기준 커밋, https://roboco.io/the-software-factory-demo/ 홈페이지를 확인했다. 현재 참조 URL을 갱신하고 실제 화면 링크를 안내했다. 기존 코드 관찰·고정 커밋은 유지했다.
+- [검토·선별 기록](planning/sessions/2026-10-14-changelog-skill.md). 스킬 구조·설치 일치, 타입·웹 46페이지·링크·출처·단위 13개 검사 통과. 읽음 기록 식별자와 기존 앵커는 변경하지 않았다.
+- 버전·URL·스킬 작업 자체는 독자용 공지로 나열하지 않았다. 기존 공개일과 중요한 독자 안내를 보존했다. 커밋·배포 결과는 후속 확인에 기록한다.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "책 체인지 로그"
+  short_description: "독자의 이해·판단·사용에 영향을 주는 중요한 책 변경만 선별해 기록"
+  default_prompt: "$book-changelog를 사용해 이번 변경에서 독자가 알아야 할 중요한 내용만 선별하고 정책에 따라 체인지 로그를 갱신해줘."

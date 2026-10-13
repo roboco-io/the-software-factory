@@ -62,6 +62,12 @@
       "location": "정책을 바꾸는 변경도 분류한다",
       "type": "저자 해석·적용 질문",
       "note": "구현에서 해당 장의 리더 판단과 비용·한계를 도출. 실제 업무에서 평가할 제안이며 일반적 효과 입증 아님."
+    },
+    {
+      "location": "계획을 바꾸는 권한을 구체적으로 위임한다",
+      "source": "S69",
+      "type": "앞선 공개 문서 확인 → 책의 조건부 해석·제안",
+      "note": "기술 선택이 약속의 제약인 경우를 구분하는 책의 재해석"
     }
   ],
   "review": {
@@ -83,5 +89,18 @@
     ],
     "status": "초고 반영·편집 확정 대기",
     "record": "planning/software-factory-demo-integration.md"
+  },
+  "sequential_review": {
+    "reviewed_on": "2026-10-13",
+    "base_commit": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+    "report": "planning/reviews/2026-10-13-remaining-review.md",
+    "manifest": "planning/reviews/2026-10-13-remaining-review-manifest.json",
+    "order": 2,
+    "central_claim": "경계를 바꾸는 판단과 그 안에서 방법을 바꾸는 판단을 나눈다.",
+    "leader_decision": "정책·계획의 변경 권한과 예외 검증을 위임한다.",
+    "findings": [],
+    "status": "수정 검증 완료·저자 편집 확정 미완료",
+    "scope": "본문·주장·패턴 연결의 내용 검토. 실제 원문 확인 범위는 sources.json review_checks 참조.",
+    "reviewer": "작성 에이전트, 독립 인간/독자 리뷰 아님"
   }
 }

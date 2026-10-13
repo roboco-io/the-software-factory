@@ -61,6 +61,18 @@
       "location": "요청을 정리한 결과와 실행 승인을 나눈다",
       "type": "저자 해석·적용 질문",
       "note": "구현에서 해당 장의 리더 판단과 비용·한계를 도출. 실제 업무에서 평가할 제안이며 일반적 효과 입증 아님."
+    },
+    {
+      "location": "완전한 명세를 기다리기보다 준비 상태를 판단한다",
+      "source": "S72",
+      "type": "앞선 공개 문서 확인 → 책의 조건부 해석·제안",
+      "note": "Vibe Up 문서 커밋과 예산 재해석; 실행 계약의 감당 가능성"
+    },
+    {
+      "location": "완전한 명세를 기다리기보다 준비 상태를 판단한다",
+      "source": "S75",
+      "type": "앞선 공개 문서 확인 → 책의 조건부 해석·제안",
+      "note": "원작의 시간 상한·추정 구분; 현재 책의 자원 상한과 분리"
     }
   ],
   "review": {
@@ -81,5 +93,20 @@
     ],
     "status": "초고 반영·편집 확정 대기",
     "record": "planning/software-factory-demo-integration.md"
+  },
+  "sequential_review": {
+    "reviewed_on": "2026-10-13",
+    "base_commit": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+    "report": "planning/reviews/2026-10-13-remaining-review.md",
+    "manifest": "planning/reviews/2026-10-13-remaining-review-manifest.json",
+    "order": 4,
+    "central_claim": "목적을 입력·결과·권한·증거·실패 처리에 연결해 맡길 준비를 판단한다.",
+    "leader_decision": "시작·제한 시작·보류와 자원 상한을 정한다.",
+    "findings": [
+      "C05-01"
+    ],
+    "status": "수정 검증 완료·저자 편집 확정 미완료",
+    "scope": "본문·주장·패턴 연결의 내용 검토. 실제 원문 확인 범위는 sources.json review_checks 참조.",
+    "reviewer": "작성 에이전트, 독립 인간/독자 리뷰 아님"
   }
 }

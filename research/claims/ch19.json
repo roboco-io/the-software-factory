@@ -62,6 +62,12 @@
       "location": "규칙 변경이 실제로 무엇을 더 잡는지 확인한다",
       "type": "저자 해석·적용 질문",
       "note": "구현에서 해당 장의 리더 판단과 비용·한계를 도출. 실제 업무에서 평가할 제안이며 일반적 효과 입증 아님."
+    },
+    {
+      "location": "리더는 효과와 학습의 상태를 분리해 보고한다",
+      "source": "S71",
+      "type": "앞선 공개 문서 확인 → 책의 조건부 해석·제안",
+      "note": "환류 제안을 다음 담당자의 사용·이해와 운영 비교로 연결"
     }
   ],
   "review": {
@@ -90,5 +96,20 @@
     ],
     "status": "초고 반영·편집 확정 대기",
     "record": "planning/software-factory-demo-integration.md"
+  },
+  "sequential_review": {
+    "reviewed_on": "2026-10-13",
+    "base_commit": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+    "report": "planning/reviews/2026-10-13-remaining-review.md",
+    "manifest": "planning/reviews/2026-10-13-remaining-review-manifest.json",
+    "order": 14,
+    "central_claim": "원인을 분류해 기준의 변경을 평가하고 운영 효과와 학습의 상태를 구분한다.",
+    "leader_decision": "변경 대상·권한·회귀·비교 범위·유지/철회를 정한다.",
+    "findings": [
+      "C19-01"
+    ],
+    "status": "수정 검증 완료·저자 편집 확정 미완료",
+    "scope": "본문·주장·패턴 연결의 내용 검토. 실제 원문 확인 범위는 sources.json review_checks 참조.",
+    "reviewer": "작성 에이전트, 독립 인간/독자 리뷰 아님"
   }
 }

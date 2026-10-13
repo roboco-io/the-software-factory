@@ -77,5 +77,20 @@
     ],
     "status": "초고 반영·편집 확정 대기",
     "record": "planning/software-factory-demo-integration.md"
+  },
+  "sequential_review": {
+    "reviewed_on": "2026-10-13",
+    "base_commit": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+    "report": "planning/reviews/2026-10-13-remaining-review.md",
+    "manifest": "planning/reviews/2026-10-13-remaining-review-manifest.json",
+    "order": 8,
+    "central_claim": "실제 업무에서 모델·하네스·환경의 조합을 필수 경계와 품질·비용으로 평가한다.",
+    "leader_decision": "적격 기준·비교 조건·재평가와 교체를 결정한다.",
+    "findings": [
+      "C11-01"
+    ],
+    "status": "수정 검증 완료·저자 편집 확정 미완료",
+    "scope": "본문·주장·패턴 연결의 내용 검토. 실제 원문 확인 범위는 sources.json review_checks 참조.",
+    "reviewer": "작성 에이전트, 독립 인간/독자 리뷰 아님"
   }
 }

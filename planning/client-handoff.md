@@ -1,5 +1,7 @@
 # 클라이언트 인계
 
+2026-10-13 최신 작업: 사이트 반영과 미검토 15장의 순차 내용 리뷰·수정을 수행했다. [현재 결과](reviews/2026-10-13-remaining-review.md)와 [반영 지도](roboco-sites-adoption.md)를 먼저 확인한다. 아래 초기 인계의 다음 작업은 과거 이력이며, 현재 다음 작업은 저자·독립 사실·실제 독자 검토와 통합 편집이다. 변경은 2026-10-13 저자의 커밋 지시에 따라 버전 관리에 저장한다. 원격 반영 여부는 STATUS.md의 후속 기록을 확인한다.
+
 현재 책 제목은 **The Software Factory**다. 2026-10-13 저자 지시로 변경했으며 GitHub 저장소는 `roboco-io/the-software-factory`다. 프로젝트 내부 ID와 현재 로컬 디렉터리는 `idd-book`이다. 구현 예제의 조사·장별 반영은 [반영 계획](software-factory-demo-integration.md)과 [사례 지도](../research/cases/software-factory-demo.md)를 읽는다. 이전 리뷰 수정 뒤 추가한 예제는 별도 검토 기록으로 관리한다.
 
 ## 실제 작업 위치

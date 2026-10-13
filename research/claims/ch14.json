@@ -57,5 +57,20 @@
       ],
       "scope": "기존 공개 목차의 주제 연결. 새 본문 대조나 세부 주장 평가는 아님."
     }
+  },
+  "sequential_review": {
+    "reviewed_on": "2026-10-13",
+    "base_commit": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+    "report": "planning/reviews/2026-10-13-remaining-review.md",
+    "manifest": "planning/reviews/2026-10-13-remaining-review-manifest.json",
+    "order": 11,
+    "central_claim": "대화량 대신 실제 전달 경로의 판단 대기·인계·맥락 손실을 분석한다.",
+    "leader_decision": "줄일 반복과 유지할 협의를 선택하고 비용 이동을 확인한다.",
+    "findings": [
+      "C14-01"
+    ],
+    "status": "수정 검증 완료·저자 편집 확정 미완료",
+    "scope": "본문·주장·패턴 연결의 내용 검토. 실제 원문 확인 범위는 sources.json review_checks 참조.",
+    "reviewer": "작성 에이전트, 독립 인간/독자 리뷰 아님"
   }
 }

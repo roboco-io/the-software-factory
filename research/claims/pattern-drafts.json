@@ -175,5 +175,17 @@
     "type": "저자 제안의 비용·적용 조건 설명 보강",
     "verification": "planning/reviews/2026-10-13-review-fixes.md",
     "limit": "카탈로그 정의·연결·검증 기준과 효과 미검증 상태 유지"
+  },
+  "remaining_cost_revision": {
+    "date": "2026-10-13",
+    "finding": "CP-01",
+    "patterns": [
+      "P02",
+      "P04",
+      "P05",
+      "P09"
+    ],
+    "report": "planning/reviews/2026-10-13-remaining-review.md",
+    "scope": "비용 설명과 공통 종료 문장 정리. 정의·관계·고유 실패/검증 조건 보존."
   }
 }

@@ -72,6 +72,18 @@
       "location": "지표 이름보다 계산 대상을 읽는다",
       "type": "저자 해석·적용 질문",
       "note": "구현에서 해당 장의 리더 판단과 비용·한계를 도출. 실제 업무에서 평가할 제안이며 일반적 효과 입증 아님."
+    },
+    {
+      "location": "대조할 조건과 불확실성을 남긴다",
+      "source": "S73",
+      "type": "앞선 공개 문서 확인 → 책의 조건부 해석·제안",
+      "note": "요약 가이드의 9월 작성과 원 연구 시점 분리"
+    },
+    {
+      "location": "대조할 조건과 불확실성을 남긴다",
+      "source": "S74",
+      "type": "앞선 공개 문서 확인 → 책의 조건부 해석·제안",
+      "note": "원문의 2025-08-06 목적·결정·자료 한계만 적용; 수치 차용 없음"
     }
   ],
   "review": {
@@ -125,5 +137,12 @@
     ],
     "status": "초고 반영·편집 확정 대기",
     "record": "planning/software-factory-demo-integration.md"
+  },
+  "site_addition_review": {
+    "reviewed_on": "2026-10-13",
+    "report": "planning/reviews/2026-10-13-remaining-review.md",
+    "manifest": "planning/reviews/2026-10-13-remaining-review-manifest.json",
+    "scope": "사이트 자료 추가 문단과 기존 논증 연결만 재검토",
+    "status": "추가 문단 검토·전체 재리뷰/편집 확정 미수행"
   }
 }

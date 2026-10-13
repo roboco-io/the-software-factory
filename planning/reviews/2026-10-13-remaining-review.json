@@ -1,0 +1,561 @@
+{
+  "reviewed_on": "2026-10-13",
+  "base_commit": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+  "review_mode": "저자 요청에 따른 작성 에이전트 내용 리뷰·수정 검증",
+  "review_order": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18,
+    19,
+    20
+  ],
+  "chapters": [
+    {
+      "chapter": 2,
+      "file": "manuscript/chapters/ch02.md",
+      "central_claim": "의도를 현재 실행·수용·변경에서 찾을 수 있는 기준으로 유지한다.",
+      "leader_decision": "의도의 책임자와 변경 권한, 실행 계약과 판단 이력을 정한다.",
+      "findings": [
+        "C02-01"
+      ],
+      "status": "내용 리뷰·수정 검증 완료; 사실 대조 범위 제한·편집 확정 미완료",
+      "scope": "본문 전체·주장 메모·카탈로그 연결, 원문 대조 범위는 출처 검토표 참조",
+      "limit": "독립 인간/독자 리뷰·실행/조직 효과·편집 확정 미완료",
+      "part": 1
+    },
+    {
+      "chapter": 3,
+      "file": "manuscript/chapters/ch03.md",
+      "central_claim": "경계를 바꾸는 판단과 그 안에서 방법을 바꾸는 판단을 나눈다.",
+      "leader_decision": "정책·계획의 변경 권한과 예외 검증을 위임한다.",
+      "findings": [],
+      "status": "내용 리뷰·수정 검증 완료; 사실 대조 범위 제한·편집 확정 미완료",
+      "scope": "본문 전체·주장 메모·카탈로그 연결, 원문 대조 범위는 출처 검토표 참조",
+      "limit": "기존 내용의 필수 수정 의견 없음; 승인한 Intent 자료의 경계 해석 추가.",
+      "part": 1
+    },
+    {
+      "chapter": 4,
+      "file": "manuscript/chapters/ch04.md",
+      "central_claim": "실행·관찰의 증거가 다음 기준 변경과 그 효과 확인으로 이어져야 한다.",
+      "leader_decision": "변경 대상·책임·관찰·중단 조건을 선택한다.",
+      "findings": [
+        "C04-01"
+      ],
+      "status": "내용 리뷰·수정 검증 완료; 사실 대조 범위 제한·편집 확정 미완료",
+      "scope": "본문 전체·주장 메모·카탈로그 연결, 원문 대조 범위는 출처 검토표 참조",
+      "limit": "독립 인간/독자 리뷰·실행/조직 효과·편집 확정 미완료",
+      "part": 1
+    },
+    {
+      "chapter": 5,
+      "file": "manuscript/chapters/ch05.md",
+      "central_claim": "목적을 입력·결과·권한·증거·실패 처리에 연결해 맡길 준비를 판단한다.",
+      "leader_decision": "시작·제한 시작·보류와 자원 상한을 정한다.",
+      "findings": [
+        "C05-01"
+      ],
+      "status": "내용 리뷰·수정 검증 완료; 사실 대조 범위 제한·편집 확정 미완료",
+      "scope": "본문 전체·주장 메모·카탈로그 연결, 원문 대조 범위는 출처 검토표 참조",
+      "limit": "독립 인간/독자 리뷰·실행/조직 효과·편집 확정 미완료",
+      "part": 2
+    },
+    {
+      "chapter": 6,
+      "file": "manuscript/chapters/ch06.md",
+      "central_claim": "부분 결과를 독립 검증하되 통합과 판정 용량의 제약을 유지한다.",
+      "leader_decision": "작업 크기·의존·동시 실행·통합 책임을 정한다.",
+      "findings": [
+        "C06-01"
+      ],
+      "status": "내용 리뷰·수정 검증 완료; 사실 대조 범위 제한·편집 확정 미완료",
+      "scope": "본문 전체·주장 메모·카탈로그 연결, 원문 대조 범위는 출처 검토표 참조",
+      "limit": "독립 인간/독자 리뷰·실행/조직 효과·편집 확정 미완료",
+      "part": 2
+    },
+    {
+      "chapter": 8,
+      "file": "manuscript/chapters/ch08.md",
+      "central_claim": "실패 상태에 따라 중단·재시도·복구·기준 판단을 구분한다.",
+      "leader_decision": "허용 반복과 상태 확인·이관·재개 조건을 정한다.",
+      "findings": [
+        "C08-01"
+      ],
+      "status": "내용 리뷰·수정 검증 완료; 사실 대조 범위 제한·편집 확정 미완료",
+      "scope": "본문 전체·주장 메모·카탈로그 연결, 원문 대조 범위는 출처 검토표 참조",
+      "limit": "독립 인간/독자 리뷰·실행/조직 효과·편집 확정 미완료",
+      "part": 2
+    },
+    {
+      "chapter": 10,
+      "file": "manuscript/chapters/ch10.md",
+      "central_claim": "역할별 질문에 맞는 유효한 자료를 공급하고 갱신·보존·검증을 연결한다.",
+      "leader_decision": "자료의 용도·권한·유효성·진단과 유지 책임을 정한다.",
+      "findings": [
+        "C10-01"
+      ],
+      "status": "내용 리뷰·수정 검증 완료; 사실 대조 범위 제한·편집 확정 미완료",
+      "scope": "본문 전체·주장 메모·카탈로그 연결, 원문 대조 범위는 출처 검토표 참조",
+      "limit": "독립 인간/독자 리뷰·실행/조직 효과·편집 확정 미완료",
+      "part": 3
+    },
+    {
+      "chapter": 11,
+      "file": "manuscript/chapters/ch11.md",
+      "central_claim": "실제 업무에서 모델·하네스·환경의 조합을 필수 경계와 품질·비용으로 평가한다.",
+      "leader_decision": "적격 기준·비교 조건·재평가와 교체를 결정한다.",
+      "findings": [
+        "C11-01"
+      ],
+      "status": "내용 리뷰·수정 검증 완료; 사실 대조 범위 제한·편집 확정 미완료",
+      "scope": "본문 전체·주장 메모·카탈로그 연결, 원문 대조 범위는 출처 검토표 참조",
+      "limit": "독립 인간/독자 리뷰·실행/조직 효과·편집 확정 미완료",
+      "part": 3
+    },
+    {
+      "chapter": 12,
+      "file": "manuscript/chapters/ch12.md",
+      "central_claim": "수행 적격 증거와 실제 행동의 허용을 분리하고 최신 조건으로 권한을 유지한다.",
+      "leader_decision": "행동·대상·주체·기간·정지·예외의 권한을 정한다.",
+      "findings": [
+        "C12-01"
+      ],
+      "status": "내용 리뷰·수정 검증 완료; 사실 대조 범위 제한·편집 확정 미완료",
+      "scope": "본문 전체·주장 메모·카탈로그 연결, 원문 대조 범위는 출처 검토표 참조",
+      "limit": "독립 인간/독자 리뷰·실행/조직 효과·편집 확정 미완료",
+      "part": 3
+    },
+    {
+      "chapter": 13,
+      "file": "manuscript/chapters/ch13.md",
+      "central_claim": "인간 판단·실행 조합·공유 기반의 투자를 맡을 결과와 책임에 연결한다.",
+      "leader_decision": "역할별 이해 수준과 채용·학습·운영 지원을 배분한다.",
+      "findings": [
+        "C13-01"
+      ],
+      "status": "내용 리뷰·수정 검증 완료; 사실 대조 범위 제한·편집 확정 미완료",
+      "scope": "본문 전체·주장 메모·카탈로그 연결, 원문 대조 범위는 출처 검토표 참조",
+      "limit": "독립 인간/독자 리뷰·실행/조직 효과·편집 확정 미완료",
+      "part": 4
+    },
+    {
+      "chapter": 14,
+      "file": "manuscript/chapters/ch14.md",
+      "central_claim": "대화량 대신 실제 전달 경로의 판단 대기·인계·맥락 손실을 분석한다.",
+      "leader_decision": "줄일 반복과 유지할 협의를 선택하고 비용 이동을 확인한다.",
+      "findings": [
+        "C14-01"
+      ],
+      "status": "내용 리뷰·수정 검증 완료; 사실 대조 범위 제한·편집 확정 미완료",
+      "scope": "본문 전체·주장 메모·카탈로그 연결, 원문 대조 범위는 출처 검토표 참조",
+      "limit": "독립 인간/독자 리뷰·실행/조직 효과·편집 확정 미완료",
+      "part": 4
+    },
+    {
+      "chapter": 15,
+      "file": "manuscript/chapters/ch15.md",
+      "central_claim": "실제 흐름과 판단의 병목을 확인한 뒤 운영·권한·팀 경계를 조정한다.",
+      "leader_decision": "개편 필요와 전환·인계 수용·복구 책임을 정한다.",
+      "findings": [
+        "C15-01"
+      ],
+      "status": "내용 리뷰·수정 검증 완료; 사실 대조 범위 제한·편집 확정 미완료",
+      "scope": "본문 전체·주장 메모·카탈로그 연결, 원문 대조 범위는 출처 검토표 참조",
+      "limit": "독립 인간/독자 리뷰·실행/조직 효과·편집 확정 미완료",
+      "part": 4
+    },
+    {
+      "chapter": 18,
+      "file": "manuscript/chapters/ch18.md",
+      "central_claim": "제한된 도입에서 준비·실행·사용자 결과의 증거를 나누어 확보한다.",
+      "leader_decision": "대상·기준선·종료 조건·지속/중단/확대를 판단한다.",
+      "findings": [
+        "C18-01"
+      ],
+      "status": "내용 리뷰·수정 검증 완료; 사실 대조 범위 제한·편집 확정 미완료",
+      "scope": "본문 전체·주장 메모·카탈로그 연결, 원문 대조 범위는 출처 검토표 참조",
+      "limit": "독립 인간/독자 리뷰·실행/조직 효과·편집 확정 미완료",
+      "part": 5
+    },
+    {
+      "chapter": 19,
+      "file": "manuscript/chapters/ch19.md",
+      "central_claim": "원인을 분류해 기준의 변경을 평가하고 운영 효과와 학습의 상태를 구분한다.",
+      "leader_decision": "변경 대상·권한·회귀·비교 범위·유지/철회를 정한다.",
+      "findings": [
+        "C19-01"
+      ],
+      "status": "내용 리뷰·수정 검증 완료; 사실 대조 범위 제한·편집 확정 미완료",
+      "scope": "본문 전체·주장 메모·카탈로그 연결, 원문 대조 범위는 출처 검토표 참조",
+      "limit": "독립 인간/독자 리뷰·실행/조직 효과·편집 확정 미완료",
+      "part": 5
+    },
+    {
+      "chapter": 20,
+      "file": "manuscript/chapters/ch20.md",
+      "central_claim": "새 기능·자료·규모·권한의 확대에는 새 조건에 맞는 증거가 필요하다.",
+      "leader_decision": "확대·유지·축소·종료와 전환·후속 책임을 정한다.",
+      "findings": [
+        "C20-01"
+      ],
+      "status": "내용 리뷰·수정 검증 완료; 사실 대조 범위 제한·편집 확정 미완료",
+      "scope": "본문 전체·주장 메모·카탈로그 연결, 원문 대조 범위는 출처 검토표 참조",
+      "limit": "독립 인간/독자 리뷰·실행/조직 효과·편집 확정 미완료",
+      "part": 5
+    }
+  ],
+  "findings": [
+    {
+      "id": "C02-01",
+      "chapter": 2,
+      "priority": "P2",
+      "location": "완료에는 결과와 증거가 필요하다 / 기준이 관료제가 되지 않게 한다 / 실제 업무 하나에서 기준을 시험한다",
+      "issue": "P03이 다루는 작업 계약을 의도 계약과 실행 계약으로 혼용해 별도 계약 개념처럼 읽힌다.",
+      "impact": "리더가 어떤 문서와 수용 구조를 관리해야 하는지 혼동할 수 있다.",
+      "fix": "2장의 동일 대상을 실행 계약으로 통일.",
+      "acceptance": "P03 정의·5장 용어와 일치하고 의도 자체와 작업별 계약을 구분.",
+      "status": "검증 완료",
+      "verified_on": "2026-10-13",
+      "verification": "수정 문단을 다시 읽고 수용 조건과 관련 장·패턴·근거 범위를 대조했다. 실제 효과·독립 인간 검증이 아님.",
+      "before_version": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+      "before_file_sha256": {
+        "manuscript/chapters/ch02.md": "dd11dd90573d5f593ae2b5cdaebd12d19a741b9c8affe7a147f90ec93c495ca2"
+      },
+      "verified_files": [
+        "manuscript/chapters/ch02.md",
+        "research/claims/ch02.json"
+      ]
+    },
+    {
+      "id": "C04-01",
+      "chapter": 4,
+      "priority": "P2",
+      "location": "관찰의 비용과 결정 주기를 정한다",
+      "issue": "증거 부족 때 현행 기준 유지와 실행 계속을 구분하지 않아 중단 판단이 흐려진다.",
+      "impact": "부족한 증거를 계속 실행의 근거로 오해할 수 있다.",
+      "fix": "위험 책임자의 계속 관찰·조사·중단 선택과 기준/실행 구분을 명시.",
+      "acceptance": "증거 부족을 성공이나 무조건 계속으로 처리하지 않고 8·12장의 중단 경로와 일치.",
+      "status": "검증 완료",
+      "verified_on": "2026-10-13",
+      "verification": "수정 문단을 다시 읽고 수용 조건과 관련 장·패턴·근거 범위를 대조했다. 실제 효과·독립 인간 검증이 아님.",
+      "before_version": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+      "before_file_sha256": {
+        "manuscript/chapters/ch04.md": "51ff25f2c4dfcf786b40f0547e1716e3267b64b5d96a2621ad2c15e2c271416e"
+      },
+      "verified_files": [
+        "manuscript/chapters/ch04.md",
+        "research/claims/ch04.json"
+      ]
+    },
+    {
+      "id": "C05-01",
+      "chapter": 5,
+      "priority": "P2",
+      "location": "계약의 다섯 연결을 확인한다 / 완전한 명세를 기다리기보다 준비 상태를 판단한다",
+      "issue": "권한·실패 처리 항목은 있으나 검증과 사람 판단의 자원 상한이 다음 결정에 어떻게 연결되는지 드러나지 않는다.",
+      "impact": "실행 가능한 요청을 감당 가능한 요청으로 오해할 수 있다.",
+      "fix": "검증·사람 판단·의존 유지·실행 예산과 초과 판단 책임을 추가.",
+      "acceptance": "상한 초과 시 자원 승인·범위 축소·중단을 고를 수 있고 품질 경계를 임의 완화하지 않음.",
+      "status": "검증 완료",
+      "verified_on": "2026-10-13",
+      "verification": "수정 문단을 다시 읽고 수용 조건과 관련 장·패턴·근거 범위를 대조했다. 실제 효과·독립 인간 검증이 아님.",
+      "before_version": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+      "before_file_sha256": {
+        "manuscript/chapters/ch05.md": "6d8c7def4c8d2b87fe216df9eefe6e4464be1e565a58130793b59f5e55127c77"
+      },
+      "verified_files": [
+        "manuscript/chapters/ch05.md",
+        "research/claims/ch05.json"
+      ]
+    },
+    {
+      "id": "C06-01",
+      "chapter": 6,
+      "priority": "P2",
+      "location": "진행 중인 작업에는 판정 대기도 포함한다",
+      "issue": "상한 조정의 원리는 있으나 상한에 닿았을 때 새 요청과 기존 산출물을 처리할 선택이 압축되어 있다.",
+      "impact": "실행 수 제한을 구현해도 판정 대기와 보류 작업의 기록 책임이 남을 수 있다.",
+      "fix": "새 착수 보류·판정/통합 우선·우선순위 변경·상태 보존 책임의 연결을 보강.",
+      "acceptance": "제한과 접수 보존을 구분하며 대기·취소 인계·검증 용량으로 상한을 재평가.",
+      "status": "검증 완료",
+      "verified_on": "2026-10-13",
+      "verification": "수정 문단을 다시 읽고 수용 조건과 관련 장·패턴·근거 범위를 대조했다. 실제 효과·독립 인간 검증이 아님.",
+      "before_version": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+      "before_file_sha256": {
+        "manuscript/chapters/ch06.md": "be1c64a85b41acb4a2f4976efb05749cd86262756af0c546e1267e14cfdbb2c6"
+      },
+      "verified_files": [
+        "manuscript/chapters/ch06.md",
+        "research/claims/ch06.json"
+      ]
+    },
+    {
+      "id": "C08-01",
+      "chapter": 8,
+      "priority": "P3",
+      "location": "재시도에는 비용과 종료 조건을 붙인다",
+      "issue": "수렴하지 않는 요청의 재검토 경로를 Vibe Up의 앞선 제안과 연결하면 반복 판단을 더 구체화할 수 있다.",
+      "impact": "일시적 오류와 목적·경계 충돌을 같은 재시도로 다루지 않게 돕는다.",
+      "fix": "원문의 운영 제안을 조건부로 차용하고 반환할 근거·판단자·재시작 조건을 추가.",
+      "acceptance": "횟수·달력 주기를 보편 기준으로 채택하지 않고 9장의 조정 구조와 일치.",
+      "status": "검증 완료",
+      "verified_on": "2026-10-13",
+      "verification": "수정 문단을 다시 읽고 수용 조건과 관련 장·패턴·근거 범위를 대조했다. 실제 효과·독립 인간 검증이 아님.",
+      "before_version": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+      "before_file_sha256": {
+        "manuscript/chapters/ch08.md": "0e04d4f6891538b79f21b869827b7405e48b8d67a65f6fcdf62441e29832eacf"
+      },
+      "verified_files": [
+        "manuscript/chapters/ch08.md",
+        "research/claims/ch08.json"
+      ]
+    },
+    {
+      "id": "C10-01",
+      "chapter": 10,
+      "priority": "P2",
+      "location": "지식의 실패를 실행 능력의 실패와 구분한다 / 유지 비용과 적용 조건을 함께 본다",
+      "issue": "공급 경로 시험의 질문은 있으나 기록만으로 인계해 보는 진단과 실패 원인의 구분이 압축되어 있다.",
+      "impact": "자료량·재생성 성공을 맥락 품질 전체로 오해할 수 있다.",
+      "fix": "VDLC의 자산 제안을 제한된 인계 진단으로 재해석하고 자료/환경/능력/평가 원인을 구분.",
+      "acceptance": "단일 실패로 문서 누락을 확정하거나 단일 성공으로 충분성을 일반화하지 않음.",
+      "status": "검증 완료",
+      "verified_on": "2026-10-13",
+      "verification": "수정 문단을 다시 읽고 수용 조건과 관련 장·패턴·근거 범위를 대조했다. 실제 효과·독립 인간 검증이 아님.",
+      "before_version": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+      "before_file_sha256": {
+        "manuscript/chapters/ch10.md": "9a1bf407ac1363a1d78bded7af49200c159a1276660011b476e35a1d028b8f70"
+      },
+      "verified_files": [
+        "manuscript/chapters/ch10.md",
+        "research/claims/ch10.json"
+      ]
+    },
+    {
+      "id": "C11-01",
+      "chapter": 11,
+      "priority": "P1",
+      "location": "대표 과제와 적격 기준을 먼저 정한다 / 마지막 문단",
+      "issue": "필수 금지 조건 위반을 평균 점수로 상쇄할 수 있는지 판단하라는 문장이 필수 경계의 의미와 충돌한다.",
+      "impact": "좋은 활동 점수로 권한·정책 위반을 적격 처리할 수 있다.",
+      "fix": "상쇄 금지와 별도 권한자의 경계 변경·재평가를 명시.",
+      "acceptance": "필수 위반을 종합점수로 적격 처리하지 않고 경계 변경 절차를 분리.",
+      "status": "검증 완료",
+      "verified_on": "2026-10-13",
+      "verification": "수정 문단을 다시 읽고 수용 조건과 관련 장·패턴·근거 범위를 대조했다. 실제 효과·독립 인간 검증이 아님.",
+      "before_version": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+      "before_file_sha256": {
+        "manuscript/chapters/ch11.md": "68311355238f2483dcbffe8ff869e9a70a06df751ee7ab10b6343838efa40708"
+      },
+      "verified_files": [
+        "manuscript/chapters/ch11.md",
+        "research/claims/ch11.json"
+      ]
+    },
+    {
+      "id": "C12-01",
+      "chapter": 12,
+      "priority": "P2",
+      "location": "제한된 반영에서 운영 증거를 얻는다",
+      "issue": "중단·예외 종료는 있지만 수행 주체·환경·책임자가 바뀌는 정상 위임의 갱신 조건이 명확하지 않다.",
+      "impact": "과거 적격 증거가 새 주체의 권한으로 자동 승계될 수 있다.",
+      "fix": "위임의 대상·주체·기간·재평가·종료 상태를 추가.",
+      "acceptance": "능력 평가와 실제 권한을 나누고 11장의 재평가·8장의 중단 기준과 일치.",
+      "status": "검증 완료",
+      "verified_on": "2026-10-13",
+      "verification": "수정 문단을 다시 읽고 수용 조건과 관련 장·패턴·근거 범위를 대조했다. 실제 효과·독립 인간 검증이 아님.",
+      "before_version": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+      "before_file_sha256": {
+        "manuscript/chapters/ch12.md": "b14b48d65d96b6b05344bfed010ae8d7e718faaae81f2bab541e3224d0d08110"
+      },
+      "verified_files": [
+        "manuscript/chapters/ch12.md",
+        "research/claims/ch12.json"
+      ]
+    },
+    {
+      "id": "C13-01",
+      "chapter": 13,
+      "priority": "P2",
+      "location": "판단 능력을 사용할 기회를 남긴다",
+      "issue": "필요한 이해 수준을 맡은 판단과 연결하는 기준이 일반적 훈련 설명에 머문다.",
+      "impact": "모든 구현의 완전 이해 요구나 권한 없는 책임 부담으로 학습 투자를 정할 수 있다.",
+      "fix": "VAF의 원래 조직 도입 제안을 소개하고 역할/위험에 따른 이해 범위·지원·책임 조정 기준을 보강.",
+      "acceptance": "어떤 판단을 설명할 수 있어야 하는지 관찰 가능하며 일괄 이해 의무로 일반화하지 않음.",
+      "status": "검증 완료",
+      "verified_on": "2026-10-13",
+      "verification": "수정 문단을 다시 읽고 수용 조건과 관련 장·패턴·근거 범위를 대조했다. 실제 효과·독립 인간 검증이 아님.",
+      "before_version": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+      "before_file_sha256": {
+        "manuscript/chapters/ch13.md": "d334a749683b44b7effd43e7dc0c78d097ad11f28569cbf0191f2e199c62c170"
+      },
+      "verified_files": [
+        "manuscript/chapters/ch13.md",
+        "research/claims/ch13.json"
+      ]
+    },
+    {
+      "id": "C14-01",
+      "chapter": 14,
+      "priority": "P2",
+      "location": "작업의 이동과 판단의 대기를 따로 기록한다",
+      "issue": "동시에 진행된 대기와 사람의 투입 시간을 고객 전달 시간과 구분하는 지침이 없다.",
+      "impact": "병렬 대기를 합산해 병목을 잘못 선택하거나 비용 이동을 놓칠 수 있다.",
+      "fix": "실제 전달 경로의 차단 판단과 경과/투입 시간, 다른 역할의 부담을 구분.",
+      "acceptance": "평행 대기를 단순 합산하지 않고 같은 작업의 전체 흐름과 투입 비용을 비교.",
+      "status": "검증 완료",
+      "verified_on": "2026-10-13",
+      "verification": "수정 문단을 다시 읽고 수용 조건과 관련 장·패턴·근거 범위를 대조했다. 실제 효과·독립 인간 검증이 아님.",
+      "before_version": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+      "before_file_sha256": {
+        "manuscript/chapters/ch14.md": "99841b32befe9ab106889a5bd81faf40f98e34348156503e31bea0a005197310"
+      },
+      "verified_files": [
+        "manuscript/chapters/ch14.md",
+        "research/claims/ch14.json"
+      ]
+    },
+    {
+      "id": "C15-01",
+      "chapter": 15,
+      "priority": "P2",
+      "location": "경계를 바꿀 때 새 책임 공백을 막는다",
+      "issue": "자료/권한 이전과 새 담당자의 실제 판단을 인계 완료로 수용할 기준이 압축되어 있다.",
+      "impact": "조직도 변경이 끝났다고 대응 책임을 이전해 공백이나 옛 담당자에게 권한 없는 책임이 남을 수 있다.",
+      "fix": "전환 책임자·수용 조건·제한 운영·남은 확인·대체 대응을 추가.",
+      "acceptance": "새 담당자의 근거/상태/예외 접근을 확인하고 옛 담당자에게 무기한 책임을 남기지 않음.",
+      "status": "검증 완료",
+      "verified_on": "2026-10-13",
+      "verification": "수정 문단을 다시 읽고 수용 조건과 관련 장·패턴·근거 범위를 대조했다. 실제 효과·독립 인간 검증이 아님.",
+      "before_version": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+      "before_file_sha256": {
+        "manuscript/chapters/ch15.md": "b35971e34bcf357184c675edbd36ce3ae59aceb581c223da386b423dccbd0ed9"
+      },
+      "verified_files": [
+        "manuscript/chapters/ch15.md",
+        "research/claims/ch15.json"
+      ]
+    },
+    {
+      "id": "CP-01",
+      "chapter": 0,
+      "patterns": [
+        "P02",
+        "P04",
+        "P05",
+        "P09"
+      ],
+      "priority": "P2",
+      "location": "각 카드의 결과와 비용 / 검증 상태와 다음 판단",
+      "issue": "기존 리뷰에서 정리한 열 개 카드와 달리 공통 비용·종료 문장이 반복되어 고유 부담이 묻힌다.",
+      "impact": "패턴의 적용 비용을 비교하기 어렵고 카드 간 편집 기준이 어긋난다.",
+      "fix": "고유 유지·분해/통합·검색/갱신·전환 부담을 보강하고 공통 상태 설명은 안내로 모음.",
+      "acceptance": "정의·이름·연결·실패 경계·고유 검증 기준을 보존하며 비용이 구별됨.",
+      "status": "검증 완료",
+      "verified_on": "2026-10-13",
+      "verification": "수정 문단을 다시 읽고 수용 조건과 관련 장·패턴·근거 범위를 대조했다. 실제 효과·독립 인간 검증이 아님.",
+      "before_version": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+      "before_file_sha256": {
+        "manuscript/patterns/p02.md": "cf804527d6485fb78855d792303c4736c24f2da6c490c98e774811f7297e523f",
+        "manuscript/patterns/p04.md": "9a7448d7c5c05c8ab4408c921effebcec01184af5f9b73f019f79e28bffb00d8",
+        "manuscript/patterns/p05.md": "636ddfd4ab24903c67f3243f38d0e60a437b216575aa6a411b6bd43ab1635317",
+        "manuscript/patterns/p09.md": "b8995c29b571303bce580cb8f246c50b06a98c42512de7ffaf25ec6651cfce37"
+      },
+      "verified_files": [
+        "manuscript/patterns/p02.md",
+        "manuscript/patterns/p04.md",
+        "manuscript/patterns/p05.md",
+        "manuscript/patterns/p09.md"
+      ]
+    },
+    {
+      "id": "C18-01",
+      "chapter": 18,
+      "priority": "P2",
+      "location": "기준선과 종료 조건을 실행 전에 정한다 / 기반의 보완도 도입 작업에 포함한다",
+      "issue": "종료 조건의 표는 있지만 준비 활동·업무 변화·사용자 성과의 확인 수준이 다음 단계 판단으로 연결되는 구조가 압축되어 있다.",
+      "impact": "자료 준비와 실제 성과를 같은 도입 진척으로 보고할 수 있다.",
+      "fix": "VAF의 세 축을 조건부 진단에 활용하고 단계 수용 책임·계속/보완/축소/중단을 명시.",
+      "acceptance": "준비 완료를 성과로 표시하지 않고 탐색 종료와 제품 결과를 구분.",
+      "status": "검증 완료",
+      "verified_on": "2026-10-13",
+      "verification": "수정 문단을 다시 읽고 수용 조건과 관련 장·패턴·근거 범위를 대조했다. 실제 효과·독립 인간 검증이 아님.",
+      "before_version": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+      "before_file_sha256": {
+        "manuscript/chapters/ch18.md": "078f550f45f0c80d8f3456b89ae74ad48e9e00f3ee1f4974eb9a3d3c89432553"
+      },
+      "verified_files": [
+        "manuscript/chapters/ch18.md",
+        "research/claims/ch18.json"
+      ]
+    },
+    {
+      "id": "C19-01",
+      "chapter": 19,
+      "priority": "P2",
+      "location": "리더는 효과와 학습의 상태를 분리해 보고한다",
+      "issue": "실패 건수 감소를 해석할 때 관찰 기간·실행 기회·수집 방식의 변화가 명시되지 않았다.",
+      "impact": "보고 누락이나 대상 축소를 실제 개선으로 읽을 수 있다.",
+      "fix": "기간·노출 기회·수집 방식·같은 원인 분류를 비교하고 불충분 비교를 별도 보고.",
+      "acceptance": "검출 결과와 운영 효과를 구분하며 17장의 분모·불확실성 원칙과 일치.",
+      "status": "검증 완료",
+      "verified_on": "2026-10-13",
+      "verification": "수정 문단을 다시 읽고 수용 조건과 관련 장·패턴·근거 범위를 대조했다. 실제 효과·독립 인간 검증이 아님.",
+      "before_version": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+      "before_file_sha256": {
+        "manuscript/chapters/ch19.md": "9ec4cf3f7d54e6a4612cdfa37cd4fa8013a802804d32303f3b92dde70540f18b"
+      },
+      "verified_files": [
+        "manuscript/chapters/ch19.md",
+        "research/claims/ch19.json"
+      ]
+    },
+    {
+      "id": "C20-01",
+      "chapter": 20,
+      "priority": "P2",
+      "location": "기능과 규모, 권한의 확대를 나눈다 / 확대 표",
+      "issue": "돌아갈 범위가 이전 상태의 원상복구와 같은 뜻으로 읽힐 수 있다.",
+      "impact": "비가역적 외부 효과나 적격성을 잃은 기존 조합을 복귀 계획에서 놓칠 수 있다.",
+      "fix": "착수/권한 축소와 상태 복구·후속 조치를 구분하고 복귀의 적격성을 확인.",
+      "acceptance": "이미 발생한 효과를 자동 복구로 취급하지 않고 8장의 복구 정의와 일치.",
+      "status": "검증 완료",
+      "verified_on": "2026-10-13",
+      "verification": "수정 문단을 다시 읽고 수용 조건과 관련 장·패턴·근거 범위를 대조했다. 실제 효과·독립 인간 검증이 아님.",
+      "before_version": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+      "before_file_sha256": {
+        "manuscript/chapters/ch20.md": "244878608663e66645e16af1e0a71d2d02e45b419f1285134a2dd511ffbebf27"
+      },
+      "verified_files": [
+        "manuscript/chapters/ch20.md",
+        "research/claims/ch20.json"
+      ]
+    }
+  ],
+  "additional_scope": {
+    "chapters": [
+      16,
+      17
+    ],
+    "scope": "수용한 사이트 자료의 추가 문단과 기존 논증 연결만 재검토; 해당 장 전체의 새로운 독립 리뷰 아님."
+  },
+  "manifest": "planning/reviews/2026-10-13-remaining-review-manifest.json",
+  "source_scope": "research/remaining-review-source-checks.json",
+  "summary": {
+    "P0": 0,
+    "P1": 1,
+    "P2": 13,
+    "P3": 1,
+    "remaining_findings": 0
+  }
+}

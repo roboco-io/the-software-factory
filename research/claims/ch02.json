@@ -61,9 +61,31 @@
       "type": "저자의 기존 글 제안·분석 틀을 재구성",
       "source": "S32",
       "note": "문제와 선택한 방법의 구분. 일괄 의도 재승인 대신 약속·충돌의 변화 조건에 적용."
+    },
+    {
+      "location": "목적과 요청한 방법이 같은지 확인한다",
+      "source": "S69",
+      "type": "앞선 공개 문서 확인 → 책의 조건부 해석·제안",
+      "note": "초기/현재 Intent Engineering 문서의 차이와 현재 기준·변경 이력의 구분"
     }
   ],
   "review": {
     "roboco_reuse": "2026-10-11: 고정 저장소 원문에서 저자의 제안만 차용. 기존 미검증 항목 유지."
+  },
+  "central_claim": "의도를 현재 실행·수용·변경에서 찾을 수 있는 기준으로 유지한다.",
+  "sequential_review": {
+    "reviewed_on": "2026-10-13",
+    "base_commit": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+    "report": "planning/reviews/2026-10-13-remaining-review.md",
+    "manifest": "planning/reviews/2026-10-13-remaining-review-manifest.json",
+    "order": 1,
+    "central_claim": "의도를 현재 실행·수용·변경에서 찾을 수 있는 기준으로 유지한다.",
+    "leader_decision": "의도의 책임자와 변경 권한, 실행 계약과 판단 이력을 정한다.",
+    "findings": [
+      "C02-01"
+    ],
+    "status": "수정 검증 완료·저자 편집 확정 미완료",
+    "scope": "본문·주장·패턴 연결의 내용 검토. 실제 원문 확인 범위는 sources.json review_checks 참조.",
+    "reviewer": "작성 에이전트, 독립 인간/독자 리뷰 아님"
   }
 }

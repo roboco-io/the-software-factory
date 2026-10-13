@@ -45,6 +45,12 @@
       "location": "리더는 역할과 투자 가설을 다시 확인한다",
       "type": "저자 논증·설계 제안과 적용 조건",
       "note": "효과의 보편성을 주장하지 않으며 판정 조건·비용·한계를 포함. 설명 예시는 실제 사건과 구분."
+    },
+    {
+      "location": "판단 능력을 사용할 기회를 남긴다",
+      "source": "S70",
+      "type": "앞선 공개 문서 확인 → 책의 조건부 해석·제안",
+      "note": "VAF 작성 이력·원래 조직 도입 맥락과 역할별 이해/지원의 선택"
     }
   ],
   "review": {
@@ -63,5 +69,20 @@
       ],
       "scope": "기존 공개 목차의 주제 연결. 새 본문 대조나 세부 주장 평가는 아님."
     }
+  },
+  "sequential_review": {
+    "reviewed_on": "2026-10-13",
+    "base_commit": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+    "report": "planning/reviews/2026-10-13-remaining-review.md",
+    "manifest": "planning/reviews/2026-10-13-remaining-review-manifest.json",
+    "order": 10,
+    "central_claim": "인간 판단·실행 조합·공유 기반의 투자를 맡을 결과와 책임에 연결한다.",
+    "leader_decision": "역할별 이해 수준과 채용·학습·운영 지원을 배분한다.",
+    "findings": [
+      "C13-01"
+    ],
+    "status": "수정 검증 완료·저자 편집 확정 미완료",
+    "scope": "본문·주장·패턴 연결의 내용 검토. 실제 원문 확인 범위는 sources.json review_checks 참조.",
+    "reviewer": "작성 에이전트, 독립 인간/독자 리뷰 아님"
   }
 }

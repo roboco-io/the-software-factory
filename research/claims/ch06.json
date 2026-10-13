@@ -50,6 +50,12 @@
       "location": "분해와 조정의 비용도 평가한다 / 리더는 분해 전후의 흐름을 비교한다",
       "type": "저자 제안·비용·검증 기준·주제 재고찰",
       "note": "P04 대기·통합 실패·재작업, P09 전환 비용·회귀 결함 확인. 필요한 협의와 반복 설명 구분. 원서 9·10장 공개 목차 연결, 본문 대조 아님."
+    },
+    {
+      "location": "통합에도 결과와 책임을 부여한다",
+      "source": "S72",
+      "type": "앞선 공개 문서 확인 → 책의 조건부 해석·제안",
+      "note": "작업·판정 용량의 상한을 다음 행동으로 연결"
     }
   ],
   "review": {
@@ -62,5 +68,20 @@
       "실행 주체 교체의 전환 비용·회귀 평가",
       "원서 본문 대조"
     ]
+  },
+  "sequential_review": {
+    "reviewed_on": "2026-10-13",
+    "base_commit": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+    "report": "planning/reviews/2026-10-13-remaining-review.md",
+    "manifest": "planning/reviews/2026-10-13-remaining-review-manifest.json",
+    "order": 5,
+    "central_claim": "부분 결과를 독립 검증하되 통합과 판정 용량의 제약을 유지한다.",
+    "leader_decision": "작업 크기·의존·동시 실행·통합 책임을 정한다.",
+    "findings": [
+      "C06-01"
+    ],
+    "status": "수정 검증 완료·저자 편집 확정 미완료",
+    "scope": "본문·주장·패턴 연결의 내용 검토. 실제 원문 확인 범위는 sources.json review_checks 참조.",
+    "reviewer": "작성 에이전트, 독립 인간/독자 리뷰 아님"
   }
 }

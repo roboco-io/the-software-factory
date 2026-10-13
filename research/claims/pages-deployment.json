@@ -1,0 +1,27 @@
+{
+  "checked_on": "2026-10-14",
+  "scope": "웹 배포 설정과 로고",
+  "claims": [
+    {
+      "source": "S94",
+      "type": "공식 문서/자산 확인",
+      "note": "빌드/업로드/배포와 Pages 권한·환경 구성"
+    },
+    {
+      "source": "S95",
+      "type": "공식 문서/자산 확인",
+      "note": "사용자 지정 도메인·서브도메인 CNAME·Actions의 CNAME 파일 처리"
+    },
+    {
+      "source": "S96",
+      "type": "공식 문서/자산 확인",
+      "note": "공식 홈페이지가 참조한 SVG를 원형 저장. 이미지 출처·권리는 NOTICE에 보존"
+    },
+    {
+      "source": "S97",
+      "type": "공식 문서/자산 확인",
+      "note": "Context7 공식 문서에서 사용자 지정 도메인의 site·base와 배포 흐름 확인"
+    }
+  ],
+  "record": "planning/sessions/2026-10-14-pages-deployment.md"
+}

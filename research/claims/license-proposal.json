@@ -1,0 +1,46 @@
+{
+  "status": "저자 채택·본문 CC BY-SA 4.0 / 웹 코드 MIT 적용",
+  "checked_on": "2026-10-14",
+  "claims": [
+    {
+      "source": "S89",
+      "type": "공식 라이선스 안내의 관련 조건 요약",
+      "location": "planning/license-proposal.md",
+      "note": "상업 이용·표시·변경 고지·공유하는 개작물의 동일조건"
+    },
+    {
+      "source": "S90",
+      "type": "공식 라이선스 안내의 관련 조건 요약",
+      "location": "planning/license-proposal.md",
+      "note": "표시·변경 고지와 복제·개작 허용"
+    },
+    {
+      "source": "S91",
+      "type": "공식 라이선스 안내의 관련 조건 요약",
+      "location": "planning/license-proposal.md",
+      "note": "비영리 조건·표시·개작물 동일조건과 비영리의 정의"
+    },
+    {
+      "source": "S92",
+      "type": "공식 라이선스 안내의 관련 조건 요약",
+      "location": "planning/license-proposal.md",
+      "note": "소프트웨어 적용·제3자 권리·수익화·철회 불가의 관련 문답"
+    },
+    {
+      "source": "S93",
+      "type": "공식 라이선스 안내의 관련 조건 요약",
+      "location": "planning/license-proposal.md",
+      "note": "MIT 허가·고지 유지·보증 부인"
+    }
+  ],
+  "proposal": "직접 권리를 가진 본문·도표 CC BY-SA 4.0, 직접 작성 코드 MIT. 상업 이용 통제가 우선이면 CC BY-NC-SA 4.0 검토.",
+  "limit": "허락할 권리를 가진 범위에 적용. 개별 제3자 자료의 권리 귀속이나 특정 이용의 법적 판단은 수행하지 않음.",
+  "implementation": {
+    "date": "2026-10-14",
+    "notice": "LICENSE.md",
+    "book_terms": "LICENSES/CC-BY-SA-4.0.txt",
+    "code_terms": "LICENSES/MIT.txt",
+    "site": "website/src/pages/license.astro",
+    "scope": "책 콘텐츠와 직접 작성한 웹 코드. 제3자 자료·권리와 기타 내부 문서는 별도."
+  }
+}

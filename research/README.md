@@ -83,3 +83,5 @@ S59~S68: [The Software Factory Demo 구현 사례 지도](cases/software-factory
 S69~S75: [로보코 다섯 사이트의 인용·참고 제안](roboco-sites-review.md). 현재 판본과 작성 이력을 구분한 [조사 목록](roboco-sites-inventory.json), [주장 메모](claims/roboco-sites-review.json)를 함께 읽는다. 최초 제안과 아래 후속 반영 상태를 함께 관리한다.
 
 후속 반영: 저자 지시로 [선택한 배치](../planning/roboco-sites-adoption.md)에 따라 초고에 반영했다. [15장 순차 리뷰·수정 검증](../planning/reviews/2026-10-13-remaining-review.md), [원문 확인 범위](remaining-review-source-checks.json)를 따른다. 위 최초 제안과 현재 적용 상태는 구분한다.
+
+S76~S88: [웹 공개 형식·독서 경로·진도 저장 제안](../planning/web-publication-proposal.md), [주장 메모](claims/web-publication.json). 웹 출판 설계 조사용 자료이며 원고 본문 인용과 구분한다.

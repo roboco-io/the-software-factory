@@ -68,7 +68,7 @@ python3 scripts/check_project.py
 
 전체 초고 작성과 남은 검토 범위: [통합 검토 기록](planning/draft-review-2026-10-12.md).
 
-공통 구현 예제: [The Software Factory Demo](https://github.com/roboco-io/software-factory-demo). 고정 버전과 장별 관측·해석의 범위는 [구현 사례 지도](research/cases/software-factory-demo.md), 단계별 작업은 [반영 계획](planning/software-factory-demo-integration.md)에 기록한다.
+공통 구현 예제: [The Software Factory Demo](https://github.com/roboco-io/the-software-factory-demo). 고정 버전과 장별 관측·해석의 범위는 [구현 사례 지도](research/cases/software-factory-demo.md), 단계별 작업은 [반영 계획](planning/software-factory-demo-integration.md)에 기록한다.
 
 ## 라이선스
 

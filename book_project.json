@@ -413,7 +413,7 @@
   "evidence_rule": "출처의 관찰과 저자의 해석 및 제안과 실험 결과를 구분하며 없는 수치와 경험을 만들지 않음",
   "repository": {
     "organization": "roboco-io",
-    "name": "idd-book",
+    "name": "the-software-factory",
     "visibility": "private",
     "requested_local_path": "/Users/dohyunjung/Workspace/roboco-io/education/idd-book",
     "remote_created": true,

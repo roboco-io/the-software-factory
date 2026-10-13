@@ -3,7 +3,7 @@
 set -euo pipefail
 
 project_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
-book_repository="roboco-io/idd-book"
+book_repository="roboco-io/the-software-factory"
 book_clone_path="${1:-/Users/dohyunjung/Workspace/roboco-io/education/idd-book}"
 
 if [[ "$(uname -s)" != "Darwin" ]]; then
@@ -60,10 +60,10 @@ if ! git -C "$project_root" var GIT_AUTHOR_IDENT >/dev/null 2>&1 || ! git -C "$p
   git -C "$project_root" config user.email "$book_user_id+$book_user_login@users.noreply.github.com"
 fi
 git -C "$project_root" add .
-git -C "$project_root" commit -m "docs: initialize IDD book writing project"
+git -C "$project_root" commit -m "docs: initialize The Software Factory writing project"
 
 # Create first without pushing. An ambiguous failure stops here; inspect before retrying.
-gh_book repo create "$book_repository" --private --description "IDD 의도 주도 개발: 소프트웨어 팩토리와 AI 시대의 조직 설계 — 집필 프로젝트"
+gh_book repo create "$book_repository" --private --description "The Software Factory — 소프트웨어 팩토리와 AI 시대의 조직 설계"
 book_visibility="$(gh_book repo view "$book_repository" --json visibility --jq .visibility)"
 if [[ "$book_visibility" != "PRIVATE" ]]; then
   echo "Private visibility was not confirmed. Nothing has been pushed." >&2
@@ -94,7 +94,7 @@ data['repository']['local_mac_clone_verified'] = str(root) == data['repository']
 path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
 status_path = root / 'STATUS.md'
 status = status_path.read_text()
-status = status.replace('원격 저장소 생성: 아직 확인하지 않음', '원격 저장소 생성: roboco-io/idd-book 비공개 저장소 확인')
+status = status.replace('원격 저장소 생성: 아직 확인하지 않음', '원격 저장소 생성: roboco-io/the-software-factory 비공개 저장소 확인')
 verified_text = '요청한 Mac 경로의 checkout 및 구조 검사 확인' if data['repository']['local_mac_clone_verified'] else '다른 경로의 checkout 확인: ' + str(root) + ' (요청 경로는 미확인)'
 status = status.replace('지정 Mac 경로의 클론: 아직 확인하지 않음', '지정 Mac 경로의 클론: ' + verified_text)
 status_path.write_text(status)

@@ -5,7 +5,7 @@
 - 기준일: 2026-10-13
 - 기획 버전: 0.3
 - 집필 상태: 서문·20장·15개 패턴 원고 초고 작성, 저자 검토·편집 확정 대기
-- 원격 저장소: roboco-io/idd-book, PRIVATE 확인
+- 원격 저장소: roboco-io/the-software-factory, PRIVATE 확인
 - 실제 클론 경로: `/Users/dohyunjung/Workspace/roboco-io/education/idd-book`
 - 최초 ZIP 반영: 73개 파일, 커밋 2fcc4c4, main 푸시 후 클론 확인
 
@@ -239,3 +239,12 @@ S16(GitHub 공식 규칙 문서)과 S17(2025-10-20 Anthropic 실행 경계 설�
 - 검사: 리뷰 커밋의 독립 체크아웃에서 구조 PASS(58개 출처), 최종 원고 구조 PASS(68개 출처), 스킬 형식 검사·변경 형식 검사 통과.
 - 설정된 원격 origin의 main 푸시 성공. 원격 refs/heads/main과 로컬 HEAD가 `b7d9d14678c43d56b68d816e15d053f1c3c4e201`로 일치했고 작업 트리가 깨끗함을 확인했다.
 - 이 결과 기록은 후속 상태 커밋에 저장해 같은 원격에 반영한다. 원고의 초고 상태·미검토 장·독립 검토·편집 확정 대기는 유지한다. 다음은 나머지 장의 부별 리뷰다.
+
+## 2026-10-13 GitHub 저장소 이름 변경
+
+- 요청: 저장소 이름을 the-software-factory로 변경한다(D13). GitHub CLI로 이름 변경을 수행했다.
+- 결과: `roboco-io/the-software-factory`, 저장소 ID 1413832398로 동일성 확인. 비공개·main 설정을 확인했다. origin의 fetch/push 주소를 `git@github.com:roboco-io/the-software-factory.git`으로 갱신했다.
+- 검증: 새 원격 main과 로컬 HEAD가 `1997c6b575e73ebd9dc3ba2d2f0b32635cc98062`로 일치했다. README·저장소 메타데이터·인계·초기화 스크립트·결정 기록의 현재 참조를 갱신했다. 과거 생성 기록은 이력으로 보존한다.
+- 현재 로컬 경로는 `/Users/dohyunjung/Workspace/roboco-io/education/idd-book`이며 프로젝트 내부 ID도 idd-book이다. 원격 이름 변경과 현재 체크아웃 위치를 구분한다. 원고 내용과 집필 상태는 이 작업으로 변경하지 않았다.
+- 검사: 프로젝트 구조 PASS(20장·15개 패턴·68개 출처), 초기화 스크립트 셸 문법·변경 형식 검사 통과. 현재 참조 갱신과 이름 변경 기록을 별도 커밋으로 저장해 새 origin에 반영한다.
+- 후속 참조 갱신은 로컬 커밋으로 저장했다. 자동 승인 검토가 새 커밋의 origin/main 푸시에 이번 요청의 명시적 승인이 없다는 이유로 푸시를 거부했다. 이름 변경과 origin 갱신은 완료되었으며 문서 커밋의 푸시는 사용자 승인 대기다.

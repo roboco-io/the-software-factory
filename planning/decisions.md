@@ -64,3 +64,5 @@ More Effective Agile의 재고찰은 관련 장에 분산한다. 16장은 리더
 
 - D11 · 2026-10-13: 저자가 책 이름을 **The Software Factory**로 바꾸라고 지시했다. 제목·기획 버전을 갱신했다. 기존 부제, IDD 정의, 20장 구조, 저장소와 프로젝트 식별자는 유지한다.
 - D12 · 2026-10-13: 저자가 roboco-io/software-factory-demo를 조사하고 관련 장의 예제로 참조하도록 지시했다. 제목 정리 → 고정 버전 조사·대응 지도 → 장별 반영·검증으로 나눠 수행한다. 코드 구조와 공개 실행 기록, 이 책의 해석을 구분하고 본문은 리더의 판단에 집중한다. 범위는 [반영 계획](software-factory-demo-integration.md)에 기록한다.
+
+- D13 · 2026-10-13: 저자가 저장소 이름도 `the-software-factory`로 바꾸라고 지시했다. GitHub의 `roboco-io/idd-book`을 `roboco-io/the-software-factory`로 변경하고 origin·저장소 메타데이터·현재 사용 안내를 갱신했다. 저장소 ID 1413832398, 비공개 설정과 main을 확인했다. 현재 로컬 경로와 내부 프로젝트 ID는 기존 값을 사용한다.

@@ -43,7 +43,7 @@
 원격 저장소가 준비되면 요청한 Mac 경로에서 다음과 같이 시작한다.
 
 ```bash
-git clone git@github.com:roboco-io/idd-book.git /Users/dohyunjung/Workspace/roboco-io/education/idd-book
+git clone git@github.com:roboco-io/the-software-factory.git /Users/dohyunjung/Workspace/roboco-io/education/idd-book
 cd /Users/dohyunjung/Workspace/roboco-io/education/idd-book
 python3 scripts/check_project.py
 ```

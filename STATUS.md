@@ -384,3 +384,9 @@ S16(GitHub 공식 규칙 문서)과 S17(2025-10-20 Anthropic 실행 경계 설�
 - 커밋: 2acd5b3(원고·판본·라이선스), 4f2dafe(웹 독서판·Pages), 5e92b6b(기록). origin/main 푸시와 원격 일치 확인.
 - [배포 실행](https://github.com/roboco-io/the-software-factory/actions/runs/38472120163) 성공. HTTPS 홈·서문·추천 페이지·로고를 실제 응답으로 확인했다. DNS CNAME·인증서 승인·HTTPS 강제도 확인했다.
 - 세부 검증과 CI 유지보수 고지는 [배포 세션](planning/sessions/2026-10-14-pages-deployment.md)에 보존한다. 이 상태 기록을 후속 커밋으로 푸시한다.
+
+## 2026-10-14 데모 저장소 링크 정리
+
+- 요청: 데모 저장소 이름 변경에 맞춰 공개 링크를 `roboco-io/the-software-factory-demo`로 갱신한다. README·서문·10개 장·기획·사례 지도·출처/조사 JSON·웹 소개의 URL 72곳과 저장소 표시 이름을 수정했다. 고정 SHA·인용·날짜·원고 주장·판본·로컬 경로·조사 파일 식별자는 유지했다.
+- 검증: 구조 검사(20장·15패턴·97출처), 웹 테스트 13개, Astro 오류/경고/힌트 0, 45페이지 빌드·링크/앵커 검사, 변경 전후의 기계적 교체 대조, 기존 공개 URL 검색 0건, `git diff --check` 통과. 새 외부 원문·운영 효과·편집 확정은 확인하지 않았다.
+- [세션 기록](planning/sessions/2026-10-14-demo-repository-rename.md). 커밋·푸시·GitHub 저장소 이름 변경·외부 배포는 수행하지 않았다. 통합 작업에서 이름 변경과 게시 결과를 확인한다.

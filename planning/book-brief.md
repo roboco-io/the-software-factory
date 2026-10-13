@@ -18,7 +18,7 @@
 
 ## 구현 예제
 
-공통 구현 예제는 로보코의 [The Software Factory Demo](https://github.com/roboco-io/software-factory-demo)다. 고정 버전의 문서·코드·공개 실행 기록을 관련 장의 판단 원리에 연결한다. 설치 튜토리얼과 조직 효과의 입증 사례로 확대하지 않는다. 장별 범위는 [구현 사례 지도](../research/cases/software-factory-demo.md)를 따른다.
+공통 구현 예제는 로보코의 [The Software Factory Demo](https://github.com/roboco-io/the-software-factory-demo)다. 고정 버전의 문서·코드·공개 실행 기록을 관련 장의 판단 원리에 연결한다. 설치 튜토리얼과 조직 효과의 입증 사례로 확대하지 않는다. 장별 범위는 [구현 사례 지도](../research/cases/software-factory-demo.md)를 따른다.
 
 ## 주 독자
 

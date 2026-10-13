@@ -2,7 +2,7 @@
 
 ## 기준과 읽는 방법
 
-예제는 [roboco-io/software-factory-demo](https://github.com/roboco-io/software-factory-demo)다. 2026-10-13 확인한 공개 main의 기준 커밋은 `25a73b9c342ef380f96ff0d705df9b7ef33dd82c`이며 커밋 시점은 2026-10-12T22:58:02Z다. 파일 목록 339개 항목은 잘림 없이 받았고 그중 관련 파일 25개를 기록했다. 전체 저장소를 통독한 것은 아니다. 파일별 blob SHA·고정 URL·읽은 범위는 [조사 목록](../software-factory-demo-inventory.json), 서지와 제한은 [출처 대장](../sources.json)에 있다.
+예제는 [roboco-io/the-software-factory-demo](https://github.com/roboco-io/the-software-factory-demo)다. 2026-10-13 확인한 공개 main의 기준 커밋은 `25a73b9c342ef380f96ff0d705df9b7ef33dd82c`이며 커밋 시점은 2026-10-12T22:58:02Z다. 파일 목록 339개 항목은 잘림 없이 받았고 그중 관련 파일 25개를 기록했다. 전체 저장소를 통독한 것은 아니다. 파일별 blob SHA·고정 URL·읽은 범위는 [조사 목록](../software-factory-demo-inventory.json), 서지와 제한은 [출처 대장](../sources.json)에 있다.
 
 프로젝트의 소개는 저자 측 설명, 코드의 조건은 정적 확인, PR의 결과는 공개 기록 확인으로 구분한다. 이번 조사에서 로컬 설치·테스트·AI 실행·서비스 조작·배포·워크플로 재실행은 하지 않았다. main의 CI·deploy 성공 표시는 확인했으나 그것만으로 책의 모든 주장이나 생산성 효과를 검증한 것으로 쓰지 않는다.
 

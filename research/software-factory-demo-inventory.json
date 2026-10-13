@@ -1,5 +1,5 @@
 {
-  "repository": "https://github.com/roboco-io/software-factory-demo",
+  "repository": "https://github.com/roboco-io/the-software-factory-demo",
   "commit": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
   "commit_date": "2026-10-12T22:58:02Z",
   "checked_on": "2026-10-13",
@@ -9,158 +9,158 @@
     {
       "path": "README.md",
       "blob_sha": "971de2d2f96f055063973f5e72bc64b11b99338e",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/README.md",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/README.md",
       "scope": "README의 개요·처리 흐름·자가 개선 PoC·제한·라이선스, 상태 전이 코드"
     },
     {
       "path": "LICENSE",
       "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/LICENSE",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/LICENSE",
       "scope": "README의 개요·처리 흐름·자가 개선 PoC·제한·라이선스, 상태 전이 코드"
     },
     {
       "path": "packages/factory/src/state/machine.ts",
       "blob_sha": "8b4496d980909640bb2aca4674f37f82d61a7edb",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/state/machine.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/state/machine.ts",
       "scope": "README의 개요·처리 흐름·자가 개선 PoC·제한·라이선스, 상태 전이 코드"
     },
     {
       "path": "factory/risk-policy.yml",
       "blob_sha": "35a092ba8550e70b97b212afa6db37e695ddd66e",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/factory/risk-policy.yml",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/factory/risk-policy.yml",
       "scope": "위험 경로·기본 등급·필수 검사, runGate의 판정·사람 이관·head SHA 병합 조건"
     },
     {
       "path": "packages/factory/src/stages/gate.ts",
       "blob_sha": "db39598d7322f4b4ce4563d3de144f25a7fac193",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/gate.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/gate.ts",
       "scope": "위험 경로·기본 등급·필수 검사, runGate의 판정·사람 이관·head SHA 병합 조건"
     },
     {
       "path": ".github/ISSUE_TEMPLATE/feature.yml",
       "blob_sha": "ea875d2c02e849ae540d200e9cce076adb0447be",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/.github/ISSUE_TEMPLATE/feature.yml",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/.github/ISSUE_TEMPLATE/feature.yml",
       "scope": "목표·수용 기준 입력, 트리아지 출력 및 상태 전이"
     },
     {
       "path": "factory/prompts/triage.md",
       "blob_sha": "2099932ecf1c6dbc38e39e52368d7ed6658a3aee",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/factory/prompts/triage.md",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/factory/prompts/triage.md",
       "scope": "목표·수용 기준 입력, 트리아지 출력 및 상태 전이"
     },
     {
       "path": "packages/factory/src/stages/triage.ts",
       "blob_sha": "d6a079474402231ee49ee9124c6c5c426e595d43",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/triage.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/triage.ts",
       "scope": "목표·수용 기준 입력, 트리아지 출력 및 상태 전이"
     },
     {
       "path": "packages/factory/src/stages/evidence.ts",
       "blob_sha": "0f7824a4b2101f5d0e1bf97ceefacb1c39d9eee1",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/evidence.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/evidence.ts",
       "scope": "runEvidencePlan·runEvidence·judgeSide, 실행 대상 분류, CI evidence job"
     },
     {
       "path": "packages/factory/src/policy/evidence.ts",
       "blob_sha": "646bf877c85e0d8f003578371095d2025e645641",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/policy/evidence.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/policy/evidence.ts",
       "scope": "runEvidencePlan·runEvidence·judgeSide, 실행 대상 분류, CI evidence job"
     },
     {
       "path": ".github/workflows/ci.yml",
       "blob_sha": "b84c4de1263bfdfb825aad4e57bc40ff0cbb7a72",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/.github/workflows/ci.yml",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/.github/workflows/ci.yml",
       "scope": "runEvidencePlan·runEvidence·judgeSide, 실행 대상 분류, CI evidence job"
     },
     {
       "path": "packages/factory/src/stages/guard.ts",
       "blob_sha": "8d1044d05f2a075589af4c0175f493c4e13a1586",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/guard.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/guard.ts",
       "scope": "실행 권한·상태별 중단/재시도, 차단기의 대상 역할·재개"
     },
     {
       "path": "packages/factory/src/stages/command.ts",
       "blob_sha": "d452ef32e255783d2acbdc2023797432a4e0b836",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/command.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/command.ts",
       "scope": "실행 권한·상태별 중단/재시도, 차단기의 대상 역할·재개"
     },
     {
       "path": ".github/workflows/factory-implement.yml",
       "blob_sha": "84bccd3bce0d4a7fb1e2802f79a1394e83635774",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/.github/workflows/factory-implement.yml",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/.github/workflows/factory-implement.yml",
       "scope": "prepare/agent/publish의 job·계획 전달·토큰/작업 트리 분리"
     },
     {
       "path": "factory/agents.yml",
       "blob_sha": "911963f9601f42c42e34143325203e00110b93cc",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/factory/agents.yml",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/factory/agents.yml",
       "scope": "역할별 엔진·모델·예산, pickReviewer·assignEngines·resolveModel·estimateCostUsd"
     },
     {
       "path": "packages/factory/src/config/agents.ts",
       "blob_sha": "ef221740f64420c141d1fe7f0165f4719c177c09",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/config/agents.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/config/agents.ts",
       "scope": "역할별 엔진·모델·예산, pickReviewer·assignEngines·resolveModel·estimateCostUsd"
     },
     {
       "path": "packages/factory/src/report/metrics.ts",
       "blob_sha": "40cd82afb0cc79ba400110b907597551788acec2",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/report/metrics.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/report/metrics.ts",
       "scope": "RunRecord·completionRate·engineStats·ratio·ruleEffects"
     },
     {
       "path": "packages/factory/src/runs/store.ts",
       "blob_sha": "38c57c40fa264b9a5916c6ebeefe162148161772",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/runs/store.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/runs/store.ts",
       "scope": "RunRecord·completionRate·engineStats·ratio·ruleEffects"
     },
     {
       "path": "packages/factory/src/stages/collect.ts",
       "blob_sha": "e54f76bc1ff3b6225e72f17c6fa3de6eb9a327aa",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/collect.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/collect.ts",
       "scope": "후보 중복/정책 보류 제외, 허용 경로, improveStage, runEvalPlan·judgeEval"
     },
     {
       "path": "packages/factory/src/policy/improve-paths.ts",
       "blob_sha": "cffbafe209ff6c388cbf26c05da996a488c5a329",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/policy/improve-paths.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/policy/improve-paths.ts",
       "scope": "후보 중복/정책 보류 제외, 허용 경로, improveStage, runEvalPlan·judgeEval"
     },
     {
       "path": "packages/factory/src/stages/improve.ts",
       "blob_sha": "9ed51c236c62a9baf44a1dea091dc8f1a0c0704b",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/improve.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/improve.ts",
       "scope": "후보 중복/정책 보류 제외, 허용 경로, improveStage, runEvalPlan·judgeEval"
     },
     {
       "path": "packages/factory/src/stages/eval.ts",
       "blob_sha": "7ee2cc12462cc0c2ddf4070d2feaf7d610b3e41f",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/eval.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/eval.ts",
       "scope": "후보 중복/정책 보류 제외, 허용 경로, improveStage, runEvalPlan·judgeEval"
     },
     {
       "path": "packages/factory/test/evidence-run.test.ts",
       "blob_sha": "1ec0df9620739a4569ab7e3d397bb1c344e5dc93",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/test/evidence-run.test.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/test/evidence-run.test.ts",
       "scope": "테스트 이름·대상 조건만 선별 확인. 실행하지 않음."
     },
     {
       "path": "packages/factory/test/gate.test.ts",
       "blob_sha": "2ef89bb75ae15ffd83f88ef491e92dfb9bed6925",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/test/gate.test.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/test/gate.test.ts",
       "scope": "테스트 이름·대상 조건만 선별 확인. 실행하지 않음."
     },
     {
       "path": "packages/factory/test/eval.test.ts",
       "blob_sha": "df9387aef09e69988b824c105552277c220d8fa7",
-      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/test/eval.test.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/test/eval.test.ts",
       "scope": "테스트 이름·대상 조건만 선별 확인. 실행하지 않음."
     }
   ],
   "public_records": [
     {
       "pr": 47,
-      "url": "https://github.com/roboco-io/software-factory-demo/pull/47",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/pull/47",
       "head_sha": "7f65b26d7d48a4dc9e49e461bb7e4886ad3f03dd",
       "base_sha": "484da0efd671cc2c87cc2085ae43c7130a80985d",
       "merged_at": "2026-10-12T08:27:29Z",
@@ -169,7 +169,7 @@
     },
     {
       "pr": 48,
-      "url": "https://github.com/roboco-io/software-factory-demo/pull/48",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/pull/48",
       "head_sha": "60ef31c9e9db979fe290e3bd0493d8a6bb5e1b71",
       "base_sha": "af44832a32248740a77156f60d124487cdca1c5e",
       "merged_at": null,

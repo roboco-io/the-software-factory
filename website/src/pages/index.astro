@@ -1,0 +1,19 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import book from '../data/book.json';
+---
+<StarlightPage frontmatter={{title:'The Software Factory',description:book.subtitle,template:'splash',tableOfContents:false,prev:false,next:false}}>
+ <div class="book-home">
+  <section class="book-opening">
+   <div class="opening-copy"><p class="edition-label"><a href="/releases/">{book.release.label}</a></p><h1 id="_top">The Software<br/>Factory</h1><p class="book-subtitle">소프트웨어 팩토리와<br class="small-only"/> AI 시대의 조직 설계</p><p class="opening-description">AI가 일하는 속도만큼,<br/>조직의 판단도 나아지고 있나요?</p><p class="opening-detail">의도를 정하고, 실행을 맡기고, 증거로 판단하는 일.<br/>소프트웨어 조직의 리더를 위한 20개의 결정.</p>
+    <div class="action-row"><a class="primary-button" href="/book/ch01/">처음부터 읽기</a><a class="secondary-button" href="/guide/">나에게 필요한 장 찾기</a></div>
+    <div class="resume-block" data-resume-home hidden><span>지난번에 읽던 곳</span><a data-resume-link href="/contents/">이어서 읽기</a><p data-book-progress></p></div>
+   </div>
+   <div class="factory-figure" aria-label="의도에서 실행, 검증, 개선으로 이어지는 책의 흐름"><div class="figure-top">의도를 실행하는 조직</div><div class="figure-step"><span>01</span><strong>의도</strong><p>어떤 결과를 원하는가</p></div><div class="figure-step"><span>02</span><strong>실행</strong><p>무엇을 맡길 수 있는가</p></div><div class="figure-step"><span>03</span><strong>검증</strong><p>어떤 증거로 받아들이는가</p></div><div class="figure-bottom">관찰한 결과로, 다음 판단을 바꾼다.</div></div>
+  </section>
+  <section class="home-contents"><div class="section-heading"><div><p>책의 구성</p><h2>다섯 부로 이어지는 하나의 흐름</h2></div><a href="/contents/">전체 목차 보기</a></div>
+   <ol class="parts-list">{book.parts.map((part,i)=><li><span class="part-number">{String(i+1).padStart(2,'0')}</span><div><a href={book.chapters.find(c=>c.part===i+1)?.url}>{part.replace(/^\d부 /,'')}</a><p>{['목적과 기준, 바꿀 권한을 정합니다.','계약·분해·완료·복구를 설계합니다.','생산 기반과 지식·능력·권한을 연결합니다.','사람의 판단과 팀의 협력을 뒷받침합니다.','측정하고 도입하며, 근거에 따라 넓힙니다.'][i]}</p></div><span>{i*4+1}–{i*4+4}장</span></li>)}</ol>
+  </section>
+  <section class="pattern-invitation"><div><p>필요할 때 다시 찾는 원칙</p><h2>15개의 조직 운영 패턴</h2><p>반복되는 문제와 상충하는 요구, 해결 구조와 비용을 함께 읽습니다.</p></div><a class="secondary-button" href="/patterns/">패턴 사전 열기</a></section>
+ </div>
+</StarlightPage>

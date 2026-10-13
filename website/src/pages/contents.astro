@@ -1,0 +1,9 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import book from '../data/book.json';
+---
+<StarlightPage frontmatter={{title:'전체 목차',description:'다섯 부, 스무 개의 결정',tableOfContents:false,prev:false,next:false}}>
+ <p class="page-intro">처음부터 읽거나, 지금 필요한 판단에서 시작하세요.</p><div class="contents-progress" data-pagefind-ignore><span data-book-progress>20장 중 0장 읽음</span><progress data-book-progress-bar max="20" value="0" aria-label="책 읽기 진도"></progress><a href="/guide/">맞춤 독서 경로 찾기</a></div>
+ <a href="/book/preface/">서문 · 소프트웨어를 생산하는 조직</a>
+ {book.parts.map((part,i)=><section class="contents-part"><h2>{part}</h2><ol class="chapter-list">{book.chapters.filter(c=>c.part===i+1).map(c=><li><span class="chapter-number">{String(c.number).padStart(2,'0')}</span><div><a href={c.url}>{c.title.replace(/^\d+장 /,'')}</a><p>{c.decision}</p></div><span class="status-pill" data-chapter-status={c.id}>안 읽음</span></li>)}</ol></section>)}
+</StarlightPage>

@@ -6,3 +6,13 @@ __pycache__/
 build/
 exports/
 *.tmp
+
+# Web edition
+website/node_modules/
+website/dist/
+website/.astro/
+website/src/content/docs/
+website/src/data/book.json
+website/test-results/
+website/playwright-report/
+website/public/licenses/

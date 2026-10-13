@@ -1,0 +1,6 @@
+ROBOCO logo
+Source: https://roboco.io/images/roboco-logo.svg
+Retrieved: 2026-10-14
+Used on this ROBOCO book site at the author's request.
+The logo and associated marks retain their original rights; they are not
+relicensed under the book's CC BY-SA license or the website code's MIT license.

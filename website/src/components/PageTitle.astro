@@ -1,0 +1,6 @@
+---
+import book from '../data/book.json';
+import Default from '@astrojs/starlight/components/PageTitle.astro';
+const home=Astro.url.pathname==='/';
+---
+{!home && <><p class="edition-label">The Software Factory <a href="/releases/">{book.release.label}</a></p><Default /></>}

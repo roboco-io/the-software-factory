@@ -4,9 +4,22 @@ from pathlib import Path
 import json
 import re
 import sys
+import os
 
 ROOT = Path(__file__).resolve().parents[1]
 errors = []
+
+# Generated website output and installed dependencies are checked by the web build.
+# Do not traverse them as authored manuscript files.
+def authored_files(suffix):
+    for directory, dirs, files in os.walk(ROOT):
+        dirs[:] = [d for d in dirs if d not in {'.git', 'node_modules', '.astro', 'dist', 'test-results', 'playwright-report'}]
+        if Path(directory) == ROOT / 'website' / 'src' / 'content':
+            dirs[:] = [d for d in dirs if d != 'docs']
+        for name in files:
+            if name.endswith(suffix):
+                yield Path(directory) / name
+
 
 def require(condition, message):
     if not condition:
@@ -28,12 +41,12 @@ for c in chapters:
 for p in patterns:
     require(set(p['related']) <= pattern_ids, f"Unknown related pattern: {p['id']}")
     require((ROOT / f"manuscript/patterns/{p['id'].lower()}.md").is_file(), f"Missing pattern draft: {p['id']}")
-for f in ROOT.rglob('*.json'):
+for f in authored_files('.json'):
     try:
         json.loads(f.read_text(encoding='utf-8'))
     except (ValueError, UnicodeError) as error:
         errors.append(f'Invalid JSON or UTF-8: {f.relative_to(ROOT)}: {error}')
-for f in ROOT.rglob('*.md'):
+for f in authored_files('.md'):
     text = f.read_text(encoding='utf-8')
     for target in re.findall(r'\]\(([^\s)]+)\)', text):
         if '://' in target or target.startswith(('mailto:', '#')):

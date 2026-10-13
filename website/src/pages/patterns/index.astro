@@ -1,0 +1,8 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import book from '../../data/book.json';
+---
+<StarlightPage frontmatter={{title:'패턴 사전',description:'반복되는 문제를 다루는 15개의 원칙',tableOfContents:false,prev:false,next:false}}>
+ <p class="page-intro">상황과 문제에서 시작해 해결 구조, 비용, 실패 조건을 함께 읽습니다.</p><p>이 패턴들은 실제 업무에서 평가할 제안입니다. 필요한 패턴을 찾고 연결된 장에서 논증을 확인하세요.</p>
+ <div class="patterns-list">{book.patterns.map(p=><article><span>{p.id.toUpperCase()}</span><div><h2><a href={p.url}>{p.title.replace(/^P\d+ /,'')}</a></h2><p>{p.purpose}</p><div class="pattern-links">{book.chapters.filter(c=>c.patterns.includes(p.id.toUpperCase())).map(c=><a href={c.url}>{c.number}장</a>)}</div></div></article>)}</div>
+</StarlightPage>

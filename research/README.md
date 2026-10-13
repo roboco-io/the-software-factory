@@ -77,3 +77,5 @@
 자동화와 인간 오너십의 근거·한계와 개입 제안은 [연구 메모](ownership-and-automation.md), 장 배치는 [편집 제안](../planning/ownership-editorial-proposal.md)에 있다.
 
 로보코 원고 선별 범위와 차용·보류의 이유는 [검토 메모](roboco-blog-review.md)와 [49개 목록](roboco-blog-inventory.json)에 있다.
+
+S59~S68: [The Software Factory Demo 구현 사례 지도](cases/software-factory-demo.md). 파일·blob SHA와 읽은 범위는 [조사 목록](software-factory-demo-inventory.json), 관측과 해석은 [주장 메모](claims/software-factory-demo.json)에 기록한다.

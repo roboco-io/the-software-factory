@@ -39,6 +39,29 @@
       "location": "리더는 효과와 학습의 상태를 분리해 보고한다",
       "type": "저자 논증·설계 제안과 적용 조건",
       "note": "효과의 보편성을 주장하지 않으며 판정 조건·비용·한계를 포함. 설명 예시는 실제 사건과 구분."
+    },
+    {
+      "location": "규칙 변경이 실제로 무엇을 더 잡는지 확인한다",
+      "type": "공개 구현·기록 확인",
+      "source": "S67",
+      "note": "고정 버전과 확인 위치는 research/claims/software-factory-demo.json 및 출처 대장 참조. 코드 관찰·공개 실행 기록을 조직 효과로 확대하지 않음."
+    },
+    {
+      "location": "규칙 변경이 실제로 무엇을 더 잡는지 확인한다",
+      "type": "공개 구현·기록 확인",
+      "source": "S68",
+      "note": "고정 버전과 확인 위치는 research/claims/software-factory-demo.json 및 출처 대장 참조. 코드 관찰·공개 실행 기록을 조직 효과로 확대하지 않음."
+    },
+    {
+      "location": "규칙 변경이 실제로 무엇을 더 잡는지 확인한다",
+      "type": "공개 구현·기록 확인",
+      "source": "S59",
+      "note": "고정 버전과 확인 위치는 research/claims/software-factory-demo.json 및 출처 대장 참조. 코드 관찰·공개 실행 기록을 조직 효과로 확대하지 않음."
+    },
+    {
+      "location": "규칙 변경이 실제로 무엇을 더 잡는지 확인한다",
+      "type": "저자 해석·적용 질문",
+      "note": "구현에서 해당 장의 리더 판단과 비용·한계를 도출. 실제 업무에서 평가할 제안이며 일반적 효과 입증 아님."
     }
   ],
   "review": {
@@ -56,5 +79,16 @@
       ],
       "scope": "기존 공개 목차의 주제 연결. 새 본문 대조나 세부 주장 평가는 아님."
     }
+  },
+  "demo_integration": {
+    "checked_on": "2026-10-13",
+    "revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+    "sources": [
+      "S67",
+      "S68",
+      "S59"
+    ],
+    "status": "초고 반영·편집 확정 대기",
+    "record": "planning/software-factory-demo-integration.md"
   }
 }

@@ -1,5 +1,7 @@
 # 클라이언트 인계
 
+현재 책 제목은 **The Software Factory**다. 2026-10-13 저자 지시로 변경했으며 저장소 식별자는 `idd-book`을 유지한다. 구현 예제의 조사·장별 반영은 [반영 계획](software-factory-demo-integration.md)과 [사례 지도](../research/cases/software-factory-demo.md)를 읽는다. 이전 리뷰 수정 뒤 추가한 예제는 별도 검토 기록으로 관리한다.
+
 ## 실제 작업 위치
 
 `/Users/dohyunjung/Workspace/roboco-io/education/idd-book`

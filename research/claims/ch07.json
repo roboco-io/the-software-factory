@@ -72,6 +72,23 @@
       "type": "저자의 기존 글 제안·분석 틀을 재구성",
       "source": "S42",
       "note": "재현·수정 전 실패·실제 동작의 구분. 모든 과제의 동일 절차나 OSS 효과 입증으로 확장하지 않음."
+    },
+    {
+      "location": "실행 오류와 재현 증거를 구분하는 구현",
+      "type": "공개 구현·기록 확인",
+      "source": "S62",
+      "note": "고정 버전과 확인 위치는 research/claims/software-factory-demo.json 및 출처 대장 참조. 코드 관찰·공개 실행 기록을 조직 효과로 확대하지 않음."
+    },
+    {
+      "location": "실행 오류와 재현 증거를 구분하는 구현",
+      "type": "공개 구현·기록 확인",
+      "source": "S59",
+      "note": "고정 버전과 확인 위치는 research/claims/software-factory-demo.json 및 출처 대장 참조. 코드 관찰·공개 실행 기록을 조직 효과로 확대하지 않음."
+    },
+    {
+      "location": "실행 오류와 재현 증거를 구분하는 구현",
+      "type": "저자 해석·적용 질문",
+      "note": "구현에서 해당 장의 리더 판단과 비용·한계를 도출. 실제 업무에서 평가할 제안이며 일반적 효과 입증 아님."
     }
   ],
   "review": {
@@ -100,5 +117,15 @@
     "open_findings": [],
     "status": "수정 검증·저자 편집 확정 미완료",
     "limit": "자료별 실제 확인 범위는 sources.json review_checks 참조. 기존 작성자 점검과 이번 리뷰는 독립 인간 검증이 아님."
+  },
+  "demo_integration": {
+    "checked_on": "2026-10-13",
+    "revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+    "sources": [
+      "S62",
+      "S59"
+    ],
+    "status": "초고 반영·편집 확정 대기",
+    "record": "planning/software-factory-demo-integration.md"
   }
 }

@@ -1,9 +1,9 @@
 {
   "project_id": "idd-book",
-  "version": "0.2",
+  "version": "0.3",
   "started_on": "2026-10-11",
   "language": "ko",
-  "working_title": "IDD 의도 주도 개발",
+  "working_title": "The Software Factory",
   "working_subtitle": "소프트웨어 팩토리와 AI 시대의 조직 설계",
   "author": "정도현",
   "state": "20장·15개 패턴 원고 초고 작성, 저자 검토·편집 확정 대기",

@@ -1,6 +1,6 @@
-# IDD 집필 프로젝트
+# The Software Factory 집필 프로젝트
 
-**IDD 의도 주도 개발 — 소프트웨어 팩토리와 AI 시대의 조직 설계**
+**The Software Factory — 소프트웨어 팩토리와 AI 시대의 조직 설계**
 
 소프트웨어 조직 리더를 위한 한국어 책이다. 의도를 정책과 실행계획으로 구체화하고, 수행 결과를 증거로 검증하며, 피드백으로 정책과 계획을 개선하는 개발 접근법을 패턴 언어로 설명한다.
 
@@ -63,3 +63,5 @@ python3 scripts/check_project.py
 로보코 기존 글의 차용 출처와 반영 위치: [검토 메모](research/roboco-blog-review.md).
 
 전체 초고 작성과 남은 검토 범위: [통합 검토 기록](planning/draft-review-2026-10-12.md).
+
+공통 구현 예제: [The Software Factory Demo](https://github.com/roboco-io/software-factory-demo). 고정 버전과 장별 관측·해석의 범위는 [구현 사례 지도](research/cases/software-factory-demo.md), 단계별 작업은 [반영 계획](planning/software-factory-demo-integration.md)에 기록한다.

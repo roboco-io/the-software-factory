@@ -2005,6 +2005,357 @@
         "conservative_review_whitespace_units": 109,
         "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검."
       }
+    },
+    {
+      "id": "S59",
+      "title": "The Software Factory Demo — 프로젝트 설명과 확인 범위",
+      "author": "ROBOCO / software-factory-demo contributors",
+      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/README.md",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+      "revision_committed_on": "2026-10-12T22:58:02Z",
+      "verification_status": "공개 문서·코드의 명시한 범위 직접 확인",
+      "verification_scope": "README의 개요·처리 흐름·자가 개선 PoC·제한·라이선스, 상태 전이 코드",
+      "use": "1·7·8·9·12·19장 구현 예제",
+      "limit": "저자 측 데모 설명과 코드 구조. 전체 운영 효과·독립 재현 아님.",
+      "supporting_urls": [
+        "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/LICENSE",
+        "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/state/machine.ts"
+      ],
+      "usage_review": {
+        "checked_on": "2026-10-13",
+        "direct_quote_words": 0,
+        "files": [
+          "manuscript/chapters/ch01.md",
+          "manuscript/chapters/ch07.md",
+          "manuscript/chapters/ch08.md",
+          "manuscript/chapters/ch09.md",
+          "manuscript/chapters/ch12.md",
+          "manuscript/chapters/ch19.md",
+          "research/cases/software-factory-demo.md",
+          "research/claims/ch01.json",
+          "research/claims/ch07.json",
+          "research/claims/ch08.json",
+          "research/claims/ch09.json",
+          "research/claims/ch12.json",
+          "research/claims/ch19.json",
+          "research/claims/software-factory-demo.json",
+          "research/software-factory-demo-inventory.json",
+          "research/sources.json"
+        ],
+        "scope": "짧은 관측 설명과 별도 저자 해석·질문만 사용. 원문·코드 복제 없음. 관련 파일의 누적 파생 설명을 점검한다.",
+        "cited_paragraph_whitespace_units": 309,
+        "count_limit": "원고의 출처 표식 문단 전체 공백 집계. 책의 해석·제한도 포함하며 영어 단어 수나 원문 파생량의 자동 판정이 아니다.",
+        "manual_review": "원고의 관측 문장과 대장·주장·사례 지도의 짧은 설명을 누적 검토. 반복 요약보다 원문 위치로 연결하고 저자 해석·질문을 구분했다. 직접 인용·원문/코드/로그 복제 없음."
+      }
+    },
+    {
+      "id": "S60",
+      "title": "Software Factory Demo — 위험 정책과 병합 판단",
+      "author": "ROBOCO / software-factory-demo contributors",
+      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/factory/risk-policy.yml",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+      "revision_committed_on": "2026-10-12T22:58:02Z",
+      "verification_status": "공개 문서·코드의 명시한 범위 직접 확인",
+      "verification_scope": "위험 경로·기본 등급·필수 검사, runGate의 판정·사람 이관·head SHA 병합 조건",
+      "use": "3·12장 구현 예제",
+      "limit": "경로 기반 분류의 의미와 별도 보호 설정 한계. 문서상 사람 승인과 실제 모든 병합의 강제를 동일시하지 않음.",
+      "supporting_urls": [
+        "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/gate.ts"
+      ],
+      "usage_review": {
+        "checked_on": "2026-10-13",
+        "direct_quote_words": 0,
+        "files": [
+          "manuscript/chapters/ch03.md",
+          "manuscript/chapters/ch12.md",
+          "research/cases/software-factory-demo.md",
+          "research/claims/ch03.json",
+          "research/claims/ch12.json",
+          "research/claims/software-factory-demo.json",
+          "research/software-factory-demo-inventory.json",
+          "research/sources.json"
+        ],
+        "scope": "짧은 관측 설명과 별도 저자 해석·질문만 사용. 원문·코드 복제 없음. 관련 파일의 누적 파생 설명을 점검한다.",
+        "cited_paragraph_whitespace_units": 72,
+        "count_limit": "원고의 출처 표식 문단 전체 공백 집계. 책의 해석·제한도 포함하며 영어 단어 수나 원문 파생량의 자동 판정이 아니다.",
+        "manual_review": "원고의 관측 문장과 대장·주장·사례 지도의 짧은 설명을 누적 검토. 반복 요약보다 원문 위치로 연결하고 저자 해석·질문을 구분했다. 직접 인용·원문/코드/로그 복제 없음."
+      }
+    },
+    {
+      "id": "S61",
+      "title": "Software Factory Demo — 요청과 수용 기준",
+      "author": "ROBOCO / software-factory-demo contributors",
+      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/.github/ISSUE_TEMPLATE/feature.yml",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+      "revision_committed_on": "2026-10-12T22:58:02Z",
+      "verification_status": "공개 문서·코드의 명시한 범위 직접 확인",
+      "verification_scope": "목표·수용 기준 입력, 트리아지 출력 및 상태 전이",
+      "use": "5장 구현 예제",
+      "limit": "입력·AI 정리 구조 확인. 기준의 사업적 충분성과 승인자의 이해를 입증하지 않음.",
+      "supporting_urls": [
+        "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/factory/prompts/triage.md",
+        "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/triage.ts"
+      ],
+      "usage_review": {
+        "checked_on": "2026-10-13",
+        "direct_quote_words": 0,
+        "files": [
+          "manuscript/chapters/ch05.md",
+          "research/cases/software-factory-demo.md",
+          "research/claims/ch05.json",
+          "research/claims/software-factory-demo.json",
+          "research/software-factory-demo-inventory.json",
+          "research/sources.json"
+        ],
+        "scope": "짧은 관측 설명과 별도 저자 해석·질문만 사용. 원문·코드 복제 없음. 관련 파일의 누적 파생 설명을 점검한다.",
+        "cited_paragraph_whitespace_units": 34,
+        "count_limit": "원고의 출처 표식 문단 전체 공백 집계. 책의 해석·제한도 포함하며 영어 단어 수나 원문 파생량의 자동 판정이 아니다.",
+        "manual_review": "원고의 관측 문장과 대장·주장·사례 지도의 짧은 설명을 누적 검토. 반복 요약보다 원문 위치로 연결하고 저자 해석·질문을 구분했다. 직접 인용·원문/코드/로그 복제 없음."
+      }
+    },
+    {
+      "id": "S62",
+      "title": "Software Factory Demo — 수정 전후의 증거 판정",
+      "author": "ROBOCO / software-factory-demo contributors",
+      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/evidence.ts",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+      "revision_committed_on": "2026-10-12T22:58:02Z",
+      "verification_status": "공개 문서·코드의 명시한 범위 직접 확인",
+      "verification_scope": "runEvidencePlan·runEvidence·judgeSide, 실행 대상 분류, CI evidence job",
+      "use": "7장 구현 예제",
+      "limit": "버그로 분류된 봇 PR의 실행 가능한 테스트 범위. E2E·악의적 코드의 판정 조작 방어·실제 사용자 결과를 보장하지 않음.",
+      "supporting_urls": [
+        "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/policy/evidence.ts",
+        "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/.github/workflows/ci.yml"
+      ],
+      "usage_review": {
+        "checked_on": "2026-10-13",
+        "direct_quote_words": 0,
+        "files": [
+          "manuscript/chapters/ch07.md",
+          "research/cases/software-factory-demo.md",
+          "research/claims/ch07.json",
+          "research/claims/software-factory-demo.json",
+          "research/software-factory-demo-inventory.json",
+          "research/sources.json"
+        ],
+        "scope": "짧은 관측 설명과 별도 저자 해석·질문만 사용. 원문·코드 복제 없음. 관련 파일의 누적 파생 설명을 점검한다.",
+        "cited_paragraph_whitespace_units": 44,
+        "count_limit": "원고의 출처 표식 문단 전체 공백 집계. 책의 해석·제한도 포함하며 영어 단어 수나 원문 파생량의 자동 판정이 아니다.",
+        "manual_review": "원고의 관측 문장과 대장·주장·사례 지도의 짧은 설명을 누적 검토. 반복 요약보다 원문 위치로 연결하고 저자 해석·질문을 구분했다. 직접 인용·원문/코드/로그 복제 없음."
+      }
+    },
+    {
+      "id": "S63",
+      "title": "Software Factory Demo — 명령 권한과 실패율 차단기",
+      "author": "ROBOCO / software-factory-demo contributors",
+      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/guard.ts",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+      "revision_committed_on": "2026-10-12T22:58:02Z",
+      "verification_status": "공개 문서·코드의 명시한 범위 직접 확인",
+      "verification_scope": "실행 권한·상태별 중단/재시도, 차단기의 대상 역할·재개",
+      "use": "8장 구현 예제",
+      "limit": "새 구현·수정 시작 제어와 관련 실행 취소 코드. 모든 진행 중 행동이나 외부 효과의 원상복구가 아님.",
+      "supporting_urls": [
+        "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/command.ts"
+      ],
+      "usage_review": {
+        "checked_on": "2026-10-13",
+        "direct_quote_words": 0,
+        "files": [
+          "manuscript/chapters/ch08.md",
+          "research/cases/software-factory-demo.md",
+          "research/claims/ch08.json",
+          "research/claims/software-factory-demo.json",
+          "research/software-factory-demo-inventory.json",
+          "research/sources.json"
+        ],
+        "scope": "짧은 관측 설명과 별도 저자 해석·질문만 사용. 원문·코드 복제 없음. 관련 파일의 누적 파생 설명을 점검한다.",
+        "cited_paragraph_whitespace_units": 41,
+        "count_limit": "원고의 출처 표식 문단 전체 공백 집계. 책의 해석·제한도 포함하며 영어 단어 수나 원문 파생량의 자동 판정이 아니다.",
+        "manual_review": "원고의 관측 문장과 대장·주장·사례 지도의 짧은 설명을 누적 검토. 반복 요약보다 원문 위치로 연결하고 저자 해석·질문을 구분했다. 직접 인용·원문/코드/로그 복제 없음."
+      }
+    },
+    {
+      "id": "S64",
+      "title": "Software Factory Demo — 준비·수행·게시의 분리",
+      "author": "ROBOCO / software-factory-demo contributors",
+      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/.github/workflows/factory-implement.yml",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+      "revision_committed_on": "2026-10-12T22:58:02Z",
+      "verification_status": "공개 문서·코드의 명시한 범위 직접 확인",
+      "verification_scope": "prepare/agent/publish의 job·계획 전달·토큰/작업 트리 분리",
+      "use": "9장 구현 예제",
+      "limit": "워크플로 정의 확인. 실제 모든 권한 설정·캐시/runner 격리의 완전성·조직 책임의 효과를 검증하지 않음.",
+      "supporting_urls": [],
+      "usage_review": {
+        "checked_on": "2026-10-13",
+        "direct_quote_words": 0,
+        "files": [
+          "manuscript/chapters/ch09.md",
+          "research/cases/software-factory-demo.md",
+          "research/claims/ch09.json",
+          "research/claims/software-factory-demo.json",
+          "research/software-factory-demo-inventory.json",
+          "research/sources.json"
+        ],
+        "scope": "짧은 관측 설명과 별도 저자 해석·질문만 사용. 원문·코드 복제 없음. 관련 파일의 누적 파생 설명을 점검한다.",
+        "cited_paragraph_whitespace_units": 38,
+        "count_limit": "원고의 출처 표식 문단 전체 공백 집계. 책의 해석·제한도 포함하며 영어 단어 수나 원문 파생량의 자동 판정이 아니다.",
+        "manual_review": "원고의 관측 문장과 대장·주장·사례 지도의 짧은 설명을 누적 검토. 반복 요약보다 원문 위치로 연결하고 저자 해석·질문을 구분했다. 직접 인용·원문/코드/로그 복제 없음."
+      }
+    },
+    {
+      "id": "S65",
+      "title": "Software Factory Demo — 역할별 실행 조합",
+      "author": "ROBOCO / software-factory-demo contributors",
+      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/config/agents.ts",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+      "revision_committed_on": "2026-10-12T22:58:02Z",
+      "verification_status": "공개 문서·코드의 명시한 범위 직접 확인",
+      "verification_scope": "역할별 엔진·모델·예산, pickReviewer·assignEngines·resolveModel·estimateCostUsd",
+      "use": "11장 구현 예제",
+      "limit": "배정·기록 조건 확인이며 모델 우열이나 독립 검증의 실효성을 입증하지 않음. 모델명·가격 추천은 차용하지 않음.",
+      "supporting_urls": [
+        "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/factory/agents.yml"
+      ],
+      "usage_review": {
+        "checked_on": "2026-10-13",
+        "direct_quote_words": 0,
+        "files": [
+          "manuscript/chapters/ch11.md",
+          "research/cases/software-factory-demo.md",
+          "research/claims/ch11.json",
+          "research/claims/software-factory-demo.json",
+          "research/software-factory-demo-inventory.json",
+          "research/sources.json"
+        ],
+        "scope": "짧은 관측 설명과 별도 저자 해석·질문만 사용. 원문·코드 복제 없음. 관련 파일의 누적 파생 설명을 점검한다.",
+        "cited_paragraph_whitespace_units": 36,
+        "count_limit": "원고의 출처 표식 문단 전체 공백 집계. 책의 해석·제한도 포함하며 영어 단어 수나 원문 파생량의 자동 판정이 아니다.",
+        "manual_review": "원고의 관측 문장과 대장·주장·사례 지도의 짧은 설명을 누적 검토. 반복 요약보다 원문 위치로 연결하고 저자 해석·질문을 구분했다. 직접 인용·원문/코드/로그 복제 없음."
+      }
+    },
+    {
+      "id": "S66",
+      "title": "Software Factory Demo — 기록과 지표의 분모",
+      "author": "ROBOCO / software-factory-demo contributors",
+      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/report/metrics.ts",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+      "revision_committed_on": "2026-10-12T22:58:02Z",
+      "verification_status": "공개 문서·코드의 명시한 범위 직접 확인",
+      "verification_scope": "RunRecord·completionRate·engineStats·ratio·ruleEffects",
+      "use": "17장 구현 예제",
+      "limit": "주간 지표 계산 정의. 대시보드 모든 렌더링·최신 기록 집계·총생산성 인과 효과 미검증.",
+      "supporting_urls": [
+        "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/runs/store.ts"
+      ],
+      "usage_review": {
+        "checked_on": "2026-10-13",
+        "direct_quote_words": 0,
+        "files": [
+          "manuscript/chapters/ch17.md",
+          "research/cases/software-factory-demo.md",
+          "research/claims/ch17.json",
+          "research/claims/software-factory-demo.json",
+          "research/software-factory-demo-inventory.json",
+          "research/sources.json"
+        ],
+        "scope": "짧은 관측 설명과 별도 저자 해석·질문만 사용. 원문·코드 복제 없음. 관련 파일의 누적 파생 설명을 점검한다.",
+        "cited_paragraph_whitespace_units": 44,
+        "count_limit": "원고의 출처 표식 문단 전체 공백 집계. 책의 해석·제한도 포함하며 영어 단어 수나 원문 파생량의 자동 판정이 아니다.",
+        "manual_review": "원고의 관측 문장과 대장·주장·사례 지도의 짧은 설명을 누적 검토. 반복 요약보다 원문 위치로 연결하고 저자 해석·질문을 구분했다. 직접 인용·원문/코드/로그 복제 없음."
+      }
+    },
+    {
+      "id": "S67",
+      "title": "Software Factory Demo — 개선 후보와 규칙 평가",
+      "author": "ROBOCO / software-factory-demo contributors",
+      "url": "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/eval.ts",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+      "revision_committed_on": "2026-10-12T22:58:02Z",
+      "verification_status": "공개 문서·코드의 명시한 범위 직접 확인",
+      "verification_scope": "후보 중복/정책 보류 제외, 허용 경로, improveStage, runEvalPlan·judgeEval",
+      "use": "19장 구현 예제",
+      "limit": "규칙 검출과 평가 사례 보호의 코드 확인. 평가 밖 실패·악의적 코드·장기 조직 효과는 미검증.",
+      "supporting_urls": [
+        "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/collect.ts",
+        "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/policy/improve-paths.ts",
+        "https://github.com/roboco-io/software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/improve.ts"
+      ],
+      "usage_review": {
+        "checked_on": "2026-10-13",
+        "direct_quote_words": 0,
+        "files": [
+          "manuscript/chapters/ch19.md",
+          "research/cases/software-factory-demo.md",
+          "research/claims/ch19.json",
+          "research/claims/software-factory-demo.json",
+          "research/software-factory-demo-inventory.json",
+          "research/sources.json"
+        ],
+        "scope": "짧은 관측 설명과 별도 저자 해석·질문만 사용. 원문·코드 복제 없음. 관련 파일의 누적 파생 설명을 점검한다.",
+        "cited_paragraph_whitespace_units": 42,
+        "count_limit": "원고의 출처 표식 문단 전체 공백 집계. 책의 해석·제한도 포함하며 영어 단어 수나 원문 파생량의 자동 판정이 아니다.",
+        "manual_review": "원고의 관측 문장과 대장·주장·사례 지도의 짧은 설명을 누적 검토. 반복 요약보다 원문 위치로 연결하고 저자 해석·질문을 구분했다. 직접 인용·원문/코드/로그 복제 없음."
+      }
+    },
+    {
+      "id": "S68",
+      "title": "Software Factory Demo — 개선 PR #47과 검증 PR #48의 공개 기록",
+      "author": "ROBOCO 저장소 기여자·팩토리 봇 / GitHub Actions",
+      "url": "https://github.com/roboco-io/software-factory-demo/pull/47",
+      "published_on": "2026-10-12",
+      "checked_on": "2026-10-13",
+      "verification_status": "PR 메타데이터·본문·두 job 로그 직접 확인",
+      "verification_scope": "PR #47 eval job 114724977130의 전후 검출 판정, PR #48 lint job 114726765443의 규칙 오류·종료. PR #47 병합, #48 미병합 종료 확인.",
+      "use": "19장 구현 예제",
+      "limit": "README가 설명한 의도적 실패 리허설. 로그 읽기이며 재실행·자연 발생 실패의 장기 감소·전체 승인 경로 검증은 아님.",
+      "supporting_urls": [
+        "https://github.com/roboco-io/software-factory-demo/pull/48",
+        "https://github.com/roboco-io/software-factory-demo/actions/runs/38223377457/job/114724977130",
+        "https://github.com/roboco-io/software-factory-demo/actions/runs/38223958193/job/114726765443"
+      ],
+      "record_versions": {
+        "pr47_head": "7f65b26d7d48a4dc9e49e461bb7e4886ad3f03dd",
+        "pr47_base": "484da0efd671cc2c87cc2085ae43c7130a80985d",
+        "pr48_head": "60ef31c9e9db979fe290e3bd0493d8a6bb5e1b71",
+        "pr48_tested_merge": "4dc986c9c8f06bf891e7d77720eb36463c16313d"
+      },
+      "usage_review": {
+        "checked_on": "2026-10-13",
+        "direct_quote_words": 0,
+        "files": [
+          "manuscript/chapters/ch19.md",
+          "research/cases/software-factory-demo.md",
+          "research/claims/ch19.json",
+          "research/claims/software-factory-demo.json",
+          "research/software-factory-demo-inventory.json",
+          "research/sources.json"
+        ],
+        "scope": "검출 여부·병합 상태와 실험 성격만 의역. 로그·원문·코드의 복제 없음.",
+        "cited_paragraph_whitespace_units": 46,
+        "count_limit": "원고의 출처 표식 문단 전체 공백 집계. 책의 해석·제한도 포함하며 영어 단어 수나 원문 파생량의 자동 판정이 아니다.",
+        "manual_review": "원고의 관측 문장과 대장·주장·사례 지도의 짧은 설명을 누적 검토. 반복 요약보다 원문 위치로 연결하고 저자 해석·질문을 구분했다. 직접 인용·원문/코드/로그 복제 없음."
+      }
     }
   ],
   "source_aliases": {

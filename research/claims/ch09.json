@@ -94,6 +94,23 @@
       "location": "예외와 복구에도 책임의 경계가 필요하다 / 판단 충돌의 가상 조회 예시",
       "type": "저자 운영 제안·가상 설명 예시",
       "note": "중단·사업·기반·정책 판단과 조정을 구분. 응답 기한·대체 판단·제한 상태를 연결하며 조정자가 정책 권한을 대신 행사하지 않음. 효과 입증 사례 아님."
+    },
+    {
+      "location": "결과를 만드는 단계와 게시하는 단계를 나눈다",
+      "type": "공개 구현·기록 확인",
+      "source": "S64",
+      "note": "고정 버전과 확인 위치는 research/claims/software-factory-demo.json 및 출처 대장 참조. 코드 관찰·공개 실행 기록을 조직 효과로 확대하지 않음."
+    },
+    {
+      "location": "결과를 만드는 단계와 게시하는 단계를 나눈다",
+      "type": "공개 구현·기록 확인",
+      "source": "S59",
+      "note": "고정 버전과 확인 위치는 research/claims/software-factory-demo.json 및 출처 대장 참조. 코드 관찰·공개 실행 기록을 조직 효과로 확대하지 않음."
+    },
+    {
+      "location": "결과를 만드는 단계와 게시하는 단계를 나눈다",
+      "type": "저자 해석·적용 질문",
+      "note": "구현에서 해당 장의 리더 판단과 비용·한계를 도출. 실제 업무에서 평가할 제안이며 일반적 효과 입증 아님."
     }
   ],
   "review": {
@@ -134,5 +151,15 @@
       ],
       "reviewer": "작성 에이전트의 재검토; 독립 인간 리뷰 아님"
     }
+  },
+  "demo_integration": {
+    "checked_on": "2026-10-13",
+    "revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+    "sources": [
+      "S64",
+      "S59"
+    ],
+    "status": "초고 반영·편집 확정 대기",
+    "record": "planning/software-factory-demo-integration.md"
   }
 }

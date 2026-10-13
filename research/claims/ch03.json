@@ -51,6 +51,17 @@
       "type": "저자의 기존 글 제안·분석 틀을 재구성",
       "source": "S38",
       "note": "조건이 보호하는 약속과 변경 비용으로 공통 규칙 검토. OpenClaw 사례 효과는 채택하지 않음."
+    },
+    {
+      "location": "정책을 바꾸는 변경도 분류한다",
+      "type": "공개 구현·기록 확인",
+      "source": "S60",
+      "note": "고정 버전과 확인 위치는 research/claims/software-factory-demo.json 및 출처 대장 참조. 코드 관찰·공개 실행 기록을 조직 효과로 확대하지 않음."
+    },
+    {
+      "location": "정책을 바꾸는 변경도 분류한다",
+      "type": "저자 해석·적용 질문",
+      "note": "구현에서 해당 장의 리더 판단과 비용·한계를 도출. 실제 업무에서 평가할 제안이며 일반적 효과 입증 아님."
     }
   ],
   "review": {
@@ -63,5 +74,14 @@
       "실제 실행과 조직 성과 및 패턴 효과의 검증"
     ],
     "roboco_reuse": "2026-10-11: 고정 저장소 원문에서 저자의 제안만 차용. 기존 미검증 항목 유지."
+  },
+  "demo_integration": {
+    "checked_on": "2026-10-13",
+    "revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+    "sources": [
+      "S60"
+    ],
+    "status": "초고 반영·편집 확정 대기",
+    "record": "planning/software-factory-demo-integration.md"
   }
 }

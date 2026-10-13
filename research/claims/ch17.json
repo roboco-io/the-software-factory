@@ -61,6 +61,17 @@
       "location": "전체 비용과 품질을 함께 기록한다 / 지표 충돌의 가상 문의 예시",
       "type": "저자 판단 제안·가상 설명 예시",
       "note": "품질 경계 위반·비용 초과·증거 부족의 다음 행동을 구분. 실행 전 기준·기간·재판정 책임을 정하며 현재 유지와 새 범위 확대를 분리. 사례 수치 없음."
+    },
+    {
+      "location": "지표 이름보다 계산 대상을 읽는다",
+      "type": "공개 구현·기록 확인",
+      "source": "S66",
+      "note": "고정 버전과 확인 위치는 research/claims/software-factory-demo.json 및 출처 대장 참조. 코드 관찰·공개 실행 기록을 조직 효과로 확대하지 않음."
+    },
+    {
+      "location": "지표 이름보다 계산 대상을 읽는다",
+      "type": "저자 해석·적용 질문",
+      "note": "구현에서 해당 장의 리더 판단과 비용·한계를 도출. 실제 업무에서 평가할 제안이며 일반적 효과 입증 아님."
     }
   ],
   "review": {
@@ -105,5 +116,14 @@
       ],
       "reviewer": "작성 에이전트의 재검토; 독립 인간 리뷰 아님"
     }
+  },
+  "demo_integration": {
+    "checked_on": "2026-10-13",
+    "revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+    "sources": [
+      "S66"
+    ],
+    "status": "초고 반영·편집 확정 대기",
+    "record": "planning/software-factory-demo-integration.md"
   }
 }

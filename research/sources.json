@@ -36,7 +36,8 @@
           "research/claims/roboco-blog-review.json",
           "research/roboco-blog-inventory.json",
           "research/roboco-blog-review.md",
-          "research/sources.json"
+          "research/sources.json",
+          "research/claims/preface.json"
         ],
         "summary_check": "완성한 장과 기존 원고·연구 메모·주장 메모·대장·색인의 누적 사용을 검토. 자료 설명은 짧게 유지하고 저자의 해석·제안·확인 한계를 구분. 직접 인용·원문 복제·수치 재현 없음. 출처별 200단어 기본 상한 안에서 파생 설명을 수동 점검.",
         "conservative_review_whitespace_units": 178,
@@ -49,7 +50,12 @@
           "report": "planning/reviews/2026-10-13-remaining-review.md",
           "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
         }
-      ]
+      ],
+      "preface_attribution": {
+        "checked_on": "2026-10-13",
+        "scope": "자료명과 이 책에서 참고한 역할을 명시. 기존 장·연구 기록의 설명을 재확인하고 원문 논증의 추가 재현을 피함. 신규 직접 인용 없음.",
+        "record": "research/claims/preface.json"
+      }
     },
     {
       "id": "S02",
@@ -80,9 +86,15 @@
           "research/claims/roboco-blog-review.json",
           "research/roboco-blog-inventory.json",
           "research/roboco-blog-review.md",
-          "research/sources.json"
+          "research/sources.json",
+          "research/claims/preface.json"
         ],
         "summary_check": "기존 원고·조사 카드와 이번 차용의 누적 사용을 검토. 직접 인용 없이 저자의 짧은 제안과 분석 관점을 재구성. 출처별 200단어 기본 상한에 맞춰 요약 사용. 외부 사례·수치·인과 미추가."
+      },
+      "preface_attribution": {
+        "checked_on": "2026-10-13",
+        "scope": "자료명과 이 책에서 참고한 역할을 명시. 기존 장·연구 기록의 설명을 재확인하고 원문 논증의 추가 재현을 피함. 신규 직접 인용 없음.",
+        "record": "research/claims/preface.json"
       }
     },
     {
@@ -104,7 +116,9 @@
           "planning/draft-review-2026-10-12.md",
           "planning/sessions/2026-10-12-complete-drafts.md",
           "research/claims/ch01.json",
-          "planning/reviews/2026-10-13-baseline-review.md"
+          "planning/reviews/2026-10-13-baseline-review.md",
+          "manuscript/front-matter/00-preface.md",
+          "research/claims/preface.json"
         ],
         "summary_check": "완성한 장과 기존 원고·연구 메모·주장 메모·대장·색인의 누적 사용을 검토. 자료 설명은 짧게 유지하고 저자의 해석·제안·확인 한계를 구분. 직접 인용·원문 복제·수치 재현 없음. 출처별 200단어 기본 상한 안에서 파생 설명을 수동 점검.",
         "conservative_review_whitespace_units": 95,
@@ -123,7 +137,19 @@
           "report": "planning/reviews/2026-10-13-baseline-review.md",
           "status": "관련 범위 재대조; 전체 통독·효과 검증 아님"
         }
-      ]
+      ],
+      "preface_attribution": {
+        "checked_on": "2026-10-13",
+        "scope": "자료명과 이 책에서 참고한 역할을 명시. 기존 장·연구 기록의 설명을 재확인하고 원문 논증의 추가 재현을 피함. 신규 직접 인용 없음.",
+        "record": "research/claims/preface.json"
+      },
+      "current_manuscript_use": {
+        "checked_on": "2026-10-13",
+        "files": [
+          "manuscript/front-matter/00-preface.md"
+        ],
+        "scope": "선행 논의의 참고를 한 문장으로 명시. 1·2장의 방법론 소개는 삭제. 기존 확인·사용 기록은 과거 이력으로 보존."
+      }
     },
     {
       "id": "S04",
@@ -144,7 +170,9 @@
           "planning/draft-review-2026-10-12.md",
           "planning/sessions/2026-10-12-complete-drafts.md",
           "research/claims/ch01.json",
-          "planning/reviews/2026-10-13-baseline-review.md"
+          "planning/reviews/2026-10-13-baseline-review.md",
+          "manuscript/front-matter/00-preface.md",
+          "research/claims/preface.json"
         ],
         "summary_check": "완성한 장과 기존 원고·연구 메모·주장 메모·대장·색인의 누적 사용을 검토. 자료 설명은 짧게 유지하고 저자의 해석·제안·확인 한계를 구분. 직접 인용·원문 복제·수치 재현 없음. 출처별 200단어 기본 상한 안에서 파생 설명을 수동 점검.",
         "conservative_review_whitespace_units": 171,
@@ -169,7 +197,19 @@
           "report": "planning/reviews/2026-10-13-remaining-review.md",
           "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
         }
-      ]
+      ],
+      "preface_attribution": {
+        "checked_on": "2026-10-13",
+        "scope": "자료명과 이 책에서 참고한 역할을 명시. 기존 장·연구 기록의 설명을 재확인하고 원문 논증의 추가 재현을 피함. 신규 직접 인용 없음.",
+        "record": "research/claims/preface.json"
+      },
+      "current_manuscript_use": {
+        "checked_on": "2026-10-13",
+        "files": [
+          "manuscript/front-matter/00-preface.md"
+        ],
+        "scope": "선행 논의의 참고를 한 문장으로 명시. 1·2장의 방법론 소개는 삭제. 기존 확인·사용 기록은 과거 이력으로 보존."
+      }
     },
     {
       "id": "S05",
@@ -180,7 +220,18 @@
       "published_on": null,
       "verification_status": "본문 또는 공개 소개 확인",
       "limit": "원서 본문 전체 미확보",
-      "verification_scope": "공식 도서 소개 확인"
+      "verification_scope": "공식 도서 소개 확인",
+      "usage_review": {
+        "files": [
+          "manuscript/front-matter/00-preface.md",
+          "research/claims/preface.json"
+        ]
+      },
+      "preface_attribution": {
+        "checked_on": "2026-10-13",
+        "scope": "자료명과 이 책에서 참고한 역할을 명시. 기존 장·연구 기록의 설명을 재확인하고 원문 논증의 추가 재현을 피함. 신규 직접 인용 없음.",
+        "record": "research/claims/preface.json"
+      }
     },
     {
       "id": "S06",
@@ -191,7 +242,21 @@
       "published_on": null,
       "verification_status": "본문 또는 공개 소개 확인",
       "limit": "한국어판 본문 전체 미확보",
-      "verification_scope": "한국어판 공식 소개·서지 확인"
+      "verification_scope": "한국어판 공식 소개·서지 확인",
+      "preface_attribution": {
+        "checked_on": "2026-10-13",
+        "scope": "한국어판 제목의 기존 서지 확인 범위 사용. 새 원문·직접 인용 추가 없음.",
+        "record": "research/claims/preface.json"
+      },
+      "usage_review": {
+        "files": [
+          "research/mcconnell/chapter-map.md",
+          "manuscript/front-matter/00-preface.md",
+          "research/claims/preface.json"
+        ],
+        "direct_quote_words": 0,
+        "scope": "서지와 기존 목차 연결 범위만 사용. 본문의 상세 논증을 요약하지 않음."
+      }
     },
     {
       "id": "S07",
@@ -223,12 +288,20 @@
           "research/sources.json",
           "research/README.md",
           "STATUS.md",
-          "planning/sessions/2026-10-11-ch04.md"
+          "planning/sessions/2026-10-11-ch04.md",
+          "manuscript/chapters/ch09.md",
+          "research/claims/ch09.json",
+          "research/harness-editorial-note.md"
         ],
         "direct_quote_words": 0,
         "manuscript_summary_whitespace_units": 22,
         "count_method": "4장 해당 출처 표식 이전 설명의 공백 단위 집계. 한국어 어절이며 전체 파생량의 자동 판정은 아님.",
-        "summary_check": "원고·출처 대장·주장 메모·진행 기록·색인의 사용을 수동 대조. 출처별 200단어 상한 안에서 짧게 요약. 저자 해석과 제안, 확인 한계를 구분. 원문 코드·예시·성과 수치·장문 번역 없음."
+        "summary_check": "원고·출처 대장·주장 메모·진행 기록·색인의 사용을 수동 대조. 출처별 200단어 상한 안에서 짧게 요약. 저자 해석과 제안, 확인 한계를 구분. 원문 코드·예시·성과 수치·장문 번역 없음.",
+        "harness_addendum": {
+          "checked_on": "2026-10-13",
+          "new_direct_quotes": 0,
+          "scope": "기존 본문·패턴·주장·대장의 해당 출처 사용과 9장 추가를 대조. 새 문단은 설계 관찰을 짧게 요약하고 책의 역할표·운영 판단은 저자 제안으로 분리. 원문 예시·수치·코드의 재현 없음."
+        }
       },
       "review_checks": [
         {
@@ -236,6 +309,12 @@
           "scope": "세션 인계·Testing 관련 반환 부분",
           "report": "planning/reviews/2026-10-13-remaining-review.md",
           "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        },
+        {
+          "checked_on": "2026-10-13",
+          "scope": "도입·The long-running agent problem·초기화/점진적 수행과 기록의 연결 부분 재확인",
+          "report": "research/harness-editorial-note.md",
+          "status": "공식 원문 해당 부분 확인. 전체 문서 통독·실행·운영 효과 검증 아님."
         }
       ]
     },
@@ -255,8 +334,33 @@
           "scope": "저장소 지식 지도·계획·지침 규모 관련 반환 부분",
           "report": "planning/reviews/2026-10-13-remaining-review.md",
           "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        },
+        {
+          "checked_on": "2026-10-13",
+          "scope": "도입과 Redefining the role of the engineer의 환경·도구·피드백 설계 설명 재확인",
+          "report": "research/harness-editorial-note.md",
+          "status": "공식 원문 해당 부분 확인. 전체 문서 통독·실행·운영 효과 검증 아님."
         }
-      ]
+      ],
+      "usage_review": {
+        "files": [
+          "manuscript/front-matter/00-preface.md",
+          "research/claims/preface.json",
+          "manuscript/chapters/ch09.md",
+          "research/claims/ch09.json",
+          "research/harness-editorial-note.md"
+        ],
+        "harness_addendum": {
+          "checked_on": "2026-10-13",
+          "new_direct_quotes": 0,
+          "scope": "기존 본문·패턴·주장·대장의 해당 출처 사용과 9장 추가를 대조. 새 문단은 설계 관찰을 짧게 요약하고 책의 역할표·운영 판단은 저자 제안으로 분리. 원문 예시·수치·코드의 재현 없음."
+        }
+      },
+      "preface_attribution": {
+        "checked_on": "2026-10-13",
+        "scope": "자료명과 이 책에서 참고한 역할을 명시. 기존 장·연구 기록의 설명을 재확인하고 원문 논증의 추가 재현을 피함. 신규 직접 인용 없음.",
+        "record": "research/claims/preface.json"
+      }
     },
     {
       "id": "S10",
@@ -282,7 +386,9 @@
           "research/sources.json",
           "STATUS.md",
           "planning/sessions/2026-10-11-ch07.md",
-          "planning/reviews/2026-10-13-baseline-review.md"
+          "planning/reviews/2026-10-13-baseline-review.md",
+          "manuscript/front-matter/00-preface.md",
+          "research/claims/preface.json"
         ],
         "direct_quote_words": 0,
         "manuscript_summary_whitespace_units": 55,
@@ -315,6 +421,11 @@
         "scope": "기존 출처 표식 문단의 축약과 해당 장 주장 메모 대조. 새로운 원문·직접 인용·성과 수치·사실 추가 없음.",
         "changed_manuscript": "manuscript/chapters/ch02.md",
         "limit": "이전 외부 확인 범위를 승격하지 않음. 기존 누적 사용 기록은 확인 당시의 이력으로 보존."
+      },
+      "preface_attribution": {
+        "checked_on": "2026-10-13",
+        "scope": "자료명과 이 책에서 참고한 역할을 명시. 기존 장·연구 기록의 설명을 재확인하고 원문 논증의 추가 재현을 피함. 신규 직접 인용 없음.",
+        "record": "research/claims/preface.json"
       }
     },
     {
@@ -337,7 +448,18 @@
       "verification_status": "1장 독자 설명 일부 확인",
       "verification_scope": "제3자 서비스에서 공개한 저자 원문. 직위와 기술·비기술 독자 설명",
       "use": "독자 정의",
-      "limit": "본문 전체 통독 아님"
+      "limit": "본문 전체 통독 아님",
+      "usage_review": {
+        "files": [
+          "manuscript/front-matter/00-preface.md",
+          "research/claims/preface.json"
+        ]
+      },
+      "preface_attribution": {
+        "checked_on": "2026-10-13",
+        "scope": "자료명과 이 책에서 참고한 역할을 명시. 기존 장·연구 기록의 설명을 재확인하고 원문 논증의 추가 재현을 피함. 신규 직접 인용 없음.",
+        "record": "research/claims/preface.json"
+      }
     },
     {
       "id": "S13",
@@ -566,12 +688,20 @@
           "research/sources.json",
           "research/README.md",
           "STATUS.md",
-          "planning/sessions/2026-10-11-ch04.md"
+          "planning/sessions/2026-10-11-ch04.md",
+          "manuscript/chapters/ch09.md",
+          "research/claims/ch09.json",
+          "research/harness-editorial-note.md"
         ],
         "direct_quote_words": 0,
         "manuscript_summary_whitespace_units": 17,
         "count_method": "4장 해당 출처 표식 이전 설명의 공백 단위 집계. 한국어 어절이며 전체 파생량의 자동 판정은 아님.",
-        "summary_check": "원고·출처 대장·주장 메모·진행 기록·색인의 사용을 수동 대조. 출처별 200단어 상한 안에서 짧게 요약. 저자 해석과 제안, 확인 한계를 구분. 원문 코드·예시·성과 수치·장문 번역 없음."
+        "summary_check": "원고·출처 대장·주장 메모·진행 기록·색인의 사용을 수동 대조. 출처별 200단어 상한 안에서 짧게 요약. 저자 해석과 제안, 확인 한계를 구분. 원문 코드·예시·성과 수치·장문 번역 없음.",
+        "harness_addendum": {
+          "checked_on": "2026-10-13",
+          "new_direct_quotes": 0,
+          "scope": "기존 본문·패턴·주장·대장의 해당 출처 사용과 9장 추가를 대조. 새 문단은 설계 관찰을 짧게 요약하고 책의 역할표·운영 판단은 저자 제안으로 분리. 원문 예시·수치·코드의 재현 없음."
+        }
       },
       "review_checks": [
         {
@@ -579,6 +709,12 @@
           "scope": "하네스 가정·모델 변화의 도입부",
           "report": "planning/reviews/2026-10-13-remaining-review.md",
           "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        },
+        {
+          "checked_on": "2026-10-13",
+          "scope": "도입의 모델 가정 변화, 세션/하네스/샌드박스 구분과 Decouple the brain from the hands의 도입 부분 재확인",
+          "report": "research/harness-editorial-note.md",
+          "status": "공식 원문 해당 부분 확인. 전체 문서 통독·실행·운영 효과 검증 아님."
         }
       ]
     },
@@ -2290,12 +2426,23 @@
           "research/claims/ch19.json",
           "research/claims/software-factory-demo.json",
           "research/software-factory-demo-inventory.json",
-          "research/sources.json"
+          "research/sources.json",
+          "manuscript/front-matter/00-preface.md",
+          "research/claims/preface.json"
         ],
         "scope": "짧은 관측 설명과 별도 저자 해석·질문만 사용. 원문·코드 복제 없음. 관련 파일의 누적 파생 설명을 점검한다.",
         "cited_paragraph_whitespace_units": 309,
         "count_limit": "원고의 출처 표식 문단 전체 공백 집계. 책의 해석·제한도 포함하며 영어 단어 수나 원문 파생량의 자동 판정이 아니다.",
         "manual_review": "원고의 관측 문장과 대장·주장·사례 지도의 짧은 설명을 누적 검토. 반복 요약보다 원문 위치로 연결하고 저자 해석·질문을 구분했다. 직접 인용·원문/코드/로그 복제 없음."
+      },
+      "preface_attribution": {
+        "checked_on": "2026-10-13",
+        "scope": "공개 데모를 로보코 방식의 구현체와 책 전체의 공통 예시로 소개. 기존 확인 범위와 원문 고정 버전을 유지하며 새 실행/성과 검증을 주장하지 않음.",
+        "record": "research/claims/preface.json"
+      },
+      "reader_presentation": {
+        "checked_on": "2026-10-13",
+        "note": "1장에서 확인일·커밋 ID를 적은 독립 문장을 삭제했다. 원문 URL·고정 버전과 관찰 범위는 대장과 구현 사례 지도에 유지한다."
       }
     },
     {
@@ -2689,7 +2836,9 @@
           "manuscript/chapters/ch03.md",
           "research/claims/ch03.json",
           "planning/roboco-sites-adoption.md",
-          "planning/reviews/2026-10-13-remaining-review.md"
+          "planning/reviews/2026-10-13-remaining-review.md",
+          "manuscript/front-matter/00-preface.md",
+          "research/claims/preface.json"
         ],
         "scope": "기존 제안·원고·대장·주장·반영 지도 누적 사용 검토. 원문 설명과 현재 책의 해석/질문을 구분해 짧게 유지. 원문·코드·장문 번역·성과 수치 복제 없음.",
         "quote_count_method": "짧은 인용 후보의 공백 단위 집계. 한국어 어절이며 엄밀한 영어 단어 수 규칙의 적용을 주장하지 않음.",
@@ -2705,6 +2854,11 @@
         "map": "planning/roboco-sites-adoption.md",
         "report": "planning/reviews/2026-10-13-remaining-review.md",
         "limit": "이전 작성/공개/개정 시점은 기존 고정 이력 기준. 원문 주장·책의 제안과 운영 효과 구분."
+      },
+      "preface_attribution": {
+        "checked_on": "2026-10-13",
+        "scope": "자료명과 이 책에서 참고한 역할을 명시. 기존 장·연구 기록의 설명을 재확인하고 원문 논증의 추가 재현을 피함. 신규 직접 인용 없음.",
+        "record": "research/claims/preface.json"
       }
     },
     {
@@ -2745,7 +2899,9 @@
           "manuscript/chapters/ch20.md",
           "research/claims/ch20.json",
           "planning/roboco-sites-adoption.md",
-          "planning/reviews/2026-10-13-remaining-review.md"
+          "planning/reviews/2026-10-13-remaining-review.md",
+          "manuscript/front-matter/00-preface.md",
+          "research/claims/preface.json"
         ],
         "scope": "기존 제안·원고·대장·주장·반영 지도 누적 사용 검토. 원문 설명과 현재 책의 해석/질문을 구분해 짧게 유지. 원문·코드·장문 번역·성과 수치 복제 없음.",
         "quote_count_method": "짧은 인용 후보의 공백 단위 집계. 한국어 어절이며 엄밀한 영어 단어 수 규칙의 적용을 주장하지 않음.",
@@ -2763,6 +2919,11 @@
         "map": "planning/roboco-sites-adoption.md",
         "report": "planning/reviews/2026-10-13-remaining-review.md",
         "limit": "이전 작성/공개/개정 시점은 기존 고정 이력 기준. 원문 주장·책의 제안과 운영 효과 구분."
+      },
+      "preface_attribution": {
+        "checked_on": "2026-10-13",
+        "scope": "자료명과 이 책에서 참고한 역할을 명시. 기존 장·연구 기록의 설명을 재확인하고 원문 논증의 추가 재현을 피함. 신규 직접 인용 없음.",
+        "record": "research/claims/preface.json"
       }
     },
     {
@@ -2802,7 +2963,9 @@
           "manuscript/chapters/ch19.md",
           "research/claims/ch19.json",
           "planning/roboco-sites-adoption.md",
-          "planning/reviews/2026-10-13-remaining-review.md"
+          "planning/reviews/2026-10-13-remaining-review.md",
+          "manuscript/front-matter/00-preface.md",
+          "research/claims/preface.json"
         ],
         "scope": "기존 제안·원고·대장·주장·반영 지도 누적 사용 검토. 원문 설명과 현재 책의 해석/질문을 구분해 짧게 유지. 원문·코드·장문 번역·성과 수치 복제 없음.",
         "quote_count_method": "짧은 인용 후보의 공백 단위 집계. 한국어 어절이며 엄밀한 영어 단어 수 규칙의 적용을 주장하지 않음.",
@@ -2819,6 +2982,11 @@
         "map": "planning/roboco-sites-adoption.md",
         "report": "planning/reviews/2026-10-13-remaining-review.md",
         "limit": "이전 작성/공개/개정 시점은 기존 고정 이력 기준. 원문 주장·책의 제안과 운영 효과 구분."
+      },
+      "preface_attribution": {
+        "checked_on": "2026-10-13",
+        "scope": "자료명과 이 책에서 참고한 역할을 명시. 기존 장·연구 기록의 설명을 재확인하고 원문 논증의 추가 재현을 피함. 신규 직접 인용 없음.",
+        "record": "research/claims/preface.json"
       }
     },
     {
@@ -2859,7 +3027,9 @@
           "manuscript/chapters/ch08.md",
           "research/claims/ch08.json",
           "planning/roboco-sites-adoption.md",
-          "planning/reviews/2026-10-13-remaining-review.md"
+          "planning/reviews/2026-10-13-remaining-review.md",
+          "manuscript/front-matter/00-preface.md",
+          "research/claims/preface.json"
         ],
         "scope": "기존 제안·원고·대장·주장·반영 지도 누적 사용 검토. 원문 설명과 현재 책의 해석/질문을 구분해 짧게 유지. 원문·코드·장문 번역·성과 수치 복제 없음.",
         "quote_count_method": "짧은 인용 후보의 공백 단위 집계. 한국어 어절이며 엄밀한 영어 단어 수 규칙의 적용을 주장하지 않음.",
@@ -2876,6 +3046,11 @@
         "map": "planning/roboco-sites-adoption.md",
         "report": "planning/reviews/2026-10-13-remaining-review.md",
         "limit": "이전 작성/공개/개정 시점은 기존 고정 이력 기준. 원문 주장·책의 제안과 운영 효과 구분."
+      },
+      "preface_attribution": {
+        "checked_on": "2026-10-13",
+        "scope": "자료명과 이 책에서 참고한 역할을 명시. 기존 장·연구 기록의 설명을 재확인하고 원문 논증의 추가 재현을 피함. 신규 직접 인용 없음.",
+        "record": "research/claims/preface.json"
       }
     },
     {
@@ -2910,7 +3085,9 @@
           "manuscript/chapters/ch17.md",
           "research/claims/ch17.json",
           "planning/roboco-sites-adoption.md",
-          "planning/reviews/2026-10-13-remaining-review.md"
+          "planning/reviews/2026-10-13-remaining-review.md",
+          "manuscript/front-matter/00-preface.md",
+          "research/claims/preface.json"
         ],
         "scope": "기존 제안·원고·대장·주장·반영 지도 누적 사용 검토. 원문 설명과 현재 책의 해석/질문을 구분해 짧게 유지. 원문·코드·장문 번역·성과 수치 복제 없음.",
         "quote_count_method": "짧은 인용 후보의 공백 단위 집계. 한국어 어절이며 엄밀한 영어 단어 수 규칙의 적용을 주장하지 않음.",
@@ -2925,6 +3102,11 @@
         "map": "planning/roboco-sites-adoption.md",
         "report": "planning/reviews/2026-10-13-remaining-review.md",
         "limit": "이전 작성/공개/개정 시점은 기존 고정 이력 기준. 원문 주장·책의 제안과 운영 효과 구분."
+      },
+      "preface_attribution": {
+        "checked_on": "2026-10-13",
+        "scope": "자료명과 이 책에서 참고한 역할을 명시. 기존 장·연구 기록의 설명을 재확인하고 원문 논증의 추가 재현을 피함. 신규 직접 인용 없음.",
+        "record": "research/claims/preface.json"
       }
     },
     {
@@ -2948,7 +3130,9 @@
           "manuscript/chapters/ch17.md",
           "research/claims/ch17.json",
           "planning/roboco-sites-adoption.md",
-          "planning/reviews/2026-10-13-remaining-review.md"
+          "planning/reviews/2026-10-13-remaining-review.md",
+          "manuscript/front-matter/00-preface.md",
+          "research/claims/preface.json"
         ],
         "scope": "기존 제안·원고·대장·주장·반영 지도 누적 사용 검토. 원문 설명과 현재 책의 해석/질문을 구분해 짧게 유지. 원문·코드·장문 번역·성과 수치 복제 없음.",
         "cited_paragraph_whitespace_units": 52,
@@ -2962,6 +3146,11 @@
         "map": "planning/roboco-sites-adoption.md",
         "report": "planning/reviews/2026-10-13-remaining-review.md",
         "limit": "이전 작성/공개/개정 시점은 기존 고정 이력 기준. 원문 주장·책의 제안과 운영 효과 구분."
+      },
+      "preface_attribution": {
+        "checked_on": "2026-10-13",
+        "scope": "자료명과 이 책에서 참고한 역할을 명시. 기존 장·연구 기록의 설명을 재확인하고 원문 논증의 추가 재현을 피함. 신규 직접 인용 없음.",
+        "record": "research/claims/preface.json"
       }
     },
     {
@@ -2985,7 +3174,9 @@
           "manuscript/chapters/ch05.md",
           "research/claims/ch05.json",
           "planning/roboco-sites-adoption.md",
-          "planning/reviews/2026-10-13-remaining-review.md"
+          "planning/reviews/2026-10-13-remaining-review.md",
+          "manuscript/front-matter/00-preface.md",
+          "research/claims/preface.json"
         ],
         "scope": "기존 제안·원고·대장·주장·반영 지도 누적 사용 검토. 원문 설명과 현재 책의 해석/질문을 구분해 짧게 유지. 원문·코드·장문 번역·성과 수치 복제 없음.",
         "cited_paragraph_whitespace_units": 46,
@@ -2999,7 +3190,465 @@
         "map": "planning/roboco-sites-adoption.md",
         "report": "planning/reviews/2026-10-13-remaining-review.md",
         "limit": "이전 작성/공개/개정 시점은 기존 고정 이력 기준. 원문 주장·책의 제안과 운영 효과 구분."
+      },
+      "preface_attribution": {
+        "checked_on": "2026-10-13",
+        "scope": "자료명과 이 책에서 참고한 역할을 명시. 기존 장·연구 기록의 설명을 재확인하고 원문 논증의 추가 재현을 피함. 신규 직접 인용 없음.",
+        "record": "research/claims/preface.json"
       }
+    },
+    {
+      "id": "S76",
+      "title": "Shape Up — online book",
+      "author": "Basecamp / Ryan Singer",
+      "url": "https://basecamp.com/shapeup",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "purpose": "웹 출판 형식 조사 및 머리말의 웹 구성 벤치마크 명시",
+      "verification_status": "공식 원문 관련 부분 확인",
+      "verification_scope": "부·장·절로 연결된 목차와 별도 장 URL을 확인했다.",
+      "limit": "목차·도입 페이지의 구조 확인. 시각 렌더링·독자 효과 실험 아님.",
+      "use": "planning/web-publication-proposal.md; manuscript/front-matter/00-preface.md",
+      "usage_review": {
+        "direct_quote_words": 0,
+        "scope": "원문 저장 없이 제안서·주장 메모·대장에 짧은 기능/한계만 기록. 출처별 200단어 기본 상한 내의 축약 사용.",
+        "files": [
+          "planning/web-publication-proposal.md",
+          "research/claims/web-publication.json",
+          "research/sources.json",
+          "manuscript/front-matter/00-preface.md",
+          "research/claims/preface.json"
+        ]
+      },
+      "supporting_urls": [
+        "https://basecamp.com/shapeup/0.3-chapter-01"
+      ],
+      "preface_attribution": {
+        "checked_on": "2026-10-13",
+        "scope": "자료명과 이 책에서 참고한 역할을 명시. 기존 장·연구 기록의 설명을 재확인하고 원문 논증의 추가 재현을 피함. 신규 직접 인용 없음.",
+        "record": "research/claims/preface.json"
+      }
+    },
+    {
+      "id": "S77",
+      "title": "mdBook — Introduction",
+      "author": "mdBook contributors",
+      "url": "https://rust-lang.github.io/mdBook/",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "purpose": "웹 출판 형식·독자 안내 설계 조사; 원고 본문 인용 아님",
+      "verification_status": "공식 원문 관련 부분 확인",
+      "verification_scope": "Markdown 기반 책 생성, 통합 검색, 테마·전처리 확장을 설명한다.",
+      "limit": "도구 소개 확인. 설치·검색 품질·맞춤 진도 구현은 시험하지 않음.",
+      "use": "planning/web-publication-proposal.md",
+      "usage_review": {
+        "direct_quote_words": 0,
+        "scope": "원문 저장 없이 제안서·주장 메모·대장에 짧은 기능/한계만 기록. 출처별 200단어 기본 상한 내의 축약 사용.",
+        "files": [
+          "planning/web-publication-proposal.md",
+          "research/claims/web-publication.json",
+          "research/sources.json"
+        ]
+      }
+    },
+    {
+      "id": "S78",
+      "title": "Docusaurus — Introduction",
+      "author": "Docusaurus / Meta Open Source",
+      "url": "https://docusaurus.io/docs",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "purpose": "웹 출판 형식·독자 안내 설계 조사; 원고 본문 인용 아님",
+      "verification_status": "공식 원문 관련 부분 확인",
+      "verification_scope": "정적 HTML·React 탐색, MDX·버전 관리·다국어 기능을 설명한다.",
+      "limit": "소개 확인. 읽기 진도 기본 제공 여부나 프로젝트 성능을 입증하지 않음.",
+      "use": "planning/web-publication-proposal.md",
+      "usage_review": {
+        "direct_quote_words": 0,
+        "scope": "원문 저장 없이 제안서·주장 메모·대장에 짧은 기능/한계만 기록. 출처별 200단어 기본 상한 내의 축약 사용.",
+        "files": [
+          "planning/web-publication-proposal.md",
+          "research/claims/web-publication.json",
+          "research/sources.json"
+        ]
+      }
+    },
+    {
+      "id": "S79",
+      "title": "Starlight — project overview",
+      "author": "Astro contributors",
+      "url": "https://starlight.astro.build/",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "purpose": "웹 출판 형식·독자 안내 설계 조사; 원고 본문 인용 아님",
+      "verification_status": "공식 원문 관련 부분 확인",
+      "verification_scope": "Markdown/MDX, 탐색·검색·다국어·테마의 기본 기능을 설명한다.",
+      "limit": "공식 소개의 기능 확인. 현재 원고로 구현·성능 시험하지 않음.",
+      "use": "planning/web-publication-proposal.md",
+      "usage_review": {
+        "direct_quote_words": 0,
+        "scope": "원문 저장 없이 제안서·주장 메모·대장에 짧은 기능/한계만 기록. 출처별 200단어 기본 상한 내의 축약 사용.",
+        "files": [
+          "planning/web-publication-proposal.md",
+          "research/claims/web-publication.json",
+          "research/sources.json"
+        ]
+      }
+    },
+    {
+      "id": "S80",
+      "title": "Starlight — Overriding Components",
+      "author": "Astro contributors",
+      "url": "https://starlight.astro.build/guides/overriding-components/",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "purpose": "웹 출판 형식·독자 안내 설계 조사; 원고 본문 인용 아님",
+      "verification_status": "공식 원문 관련 부분 확인",
+      "verification_scope": "기본 UI를 확장·교체하고 기존 컴포넌트를 재사용하는 경로를 설명한다.",
+      "limit": "읽기 진도는 이 경로를 이용한 추가 구현 제안. 내장 기능으로 주장하지 않음.",
+      "use": "planning/web-publication-proposal.md",
+      "usage_review": {
+        "direct_quote_words": 0,
+        "scope": "원문 저장 없이 제안서·주장 메모·대장에 짧은 기능/한계만 기록. 출처별 200단어 기본 상한 내의 축약 사용.",
+        "files": [
+          "planning/web-publication-proposal.md",
+          "research/claims/web-publication.json",
+          "research/sources.json"
+        ]
+      }
+    },
+    {
+      "id": "S81",
+      "title": "Starlight — Site Search",
+      "author": "Astro contributors",
+      "url": "https://starlight.astro.build/guides/site-search/",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "purpose": "웹 출판 형식·독자 안내 설계 조사; 원고 본문 인용 아님",
+      "verification_status": "공식 원문 관련 부분 확인",
+      "verification_scope": "Pagefind 전체 텍스트 검색과 페이지·영역별 색인 제외를 설명한다.",
+      "limit": "색인 제외는 공개 파일의 접근 제한이 아님. 실제 빌드 미수행.",
+      "use": "planning/web-publication-proposal.md",
+      "usage_review": {
+        "direct_quote_words": 0,
+        "scope": "원문 저장 없이 제안서·주장 메모·대장에 짧은 기능/한계만 기록. 출처별 200단어 기본 상한 내의 축약 사용.",
+        "files": [
+          "planning/web-publication-proposal.md",
+          "research/claims/web-publication.json",
+          "research/sources.json"
+        ]
+      }
+    },
+    {
+      "id": "S82",
+      "title": "Pagefind — Multilingual search",
+      "author": "Pagefind contributors",
+      "url": "https://pagefind.app/docs/multilingual/",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "purpose": "웹 출판 형식·독자 안내 설계 조사; 원고 본문 인용 아님",
+      "verification_status": "공식 원문 관련 부분 확인",
+      "verification_scope": "언어별 색인, 한국어 UI와 어간 처리 지원 차이, 확장 배포판의 분절을 설명한다.",
+      "limit": "한국어 검색 품질은 별도 확인 필요. Starlight 의존 버전의 실제 동작 미검증.",
+      "use": "planning/web-publication-proposal.md",
+      "usage_review": {
+        "direct_quote_words": 0,
+        "scope": "원문 저장 없이 제안서·주장 메모·대장에 짧은 기능/한계만 기록. 출처별 200단어 기본 상한 내의 축약 사용.",
+        "files": [
+          "planning/web-publication-proposal.md",
+          "research/claims/web-publication.json",
+          "research/sources.json"
+        ]
+      }
+    },
+    {
+      "id": "S83",
+      "title": "Using HTTP cookies",
+      "author": "MDN contributors",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "purpose": "웹 출판 형식·독자 안내 설계 조사; 원고 본문 인용 아님",
+      "verification_status": "공식 원문 관련 부분 확인",
+      "verification_scope": "쿠키의 요청 동반 전송과 작은 용량, 브라우저 저장에 별도 Storage API를 권하는 설명을 확인했다.",
+      "limit": "기술적 저장 방식 비교. 법적 동의 의무 판단이나 브라우저별 실측 아님.",
+      "use": "planning/web-publication-proposal.md",
+      "usage_review": {
+        "direct_quote_words": 0,
+        "scope": "원문 저장 없이 제안서·주장 메모·대장에 짧은 기능/한계만 기록. 출처별 200단어 기본 상한 내의 축약 사용.",
+        "files": [
+          "planning/web-publication-proposal.md",
+          "research/claims/web-publication.json",
+          "research/sources.json"
+        ]
+      }
+    },
+    {
+      "id": "S84",
+      "title": "Window: localStorage property",
+      "author": "MDN contributors",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "purpose": "웹 출판 형식·독자 안내 설계 조사; 원고 본문 인용 아님",
+      "verification_status": "공식 원문 관련 부분 확인",
+      "verification_scope": "동일 origin의 세션 간 저장과 시크릿 종료·저장 차단의 제약을 확인했다.",
+      "limit": "영구 보존·기기 동기화 보장 아님. 실제 모바일 브라우저 미검증.",
+      "use": "planning/web-publication-proposal.md",
+      "usage_review": {
+        "direct_quote_words": 0,
+        "scope": "원문 저장 없이 제안서·주장 메모·대장에 짧은 기능/한계만 기록. 출처별 200단어 기본 상한 내의 축약 사용.",
+        "files": [
+          "planning/web-publication-proposal.md",
+          "research/claims/web-publication.json",
+          "research/sources.json"
+        ]
+      }
+    },
+    {
+      "id": "S85",
+      "title": "Deploy your Astro Site to Cloudflare",
+      "author": "Astro contributors",
+      "url": "https://docs.astro.build/en/guides/deploy/cloudflare/",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "purpose": "웹 출판 형식·독자 안내 설계 조사; 원고 본문 인용 아님",
+      "verification_status": "공식 원문 관련 부분 확인",
+      "verification_scope": "새 프로젝트에 Workers 권장, 정적 자산 배포와 Git 기반 빌드 경로를 설명한다.",
+      "limit": "배포 후보 조사. 계정·DNS·요금·권한·실제 배포는 확인하지 않음.",
+      "use": "planning/web-publication-proposal.md",
+      "usage_review": {
+        "direct_quote_words": 0,
+        "scope": "원문 저장 없이 제안서·주장 메모·대장에 짧은 기능/한계만 기록. 출처별 200단어 기본 상한 내의 축약 사용.",
+        "files": [
+          "planning/web-publication-proposal.md",
+          "research/claims/web-publication.json",
+          "research/sources.json"
+        ]
+      }
+    },
+    {
+      "id": "S86",
+      "title": "GitHub integration — Cloudflare Pages",
+      "author": "Cloudflare",
+      "url": "https://developers.cloudflare.com/pages/configuration/git-integration/github-integration/",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "purpose": "웹 출판 형식·독자 안내 설계 조사; 원고 본문 인용 아님",
+      "verification_status": "공식 원문 관련 부분 확인",
+      "verification_scope": "브랜치 배포·미리보기·조직 저장소 접근 설정을 확인했다.",
+      "limit": "Pages의 문서다. Workers의 동일 세부 동작으로 일반화하지 않음.",
+      "use": "planning/web-publication-proposal.md",
+      "usage_review": {
+        "direct_quote_words": 0,
+        "scope": "원문 저장 없이 제안서·주장 메모·대장에 짧은 기능/한계만 기록. 출처별 200단어 기본 상한 내의 축약 사용.",
+        "files": [
+          "planning/web-publication-proposal.md",
+          "research/claims/web-publication.json",
+          "research/sources.json"
+        ]
+      }
+    },
+    {
+      "id": "S87",
+      "title": "Question pages",
+      "author": "GOV.UK Design System team",
+      "url": "https://design-system.service.gov.uk/patterns/question-pages/",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "purpose": "웹 출판 형식·독자 안내 설계 조사; 원고 본문 인용 아님",
+      "verification_status": "공식 원문 관련 부분 확인",
+      "verification_scope": "필요한 질문만 묻고 이유·선택 정보·뒤로 가기·모름 응답을 명시하는 지침을 확인했다.",
+      "limit": "질문 설계 지침. 온라인 책 추천의 효과를 검증한 자료 아님.",
+      "use": "planning/web-publication-proposal.md",
+      "usage_review": {
+        "direct_quote_words": 0,
+        "scope": "원문 저장 없이 제안서·주장 메모·대장에 짧은 기능/한계만 기록. 출처별 200단어 기본 상한 내의 축약 사용.",
+        "files": [
+          "planning/web-publication-proposal.md",
+          "research/claims/web-publication.json",
+          "research/sources.json"
+        ]
+      }
+    },
+    {
+      "id": "S88",
+      "title": "The compass",
+      "author": "Diátaxis / Daniele Procida",
+      "url": "https://diataxis.fr/compass/",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "purpose": "웹 출판 형식·독자 안내 설계 조사; 원고 본문 인용 아님",
+      "verification_status": "공식 원문 관련 부분 확인",
+      "verification_scope": "사용자의 행동·이해 및 학습·적용 목적에 따라 문서 요구를 구분한다.",
+      "limit": "문서 분류 원리. 책의 장 추천 알고리즘이나 이 책의 장 구성을 검증한 자료 아님.",
+      "use": "planning/web-publication-proposal.md",
+      "usage_review": {
+        "direct_quote_words": 0,
+        "scope": "원문 저장 없이 제안서·주장 메모·대장에 짧은 기능/한계만 기록. 출처별 200단어 기본 상한 내의 축약 사용.",
+        "files": [
+          "planning/web-publication-proposal.md",
+          "research/claims/web-publication.json",
+          "research/sources.json"
+        ]
+      }
+    },
+    {
+      "id": "S89",
+      "title": "CC BY-SA 4.0 한국어 요약",
+      "author": "Creative Commons",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.ko",
+      "published_on": null,
+      "checked_on": "2026-10-14",
+      "purpose": "출판 라이선스 선택 검토; 원고 논증 근거 아님",
+      "verification_status": "공식 안내의 관련 부분 확인",
+      "verification_scope": "상업 이용·표시·변경 고지·공유하는 개작물의 동일조건",
+      "limit": "CC 요약·FAQ는 법적 전문을 대신하지 않음. 개별 이용의 법적 판정·저작권 귀속·제3자 권리 정리 완료 아님. 라이선스 적용 미수행.",
+      "use": "planning/license-proposal.md",
+      "usage_review": {
+        "direct_quote_words": 0,
+        "scope": "짧은 조건 비교와 적용 범위 제안만 기록. 원문 전문 복제 없음."
+      },
+      "supporting_urls": [
+        "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt"
+      ],
+      "review_checks": [
+        {
+          "checked_on": "2026-10-14",
+          "scope": "공식 CC BY-SA 4.0 전문을 원문 그대로 LICENSES/CC-BY-SA-4.0.txt에 저장. 조건과 적용 범위를 표시.",
+          "record": "LICENSE.md"
+        }
+      ]
+    },
+    {
+      "id": "S90",
+      "title": "CC BY 4.0 한국어 요약",
+      "author": "Creative Commons",
+      "url": "https://creativecommons.org/licenses/by/4.0/deed.ko",
+      "published_on": null,
+      "checked_on": "2026-10-14",
+      "purpose": "출판 라이선스 선택 검토; 원고 논증 근거 아님",
+      "verification_status": "공식 안내의 관련 부분 확인",
+      "verification_scope": "표시·변경 고지와 복제·개작 허용",
+      "limit": "CC 요약·FAQ는 법적 전문을 대신하지 않음. 개별 이용의 법적 판정·저작권 귀속·제3자 권리 정리 완료 아님. 라이선스 적용 미수행.",
+      "use": "planning/license-proposal.md",
+      "usage_review": {
+        "direct_quote_words": 0,
+        "scope": "짧은 조건 비교와 적용 범위 제안만 기록. 원문 전문 복제 없음."
+      }
+    },
+    {
+      "id": "S91",
+      "title": "CC BY-NC-SA 4.0 한국어 요약",
+      "author": "Creative Commons",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ko",
+      "published_on": null,
+      "checked_on": "2026-10-14",
+      "purpose": "출판 라이선스 선택 검토; 원고 논증 근거 아님",
+      "verification_status": "공식 안내의 관련 부분 확인",
+      "verification_scope": "비영리 조건·표시·개작물 동일조건과 비영리의 정의",
+      "limit": "CC 요약·FAQ는 법적 전문을 대신하지 않음. 개별 이용의 법적 판정·저작권 귀속·제3자 권리 정리 완료 아님. 라이선스 적용 미수행.",
+      "use": "planning/license-proposal.md",
+      "usage_review": {
+        "direct_quote_words": 0,
+        "scope": "짧은 조건 비교와 적용 범위 제안만 기록. 원문 전문 복제 없음."
+      }
+    },
+    {
+      "id": "S92",
+      "title": "Creative Commons FAQ",
+      "author": "Creative Commons",
+      "url": "https://creativecommons.org/faq/",
+      "published_on": null,
+      "checked_on": "2026-10-14",
+      "purpose": "출판 라이선스 선택 검토; 원고 논증 근거 아님",
+      "verification_status": "공식 안내의 관련 부분 확인",
+      "verification_scope": "소프트웨어 적용·제3자 권리·수익화·철회 불가의 관련 문답",
+      "limit": "CC 요약·FAQ는 법적 전문을 대신하지 않음. 개별 이용의 법적 판정·저작권 귀속·제3자 권리 정리 완료 아님. 라이선스 적용 미수행.",
+      "use": "planning/license-proposal.md",
+      "usage_review": {
+        "direct_quote_words": 0,
+        "scope": "짧은 조건 비교와 적용 범위 제안만 기록. 원문 전문 복제 없음."
+      }
+    },
+    {
+      "id": "S93",
+      "title": "MIT License",
+      "author": "GitHub Choose a License",
+      "url": "https://choosealicense.com/licenses/mit/",
+      "published_on": null,
+      "checked_on": "2026-10-14",
+      "purpose": "출판 라이선스 선택 검토; 원고 논증 근거 아님",
+      "verification_status": "공식 안내의 관련 부분 확인",
+      "verification_scope": "MIT 허가·고지 유지·보증 부인",
+      "limit": "CC 요약·FAQ는 법적 전문을 대신하지 않음. 개별 이용의 법적 판정·저작권 귀속·제3자 권리 정리 완료 아님. 라이선스 적용 미수행.",
+      "use": "planning/license-proposal.md",
+      "usage_review": {
+        "direct_quote_words": 0,
+        "scope": "짧은 조건 비교와 적용 범위 제안만 기록. 원문 전문 복제 없음."
+      },
+      "supporting_urls": [
+        "https://opensource.org/license/mit"
+      ],
+      "review_checks": [
+        {
+          "checked_on": "2026-10-14",
+          "scope": "OSI MIT 전문 확인. 표준 허가 문구와 2026 정도현 저작권 고지를 파일로 적용.",
+          "record": "LICENSE.md"
+        }
+      ]
+    },
+    {
+      "id": "S94",
+      "title": "Using custom workflows with GitHub Pages",
+      "author": "GitHub",
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages",
+      "published_on": null,
+      "checked_on": "2026-10-14",
+      "purpose": "웹 공개 배포·브랜드 표시; 원고 논증 근거 아님",
+      "verification_status": "공식 문서 관련 부분 또는 자산 확인",
+      "verification_scope": "빌드/업로드/배포와 Pages 권한·환경 구성",
+      "limit": "배포 문서는 기능 설명. 실제 DNS·HTTPS·워크플로 결과는 배포 기록에서 별도 확인. 로고는 CC/MIT로 재허락하지 않음.",
+      "use": "planning/sessions/2026-10-14-pages-deployment.md"
+    },
+    {
+      "id": "S95",
+      "title": "Managing a custom domain for your GitHub Pages site",
+      "author": "GitHub",
+      "url": "https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site",
+      "published_on": null,
+      "checked_on": "2026-10-14",
+      "purpose": "웹 공개 배포·브랜드 표시; 원고 논증 근거 아님",
+      "verification_status": "공식 문서 관련 부분 또는 자산 확인",
+      "verification_scope": "사용자 지정 도메인·서브도메인 CNAME·Actions의 CNAME 파일 처리",
+      "limit": "배포 문서는 기능 설명. 실제 DNS·HTTPS·워크플로 결과는 배포 기록에서 별도 확인. 로고는 CC/MIT로 재허락하지 않음.",
+      "use": "planning/sessions/2026-10-14-pages-deployment.md"
+    },
+    {
+      "id": "S96",
+      "title": "ROBOCO official logo",
+      "author": "ROBOCO",
+      "url": "https://roboco.io/images/roboco-logo.svg",
+      "published_on": null,
+      "checked_on": "2026-10-14",
+      "purpose": "웹 공개 배포·브랜드 표시; 원고 논증 근거 아님",
+      "verification_status": "공식 문서 관련 부분 또는 자산 확인",
+      "verification_scope": "공식 홈페이지가 참조한 SVG를 원형 저장. 이미지 출처·권리는 NOTICE에 보존",
+      "limit": "배포 문서는 기능 설명. 실제 DNS·HTTPS·워크플로 결과는 배포 기록에서 별도 확인. 로고는 CC/MIT로 재허락하지 않음.",
+      "use": "planning/sessions/2026-10-14-pages-deployment.md"
+    },
+    {
+      "id": "S97",
+      "title": "Deploy your Astro Site to GitHub Pages",
+      "author": "Astro contributors",
+      "url": "https://docs.astro.build/en/guides/deploy/github/",
+      "published_on": null,
+      "checked_on": "2026-10-14",
+      "purpose": "웹 공개 배포·브랜드 표시; 원고 논증 근거 아님",
+      "verification_status": "공식 문서 관련 부분 또는 자산 확인",
+      "verification_scope": "Context7 공식 문서에서 사용자 지정 도메인의 site·base와 배포 흐름 확인",
+      "limit": "배포 문서는 기능 설명. 실제 DNS·HTTPS·워크플로 결과는 배포 기록에서 별도 확인. 로고는 CC/MIT로 재허락하지 않음.",
+      "use": "planning/sessions/2026-10-14-pages-deployment.md"
     }
   ],
   "source_aliases": {

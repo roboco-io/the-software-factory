@@ -1,5 +1,9 @@
 # The Software Factory 집필 프로젝트
 
+웹 독서판: [factory.roboco.io](https://factory.roboco.io)
+
+현재 책 판본: **0.1 프리뷰** · [릴리즈 노트](RELEASE_NOTES.md) · [GitHub 피드백](https://github.com/roboco-io/the-software-factory/issues)
+
 **The Software Factory — 소프트웨어 팩토리와 AI 시대의 조직 설계**
 
 소프트웨어 조직 리더를 위한 한국어 책이다. 의도를 정책과 실행계획으로 구체화하고, 수행 결과를 증거로 검증하며, 피드백으로 정책과 계획을 개선하는 개발 접근법을 패턴 언어로 설명한다.
@@ -36,7 +40,7 @@
 - 오래 유지되는 원리와 패턴, 판단·책임·권한·비용에 집중한다.
 - 사례는 공개 자료에서 확인한 관찰과 그에 근거한 추론을 사용한다.
 - 사실, 사례 주체의 자체 보고, 저자의 해석과 제안을 구분한다.
-- IDD의 기존 용례를 인정한다. 기존 책의 공개 목차 대조와 본문 검토를 구분한다.
+- 소프트웨어 팩토리의 운영을 중심에 두고 선행 방법론은 참고 맥락으로 다룬다. 기존 책의 공개 목차 대조와 본문 검토를 구분한다.
 
 ## 로컬에서 시작하기
 
@@ -65,3 +69,7 @@ python3 scripts/check_project.py
 전체 초고 작성과 남은 검토 범위: [통합 검토 기록](planning/draft-review-2026-10-12.md).
 
 공통 구현 예제: [The Software Factory Demo](https://github.com/roboco-io/software-factory-demo). 고정 버전과 장별 관측·해석의 범위는 [구현 사례 지도](research/cases/software-factory-demo.md), 단계별 작업은 [반영 계획](planning/software-factory-demo-integration.md)에 기록한다.
+
+## 라이선스
+
+저자가 권리를 가진 책 본문·패턴·도표는 **CC BY-SA 4.0**, 직접 작성한 웹사이트 코드는 **MIT**입니다. 제3자 자료와 의존 패키지는 원래 조건을 따릅니다. [적용 범위와 전문](LICENSE.md)을 확인하세요.

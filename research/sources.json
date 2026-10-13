@@ -41,7 +41,15 @@
         "summary_check": "완성한 장과 기존 원고·연구 메모·주장 메모·대장·색인의 누적 사용을 검토. 자료 설명은 짧게 유지하고 저자의 해석·제안·확인 한계를 구분. 직접 인용·원문 복제·수치 재현 없음. 출처별 200단어 기본 상한 안에서 파생 설명을 수동 점검.",
         "conservative_review_whitespace_units": 178,
         "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "웹 원문 팩토리 정의·보고 부분",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S02",
@@ -154,6 +162,12 @@
           "scope": "공식 개념 페이지 Definition·Clarification loop 도입",
           "report": "planning/reviews/2026-10-13-baseline-review.md",
           "status": "관련 범위 재대조; 전체 통독·효과 검증 아님"
+        },
+        {
+          "checked_on": "2026-10-13",
+          "scope": "개념 정의·의도 관리·구현/피드백 반환 부분",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
         }
       ]
     },
@@ -215,7 +229,15 @@
         "manuscript_summary_whitespace_units": 22,
         "count_method": "4장 해당 출처 표식 이전 설명의 공백 단위 집계. 한국어 어절이며 전체 파생량의 자동 판정은 아님.",
         "summary_check": "원고·출처 대장·주장 메모·진행 기록·색인의 사용을 수동 대조. 출처별 200단어 상한 안에서 짧게 요약. 저자 해석과 제안, 확인 한계를 구분. 원문 코드·예시·성과 수치·장문 번역 없음."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "세션 인계·Testing 관련 반환 부분",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S09",
@@ -226,7 +248,15 @@
       "checked_on": "2026-10-11",
       "verification_status": "본문 관련 부분 직접 확인",
       "verification_scope": "2026-02-11 OpenAI 원문 중 저장소 지식 관리, 계획, 구조 제약 검증 부분 직접 확인. 팀의 자기보고 사례로 사용하며 보편적 생산성 효과는 주장하지 않는다.",
-      "limit": "업체의 자체 보고 또는 평가 지침. 보편적인 생산성 인과 효과를 주장하지 않음"
+      "limit": "업체의 자체 보고 또는 평가 지침. 보편적인 생산성 인과 효과를 주장하지 않음",
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "저장소 지식 지도·계획·지침 규모 관련 반환 부분",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S10",
@@ -271,6 +301,12 @@
           "scope": "The structure of an evaluation의 transcript/outcome 정의·Types of graders",
           "report": "planning/reviews/2026-10-13-baseline-review.md",
           "status": "관련 범위 재대조; 전체 통독·효과 검증 아님"
+        },
+        {
+          "checked_on": "2026-10-13",
+          "scope": "평가 정의의 수행 기록·결과 상태·판정 유형",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
         }
       ]
     },
@@ -383,7 +419,15 @@
         ],
         "direct_quote_words": 0,
         "summary_check": "원문의 구조 설명을 짧게 의역. 기록 파일 포함 출처별 200단어 상한 이내로 검토. 효과 수치·장문 번역 없음."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "편집/우회 권한·다중 적용·집행 상태",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S17",
@@ -407,7 +451,15 @@
         ],
         "direct_quote_words": 0,
         "summary_check": "원문의 구조 설명을 짧게 의역. 기록 파일 포함 출처별 200단어 상한 이내로 검토. 효과 수치·장문 번역 없음."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "파일·네트워크 경계와 별도 허용",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S18",
@@ -478,7 +530,15 @@
         "manuscript_summary_whitespace_units": 21,
         "count_method": "4장 해당 출처 표식 이전 설명의 공백 단위 집계. 한국어 어절이며 전체 파생량의 자동 판정은 아님.",
         "summary_check": "원고·출처 대장·주장 메모·진행 기록·색인의 사용을 수동 대조. 출처별 200단어 상한 안에서 짧게 요약. 저자 해석과 제안, 확인 한계를 구분. 원문 코드·예시·성과 수치·장문 번역 없음."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "Evaluator-optimizer의 평가 기준·반복 가치",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S20",
@@ -505,7 +565,15 @@
         "manuscript_summary_whitespace_units": 17,
         "count_method": "4장 해당 출처 표식 이전 설명의 공백 단위 집계. 한국어 어절이며 전체 파생량의 자동 판정은 아님.",
         "summary_check": "원고·출처 대장·주장 메모·진행 기록·색인의 사용을 수동 대조. 출처별 200단어 상한 안에서 짧게 요약. 저자 해석과 제안, 확인 한계를 구분. 원문 코드·예시·성과 수치·장문 번역 없음."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "하네스 가정·모델 변화의 도입부",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S21",
@@ -1059,7 +1127,15 @@
         "conservative_review_whitespace_units": 176,
         "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검."
       },
-      "blog_url": "https://roboco.io/posts/ai-adoption-guide/"
+      "blog_url": "https://roboco.io/posts/ai-adoption-guide/",
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "검증/확산/내재화 부분",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S40",
@@ -1099,7 +1175,15 @@
         "summary_check": "완성한 장과 기존 원고·연구 메모·주장 메모·대장·색인의 누적 사용을 검토. 자료 설명은 짧게 유지하고 저자의 해석·제안·확인 한계를 구분. 직접 인용·원문 복제·수치 재현 없음. 출처별 200단어 기본 상한 안에서 파생 설명을 수동 점검.",
         "conservative_review_whitespace_units": 119,
         "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "제출 과제의 후속 면접·역할별 판단 부분",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S36",
@@ -1256,7 +1340,15 @@
         "summary_check": "완성한 장과 기존 원고·연구 메모·주장 메모·대장·색인의 누적 사용을 검토. 자료 설명은 짧게 유지하고 저자의 해석·제안·확인 한계를 구분. 직접 인용·원문 복제·수치 재현 없음. 출처별 200단어 기본 상한 안에서 파생 설명을 수동 점검.",
         "conservative_review_whitespace_units": 174,
         "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "자기 개선 네 단계의 정의 부분",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S44",
@@ -1298,7 +1390,15 @@
         "summary_check": "완성한 장과 기존 원고·연구 메모·주장 메모·대장·색인의 누적 사용을 검토. 자료 설명은 짧게 유지하고 저자의 해석·제안·확인 한계를 구분. 직접 인용·원문 복제·수치 재현 없음. 출처별 200단어 기본 상한 안에서 파생 설명을 수동 점검.",
         "conservative_review_whitespace_units": 169,
         "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "반영과 리뷰 기록 구분·운영 제안 부분",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S32",
@@ -1336,7 +1436,15 @@
         "summary_check": "본문·설계 카드·연구 메모·대장·주장 기록·색인의 누적 사용을 출처별 200단어 상한 안에서 검토. 저자 해석·책의 재구성·보류한 주장 구분. 원문·장문 번역·원문 코드와 사례 수치는 책 저장소에 복제하지 않음.",
         "conservative_review_whitespace_units": 148,
         "count_scope": "책의 출처 표식 문단 전체·검토 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모의 해당 note를 공백으로 집계. 저자와 책의 재구성·한계도 포함한 보수적 어절 수. 인덱스·진행 기록·목록의 메타데이터와 출처 파생 여부는 별도 수동 검토. 영어 단어 수나 전체 인용량의 자동 판정이 아님."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "TL;DR와 문제·방법 구분 부분",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S41",
@@ -1379,7 +1487,15 @@
         "conservative_review_whitespace_units": 175,
         "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검."
       },
-      "blog_url": "https://roboco.io/posts/vibe-coding-documentation/"
+      "blog_url": "https://roboco.io/posts/vibe-coding-documentation/",
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "다음 작업의 출발점·현재 기준과 과거 기록 부분",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S45",
@@ -1419,7 +1535,15 @@
         "summary_check": "완성한 장과 기존 원고·연구 메모·주장 메모·대장·색인의 누적 사용을 검토. 자료 설명은 짧게 유지하고 저자의 해석·제안·확인 한계를 구분. 직접 인용·원문 복제·수치 재현 없음. 출처별 200단어 기본 상한 안에서 파생 설명을 수동 점검.",
         "conservative_review_whitespace_units": 134,
         "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "남는 이전 비용·작은 이전 실험 부분",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S33",
@@ -1535,7 +1659,15 @@
         "summary_check": "본문·설계 카드·연구 메모·대장·주장 기록·색인의 누적 사용을 출처별 200단어 상한 안에서 검토. 저자 해석·책의 재구성·보류한 주장 구분. 원문·장문 번역·원문 코드와 사례 수치는 책 저장소에 복제하지 않음.",
         "conservative_review_whitespace_units": 154,
         "count_scope": "책의 출처 표식 문단 전체·검토 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모의 해당 note를 공백으로 집계. 저자와 책의 재구성·한계도 포함한 보수적 어절 수. 인덱스·진행 기록·목록의 메타데이터와 출처 파생 여부는 별도 수동 검토. 영어 단어 수나 전체 인용량의 자동 판정이 아님."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "규칙/취향·운영 계약 관련 부분",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S35",
@@ -1575,7 +1707,15 @@
         "summary_check": "완성한 장과 기존 원고·연구 메모·주장 메모·대장·색인의 누적 사용을 검토. 자료 설명은 짧게 유지하고 저자의 해석·제안·확인 한계를 구분. 직접 인용·원문 복제·수치 재현 없음. 출처별 200단어 기본 상한 안에서 파생 설명을 수동 점검.",
         "conservative_review_whitespace_units": 135,
         "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "성숙도 보완의 제안 부분",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S46",
@@ -1615,7 +1755,15 @@
         "summary_check": "완성한 장과 기존 원고·연구 메모·주장 메모·대장·색인의 누적 사용을 검토. 자료 설명은 짧게 유지하고 저자의 해석·제안·확인 한계를 구분. 직접 인용·원문 복제·수치 재현 없음. 출처별 200단어 기본 상한 안에서 파생 설명을 수동 점검.",
         "conservative_review_whitespace_units": 129,
         "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "운영 제안·한계. 통계 재검증 제외",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S47",
@@ -1644,7 +1792,15 @@
         "manuscript_summary_whitespace_units": 17,
         "conservative_review_whitespace_units": 107,
         "count_scope": "본문 출처 문단 전체·대장 제목/작성자/확인 범위/사용/한계·해당 주장 note·조사 카드의 해당 출처 문단을 보수적으로 공백 집계. 인덱스·진행 기록과 파생 설명은 별도 수동 점검. 한국어 어절이며 영어 단어 수나 전체 인용량의 자동 판정이 아님."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "입출력 구조·Error Handling·Security Considerations",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S48",
@@ -1671,7 +1827,15 @@
         "summary_check": "제품 구조를 짧게 요약하고 조직의 분해·통합·작업량에 관한 해석과 제안을 구분. 출처별 200단어 상한 안에서 누적 사용 검토. 코드·예시·장문 번역 없음.",
         "conservative_review_whitespace_units": 85,
         "count_scope": "6장 해당 출처 문단 전체·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 보수적 공백 집계. 색인·진행 기록과 파생 여부는 별도 수동 점검. 한국어 어절이며 영어 단어 수나 전체 인용량의 자동 판정이 아님."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "jobs.needs의 선행 성공·실패/생략 전파",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S49",
@@ -1698,7 +1862,15 @@
         "summary_check": "제품 구조를 짧게 요약하고 조직의 분해·통합·작업량에 관한 해석과 제안을 구분. 출처별 200단어 상한 안에서 누적 사용 검토. 코드·예시·장문 번역 없음.",
         "conservative_review_whitespace_units": 100,
         "count_scope": "6장 해당 출처 문단 전체·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 보수적 공백 집계. 색인·진행 기록과 파생 여부는 별도 수동 점검. 한국어 어절이며 영어 단어 수나 전체 인용량의 자동 판정이 아님."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "기본 pending 대체와 queue 설정 차이",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S50",
@@ -1729,7 +1901,15 @@
       "original_url": "https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/",
       "displayed_publication_date": "2026-06-12",
       "displayed_updated_date": "2026-06-15",
-      "retrieval_note": "Exa는 쿠키 안내만 반환. web 도구로 리디렉션된 AWS Builder Center 원문을 확인."
+      "retrieval_note": "Exa는 쿠키 안내만 반환. web 도구로 리디렉션된 AWS Builder Center 원문을 확인.",
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "일시 실패·과부하·재시도와 부작용",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S51",
@@ -1756,7 +1936,15 @@
         "summary_check": "설계 설명을 짧게 요약하고 조직의 예외·복구에 관한 해석과 제안을 구분. 출처별 200단어 상한 안에서 누적 사용 검토. 원문 코드·예시·장문 번역 없음.",
         "conservative_review_whitespace_units": 109,
         "count_scope": "8장 출처 문단 전체·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 보수적 공백 집계. 색인·진행 기록과 파생 여부는 별도 수동 검토. 한국어 어절이며 영어 단어 수나 전체 인용량의 자동 판정은 아님."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "재시도·동일 요청 식별·다른 의도와 부작용",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S52",
@@ -1784,7 +1972,15 @@
         "summary_check": "완성한 장과 기존 원고·연구 메모·주장 메모·대장·색인의 누적 사용을 검토. 자료 설명은 짧게 유지하고 저자의 해석·제안·확인 한계를 구분. 직접 인용·원문 복제·수치 재현 없음. 출처별 200단어 기본 상한 안에서 파생 설명을 수동 점검.",
         "conservative_review_whitespace_units": 81,
         "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "just in time 조회·참조 식별자·요약/기록",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S53",
@@ -1920,7 +2116,15 @@
         "conservative_review_whitespace_units": 97,
         "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검."
       },
-      "date_verification_url": "https://www.melconway.com/Home/Conways_Law.html"
+      "date_verification_url": "https://www.melconway.com/Home/Conways_Law.html",
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "영문 PDF 의사소통 경로·설계 선택 관련 추출 부분",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S56",
@@ -1948,7 +2152,15 @@
         "summary_check": "완성한 장과 기존 원고·연구 메모·주장 메모·대장·색인의 누적 사용을 검토. 자료 설명은 짧게 유지하고 저자의 해석·제안·확인 한계를 구분. 직접 인용·원문 복제·수치 재현 없음. 출처별 200단어 기본 상한 안에서 파생 설명을 수동 점검.",
         "conservative_review_whitespace_units": 100,
         "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "공식 소개 팀 유형·상호작용 모드",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S57",
@@ -1976,7 +2188,21 @@
         "summary_check": "완성한 장과 기존 원고·연구 메모·주장 메모·대장·색인의 누적 사용을 검토. 자료 설명은 짧게 유지하고 저자의 해석·제안·확인 한계를 구분. 직접 인용·원문 복제·수치 재현 없음. 출처별 200단어 기본 상한 안에서 파생 설명을 수동 점검.",
         "conservative_review_whitespace_units": 103,
         "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "공식 2025 소개의 amplifier 설명과 연구 보고서 다운로드 구분 재확인; 전문 미확보",
+          "report": "research/roboco-sites-review.md",
+          "status": "소개 범위만 확인"
+        },
+        {
+          "checked_on": "2026-10-13",
+          "scope": "공식 2025 소개. 보고서 전문 미확보",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S58",
@@ -2004,7 +2230,15 @@
         "summary_check": "완성한 장과 기존 원고·연구 메모·주장 메모·대장·색인의 누적 사용을 검토. 자료 설명은 짧게 유지하고 저자의 해석·제안·확인 한계를 구분. 직접 인용·원문 복제·수치 재현 없음. 출처별 200단어 기본 상한 안에서 파생 설명을 수동 점검.",
         "conservative_review_whitespace_units": 109,
         "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "직무 과제와 입사 시 역량·훈련 구분",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S59",
@@ -2083,7 +2317,15 @@
         "cited_paragraph_whitespace_units": 72,
         "count_limit": "원고의 출처 표식 문단 전체 공백 집계. 책의 해석·제한도 포함하며 영어 단어 수나 원문 파생량의 자동 판정이 아니다.",
         "manual_review": "원고의 관측 문장과 대장·주장·사례 지도의 짧은 설명을 누적 검토. 반복 요약보다 원문 위치로 연결하고 저자 해석·질문을 구분했다. 직접 인용·원문/코드/로그 복제 없음."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "선행 조사에서 가져온 고정 코드/대상 job 로그의 관련 원문 재열람",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "새 실행 검증·실시간 전체 상태 확인 아님"
+        }
+      ]
     },
     {
       "id": "S61",
@@ -2117,7 +2359,15 @@
         "cited_paragraph_whitespace_units": 34,
         "count_limit": "원고의 출처 표식 문단 전체 공백 집계. 책의 해석·제한도 포함하며 영어 단어 수나 원문 파생량의 자동 판정이 아니다.",
         "manual_review": "원고의 관측 문장과 대장·주장·사례 지도의 짧은 설명을 누적 검토. 반복 요약보다 원문 위치로 연결하고 저자 해석·질문을 구분했다. 직접 인용·원문/코드/로그 복제 없음."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "선행 조사에서 가져온 고정 코드/대상 job 로그의 관련 원문 재열람",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "새 실행 검증·실시간 전체 상태 확인 아님"
+        }
+      ]
     },
     {
       "id": "S62",
@@ -2184,7 +2434,15 @@
         "cited_paragraph_whitespace_units": 41,
         "count_limit": "원고의 출처 표식 문단 전체 공백 집계. 책의 해석·제한도 포함하며 영어 단어 수나 원문 파생량의 자동 판정이 아니다.",
         "manual_review": "원고의 관측 문장과 대장·주장·사례 지도의 짧은 설명을 누적 검토. 반복 요약보다 원문 위치로 연결하고 저자 해석·질문을 구분했다. 직접 인용·원문/코드/로그 복제 없음."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "선행 조사에서 가져온 고정 코드/대상 job 로그의 관련 원문 재열람",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "새 실행 검증·실시간 전체 상태 확인 아님"
+        }
+      ]
     },
     {
       "id": "S64",
@@ -2248,7 +2506,15 @@
         "cited_paragraph_whitespace_units": 36,
         "count_limit": "원고의 출처 표식 문단 전체 공백 집계. 책의 해석·제한도 포함하며 영어 단어 수나 원문 파생량의 자동 판정이 아니다.",
         "manual_review": "원고의 관측 문장과 대장·주장·사례 지도의 짧은 설명을 누적 검토. 반복 요약보다 원문 위치로 연결하고 저자 해석·질문을 구분했다. 직접 인용·원문/코드/로그 복제 없음."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "선행 조사에서 가져온 고정 코드/대상 job 로그의 관련 원문 재열람",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "새 실행 검증·실시간 전체 상태 확인 아님"
+        }
+      ]
     },
     {
       "id": "S66",
@@ -2316,7 +2582,15 @@
         "cited_paragraph_whitespace_units": 42,
         "count_limit": "원고의 출처 표식 문단 전체 공백 집계. 책의 해석·제한도 포함하며 영어 단어 수나 원문 파생량의 자동 판정이 아니다.",
         "manual_review": "원고의 관측 문장과 대장·주장·사례 지도의 짧은 설명을 누적 검토. 반복 요약보다 원문 위치로 연결하고 저자 해석·질문을 구분했다. 직접 인용·원문/코드/로그 복제 없음."
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "선행 조사에서 가져온 고정 코드/대상 job 로그의 관련 원문 재열람",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "새 실행 검증·실시간 전체 상태 확인 아님"
+        }
+      ]
     },
     {
       "id": "S68",
@@ -2355,6 +2629,362 @@
         "cited_paragraph_whitespace_units": 46,
         "count_limit": "원고의 출처 표식 문단 전체 공백 집계. 책의 해석·제한도 포함하며 영어 단어 수나 원문 파생량의 자동 판정이 아니다.",
         "manual_review": "원고의 관측 문장과 대장·주장·사례 지도의 짧은 설명을 누적 검토. 반복 요약보다 원문 위치로 연결하고 저자 해석·질문을 구분했다. 직접 인용·원문/코드/로그 복제 없음."
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "선행 조사에서 가져온 고정 코드/대상 job 로그의 관련 원문 재열람",
+          "report": "planning/reviews/2026-10-13-remaining-review.md",
+          "status": "새 실행 검증·실시간 전체 상태 확인 아님"
+        }
+      ]
+    },
+    {
+      "id": "S69",
+      "title": "Intent Engineering — 원래 의도와 현재 문서의 분리",
+      "author": "ROBOCO / 해당 공개 문서 작성자",
+      "url": "https://intent.roboco.io/",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "verification_status": "명시한 웹·저장소 관련 부분 확인",
+      "verification_scope": "홈·Concept, 고정 README/템플릿, 2026-04-06 초기 README 대조",
+      "date_basis": "사이트 공개일 미확인; 저장소 생성·커밋일은 temporal_evidence로 분리",
+      "revision": "0b5ecd622eaf633ba6c182c9c74a1c58e0dea28f",
+      "temporal_evidence": {
+        "repository_created_at": "2026-04-06T00:18:25Z",
+        "current_commit_date": "2026-09-25T01:54:29Z"
+      },
+      "supporting_urls": [
+        "https://github.com/roboco-io/intent-engineering/blob/0b5ecd622eaf633ba6c182c9c74a1c58e0dea28f/README.md",
+        "https://github.com/roboco-io/intent-engineering/blob/0b5ecd622eaf633ba6c182c9c74a1c58e0dea28f/INTENT.template.md",
+        "https://github.com/roboco-io/intent-engineering/blob/af002150c5949a39e4ca4a57719b92c63e68de40/README.md"
+      ],
+      "use": "2·3장 초고 반영. 원래 맥락과 책의 재해석 구분.",
+      "limit": "저자의 의도 관리 제안. 현재 학습 기록 규칙은 9월 수정이며 4월 초안에 소급하지 않음. 코드/테스트 폐기와 모든 How 위임을 책의 보편 규칙으로 채택하지 않음.",
+      "quality": "저자 측 방법론·운영 제안. 공개 문서와 이력은 있으나 조직 효과의 독립 검증 자료는 아님.",
+      "usage_review": {
+        "checked_on": "2026-10-13",
+        "direct_quote_words": 0,
+        "files": [
+          "research/roboco-sites-review.md",
+          "research/roboco-sites-inventory.json",
+          "research/claims/roboco-sites-review.json",
+          "research/sources.json",
+          "manuscript/chapters/ch02.md",
+          "research/claims/ch02.json",
+          "manuscript/chapters/ch03.md",
+          "research/claims/ch03.json",
+          "planning/roboco-sites-adoption.md",
+          "planning/reviews/2026-10-13-remaining-review.md"
+        ],
+        "scope": "기존 제안·원고·대장·주장·반영 지도 누적 사용 검토. 원문 설명과 현재 책의 해석/질문을 구분해 짧게 유지. 원문·코드·장문 번역·성과 수치 복제 없음.",
+        "quote_count_method": "짧은 인용 후보의 공백 단위 집계. 한국어 어절이며 엄밀한 영어 단어 수 규칙의 적용을 주장하지 않음.",
+        "cited_paragraph_whitespace_units": 95,
+        "count_limit": "문단 전체의 공백 단위이며 책의 해석·제한도 포함. 영어 단어 수나 원문 파생량의 자동 확정이 아니다. 원문 파생 문장은 별도로 수동 점검."
+      },
+      "manuscript_adoption": {
+        "date": "2026-10-13",
+        "chapters": [
+          2,
+          3
+        ],
+        "map": "planning/roboco-sites-adoption.md",
+        "report": "planning/reviews/2026-10-13-remaining-review.md",
+        "limit": "이전 작성/공개/개정 시점은 기존 고정 이력 기준. 원문 주장·책의 제안과 운영 효과 구분."
+      }
+    },
+    {
+      "id": "S70",
+      "title": "Vibe Adoption Framework — 역량·전환·도입 여정",
+      "author": "ROBOCO / 해당 공개 문서 작성자",
+      "url": "https://vaf.roboco.io/",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "verification_status": "명시한 웹·저장소 관련 부분 확인",
+      "verification_scope": "홈 소개·관통 원리·세 축·도입 여정, 한국어 3.1/3.2·5.2·6.1 관련 절",
+      "date_basis": "사이트 공개일 미확인; 저장소 생성·커밋일은 temporal_evidence로 분리",
+      "revision": "10faece6c11c1c93b1046b127a1ed7ed1088e97a",
+      "temporal_evidence": {
+        "repository_created_at": "2026-07-18T15:07:39Z",
+        "current_commit_date": "2026-07-22T11:44:18Z"
+      },
+      "supporting_urls": [
+        "https://github.com/roboco-io/vibe-adoption-framework/blob/10faece6c11c1c93b1046b127a1ed7ed1088e97a/VAF-ko.md"
+      ],
+      "use": "13·16·18·20장 초고 반영. 원래 맥락과 책의 재해석 구분.",
+      "limit": "저자 측 조직 설계 프레임워크. 컨설팅 효과/저렴한 고급인력 대체/모든 코드 자동 작성·규칙 우회 불가의 입증 자료가 아님.",
+      "quality": "저자 측 방법론·운영 제안. 공개 문서와 이력은 있으나 조직 효과의 독립 검증 자료는 아님.",
+      "usage_review": {
+        "checked_on": "2026-10-13",
+        "direct_quote_words": 12,
+        "files": [
+          "research/roboco-sites-review.md",
+          "research/roboco-sites-inventory.json",
+          "research/claims/roboco-sites-review.json",
+          "research/sources.json",
+          "manuscript/chapters/ch13.md",
+          "research/claims/ch13.json",
+          "manuscript/chapters/ch16.md",
+          "research/claims/ch16.json",
+          "manuscript/chapters/ch18.md",
+          "research/claims/ch18.json",
+          "manuscript/chapters/ch20.md",
+          "research/claims/ch20.json",
+          "planning/roboco-sites-adoption.md",
+          "planning/reviews/2026-10-13-remaining-review.md"
+        ],
+        "scope": "기존 제안·원고·대장·주장·반영 지도 누적 사용 검토. 원문 설명과 현재 책의 해석/질문을 구분해 짧게 유지. 원문·코드·장문 번역·성과 수치 복제 없음.",
+        "quote_count_method": "짧은 인용 후보의 공백 단위 집계. 한국어 어절이며 엄밀한 영어 단어 수 규칙의 적용을 주장하지 않음.",
+        "cited_paragraph_whitespace_units": 203,
+        "count_limit": "문단 전체의 공백 단위이며 책의 해석·제한도 포함. 영어 단어 수나 원문 파생량의 자동 확정이 아니다. 원문 파생 문장은 별도로 수동 점검."
+      },
+      "manuscript_adoption": {
+        "date": "2026-10-13",
+        "chapters": [
+          13,
+          16,
+          18,
+          20
+        ],
+        "map": "planning/roboco-sites-adoption.md",
+        "report": "planning/reviews/2026-10-13-remaining-review.md",
+        "limit": "이전 작성/공개/개정 시점은 기존 고정 이력 기준. 원문 주장·책의 제안과 운영 효과 구분."
+      }
+    },
+    {
+      "id": "S71",
+      "title": "VDLC — 생명주기·맥락·환류·운영 주기",
+      "author": "ROBOCO / 해당 공개 문서 작성자",
+      "url": "https://vdlc.roboco.io/",
+      "published_on": "2026-07-22",
+      "checked_on": "2026-10-13",
+      "verification_status": "명시한 웹·저장소 관련 부분 확인",
+      "verification_scope": "홈·Stage 1 Intent·한국어 Context/Evolve, Release Notes, 고정 cycle의 관련 절",
+      "date_basis": "사이트 v0.1 릴리스 노트가 선언한 최초 공개일. 현재 페이지 전체의 작성일이 아님.",
+      "revision": "fe277489c99d91d1fc32aac3fd7a86d94a4e010e",
+      "temporal_evidence": {
+        "repository_created_at": "2026-07-22T12:20:35Z",
+        "current_commit_date": "2026-09-06T02:19:37Z"
+      },
+      "supporting_urls": [
+        "https://github.com/roboco-io/vibe-driven-development-lifecycle/blob/fe277489c99d91d1fc32aac3fd7a86d94a4e010e/docs/ko/cycle.md",
+        "https://vdlc.roboco.io/ko/"
+      ],
+      "use": "4·10·19장 초고 반영. 원래 맥락과 책의 재해석 구분.",
+      "limit": "생명주기와 운영 제안. 재생성 통과로 맥락 부채가 없다는 보장, 실패 원인의 단정, 고정 주기·모든 인간 게이트를 보편 기준으로 차용하지 않음.",
+      "quality": "저자 측 방법론·운영 제안. 공개 문서와 이력은 있으나 조직 효과의 독립 검증 자료는 아님.",
+      "usage_review": {
+        "checked_on": "2026-10-13",
+        "direct_quote_words": 4,
+        "files": [
+          "research/roboco-sites-review.md",
+          "research/roboco-sites-inventory.json",
+          "research/claims/roboco-sites-review.json",
+          "research/sources.json",
+          "manuscript/chapters/ch04.md",
+          "research/claims/ch04.json",
+          "manuscript/chapters/ch10.md",
+          "research/claims/ch10.json",
+          "manuscript/chapters/ch19.md",
+          "research/claims/ch19.json",
+          "planning/roboco-sites-adoption.md",
+          "planning/reviews/2026-10-13-remaining-review.md"
+        ],
+        "scope": "기존 제안·원고·대장·주장·반영 지도 누적 사용 검토. 원문 설명과 현재 책의 해석/질문을 구분해 짧게 유지. 원문·코드·장문 번역·성과 수치 복제 없음.",
+        "quote_count_method": "짧은 인용 후보의 공백 단위 집계. 한국어 어절이며 엄밀한 영어 단어 수 규칙의 적용을 주장하지 않음.",
+        "cited_paragraph_whitespace_units": 132,
+        "count_limit": "문단 전체의 공백 단위이며 책의 해석·제한도 포함. 영어 단어 수나 원문 파생량의 자동 확정이 아니다. 원문 파생 문장은 별도로 수동 점검."
+      },
+      "manuscript_adoption": {
+        "date": "2026-10-13",
+        "chapters": [
+          4,
+          10,
+          19
+        ],
+        "map": "planning/roboco-sites-adoption.md",
+        "report": "planning/reviews/2026-10-13-remaining-review.md",
+        "limit": "이전 작성/공개/개정 시점은 기존 고정 이력 기준. 원문 주장·책의 제안과 운영 효과 구분."
+      }
+    },
+    {
+      "id": "S72",
+      "title": "Vibe Up — 비용 상한·베팅·완료의 재해석",
+      "author": "ROBOCO / 해당 공개 문서 작성자",
+      "url": "https://vibeup.roboco.io/",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "verification_status": "명시한 웹·저장소 관련 부분 확인",
+      "verification_scope": "홈, 고정 한국어 3/6/7장 본문",
+      "date_basis": "사이트 공개일 미확인; 저장소 생성·커밋일은 temporal_evidence로 분리",
+      "revision": "037877833137416de8c1871945645a490ba70146",
+      "temporal_evidence": {
+        "repository_created_at": "2026-08-04T08:40:03Z",
+        "current_commit_date": "2026-08-17T22:49:09Z"
+      },
+      "supporting_urls": [
+        "https://github.com/roboco-io/vibeup/blob/037877833137416de8c1871945645a490ba70146/docs/ko/3-appetite.md",
+        "https://github.com/roboco-io/vibeup/blob/037877833137416de8c1871945645a490ba70146/docs/ko/6-betting.md",
+        "https://github.com/roboco-io/vibeup/blob/037877833137416de8c1871945645a490ba70146/docs/ko/7-done.md"
+      ],
+      "use": "5·6·8장 초고 반영. 원래 맥락과 책의 재해석 구분.",
+      "limit": "Shape Up에 대한 저자 재해석. 원작 주장과 구분. 병렬 후보 수·4+1일·재생성 완료 기준·인용 통계의 보편 효과를 미검증.",
+      "quality": "저자 측 방법론·운영 제안. 공개 문서와 이력은 있으나 조직 효과의 독립 검증 자료는 아님.",
+      "usage_review": {
+        "checked_on": "2026-10-13",
+        "direct_quote_words": 4,
+        "files": [
+          "research/roboco-sites-review.md",
+          "research/roboco-sites-inventory.json",
+          "research/claims/roboco-sites-review.json",
+          "research/sources.json",
+          "manuscript/chapters/ch05.md",
+          "research/claims/ch05.json",
+          "manuscript/chapters/ch06.md",
+          "research/claims/ch06.json",
+          "manuscript/chapters/ch08.md",
+          "research/claims/ch08.json",
+          "planning/roboco-sites-adoption.md",
+          "planning/reviews/2026-10-13-remaining-review.md"
+        ],
+        "scope": "기존 제안·원고·대장·주장·반영 지도 누적 사용 검토. 원문 설명과 현재 책의 해석/질문을 구분해 짧게 유지. 원문·코드·장문 번역·성과 수치 복제 없음.",
+        "quote_count_method": "짧은 인용 후보의 공백 단위 집계. 한국어 어절이며 엄밀한 영어 단어 수 규칙의 적용을 주장하지 않음.",
+        "cited_paragraph_whitespace_units": 150,
+        "count_limit": "문단 전체의 공백 단위이며 책의 해석·제한도 포함. 영어 단어 수나 원문 파생량의 자동 확정이 아니다. 원문 파생 문장은 별도로 수동 점검."
+      },
+      "manuscript_adoption": {
+        "date": "2026-10-13",
+        "chapters": [
+          5,
+          6,
+          8
+        ],
+        "map": "planning/roboco-sites-adoption.md",
+        "report": "planning/reviews/2026-10-13-remaining-review.md",
+        "limit": "이전 작성/공개/개정 시점은 기존 고정 이력 기준. 원문 주장·책의 제안과 운영 효과 구분."
+      }
+    },
+    {
+      "id": "S73",
+      "title": "DORA AI Guide — 비공식 요약과 편집 해석",
+      "author": "ROBOCO / 해당 공개 문서 작성자",
+      "url": "https://roboco.io/dora-ai-guide/",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "verification_status": "명시한 웹·저장소 관련 부분 확인",
+      "verification_scope": "홈·역량 개요·측정 프레임워크 요약·출처/라이선스, 고정 about",
+      "date_basis": "사이트 공개일 미확인; 저장소 생성·커밋일은 temporal_evidence로 분리",
+      "revision": "e79c9565dba9e6f44fced371ae111bcd1b1f52d7",
+      "temporal_evidence": {
+        "repository_created_at": "2026-09-24T09:04:19Z",
+        "current_commit_date": "2026-09-29T03:46:41Z"
+      },
+      "supporting_urls": [
+        "https://github.com/roboco-io/dora-ai-guide/blob/e79c9565dba9e6f44fced371ae111bcd1b1f52d7/docs/about.md"
+      ],
+      "use": "17장 초고 반영. 원래 맥락과 책의 재해석 구분.",
+      "limit": "DORA 비공식 2차 자료. 수치·인과·프레임워크 정의의 근거는 원문으로 대체 확인. 사이트가 구분한 편집 도식·예시는 DORA 결과로 인용하지 않음.",
+      "quality": "원문 링크와 편집 해석 표시가 있는 비공식 요약. 원 연구의 대체 근거로 사용하지 않음.",
+      "usage_review": {
+        "checked_on": "2026-10-13",
+        "direct_quote_words": 0,
+        "files": [
+          "research/roboco-sites-review.md",
+          "research/roboco-sites-inventory.json",
+          "research/claims/roboco-sites-review.json",
+          "research/sources.json",
+          "manuscript/chapters/ch17.md",
+          "research/claims/ch17.json",
+          "planning/roboco-sites-adoption.md",
+          "planning/reviews/2026-10-13-remaining-review.md"
+        ],
+        "scope": "기존 제안·원고·대장·주장·반영 지도 누적 사용 검토. 원문 설명과 현재 책의 해석/질문을 구분해 짧게 유지. 원문·코드·장문 번역·성과 수치 복제 없음.",
+        "quote_count_method": "짧은 인용 후보의 공백 단위 집계. 한국어 어절이며 엄밀한 영어 단어 수 규칙의 적용을 주장하지 않음.",
+        "cited_paragraph_whitespace_units": 52,
+        "count_limit": "문단 전체의 공백 단위이며 책의 해석·제한도 포함. 영어 단어 수나 원문 파생량의 자동 확정이 아니다. 원문 파생 문장은 별도로 수동 점검."
+      },
+      "manuscript_adoption": {
+        "date": "2026-10-13",
+        "chapters": [
+          17
+        ],
+        "map": "planning/roboco-sites-adoption.md",
+        "report": "planning/reviews/2026-10-13-remaining-review.md",
+        "limit": "이전 작성/공개/개정 시점은 기존 고정 이력 기준. 원문 주장·책의 제안과 운영 효과 구분."
+      }
+    },
+    {
+      "id": "S74",
+      "title": "Choosing measurement frameworks to fit your organizational goals",
+      "author": "Sarah D'Angelo, Ambar Murillo, Sarah Inman, Kevin M. Storer / DORA",
+      "url": "https://dora.dev/insights/measurement-frameworks/",
+      "published_on": "2025-08-06",
+      "checked_on": "2026-10-13",
+      "verification_status": "명시한 원문 범위 직접 확인",
+      "verification_scope": "도입·Step 1/2·Applying Measurement Frameworks in the Age of AI의 반환 본문 관련 부분",
+      "use": "17장 초고 반영. 원래 맥락과 책의 재해석 구분.",
+      "limit": "방법 안내. 특정 측정 조합의 효과나 AI 생산성 인과를 입증하는 대조 연구가 아님.",
+      "usage_review": {
+        "checked_on": "2026-10-13",
+        "direct_quote_words": 0,
+        "files": [
+          "research/roboco-sites-review.md",
+          "research/claims/roboco-sites-review.json",
+          "research/sources.json",
+          "manuscript/chapters/ch17.md",
+          "research/claims/ch17.json",
+          "planning/roboco-sites-adoption.md",
+          "planning/reviews/2026-10-13-remaining-review.md"
+        ],
+        "scope": "기존 제안·원고·대장·주장·반영 지도 누적 사용 검토. 원문 설명과 현재 책의 해석/질문을 구분해 짧게 유지. 원문·코드·장문 번역·성과 수치 복제 없음.",
+        "cited_paragraph_whitespace_units": 52,
+        "count_limit": "문단 전체의 공백 단위이며 책의 해석·제한도 포함. 영어 단어 수나 원문 파생량의 자동 확정이 아니다. 원문 파생 문장은 별도로 수동 점검."
+      },
+      "manuscript_adoption": {
+        "date": "2026-10-13",
+        "chapters": [
+          17
+        ],
+        "map": "planning/roboco-sites-adoption.md",
+        "report": "planning/reviews/2026-10-13-remaining-review.md",
+        "limit": "이전 작성/공개/개정 시점은 기존 고정 이력 기준. 원문 주장·책의 제안과 운영 효과 구분."
+      }
+    },
+    {
+      "id": "S75",
+      "title": "Shape Up — Chapter 3: Set Boundaries",
+      "author": "Ryan Singer / Basecamp",
+      "url": "https://basecamp.com/shapeup/1.2-chapter-03",
+      "published_on": null,
+      "checked_on": "2026-10-13",
+      "verification_status": "공개 원서의 관련 본문 확인",
+      "verification_scope": "Setting the appetite·Fixed time, variable scope",
+      "use": "5장 초고 반영. 원래 맥락과 책의 재해석 구분.",
+      "limit": "해당 장절만 대조. Shape Up 전체 논증·Vibe Up의 다른 원작 연결·일정 단축 효과는 미검증.",
+      "usage_review": {
+        "checked_on": "2026-10-13",
+        "direct_quote_words": 0,
+        "files": [
+          "research/roboco-sites-review.md",
+          "research/claims/roboco-sites-review.json",
+          "research/sources.json",
+          "manuscript/chapters/ch05.md",
+          "research/claims/ch05.json",
+          "planning/roboco-sites-adoption.md",
+          "planning/reviews/2026-10-13-remaining-review.md"
+        ],
+        "scope": "기존 제안·원고·대장·주장·반영 지도 누적 사용 검토. 원문 설명과 현재 책의 해석/질문을 구분해 짧게 유지. 원문·코드·장문 번역·성과 수치 복제 없음.",
+        "cited_paragraph_whitespace_units": 46,
+        "count_limit": "문단 전체의 공백 단위이며 책의 해석·제한도 포함. 영어 단어 수나 원문 파생량의 자동 확정이 아니다. 원문 파생 문장은 별도로 수동 점검."
+      },
+      "manuscript_adoption": {
+        "date": "2026-10-13",
+        "chapters": [
+          5
+        ],
+        "map": "planning/roboco-sites-adoption.md",
+        "report": "planning/reviews/2026-10-13-remaining-review.md",
+        "limit": "이전 작성/공개/개정 시점은 기존 고정 이력 기준. 원문 주장·책의 제안과 운영 효과 구분."
       }
     }
   ],

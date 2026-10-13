@@ -1,0 +1,211 @@
+{
+  "primary": [
+    {
+      "source": "S04",
+      "scope": "개념 정의·의도 관리·구현/피드백 반환 부분",
+      "access": "2026-10-13 Exa 원문 반환의 해당 부분"
+    },
+    {
+      "source": "S08",
+      "scope": "장기 실행의 세션 인계·Testing 관련 반환 부분",
+      "access": "2026-10-13 Exa 원문 반환의 해당 부분"
+    },
+    {
+      "source": "S09",
+      "scope": "저장소 지식의 table of contents·계획·지침 규모 관련 반환 부분",
+      "access": "2026-10-13 Exa 원문 반환의 해당 부분"
+    },
+    {
+      "source": "S10",
+      "scope": "평가 정의의 수행 기록·결과 상태·판정 유형",
+      "access": "2026-10-13 Exa 원문 반환의 해당 부분"
+    },
+    {
+      "source": "S16",
+      "scope": "규칙 편집/우회 권한·다중 적용·집행 상태",
+      "access": "2026-10-13 Exa 원문 반환의 해당 부분"
+    },
+    {
+      "source": "S17",
+      "scope": "파일·네트워크 경계와 별도 허용의 설명",
+      "access": "2026-10-13 Exa 원문 반환의 해당 부분"
+    },
+    {
+      "source": "S19",
+      "scope": "Evaluator-optimizer의 평가 기준·반복 가치와 후속 자료",
+      "access": "2026-10-13 Exa 원문 반환의 해당 부분"
+    },
+    {
+      "source": "S20",
+      "scope": "하네스 가정·모델 변화의 도입부",
+      "access": "2026-10-13 Exa 원문 반환의 해당 부분"
+    },
+    {
+      "source": "S47",
+      "scope": "입력/출력 구조·Error Handling·Security Considerations",
+      "access": "2026-10-13 Exa 원문 반환의 해당 부분"
+    },
+    {
+      "source": "S48",
+      "scope": "jobs.needs의 선행 성공·실패/생략 전파",
+      "access": "2026-10-13 Exa 원문 반환의 해당 부분"
+    },
+    {
+      "source": "S49",
+      "scope": "기본 pending 대체와 queue 설정의 조건 차이",
+      "access": "2026-10-13 Exa 원문 반환의 해당 부분"
+    },
+    {
+      "source": "S50",
+      "scope": "일시 실패·과부하·재시도와 부작용의 반환 부분",
+      "access": "2026-10-13 Exa 원문 반환의 해당 부분"
+    },
+    {
+      "source": "S51",
+      "scope": "재시도·동일 요청 식별·다른 의도와 부작용의 반환 부분",
+      "access": "2026-10-13 Exa 원문 반환의 해당 부분"
+    },
+    {
+      "source": "S52",
+      "scope": "just in time 조회·참조 식별자·요약/기록",
+      "access": "2026-10-13 Exa 원문 반환의 해당 부분"
+    },
+    {
+      "source": "S55",
+      "scope": "원저자 영문 PDF의 의사소통 경로·설계 선택 관련 추출 부분",
+      "access": "2026-10-13 Exa 원문 반환의 해당 부분"
+    },
+    {
+      "source": "S56",
+      "scope": "공식 소개의 팀 유형·상호작용 모드",
+      "access": "2026-10-13 Exa 원문 반환의 해당 부분"
+    },
+    {
+      "source": "S57",
+      "scope": "2025 공식 소개의 amplifier 설명; 보고서 전문 미확보",
+      "access": "2026-10-13 Exa 원문 반환의 해당 부분"
+    },
+    {
+      "source": "S58",
+      "scope": "실제 업무를 반영한 직무 과제와 입사 시 역량·훈련 구분",
+      "access": "2026-10-13 Exa 원문 반환의 해당 부분"
+    }
+  ],
+  "blogs": [
+    {
+      "source": "S32",
+      "path": "content/ko/posts/vibe-coding-and-xyproblem.md",
+      "blob": "86941d06d0c291c45b144821539577e582a409df",
+      "read_scope": "제목·목차와 해당 제안의 관련 본문 절; 실행·외부 인용 수치 재검증 미수행"
+    },
+    {
+      "source": "S38",
+      "path": "content/ko/posts/vibe-coding-rules-vs-taste.md",
+      "blob": "28ff41231c74562ca70c11033dfd4bef9df99fa2",
+      "read_scope": "제목·목차와 해당 제안의 관련 본문 절; 실행·외부 인용 수치 재검증 미수행"
+    },
+    {
+      "source": "S41",
+      "path": "content/ko/posts/vibe-coding-documentation.md",
+      "blob": "e11156a01e98cf74e2a0d7c307fe48a5f40860b5",
+      "read_scope": "제목·목차와 해당 제안의 관련 본문 절; 실행·외부 인용 수치 재검증 미수행"
+    },
+    {
+      "source": "S43",
+      "path": "content/ko/posts/software-factory-failures-into-rules.md",
+      "blob": "29a03bfcb6cc94411a035f08b06945ef2f37ced0",
+      "read_scope": "제목·목차와 해당 제안의 관련 본문 절; 실행·외부 인용 수치 재검증 미수행"
+    },
+    {
+      "source": "S46",
+      "path": "content/ko/posts/karpathy-llm-wiki-72-run-benchmark.md",
+      "blob": "f16f642f92261a6edc6ab9ec624ede502567dccf",
+      "read_scope": "제목·목차와 해당 제안의 관련 본문 절; 실행·외부 인용 수치 재검증 미수행"
+    },
+    {
+      "source": "S40",
+      "path": "content/ko/posts/ai-era-hiring-strategy.md",
+      "blob": "a4876424ed73eb476deca74b2754c79013f4ad3c",
+      "read_scope": "제목·목차와 해당 제안의 관련 본문 절; 실행·외부 인용 수치 재검증 미수행"
+    },
+    {
+      "source": "S35",
+      "path": "content/ko/posts/vibe-coding-vs-Engineering-Maturity.md",
+      "blob": "6ae73e2ea8bd409aecc5027cf8e4d7d6948c1ef2",
+      "read_scope": "제목·목차와 해당 제안의 관련 본문 절; 실행·외부 인용 수치 재검증 미수행"
+    },
+    {
+      "source": "S37",
+      "path": "content/ko/posts/ai-adoption-guide.md",
+      "blob": "ff00126b07ad26da1a378eabfce148c61d825cc9",
+      "read_scope": "제목·목차와 해당 제안의 관련 본문 절; 실행·외부 인용 수치 재검증 미수행"
+    },
+    {
+      "source": "S45",
+      "path": "content/ko/posts/vibe-coding-infrastructure-lock-in.md",
+      "blob": "b95d7b0c18dfd688ae6d83282e550060288539c3",
+      "read_scope": "제목·목차와 해당 제안의 관련 본문 절; 실행·외부 인용 수치 재검증 미수행"
+    },
+    {
+      "source": "S44",
+      "path": "content/ko/posts/software-factory-who-merges.md",
+      "blob": "08fa8bb12225f59e04d3e0119e87889682957402",
+      "read_scope": "제목·목차와 해당 제안의 관련 본문 절; 실행·외부 인용 수치 재검증 미수행"
+    }
+  ],
+  "demo": [
+    {
+      "source": "S60",
+      "path": "packages/factory/src/stages/gate.ts",
+      "scope": "선행 조사에서 가져온 고정 코드의 관련 원문 재열람; 새로운 실행 검증 아님",
+      "revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c"
+    },
+    {
+      "source": "S63",
+      "path": "packages/factory/src/stages/guard.ts",
+      "scope": "선행 조사에서 가져온 고정 코드의 관련 원문 재열람; 새로운 실행 검증 아님",
+      "revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c"
+    },
+    {
+      "source": "S65",
+      "path": "packages/factory/src/config/agents.ts",
+      "scope": "선행 조사에서 가져온 고정 코드의 관련 원문 재열람; 새로운 실행 검증 아님",
+      "revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c"
+    },
+    {
+      "source": "S67",
+      "path": "packages/factory/src/stages/eval.ts",
+      "scope": "선행 조사에서 가져온 고정 코드의 관련 원문 재열람; 새로운 실행 검증 아님",
+      "revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c"
+    },
+    {
+      "source": "S61",
+      "path": "packages/factory/src/stages/triage.ts",
+      "scope": "선행 조사에서 가져온 고정 코드의 관련 원문 재열람; 새로운 실행 검증 아님",
+      "revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c"
+    }
+  ],
+  "site_materials": {
+    "sources": [
+      "S69",
+      "S70",
+      "S71",
+      "S72",
+      "S73",
+      "S74",
+      "S75"
+    ],
+    "basis": "직전 조사에서 직접 읽은 고정 파일·공개 기록·원문을 사용. 이번에는 인용/반영 범위와 작성 이력·본문의 일치를 점검."
+  },
+  "direct_s01": {
+    "source": "S01",
+    "scope": "웹 원문의 팩토리 정의·보고 부분; 외부 사례 재검증 미수행"
+  },
+  "not_done": [
+    "More Effective Agile 전체 본문 대조",
+    "논문/데이터 재분석",
+    "제품·워크플로·데모 재실행",
+    "독립 인간/독자 검토",
+    "장기 조직 효과 검증"
+  ]
+}

@@ -79,3 +79,7 @@
 로보코 원고 선별 범위와 차용·보류의 이유는 [검토 메모](roboco-blog-review.md)와 [49개 목록](roboco-blog-inventory.json)에 있다.
 
 S59~S68: [The Software Factory Demo 구현 사례 지도](cases/software-factory-demo.md). 파일·blob SHA와 읽은 범위는 [조사 목록](software-factory-demo-inventory.json), 관측과 해석은 [주장 메모](claims/software-factory-demo.json)에 기록한다.
+
+S69~S75: [로보코 다섯 사이트의 인용·참고 제안](roboco-sites-review.md). 현재 판본과 작성 이력을 구분한 [조사 목록](roboco-sites-inventory.json), [주장 메모](claims/roboco-sites-review.json)를 함께 읽는다. 최초 제안과 아래 후속 반영 상태를 함께 관리한다.
+
+후속 반영: 저자 지시로 [선택한 배치](../planning/roboco-sites-adoption.md)에 따라 초고에 반영했다. [15장 순차 리뷰·수정 검증](../planning/reviews/2026-10-13-remaining-review.md), [원문 확인 범위](remaining-review-source-checks.json)를 따른다. 위 최초 제안과 현재 적용 상태는 구분한다.

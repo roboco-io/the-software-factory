@@ -1,0 +1,193 @@
+{
+  "checked_on": "2026-10-13",
+  "book_base": "04803e2fd2d348b6d4871f55f75d04c85303e129",
+  "purpose": "인용·참고 후보 제안; 원고 수정 전 조사",
+  "search": {
+    "exa_queries": 1,
+    "requested_candidates": 5,
+    "workstreams": 5,
+    "scope": "검색 후보는 원문과 저장소로 재확인. 공개된 모든 페이지의 통독이 아님."
+  },
+  "sites": [
+    {
+      "sid": "S69",
+      "site": "https://intent.roboco.io/",
+      "repo": "intent-engineering",
+      "title": "Intent Engineering — 원래 의도와 현재 문서의 분리",
+      "chapters": [
+        2,
+        3,
+        4
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "blob_sha": "45371dd6340e127075a7b70125f8ed77f8b26320",
+          "url": "https://github.com/roboco-io/intent-engineering/blob/0b5ecd622eaf633ba6c182c9c74a1c58e0dea28f/README.md"
+        },
+        {
+          "path": "INTENT.template.md",
+          "blob_sha": "7cba29b4a74147fc4bc90936f389d46a13f08222",
+          "url": "https://github.com/roboco-io/intent-engineering/blob/0b5ecd622eaf633ba6c182c9c74a1c58e0dea28f/INTENT.template.md"
+        }
+      ],
+      "scope": "홈·Concept, 고정 README/템플릿, 2026-04-06 초기 README 대조",
+      "limit": "저자의 의도 관리 제안. 현재 학습 기록 규칙은 9월 수정이며 4월 초안에 소급하지 않음. 코드/테스트 폐기와 모든 How 위임을 책의 보편 규칙으로 채택하지 않음.",
+      "repo_url": "https://github.com/roboco-io/intent-engineering",
+      "repository_created_at": "2026-04-06T00:18:25Z",
+      "revision": "0b5ecd622eaf633ba6c182c9c74a1c58e0dea28f",
+      "revision_committed_at": "2026-09-25T01:54:29Z",
+      "tree_truncated": false,
+      "history_scope": {
+        "path": "README.md",
+        "returned_commits": 4,
+        "oldest_returned": {
+          "sha": "af002150c5949a39e4ca4a57719b92c63e68de40",
+          "committed_at": "2026-04-06T00:18:36Z"
+        }
+      }
+    },
+    {
+      "sid": "S70",
+      "site": "https://vaf.roboco.io/",
+      "repo": "vibe-adoption-framework",
+      "title": "Vibe Adoption Framework — 역량·전환·도입 여정",
+      "chapters": [
+        13,
+        16,
+        18,
+        20
+      ],
+      "files": [
+        {
+          "path": "VAF-ko.md",
+          "blob_sha": "751e66a7b718a79db363974b4ecca5b44564d835",
+          "url": "https://github.com/roboco-io/vibe-adoption-framework/blob/10faece6c11c1c93b1046b127a1ed7ed1088e97a/VAF-ko.md"
+        }
+      ],
+      "scope": "홈 소개·관통 원리·세 축·도입 여정, 한국어 3.1/3.2·5.2·6.1 관련 절",
+      "limit": "저자 측 조직 설계 프레임워크. 컨설팅 효과/저렴한 고급인력 대체/모든 코드 자동 작성·규칙 우회 불가의 입증 자료가 아님.",
+      "repo_url": "https://github.com/roboco-io/vibe-adoption-framework",
+      "repository_created_at": "2026-07-18T15:07:39Z",
+      "revision": "10faece6c11c1c93b1046b127a1ed7ed1088e97a",
+      "revision_committed_at": "2026-07-22T11:44:18Z",
+      "tree_truncated": false,
+      "history_scope": {
+        "path": "VAF-ko.md",
+        "returned_commits": 7,
+        "oldest_returned": {
+          "sha": "4900d1b445e3e11237a639f000468b793d752215",
+          "committed_at": "2026-07-18T04:18:33Z"
+        }
+      }
+    },
+    {
+      "sid": "S71",
+      "site": "https://vdlc.roboco.io/",
+      "repo": "vibe-driven-development-lifecycle",
+      "title": "VDLC — 생명주기·맥락·환류·운영 주기",
+      "chapters": [
+        4,
+        7,
+        10,
+        19
+      ],
+      "files": [
+        {
+          "path": "docs/ko/cycle.md",
+          "blob_sha": "5674f4a3b909fdd5673224cfdbe2b70848035392",
+          "url": "https://github.com/roboco-io/vibe-driven-development-lifecycle/blob/fe277489c99d91d1fc32aac3fd7a86d94a4e010e/docs/ko/cycle.md"
+        }
+      ],
+      "scope": "홈·Stage 1 Intent·한국어 Context/Evolve, Release Notes, 고정 cycle의 관련 절",
+      "limit": "생명주기와 운영 제안. 재생성 통과로 맥락 부채가 없다는 보장, 실패 원인의 단정, 고정 주기·모든 인간 게이트를 보편 기준으로 차용하지 않음.",
+      "repo_url": "https://github.com/roboco-io/vibe-driven-development-lifecycle",
+      "repository_created_at": "2026-07-22T12:20:35Z",
+      "revision": "fe277489c99d91d1fc32aac3fd7a86d94a4e010e",
+      "revision_committed_at": "2026-09-06T02:19:37Z",
+      "tree_truncated": false,
+      "history_scope": {
+        "site_release_note": "v0.1 — 2026-07-22 first public release; web Release Notes 직접 확인"
+      }
+    },
+    {
+      "sid": "S72",
+      "site": "https://vibeup.roboco.io/",
+      "repo": "vibeup",
+      "title": "Vibe Up — 비용 상한·베팅·완료의 재해석",
+      "chapters": [
+        5,
+        6,
+        8,
+        17,
+        20
+      ],
+      "files": [
+        {
+          "path": "docs/ko/3-appetite.md",
+          "blob_sha": "a245f62ea94eb3509d5ba3c9a3e5ff9576f806f3",
+          "url": "https://github.com/roboco-io/vibeup/blob/037877833137416de8c1871945645a490ba70146/docs/ko/3-appetite.md"
+        },
+        {
+          "path": "docs/ko/6-betting.md",
+          "blob_sha": "eb7bc2da564274d2155f5365c9e48bec06e68723",
+          "url": "https://github.com/roboco-io/vibeup/blob/037877833137416de8c1871945645a490ba70146/docs/ko/6-betting.md"
+        },
+        {
+          "path": "docs/ko/7-done.md",
+          "blob_sha": "c5c06ceb4420b16127c240767afec807de089c7f",
+          "url": "https://github.com/roboco-io/vibeup/blob/037877833137416de8c1871945645a490ba70146/docs/ko/7-done.md"
+        }
+      ],
+      "scope": "홈, 고정 한국어 3/6/7장 본문",
+      "limit": "Shape Up에 대한 저자 재해석. 원작 주장과 구분. 병렬 후보 수·4+1일·재생성 완료 기준·인용 통계의 보편 효과를 미검증.",
+      "repo_url": "https://github.com/roboco-io/vibeup",
+      "repository_created_at": "2026-08-04T08:40:03Z",
+      "revision": "037877833137416de8c1871945645a490ba70146",
+      "revision_committed_at": "2026-08-17T22:49:09Z",
+      "tree_truncated": false,
+      "history_scope": {
+        "path": "docs/ko/3-appetite.md",
+        "returned_commits": 1,
+        "oldest_returned": {
+          "sha": "72a9e09495b0fc1260cb1d207be19c2c372f29ae",
+          "committed_at": "2026-08-04T23:46:26Z"
+        }
+      }
+    },
+    {
+      "sid": "S73",
+      "site": "https://roboco.io/dora-ai-guide/",
+      "repo": "dora-ai-guide",
+      "title": "DORA AI Guide — 비공식 요약과 편집 해석",
+      "chapters": [
+        9,
+        17,
+        18
+      ],
+      "files": [
+        {
+          "path": "docs/about.md",
+          "blob_sha": "94bd0e0f0d5484274a00fc307466055ab32b4f33",
+          "url": "https://github.com/roboco-io/dora-ai-guide/blob/e79c9565dba9e6f44fced371ae111bcd1b1f52d7/docs/about.md"
+        }
+      ],
+      "scope": "홈·역량 개요·측정 프레임워크 요약·출처/라이선스, 고정 about",
+      "limit": "DORA 비공식 2차 자료. 수치·인과·프레임워크 정의의 근거는 원문으로 대체 확인. 사이트가 구분한 편집 도식·예시는 DORA 결과로 인용하지 않음.",
+      "repo_url": "https://github.com/roboco-io/dora-ai-guide",
+      "repository_created_at": "2026-09-24T09:04:19Z",
+      "revision": "e79c9565dba9e6f44fced371ae111bcd1b1f52d7",
+      "revision_committed_at": "2026-09-29T03:46:41Z",
+      "tree_truncated": false,
+      "history_scope": {
+        "path": "docs/index.md",
+        "returned_commits": 5,
+        "oldest_returned": {
+          "sha": "afaaff663502edf24b05af6b5466b9a84cd92241",
+          "committed_at": "2026-09-24T09:04:14Z"
+        }
+      }
+    }
+  ],
+  "chronology_limit": "저장소 생성·Git 커밋·사이트 공개 기록을 구분. 이름의 최초 등장이나 인과적인 발전 계보를 증명하지 않음. 현재 사이트의 실제 배포 SHA는 별도 미확인."
+}

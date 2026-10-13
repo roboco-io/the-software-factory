@@ -1,0 +1,86 @@
+{
+  "topic": "로보코 사이트의 역사적 맥락과 편집 후보",
+  "checked_on": "2026-10-13",
+  "status": "저자 수용 지시에 따라 관련 장 초고에 반영·내용 검토",
+  "claims": [
+    {
+      "source": "S69",
+      "type": "저자의 기존 방법론 확인 → 책의 편집 후보",
+      "location": "research/roboco-sites-review.md의 후보별 제안",
+      "chapters": [
+        2,
+        3,
+        4
+      ],
+      "note": "원문에서 가져온 짧은 설명과 현재 책의 제한·재해석을 구분. 최초성·실제 조직 효과·과거 판본의 동일성을 주장하지 않음."
+    },
+    {
+      "source": "S70",
+      "type": "저자의 기존 방법론 확인 → 책의 편집 후보",
+      "location": "research/roboco-sites-review.md의 후보별 제안",
+      "chapters": [
+        13,
+        16,
+        18,
+        20
+      ],
+      "note": "원문에서 가져온 짧은 설명과 현재 책의 제한·재해석을 구분. 최초성·실제 조직 효과·과거 판본의 동일성을 주장하지 않음."
+    },
+    {
+      "source": "S71",
+      "type": "저자의 기존 방법론 확인 → 책의 편집 후보",
+      "location": "research/roboco-sites-review.md의 후보별 제안",
+      "chapters": [
+        4,
+        7,
+        10,
+        19
+      ],
+      "note": "원문에서 가져온 짧은 설명과 현재 책의 제한·재해석을 구분. 최초성·실제 조직 효과·과거 판본의 동일성을 주장하지 않음."
+    },
+    {
+      "source": "S72",
+      "type": "저자의 기존 방법론 확인 → 책의 편집 후보",
+      "location": "research/roboco-sites-review.md의 후보별 제안",
+      "chapters": [
+        5,
+        6,
+        8,
+        17,
+        20
+      ],
+      "note": "원문에서 가져온 짧은 설명과 현재 책의 제한·재해석을 구분. 최초성·실제 조직 효과·과거 판본의 동일성을 주장하지 않음."
+    },
+    {
+      "source": "S73",
+      "type": "비공식 2차 문서 확인 → 편집 후보",
+      "location": "research/roboco-sites-review.md의 후보별 제안",
+      "chapters": [
+        9,
+        17,
+        18
+      ],
+      "note": "원문에서 가져온 짧은 설명과 현재 책의 제한·재해석을 구분. 최초성·실제 조직 효과·과거 판본의 동일성을 주장하지 않음."
+    },
+    {
+      "source": "S74",
+      "type": "1차 방법 안내 확인",
+      "location": "DORA 가이드의 원문 대조",
+      "note": "공식 측정 문서 관련 반환 범위. 연구 수치와 원 보고서 전체는 검증하지 않음."
+    },
+    {
+      "source": "S75",
+      "type": "공개 원서 본문 관련 절 대조",
+      "location": "Vibe Up의 원작 연결",
+      "note": "예산 상한과 추정의 구분만 확인. 다른 장의 원작 논증은 미검토."
+    }
+  ],
+  "temporal_rule": "현재의 정의를 초기 판본에 소급하지 않음. 커밋일·저장소 생성일·작성자 공개 기록·원 연구의 발표일을 구분.",
+  "next": "저자·독립 사실·독자 검토 및 전체 통합 편집",
+  "adoption": {
+    "date": "2026-10-13",
+    "map": "planning/roboco-sites-adoption.md",
+    "report": "planning/reviews/2026-10-13-remaining-review.md",
+    "limit": "작성/공개/개정 시점과 원래 맥락을 분리. 운영 효과·편집 확정 아님."
+  }
+}

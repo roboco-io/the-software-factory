@@ -63,5 +63,18 @@
       ],
       "scope": "기존 공개 목차의 주제 연결. 새 본문 대조나 세부 주장 평가는 아님."
     }
+  },
+  "policy_review": {
+    "reviewed_on": "2026-10-13",
+    "reviewed_version": "43ab02de70d48952747ef097bc74c28c654af494",
+    "report": "planning/reviews/2026-10-13-baseline-review.md",
+    "mode": "원고 내용·원문 일부 대조·문체 점검",
+    "source_rechecks": [
+      "S03",
+      "S04"
+    ],
+    "open_findings": [],
+    "status": "수정 검증·저자 편집 확정 미완료",
+    "limit": "자료별 실제 확인 범위는 sources.json review_checks 참조. 기존 작성자 점검과 이번 리뷰는 독립 인간 검증이 아님."
   }
 }

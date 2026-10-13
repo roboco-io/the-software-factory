@@ -1,0 +1,29 @@
+{
+  "verified_on": "2026-10-13",
+  "base_commit": "43ab02de70d48952747ef097bc74c28c654af494",
+  "state": "미커밋 수정본",
+  "files": {
+    "manuscript/chapters/ch09.md": "9f84e5729a9ba517050438f3ffc19b54e7215138feb871927dd4ac053c27c2dc",
+    "manuscript/chapters/ch16.md": "f5c2b53f4ff9d0c37cb5bbd5e34f76d115bf5cd2af8c462b65f63a35accbe90a",
+    "manuscript/chapters/ch17.md": "a9cefea7dd0ca11b285f9840e45a1519e2091eb2f6ce9e6fc3d129e9d25952de",
+    "manuscript/patterns/p01.md": "64236fe1ce5eb7ffd4505c08f4df98aaa81c17150c0aecb850ad94b864460d8d",
+    "manuscript/patterns/p03.md": "2e660333347cd6c12d8e097cca240bc617d0f51f0d63e1ec7e2a7d9b4bcb0203",
+    "manuscript/patterns/p07.md": "fab7730d85dea41ec8b45a9f6c12afeaa5a4dad1ecb154f66d215adcb42d962e",
+    "manuscript/patterns/p08.md": "e35025e2ed97dc9eed9e528f276500c5706cc4606f6de73e8ce595cd7c0f57d2",
+    "manuscript/patterns/p10.md": "f1745e7e3b7f24c1444a6095e55d02de902692fc130ee953c859a89e36f0d11d",
+    "manuscript/patterns/p11.md": "8cf5ee7fee8719767c6f5a1ee1b3366ffeed20f4347ff54f9e6f7dd0e5fb2ef0",
+    "manuscript/patterns/p12.md": "eab8b9f9e03fddfc85affb3bb78ffafd710e05a8515a42e373f753dc7d86acb1",
+    "manuscript/patterns/p13.md": "3ca17a4cbbce72144bf8128ce6a1469856570d13c453fcfbcd6555287187bd4e",
+    "manuscript/patterns/p14.md": "34009ca62a4da698222780753c0979b63e2088fe95da273776c1262ab481584b",
+    "manuscript/patterns/p15.md": "01cfd1362795f1016e456b025905fa47746396179ebcd1551c102ee8aef8a676",
+    "patterns/README.md": "698a5d8968155d346f1bcc109c84e487e11e799a29138158fb766ecd32e89487",
+    "research/claims/ch09.json": "285915a5c0c46ddca768f4e75790ed02371cef5de583d1af6da1f35363692240",
+    "research/claims/ch16.json": "5cd24b755f320d169e62c9ff560918ab06c6deca23c0879793698cf17cc3a55b",
+    "research/claims/ch17.json": "062df7d9007a8c75a8d83d1747c6521e2d9edacd30869fc4a2ce9238cb5d0936",
+    "research/claims/ownership-and-automation.json": "350c0958210ee12169ee402199275c02b41900f738cb03a9a0092fcf8ea8560c",
+    "research/claims/pattern-drafts.json": "6d19d210908ec5fc984b5d92ecf16f6d5b86ae0eaf60133cf3409f72bf70f4a9",
+    "research/ownership-and-automation.md": "d10705ed386c4504ce5bd490b8c87c8c70f81a21b11debf44225b8d97cb9dd39",
+    "research/sources.json": "c8bf1bf6616d79d3c673a9f589e73e48a7971e766c19efff7dd6bdaa8e7fbafc"
+  },
+  "limit": "기록한 파일 내용의 버전 식별. 독립 사실 검증·저자 편집 확정이 아님."
+}

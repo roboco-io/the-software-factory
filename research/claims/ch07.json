@@ -86,5 +86,19 @@
     ],
     "ownership_connection": "2026-10-11: 16장의 업무 설계와 역할별 연결을 보강했다.",
     "roboco_reuse": "2026-10-11: 고정 저장소 원문에서 저자의 제안만 차용. 기존 미검증 항목 유지."
+  },
+  "policy_review": {
+    "reviewed_on": "2026-10-13",
+    "reviewed_version": "43ab02de70d48952747ef097bc74c28c654af494",
+    "report": "planning/reviews/2026-10-13-baseline-review.md",
+    "mode": "원고 내용·원문 일부 대조·문체 점검",
+    "source_rechecks": [
+      "S10",
+      "S13",
+      "S18"
+    ],
+    "open_findings": [],
+    "status": "수정 검증·저자 편집 확정 미완료",
+    "limit": "자료별 실제 확인 범위는 sources.json review_checks 참조. 기존 작성자 점검과 이번 리뷰는 독립 인간 검증이 아님."
   }
 }

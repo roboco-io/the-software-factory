@@ -89,6 +89,11 @@
       "type": "저자의 기존 글 제안·분석 틀을 재구성",
       "source": "S01",
       "note": "보고를 지금의 결정과 상세 근거에 연결. 기존 ID 유지."
+    },
+    {
+      "location": "예외와 복구에도 책임의 경계가 필요하다 / 판단 충돌의 가상 조회 예시",
+      "type": "저자 운영 제안·가상 설명 예시",
+      "note": "중단·사업·기반·정책 판단과 조정을 구분. 응답 기한·대체 판단·제한 상태를 연결하며 조정자가 정책 권한을 대신 행사하지 않음. 효과 입증 사례 아님."
     }
   ],
   "review": {
@@ -103,5 +108,31 @@
     ],
     "ownership_connection": "2026-10-11: 16장의 업무 설계와 역할별 연결을 보강했다.",
     "roboco_reuse": "2026-10-11: 고정 저장소 원문에서 저자의 제안만 차용. 기존 미검증 항목 유지."
+  },
+  "policy_review": {
+    "reviewed_on": "2026-10-13",
+    "reviewed_version": "43ab02de70d48952747ef097bc74c28c654af494",
+    "report": "planning/reviews/2026-10-13-baseline-review.md",
+    "mode": "원고 내용·원문 일부 대조·문체 점검",
+    "source_rechecks": [
+      "S21",
+      "S22",
+      "S23"
+    ],
+    "open_findings": [],
+    "status": "이번 의견의 수정 검증 완료·전체 원고 리뷰/저자 편집 확정 미완료",
+    "limit": "자료별 실제 확인 범위는 sources.json review_checks 참조. 기존 작성자 점검과 이번 리뷰는 독립 인간 검증이 아님.",
+    "initial_open_findings": [
+      "R001"
+    ],
+    "fix_verification": {
+      "date": "2026-10-13",
+      "report": "planning/reviews/2026-10-13-review-fixes.md",
+      "manifest": "planning/reviews/2026-10-13-review-fixes-manifest.json",
+      "resolved": [
+        "R001"
+      ],
+      "reviewer": "작성 에이전트의 재검토; 독립 인간 리뷰 아님"
+    }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "checked_on": "2026-10-11",
+  "checked_on": "2026-10-13",
   "sources": [
     {
       "id": "S01",
@@ -95,12 +95,27 @@
           "manuscript/chapters/ch01.md",
           "planning/draft-review-2026-10-12.md",
           "planning/sessions/2026-10-12-complete-drafts.md",
-          "research/claims/ch01.json"
+          "research/claims/ch01.json",
+          "planning/reviews/2026-10-13-baseline-review.md"
         ],
         "summary_check": "완성한 장과 기존 원고·연구 메모·주장 메모·대장·색인의 누적 사용을 검토. 자료 설명은 짧게 유지하고 저자의 해석·제안·확인 한계를 구분. 직접 인용·원문 복제·수치 재현 없음. 출처별 200단어 기본 상한 안에서 파생 설명을 수동 점검.",
         "conservative_review_whitespace_units": 95,
-        "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검."
-      }
+        "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검.",
+        "review_addendum": {
+          "checked_on": "2026-10-13",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "new_direct_quotes": 0,
+          "scope": "기존 요약 재수록 대신 확인 위치·판정과 수정 차이를 기록. 전체 누적 파생량 재집계는 미완료."
+        }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "공식 홈페이지 소개·Four connected capabilities",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "status": "관련 범위 재대조; 전체 통독·효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S04",
@@ -120,12 +135,27 @@
           "manuscript/chapters/ch01.md",
           "planning/draft-review-2026-10-12.md",
           "planning/sessions/2026-10-12-complete-drafts.md",
-          "research/claims/ch01.json"
+          "research/claims/ch01.json",
+          "planning/reviews/2026-10-13-baseline-review.md"
         ],
         "summary_check": "완성한 장과 기존 원고·연구 메모·주장 메모·대장·색인의 누적 사용을 검토. 자료 설명은 짧게 유지하고 저자의 해석·제안·확인 한계를 구분. 직접 인용·원문 복제·수치 재현 없음. 출처별 200단어 기본 상한 안에서 파생 설명을 수동 점검.",
         "conservative_review_whitespace_units": 171,
-        "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검."
-      }
+        "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검.",
+        "review_addendum": {
+          "checked_on": "2026-10-13",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "new_direct_quotes": 0,
+          "scope": "기존 요약 재수록 대신 확인 위치·판정과 수정 차이를 기록. 전체 누적 파생량 재집계는 미완료."
+        }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "공식 개념 페이지 Definition·Clarification loop 도입",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "status": "관련 범위 재대조; 전체 통독·효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S05",
@@ -221,13 +251,28 @@
           "research/README.md",
           "research/sources.json",
           "STATUS.md",
-          "planning/sessions/2026-10-11-ch07.md"
+          "planning/sessions/2026-10-11-ch07.md",
+          "planning/reviews/2026-10-13-baseline-review.md"
         ],
         "direct_quote_words": 0,
         "manuscript_summary_whitespace_units": 55,
         "count_method": "본문·패턴의 해당 출처 표식 이전 설명을 공백으로 집계. 한국어 어절 수이며 영어 단어 수나 전체 파생량의 자동 판정은 아님.",
-        "summary_check": "조사 카드·주장 메모·대장·진행 기록도 읽고 출처에서 가져온 설명을 합산 검토. 저자 해석·설계 제안·확인 한계를 구분. 출처별 200단어 상한 안에서 짧은 요약만 사용. 원문의 예시·코드·수치·장문 번역을 추가하지 않음."
-      }
+        "summary_check": "조사 카드·주장 메모·대장·진행 기록도 읽고 출처에서 가져온 설명을 합산 검토. 저자 해석·설계 제안·확인 한계를 구분. 출처별 200단어 상한 안에서 짧은 요약만 사용. 원문의 예시·코드·수치·장문 번역을 추가하지 않음.",
+        "review_addendum": {
+          "checked_on": "2026-10-13",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "new_direct_quotes": 0,
+          "scope": "기존 요약 재수록 대신 확인 위치·판정과 수정 차이를 기록. 전체 누적 파생량 재집계는 미완료."
+        }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "The structure of an evaluation의 transcript/outcome 정의·Types of graders",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "status": "관련 범위 재대조; 전체 통독·효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S11",
@@ -271,13 +316,28 @@
           "research/README.md",
           "research/sources.json",
           "STATUS.md",
-          "planning/sessions/2026-10-11-ch07.md"
+          "planning/sessions/2026-10-11-ch07.md",
+          "planning/reviews/2026-10-13-baseline-review.md"
         ],
         "direct_quote_words": 0,
         "manuscript_summary_whitespace_units": 23,
         "count_method": "본문·패턴의 해당 출처 표식 이전 설명을 공백으로 집계. 한국어 어절 수이며 영어 단어 수나 전체 파생량의 자동 판정은 아님.",
-        "summary_check": "조사 카드·주장 메모·대장·진행 기록도 읽고 출처에서 가져온 설명을 합산 검토. 저자 해석·설계 제안·확인 한계를 구분. 출처별 200단어 상한 안에서 짧은 요약만 사용. 원문의 예시·코드·수치·장문 번역을 추가하지 않음."
-      }
+        "summary_check": "조사 카드·주장 메모·대장·진행 기록도 읽고 출처에서 가져온 설명을 합산 검토. 저자 해석·설계 제안·확인 한계를 구분. 출처별 200단어 상한 안에서 짧은 요약만 사용. 원문의 예시·코드·수치·장문 번역을 추가하지 않음.",
+        "review_addendum": {
+          "checked_on": "2026-10-13",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "new_direct_quotes": 0,
+          "scope": "기존 요약 재수록 대신 확인 위치·판정과 수정 차이를 기록. 전체 누적 파생량 재집계는 미완료."
+        }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "Exa 반환 공개 PR 본문 Why·Summary 및 병합 표시. 전체 CI·실행 미확인",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "status": "관련 범위 재대조; 전체 통독·효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S14",
@@ -369,13 +429,29 @@
           "research/sources.json",
           "STATUS.md",
           "planning/sessions/2026-10-11-ch07.md",
-          "research/README.md"
+          "research/README.md",
+          "planning/reviews/2026-10-13-baseline-review.md"
         ],
         "direct_quote_words": 0,
         "manuscript_summary_whitespace_units": 17,
         "count_method": "본문·패턴의 해당 출처 표식 이전 설명을 공백으로 집계. 한국어 어절 수이며 영어 단어 수나 전체 파생량의 자동 판정은 아님.",
-        "summary_check": "조사 카드·주장 메모·대장·진행 기록도 읽고 출처에서 가져온 설명을 합산 검토. 저자 해석·설계 제안·확인 한계를 구분. 출처별 200단어 상한 안에서 짧은 요약만 사용. 원문의 예시·코드·수치·장문 번역을 추가하지 않음."
-      }
+        "summary_check": "조사 카드·주장 메모·대장·진행 기록도 읽고 출처에서 가져온 설명을 합산 검토. 저자 해석·설계 제안·확인 한계를 구분. 출처별 200단어 상한 안에서 짧은 요약만 사용. 원문의 예시·코드·수치·장문 번역을 추가하지 않음.",
+        "review_addendum": {
+          "checked_on": "2026-10-13",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "new_direct_quotes": 0,
+          "scope": "기존 요약 재수록 대신 확인 위치·판정과 수정 차이를 기록. 전체 누적 파생량 재집계는 미완료."
+        }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "Exa 반환 공개 PR 본문 Why·Summary·How to Test 및 병합 표시. 전체 CI·실행 미확인",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "status": "관련 범위 재대조; 전체 통독·효과 검증 아님",
+          "version_note": "이번 반환은 merged·2026-10-06 병합 표시. 이전 Draft 관측 이력은 보존. 수집 표시이며 전체 승인 경로의 재구성은 아님."
+        }
+      ]
     },
     {
       "id": "S19",
@@ -452,13 +528,28 @@
           "research/sources.json",
           "research/README.md",
           "STATUS.md",
-          "planning/sessions/2026-10-11-ch09.md"
+          "planning/sessions/2026-10-11-ch09.md",
+          "planning/reviews/2026-10-13-baseline-review.md"
         ],
         "direct_quote_words": 0,
         "manuscript_summary_whitespace_units": 18,
         "count_method": "본문 해당 출처 표식 이전 설명의 공백 단위 집계. 한국어 어절이며 전체 파생량의 자동 판정은 아님.",
-        "summary_check": "본문·조사 카드·대장·주장 메모·색인·진행 기록의 누적 사용을 수동 검토. 출처별 200단어 상한 안에서 짧게 요약. 원문 예시·코드·장문 번역 없음. 저자 해석·제안과 확인 한계는 구분."
-      }
+        "summary_check": "본문·조사 카드·대장·주장 메모·색인·진행 기록의 누적 사용을 수동 검토. 출처별 200단어 상한 안에서 짧게 요약. 원문 예시·코드·장문 번역 없음. 저자 해석·제안과 확인 한계는 구분.",
+        "review_addendum": {
+          "checked_on": "2026-10-13",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "new_direct_quotes": 0,
+          "scope": "기존 요약 재수록 대신 확인 위치·판정과 수정 차이를 기록. 전체 누적 파생량 재집계는 미완료."
+        }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "공식 System Model의 Core Entities·System 설명",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "status": "관련 범위 재대조; 전체 통독·효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S22",
@@ -481,13 +572,28 @@
           "research/sources.json",
           "research/README.md",
           "STATUS.md",
-          "planning/sessions/2026-10-11-ch09.md"
+          "planning/sessions/2026-10-11-ch09.md",
+          "planning/reviews/2026-10-13-baseline-review.md"
         ],
         "direct_quote_words": 0,
         "manuscript_summary_whitespace_units": 19,
         "count_method": "본문 해당 출처 표식 이전 설명의 공백 단위 집계. 한국어 어절이며 전체 파생량의 자동 판정은 아님.",
-        "summary_check": "본문·조사 카드·대장·주장 메모·색인·진행 기록의 누적 사용을 수동 검토. 출처별 200단어 상한 안에서 짧게 요약. 원문 예시·코드·장문 번역 없음. 저자 해석·제안과 확인 한계는 구분."
-      }
+        "summary_check": "본문·조사 카드·대장·주장 메모·색인·진행 기록의 누적 사용을 수동 검토. 출처별 200단어 상한 안에서 짧게 요약. 원문 예시·코드·장문 번역 없음. 저자 해석·제안과 확인 한계는 구분.",
+        "review_addendum": {
+          "checked_on": "2026-10-13",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "new_direct_quotes": 0,
+          "scope": "기존 요약 재수록 대신 확인 위치·판정과 수정 차이를 기록. 전체 누적 파생량 재집계는 미완료."
+        }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "공식 Descriptor Format의 Kind: Component/spec.owner",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "status": "관련 범위 재대조; 전체 통독·효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S23",
@@ -513,15 +619,30 @@
           "research/cases/production-boundaries.md",
           "research/claims/ch05.json",
           "research/claims/ch09.json",
-          "research/sources.json"
+          "research/sources.json",
+          "planning/reviews/2026-10-13-baseline-review.md"
         ],
         "direct_quote_words": 0,
         "manuscript_summary_whitespace_units": 39,
         "count_method": "본문 해당 출처 표식 이전 설명의 공백 단위 집계. 한국어 어절이며 전체 파생량의 자동 판정은 아님.",
         "summary_check": "5·9장과 연구 카드·주장 메모·대장·색인·진행 기록의 누적 사용을 검토. 짧은 문서 구조 요약만 사용하고 저자 해석·제안·실제 설정 미검증을 구분. 출처별 200단어 상한 안에서 검토. 원문 코드·장문 번역 없음.",
         "conservative_review_whitespace_units": 151,
-        "count_scope": "본문 출처 문단 전체·대장 제목/작성자/확인 범위/사용/한계·해당 주장 note·조사 카드의 해당 출처 문단을 보수적으로 공백 집계. 인덱스·진행 기록과 파생 설명은 별도 수동 점검. 한국어 어절이며 영어 단어 수나 전체 인용량의 자동 판정이 아님."
-      }
+        "count_scope": "본문 출처 문단 전체·대장 제목/작성자/확인 범위/사용/한계·해당 주장 note·조사 카드의 해당 출처 문단을 보수적으로 공백 집계. 인덱스·진행 기록과 파생 설명은 별도 수동 점검. 한국어 어절이며 영어 단어 수나 전체 인용량의 자동 판정이 아님.",
+        "review_addendum": {
+          "checked_on": "2026-10-13",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "new_direct_quotes": 0,
+          "scope": "기존 요약 재수록 대신 확인 위치·판정과 수정 차이를 기록. 전체 누적 파생량 재집계는 미완료."
+        }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "공식 Deployments and environments의 보호 조건·Environment secrets",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "status": "관련 범위 재대조; 전체 통독·효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S24",
@@ -546,13 +667,28 @@
           "planning/sessions/2026-10-11-ownership.md",
           "manuscript/chapters/ch16.md",
           "research/claims/ch16.json",
-          "planning/sessions/2026-10-11-ch16.md"
+          "planning/sessions/2026-10-11-ch16.md",
+          "planning/reviews/2026-10-13-baseline-review.md"
         ],
         "direct_quote_words": 0,
         "summary_check": "16장·기존 연구 메모·출처 대장·두 주장 메모·색인과 진행 기록을 누적 검토. 직접 인용 없음. 출처에서 가져온 짧은 설명을 출처별 200단어 상한 안에서 유지. 저자 정의·해석·설계 제안·확인 한계를 구분. 원문·도표·장문 번역 복제 없음.",
         "conservative_review_whitespace_units": 172,
-        "count_scope": "연구 메모의 해당 표 행 전체, 16장의 출처 표식 문단 전체, 대장의 제목·작성자·확인 범위·한계, 두 주장 메모의 해당 출처 note. 공백 집계이며 한국어 어절 수다. 색인·진행 기록·해석 및 제안의 파생 여부는 별도 수동 점검. 영어 단어 수나 전체 파생량의 자동 판정은 아님."
-      }
+        "count_scope": "연구 메모의 해당 표 행 전체, 16장의 출처 표식 문단 전체, 대장의 제목·작성자·확인 범위·한계, 두 주장 메모의 해당 출처 note. 공백 집계이며 한국어 어절 수다. 색인·진행 기록·해석 및 제안의 파생 여부는 별도 수동 점검. 영어 단어 수나 전체 파생량의 자동 판정은 아님.",
+        "review_addendum": {
+          "checked_on": "2026-10-13",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "new_direct_quotes": 0,
+          "scope": "기존 요약 재수록 대신 확인 위치·판정과 수정 차이를 기록. 전체 누적 파생량 재집계는 미완료."
+        }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "출판사 원저자 초록·서지. 웹 열기 실패 후 Exa로 확인",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "status": "관련 범위 재대조; 전체 통독·효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S25",
@@ -577,13 +713,28 @@
           "planning/sessions/2026-10-11-ownership.md",
           "manuscript/chapters/ch16.md",
           "research/claims/ch16.json",
-          "planning/sessions/2026-10-11-ch16.md"
+          "planning/sessions/2026-10-11-ch16.md",
+          "planning/reviews/2026-10-13-baseline-review.md"
         ],
         "direct_quote_words": 0,
         "summary_check": "16장·기존 연구 메모·출처 대장·두 주장 메모·색인과 진행 기록을 누적 검토. 직접 인용 없음. 출처에서 가져온 짧은 설명을 출처별 200단어 상한 안에서 유지. 저자 정의·해석·설계 제안·확인 한계를 구분. 원문·도표·장문 번역 복제 없음.",
         "conservative_review_whitespace_units": 148,
-        "count_scope": "연구 메모의 해당 표 행 전체, 16장의 출처 표식 문단 전체, 대장의 제목·작성자·확인 범위·한계, 두 주장 메모의 해당 출처 note. 공백 집계이며 한국어 어절 수다. 색인·진행 기록·해석 및 제안의 파생 여부는 별도 수동 점검. 영어 단어 수나 전체 파생량의 자동 판정은 아님."
-      }
+        "count_scope": "연구 메모의 해당 표 행 전체, 16장의 출처 표식 문단 전체, 대장의 제목·작성자·확인 범위·한계, 두 주장 메모의 해당 출처 note. 공백 집계이며 한국어 어절 수다. 색인·진행 기록·해석 및 제안의 파생 여부는 별도 수동 점검. 영어 단어 수나 전체 파생량의 자동 판정은 아님.",
+        "review_addendum": {
+          "checked_on": "2026-10-13",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "new_direct_quotes": 0,
+          "scope": "기존 요약 재수록 대신 확인 위치·판정과 수정 차이를 기록. 전체 누적 파생량 재집계는 미완료."
+        }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "출판사 원저자 초록·서지",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "status": "관련 범위 재대조; 전체 통독·효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S26",
@@ -608,13 +759,28 @@
           "planning/sessions/2026-10-11-ownership.md",
           "manuscript/chapters/ch16.md",
           "research/claims/ch16.json",
-          "planning/sessions/2026-10-11-ch16.md"
+          "planning/sessions/2026-10-11-ch16.md",
+          "planning/reviews/2026-10-13-baseline-review.md"
         ],
         "direct_quote_words": 0,
         "summary_check": "16장·기존 연구 메모·출처 대장·두 주장 메모·색인과 진행 기록을 누적 검토. 직접 인용 없음. 출처에서 가져온 짧은 설명을 출처별 200단어 상한 안에서 유지. 저자 정의·해석·설계 제안·확인 한계를 구분. 원문·도표·장문 번역 복제 없음.",
         "conservative_review_whitespace_units": 160,
-        "count_scope": "연구 메모의 해당 표 행 전체, 16장의 출처 표식 문단 전체, 대장의 제목·작성자·확인 범위·한계, 두 주장 메모의 해당 출처 note. 공백 집계이며 한국어 어절 수다. 색인·진행 기록·해석 및 제안의 파생 여부는 별도 수동 점검. 영어 단어 수나 전체 파생량의 자동 판정은 아님."
-      }
+        "count_scope": "연구 메모의 해당 표 행 전체, 16장의 출처 표식 문단 전체, 대장의 제목·작성자·확인 범위·한계, 두 주장 메모의 해당 출처 note. 공백 집계이며 한국어 어절 수다. 색인·진행 기록·해석 및 제안의 파생 여부는 별도 수동 점검. 영어 단어 수나 전체 파생량의 자동 판정은 아님.",
+        "review_addendum": {
+          "checked_on": "2026-10-13",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "new_direct_quotes": 0,
+          "scope": "기존 요약 재수록 대신 확인 위치·판정과 수정 차이를 기록. 전체 누적 파생량 재집계는 미완료."
+        }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "출판사 원저자 초록·서지",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "status": "관련 범위 재대조; 전체 통독·효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S27",
@@ -622,13 +788,13 @@
       "author": "Zana Buçinca, Maja Barbara Malaya, Krzysztof Z. Gajos",
       "url": "https://ar5iv.labs.arxiv.org/html/2102.09692",
       "published_on": "2021",
-      "checked_on": "2026-10-11",
+      "checked_on": "2026-10-13",
       "verification_status": "명시한 범위의 원문 직접 확인",
-      "verification_scope": "원저자 논문 HTML의 초록·3.2 조건·3.3 모의 AI·6 논의·7 결론 확인. 출판 DOI 10.1145/3449287.",
+      "verification_scope": "기존 확인 범위에 더해 2026-10-13 원저자 HTML 4.1·표 2 재대조. R002 비교군·지표 표현 수정.",
       "use": "16장 오너십 초고와 조사·개입 가설의 근거",
       "limit": "199명 영양 선택·모의 AI. 과잉 의존 감소와 전체 성능 향상을 구분. 수용성·인지 동기 차이·일반화 한계. 현대 생성형 에이전트 실험 아님.",
       "usage_review": {
-        "checked_on": "2026-10-11",
+        "checked_on": "2026-10-13",
         "files": [
           "research/ownership-and-automation.md",
           "research/claims/ownership-and-automation.json",
@@ -639,13 +805,49 @@
           "planning/sessions/2026-10-11-ownership.md",
           "manuscript/chapters/ch16.md",
           "research/claims/ch16.json",
-          "planning/sessions/2026-10-11-ch16.md"
+          "planning/sessions/2026-10-11-ch16.md",
+          "planning/reviews/2026-10-13-baseline-review.md",
+          "planning/reviews/2026-10-13-review-fixes.md",
+          "planning/sessions/2026-10-13-review-fixes.md"
         ],
         "direct_quote_words": 0,
         "summary_check": "16장·기존 연구 메모·출처 대장·두 주장 메모·색인과 진행 기록을 누적 검토. 직접 인용 없음. 출처에서 가져온 짧은 설명을 출처별 200단어 상한 안에서 유지. 저자 정의·해석·설계 제안·확인 한계를 구분. 원문·도표·장문 번역 복제 없음.",
         "conservative_review_whitespace_units": 166,
-        "count_scope": "연구 메모의 해당 표 행 전체, 16장의 출처 표식 문단 전체, 대장의 제목·작성자·확인 범위·한계, 두 주장 메모의 해당 출처 note. 공백 집계이며 한국어 어절 수다. 색인·진행 기록·해석 및 제안의 파생 여부는 별도 수동 점검. 영어 단어 수나 전체 파생량의 자동 판정은 아님."
-      }
+        "count_scope": "연구 메모의 해당 표 행 전체, 16장의 출처 표식 문단 전체, 대장의 제목·작성자·확인 범위·한계, 두 주장 메모의 해당 출처 note. 공백 집계이며 한국어 어절 수다. 색인·진행 기록·해석 및 제안의 파생 여부는 별도 수동 점검. 영어 단어 수나 전체 파생량의 자동 판정은 아님.",
+        "review_addendum": {
+          "checked_on": "2026-10-13",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "new_direct_quotes": 0,
+          "scope": "기존 요약 재수록 대신 확인 위치·판정과 수정 차이를 기록. 전체 누적 파생량 재집계는 미완료."
+        },
+        "correction_review": {
+          "checked_on": "2026-10-13",
+          "scope": "기존 원문 요약을 교체하고 근거·해석의 경계를 점검. 원고·두 주장 메모 또는 해당 장 메모·대장·조사 행·리뷰 기록을 연결. 직접 인용·수치·장문 요약 추가 없음.",
+          "limit": "한국어 어절 자동 집계를 인용 한도 확정으로 사용하지 않음. 이전 누적 집계 수치는 당시 범위의 기록으로 보존."
+        }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "원저자 논문 HTML 초록·4.1 Objective measures의 비교 조건",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "status": "관련 범위 재대조; 전체 통독·효과 검증 아님",
+          "finding": "R002: 비교 대상 명확화 필요. 세부 의견은 보고서 참조."
+        },
+        {
+          "checked_on": "2026-10-13",
+          "scope": "R002/R004 수정 문장과 원문 위치 대조",
+          "report": "planning/reviews/2026-10-13-review-fixes.md",
+          "status": "수정 확인; 효과 실험·전문 통독 아님"
+        }
+      ],
+      "verification_history": [
+        {
+          "checked_on": "2026-10-11",
+          "verification_scope": "원저자 논문 HTML의 초록·3.2 조건·3.3 모의 AI·6 논의·7 결론 확인. 출판 DOI 10.1145/3449287.",
+          "limit": "199명 영양 선택·모의 AI. 과잉 의존 감소와 전체 성능 향상을 구분. 수용성·인지 동기 차이·일반화 한계. 현대 생성형 에이전트 실험 아님."
+        }
+      ]
     },
     {
       "id": "S28",
@@ -670,13 +872,28 @@
           "planning/sessions/2026-10-11-ownership.md",
           "manuscript/chapters/ch16.md",
           "research/claims/ch16.json",
-          "planning/sessions/2026-10-11-ch16.md"
+          "planning/sessions/2026-10-11-ch16.md",
+          "planning/reviews/2026-10-13-baseline-review.md"
         ],
         "direct_quote_words": 0,
         "summary_check": "16장·기존 연구 메모·출처 대장·두 주장 메모·색인과 진행 기록을 누적 검토. 직접 인용 없음. 출처에서 가져온 짧은 설명을 출처별 200단어 상한 안에서 유지. 저자 정의·해석·설계 제안·확인 한계를 구분. 원문·도표·장문 번역 복제 없음.",
         "conservative_review_whitespace_units": 161,
-        "count_scope": "연구 메모의 해당 표 행 전체, 16장의 출처 표식 문단 전체, 대장의 제목·작성자·확인 범위·한계, 두 주장 메모의 해당 출처 note. 공백 집계이며 한국어 어절 수다. 색인·진행 기록·해석 및 제안의 파생 여부는 별도 수동 점검. 영어 단어 수나 전체 파생량의 자동 판정은 아님."
-      }
+        "count_scope": "연구 메모의 해당 표 행 전체, 16장의 출처 표식 문단 전체, 대장의 제목·작성자·확인 범위·한계, 두 주장 메모의 해당 출처 note. 공백 집계이며 한국어 어절 수다. 색인·진행 기록·해석 및 제안의 파생 여부는 별도 수동 점검. 영어 단어 수나 전체 파생량의 자동 판정은 아님.",
+        "review_addendum": {
+          "checked_on": "2026-10-13",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "new_direct_quotes": 0,
+          "scope": "기존 요약 재수록 대신 확인 위치·판정과 수정 차이를 기록. 전체 누적 파생량 재집계는 미완료."
+        }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "ACM 원저자 Abstract·서지. AI 생성 요약 제외",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "status": "관련 범위 재대조; 전체 통독·효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S29",
@@ -731,13 +948,28 @@
           "planning/sessions/2026-10-11-ownership.md",
           "manuscript/chapters/ch16.md",
           "research/claims/ch16.json",
-          "planning/sessions/2026-10-11-ch16.md"
+          "planning/sessions/2026-10-11-ch16.md",
+          "planning/reviews/2026-10-13-baseline-review.md"
         ],
         "direct_quote_words": 0,
         "summary_check": "16장·기존 연구 메모·출처 대장·두 주장 메모·색인과 진행 기록을 누적 검토. 직접 인용 없음. 출처에서 가져온 짧은 설명을 출처별 200단어 상한 안에서 유지. 저자 정의·해석·설계 제안·확인 한계를 구분. 원문·도표·장문 번역 복제 없음.",
         "conservative_review_whitespace_units": 155,
-        "count_scope": "연구 메모의 해당 표 행 전체, 16장의 출처 표식 문단 전체, 대장의 제목·작성자·확인 범위·한계, 두 주장 메모의 해당 출처 note. 공백 집계이며 한국어 어절 수다. 색인·진행 기록·해석 및 제안의 파생 여부는 별도 수동 점검. 영어 단어 수나 전체 파생량의 자동 판정은 아님."
-      }
+        "count_scope": "연구 메모의 해당 표 행 전체, 16장의 출처 표식 문단 전체, 대장의 제목·작성자·확인 범위·한계, 두 주장 메모의 해당 출처 note. 공백 집계이며 한국어 어절 수다. 색인·진행 기록·해석 및 제안의 파생 여부는 별도 수동 점검. 영어 단어 수나 전체 파생량의 자동 판정은 아님.",
+        "review_addendum": {
+          "checked_on": "2026-10-13",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "new_direct_quotes": 0,
+          "scope": "기존 요약 재수록 대신 확인 위치·판정과 수정 차이를 기록. 전체 누적 파생량 재집계는 미완료."
+        }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "출판사 공개 Abstract·서지. 전체 본문 미확보",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "status": "관련 범위 재대조; 전체 통독·효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S31",
@@ -762,14 +994,29 @@
           "planning/sessions/2026-10-11-ownership.md",
           "manuscript/chapters/ch16.md",
           "research/claims/ch16.json",
-          "planning/sessions/2026-10-11-ch16.md"
+          "planning/sessions/2026-10-11-ch16.md",
+          "planning/reviews/2026-10-13-baseline-review.md"
         ],
         "direct_quote_words": 0,
         "summary_check": "16장·기존 연구 메모·출처 대장·두 주장 메모·색인과 진행 기록을 누적 검토. 직접 인용 없음. 출처에서 가져온 짧은 설명을 출처별 200단어 상한 안에서 유지. 저자 정의·해석·설계 제안·확인 한계를 구분. 원문·도표·장문 번역 복제 없음.",
         "conservative_review_whitespace_units": 126,
-        "count_scope": "연구 메모의 해당 표 행 전체, 16장의 출처 표식 문단 전체, 대장의 제목·작성자·확인 범위·한계, 두 주장 메모의 해당 출처 note. 공백 집계이며 한국어 어절 수다. 색인·진행 기록·해석 및 제안의 파생 여부는 별도 수동 점검. 영어 단어 수나 전체 파생량의 자동 판정은 아님."
+        "count_scope": "연구 메모의 해당 표 행 전체, 16장의 출처 표식 문단 전체, 대장의 제목·작성자·확인 범위·한계, 두 주장 메모의 해당 출처 note. 공백 집계이며 한국어 어절 수다. 색인·진행 기록·해석 및 제안의 파생 여부는 별도 수동 점검. 영어 단어 수나 전체 파생량의 자동 판정은 아님.",
+        "review_addendum": {
+          "checked_on": "2026-10-13",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "new_direct_quotes": 0,
+          "scope": "기존 요약 재수록 대신 확인 위치·판정과 수정 차이를 기록. 전체 누적 파생량 재집계는 미완료."
+        }
       },
-      "fulltext_url": "https://estsjournal.org/index.php/ests/article/download/260/177/"
+      "fulltext_url": "https://estsjournal.org/index.php/ests/article/download/260/177/",
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "출판사 원저자 Abstract·서지. PDF 이번 재대조 미수행",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "status": "관련 범위 재대조; 전체 통독·효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S37",
@@ -1545,13 +1792,13 @@
       "author": "Joel Becker, Nate Rush, Beth Barnes, David Rein / METR",
       "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
       "published_on": "2025-07-10",
-      "checked_on": "2026-10-12",
+      "checked_on": "2026-10-13",
       "verification_status": "명시한 원문 범위 직접 확인",
-      "verification_scope": "저자 공식 글의 무작위 배정·숙련 OSS 개발자와 업무 조건·현재 결과로 사용하지 말라는 후속 주의 확인.",
+      "verification_scope": "2026-10-13 공식 글 도입·Update·Methodology 재대조. 이전 확인 표현은 verification_history에 보존.",
       "use": "17장 근거·비판적 검토",
-      "limit": "2025년 특정 조건의 역사적 실험. 페이지 자체가 현재 모델 효과를 반영하지 않는다고 주의. 수치 일반화와 현재의 능력 결론 미채택.",
+      "limit": "2025년 특정 조건의 연구. 현재 모델로 일반화하지 않는 판단은 이 책의 해석. 이전 수집본의 동일 경고 문구는 이번 원문에서 확인하지 못함.",
       "usage_review": {
-        "checked_on": "2026-10-12",
+        "checked_on": "2026-10-13",
         "files": [
           "STATUS.md",
           "manuscript/chapters/ch17.md",
@@ -1559,13 +1806,49 @@
           "planning/sessions/2026-10-12-complete-drafts.md",
           "research/README.md",
           "research/claims/ch17.json",
-          "research/sources.json"
+          "research/sources.json",
+          "planning/reviews/2026-10-13-baseline-review.md",
+          "planning/reviews/2026-10-13-review-fixes.md",
+          "planning/sessions/2026-10-13-review-fixes.md"
         ],
         "direct_quote_words": 0,
         "summary_check": "완성한 장과 기존 원고·연구 메모·주장 메모·대장·색인의 누적 사용을 검토. 자료 설명은 짧게 유지하고 저자의 해석·제안·확인 한계를 구분. 직접 인용·원문 복제·수치 재현 없음. 출처별 200단어 기본 상한 안에서 파생 설명을 수동 점검.",
         "conservative_review_whitespace_units": 112,
-        "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검."
-      }
+        "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검.",
+        "review_addendum": {
+          "checked_on": "2026-10-13",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "new_direct_quotes": 0,
+          "scope": "기존 요약 재수록 대신 확인 위치·판정과 수정 차이를 기록. 전체 누적 파생량 재집계는 미완료."
+        },
+        "correction_review": {
+          "checked_on": "2026-10-13",
+          "scope": "기존 원문 요약을 교체하고 근거·해석의 경계를 점검. 원고·두 주장 메모 또는 해당 장 메모·대장·조사 행·리뷰 기록을 연결. 직접 인용·수치·장문 요약 추가 없음.",
+          "limit": "한국어 어절 자동 집계를 인용 한도 확정으로 사용하지 않음. 이전 누적 집계 수치는 당시 범위의 기록으로 보존."
+        }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "공식 글 도입·Update·Methodology",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "status": "관련 범위 재대조; 전체 통독·효과 검증 아님",
+          "finding": "R004: 기존 확인 표현과 현재 반환 원문의 귀속 차이. 판본·위치 추가 대조 필요."
+        },
+        {
+          "checked_on": "2026-10-13",
+          "scope": "R002/R004 수정 문장과 원문 위치 대조",
+          "report": "planning/reviews/2026-10-13-review-fixes.md",
+          "status": "수정 확인; 효과 실험·전문 통독 아님"
+        }
+      ],
+      "verification_history": [
+        {
+          "checked_on": "2026-10-12",
+          "verification_scope": "저자 공식 글의 무작위 배정·숙련 OSS 개발자와 업무 조건·현재 결과로 사용하지 말라는 후속 주의 확인.",
+          "limit": "2025년 특정 조건의 역사적 실험. 페이지 자체가 현재 모델 효과를 반영하지 않는다고 주의. 수치 일반화와 현재의 능력 결론 미채택."
+        }
+      ]
     },
     {
       "id": "S54",
@@ -1587,13 +1870,28 @@
           "planning/sessions/2026-10-12-complete-drafts.md",
           "research/README.md",
           "research/claims/ch17.json",
-          "research/sources.json"
+          "research/sources.json",
+          "planning/reviews/2026-10-13-baseline-review.md"
         ],
         "direct_quote_words": 0,
         "summary_check": "완성한 장과 기존 원고·연구 메모·주장 메모·대장·색인의 누적 사용을 검토. 자료 설명은 짧게 유지하고 저자의 해석·제안·확인 한계를 구분. 직접 인용·원문 복제·수치 재현 없음. 출처별 200단어 기본 상한 안에서 파생 설명을 수동 점검.",
         "conservative_review_whitespace_units": 105,
-        "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검."
-      }
+        "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검.",
+        "review_addendum": {
+          "checked_on": "2026-10-13",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "new_direct_quotes": 0,
+          "scope": "기존 요약 재수록 대신 확인 위치·판정과 수정 차이를 기록. 전체 누적 파생량 재집계는 미완료."
+        }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-13",
+          "scope": "공식 후속 글 도입부의 측정 제한 설명",
+          "report": "planning/reviews/2026-10-13-baseline-review.md",
+          "status": "관련 범위 재대조; 전체 통독·효과 검증 아님"
+        }
+      ]
     },
     {
       "id": "S55",

@@ -36,7 +36,7 @@
       "location": "중요한 판단에는 생각할 여지를 만든다 / 문단 2",
       "type": "모의 AI 실험 결과",
       "source": "S27",
-      "note": "개입군의 과잉 의존 감소를 전체 성능 향상으로 바꾸지 않음. 수용성·개인차·일반화 한계."
+      "note": "4.1·표 2의 비교군과 평가 지표를 본문에 반영. 유의한 차이 부재와 동등성은 구분. 수용성·개인차·일반화 한계 유지."
     },
     {
       "location": "중요한 판단에는 생각할 여지를 만든다 / 문단 1 및 3 이후",
@@ -103,11 +103,16 @@
       "type": "저자의 기존 글 제안·분석 틀을 재구성",
       "source": "S36",
       "note": "판단할 수준의 이해와 회상 확인 제안. MIT·GitClear·METR 수치나 원문 ADR의 예시 통계 미채택."
+    },
+    {
+      "location": "중요한 판단에는 생각할 여지를 만든다 / 선택 기본값 제안",
+      "type": "저자 설계 제안·검증 가설",
+      "note": "중요한 수용 판단에서 기준·미확인·수용/보류/추가 확인을 연결. 오류 발견·판단 시간·잘못된 보류·이관 부담으로 평가. 정상 자동 처리 전체에 일률 적용하지 않음."
     }
   ],
   "review": {
     "patterns": "P01·P10·P11·P14·P15의 카탈로그 이름·정의 유지. P07은 별도 평가 원리로 연결하며 신규 오너십 패턴 ID는 만들지 않음.",
-    "continuity": "7장 판정·9장 구조 책임과 연결, 13·17장은 설계 카드의 역량 투자·측정 범위만 추가.",
+    "continuity": "2026-10-13 현재: 7장 판정·9장 구조 책임과 연결. 13·17장도 초고이며 역량 투자·측정의 본문 연결을 검토한다. 13장 전체 리뷰는 미완료.",
     "sources": "기존 Exa 조사 범위 사용. 신규 외부 원문 확인 없음. 누적 사용 파일과 보수적 집계는 sources.json에 갱신.",
     "pending": [
       "저자 검토·편집 확정",
@@ -115,6 +120,52 @@
       "피드백·보상·숙련 유지의 직접 근거",
       "원서 본문 대조"
     ],
-    "roboco_reuse": "2026-10-11: 고정 저장소 원문에서 저자의 제안만 차용. 기존 미검증 항목 유지."
+    "roboco_reuse": "2026-10-11: 고정 저장소 원문에서 저자의 제안만 차용. 기존 미검증 항목 유지.",
+    "continuity_history": [
+      {
+        "date": "2026-10-11",
+        "note": "7장 판정·9장 구조 책임과 연결, 13·17장은 설계 카드의 역량 투자·측정 범위만 추가."
+      }
+    ],
+    "continuity_files": [
+      "manuscript/chapters/ch07.md",
+      "manuscript/chapters/ch09.md",
+      "manuscript/chapters/ch13.md",
+      "manuscript/chapters/ch17.md"
+    ]
+  },
+  "policy_review": {
+    "reviewed_on": "2026-10-13",
+    "reviewed_version": "43ab02de70d48952747ef097bc74c28c654af494",
+    "report": "planning/reviews/2026-10-13-baseline-review.md",
+    "mode": "원고 내용·원문 일부 대조·문체 점검",
+    "source_rechecks": [
+      "S24",
+      "S25",
+      "S26",
+      "S27",
+      "S28",
+      "S30",
+      "S31"
+    ],
+    "open_findings": [],
+    "status": "이번 의견의 수정 검증 완료·전체 원고 리뷰/저자 편집 확정 미완료",
+    "limit": "자료별 실제 확인 범위는 sources.json review_checks 참조. 기존 작성자 점검과 이번 리뷰는 독립 인간 검증이 아님.",
+    "initial_open_findings": [
+      "R002",
+      "R005",
+      "R007"
+    ],
+    "fix_verification": {
+      "date": "2026-10-13",
+      "report": "planning/reviews/2026-10-13-review-fixes.md",
+      "manifest": "planning/reviews/2026-10-13-review-fixes-manifest.json",
+      "resolved": [
+        "R002",
+        "R005",
+        "R007"
+      ],
+      "reviewer": "작성 에이전트의 재검토; 독립 인간 리뷰 아님"
+    }
   }
 }

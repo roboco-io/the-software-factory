@@ -32,9 +32,9 @@
     },
     {
       "location": "체감과 역사적 연구를 현재의 효과로 바꾸지 않는다",
-      "type": "원문 자료 설명 확인 또는 저자의 기존 글 제안 → 이 책의 해석",
+      "type": "공식 자료의 시점·방법 설명 확인 → 이 책의 해석",
       "source": "S53",
-      "note": "출처 설명의 해당 범위만 사용. 논문·업체 보고·소개·저자 제안의 지위와 확인 한계는 대장에 보존. 다른 문단의 적용 방법은 이 책의 제안."
+      "note": "S53 도입·Update·Methodology와 대조. 현재 모델로 일반화하지 않는 판단은 이 책의 해석이며 원문의 금지 지시로 귀속하지 않음."
     },
     {
       "location": "체감과 역사적 연구를 현재의 효과로 바꾸지 않는다",
@@ -56,6 +56,11 @@
       "location": "리더는 측정의 결과로 다음 결정을 바꾼다",
       "type": "저자 논증·설계 제안과 적용 조건",
       "note": "효과의 보편성을 주장하지 않으며 판정 조건·비용·한계를 포함. 설명 예시는 실제 사건과 구분."
+    },
+    {
+      "location": "전체 비용과 품질을 함께 기록한다 / 지표 충돌의 가상 문의 예시",
+      "type": "저자 판단 제안·가상 설명 예시",
+      "note": "품질 경계 위반·비용 초과·증거 부족의 다음 행동을 구분. 실행 전 기준·기간·재판정 책임을 정하며 현재 유지와 새 범위 확대를 분리. 사례 수치 없음."
     }
   ],
   "review": {
@@ -72,6 +77,33 @@
         19
       ],
       "scope": "기존 공개 목차의 주제 연결. 새 본문 대조나 세부 주장 평가는 아님."
+    }
+  },
+  "policy_review": {
+    "reviewed_on": "2026-10-13",
+    "reviewed_version": "43ab02de70d48952747ef097bc74c28c654af494",
+    "report": "planning/reviews/2026-10-13-baseline-review.md",
+    "mode": "원고 내용·원문 일부 대조·문체 점검",
+    "source_rechecks": [
+      "S53",
+      "S54"
+    ],
+    "open_findings": [],
+    "status": "이번 의견의 수정 검증 완료·전체 원고 리뷰/저자 편집 확정 미완료",
+    "limit": "자료별 실제 확인 범위는 sources.json review_checks 참조. 기존 작성자 점검과 이번 리뷰는 독립 인간 검증이 아님.",
+    "initial_open_findings": [
+      "R003",
+      "R004"
+    ],
+    "fix_verification": {
+      "date": "2026-10-13",
+      "report": "planning/reviews/2026-10-13-review-fixes.md",
+      "manifest": "planning/reviews/2026-10-13-review-fixes-manifest.json",
+      "resolved": [
+        "R003",
+        "R004"
+      ],
+      "reviewer": "작성 에이전트의 재검토; 독립 인간 리뷰 아님"
     }
   }
 }

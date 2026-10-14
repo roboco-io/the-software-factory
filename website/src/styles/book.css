@@ -56,6 +56,6 @@ html:has(.book-home) .content-panel:first-child{display:none;}html:has(.book-hom
 .roboco-brand{display:inline-flex;align-items:center;gap:.65rem;text-decoration:none!important;color:var(--ink)!important;}
 .roboco-brand img{object-fit:contain;flex-shrink:0;}
 :root[data-theme='dark'] .roboco-brand img{filter:invert(1);}
-.book-footer .roboco-brand{flex-basis:100%;margin-bottom:.5rem;}
+.book-site-brand{display:flex;align-items:center;gap:.65rem;min-width:0;}.book-site-brand>.roboco-brand{flex-shrink:0;}.book-site-brand .site-title{min-width:0;}
 
 .factory-definition{margin-bottom:3rem;padding:1.5rem 0;border-top:1px solid var(--line);}.factory-definition>p{max-width:46rem;line-height:1.85;word-break:keep-all;overflow-wrap:anywhere;}.factory-definition .definition-source{font-size:.85rem;color:var(--muted);}.factory-definition a{color:var(--accent);}

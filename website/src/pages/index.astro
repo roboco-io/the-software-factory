@@ -21,7 +21,7 @@ import book from '../data/book.json';
    </ol>
    <p class="definition-source">로보코의 정의를 이루는 세 축입니다. <a href="https://intent.roboco.io/ko/guide/concept.html">의도 공학의 핵심 개념</a>과 <a href="/book/ch09/">팩토리의 구조와 하네스 운영</a>에서 자세히 읽을 수 있습니다.</p>
   </section>
-  <section class="home-contents"><div class="section-heading"><div><p>책의 구성</p><h2>다섯 부로 이어지는 하나의 흐름</h2></div><a href="/contents/">전체 목차 보기</a></div>
+  <section class="home-contents"><div class="section-heading"><div><p>책의 구성</p><h2>다섯 챕터로 이루어지는 하나의 흐름</h2></div><a href="/contents/">전체 목차 보기</a></div>
    <ol class="parts-list">{book.parts.map((part,i)=><li><span class="part-number">{String(i+1).padStart(2,'0')}</span><div><a href={book.chapters.find(c=>c.part===i+1)?.url}>{part.replace(/^\d부 /,'')}</a><p>{['목적과 기준, 바꿀 권한을 정합니다.','계약·분해·완료·복구를 설계합니다.','생산 기반과 지식·능력·권한을 연결합니다.','사람의 판단과 팀의 협력을 뒷받침합니다.','측정하고 도입하며, 근거에 따라 넓힙니다.'][i]}</p></div><span>{i*4+1}–{i*4+4}장</span></li>)}</ol>
   </section>
   <section class="pattern-invitation"><div><p>필요할 때 다시 찾는 원칙</p><h2>15개의 조직 운영 패턴</h2><p>반복되는 문제와 상충하는 요구, 해결 구조와 비용을 함께 읽습니다.</p></div><a class="secondary-button" href="/patterns/">패턴 사전 열기</a></section>

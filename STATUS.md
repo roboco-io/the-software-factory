@@ -432,3 +432,4 @@ S16(GitHub 공식 규칙 문서)과 S17(2025-10-20 Anthropic 실행 경계 설�
 - S69 한국어 핵심 개념 원문을 재확인하고 출처 대장 및 research/claims/homepage-definition.json에 확인 범위·저자 제공 내용의 지위를 기록했다. S01 블로그 요약의 귀속 문구는 홈에서 교체하고 과거 기록은 보존했다.
 - 핵심 정의의 구체화는 중요 변경이므로 book-changelog 정책에 따라 공개 예정 항목으로 기록했다. 공개 확인 후 날짜별 항목으로 옮긴다.
 - 공개 확인: fbff13f 푸시 후 [Pages 배포](https://github.com/roboco-io/the-software-factory/actions/runs/38580060780) 성공. 공개 홈 HTTP 200에서 세 축·전자동 개발·하네스 네 단계·의도 공학 링크를 확인했다. 단위 13개·Astro 진단 0건·46페이지 빌드·링크·원고 구조·모바일 화면 검사 통과. 체인지 로그 공개 예정 항목을 2026-10-14 중요 변경으로 이동한다.
+- 체인지 로그 게시도 완료했다. c87d253 푸시·[최종 Pages 배포](https://github.com/roboco-io/the-software-factory/actions/runs/38580401600) 성공. 공개 홈과 /changelog/의 HTTP 200 응답에서 세 축 정의·2026-10-14 변경 기록·공개 예정 표식 제거를 확인했다.

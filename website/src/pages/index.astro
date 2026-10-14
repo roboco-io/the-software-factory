@@ -11,6 +11,11 @@ import book from '../data/book.json';
    </div>
    <div class="factory-figure" aria-label="의도에서 실행, 검증, 개선으로 이어지는 책의 흐름"><div class="figure-top">의도를 실행하는 조직</div><div class="figure-step"><span>01</span><strong>의도</strong><p>어떤 결과를 원하는가</p></div><div class="figure-step"><span>02</span><strong>실행</strong><p>무엇을 맡길 수 있는가</p></div><div class="figure-step"><span>03</span><strong>검증</strong><p>어떤 증거로 받아들이는가</p></div><div class="figure-bottom">관찰한 결과로, 다음 판단을 바꾼다.</div></div>
   </section>
+  <section class="factory-definition" aria-labelledby="factory-definition-title">
+   <div class="section-heading"><div><p>로보코가 제안하는 운영 방식</p><h2 id="factory-definition-title">소프트웨어 팩토리란</h2></div></div>
+   <p>요구 파악부터 설계·구현·검증·배포·운영 관찰까지를 하나의 지속적인 흐름으로 연결하는 소프트웨어 생산 체계입니다. 사람은 목표와 제약, 위임 범위를 정하고 중요한 판단이 필요한 순간에 개입합니다.</p>
+   <p class="definition-source">정도현 · 로보코, <a href="https://roboco.io/posts/beyond-vibe-coding-software-factory/">「바이브 코딩을 넘어서 소프트웨어 팩토리로」</a> (2026-09-16)의 제안을 요약했습니다. <a href="/book/ch01/">이 책에서 다루는 구조와 책임 읽기</a></p>
+  </section>
   <section class="home-contents"><div class="section-heading"><div><p>책의 구성</p><h2>다섯 부로 이어지는 하나의 흐름</h2></div><a href="/contents/">전체 목차 보기</a></div>
    <ol class="parts-list">{book.parts.map((part,i)=><li><span class="part-number">{String(i+1).padStart(2,'0')}</span><div><a href={book.chapters.find(c=>c.part===i+1)?.url}>{part.replace(/^\d부 /,'')}</a><p>{['목적과 기준, 바꿀 권한을 정합니다.','계약·분해·완료·복구를 설계합니다.','생산 기반과 지식·능력·권한을 연결합니다.','사람의 판단과 팀의 협력을 뒷받침합니다.','측정하고 도입하며, 근거에 따라 넓힙니다.'][i]}</p></div><span>{i*4+1}–{i*4+4}장</span></li>)}</ol>
   </section>

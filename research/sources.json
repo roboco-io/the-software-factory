@@ -37,11 +37,13 @@
           "research/roboco-blog-inventory.json",
           "research/roboco-blog-review.md",
           "research/sources.json",
-          "research/claims/preface.json"
+          "research/claims/preface.json",
+          "website/src/pages/index.astro"
         ],
         "summary_check": "완성한 장과 기존 원고·연구 메모·주장 메모·대장·색인의 누적 사용을 검토. 자료 설명은 짧게 유지하고 저자의 해석·제안·확인 한계를 구분. 직접 인용·원문 복제·수치 재현 없음. 출처별 200단어 기본 상한 안에서 파생 설명을 수동 점검.",
         "conservative_review_whitespace_units": 178,
-        "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검."
+        "count_scope": "출처 표식 문단 전체·연구 메모 표 행·대장 제목/작성자/확인 범위/사용/한계·주장 메모 note의 공백 단위 집계. 한국어 어절이며 영어 단어 수·전체 파생량의 자동 판정은 아님. 기타 기록·카드와 원문 파생 여부는 별도 수동 점검.",
+        "homepage_summary": "2026-10-14: 신규 홈 요약 22어절, 직접 인용 없음. 기존 S01 연결 문단은 출처 소개·보고 역할이 중심이며 새 요약은 연속 흐름과 인간 역할만 다룸. 원문 상세 예시·성과·모델 주장 재현 없음. 기존 보수적 178어절 집계에는 저자 해석과 다른 출처 설명도 포함되므로 전체 단어 사용량으로 합산하지 않고 파생 설명을 수동 대조함."
       },
       "review_checks": [
         {
@@ -49,6 +51,11 @@
           "scope": "웹 원문 팩토리 정의·보고 부분",
           "report": "planning/reviews/2026-10-13-remaining-review.md",
           "status": "명시한 원문 부분 재대조; 실행·독립 효과 검증 아님"
+        },
+        {
+          "checked_on": "2026-10-14",
+          "scope": "웹 원문 2026-09-16 글의 도입·3절·4절에서 연속 흐름과 인간의 목표·제약·위임·판단 역할 확인",
+          "status": "홈페이지의 짧은 의역; 운영 성과·완전 자율 보장 주장 없음"
         }
       ],
       "preface_attribution": {

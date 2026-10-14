@@ -10,7 +10,7 @@ description: Use when reviewing the Korean IDD book manuscript, its chapters or 
 ## 범위와 기준
 
 1. 사용자가 지정한 원고 경로에서 프로젝트 루트를 찾는다. 작업 트리와 HEAD를 확인하고 기존 변경을 보존한다. 미커밋 원고는 파일 SHA-256도 기록한다. Git이 없으면 파일 해시로 검토 버전을 특정한다.
-2. 프로젝트의 `AGENTS.md`, `STATUS.md`, `planning/book-brief.md`, `outline/toc.md`, `pattern_catalog.json`을 읽는다. 리뷰 정책은 `planning/manuscript-review-policy-proposal.md`, 편집 기준은 `planning/editorial-policy.md`, 근거 기준은 `research/evidence-policy.md`에서 확인한다. 사용자가 지정한 후속 정책이 있으면 그것을 적용한다. 정책이 없으면 [휴대용 기준](references/policy-baseline.md)을 사용하고 적용 기준을 보고한다.
+2. 프로젝트의 `AGENTS.md`, `STATUS.md`, `planning/book-brief.md`, `outline/toc.md`, `pattern_catalog.json`을 읽는다. 리뷰 정책은 `planning/review-policies/`의 공통 규칙(`README.md`)과 축별 정책(`01-argument.md` 논증·구조, `02-evidence.md` 사실·출처, `03-reader-style.md` 독자·문체, `04-publication.md` 출판 준비)이다. 사용자가 축을 지정하면 그 축의 정책만 적용하고, 지정하지 않으면 네 축을 순서대로 적용하되 축별 보고서를 따로 남긴다. 2026-10-13의 `planning/manuscript-review-policy-proposal.md`는 대체된 이력으로만 참고한다. 편집 기준은 `planning/editorial-policy.md`, 근거 기준은 `research/evidence-policy.md`에서 확인한다. 사용자가 지정한 후속 정책이 있으면 그것을 적용한다. 정책이 없으면 [휴대용 기준](references/policy-baseline.md)을 사용하고 적용 기준을 보고한다.
 3. 대상 원고, 관련 패턴, `research/claims/`의 주장 메모와 `research/sources.json` 해당 항목을 읽는다. 일부만 읽었다면 그 범위를 명시한다. 자료 부재는 확인 제한으로 기록하고 가능한 검토를 계속한다.
 
 기본 모드는 리뷰다. 원고·카탈로그·집필 메타데이터를 수정하는 권한으로 확대하지 않는다. 사용자가 수정을 요청하면 최소 변경과 영향 파일을 수정한다. 수정 검증 요청이면 기존 의견과 실제 변경을 대조한다. 보고서 저장 요청은 원고 수정 요청과 구분한다. 커밋·게시·편집 확정은 각각의 사용자 지시를 따른다.

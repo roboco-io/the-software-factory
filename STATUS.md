@@ -444,3 +444,23 @@ S16(GitHub 공식 규칙 문서)과 S17(2025-10-20 Anthropic 실행 경계 설�
 - 요청에 따라 imagegen으로 책 제목·부제·저자·공개 도메인과 의도·실행·검증·개선의 추상 순환을 담은 가로 이미지를 생성했다. 원본 1731×909 PNG를 website/public/images/software-factory-social.png에 보존했다. 직접 생성한 이미지이며 로보코 로고를 변형·재생성하지 않았다.
 - Starlight 공통 head에 Open Graph 이미지·실제 크기·대체 설명과 Twitter 이미지를 지정했다. 홈과 각 장의 제목·URL은 기존 메타데이터를 유지한다. 공유 미리보기 그림 변경으로 체인지 로그의 중요한 내용 변경 항목은 추가하지 않는다.
 - 검증·공개 완료: 단위 13개·원고 구조·Astro 진단 0건·46페이지 빌드·링크 검사 통과. 홈·1장의 og:image·twitter:image가 하나씩이며 summary_large_image 카드인 것을 빌드 결과로 확인했다. 698602f 푸시와 [Pages 배포](https://github.com/roboco-io/the-software-factory/actions/runs/38582367712) 성공. 공개 홈·1장 메타데이터 및 이미지 HTTP 200·PNG MIME·원본 SHA-256 일치를 확인했다. SNS 사업자별 실제 공유 카드·캐시 갱신은 별도 시험하지 않았다.
+
+## 2026-10-15 홈 세 핵심의 본문 일관성 리뷰·수정
+
+- idd-manuscript-review로 서문·20장·관련 8개 패턴 카드와 카탈로그를 대조했다. 세 축 통합 정의, 의도 파이프라인, 전자동 정상 경로, 하네스 전체 사이클, 측정·도입·확대 연결을 보강했다. 서문·13개 장·P01/P15를 수정하고 7개 장은 담당 역할이 부합해 유지했다. 기획·지침·장별 주장 메모와 S69 확인 기록을 갱신했다.
+- [리뷰](planning/reviews/2026-10-15-three-axis-review.md)와 [전후 해시](planning/reviews/2026-10-15-three-axis-manifest.json), [세션](planning/sessions/2026-10-15-three-axis-alignment.md)에 실제 범위·주장·리더 결정·의견·수용 조건을 기록했다. P1 4개·P2 2개 수정 검증 완료; 이번 범위의 P0/P1 잔여 의견 없음. 독립 인간·독자·운영 효과 검증 및 저자 편집 확정은 미완료다.
+- 구조 20장·15패턴·97출처, 단위 13개, Astro 진단 0건, 46페이지 빌드·링크, 브라우저 12개 검사 통과. 기존 앵커·읽음 기록을 보존하고 변경된 16개 페이지에만 의미 revision을 올렸다. 모바일 표 넘침도 재현·수정하고 9장 레이아웃 검사로 회귀를 확인했다.
+- CHANGELOG.md에 중요 변경을 공개 예정으로 기록했다. 원고 수정과 로컬 웹 검증은 완료했으며 커밋·푸시·공개 배포는 수행하지 않았다. 공개 반영 시 실제 확인 날짜와 게시 결과를 남긴다.
+
+최종 검사 중 다른 작업의 planning/review-policies/ 문서가 새로 생성되었다. README·01-argument.md가 아직 없는 02-evidence.md·03-reader-style.md·04-publication.md를 참조해 전체 로컬 링크 검사가 실패했다. 이번 수정 파일의 링크 실패는 아니며 새 정책 파일을 임의로 고치거나 만들지 않았다. 위 구조 통과는 이 동시 변경이 들어오기 전 실행 결과다. 정책 파일 작성이 끝난 뒤 전체 구조 검사를 다시 수행한다.
+
+## 2026-10-15 로보코 로고를 사용한 SNS 썸네일 후보 4개
+
+- 사용자 선택을 위해 imagegen으로 네이비 에디토리얼·아이보리 미니멀·민트 블루프린트·코발트 그래픽 후보를 생성했다. 공식 SVG 로고의 참조 화면을 사용했고 책 제목·부제·저자·공개 도메인을 포함했다.
+- output/social-thumbnails/2026-10-15/에 원본 PNG 4개와 후보 메타데이터를 보존했다. 생성 결과의 표시·문구와 PNG 크기를 확인했다. 기존 공유 이미지·SNS 메타데이터는 변경하지 않았으며 커밋·배포 없이 저자 선택을 기다린다. 기존 미커밋 원고 리뷰 작업도 보존했다.
+
+## 2026-10-15 SNS 공유 이미지 2번 선택
+
+- 저자가 아이보리 미니멀 후보를 선택했다. website/public/images/software-factory-social-ivory.png와 새 Open Graph·Twitter 이미지 URL·실제 크기를 적용한다. [선택·게시 세션](planning/sessions/2026-10-15-social-thumbnail-selection.md)에 이번 배포 범위와 결과를 기록한다. 기존 미커밋 원고·리뷰 정책 변경은 별도 보존한다.
+
+게시 완료: 93acf69 커밋과 origin/main 푸시, [Pages 배포](https://github.com/roboco-io/the-software-factory/actions/runs/38656486089) 성공. 공개 홈·1장 메타데이터의 새 이미지 URL, PNG HTTP 200·MIME, 선택한 2번 원본과 SHA-256 일치를 확인했다. 미커밋 원고·리뷰 정책 작업은 이번 배포에 포함하지 않았다. SNS별 실제 공유 카드 캐시 갱신은 별도 시험하지 않았다.

@@ -35,7 +35,7 @@ test('layout fits the viewport and keyboard can reach the question choices',asyn
  await page.screenshot({path:`test-results/home-${info.project.name}.png`,fullPage:true});
  await page.goto('/guide/');await page.locator('input[name="purpose"]').first().focus();await page.keyboard.press('Space');await expect(page.locator('input[name="purpose"]').first()).toBeChecked();
  await page.screenshot({path:`test-results/guide-${info.project.name}.png`,fullPage:true});
- await page.goto('/book/ch07/');expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBeTruthy();await page.screenshot({path:`test-results/chapter-${info.project.name}.png`,fullPage:false});
+ for(const id of ['ch07','ch09']){await page.goto(`/book/${id}/`);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBeTruthy();await page.screenshot({path:`test-results/chapter-${id}-${info.project.name}.png`,fullPage:false});}
 });
 test('Korean search and pattern identifiers resolve from the built index',async({page})=>{
  await page.goto('/');

@@ -169,5 +169,12 @@
     "metadata": "book-publication.json",
     "changelog": "CHANGELOG.md",
     "scope": "독자용 버전을 제거하고 날짜별 주요 변경과 확인 날짜를 안내한다."
+  },
+  "three_axis_review": {
+    "checked_on": "2026-10-15",
+    "report": "planning/reviews/2026-10-15-three-axis-review.md",
+    "before_sha256": "96061359531dab8bcf672f1bea04fd50d6641757dd6f7510fa8df385967dd22f",
+    "scope": "로보코의 세 축 정의와 전체 하네스 사이클·실행 기반의 관계 명시",
+    "status": "수정 및 연결 검증 완료"
   }
 }

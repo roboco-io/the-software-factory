@@ -13,8 +13,13 @@ import book from '../data/book.json';
   </section>
   <section class="factory-definition" aria-labelledby="factory-definition-title">
    <div class="section-heading"><div><p>로보코가 제안하는 운영 방식</p><h2 id="factory-definition-title">소프트웨어 팩토리란</h2></div></div>
-   <p>요구 파악부터 설계·구현·검증·배포·운영 관찰까지를 하나의 지속적인 흐름으로 연결하는 소프트웨어 생산 체계입니다. 사람은 목표와 제약, 위임 범위를 정하고 중요한 판단이 필요한 순간에 개입합니다.</p>
-   <p class="definition-source">정도현 · 로보코, <a href="https://roboco.io/posts/beyond-vibe-coding-software-factory/">「바이브 코딩을 넘어서 소프트웨어 팩토리로」</a> (2026-09-16)의 제안을 요약했습니다. <a href="/book/ch01/">이 책에서 다루는 구조와 책임 읽기</a></p>
+   <p>로보코의 소프트웨어 팩토리는 <strong>의도를 정의하고 개선하는 파이프라인, 에이전트에 의한 전자동 소프트웨어 개발, 정책에 기반한 하네스 개선 루프</strong>를 결합한 소프트웨어 생산 체계입니다.</p>
+   <ol class="factory-pillars">
+    <li><strong>의도를 효율적으로 정의하고 개선합니다.</strong> 무엇을 왜 만들고, 무엇을 하지 않을지 정합니다. 탐색과 실행에서 얻은 피드백으로 의도를 다듬고, 다음 개발의 기준으로 연결합니다.</li>
+    <li><strong>에이전트가 소프트웨어 개발을 전자동으로 수행합니다.</strong> 의도와 정책이 정한 범위 안에서 작업 분해·설계·구현·검증·배포를 이어갑니다. 사람은 의도와 위임 범위, 예외에 대한 판단과 결과의 책임을 맡습니다.</li>
+    <li><strong>정책에 따라 하네스를 계속 개선합니다.</strong> 하네스는 검증 정책 → 실행 계획 → 실행 이력 → 모니터링·개선의 전체 사이클입니다. 정책을 도구가 실행하고, 무엇이 바뀌었으며 어떤 검증을 통과했는지 기록합니다. 실행 이력과 운영·사용자 신호로 정책과 실행 방식을 고쳐 다음 작업에 반영합니다.</li>
+   </ol>
+   <p class="definition-source">로보코의 정의를 이루는 세 축입니다. <a href="https://intent.roboco.io/ko/guide/concept.html">의도 공학의 핵심 개념</a>과 <a href="/book/ch09/">팩토리의 구조와 하네스 운영</a>에서 자세히 읽을 수 있습니다.</p>
   </section>
   <section class="home-contents"><div class="section-heading"><div><p>책의 구성</p><h2>다섯 부로 이어지는 하나의 흐름</h2></div><a href="/contents/">전체 목차 보기</a></div>
    <ol class="parts-list">{book.parts.map((part,i)=><li><span class="part-number">{String(i+1).padStart(2,'0')}</span><div><a href={book.chapters.find(c=>c.part===i+1)?.url}>{part.replace(/^\d부 /,'')}</a><p>{['목적과 기준, 바꿀 권한을 정합니다.','계약·분해·완료·복구를 설계합니다.','생산 기반과 지식·능력·권한을 연결합니다.','사람의 판단과 팀의 협력을 뒷받침합니다.','측정하고 도입하며, 근거에 따라 넓힙니다.'][i]}</p></div><span>{i*4+1}–{i*4+4}장</span></li>)}</ol>

@@ -59,3 +59,5 @@ html:has(.book-home) .content-panel:first-child{display:none;}html:has(.book-hom
 .book-site-brand{display:flex;align-items:center;gap:.65rem;min-width:0;}.book-site-brand>.roboco-brand{flex-shrink:0;}.book-site-brand .site-title{min-width:0;}
 
 .factory-definition{margin-bottom:3rem;padding:1.5rem 0;border-top:1px solid var(--line);}.factory-definition>p{max-width:46rem;line-height:1.85;word-break:keep-all;overflow-wrap:anywhere;}.factory-definition .definition-source{font-size:.85rem;color:var(--muted);}.factory-definition a{color:var(--accent);}
+
+.factory-pillars{max-width:46rem;padding-left:1.5rem;line-height:1.85;word-break:keep-all;overflow-wrap:anywhere;}.factory-pillars li+li{margin-top:1rem;}.factory-pillars strong{display:block;color:var(--ink);}

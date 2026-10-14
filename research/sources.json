@@ -2880,7 +2880,8 @@
       "supporting_urls": [
         "https://github.com/roboco-io/intent-engineering/blob/0b5ecd622eaf633ba6c182c9c74a1c58e0dea28f/README.md",
         "https://github.com/roboco-io/intent-engineering/blob/0b5ecd622eaf633ba6c182c9c74a1c58e0dea28f/INTENT.template.md",
-        "https://github.com/roboco-io/intent-engineering/blob/af002150c5949a39e4ca4a57719b92c63e68de40/README.md"
+        "https://github.com/roboco-io/intent-engineering/blob/af002150c5949a39e4ca4a57719b92c63e68de40/README.md",
+        "https://intent.roboco.io/ko/guide/concept.html"
       ],
       "use": "2·3장 초고 반영. 원래 맥락과 책의 재해석 구분.",
       "limit": "저자의 의도 관리 제안. 현재 학습 기록 규칙은 9월 수정이며 4월 초안에 소급하지 않음. 코드/테스트 폐기와 모든 How 위임을 책의 보편 규칙으로 채택하지 않음.",
@@ -2900,12 +2901,14 @@
           "planning/roboco-sites-adoption.md",
           "planning/reviews/2026-10-13-remaining-review.md",
           "manuscript/front-matter/00-preface.md",
-          "research/claims/preface.json"
+          "research/claims/preface.json",
+          "website/src/pages/index.astro"
         ],
         "scope": "기존 제안·원고·대장·주장·반영 지도 누적 사용 검토. 원문 설명과 현재 책의 해석/질문을 구분해 짧게 유지. 원문·코드·장문 번역·성과 수치 복제 없음.",
         "quote_count_method": "짧은 인용 후보의 공백 단위 집계. 한국어 어절이며 엄밀한 영어 단어 수 규칙의 적용을 주장하지 않음.",
         "cited_paragraph_whitespace_units": 95,
-        "count_limit": "문단 전체의 공백 단위이며 책의 해석·제한도 포함. 영어 단어 수나 원문 파생량의 자동 확정이 아니다. 원문 파생 문장은 별도로 수동 점검."
+        "count_limit": "문단 전체의 공백 단위이며 책의 해석·제한도 포함. 영어 단어 수나 원문 파생량의 자동 확정이 아니다. 원문 파생 문장은 별도로 수동 점검.",
+        "homepage_adoption": "2026-10-14: 의도 정의·피드백에 의한 개선만 요약. 기존 2·3장·조사 메모와 대조, 원문의 모든 How 위임·산출물 폐기·성과 주장 미추가. 직접 인용 없음."
       },
       "manuscript_adoption": {
         "date": "2026-10-13",
@@ -2921,7 +2924,14 @@
         "checked_on": "2026-10-13",
         "scope": "자료명과 이 책에서 참고한 역할을 명시. 기존 장·연구 기록의 설명을 재확인하고 원문 논증의 추가 재현을 피함. 신규 직접 인용 없음.",
         "record": "research/claims/preface.json"
-      }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-14",
+          "scope": "한국어 핵심 개념의 Why/What/Not·Learnings·자동화 파이프라인·수렴 설명 확인",
+          "status": "홈의 첫 축만 짧게 의역. 나머지 두 축과 하네스 네 단계는 저자의 이번 지시·제공 이미지에 근거. 사이트의 최초 공개 시점은 미확인."
+        }
+      ]
     },
     {
       "id": "S70",

@@ -443,3 +443,4 @@ S16(GitHub 공식 규칙 문서)과 S17(2025-10-20 Anthropic 실행 경계 설�
 
 - 요청에 따라 imagegen으로 책 제목·부제·저자·공개 도메인과 의도·실행·검증·개선의 추상 순환을 담은 가로 이미지를 생성했다. 원본 1731×909 PNG를 website/public/images/software-factory-social.png에 보존했다. 직접 생성한 이미지이며 로보코 로고를 변형·재생성하지 않았다.
 - Starlight 공통 head에 Open Graph 이미지·실제 크기·대체 설명과 Twitter 이미지를 지정했다. 홈과 각 장의 제목·URL은 기존 메타데이터를 유지한다. 공유 미리보기 그림 변경으로 체인지 로그의 중요한 내용 변경 항목은 추가하지 않는다.
+- 검증·공개 완료: 단위 13개·원고 구조·Astro 진단 0건·46페이지 빌드·링크 검사 통과. 홈·1장의 og:image·twitter:image가 하나씩이며 summary_large_image 카드인 것을 빌드 결과로 확인했다. 698602f 푸시와 [Pages 배포](https://github.com/roboco-io/the-software-factory/actions/runs/38582367712) 성공. 공개 홈·1장 메타데이터 및 이미지 HTTP 200·PNG MIME·원본 SHA-256 일치를 확인했다. SNS 사업자별 실제 공유 카드·캐시 갱신은 별도 시험하지 않았다.

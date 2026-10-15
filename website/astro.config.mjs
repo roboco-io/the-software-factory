@@ -10,12 +10,12 @@ export default defineConfig({
   title:'The Software Factory',description:'소프트웨어 팩토리와 AI 시대의 조직 설계',defaultLocale:'root',locales:{root:{label:'한국어',lang:'ko'}},
   favicon:'/favicon.svg',credits:false,disable404Route:true,
   head:[
-   {tag:'meta',attrs:{property:'og:image',content:new URL('/images/software-factory-social-ivory.png',book.publication.site_url).href}},
+   {tag:'meta',attrs:{property:'og:image',content:new URL('/images/software-factory-social-cobalt.png',book.publication.site_url).href}},
    {tag:'meta',attrs:{property:'og:image:type',content:'image/png'}},
    {tag:'meta',attrs:{property:'og:image:width',content:'1734'}},
    {tag:'meta',attrs:{property:'og:image:height',content:'907'}},
-   {tag:'meta',attrs:{property:'og:image:alt',content:'The Software Factory — 소프트웨어 팩토리와 AI 시대의 조직 설계. 로보코 로고와 세 핵심을 연결한 아이보리 공유 이미지.'}},
-   {tag:'meta',attrs:{name:'twitter:image',content:new URL('/images/software-factory-social-ivory.png',book.publication.site_url).href}},
+   {tag:'meta',attrs:{property:'og:image:alt',content:'The Software Factory — 소프트웨어 팩토리와 AI 시대의 조직 설계. 파란 배경에 로보코 로고와 의도·개발·개선의 세 핵심을 연결한 공유 이미지.'}},
+   {tag:'meta',attrs:{name:'twitter:image',content:new URL('/images/software-factory-social-cobalt.png',book.publication.site_url).href}},
    {tag:'meta',attrs:{name:'twitter:image:alt',content:'The Software Factory 책 공유 이미지'}},
   ],
 

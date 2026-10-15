@@ -565,3 +565,8 @@ S16(GitHub 공식 규칙 문서)과 S17(2025-10-20 Anthropic 실행 경계 설�
 - 사용자 커밋·배포 지시에 따라 ef42bb2(원고·출처)와963c345(검토 기록)를 origin/main에 푸시하고 원격 SHA 일치를 확인했다. 푸시 전 구조·단위26·Astro0·56페이지 빌드/링크 검사를 다시 통과했고 변경본 해시는 검증 manifest와 일치했다.
 - [Pages 실행38685847748](https://github.com/roboco-io/the-software-factory/actions/runs/38685847748)의 빌드·데스크톱/모바일 검사·배포가 성공했다. 공개12·17·18·19장의 새 절과18장의S107~S110 연결·참고문헌 항목을 HTTP200으로 확인했다.
 - 실제 공개 확인 뒤 체인지 로그에 게시일을 기록하고 이 결과도 후속 커밋으로 푸시한다. 전체 보안/도입 효과나 법규 적합성·저자 편집 확정을 검증한 것은 아니다.
+
+## 2026-10-15 첨부 코발트 SNS 썸네일 적용
+
+- 사용자가 첨부한1734×907 PNG를 변경 없이 website/public/images/software-factory-social-cobalt.png로 복사했다. 공통 Open Graph·Twitter 이미지 URL을 교체하고 대체 설명을 실제 색상·구성에 맞췄다. 새URL로 기존 아이보리 이미지 캐시와 구분한다.
+- [적용 기록](planning/sessions/2026-10-15-social-thumbnail-cobalt.md)에 확인 범위·검증 결과를 남긴다. 본문·읽음revision·독자 체인지로그는 변경하지 않는다. 커밋·푸시·배포는 수행하지 않았다.

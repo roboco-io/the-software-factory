@@ -1,0 +1,51 @@
+{
+  "book_commit": "bc69941abdf148433622697f8bcea5bfa0cc1452",
+  "before_sha256": {
+    "website/src/lib/recommendations.mjs": "6c2afa9892957d0305eb79528ca16661fa7749a88b05ab951e64ff17dba55fbb",
+    "website/src/lib/progress.mjs": "90db3a8631e7c30b69f9e5132987776971475fbd8044b4e0b97eba529dd7639e",
+    "website/src/pages/guide.astro": "165971c0283f0b9f9f29ee7ac99842d3d092890e212fb2e166b3ea98bc650871",
+    "website/src/scripts/quiz.ts": "6a21404b91416dedc71b045635c88848bcef31bbece8173875ee2a7811714a44",
+    "website/tests/reader.test.mjs": "0fbd28e223cc3ce683f1011706b4bb2443258deb48d1ad37c770ebab2b21b85d",
+    "website/src/styles/book.css": "53a7894366abf8c446ad4fa90af23091c8ca3a046f109e5ccdca982ddf22babe",
+    "website/content-manifest.json": "95e5af1fada1f5b547b1b1e147db54f2501af3bbf1797fa75f6f5a710869719e",
+    "website/tests/recommendations.test.mjs": null,
+    "website/tests/e2e/recommendations.spec.ts": null,
+    "planning/reader-guide-routes.md": null,
+    "planning/decisions.md": "c6116c550b49833304911d723d12f54829f0a3182579a8cac10ad36d50702e2d",
+    "planning/sessions/2026-10-15-reader-guide-refresh.md": null,
+    "STATUS.md": "3b1dff9b43ec0370889c770e6c583abe42eb932fe8d248a00ac52472416d4e81",
+    "CHANGELOG.md": "c4a0af64f4fa4bafc089f914f5e24c0ffae8d7e081496f910ef5288293fd7ad6"
+  },
+  "date": "2026-10-15",
+  "after_sha256": {
+    "website/src/lib/recommendations.mjs": "8946b40c2d09d5eeafc5052cfbc6ae8c86fb6d0a79578a287b5632f2fc5b7d50",
+    "website/src/lib/progress.mjs": "90db3a8631e7c30b69f9e5132987776971475fbd8044b4e0b97eba529dd7639e",
+    "website/src/pages/guide.astro": "098291e795712a9f5058727e326becc4888c6862e1dd6e04b569f5875d3c0e7a",
+    "website/src/scripts/quiz.ts": "c94a7a41e7049328f9925da3d81ad6bee5add0a265c0653c8b5686a898413445",
+    "website/tests/reader.test.mjs": "4893dc466ce6a3aab51e2906ecda1c948942e80fd3036291c8fec9c44cb5df88",
+    "website/src/styles/book.css": "53a7894366abf8c446ad4fa90af23091c8ca3a046f109e5ccdca982ddf22babe",
+    "website/content-manifest.json": "95e5af1fada1f5b547b1b1e147db54f2501af3bbf1797fa75f6f5a710869719e",
+    "website/tests/recommendations.test.mjs": "5b1d4ca03d7f5b4ad6fe7a92d8084acf03c90026263473261bf40ef689ab8bff",
+    "website/tests/e2e/recommendations.spec.ts": "ce436b571207bcf9c8d29049e565ed2bc4dc16e731238c6be5c10d30ed056db2",
+    "planning/reader-guide-routes.md": "0a1081fe740bb8e68601df11e1254c96cf23f020ee8c95f1ec425d1662a71a43",
+    "planning/decisions.md": "257a8da9a2e6d83204a6a17f71bdc6825f4d2c220d4f9c24f1e35291f078f745",
+    "planning/sessions/2026-10-15-reader-guide-refresh.md": "95061fae00a4114475a783e155275c02cb1652e2c4badedce58dcb7161ef210b",
+    "STATUS.md": "7126cfd6b4228ad7661ef90c3c97ecd486eb82cec5fc40d5e6489274be03f77c",
+    "CHANGELOG.md": "a0a44f26f0fe0021dbbfa40a98b14fcfe0c27178fa996a686b218f4f79dfe07f"
+  },
+  "scope": "3 existing questions;9 purposes;7 roles;goal-specific reasons and authored demo links",
+  "validation": {
+    "unit": "29 passed;3 new tests red then green",
+    "astro": "0 errors/warnings/hints",
+    "browser": "29 passed;1 intentional desktop skip of mobile-only table check",
+    "build": "56 pages;local links and anchors PASS",
+    "visual": "question/security result at1065px and390px",
+    "progress_and_manifest": "unchanged hashes; legacy IDs/storage state retained",
+    "all_routes": "9x7x3 combinations checked; union covers20 chapters;3-5 perroute;demo IDs resolve"
+  },
+  "limits": [
+    "editorial guidance;not reader trial",
+    "no book manuscript/source/pattern definitions changed",
+    "no commit/push/deploy"
+  ]
+}

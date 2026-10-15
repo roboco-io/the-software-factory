@@ -21,6 +21,28 @@ def authored_files(suffix):
                 yield Path(directory) / name
 
 
+FENCE = re.compile(r'^ {0,3}(`{3,}|~{3,})')
+# A code span may wrap lines but never crosses a blank line (paragraph end).
+INLINE_CODE = re.compile(r'(`+)(?!`)(?:(?!\n[ \t]*\n).)+?(?<!`)\1(?!`)', re.S)
+
+
+def without_code(text):
+    """Remove fenced code blocks and inline code spans so their link-like text is not checked as links."""
+    kept, fence = [], None
+    for line in text.splitlines(keepends=True):
+        match = FENCE.match(line)
+        if fence is None and match:
+            fence = match.group(1)
+            kept.append('\n')
+        elif fence is not None:
+            if match and match.group(1)[0] == fence[0] and len(match.group(1)) >= len(fence) and not line.strip()[len(match.group(1)):].strip():
+                fence = None
+            kept.append('\n')
+        else:
+            kept.append(line)
+    return INLINE_CODE.sub(lambda m: ' ' * len(m.group(0)), ''.join(kept))
+
+
 def require(condition, message):
     if not condition:
         errors.append(message)
@@ -48,7 +70,7 @@ for f in authored_files('.json'):
         errors.append(f'Invalid JSON or UTF-8: {f.relative_to(ROOT)}: {error}')
 for f in authored_files('.md'):
     text = f.read_text(encoding='utf-8')
-    for target in re.findall(r'\]\(([^\s)]+)\)', text):
+    for target in re.findall(r'\]\(([^\s)]+)\)', without_code(text)):
         if '://' in target or target.startswith(('mailto:', '#')):
             continue
         relative = target.split('#')[0]

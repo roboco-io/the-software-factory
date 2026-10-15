@@ -50,3 +50,12 @@ test('chapter resume button preserves the previous section offset',async({page})
  await page.goto('/book/ch07/');const expected=await page.evaluate(()=>{const a=document.getElementById('s04')!,b=document.getElementById('s05')!;return a.getBoundingClientRect().top+scrollY+(b.getBoundingClientRect().top-a.getBoundingClientRect().top)*.5-120;});
  await page.locator('[data-resume-current]').click();await expect.poll(async()=>Math.abs((await page.evaluate(()=>scrollY))-expected)).toBeLessThan(40);
 });
+test('chapter tables stay readable at mobile width: they fit or scroll with a visible cue',async({page},info)=>{
+ test.skip(info.project.name!=='mobile','table overflow is a narrow-viewport problem');
+ for(const width of [393,360]){
+  await page.setViewportSize({width,height:844});await page.goto('/book/ch07/');
+  const tables=await page.locator('.book-article table').evaluateAll(list=>list.map(t=>{const s=getComputedStyle(t);const r=t.getBoundingClientRect();return {fits:t.scrollWidth<=t.clientWidth+1,inViewport:r.left>=-1&&r.right<=innerWidth+1,scrolls:['auto','scroll'].includes(s.overflowX),cue:/gradient/.test(s.backgroundImage)};}));
+  expect(tables.length).toBeGreaterThan(0);
+  for(const t of tables){expect(t.inViewport).toBeTruthy();expect(t.fits||(t.scrolls&&t.cue)).toBeTruthy();}
+ }
+});

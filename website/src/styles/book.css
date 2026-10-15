@@ -12,6 +12,7 @@ header.header{background:var(--paper);border-bottom-color:var(--line);}
 .edition-label span,.edition-label>a{font-size:.72rem;border:1px solid var(--line);padding:.2rem .5rem;border-radius:4px;}
 h1{letter-spacing:-.035em;word-break:keep-all;}h2,h3{word-break:keep-all;}
 .book-article{font-size:var(--reader-font);line-height:1.95;word-break:keep-all;overflow-wrap:anywhere;}
+.book-article img{max-width:100%;height:auto;}
 .book-article p{line-height:1.95;}.book-article h2{font-size:1.55rem;margin-top:2.8rem;letter-spacing:-.025em;}
 .book-article table{font-size:.92em;line-height:1.75;width:100%;max-width:100%;display:block;overflow-x:auto;}.book-article td{min-width:8rem;vertical-align:top;}.book-article th{background:var(--wash);}
 /* Wide tables scroll inside the article. The covers move with the content (local) and the shadows stay at the edges (scroll),

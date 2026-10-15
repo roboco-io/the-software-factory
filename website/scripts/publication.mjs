@@ -3,6 +3,7 @@ export function publicLink(target) {
  const [path,hash]=target.split('#');let result;
  if(/(?:^|\/)ch\d{2}\.md$/.test(path)) result='/book/'+path.match(/ch\d{2}/)[0]+'/';
  else if(/(?:^|\/)p\d{2}\.md$/.test(path)) result='/patterns/'+path.match(/p\d{2}/)[0]+'/';
+ else if(/(?:^|\/)figures\/(policy-hierarchy|harness-policy-cycle)\.svg$/.test(path)) result='/diagrams/'+path.match(/(policy-hierarchy|harness-policy-cycle)\.svg$/)[0];
  else if(path.endsWith('/research/sources.json')) result='/sources/';
  else if(/\/research\/claims\/ch\d{2}\.json$/.test(path)) return '/sources/#refs-'+path.match(/ch\d{2}/)[0];
  else if(path.endsWith('/research/cases/software-factory-demo.md')) return '/sources/#S59';

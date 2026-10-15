@@ -16,3 +16,6 @@ website/src/data/book.json
 website/test-results/
 website/playwright-report/
 website/public/licenses/
+
+# Generated copies of manuscript SVG figures
+website/public/diagrams/

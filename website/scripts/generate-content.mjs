@@ -1,4 +1,4 @@
-import {readFileSync,writeFileSync,mkdirSync,existsSync,rmSync,statSync,readdirSync} from 'node:fs';
+import {readFileSync,writeFileSync,mkdirSync,existsSync,rmSync,statSync,readdirSync,copyFileSync} from 'node:fs';
 import {fileURLToPath} from 'node:url';
 import {resolve,dirname} from 'node:path';
 import {transformMarkdown} from './publication.mjs';
@@ -54,3 +54,7 @@ const thirdParty=['astro','@astrojs/starlight','pagefind'].map(name=>{
  return `${name} ${pkg.version}\n\n${text}`;
 }).join('\n\n============================================================\n\n');
 writeFileSync(resolve(licenseDir,'THIRD-PARTY.txt'),'Notices for the primary website framework and search packages.\nOther third-party materials retain their own notices and terms.\n\n'+thirdParty);
+
+// Authored SVG originals remain in the manuscript for print and web reuse.
+const diagramDir=resolve(site,'public/diagrams');mkdirSync(diagramDir,{recursive:true});
+for(const name of ['policy-hierarchy.svg','harness-policy-cycle.svg'])copyFileSync(resolve(root,'manuscript/figures',name),resolve(diagramDir,name));

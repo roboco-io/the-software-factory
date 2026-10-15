@@ -3734,5 +3734,17 @@
     "C02-S2": "S09",
     "C02-S3": "S10"
   },
-  "note": "장별 초고의 C02-S1~3은 기존/신규 전역 ID S04/S09/S10으로 통합했다."
+  "note": "장별 초고의 C02-S1~3은 기존/신규 전역 ID S04/S09/S10으로 통합했다.",
+  "author_material_checks": [
+    {
+      "checked_on": "2026-10-15",
+      "author": "정도현",
+      "material": "저자 제공 하네스 그림과 후속 정책 계층 논의",
+      "reference_url": "https://claude.ai/artifact/Uo2SmydeAsHfd98yf5w5Kt",
+      "access": "공유 URL의 웹 도구 접근 실패. 대화에 첨부된 이미지와 저자의 직접 설명만 확인",
+      "scope": "원안의 네 단계·에이전트 작업을 감싸는 사이클을 참고. 정책은 검증만의 기준이 아니라 작업 지침이며 상위 원칙과 적용 범위의 계층을 갖는다는 정의는 후속 저자 지시",
+      "adoption": "3장 정책 계층과 9장 하네스 사이클 도표·관련 정의. 저자 설계 제안이며 운영 효과 입증 아님",
+      "record": "research/policy-hierarchy-editorial-note.md"
+    }
+  ]
 }

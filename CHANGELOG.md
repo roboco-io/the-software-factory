@@ -4,7 +4,13 @@
 
 ## 공개 예정
 
+- **정책의 역할과 개선 권한을 명확히 합니다.** 정책을 에이전트의 작업 지침으로 설명하고, 타협할 수 없는 최상위 원칙 아래 적용 범위별로 구체화합니다. [3장](https://factory.roboco.io/book/ch03/)의 정책 계층과 [9장](https://factory.roboco.io/book/ch09/)의 하네스 사이클을 새 도표로 연결했습니다. [19장](https://factory.roboco.io/book/ch19/)은 지침 보완과 집행 개선을 구분하고, 자동 개선이 원칙을 완화하거나 우회할 수 없음을 설명합니다.
+
 - **첫 페이지의 세 가지 핵심을 본문에 연결합니다.** 의도를 정의·개선하는 파이프라인, 에이전트의 전자동 개발, 정책 기반 하네스 개선을 [1장](https://factory.roboco.io/book/ch01/)에서 함께 정의합니다. [2장](https://factory.roboco.io/book/ch02/)은 의도의 환류를, [9장](https://factory.roboco.io/book/ch09/)·[19장](https://factory.roboco.io/book/ch19/)은 하네스의 정책·계획·이력·개선과 검사 밖의 신호를 설명합니다. 전자동 개발의 정상 경로와 인간의 예외 판단·책임을 구분하고 측정·도입·확대 기준에도 적용합니다. [7장](https://factory.roboco.io/book/ch07/)은 증거를 기준과 대조하는 판정자와 결과 수용에 책임지는 수용 책임자를 나누고, 정상 경로의 자동 수용을 수용 책임자가 검증 정책으로 미리 위임한 것으로 설명합니다. [P06 증거 기반 완료](https://factory.roboco.io/patterns/p06/)와 [P07 독립된 검증](https://factory.roboco.io/patterns/p07/)은 두 패턴의 경계를 다시 나누고, P07에 독립성의 세 차원(기준의 근거, 검증 자료, 판정 권한)과 적용 조건을 담습니다. 판정 경로를 시험하는 실패 사례는 판정자가 미리 알지 못하도록 숨겨 둔 사례로 통일했습니다([7장](https://factory.roboco.io/book/ch07/)·[11장](https://factory.roboco.io/book/ch11/)·[12장](https://factory.roboco.io/book/ch12/)·[16장](https://factory.roboco.io/book/ch16/)).
+
+## 2026-10-15 · 선택 가능한 이용 통계
+
+- **동의한 독자의 이용 통계로 독서 경험을 개선합니다.** GA4의 향상된 측정과 추천·읽음 기능의 맞춤 이벤트를 연결했습니다. 동의하지 않아도 모든 독서 기능을 이용할 수 있으며, 통계 설정에서 동의를 철회할 수 있습니다. 기존 읽기 기록 저장과는 별개입니다. [수집 범위와 선택 방법](https://factory.roboco.io/privacy/)을 확인하세요.
 
 ## 2026-10-14 · 첫 공개와 정의 보강
 

@@ -472,3 +472,18 @@ S16(GitHub 공식 규칙 문서)과 S17(2025-10-20 Anthropic 실행 경계 설�
 - 저자가 아이보리 미니멀 후보를 선택했다. website/public/images/software-factory-social-ivory.png와 새 Open Graph·Twitter 이미지 URL·실제 크기를 적용한다. [선택·게시 세션](planning/sessions/2026-10-15-social-thumbnail-selection.md)에 이번 배포 범위와 결과를 기록한다. 기존 미커밋 원고·리뷰 정책 변경은 별도 보존한다.
 
 게시 완료: 93acf69 커밋과 origin/main 푸시, [Pages 배포](https://github.com/roboco-io/the-software-factory/actions/runs/38656486089) 성공. 공개 홈·1장 메타데이터의 새 이미지 URL, PNG HTTP 200·MIME, 선택한 2번 원본과 SHA-256 일치를 확인했다. 미커밋 원고·리뷰 정책 작업은 이번 배포에 포함하지 않았다. SNS별 실제 공유 카드 캐시 갱신은 별도 시험하지 않았다.
+
+## 2026-10-15 GA4 혼합 측정 공개
+
+- 사용자가 책 전용 속성 G-VPLZXJ5P05와 향상된 측정 사용을 선택했다. 자동 조회·스크롤·외부 클릭과 맞춤 guide_complete·recommendation_open·chapter_mark_read를 분리했다. 동의 전 태그 차단, 철회·다른 탭·저장 실패 대응, 책 전용 쿠키·통계 안내를 구현했다.
+- [구현 세션](planning/sessions/2026-10-15-ga4-integration.md)과 [운영 안내](website/ANALYTICS.md). 원격 기준의 관리형 작업 트리 /Users/dohyunjung/.codex/worktrees/ga4-consent/idd-book, codex/ga4-consent에서 GA4만 커밋·푸시했다. c26beac(코어), e5fefc7(웹 통합), ac2b5c1(공개 변경 기록). 원래 main의 미게시 원고·리뷰 정책 커밋 7c0fc80·2f19b89와 진행 중 변경은 원격에 포함하지 않았다. 원래 작업 디렉터리의 GA4 파일도 후속 통합을 위해 보존한다.
+- 구조 20장·15패턴·97출처, 단위 24개·브라우저 20개·Astro 진단 0건·47페이지 빌드/링크 통과. 1차 Pages 실행 38664252762 성공. 공개 홈·통계 안내·1장 ID/UI, 실제 브라우저의 동의 전 태그 0개·동의 후 지정 태그, 책 전용 GA 실시간 활성 사용자 표시로 실제 수신을 확인했다. 전체 맞춤 이벤트의 개별 운영 집계는 별도다.
+
+최종 게시 확인: ac2b5c1의 Pages 실행 38664685301 성공, 공개 /changelog/의 선택 가능한 이용 통계 항목 HTTP 200 확인. 구현·공개·기본 실제 수신을 완료했다. 맞춤 매개변수의 고급 보고서 등록·분석은 website/ANALYTICS.md의 운영 항목으로 남긴다. 원래 작업 트리의 미게시 원고/정책 작업은 보존했다.
+
+## 2026-10-15 정책 계층과 하네스 개선 사이클
+
+- 저자 결정 D30을 반영했다. 정책은 에이전트의 작업 지침이며 검증 정책은 그 일부다. 최상위 원칙 아래 적용 범위별 정책을 구체화하고 하위 지침·자동 개선이 원칙을 완화하지 못하도록 했다.
+- 3장 계층·9장 사이클·19장 개선 권한을 중심으로 1·2·4·7·11장, 서문, P02·P10·P15와 홈·기획·용어집을 연결했다. 원고 SVG 도표 2개와 웹 표시·확대 링크를 추가하고 모바일 넘침을 수정했다.
+- [세션 기록](planning/sessions/2026-10-15-policy-hierarchy.md)과 [변경 점검](planning/reviews/2026-10-15-policy-hierarchy.md)에 근거·변경 파일·검증 한계를 남겼다. 구조 20장·15패턴·97출처, 단위 25개, 브라우저 23개(1개 의도적 건너뜀), Astro 0건, 47페이지 빌드·링크 검사 통과. 기존 anchor 유지와 대상 12페이지 revision 증가를 확인했다.
+- 첨부 이미지·저자 설명을 확인했으며 Artifact 전체는 접근하지 못했다. 운영 효과·독립 리뷰·편집 확정을 주장하지 않는다. 기존 진행 중 작업은 보존했고 커밋·푸시·배포하지 않았다. 다음은 저자의 수정본 검토와 지정 버전 리뷰다.

@@ -176,5 +176,12 @@
     "before_sha256": "96061359531dab8bcf672f1bea04fd50d6641757dd6f7510fa8df385967dd22f",
     "scope": "로보코의 세 축 정의와 전체 하네스 사이클·실행 기반의 관계 명시",
     "status": "수정 및 연결 검증 완료"
+  },
+  "policy_hierarchy_update": {
+    "date": "2026-10-15",
+    "report": "planning/reviews/2026-10-15-policy-hierarchy.md",
+    "scope": "정책을 작업 지침으로, 하네스를 정책·계획과 집행·이력·개선으로 명시",
+    "status": "검증 완료(변경 범위 자기 점검)",
+    "limit": "독립 리뷰·전체 원고 편집 확정·운영 효과 검증 아님"
   }
 }

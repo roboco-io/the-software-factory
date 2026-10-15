@@ -1,0 +1,1139 @@
+{
+  "run_id": "repeat-check",
+  "date": "2026-10-15",
+  "mode": "점검",
+  "scope": "책 전체 원본",
+  "agent_definition": ".claude/agents/demo-example-maintainer.md",
+  "runbook": "planning/demo-example-maintenance-runbook.md",
+  "book_head": "641d3dc948cc95d378524cb50c942240f1600d30",
+  "previous_demo_commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+  "candidate_demo_commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+  "remote_check": {
+    "repository": "roboco-io/the-software-factory-demo",
+    "default_branch": "main",
+    "methods": [
+      "GitHub get_repo",
+      "GitHub fetch_commit(main)",
+      "GitHub compare_commits(previous,candidate)"
+    ],
+    "compare_status": "identical",
+    "total_commits": 0,
+    "changed_files": [],
+    "check_scope": "동일 후보 확인; 외부 원문 전체 재독·실행 없음"
+  },
+  "decision": "후보 동일·본문 의미 갱신 없음",
+  "cases_maintained": 9,
+  "inventory": "planning/reviews/2026-10-15-demo-examples-repeat-check-inventory.json",
+  "inventory_counts": {
+    "files": 60,
+    "mentions": 114,
+    "coverage_files": 35
+  },
+  "agent_manuscript_changes": 0,
+  "registry_source_revision_unchanged": true,
+  "before_hashes": {
+    "manuscript/chapters/ch01.md": "5a73a9ed167e4be7073e955ea4ab09e2cb98cdfc2ec1785e363281040929c35e",
+    "manuscript/chapters/ch02.md": "5f59521aa0a3052785b961182ed8bcbd9d7660f770204ca9330a2487ddd0909e",
+    "manuscript/chapters/ch03.md": "e210446c0ee26d3b7d385731f2e9ca4fe417373e78cf3ad731256292d3a34d5e",
+    "manuscript/chapters/ch04.md": "9363b337d9915e4bc7410ef8e6aab8795b57b94cd75cae53548886677d80eea7",
+    "manuscript/chapters/ch05.md": "5292b1b06315af39f55a06cff0198d98042f8a97c7d1f1f6515c334037382449",
+    "manuscript/chapters/ch06.md": "980c0d6c51d27ede3ce24f99ed7854f4449efbf81ed8a0ed6fef2364f82ecc7d",
+    "manuscript/chapters/ch07.md": "15bff9900755a24ad7ec39ba533c53e5cbc41dc7909dc357c39fea55fa50749a",
+    "manuscript/chapters/ch08.md": "fde127aa8841b85fd9813a078ef98cf2fc9d5609fa9fbebaaf5b1712c55a3c53",
+    "manuscript/chapters/ch09.md": "9ee9cc81b2dfe3afe22d22a4aa0044cbedfd5968fc0292c475a7da6bc0d8c156",
+    "manuscript/chapters/ch10.md": "3b93f9c4346f338b5d5320b176a70439239b669287cf8873a6ba1032971372bf",
+    "manuscript/chapters/ch11.md": "4c2c3d52179790e7310aa0964e7e30355c4cb902eaec1ef9b024b47a3770d07d",
+    "manuscript/chapters/ch12.md": "4ede33fa07337aa4c7b74d4532de24cc10b414ee4746ed7d49cf8f279f0d169c",
+    "manuscript/chapters/ch13.md": "9d00b7b15a5c4bbbf89f4371123a14a790e1bc5c5ed76bf6590967754a51fe13",
+    "manuscript/chapters/ch14.md": "9aa2c3c49b822d5c97ccf69ed6a436568746e64f9dd6e8d2c825f74fc8f43c91",
+    "manuscript/chapters/ch15.md": "37337e0ea6a92567003b31d13358a32c5fda7750881bbcf5fe0008e1638df6f0",
+    "manuscript/chapters/ch16.md": "1f541d680593350e97ae1222aacf0e7685677a1024fced2204de40ccf7fffb17",
+    "manuscript/chapters/ch17.md": "2db8a80906012e9a602b1057ba6b30258e378054156c1f694b5c02c7b34504b4",
+    "manuscript/chapters/ch18.md": "791210a5ab4ec80ff17b36174ec6d2a683132a2d95edcfe69e2b368ea5a77f80",
+    "manuscript/chapters/ch19.md": "5bf0dca173d34e17a4891ce89d9533b5e602a3c2597ab7d6e4d9d23e9cb99a3c",
+    "manuscript/chapters/ch20.md": "d6a5c9a52d77d7a3c89269c9e1cafa7234a93f019b7697067a4b55754c83d171",
+    "manuscript/demo/agent-selection.md": "b2d5e886c03b146b91f816f0ca2d056c6557a236691fef74120f9984a3a859bf",
+    "manuscript/demo/evidence.md": "f65cfad879d6eb5532e2be9c29417bedb066d37741a330014524efc464e9ca83",
+    "manuscript/demo/execution-authority.md": "2a63eadf65a06b3840f9a8bca1a473293226fd8bac06809c5299c5b80ee97fa4",
+    "manuscript/demo/improvement.md": "e38eab7e20189f68036e5d010213399e07335fdb105ce78ee6ab18326f4748b6",
+    "manuscript/demo/index.md": "14d28da0e3ace75a3c29ad9d73812be5fb60e6fa352c6baa4da86530db2d7b77",
+    "manuscript/demo/metrics.md": "ff0a72f1aedabcbc421063c84c034e01fbf41e54ecf0fcc3d208edd648f8d671",
+    "manuscript/demo/policy-and-gate.md": "149159de81032a34a08d0649f393ce9ebc6cb25033de9dc4be8454043d9b4021",
+    "manuscript/demo/recovery.md": "1aa20c25c30bf68cf792bc166420e6c6abb07f705c815cb73707cc579ae6ab00",
+    "manuscript/demo/request.md": "000010507f534d9aba726739bbccdf6ae9953d5d5d8e72e050886907520c81b5",
+    "manuscript/figures/README.md": "19242ae6c405747a002f01009717b3d07abf4b7ec220288fc4c7e5fb10ba16e0",
+    "manuscript/figures/harness-policy-cycle.svg": "ba96b912ecde714da71b994d7f51b8c6b78063f79b797971a12df025fbcd9cfd",
+    "manuscript/figures/policy-hierarchy.svg": "ec75a283d74c34380af7cd7fc1b6c1ebe08f1e15cba27ea52699d1bf3a9597e6",
+    "manuscript/front-matter/00-preface.md": "b117df8abde965bad839300303dff31fa720a5c7816540e51dfe225fc3a852c7",
+    "manuscript/patterns/p01.md": "edd353fa37fbd47069ef2142c34774b6c0960c91de771ab516e48faac1688226",
+    "manuscript/patterns/p02.md": "f9a89d1c89dac44c6cf42345e84475639a073b7cf204d176a89b1fb51eca7f24",
+    "manuscript/patterns/p03.md": "b9ebb4ab1c4baf7a3bb191f61d7bc17c139a5df2b1aeee44b393b8f2e14586b6",
+    "manuscript/patterns/p04.md": "ac3b8729b7facfefae8c4b4b99f5669fcc3a00b69b62662b78de0cfa7f0eac12",
+    "manuscript/patterns/p05.md": "ce66132ca44d8bba44e72c32b12640d06fc5c5ca45600b18264060d5ddaab2b5",
+    "manuscript/patterns/p06.md": "5b4ae48de698daede970aec218614fe5d8c5df1e211f99a225346c5b00a4224d",
+    "manuscript/patterns/p07.md": "90280cb56a0acef84a10d87a0dcd575ae277ddde437446d082b04b16d6477641",
+    "manuscript/patterns/p08.md": "b0770a619455d7b4113a49b9e47f26b89c9fe03f714072a45eaef1e354145af8",
+    "manuscript/patterns/p09.md": "ce48cde3588dc3b3aee4ad05d252a7a3e5516eb89a4a2e29d1bd4fadd89d1ad7",
+    "manuscript/patterns/p10.md": "684e2b8aba567b43e435d23d58fd19f304acc1c9907f1f79197ea45aed6eb190",
+    "manuscript/patterns/p11.md": "0ce646482803f3581110dcdeb0ecaaa4d09c8866ab1a28cdc6ba1724b3380926",
+    "manuscript/patterns/p12.md": "300ecaf2219154726e7d2738250b439e7369e4881f6e4cdda8450fb3b81a30ea",
+    "manuscript/patterns/p13.md": "152f0b9e33ead7ef4e5426addf4ff414280a4900a09f012ca93d829775f03794",
+    "manuscript/patterns/p14.md": "f8ebdc5dd092f2f5698174755ddfbef87294af0c601629bd32b973967a0c054c",
+    "manuscript/patterns/p15.md": "13e0f83a136197f728b45e19c038df9a3fc235d8f2d28678b051dc671a2c3614",
+    "planning/demo-example-maintenance-policy.md": "13071fd8eba172a3a3ac9afa3504d280ad28e2410ad6b24eaa62da397752df4c",
+    "research/claims/ch01.json": "fc7a1548bb8dd7d2bcd850fed810eded7ce27697cd75b7c44914f6b06a6aba11",
+    "research/claims/ch02.json": "13f3d7e2ff80851a84da8c9c320fa44fe38f78ac73f1a2139e0f93bae1c4bbaa",
+    "research/claims/ch03.json": "9493a123dd724225146d77aace1c78c1cf6671b34373fc84f0cfa61c39b16ad8",
+    "research/claims/ch04.json": "f927a5539217a91ad73d713c2e6b6390b8fff58516bf3c6d51b13b03d2ab5657",
+    "research/claims/ch05.json": "2a76a9e382f1e0f26c482a89594637be81d9cbbd10846f4857b8d0eeff2b846e",
+    "research/claims/ch06.json": "645590980843188a53c0d9510d0dac3d3bebe8995e69b23420ba7cb110d022df",
+    "research/claims/ch07.json": "b13e439ea19496570747d38c235506a25216d667df979d7441f03da01df1acf4",
+    "research/claims/ch08.json": "0738727036d02000fc303907443f7fb9c372a40fdeef4df0a6f58ca4046c7f7b",
+    "research/claims/ch09.json": "0be0d47f44ba1bf76e7a06c1fd53f6d99ffda09aaa1abeb359da398f7106422c",
+    "research/claims/ch10.json": "c8b23c271b03390ae50cf8cee520ea81b6f20ff545c56275a2b43f9e501d17a9",
+    "research/claims/ch11.json": "00af5667681d2b0463fc8cbe098ce03aeca5d0968776ef8503f03f2787ec537a",
+    "research/claims/ch12.json": "47e7b98d22e0a8debcfafee4aa6405fd332032a626582fa307b85786896b762c",
+    "research/claims/ch13.json": "4b15c1b2321fd88583f3852f97a95465bbbcce27234c2e130f4686a8a787b685",
+    "research/claims/ch14.json": "c754bfb572ee774fd8216c98e91db543cc8351b5cad70cfbe6378b5382eeca6f",
+    "research/claims/ch15.json": "e126f46179a3a022eb98e22dc2c83821d2ee0ac16c64ae44d243a033a06889cd",
+    "research/claims/ch16.json": "d9b3680293a72bd631cf303bdb189cb9e5752707bbb09ceb22a3376bf1a3ec51",
+    "research/claims/ch17.json": "c31e6fbd6bdd925892335380c07dde71f6f2dd637af166185904b2d5322c98c2",
+    "research/claims/ch18.json": "6969d60faae9210dba3251532ff3397daa27229d41e4fcd34379661bce89a855",
+    "research/claims/ch19.json": "a8ac03f77433271921617db48ad9dd15f3b330b0ffc5a26d4bf27a893cdc6686",
+    "research/claims/ch20.json": "9e08cd712483fcf1435aa5ddc25e6de787f4385247986eb41f315e5e67459d8b",
+    "research/claims/core-claims.json": "527cf9e36ca6b8c436c9d56b27728ee8b894491e7f9c838cb51747ef98856e30",
+    "research/claims/homepage-definition.json": "348f2f326392aaf52bf5541c4de8d056375645cf79250d6425818d8093270610",
+    "research/claims/license-proposal.json": "e66bf9c6b607c44f1326d61dc6913c6242b29749ab4213d26843793822830978",
+    "research/claims/ownership-and-automation.json": "350c0958210ee12169ee402199275c02b41900f738cb03a9a0092fcf8ea8560c",
+    "research/claims/pages-deployment.json": "d7ea38e9d8191a4ec266faaa2f2afb39978c0eb7fd16ebc43190724c9d0a9852",
+    "research/claims/pattern-drafts.json": "92cc213902a68b6fa58cdb84cc65e0bd3f49e72a2493c30c63c474b85213ef8f",
+    "research/claims/preface.json": "7b0919f4f0dfa95f9b9f4fa43c258e8ce70f54d4fed06108dfe9b7861c124396",
+    "research/claims/roboco-blog-review.json": "5012886de38ca8c53e6150e5f7f5337432f906f3c3fac2aefe1be74ed399b7e0",
+    "research/claims/roboco-sites-review.json": "7b88019a18409be5f21bdb39bfeda23940dfac4af87d81a9d41d243599f5866d",
+    "research/claims/software-factory-demo.json": "929eeb083bcc54adfcfd929857c319da7162d8e5ed29d2050554377f279df5c0",
+    "research/claims/web-publication.json": "358f0454c33f45c85f90a32c04785e802cce0a9a3ffccb601b559b8b47b2f8bb",
+    "research/demo-example-cases.json": "e7f571e1f107dd5b3aab41ee9c1c05265033cd010b3bab70c99da8478040e993",
+    "research/software-factory-demo-inventory.json": "0205005f83a96b324917220c6cd06b774085f7369e1d1092ad11f5aa4a844aa0",
+    "research/sources.json": "d84c1f6a91203d1e149f1ee4e95c8de588638310a8d7060ce7d7a31ae6db9710",
+    "website/content-manifest.json": "682a24da196154b1e10cac313c5d7e4ed3e5c72f9a2bc25f536a798a5c3ccd03"
+  },
+  "after_hashes": {
+    "manuscript/chapters/ch01.md": "4c1e63eef692f700c080266e5b9ec8e7f323619d8a3d0d4eba051f95f6d348ca",
+    "manuscript/chapters/ch02.md": "5f59521aa0a3052785b961182ed8bcbd9d7660f770204ca9330a2487ddd0909e",
+    "manuscript/chapters/ch03.md": "e210446c0ee26d3b7d385731f2e9ca4fe417373e78cf3ad731256292d3a34d5e",
+    "manuscript/chapters/ch04.md": "9363b337d9915e4bc7410ef8e6aab8795b57b94cd75cae53548886677d80eea7",
+    "manuscript/chapters/ch05.md": "5292b1b06315af39f55a06cff0198d98042f8a97c7d1f1f6515c334037382449",
+    "manuscript/chapters/ch06.md": "980c0d6c51d27ede3ce24f99ed7854f4449efbf81ed8a0ed6fef2364f82ecc7d",
+    "manuscript/chapters/ch07.md": "15bff9900755a24ad7ec39ba533c53e5cbc41dc7909dc357c39fea55fa50749a",
+    "manuscript/chapters/ch08.md": "fde127aa8841b85fd9813a078ef98cf2fc9d5609fa9fbebaaf5b1712c55a3c53",
+    "manuscript/chapters/ch09.md": "9ee9cc81b2dfe3afe22d22a4aa0044cbedfd5968fc0292c475a7da6bc0d8c156",
+    "manuscript/chapters/ch10.md": "3b93f9c4346f338b5d5320b176a70439239b669287cf8873a6ba1032971372bf",
+    "manuscript/chapters/ch11.md": "4c2c3d52179790e7310aa0964e7e30355c4cb902eaec1ef9b024b47a3770d07d",
+    "manuscript/chapters/ch12.md": "4ede33fa07337aa4c7b74d4532de24cc10b414ee4746ed7d49cf8f279f0d169c",
+    "manuscript/chapters/ch13.md": "9d00b7b15a5c4bbbf89f4371123a14a790e1bc5c5ed76bf6590967754a51fe13",
+    "manuscript/chapters/ch14.md": "9aa2c3c49b822d5c97ccf69ed6a436568746e64f9dd6e8d2c825f74fc8f43c91",
+    "manuscript/chapters/ch15.md": "37337e0ea6a92567003b31d13358a32c5fda7750881bbcf5fe0008e1638df6f0",
+    "manuscript/chapters/ch16.md": "1f541d680593350e97ae1222aacf0e7685677a1024fced2204de40ccf7fffb17",
+    "manuscript/chapters/ch17.md": "2db8a80906012e9a602b1057ba6b30258e378054156c1f694b5c02c7b34504b4",
+    "manuscript/chapters/ch18.md": "791210a5ab4ec80ff17b36174ec6d2a683132a2d95edcfe69e2b368ea5a77f80",
+    "manuscript/chapters/ch19.md": "5bf0dca173d34e17a4891ce89d9533b5e602a3c2597ab7d6e4d9d23e9cb99a3c",
+    "manuscript/chapters/ch20.md": "d6a5c9a52d77d7a3c89269c9e1cafa7234a93f019b7697067a4b55754c83d171",
+    "manuscript/demo/agent-selection.md": "b2d5e886c03b146b91f816f0ca2d056c6557a236691fef74120f9984a3a859bf",
+    "manuscript/demo/evidence.md": "f65cfad879d6eb5532e2be9c29417bedb066d37741a330014524efc464e9ca83",
+    "manuscript/demo/execution-authority.md": "2a63eadf65a06b3840f9a8bca1a473293226fd8bac06809c5299c5b80ee97fa4",
+    "manuscript/demo/improvement.md": "e38eab7e20189f68036e5d010213399e07335fdb105ce78ee6ab18326f4748b6",
+    "manuscript/demo/index.md": "14d28da0e3ace75a3c29ad9d73812be5fb60e6fa352c6baa4da86530db2d7b77",
+    "manuscript/demo/metrics.md": "ff0a72f1aedabcbc421063c84c034e01fbf41e54ecf0fcc3d208edd648f8d671",
+    "manuscript/demo/policy-and-gate.md": "149159de81032a34a08d0649f393ce9ebc6cb25033de9dc4be8454043d9b4021",
+    "manuscript/demo/recovery.md": "1aa20c25c30bf68cf792bc166420e6c6abb07f705c815cb73707cc579ae6ab00",
+    "manuscript/demo/request.md": "000010507f534d9aba726739bbccdf6ae9953d5d5d8e72e050886907520c81b5",
+    "manuscript/figures/README.md": "19242ae6c405747a002f01009717b3d07abf4b7ec220288fc4c7e5fb10ba16e0",
+    "manuscript/figures/harness-policy-cycle.svg": "ba96b912ecde714da71b994d7f51b8c6b78063f79b797971a12df025fbcd9cfd",
+    "manuscript/figures/policy-hierarchy.svg": "ec75a283d74c34380af7cd7fc1b6c1ebe08f1e15cba27ea52699d1bf3a9597e6",
+    "manuscript/front-matter/00-preface.md": "b117df8abde965bad839300303dff31fa720a5c7816540e51dfe225fc3a852c7",
+    "manuscript/patterns/p01.md": "edd353fa37fbd47069ef2142c34774b6c0960c91de771ab516e48faac1688226",
+    "manuscript/patterns/p02.md": "f9a89d1c89dac44c6cf42345e84475639a073b7cf204d176a89b1fb51eca7f24",
+    "manuscript/patterns/p03.md": "b9ebb4ab1c4baf7a3bb191f61d7bc17c139a5df2b1aeee44b393b8f2e14586b6",
+    "manuscript/patterns/p04.md": "ac3b8729b7facfefae8c4b4b99f5669fcc3a00b69b62662b78de0cfa7f0eac12",
+    "manuscript/patterns/p05.md": "ce66132ca44d8bba44e72c32b12640d06fc5c5ca45600b18264060d5ddaab2b5",
+    "manuscript/patterns/p06.md": "5b4ae48de698daede970aec218614fe5d8c5df1e211f99a225346c5b00a4224d",
+    "manuscript/patterns/p07.md": "90280cb56a0acef84a10d87a0dcd575ae277ddde437446d082b04b16d6477641",
+    "manuscript/patterns/p08.md": "b0770a619455d7b4113a49b9e47f26b89c9fe03f714072a45eaef1e354145af8",
+    "manuscript/patterns/p09.md": "ce48cde3588dc3b3aee4ad05d252a7a3e5516eb89a4a2e29d1bd4fadd89d1ad7",
+    "manuscript/patterns/p10.md": "684e2b8aba567b43e435d23d58fd19f304acc1c9907f1f79197ea45aed6eb190",
+    "manuscript/patterns/p11.md": "0ce646482803f3581110dcdeb0ecaaa4d09c8866ab1a28cdc6ba1724b3380926",
+    "manuscript/patterns/p12.md": "300ecaf2219154726e7d2738250b439e7369e4881f6e4cdda8450fb3b81a30ea",
+    "manuscript/patterns/p13.md": "152f0b9e33ead7ef4e5426addf4ff414280a4900a09f012ca93d829775f03794",
+    "manuscript/patterns/p14.md": "f8ebdc5dd092f2f5698174755ddfbef87294af0c601629bd32b973967a0c054c",
+    "manuscript/patterns/p15.md": "13e0f83a136197f728b45e19c038df9a3fc235d8f2d28678b051dc671a2c3614",
+    "planning/demo-example-maintenance-policy.md": "13071fd8eba172a3a3ac9afa3504d280ad28e2410ad6b24eaa62da397752df4c",
+    "research/claims/ch01.json": "fc7a1548bb8dd7d2bcd850fed810eded7ce27697cd75b7c44914f6b06a6aba11",
+    "research/claims/ch02.json": "13f3d7e2ff80851a84da8c9c320fa44fe38f78ac73f1a2139e0f93bae1c4bbaa",
+    "research/claims/ch03.json": "9493a123dd724225146d77aace1c78c1cf6671b34373fc84f0cfa61c39b16ad8",
+    "research/claims/ch04.json": "f927a5539217a91ad73d713c2e6b6390b8fff58516bf3c6d51b13b03d2ab5657",
+    "research/claims/ch05.json": "2a76a9e382f1e0f26c482a89594637be81d9cbbd10846f4857b8d0eeff2b846e",
+    "research/claims/ch06.json": "645590980843188a53c0d9510d0dac3d3bebe8995e69b23420ba7cb110d022df",
+    "research/claims/ch07.json": "b13e439ea19496570747d38c235506a25216d667df979d7441f03da01df1acf4",
+    "research/claims/ch08.json": "0738727036d02000fc303907443f7fb9c372a40fdeef4df0a6f58ca4046c7f7b",
+    "research/claims/ch09.json": "0be0d47f44ba1bf76e7a06c1fd53f6d99ffda09aaa1abeb359da398f7106422c",
+    "research/claims/ch10.json": "c8b23c271b03390ae50cf8cee520ea81b6f20ff545c56275a2b43f9e501d17a9",
+    "research/claims/ch11.json": "00af5667681d2b0463fc8cbe098ce03aeca5d0968776ef8503f03f2787ec537a",
+    "research/claims/ch12.json": "47e7b98d22e0a8debcfafee4aa6405fd332032a626582fa307b85786896b762c",
+    "research/claims/ch13.json": "4b15c1b2321fd88583f3852f97a95465bbbcce27234c2e130f4686a8a787b685",
+    "research/claims/ch14.json": "c754bfb572ee774fd8216c98e91db543cc8351b5cad70cfbe6378b5382eeca6f",
+    "research/claims/ch15.json": "e126f46179a3a022eb98e22dc2c83821d2ee0ac16c64ae44d243a033a06889cd",
+    "research/claims/ch16.json": "d9b3680293a72bd631cf303bdb189cb9e5752707bbb09ceb22a3376bf1a3ec51",
+    "research/claims/ch17.json": "c31e6fbd6bdd925892335380c07dde71f6f2dd637af166185904b2d5322c98c2",
+    "research/claims/ch18.json": "6969d60faae9210dba3251532ff3397daa27229d41e4fcd34379661bce89a855",
+    "research/claims/ch19.json": "a8ac03f77433271921617db48ad9dd15f3b330b0ffc5a26d4bf27a893cdc6686",
+    "research/claims/ch20.json": "9e08cd712483fcf1435aa5ddc25e6de787f4385247986eb41f315e5e67459d8b",
+    "research/claims/core-claims.json": "527cf9e36ca6b8c436c9d56b27728ee8b894491e7f9c838cb51747ef98856e30",
+    "research/claims/homepage-definition.json": "348f2f326392aaf52bf5541c4de8d056375645cf79250d6425818d8093270610",
+    "research/claims/license-proposal.json": "e66bf9c6b607c44f1326d61dc6913c6242b29749ab4213d26843793822830978",
+    "research/claims/ownership-and-automation.json": "350c0958210ee12169ee402199275c02b41900f738cb03a9a0092fcf8ea8560c",
+    "research/claims/pages-deployment.json": "d7ea38e9d8191a4ec266faaa2f2afb39978c0eb7fd16ebc43190724c9d0a9852",
+    "research/claims/pattern-drafts.json": "92cc213902a68b6fa58cdb84cc65e0bd3f49e72a2493c30c63c474b85213ef8f",
+    "research/claims/preface.json": "7b0919f4f0dfa95f9b9f4fa43c258e8ce70f54d4fed06108dfe9b7861c124396",
+    "research/claims/roboco-blog-review.json": "5012886de38ca8c53e6150e5f7f5337432f906f3c3fac2aefe1be74ed399b7e0",
+    "research/claims/roboco-sites-review.json": "7b88019a18409be5f21bdb39bfeda23940dfac4af87d81a9d41d243599f5866d",
+    "research/claims/software-factory-demo.json": "929eeb083bcc54adfcfd929857c319da7162d8e5ed29d2050554377f279df5c0",
+    "research/claims/web-publication.json": "358f0454c33f45c85f90a32c04785e802cce0a9a3ffccb601b559b8b47b2f8bb",
+    "research/demo-example-cases.json": "e7f571e1f107dd5b3aab41ee9c1c05265033cd010b3bab70c99da8478040e993",
+    "research/software-factory-demo-inventory.json": "0205005f83a96b324917220c6cd06b774085f7369e1d1092ad11f5aa4a844aa0",
+    "research/sources.json": "d84c1f6a91203d1e149f1ee4e95c8de588638310a8d7060ce7d7a31ae6db9710",
+    "website/content-manifest.json": "682a24da196154b1e10cac313c5d7e4ed3e5c72f9a2bc25f536a798a5c3ccd03"
+  },
+  "hash_changes": [
+    "manuscript/chapters/ch01.md"
+  ],
+  "concurrency": "ch01.md의 출처 위치 문장을 진행자가 동시 정정함. 본 에이전트 변경 아님. 원본 목록은 이전 해시를 보존하고 별도 repeat-check-stable 실행에서 수정본을 재고정하여 재점검함.",
+  "mention_decisions": [
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "line": 39,
+      "source_ids": [
+        "S98"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "line": 86,
+      "source_ids": [
+        "S98"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch03.md",
+      "line": 78,
+      "source_ids": [
+        "S100"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch03.md",
+      "line": 118,
+      "source_ids": [
+        "S100"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch05.md",
+      "line": 45,
+      "source_ids": [
+        "S99"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch05.md",
+      "line": 111,
+      "source_ids": [
+        "S99"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch07.md",
+      "line": 68,
+      "source_ids": [
+        "S101"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch07.md",
+      "line": 70,
+      "source_ids": [
+        "S101"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch07.md",
+      "line": 100,
+      "source_ids": [
+        "S101",
+        "S59"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch08.md",
+      "line": 77,
+      "source_ids": [
+        "S102"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch08.md",
+      "line": 79,
+      "source_ids": [
+        "S102"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch08.md",
+      "line": 109,
+      "source_ids": [
+        "S102",
+        "S59"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "line": 107,
+      "source_ids": [
+        "S103"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "line": 109,
+      "source_ids": [
+        "S103"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "line": 167,
+      "source_ids": [
+        "S103",
+        "S59"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch11.md",
+      "line": 49,
+      "source_ids": [
+        "S104"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch11.md",
+      "line": 51,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch11.md",
+      "line": 77,
+      "source_ids": [
+        "S104"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "line": 35,
+      "source_ids": [
+        "S100"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "line": 37,
+      "source_ids": [
+        "S100"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "line": 75,
+      "source_ids": [
+        "S100",
+        "S59"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch17.md",
+      "line": 59,
+      "source_ids": [
+        "S105"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch17.md",
+      "line": 97,
+      "source_ids": [
+        "S105"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch19.md",
+      "line": 45,
+      "source_ids": [
+        "S106"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch19.md",
+      "line": 47,
+      "source_ids": [
+        "S68"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/chapters/ch19.md",
+      "line": 89,
+      "source_ids": [
+        "S106",
+        "S59",
+        "S68"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "line": 3,
+      "source_ids": [
+        "S104"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "line": 7,
+      "source_ids": [
+        "S104"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "line": 9,
+      "source_ids": [
+        "S104"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "line": 15,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "line": 16,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "line": 17,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "line": 18,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "line": 22,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "line": 24,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "line": 26,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/evidence.md",
+      "line": 3,
+      "source_ids": [
+        "S101"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/evidence.md",
+      "line": 7,
+      "source_ids": [
+        "S101"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/evidence.md",
+      "line": 9,
+      "source_ids": [
+        "S101"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/evidence.md",
+      "line": 15,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/evidence.md",
+      "line": 16,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/evidence.md",
+      "line": 17,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/evidence.md",
+      "line": 21,
+      "source_ids": [
+        "S101"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/evidence.md",
+      "line": 23,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/evidence.md",
+      "line": 25,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/execution-authority.md",
+      "line": 3,
+      "source_ids": [
+        "S103"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/execution-authority.md",
+      "line": 7,
+      "source_ids": [
+        "S103"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/execution-authority.md",
+      "line": 15,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/execution-authority.md",
+      "line": 16,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/execution-authority.md",
+      "line": 17,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/execution-authority.md",
+      "line": 18,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/execution-authority.md",
+      "line": 22,
+      "source_ids": [
+        "S103"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/execution-authority.md",
+      "line": 24,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/execution-authority.md",
+      "line": 26,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 3,
+      "source_ids": [
+        "S106"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 7,
+      "source_ids": [
+        "S106"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 9,
+      "source_ids": [
+        "S106"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 15,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 16,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 17,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 18,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 22,
+      "source_ids": [
+        "S68"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 24,
+      "source_ids": [
+        "S106"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 28,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 30,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 32,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/index.md",
+      "line": 1,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/index.md",
+      "line": 3,
+      "source_ids": [
+        "S98"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/index.md",
+      "line": 7,
+      "source_ids": [
+        "S98"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/index.md",
+      "line": 9,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/index.md",
+      "line": 28,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/index.md",
+      "line": 30,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "line": 3,
+      "source_ids": [
+        "S105"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "line": 7,
+      "source_ids": [
+        "S105"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "line": 9,
+      "source_ids": [
+        "S105"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "line": 15,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "line": 16,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "line": 17,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "line": 21,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "line": 23,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "line": 25,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 3,
+      "source_ids": [
+        "S100"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 7,
+      "source_ids": [
+        "S100"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 9,
+      "source_ids": [
+        "S100"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 15,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 16,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 17,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 18,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 22,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 24,
+      "source_ids": [
+        "S100"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 26,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 28,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "line": 3,
+      "source_ids": [
+        "S102"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "line": 7,
+      "source_ids": [
+        "S102"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "line": 9,
+      "source_ids": [
+        "S102"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "line": 15,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "line": 16,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "line": 17,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "line": 18,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "line": 22,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "line": 24,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "line": 26,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "line": 3,
+      "source_ids": [
+        "S99"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "line": 7,
+      "source_ids": [
+        "S99"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "line": 9,
+      "source_ids": [
+        "S99"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "line": 15,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "line": 16,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "line": 17,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "line": 18,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "line": 24,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "line": 26,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/front-matter/00-preface.md",
+      "line": 31,
+      "source_ids": [
+        "S98"
+      ],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "manuscript/front-matter/00-preface.md",
+      "line": 33,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    },
+    {
+      "path": "website/src/pages/about.astro",
+      "line": 7,
+      "source_ids": [],
+      "decision": "유지",
+      "reason": "후보 동일; 기존 확인 판본과 저자 원고의 관계 유지. 이번 실행에서 새 의미 검증을 수행한 것으로 승격하지 않음"
+    }
+  ],
+  "validation": {
+    "scanner": "PASS",
+    "protected_hashes": "CONCURRENT_CHANGE_DETECTED (83/84 unchanged)",
+    "follow_up": "repeat-check-stable",
+    "full_build": "not run; no manuscript/web/code change",
+    "verification_type": "유지관리 에이전트 자기 점검"
+  },
+  "scheduled": false,
+  "commit": false,
+  "push": false,
+  "deploy": false
+}

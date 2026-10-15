@@ -1,0 +1,502 @@
+{
+  "run_id": "2026-10-15-demo-examples-evidence-b",
+  "mode": "점검",
+  "checked_on": "2026-10-15",
+  "chapters": [
+    "ch01",
+    "ch09",
+    "ch11",
+    "ch17",
+    "ch19"
+  ],
+  "policy": "planning/demo-example-maintenance-policy.md",
+  "repository": "roboco-io/the-software-factory-demo",
+  "previous_revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+  "candidate_revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+  "compare": {
+    "repository_full_name": "roboco-io/the-software-factory-demo",
+    "base": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+    "head": "5b1927f8328266070c3d0bf98bac194dc21df012",
+    "status": "ahead",
+    "ahead_by": 3,
+    "behind_by": 0,
+    "total_commits": 3,
+    "too_large": null,
+    "base_commit": {
+      "sha": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+      "url": "https://api.github.com/repos/roboco-io/the-software-factory-demo/commits/25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+      "html_url": "https://github.com/roboco-io/the-software-factory-demo/commit/25a73b9c342ef380f96ff0d705df9b7ef33dd82c"
+    },
+    "merge_base_commit": {
+      "sha": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+      "url": "https://api.github.com/repos/roboco-io/the-software-factory-demo/commits/25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+      "html_url": "https://github.com/roboco-io/the-software-factory-demo/commit/25a73b9c342ef380f96ff0d705df9b7ef33dd82c"
+    },
+    "files": [
+      {
+        "filename": ".agents/skills/project-changelog/SKILL.md",
+        "status": "added",
+        "additions": 56,
+        "deletions": 0,
+        "changes": 56,
+        "previous_filename": null
+      },
+      {
+        "filename": ".github/workflows/deploy.yml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "previous_filename": null
+      },
+      {
+        "filename": "AGENTS.md",
+        "status": "modified",
+        "additions": 5,
+        "deletions": 0,
+        "changes": 5,
+        "previous_filename": null
+      },
+      {
+        "filename": "CHANGELOG.md",
+        "status": "added",
+        "additions": 45,
+        "deletions": 0,
+        "changes": 45,
+        "previous_filename": null
+      },
+      {
+        "filename": "README.md",
+        "status": "modified",
+        "additions": 23,
+        "deletions": 150,
+        "changes": 173,
+        "previous_filename": null
+      },
+      {
+        "filename": "apps/web/index.html",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "previous_filename": null
+      },
+      {
+        "filename": "apps/web/src/branding.test.tsx",
+        "status": "added",
+        "additions": 51,
+        "deletions": 0,
+        "changes": 51,
+        "previous_filename": null
+      },
+      {
+        "filename": "apps/web/src/components/Footer.tsx",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "previous_filename": null
+      },
+      {
+        "filename": "apps/web/src/components/Header.tsx",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "previous_filename": null
+      },
+      {
+        "filename": "apps/web/src/factory/data.ts",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "previous_filename": null
+      },
+      {
+        "filename": "apps/web/src/factory/main.test.ts",
+        "status": "modified",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "previous_filename": null
+      },
+      {
+        "filename": "apps/web/src/factory/view.ts",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "previous_filename": null
+      },
+      {
+        "filename": "apps/web/src/lib/e2eTarget.test.ts",
+        "status": "modified",
+        "additions": 6,
+        "deletions": 6,
+        "changes": 12,
+        "previous_filename": null
+      },
+      {
+        "filename": "apps/web/src/pages/Home.tsx",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "previous_filename": null
+      },
+      {
+        "filename": "docs/operations.md",
+        "status": "added",
+        "additions": 144,
+        "deletions": 0,
+        "changes": 144,
+        "previous_filename": null
+      },
+      {
+        "filename": "docs/superpowers/plans/2026-10-11-p1-foundation.md",
+        "status": "modified",
+        "additions": 9,
+        "deletions": 9,
+        "changes": 18,
+        "previous_filename": null
+      },
+      {
+        "filename": "docs/superpowers/plans/2026-10-11-p2-factory-core.md",
+        "status": "modified",
+        "additions": 24,
+        "deletions": 24,
+        "changes": 48,
+        "previous_filename": null
+      },
+      {
+        "filename": "docs/superpowers/plans/2026-10-11-p3-evidence-intake.md",
+        "status": "modified",
+        "additions": 11,
+        "deletions": 11,
+        "changes": 22,
+        "previous_filename": null
+      },
+      {
+        "filename": "docs/superpowers/plans/2026-10-12-p4-report-improve.md",
+        "status": "modified",
+        "additions": 8,
+        "deletions": 8,
+        "changes": 16,
+        "previous_filename": null
+      },
+      {
+        "filename": "docs/superpowers/specs/2026-10-11-software-factory-design.md",
+        "status": "modified",
+        "additions": 24,
+        "deletions": 23,
+        "changes": 47,
+        "previous_filename": null
+      },
+      {
+        "filename": "package.json",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "previous_filename": null
+      },
+      {
+        "filename": "packages/factory/src/stages/deploy.ts",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "previous_filename": null
+      },
+      {
+        "filename": "packages/factory/src/stages/deps.ts",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "previous_filename": null
+      },
+      {
+        "filename": "packages/factory/test/helpers.ts",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "previous_filename": null
+      },
+      {
+        "filename": "packages/factory/test/report.test.ts",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "previous_filename": null
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/README.md",
+      "blob_sha": "86ffab5283ec21d4afdae986e39db1230fa6409e",
+      "read_scope": "전체 파일 취득 후 관련 함수·정의 직접 확인",
+      "previous_blob_sha": null,
+      "unchanged_blob": null,
+      "level": "문서",
+      "source_ids": [
+        "S59"
+      ]
+    },
+    {
+      "path": "docs/operations.md",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md",
+      "blob_sha": "c71a72d218093bf0141ad0d463af6251c908fdbc",
+      "read_scope": "전체 파일 취득 후 관련 함수·정의 직접 확인",
+      "previous_blob_sha": null,
+      "unchanged_blob": null,
+      "level": "문서",
+      "source_ids": [
+        "S59"
+      ]
+    },
+    {
+      "path": ".github/workflows/factory-implement.yml",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/.github/workflows/factory-implement.yml",
+      "blob_sha": "84bccd3bce0d4a7fb1e2802f79a1394e83635774",
+      "read_scope": "전체 파일 취득 후 관련 함수·정의 직접 확인",
+      "previous_blob_sha": "84bccd3bce0d4a7fb1e2802f79a1394e83635774",
+      "unchanged_blob": true,
+      "level": "정적 코드",
+      "source_ids": [
+        "S64"
+      ]
+    },
+    {
+      "path": "packages/factory/src/config/agents.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/config/agents.ts",
+      "blob_sha": "ef221740f64420c141d1fe7f0165f4719c177c09",
+      "read_scope": "전체 파일 취득 후 관련 함수·정의 직접 확인",
+      "previous_blob_sha": "ef221740f64420c141d1fe7f0165f4719c177c09",
+      "unchanged_blob": true,
+      "level": "정적 코드",
+      "source_ids": [
+        "S65"
+      ]
+    },
+    {
+      "path": "packages/factory/src/report/metrics.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/report/metrics.ts",
+      "blob_sha": "40cd82afb0cc79ba400110b907597551788acec2",
+      "read_scope": "전체 파일 취득 후 관련 함수·정의 직접 확인",
+      "previous_blob_sha": "40cd82afb0cc79ba400110b907597551788acec2",
+      "unchanged_blob": true,
+      "level": "정적 코드",
+      "source_ids": [
+        "S66"
+      ]
+    },
+    {
+      "path": "packages/factory/src/stages/eval.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/eval.ts",
+      "blob_sha": "7ee2cc12462cc0c2ddf4070d2feaf7d610b3e41f",
+      "read_scope": "전체 파일 취득 후 관련 함수·정의 직접 확인",
+      "previous_blob_sha": "7ee2cc12462cc0c2ddf4070d2feaf7d610b3e41f",
+      "unchanged_blob": true,
+      "level": "정적 코드",
+      "source_ids": [
+        "S67"
+      ]
+    },
+    {
+      "path": "packages/factory/src/stages/improve.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/improve.ts",
+      "blob_sha": "9ed51c236c62a9baf44a1dea091dc8f1a0c0704b",
+      "read_scope": "전체 파일 취득 후 관련 함수·정의 직접 확인",
+      "previous_blob_sha": "9ed51c236c62a9baf44a1dea091dc8f1a0c0704b",
+      "unchanged_blob": true,
+      "level": "정적 코드",
+      "source_ids": [
+        "S67"
+      ]
+    },
+    {
+      "path": "packages/factory/src/stages/implement.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/implement.ts",
+      "blob_sha": "4955f567db45e22fc6d1c79a2bf08e23d4d24ba0",
+      "read_scope": "전체 파일 취득 후 관련 함수·정의 직접 확인",
+      "previous_blob_sha": "4955f567db45e22fc6d1c79a2bf08e23d4d24ba0",
+      "unchanged_blob": true,
+      "level": "정적 코드",
+      "source_ids": [
+        "S64"
+      ]
+    },
+    {
+      "path": "packages/factory/src/stages/review.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/review.ts",
+      "blob_sha": "2f8406fb5846219874503c95a271498636e4ef16",
+      "read_scope": "전체 파일 취득 후 관련 함수·정의 직접 확인",
+      "previous_blob_sha": "2f8406fb5846219874503c95a271498636e4ef16",
+      "unchanged_blob": true,
+      "level": "정적 코드",
+      "source_ids": [
+        "S65"
+      ]
+    },
+    {
+      "path": "factory/agents.yml",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/factory/agents.yml",
+      "blob_sha": "911963f9601f42c42e34143325203e00110b93cc",
+      "read_scope": "전체 파일 취득 후 관련 함수·정의 직접 확인",
+      "previous_blob_sha": "911963f9601f42c42e34143325203e00110b93cc",
+      "unchanged_blob": true,
+      "level": "정적 코드",
+      "source_ids": [
+        "S65"
+      ]
+    },
+    {
+      "path": "packages/factory/src/stages/weekly.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/weekly.ts",
+      "blob_sha": "959cd342c18ed535405b9ac51ce594f0f774ee6f",
+      "read_scope": "전체 파일 취득 후 관련 함수·정의 직접 확인",
+      "previous_blob_sha": "959cd342c18ed535405b9ac51ce594f0f774ee6f",
+      "unchanged_blob": true,
+      "level": "정적 코드",
+      "source_ids": [
+        "S66"
+      ]
+    },
+    {
+      "path": "packages/factory/src/stages/collect.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/collect.ts",
+      "blob_sha": "e54f76bc1ff3b6225e72f17c6fa3de6eb9a327aa",
+      "read_scope": "전체 파일 취득 후 관련 함수·정의 직접 확인",
+      "previous_blob_sha": "e54f76bc1ff3b6225e72f17c6fa3de6eb9a327aa",
+      "unchanged_blob": true,
+      "level": "정적 코드",
+      "source_ids": [
+        "S67"
+      ]
+    },
+    {
+      "path": "packages/factory/src/policy/improve-paths.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/policy/improve-paths.ts",
+      "blob_sha": "cffbafe209ff6c388cbf26c05da996a488c5a329",
+      "read_scope": "전체 파일 취득 후 관련 함수·정의 직접 확인",
+      "previous_blob_sha": "cffbafe209ff6c388cbf26c05da996a488c5a329",
+      "unchanged_blob": true,
+      "level": "정적 코드",
+      "source_ids": [
+        "S67"
+      ]
+    },
+    {
+      "path": "packages/factory/src/runs/store.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/runs/store.ts",
+      "blob_sha": "38c57c40fa264b9a5916c6ebeefe162148161772",
+      "read_scope": "전체 파일 취득 후 관련 함수·정의 직접 확인",
+      "previous_blob_sha": "38c57c40fa264b9a5916c6ebeefe162148161772",
+      "unchanged_blob": true,
+      "level": "정적 코드",
+      "source_ids": [
+        "S66"
+      ]
+    },
+    {
+      "path": ".github/workflows/factory-weekly.yml",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/.github/workflows/factory-weekly.yml",
+      "blob_sha": "a495785796675dfdfd9de62fd657229a3cdb5292",
+      "read_scope": "전체 파일 취득 후 관련 함수·정의 직접 확인",
+      "previous_blob_sha": "a495785796675dfdfd9de62fd657229a3cdb5292",
+      "unchanged_blob": true,
+      "level": "정적 코드",
+      "source_ids": [
+        "S66"
+      ]
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/.github/workflows/ci.yml",
+      "blob_sha": "b84c4de1263bfdfb825aad4e57bc40ff0cbb7a72",
+      "read_scope": "전체 파일 취득 후 관련 함수·정의 직접 확인",
+      "previous_blob_sha": "b84c4de1263bfdfb825aad4e57bc40ff0cbb7a72",
+      "unchanged_blob": true,
+      "level": "정적 코드",
+      "source_ids": [
+        "S67"
+      ]
+    },
+    {
+      "path": "packages/factory/src/stages/protect.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/protect.ts",
+      "blob_sha": "f66f4c5de5232f011b2730b582ef37612bccf8d5",
+      "read_scope": "전체 파일 취득 후 관련 함수·정의 직접 확인",
+      "previous_blob_sha": "f66f4c5de5232f011b2730b582ef37612bccf8d5",
+      "unchanged_blob": true,
+      "level": "정적 코드",
+      "source_ids": [
+        "S64"
+      ]
+    }
+  ],
+  "historical_records": [
+    {
+      "pr": 47,
+      "url": "https://github.com/roboco-io/the-software-factory-demo/pull/47",
+      "merged": true,
+      "state": "closed",
+      "base_sha": "484da0efd671cc2c87cc2085ae43c7130a80985d",
+      "head_sha": "7f65b26d7d48a4dc9e49e461bb7e4886ad3f03dd",
+      "merge_commit_sha": "af44832a32248740a77156f60d124487cdca1c5e",
+      "created_at": "2026-10-12T08:24:29Z",
+      "checked_on": "2026-10-15",
+      "scope": "PR 본문과 메타데이터 재열람; 재실행 아님"
+    },
+    {
+      "pr": 48,
+      "url": "https://github.com/roboco-io/the-software-factory-demo/pull/48",
+      "merged": false,
+      "state": "closed",
+      "base_sha": "af44832a32248740a77156f60d124487cdca1c5e",
+      "head_sha": "60ef31c9e9db979fe290e3bd0493d8a6bb5e1b71",
+      "merge_commit_sha": "4dc986c9c8f06bf891e7d77720eb36463c16313d",
+      "created_at": "2026-10-12T08:30:12Z",
+      "checked_on": "2026-10-15",
+      "scope": "PR 본문과 메타데이터 재열람; 재실행 아님"
+    }
+  ],
+  "historical_logs": [
+    {
+      "job_id": 114724977130,
+      "url": "https://github.com/roboco-io/the-software-factory-demo/actions/runs/38223377457/job/114724977130",
+      "observed": "PR47 eval 통과, error-format base 미검출/head 검출",
+      "versions": [
+        "484da0efd671cc2c87cc2085ae43c7130a80985d",
+        "7f65b26d7d48a4dc9e49e461bb7e4886ad3f03dd"
+      ]
+    },
+    {
+      "job_id": 114726765443,
+      "url": "https://github.com/roboco-io/the-software-factory-demo/actions/runs/38223958193/job/114726765443",
+      "observed": "PR48 tags.ts no-restricted-syntax 오류·종료 코드1",
+      "versions": [
+        "4dc986c9c8f06bf891e7d77720eb36463c16313d"
+      ]
+    }
+  ],
+  "executed": false,
+  "limits": [
+    "새 후보 코드 직접 실행 없음",
+    "운영 성과·장기 실패 감소·실제 환경 권한 미검증",
+    "책의 원칙/정책 범위 계층을 구현된 사실로 소급하지 않음"
+  ],
+  "recommendations": {
+    "ch01": "README 개요만 짧게 유지; 여러 단계는 독자용 overview 안내",
+    "ch09": "본문 권한 분리를 짧게 쓰고 권한/계획/번들 관계는 execution-boundaries 해설",
+    "ch11": "역할 설정-배정-호출-기록 관계는 role-assignment 해설",
+    "ch17": "주간 창-분모-정책 보류-비용 누락은 measurement 해설",
+    "ch19": "현재 코드 설명과 2026-10-12 역사 실행을 분리해 improvement-loop 해설. PR47/48 유지"
+  }
+}

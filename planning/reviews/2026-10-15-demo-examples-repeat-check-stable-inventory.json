@@ -1,0 +1,1874 @@
+{
+  "schema_version": 1,
+  "scope": "Authored manuscript and web pages/components; generated content excluded",
+  "semantics_verified": false,
+  "files": [
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "sha256": "4c1e63eef692f700c080266e5b9ec8e7f323619d8a3d0d4eba051f95f6d348ca"
+    },
+    {
+      "path": "manuscript/chapters/ch02.md",
+      "sha256": "5f59521aa0a3052785b961182ed8bcbd9d7660f770204ca9330a2487ddd0909e"
+    },
+    {
+      "path": "manuscript/chapters/ch03.md",
+      "sha256": "e210446c0ee26d3b7d385731f2e9ca4fe417373e78cf3ad731256292d3a34d5e"
+    },
+    {
+      "path": "manuscript/chapters/ch04.md",
+      "sha256": "9363b337d9915e4bc7410ef8e6aab8795b57b94cd75cae53548886677d80eea7"
+    },
+    {
+      "path": "manuscript/chapters/ch05.md",
+      "sha256": "5292b1b06315af39f55a06cff0198d98042f8a97c7d1f1f6515c334037382449"
+    },
+    {
+      "path": "manuscript/chapters/ch06.md",
+      "sha256": "980c0d6c51d27ede3ce24f99ed7854f4449efbf81ed8a0ed6fef2364f82ecc7d"
+    },
+    {
+      "path": "manuscript/chapters/ch07.md",
+      "sha256": "15bff9900755a24ad7ec39ba533c53e5cbc41dc7909dc357c39fea55fa50749a"
+    },
+    {
+      "path": "manuscript/chapters/ch08.md",
+      "sha256": "fde127aa8841b85fd9813a078ef98cf2fc9d5609fa9fbebaaf5b1712c55a3c53"
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "sha256": "9ee9cc81b2dfe3afe22d22a4aa0044cbedfd5968fc0292c475a7da6bc0d8c156"
+    },
+    {
+      "path": "manuscript/chapters/ch10.md",
+      "sha256": "3b93f9c4346f338b5d5320b176a70439239b669287cf8873a6ba1032971372bf"
+    },
+    {
+      "path": "manuscript/chapters/ch11.md",
+      "sha256": "4c2c3d52179790e7310aa0964e7e30355c4cb902eaec1ef9b024b47a3770d07d"
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "sha256": "4ede33fa07337aa4c7b74d4532de24cc10b414ee4746ed7d49cf8f279f0d169c"
+    },
+    {
+      "path": "manuscript/chapters/ch13.md",
+      "sha256": "9d00b7b15a5c4bbbf89f4371123a14a790e1bc5c5ed76bf6590967754a51fe13"
+    },
+    {
+      "path": "manuscript/chapters/ch14.md",
+      "sha256": "9aa2c3c49b822d5c97ccf69ed6a436568746e64f9dd6e8d2c825f74fc8f43c91"
+    },
+    {
+      "path": "manuscript/chapters/ch15.md",
+      "sha256": "37337e0ea6a92567003b31d13358a32c5fda7750881bbcf5fe0008e1638df6f0"
+    },
+    {
+      "path": "manuscript/chapters/ch16.md",
+      "sha256": "1f541d680593350e97ae1222aacf0e7685677a1024fced2204de40ccf7fffb17"
+    },
+    {
+      "path": "manuscript/chapters/ch17.md",
+      "sha256": "2db8a80906012e9a602b1057ba6b30258e378054156c1f694b5c02c7b34504b4"
+    },
+    {
+      "path": "manuscript/chapters/ch18.md",
+      "sha256": "791210a5ab4ec80ff17b36174ec6d2a683132a2d95edcfe69e2b368ea5a77f80"
+    },
+    {
+      "path": "manuscript/chapters/ch19.md",
+      "sha256": "5bf0dca173d34e17a4891ce89d9533b5e602a3c2597ab7d6e4d9d23e9cb99a3c"
+    },
+    {
+      "path": "manuscript/chapters/ch20.md",
+      "sha256": "d6a5c9a52d77d7a3c89269c9e1cafa7234a93f019b7697067a4b55754c83d171"
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "sha256": "b2d5e886c03b146b91f816f0ca2d056c6557a236691fef74120f9984a3a859bf"
+    },
+    {
+      "path": "manuscript/demo/evidence.md",
+      "sha256": "f65cfad879d6eb5532e2be9c29417bedb066d37741a330014524efc464e9ca83"
+    },
+    {
+      "path": "manuscript/demo/execution-authority.md",
+      "sha256": "2a63eadf65a06b3840f9a8bca1a473293226fd8bac06809c5299c5b80ee97fa4"
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "sha256": "e38eab7e20189f68036e5d010213399e07335fdb105ce78ee6ab18326f4748b6"
+    },
+    {
+      "path": "manuscript/demo/index.md",
+      "sha256": "14d28da0e3ace75a3c29ad9d73812be5fb60e6fa352c6baa4da86530db2d7b77"
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "sha256": "ff0a72f1aedabcbc421063c84c034e01fbf41e54ecf0fcc3d208edd648f8d671"
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "sha256": "149159de81032a34a08d0649f393ce9ebc6cb25033de9dc4be8454043d9b4021"
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "sha256": "1aa20c25c30bf68cf792bc166420e6c6abb07f705c815cb73707cc579ae6ab00"
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "sha256": "000010507f534d9aba726739bbccdf6ae9953d5d5d8e72e050886907520c81b5"
+    },
+    {
+      "path": "manuscript/figures/README.md",
+      "sha256": "19242ae6c405747a002f01009717b3d07abf4b7ec220288fc4c7e5fb10ba16e0"
+    },
+    {
+      "path": "manuscript/front-matter/00-preface.md",
+      "sha256": "b117df8abde965bad839300303dff31fa720a5c7816540e51dfe225fc3a852c7"
+    },
+    {
+      "path": "manuscript/patterns/p01.md",
+      "sha256": "edd353fa37fbd47069ef2142c34774b6c0960c91de771ab516e48faac1688226"
+    },
+    {
+      "path": "manuscript/patterns/p02.md",
+      "sha256": "f9a89d1c89dac44c6cf42345e84475639a073b7cf204d176a89b1fb51eca7f24"
+    },
+    {
+      "path": "manuscript/patterns/p03.md",
+      "sha256": "b9ebb4ab1c4baf7a3bb191f61d7bc17c139a5df2b1aeee44b393b8f2e14586b6"
+    },
+    {
+      "path": "manuscript/patterns/p04.md",
+      "sha256": "ac3b8729b7facfefae8c4b4b99f5669fcc3a00b69b62662b78de0cfa7f0eac12"
+    },
+    {
+      "path": "manuscript/patterns/p05.md",
+      "sha256": "ce66132ca44d8bba44e72c32b12640d06fc5c5ca45600b18264060d5ddaab2b5"
+    },
+    {
+      "path": "manuscript/patterns/p06.md",
+      "sha256": "5b4ae48de698daede970aec218614fe5d8c5df1e211f99a225346c5b00a4224d"
+    },
+    {
+      "path": "manuscript/patterns/p07.md",
+      "sha256": "90280cb56a0acef84a10d87a0dcd575ae277ddde437446d082b04b16d6477641"
+    },
+    {
+      "path": "manuscript/patterns/p08.md",
+      "sha256": "b0770a619455d7b4113a49b9e47f26b89c9fe03f714072a45eaef1e354145af8"
+    },
+    {
+      "path": "manuscript/patterns/p09.md",
+      "sha256": "ce48cde3588dc3b3aee4ad05d252a7a3e5516eb89a4a2e29d1bd4fadd89d1ad7"
+    },
+    {
+      "path": "manuscript/patterns/p10.md",
+      "sha256": "684e2b8aba567b43e435d23d58fd19f304acc1c9907f1f79197ea45aed6eb190"
+    },
+    {
+      "path": "manuscript/patterns/p11.md",
+      "sha256": "0ce646482803f3581110dcdeb0ecaaa4d09c8866ab1a28cdc6ba1724b3380926"
+    },
+    {
+      "path": "manuscript/patterns/p12.md",
+      "sha256": "300ecaf2219154726e7d2738250b439e7369e4881f6e4cdda8450fb3b81a30ea"
+    },
+    {
+      "path": "manuscript/patterns/p13.md",
+      "sha256": "152f0b9e33ead7ef4e5426addf4ff414280a4900a09f012ca93d829775f03794"
+    },
+    {
+      "path": "manuscript/patterns/p14.md",
+      "sha256": "f8ebdc5dd092f2f5698174755ddfbef87294af0c601629bd32b973967a0c054c"
+    },
+    {
+      "path": "manuscript/patterns/p15.md",
+      "sha256": "13e0f83a136197f728b45e19c038df9a3fc235d8f2d28678b051dc671a2c3614"
+    },
+    {
+      "path": "website/src/components/BookAnalytics.astro",
+      "sha256": "c6b714c99d5667e74874dd2c19082501475ecfa35418c1ede621bdff00cbf62e"
+    },
+    {
+      "path": "website/src/components/BookContent.astro",
+      "sha256": "136ebdcbbec58e797f098e0843ab7ec750a0f893da4f8e3c1c1ad387a2101621"
+    },
+    {
+      "path": "website/src/components/BookFooter.astro",
+      "sha256": "31e645892ab0d257c3cbce8902263c76929d1bc131628868d63e0f44016c6c93"
+    },
+    {
+      "path": "website/src/components/BookSiteTitle.astro",
+      "sha256": "d6950b813e2b2fc4b5cef3b638f668cb052e16c81e2dfbe6384ae173bde802b8"
+    },
+    {
+      "path": "website/src/components/PageTitle.astro",
+      "sha256": "238cf84aff47cb196aa5867342b96214b1afdfca74f423053b4bdb9a6987e123"
+    },
+    {
+      "path": "website/src/pages/404.astro",
+      "sha256": "7e499b8686cd87a92a9d5a6a18d21dadb59e7e0c2e4e4138f5630bd78f2ba827"
+    },
+    {
+      "path": "website/src/pages/about.astro",
+      "sha256": "5acca2076bf7a90fdf05788be82761f5231c9422bee1f4cd1eedcb8bf971bfd3"
+    },
+    {
+      "path": "website/src/pages/contents.astro",
+      "sha256": "313655f043b242e2a95f13e56435f20da4a60a0e5874f3621f3c543265f725d9"
+    },
+    {
+      "path": "website/src/pages/guide.astro",
+      "sha256": "165971c0283f0b9f9f29ee7ac99842d3d092890e212fb2e166b3ea98bc650871"
+    },
+    {
+      "path": "website/src/pages/index.astro",
+      "sha256": "39dc822774aa6ea4198de9e81bd144d94075e5525b103b797b70887843b2de84"
+    },
+    {
+      "path": "website/src/pages/license.astro",
+      "sha256": "e0cb4055b8e3cfcee9aeb130f6d7a4e5506e372c2d1663946364c069dc776a70"
+    },
+    {
+      "path": "website/src/pages/patterns/index.astro",
+      "sha256": "a78b7bf907e7f359ea2359d8bdc806e81d30e39727221133dd47a8b6e58978e4"
+    },
+    {
+      "path": "website/src/pages/privacy.astro",
+      "sha256": "300b9f2f9fd399faf2f3fca924e3cb5df6f7346daa9b65a8ce418eb41475ed3a"
+    },
+    {
+      "path": "website/src/pages/releases.astro",
+      "sha256": "f9fb85b2da650cff71e8d4db47c503f376e9d14e30f0cd095d6316f58905ea07"
+    }
+  ],
+  "coverage": [
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "mentions": 3
+    },
+    {
+      "path": "manuscript/chapters/ch02.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/chapters/ch03.md",
+      "mentions": 2
+    },
+    {
+      "path": "manuscript/chapters/ch04.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/chapters/ch05.md",
+      "mentions": 2
+    },
+    {
+      "path": "manuscript/chapters/ch06.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/chapters/ch07.md",
+      "mentions": 3
+    },
+    {
+      "path": "manuscript/chapters/ch08.md",
+      "mentions": 3
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "mentions": 3
+    },
+    {
+      "path": "manuscript/chapters/ch10.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/chapters/ch11.md",
+      "mentions": 3
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "mentions": 3
+    },
+    {
+      "path": "manuscript/chapters/ch13.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/chapters/ch14.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/chapters/ch15.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/chapters/ch16.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/chapters/ch17.md",
+      "mentions": 2
+    },
+    {
+      "path": "manuscript/chapters/ch18.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/chapters/ch19.md",
+      "mentions": 3
+    },
+    {
+      "path": "manuscript/chapters/ch20.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p01.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p02.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p03.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p04.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p05.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p06.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p07.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p08.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p09.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p10.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p11.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p12.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p13.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p14.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p15.md",
+      "mentions": 0
+    }
+  ],
+  "mentions": [
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "line": 39,
+      "section": "구현 예제에서 판단의 연결을 읽는다",
+      "kind": "content",
+      "source_ids": [
+        "S98"
+      ],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo",
+        "https://roboco.io/the-software-factory-demo/"
+      ],
+      "text": "이 책은 공통 구현 예제로 로보코의 [The Software Factory Demo](https://github.com/roboco-io/the-software-factory-demo)를 사용한다. 글을 작성하고 읽는 예제 서비스를 대상으로 요청·구현·검토·검사·병합·배포를 연결한 공개 프로젝트다.[S98] 뒤의 장은 이 흐름에서 요청의 충분성, 수정 증거, 사람에게 돌아오는 판단, 실패 뒤의 기준 변경을 각각 살펴본다. 코드를 읽기 전에 [독자용 데모 해설](../demo/index.md)에서 질문별 흐름과 구현 근거를 찾아볼 수 있다. [배포된 데모](https://roboco.io/the-software-factory-demo/)에서 실제 화면을 살펴볼 수 있다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "line": 41,
+      "section": "구현 예제에서 판단의 연결을 읽는다",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "파일이 존재하는 사실, 코드가 정한 조건, 공개 실행 기록에서 확인한 결과를 구분해 읽는다. 이 책에서 서비스를 직접 실행하거나 조직 생산성을 측정한 것은 아니다. 다른 조직은 자신의 사용자 결과와 권한·복구 조건에 맞는지 판단해야 한다. 구현 예제의 출처와 확인 범위는 [참고문헌](../../research/sources.json)과 각 데모 해설에 기록했다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "line": 86,
+      "section": "출처와 검토",
+      "kind": "source-list",
+      "source_ids": [
+        "S98"
+      ],
+      "urls": [],
+      "text": "[S98]. 확인 범위와 한계는 [출처 대장](../../research/sources.json), 주장 유형은 [주장 메모](../../research/claims/ch01.json)에 기록한다. 이 장의 적용 방법은 저자 제안이며 실제 조직의 인과 효과·패턴 효과·원서 본문 대조·편집 확정은 완료하지 않았다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch03.md",
+      "line": 78,
+      "section": "정책을 바꾸는 변경도 분류한다",
+      "kind": "content",
+      "source_ids": [
+        "S100"
+      ],
+      "urls": [],
+      "text": "데모는 바뀐 파일의 위험에 따라 자동으로 처리할 경계를 달리한다. 위험 정책이 경로별 등급과 필요한 검사를 정하고, 분류 코드가 변경 전체의 위험을 모아 병합 판단에 넘긴다. 팩토리 자체의 지침·워크플로를 바꾸는 변경은 일반 제품 변경보다 높게 분류한다.[S100] 이는 만들 기능을 선택하는 일과 그 변경을 반영할 조건을 관리하는 일을 나누는 예다. 여기의 위험 등급은 이 장의 정책 적용 범위 계층과 다른 구분이다. 파일 사이의 연결과 한계는 [데모 해설: 정책에서 반영 판단까지](../demo/policy-and-gate.md)에서 읽을 수 있다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch03.md",
+      "line": 118,
+      "section": "출처와 검토",
+      "kind": "source-list",
+      "source_ids": [
+        "S100"
+      ],
+      "urls": [],
+      "text": "[S16], [S17], [S38], [S100], [S69]. 공개 자료의 확인 범위와 한계는 [출처 대장](../../research/sources.json), 주요 주장의 성격과 검토 사항은 [주장 메모](../../research/claims/ch03.json)에 기록한다. 사례의 조직 성과, 실행 검증, 패턴 효과는 확인하지 않았다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch05.md",
+      "line": 45,
+      "section": "요청을 정리한 결과와 실행 승인을 나눈다",
+      "kind": "content",
+      "source_ids": [
+        "S99"
+      ],
+      "urls": [],
+      "text": "데모는 목표와 수용 기준을 요청서에서 받고, 에이전트가 요청 종류·예상 위험·수용 기준·요약을 정리하게 한다. 정리 결과는 형태를 검사해 기록하지만, 그것만으로 작업 시작을 승인하지 않는다. 시작 명령은 별도로 권한과 현재 상태를 확인한다.[S99] 리더는 설명의 형식이 갖춰졌다는 사실과 목표가 적절하며 실행을 허용해도 된다는 판단을 구분해야 한다. 요청·정리·승인을 연결하는 구조는 [데모 해설: 요청에서 실행 가능한 작업까지](../demo/request.md)에 설명했다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch05.md",
+      "line": 111,
+      "section": "출처와 검토",
+      "kind": "source-list",
+      "source_ids": [
+        "S99"
+      ],
+      "urls": [],
+      "text": "[S23], [S47], [S99], [S72], [S75]. 확인 범위와 한계는 [출처 대장](../../research/sources.json), 주요 주장의 성격은 [주장 메모](../../research/claims/ch05.json)에 기록한다. 기술 명세와 제품 문서의 구조를 조직의 업무 계약과 같은 것으로 취급하지 않았다. 실제 도구 실행·접근 제한의 집행·조직 성과·패턴 효과·원서 본문 대조는 검증하지 않았다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch07.md",
+      "line": 68,
+      "section": "실행 오류와 재현 증거를 구분하는 구현",
+      "kind": "content",
+      "source_ids": [
+        "S101"
+      ],
+      "urls": [],
+      "text": "데모는 버그 수정 제안에서 수정 전후의 증거를 비교한다. 대상 변경이 추가·수정한 테스트를 수정 전 코드와 수정 후 코드에 적용해, 전자에서는 개별 검사 조건이 실패하고 후자에서는 통과해야 한다. 검사 수집 오류·시간 초과·보고서 누락은 재현 성공으로 인정하지 않는다. 브라우저 전체 동작 검사는 이 판정의 범위 밖이다.[S101] 이 정의를 코드를 읽어 확인했으며 직접 실행한 결과는 아니다. 대상 분류·두 버전·결과 판정의 관계는 [데모 해설: 결과를 판단하는 증거](../demo/evidence.md)에 정리했다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch07.md",
+      "line": 70,
+      "section": "실행 오류와 재현 증거를 구분하는 구현",
+      "kind": "content",
+      "source_ids": [
+        "S101"
+      ],
+      "urls": [],
+      "text": "리더는 검사 통과 여부와 함께 어떤 실패를 증거로 인정했는지 읽을 수 있다. 검사가 시작되지 못한 실패를 재현으로 인정하면 잘못된 수정도 근거를 갖춘 것처럼 보인다. 이 검사의 대상이 아닌 변경은 재현 검사를 하지 않고 통과할 수 있으므로, 통과 표시만으로 모든 결과에 같은 검증이 적용됐다고 해석해서는 안 된다. 데모 운영 안내도 이 장치를 악의적인 코드의 판정 조작까지 막는 보장으로 제시하지 않는다.[S101] 업무에 맞는 검사 범위와 그 밖의 조건을 수용할 책임을 함께 정해야 한다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch07.md",
+      "line": 100,
+      "section": "출처와 검토",
+      "kind": "source-list",
+      "source_ids": [
+        "S101",
+        "S59"
+      ],
+      "urls": [],
+      "text": "[S10], [S13], [S18], [S42], [S59], [S101]. 확인 범위와 한계는 [출처 대장](../../research/sources.json), 주장의 성격과 검토 항목은 [주장 메모](../../research/claims/ch07.json)에 기록한다. 제품 실행·전체 CI 로그·Enterprise 환경·조직 성과와 패턴 효과는 검증하지 않았다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch08.md",
+      "line": 77,
+      "section": "멈춘 범위와 재개할 범위를 구분하는 구현",
+      "kind": "content",
+      "source_ids": [
+        "S102"
+      ],
+      "urls": [],
+      "text": "데모는 최근 실행의 실패 비율을 관찰해 새 구현·수정 작업의 시작을 일시 중지하는 차단기를 둔다. 개별 요청의 중단은 다른 경로에서 권한과 현재 상태를 확인한 뒤 관련 실행 취소와 사람 이관을 처리한다.[S102] 새 일을 받지 않는 조치와 진행 중인 일을 멈추는 조치를 나누는 예다. 차단·상태·재시작의 관계는 [데모 해설: 실패에서 복구로](../demo/recovery.md)에서 함께 읽을 수 있다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch08.md",
+      "line": 79,
+      "section": "멈춘 범위와 재개할 범위를 구분하는 구현",
+      "kind": "content",
+      "source_ids": [
+        "S102"
+      ],
+      "urls": [],
+      "text": "차단기 해제, 취소된 작업의 재시도, 이미 반영한 외부 효과의 복구는 서로 다르다. 데모의 임계값을 그대로 옮기기 전에 실패 영향과 표본의 의미를 판단해야 한다. 오래 대기한 작업이 자동으로 복구되는지도 별도 질문이다. 데모 운영 안내는 준비 단계 실패 뒤 사람이 상태를 정리해야 하는 경우를 남겨 두고 있다.[S102] 리더는 예외 경로가 작동하지 않는 경우까지 운영 책임에 포함해야 한다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch08.md",
+      "line": 109,
+      "section": "출처와 검토",
+      "kind": "source-list",
+      "source_ids": [
+        "S102",
+        "S59"
+      ],
+      "urls": [],
+      "text": "[S50], [S51], [S59], [S102], [S72]. 확인 범위와 한계는 [출처 대장](../../research/sources.json), 주요 주장의 성격은 [주장 메모](../../research/claims/ch08.json)에 기록한다. 공급자의 기술 설계 설명을 조직의 운영 효과로 일반화하지 않았다. 실제 API 실행·중복 방지·부하·복구 효과·원서 본문 대조는 검증하지 않았다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "line": 107,
+      "section": "결과를 만드는 단계와 게시하는 단계를 나눈다",
+      "kind": "content",
+      "source_ids": [
+        "S103"
+      ],
+      "urls": [],
+      "text": "데모는 준비·에이전트 수행·게시를 별도 실행 환경으로 나눈다. 에이전트는 변경을 만들지만, 저장소에 게시하는 GitHub App 토큰을 직접 받지 않는다. 별도의 게시 단계가 계획과 전달된 결과를 확인하고 자체 발급받은 토큰으로 저장소에 올린다. 준비 단계도 App 토큰을 사용하므로, 권한은 단계마다 구분해 읽어야 한다.[S103] 만드는 능력과 공유 영역에 반영하는 권한을 분리하는 구조다. 계획·결과 전달·게시 전 확인의 연결은 [데모 해설: 만드는 권한과 게시하는 권한](../demo/execution-authority.md)에 설명했다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "line": 109,
+      "section": "결과를 만드는 단계와 게시하는 단계를 나눈다",
+      "kind": "content",
+      "source_ids": [
+        "S103"
+      ],
+      "urls": [],
+      "text": "결과를 만드는 능력과 공유 영역에 반영할 권한을 같은 주체에 모두 줄 필요는 없다. 다만 실행 환경을 나눈 사실이 사업적 수용 판단이나 완전한 보안 격리를 대신하지 않는다. 데모 운영 안내가 밝힌 실행 환경·캐시 등의 제한도 함께 읽어야 한다.[S103] 리더는 단계 사이에서 무엇을 신뢰하고 무엇을 재확인하며 누가 예외를 결정하는지 정한다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "line": 167,
+      "section": "출처와 검토",
+      "kind": "source-list",
+      "source_ids": [
+        "S103",
+        "S59"
+      ],
+      "urls": [],
+      "text": "[S01], [S08], [S09], [S20], [S21], [S22], [S23], [S39], [S44], [S59], [S103]. 확인 범위와 한계는 [출처 대장](../../research/sources.json), 주요 주장의 성격은 [주장 메모](../../research/claims/ch09.json)에 기록한다. 공개 문서의 구조를 확인했으며 제품 설치·실행·조직 성과·패턴 효과·원서 본문 대조는 수행하지 않았다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch11.md",
+      "line": 49,
+      "section": "역할에 실행 조합을 배정하는 구현",
+      "kind": "content",
+      "source_ids": [
+        "S104"
+      ],
+      "urls": [],
+      "text": "데모는 역할별 실행 도구와 예산을 설정하고, 배정 코드가 모델을 선택해 수행 계획과 실제 호출에 연결한다. 검토에는 구현과 다른 도구를 고르며, 배정할 수 없으면 오류나 사람 이관으로 처리한다.[S104] 특정 모델 이름을 원리로 고정하지 않고 역할과 실행 조합을 연결하는 예다. 다른 도구라는 조건이 실제 검토 능력까지 보장하지는 않는다. 선언·배정·호출의 관계는 [데모 해설: 에이전트 선택과 평가](../demo/agent-selection.md)에서 살펴본다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch11.md",
+      "line": 51,
+      "section": "역할에 실행 조합을 배정하는 구현",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "그러나 다른 도구를 배정한 사실은 독립 검증의 충분한 증거가 아니다. 같은 요구 누락과 평가 자료를 공유하면 서로 다른 조합도 같은 오류를 낼 수 있다. 리더는 배정 규칙을 출발점으로 삼아 대표 실패를 얼마나 발견하는지와 추가 비용을 평가한다. 이 데모의 역할 설정은 비교할 구성을 남기는 방법이며 도구 순위나 조합의 우열을 입증한 실험은 아니다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch11.md",
+      "line": 77,
+      "section": "출처와 검토",
+      "kind": "source-list",
+      "source_ids": [
+        "S104"
+      ],
+      "urls": [],
+      "text": "[S46], [S104]. 확인 범위와 한계는 [출처 대장](../../research/sources.json), 주장 유형은 [주장 메모](../../research/claims/ch11.json)에 기록한다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "line": 35,
+      "section": "변경의 위험과 현재 증거를 병합 판단에 연결한다",
+      "kind": "content",
+      "source_ids": [
+        "S100"
+      ],
+      "urls": [],
+      "text": "데모의 병합 판단은 변경 위험, 필요한 검사와 현재 변경 버전의 리뷰를 함께 읽는다. 일부 낮은 위험 변경은 자동 병합할 수 있지만, 높은 위험과 개선 변경은 사람에게 넘긴다. 검토 뒤 코드가 바뀌었다면 예전 승인을 새 변경의 근거로 그대로 쓰지 않도록 판정과 변경 버전을 연결한다.[S100] 이 구조의 위험 등급과 검사·권한의 관계는 [데모 해설: 정책과 수용 경계](../demo/policy-and-gate.md)에 모았다. 등급은 데모의 선택이며 모든 조직의 표준이 아니다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "line": 37,
+      "section": "변경의 위험과 현재 증거를 병합 판단에 연결한다",
+      "kind": "content",
+      "source_ids": [
+        "S100"
+      ],
+      "urls": [],
+      "text": "리더는 위험 등급별로 필요한 증거와 누가 반영할 수 있는지 설명할 수 있어야 한다. 옛 버전의 승인을 새 변경에 사용하지 않는 조건도 필요하다. 코드가 자동 병합을 거부하는 것과 사람이 하는 모든 병합에 동일 승인이 강제되는 것은 다르다. 데모 운영 안내는 유일한 코드 소유자가 직접 작성한 변경에서 승인 강제가 제한되는 경우를 밝힌다.[S100] 조직에서 적용할 때에는 역할 배치와 실제 저장소 권한을 함께 확인한다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "line": 75,
+      "section": "출처와 검토",
+      "kind": "source-list",
+      "source_ids": [
+        "S100",
+        "S59"
+      ],
+      "urls": [],
+      "text": "[S44], [S59], [S100]. 확인 범위와 한계는 [출처 대장](../../research/sources.json), 주장 유형은 [주장 메모](../../research/claims/ch12.json)에 기록한다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch17.md",
+      "line": 59,
+      "section": "지표 이름보다 계산 대상을 읽는다",
+      "kind": "content",
+      "source_ids": [
+        "S105"
+      ],
+      "urls": [],
+      "text": "데모의 주간 보고는 최근 7일의 실행 기록을 골라 지표를 계산한다. 그 기간에 구현 기록이 있는 요청을 분모로 삼고, 배포 성공 기록이 있으며 그 기간의 모든 실행이 성공인 요청을 완주로 센다. 정책에 따라 사람에게 넘긴 경우도 완주에서는 제외된다. 비용은 알려진 값만 합산하고 비용을 보고한 기록 수를 함께 남기며 작은 표본은 데이터 부족으로 표시한다.[S105] 같은 완주율도 관찰 기간과 분모가 다르면 의미가 달라진다. 수집·기간 선택·계산의 관계는 [데모 해설: 활동과 성과를 구분하는 지표](../demo/metrics.md)에 설명했다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch17.md",
+      "line": 97,
+      "section": "출처와 검토",
+      "kind": "source-list",
+      "source_ids": [
+        "S105"
+      ],
+      "urls": [],
+      "text": "[S33] · [S53] · [S54] · [S105] · [S73] · [S74]. 확인 범위와 한계는 [출처 대장](../../research/sources.json), 주장 유형은 [주장 메모](../../research/claims/ch17.json)에 기록한다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch19.md",
+      "line": 45,
+      "section": "규칙 변경이 실제로 무엇을 더 잡는지 확인한다",
+      "kind": "content",
+      "source_ids": [
+        "S106"
+      ],
+      "urls": [],
+      "text": "데모는 반복 실패에서 개선 후보를 모으고, 개선 역할이 바꿀 파일의 범위를 제한한다. 봇의 개선 제안에는 새 평가 사례를 요구하며, 이전 규칙이 놓친 실패를 새 규칙이 발견하는지와 기존 사례의 회귀·변경을 확인한다.[S106] 규칙을 더한 사실과 같은 실패를 발견할 수 있게 된 변화를 구분하는 구조다. 후보·변경 권한·평가의 연결은 [데모 해설: 관찰을 개선으로 연결하기](../demo/improvement.md)에서 함께 읽을 수 있다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch19.md",
+      "line": 47,
+      "section": "규칙 변경이 실제로 무엇을 더 잡는지 확인한다",
+      "kind": "content",
+      "source_ids": [
+        "S68"
+      ],
+      "urls": [],
+      "text": "2026년 10월 12일의 의도적 리허설에서는 개선 PR #47의 평가가 새 오류 형식 사례의 전후 검출 차이를 기록했고, 검증 PR #48의 검사는 같은 오류를 거부했다. #47은 병합되었고 #48은 병합 없이 닫혔다.[S68] 이는 현재 확인 버전에서 새로 실행한 결과나 자연 발생 실패의 감소율이 아니다. 당시 조건과 각 기록에서 확인할 판정은 [데모 해설의 과거 실행 사례](../demo/improvement.md)에 구분했다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/chapters/ch19.md",
+      "line": 89,
+      "section": "출처와 검토",
+      "kind": "source-list",
+      "source_ids": [
+        "S106",
+        "S59",
+        "S68"
+      ],
+      "urls": [],
+      "text": "[S43] · [S59] · [S106] · [S68] · [S71]. 확인 범위와 한계는 [출처 대장](../../research/sources.json), 주장 유형은 [주장 메모](../../research/claims/ch19.json)에 기록한다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "line": 3,
+      "section": "에이전트 선택과 평가",
+      "kind": "content",
+      "source_ids": [
+        "S104"
+      ],
+      "urls": [],
+      "text": "검토 역할의 이름을 붙이는 일과 실제로 다른 실행 조합을 사용하는 일은 다르다. 데모에서는 역할 설정, 배정 코드, 실제 호출 단계가 연결된다.[S104]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "line": 7,
+      "section": "선언·배정·호출을 함께 읽는다",
+      "kind": "content",
+      "source_ids": [
+        "S104"
+      ],
+      "urls": [],
+      "text": "설정은 구현과 검토 등의 역할에 사용할 도구와 예산을 선언한다. 배정 코드는 모델 설정을 읽고, 검토에는 구현과 다른 실행 도구를 선택하려 한다. 다른 도구를 배정할 수 없으면 오류로 처리한다. 수행 계획은 이 선택과 예산을 다음 실행에 전달한다.[S104]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "line": 9,
+      "section": "선언·배정·호출을 함께 읽는다",
+      "kind": "content",
+      "source_ids": [
+        "S104"
+      ],
+      "urls": [],
+      "text": "검토 단계는 변경 제안의 메타데이터에서 구현 도구를 확인해 검토 조합을 고르고, 선택에 실패하면 사람에게 넘긴다. 읽기 전용 요청과 검토 예산도 호출에 전달한다. 설정 파일의 선언만 보는 대신 실제 호출까지 이어지는지 확인하는 이유다.[S104]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "line": 15,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/factory/agents.yml"
+      ],
+      "text": "| 역할 설정 | 역할별 실행 도구와 예산 선언 | [배정 입력 확인](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/factory/agents.yml) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "line": 16,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/config/agents.ts"
+      ],
+      "text": "| 배정 코드 | 다른 도구 선택과 선택 불가 처리 | [선택 규칙 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/config/agents.ts) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "line": 17,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/implement.ts"
+      ],
+      "text": "| 구현 준비 | 선택한 조합을 수행 계획에 전달 | [계획 연결 확인](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/implement.ts) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "line": 18,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/review.ts"
+      ],
+      "text": "| 검토 단계 | 구현 도구 대조와 검토 호출·이관 | [실제 호출 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/review.ts) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "line": 22,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "다른 도구를 사용한다는 조건이 서로 다른 오류를 발견한다는 효과를 보장하지 않는다. 업무에서 숨겨 둔 실패 사례와 비용·지연·불필요한 거부를 함께 관찰해야 한다. 데모의 특정 모델·예산 기본값을 조직의 추천값으로 가져오지 않는다. 읽기 전용 요청도 전체 환경의 강제성을 검증한 결과와 구분한다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "line": 24,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "2026년 10월 15일 확인한 고정 버전의 문서와 코드 구조를 설명한다. 데모를 직접 실행하거나 실제 조직의 효과를 검증한 결과는 아니다. 정확한 판본과 확인 범위는 출처에서 추적할 수 있다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "line": 26,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "[11장으로 돌아가기](../chapters/ch11.md) · [데모 해설 목록](index.md)",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/evidence.md",
+      "line": 3,
+      "section": "결과를 판단하는 증거",
+      "kind": "content",
+      "source_ids": [
+        "S101"
+      ],
+      "urls": [],
+      "text": "검사가 실패했다는 사실만으로 버그를 재현했다고 말할 수는 없다. 데모의 수정 증거 판정은 ‘수정이 없을 때 실패하고 수정한 뒤에는 통과하는가’를 같은 테스트로 비교한다.[S101]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/evidence.md",
+      "line": 7,
+      "section": "두 버전과 실패의 종류를 연결한다",
+      "kind": "content",
+      "source_ids": [
+        "S101"
+      ],
+      "urls": [],
+      "text": "대상 분류는 팩토리 봇의 버그 수정 제안인지 확인한다. 대상이면 추가·수정한 테스트를 수정 전 코드에 적용하고 수정 후 코드에서도 같은 테스트를 확인한다. 수정 전 개별 검사 조건의 실패와 수정 후 통과가 필요하다. 검사 수집 오류·시간 초과·보고서 누락은 버그를 재현한 증거가 아니다.[S101]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/evidence.md",
+      "line": 9,
+      "section": "두 버전과 실패의 종류를 연결한다",
+      "kind": "content",
+      "source_ids": [
+        "S101"
+      ],
+      "urls": [],
+      "text": "이 흐름은 대상 판정, 두 버전의 실행, 결과 보고서 해석이 연결되어야 성립한다. 비대상 변경은 이 비교를 수행하지 않고 통과할 수 있고, 브라우저 전체 동작 검사는 이 판정의 범위 밖이다. 통과 표시 하나에서 모든 변경에 같은 수준의 증거가 있다고 추론하지 않는다.[S101]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/evidence.md",
+      "line": 15,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/evidence.ts"
+      ],
+      "text": "| 대상과 결과 판정 | 버그 수정 비교가 필요한지, 어떤 실패를 인정하는지 정의 | [판정 조건 확인](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/evidence.ts) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/evidence.md",
+      "line": 16,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/.github/workflows/ci.yml"
+      ],
+      "text": "| 검사 실행 경로 | 수정 전후 작업 환경과 보고서 전달을 연결 | [검사 연결 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/.github/workflows/ci.yml) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/evidence.md",
+      "line": 17,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md"
+      ],
+      "text": "| 운영 안내 | 같은 실행 환경에서 보고서 조작이 가능한 한계 | [판정의 한계 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/evidence.md",
+      "line": 21,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [
+        "S101"
+      ],
+      "urls": [],
+      "text": "업무에서 주장하는 실패를 어떤 관측으로 확인할지 먼저 정하고, 검사 불능을 유효한 증거로 처리하지 않아야 한다. 데모는 악의적인 변경 작성자를 막는 보안 장치가 아니다. 운영 안내는 테스트 코드가 같은 환경의 결과 보고서를 조작할 수 있음을 명시한다.[S101] 업무에 필요한 독립성·검사 범위·수용 책임은 별도로 설계한다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/evidence.md",
+      "line": 23,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "2026년 10월 15일 확인한 고정 버전의 문서와 코드 구조를 설명한다. 데모를 직접 실행하거나 실제 조직의 효과를 검증한 결과는 아니다. 정확한 판본과 확인 범위는 출처에서 추적할 수 있다. 테스트 정의를 읽었다는 사실과 테스트를 직접 실행해 통과를 확인한 사실도 구분한다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/evidence.md",
+      "line": 25,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "[7장으로 돌아가기](../chapters/ch07.md) · [데모 해설 목록](index.md)",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/execution-authority.md",
+      "line": 3,
+      "section": "만드는 권한과 게시하는 권한",
+      "kind": "content",
+      "source_ids": [
+        "S103"
+      ],
+      "urls": [],
+      "text": "결과를 만드는 주체가 공유 저장소에 반영할 자격 증명까지 가질 필요는 없다. 데모는 준비·에이전트 수행·게시를 별도 실행 환경으로 나누고 계획과 결과를 단계 사이에 전달한다.[S103]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/execution-authority.md",
+      "line": 7,
+      "section": "계획과 결과가 권한 경계를 건넌다",
+      "kind": "content",
+      "source_ids": [
+        "S103"
+      ],
+      "urls": [],
+      "text": "준비 단계는 할 일과 실행 조합을 계획으로 남긴다. 에이전트 수행 단계는 변경을 만들며, 게시용 GitHub App 토큰을 직접 받지 않는다. 게시 단계는 별도로 발급받은 토큰으로 결과를 저장소에 올린다. 이때 신뢰하는 기준 코드로 계획과 전달된 결과·변경 범위를 확인하고 에이전트가 바꾼 작업 디렉터리의 코드는 실행하지 않도록 구성한다.[S103]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/execution-authority.md",
+      "line": 15,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/.github/workflows/factory-implement.yml"
+      ],
+      "text": "| 세 실행 단계 | 별도 환경과 자격 증명·계획 전달 배치 | [단계와 토큰 확인](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/.github/workflows/factory-implement.yml) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/execution-authority.md",
+      "line": 16,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/implement.ts"
+      ],
+      "text": "| 준비와 게시 처리 | 계획을 만들고 변경 묶음을 받아 처리하는 관계 | [결과 전달 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/implement.ts) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/execution-authority.md",
+      "line": 17,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/protect.ts"
+      ],
+      "text": "| 게시 직전 보호 | 계획·버전·변경 경로를 다시 대조 | [반영 전 확인 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/protect.ts) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/execution-authority.md",
+      "line": 18,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md"
+      ],
+      "text": "| 운영 안내 | 실행 환경·캐시에 남는 보안 제한 | [남은 위험 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/execution-authority.md",
+      "line": 22,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [
+        "S103"
+      ],
+      "urls": [],
+      "text": "단계마다 무엇을 신뢰하는지, 게시 직전에 무엇을 다시 확인하는지, 예외는 누가 판단하는지 정한다. 게시용 App 토큰을 넘기지 않는 정의는 모든 자격 증명이 없거나 완전한 격리가 보장된다는 뜻이 아니다. 운영 안내는 실행기와 캐시를 통한 위험을 명시한다.[S103] 게시 성공은 사업적 결과의 수용 판단과도 다르다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/execution-authority.md",
+      "line": 24,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "2026년 10월 15일 확인한 고정 버전의 문서와 코드 구조를 설명한다. 데모를 직접 실행하거나 실제 조직의 효과를 검증한 결과는 아니다. 정확한 판본과 확인 범위는 출처에서 추적할 수 있다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/execution-authority.md",
+      "line": 26,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "[9장으로 돌아가기](../chapters/ch09.md) · [데모 해설 목록](index.md)",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 3,
+      "section": "관찰을 개선으로 연결하기",
+      "kind": "content",
+      "source_ids": [
+        "S106"
+      ],
+      "urls": [],
+      "text": "규칙을 추가했다는 사실과 이전에 놓친 실패를 발견하게 됐다는 사실은 다르다. 데모는 반복 실패 후보, 개선할 파일의 범위, 새 평가 사례와 이전 규칙의 비교를 연결한다.[S106]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 7,
+      "section": "후보에서 평가까지",
+      "kind": "content",
+      "source_ids": [
+        "S106"
+      ],
+      "urls": [],
+      "text": "수집 단계는 실패 범주를 묶어 개선 후보를 만든다. 중복을 구분하는 기준은 유형에 따라 요청·날짜·커밋으로 다르므로 모든 후보가 서로 다른 요청 세 건을 뜻하지는 않는다. 개선 역할은 허용된 지침·검사·평가 파일을 바꾸고 변경 제안을 만든다.[S106]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 9,
+      "section": "후보에서 평가까지",
+      "kind": "content",
+      "source_ids": [
+        "S106"
+      ],
+      "urls": [],
+      "text": "평가 코드는 봇의 개선 제안에 새 실패 사례를 요구한다. 이전 규칙은 그 실패를 놓치고 새 규칙은 발견하는지 비교하고 기존 평가 사례의 회귀와 임의 변경도 검사한다. 개선 변경은 자동 병합 대상에서 제외된다. 이 연결은 정한 사례의 검출 변화이지 모든 실패 유형의 해결 능력이나 정책 계층 전체의 보존을 입증하지 않는다.[S106]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 15,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/collect.ts"
+      ],
+      "text": "| 실패 수집 | 어떤 기록을 후보로 묶고 무엇을 제외하는지 | [후보 조건 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/collect.ts) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 16,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/improve.ts"
+      ],
+      "text": "| 개선 처리 | 수정 가능한 파일과 제안 게시의 경계 | [변경 범위 확인](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/improve.ts) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 17,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/eval.ts"
+      ],
+      "text": "| 평가 | 이전/변경 규칙의 새 사례 검출과 기존 사례 유지 | [평가 조건 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/eval.ts) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 18,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md"
+      ],
+      "text": "| 운영 안내 | 의도적 리허설과 평가 조작·미검출 한계 | [실험의 조건 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 22,
+      "section": "과거 실행 기록은 별도로 읽는다",
+      "kind": "content",
+      "source_ids": [
+        "S68"
+      ],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/actions/runs/38223377457/job/114724977130",
+        "https://github.com/roboco-io/the-software-factory-demo/actions/runs/38223958193/job/114726765443"
+      ],
+      "text": "2026년 10월 12일 리허설은 잘못된 지시를 의도적으로 넣어 같은 오류 유형을 만들었다. [개선 PR #47의 평가 기록](https://github.com/roboco-io/the-software-factory-demo/actions/runs/38223377457/job/114724977130)에서는 새 사례에 대한 이전·변경 규칙의 검출 차이를 볼 수 있다. [검증 PR #48의 검사 기록](https://github.com/roboco-io/the-software-factory-demo/actions/runs/38223958193/job/114726765443)은 같은 오류 형식을 검사가 거부한 결과다. #47은 병합됐고 #48은 병합 없이 닫혔다.[S68]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 24,
+      "section": "과거 실행 기록은 별도로 읽는다",
+      "kind": "content",
+      "source_ids": [
+        "S106"
+      ],
+      "urls": [],
+      "text": "이 기록은 이번 확인 버전에서 새로 실행한 결과가 아니다. 자연 발생 실패 감소나 장기 효과로 일반화하지 않는다. 운영 안내는 평가 자체의 조작 가능성과 평가 사례가 없는 규칙 삭제를 놓칠 수 있음을 밝힌다.[S106]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 28,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "책이 제안하는 최상위 원칙은 자동 개선이 완화할 대상이 아니다. 데모의 수정 가능 파일에는 작업 지침도 들어 있으므로, 허용 파일 목록만으로 원칙이 기술적으로 보호된다고 읽지 않는다. 지침의 모호성을 고칠지, 명확한 지침의 집행을 고칠지 구분하고 결과를 업무에서 다시 관찰한다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 30,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "2026년 10월 15일 확인한 고정 버전의 문서와 코드 구조를 설명한다. 데모를 직접 실행하거나 실제 조직의 효과를 검증한 결과는 아니다. 정확한 판본과 확인 범위는 출처에서 추적할 수 있다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "line": 32,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "[19장으로 돌아가기](../chapters/ch19.md) · [데모 해설 목록](index.md)",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/index.md",
+      "line": 1,
+      "section": "데모 해설",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "# 데모 해설",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/index.md",
+      "line": 3,
+      "section": "데모 해설",
+      "kind": "content",
+      "source_ids": [
+        "S98"
+      ],
+      "urls": [],
+      "text": "이 책의 데모는 글을 작성하고 읽는 예제 서비스를 바꾸는 과정을 보여 준다. 요청서, 에이전트의 수행, 검사와 반영, 실행 기록을 연결해 책의 원리를 구체적으로 살펴보는 공통 예제다. 완성된 조직 운영 모델이나 모든 상황의 자동화를 입증하는 사례로 읽지는 않는다.[S98]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/index.md",
+      "line": 7,
+      "section": "먼저 볼 흐름",
+      "kind": "content",
+      "source_ids": [
+        "S98"
+      ],
+      "urls": [],
+      "text": "사람이 목표와 완료 기준을 정하고 작업 시작을 승인하면 에이전트가 변경을 만든다. 다른 검토와 검사를 거쳐 변경을 기준 버전에 합치고 서비스에 배포한다. 여기서 병합은 변경을 프로젝트의 기준 코드에 합치는 일이며, 배포는 그 결과를 사용자가 쓰는 서비스에 반영하는 일이다. 실행 중 남긴 기록은 다음 개선 판단의 자료가 된다.[S98]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/index.md",
+      "line": 9,
+      "section": "먼저 볼 흐름",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "단계를 연결했다는 설명과 어떤 상황에서도 성공한다는 주장은 다르다. 각 해설은 무엇을 맡겼는지, 어느 경계에서 확인하는지, 사람이 무엇을 책임지는지를 구분한다. 책이 제안하는 최상위 원칙과 정책 계층 전체가 데모에 이미 구현되었다고 가정하지 않는다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/index.md",
+      "line": 28,
+      "section": "자료를 읽는 순서",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "2026년 10월 15일 확인한 고정 버전의 문서와 코드 구조를 설명한다. 데모를 직접 실행하거나 실제 조직의 효과를 검증한 결과는 아니다. 정확한 판본과 확인 범위는 출처에서 추적할 수 있다. 과거 실행 사례는 당시 날짜·버전의 기록으로 따로 설명한다. 운영·보안 한계는 현재 버전의 운영 안내로 연결한다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/index.md",
+      "line": 30,
+      "section": "자료를 읽는 순서",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/README.md",
+        "https://roboco.io/the-software-factory-demo/"
+      ],
+      "text": "[예제 서비스 둘러보기](https://roboco.io/the-software-factory-demo/) · [프로젝트 소개와 전체 흐름](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/README.md) · [1장으로 돌아가기](../chapters/ch01.md)",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "line": 3,
+      "section": "활동과 성과를 구분하는 지표",
+      "kind": "content",
+      "source_ids": [
+        "S105"
+      ],
+      "urls": [],
+      "text": "완주율을 이해하려면 성공 횟수보다 먼저 분모와 관찰 기간을 알아야 한다. 데모의 주간 보고는 실행 기록을 고른 뒤 완료율·실패·알려진 비용을 계산한다.[S105]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "line": 7,
+      "section": "기록에서 숫자가 만들어지는 경로",
+      "kind": "content",
+      "source_ids": [
+        "S105"
+      ],
+      "urls": [],
+      "text": "주간 처리 단계는 최근 7일의 기록을 계산에 넘긴다. 완주율의 분모는 그 기간에 구현 실행 기록이 있는 요청이다. 배포 성공 기록이 있고 그 기간의 모든 실행이 성공으로 남은 요청을 완주로 센다. 따라서 정책에 따라 사람에게 넘긴 경우도 완주에서는 제외될 수 있다.[S105]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "line": 9,
+      "section": "기록에서 숫자가 만들어지는 경로",
+      "kind": "content",
+      "source_ids": [
+        "S105"
+      ],
+      "urls": [],
+      "text": "알려진 비용만 합산하면서 비용을 보고한 기록 수도 함께 남긴다. 작은 표본은 데이터 부족으로 표시한다. 이 숫자는 기록된 범위의 결과이며, 보고되지 않은 비용이나 관찰 기간 밖의 작업을 자동으로 채우지 않는다.[S105]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "line": 15,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/runs/store.ts"
+      ],
+      "text": "| 실행 기록 저장 | 관찰 가능한 기록 항목과 저장 단위 | [수집 범위 확인](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/runs/store.ts) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "line": 16,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/weekly.ts"
+      ],
+      "text": "| 주간 처리 | 계산 대상 기간과 보고서 연결 | [관찰 창 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/weekly.ts) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "line": 17,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/report/metrics.ts"
+      ],
+      "text": "| 지표 계산 | 분모·완주·비용 누락·작은 표본 처리 | [계산 의미 확인](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/report/metrics.ts) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "line": 21,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "기간 경계에서 한 요청의 구현과 배포가 나뉠 수 있다. 사람 이관이 올바른 정책 준수였는지와 결과를 자동 완주했는지는 다른 질문이다. 데모의 완주율을 사용자 성과나 인과적인 생산성 증가로 바꾸어 읽지 않는다. 인간의 확인 시간·재작업·전체 비용은 조직의 판단에 맞게 별도로 수집해야 한다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "line": 23,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "2026년 10월 15일 확인한 고정 버전의 문서와 코드 구조를 설명한다. 데모를 직접 실행하거나 실제 조직의 효과를 검증한 결과는 아니다. 정확한 판본과 확인 범위는 출처에서 추적할 수 있다. 이 페이지가 대시보드의 모든 계산과 실시간 데이터 품질을 검증한 것은 아니다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "line": 25,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "[17장으로 돌아가기](../chapters/ch17.md) · [데모 해설 목록](index.md)",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 3,
+      "section": "정책과 수용 경계",
+      "kind": "content",
+      "source_ids": [
+        "S100"
+      ],
+      "urls": [],
+      "text": "같은 에이전트가 만든 변경이라도 문서 수정과 인증 기능 수정의 위험은 다르다. 데모는 바뀐 파일의 위험을 분류하고 그 결과를 자동 병합 또는 사람의 판단 경로와 연결한다.[S100]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 7,
+      "section": "분류에서 반영 판단까지",
+      "kind": "content",
+      "source_ids": [
+        "S100"
+      ],
+      "urls": [],
+      "text": "위험 정책은 변경 경로별 등급과 필요한 검사 항목을 선언한다. 분류 코드는 파일별 규칙을 적용하고 변경 전체에서 가장 높은 위험을 사용한다. 병합 판단은 그 위험과 현재 변경 버전의 검사·리뷰를 함께 읽는다. 낮은 위험 일부는 자동 처리하지만 높은 위험과 개선 변경은 사람에게 넘긴다.[S100]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 9,
+      "section": "분류에서 반영 판단까지",
+      "kind": "content",
+      "source_ids": [
+        "S100"
+      ],
+      "urls": [],
+      "text": "검토 승인을 받은 뒤 코드가 바뀌면 예전 승인을 그대로 쓰지 않도록 현재 버전과 판정을 연결한다. 이 연결은 검토한 대상과 실제 반영할 대상을 맞추기 위한 장치다. 파일 목록이나 위험을 확정할 수 없는 경우도 자동 반영에서 막는다.[S100]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 15,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/factory/risk-policy.yml"
+      ],
+      "text": "| 위험 정책 | 경로별 위험 등급과 필요한 검사 선언 | [정책의 선택 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/factory/risk-policy.yml) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 16,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/policy/risk.ts"
+      ],
+      "text": "| 변경 분류 | 파일 규칙을 변경 전체의 위험으로 모음 | [분류 방식 확인](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/policy/risk.ts) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 17,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/gate.ts"
+      ],
+      "text": "| 병합 판단 | 현재 버전의 판정과 자동 병합/사람 이관을 연결 | [판단 경로 확인](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/gate.ts) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 18,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md"
+      ],
+      "text": "| 운영 안내 | 코드 소유자의 승인 강제에 남는 제한 | [운영 한계 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 22,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "T0부터 T3까지는 이 데모의 **변경 위험 등급**이다. 책의 최상위 원칙·조직·제품·작업별 **정책 적용 범위**와 다른 구분이다. 데모의 등급을 조직의 표준으로 그대로 가져오거나 정책 계층 전체가 구현됐다고 해석하지 않는다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 24,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [
+        "S100"
+      ],
+      "urls": [],
+      "text": "코드의 자동 병합 거부와 모든 사용자의 직접 병합을 막는 저장소 권한은 별도로 확인해야 한다. 운영 안내는 작성자가 유일한 코드 소유자일 때 승인 강제가 제한되는 경우를 밝힌다. 또한 이 병합 판정은 일부 생략·중립 검사 상태도 통과로 다루므로, 허용된 상태와 검사 실제 수행을 구분해야 한다.[S100]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 26,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "2026년 10월 15일 확인한 고정 버전의 문서와 코드 구조를 설명한다. 데모를 직접 실행하거나 실제 조직의 효과를 검증한 결과는 아니다. 정확한 판본과 확인 범위는 출처에서 추적할 수 있다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 28,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "[3장으로 돌아가기](../chapters/ch03.md) · [12장으로 돌아가기](../chapters/ch12.md) · [데모 해설 목록](index.md)",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "line": 3,
+      "section": "실패에서 복구로",
+      "kind": "content",
+      "source_ids": [
+        "S102"
+      ],
+      "urls": [],
+      "text": "새로운 일을 잠시 멈추는 조치와 진행 중인 일을 취소하는 조치, 이미 생긴 결과를 복구하는 조치는 서로 다르다. 데모는 전체 실행 기록을 보는 차단기와 개별 요청을 다루는 명령·상태 전이를 나눈다.[S102]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "line": 7,
+      "section": "무엇을 멈추고 무엇을 재개하는가",
+      "kind": "content",
+      "source_ids": [
+        "S102"
+      ],
+      "urls": [],
+      "text": "차단기는 관찰 기간과 최소 표본 조건 아래 구현·수정 실행의 실패 비율을 판단한다. 조건을 넘으면 새 구현 시작을 일시 중지한다. 한편 개별 중단 명령은 권한과 현재 상태를 확인하고 관련 실행 취소와 사람 이관을 처리한다. 전체 차단 해제와 개별 요청의 재시도는 같은 동작이 아니다.[S102]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "line": 9,
+      "section": "무엇을 멈추고 무엇을 재개하는가",
+      "kind": "content",
+      "source_ids": [
+        "S102"
+      ],
+      "urls": [],
+      "text": "실행 취소가 앞서 수행한 외부 변경까지 되돌리는 것은 아니다. 준비 단계에서 실패해 진행 중 상태에 남은 요청은 사람이 상태를 바꾼 뒤 재시도해야 하는 경우가 있다. 차단기가 이런 작업을 모두 자동 복구한다고 가정하지 않는다.[S102]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "line": 15,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/guard.ts"
+      ],
+      "text": "| 실패율 차단기 | 새 구현 시작을 제한할 관찰 조건 | [차단 범위 확인](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/guard.ts) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "line": 16,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/command.ts"
+      ],
+      "text": "| 개별 명령 | 중단·재시도 권한과 상태 조건 | [명령 경계 확인](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/command.ts) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "line": 17,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/state/machine.ts"
+      ],
+      "text": "| 상태 전이 | 재시작할 수 있는 상태와 사람 이관 | [허용 전이 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/state/machine.ts) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "line": 18,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md"
+      ],
+      "text": "| 운영 안내 | 준비 실패 수동 복구와 배포 되돌리기의 구분 | [복구 한계 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "line": 22,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "무엇을 중단해도 되는지, 계속해야 하는 확인과 기록은 무엇인지 정한다. 재개 판단에는 원인·남은 외부 효과·새 시도의 조건이 필요하다. 데모의 표본·임계값은 특정 구현의 선택이며 모든 조직에 적절한 수치로 검증된 것이 아니다. 중단 요청의 정의만으로 외부 효과가 복구됐다고 보고하지 않는다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "line": 24,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "2026년 10월 15일 확인한 고정 버전의 문서와 코드 구조를 설명한다. 데모를 직접 실행하거나 실제 조직의 효과를 검증한 결과는 아니다. 정확한 판본과 확인 범위는 출처에서 추적할 수 있다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "line": 26,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "[8장으로 돌아가기](../chapters/ch08.md) · [데모 해설 목록](index.md)",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "line": 3,
+      "section": "요청에서 실행 가능한 작업까지",
+      "kind": "content",
+      "source_ids": [
+        "S99"
+      ],
+      "urls": [],
+      "text": "요청을 보기 좋게 정리한 결과가 곧 작업을 시작할 권한은 아니다. 데모는 목표·수용 기준을 입력받고, 에이전트의 정리와 권한자의 시작 판단을 구분한다.[S99]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "line": 7,
+      "section": "요청과 승인을 잇는 흐름",
+      "kind": "content",
+      "source_ids": [
+        "S99"
+      ],
+      "urls": [],
+      "text": "기능 요청서는 달성할 목표와 받아들일 조건을 받는다. 정리 역할의 에이전트는 파일을 바꾸지 않고 요청 종류·예상 위험·수용 기준·요약을 구조화한다. 프로그램은 결과의 형태를 검사해 댓글과 라벨로 남긴다. 이 형식 검사는 사업 목표가 적절한지까지 판단하지 않는다.[S99]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "line": 9,
+      "section": "요청과 승인을 잇는 흐름",
+      "kind": "content",
+      "source_ids": [
+        "S99"
+      ],
+      "urls": [],
+      "text": "작업 시작 명령은 저장소의 쓰기 권한과 요청 상태를 확인한다. 상태 전이는 정리 작업과 실행 승인을 구분한다. 다만 코드에는 새 요청에서 승인 상태로 바로 넘어가는 경로도 있어, 모든 요청에 에이전트 정리가 반드시 선행한다고 읽어서는 안 된다.[S99]",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "line": 15,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/.github/ISSUE_TEMPLATE/feature.yml"
+      ],
+      "text": "| 기능 요청서 | 사람이 먼저 제공할 목표와 수용 기준 | [필수 입력 확인](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/.github/ISSUE_TEMPLATE/feature.yml) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "line": 16,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/triage.ts"
+      ],
+      "text": "| 정리 지침과 처리 | 파일 변경을 금지하는 지침과 구조화된 응답 처리 | [응답 처리 확인](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/triage.ts) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "line": 17,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/command.ts"
+      ],
+      "text": "| 명령 처리 | 시작 판단자의 권한과 허용된 상태 확인 | [권한 확인 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/command.ts) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "line": 18,
+      "section": "구현 근거 읽기",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/state/machine.ts"
+      ],
+      "text": "| 상태 전이 | 정리와 승인 상태가 어떻게 연결되는지 확인 | [전이 규칙 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/state/machine.ts) |",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "line": 24,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "2026년 10월 15일 확인한 고정 버전의 문서와 코드 구조를 설명한다. 데모를 직접 실행하거나 실제 조직의 효과를 검증한 결과는 아니다. 정확한 판본과 확인 범위는 출처에서 추적할 수 있다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "line": 26,
+      "section": "리더의 판단과 한계",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "[5장으로 돌아가기](../chapters/ch05.md) · [데모 해설 목록](index.md)",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/front-matter/00-preface.md",
+      "line": 31,
+      "section": "구현을 따라 읽는 공통 예제",
+      "kind": "content",
+      "source_ids": [
+        "S98"
+      ],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo",
+        "https://roboco.io/the-software-factory-demo/"
+      ],
+      "text": "로보코가 제안하는 소프트웨어 팩토리의 구현체인 [The Software Factory Demo](https://github.com/roboco-io/the-software-factory-demo)가 공개되어 있다.[S98] 이 책은 직관적인 이해를 돕기 위해 이 데모를 책 전체의 공통 예시로 활용한다. 요청이 작업으로 정리되고 에이전트가 수행하며, 검증·반영·실패 처리와 개선으로 이어지는 구조를 관련 장에서 함께 살펴본다. [데모 해설](../demo/index.md)은 파일 이름보다 작동 흐름과 판단할 질문을 먼저 설명한다. [배포된 데모](https://roboco.io/the-software-factory-demo/)에서 실제 화면을 살펴볼 수 있다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "manuscript/front-matter/00-preface.md",
+      "line": 33,
+      "section": "구현을 따라 읽는 공통 예제",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "독자는 원칙을 읽은 뒤 데모에서 그 판단이 어디에 연결되는지 확인할 수 있다. 문서와 코드에서 확인한 구조, 공개 실행 기록에서 관찰한 결과의 범위를 각 장에 밝히며 자신의 업무에 적용할 조건을 판단하도록 돕는다.",
+      "status": "unreviewed",
+      "decision": null
+    },
+    {
+      "path": "website/src/pages/about.astro",
+      "line": 7,
+      "section": "",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo",
+        "https://roboco.io/the-software-factory-demo/"
+      ],
+      "text": " <h2 id=\"source-scope\">자료를 읽는 기준</h2><p>관찰한 사실, 업체의 보고, 저자의 해석과 제안을 구분합니다. 『More Effective Agile』의 연결은 공개 목차의 조직 주제를 재고찰한 것입니다. 원서 전체 본문을 대조한 요약이나 평가가 아닙니다.</p><p>공통 구현 예제는 <a href=\"https://github.com/roboco-io/the-software-factory-demo\">The Software Factory Demo</a>입니다. 원고가 확인한 고정 버전의 구조와 실행 기록을 구분해 읽습니다. <a href=\"/demo/\">독자용 데모 해설</a>에서 작동 흐름과 파일별 확인 대상을 읽고, <a href=\"/sources/\">참고문헌</a>에서 자료별 시점과 확인 범위를 볼 수 있습니다. <a href=\"https://roboco.io/the-software-factory-demo/\">배포된 데모 둘러보기</a>로 실제 화면도 살펴볼 수 있습니다.</p>",
+      "status": "unreviewed",
+      "decision": null
+    }
+  ],
+  "demo_source_ids": [
+    "S100",
+    "S101",
+    "S102",
+    "S103",
+    "S104",
+    "S105",
+    "S106",
+    "S59",
+    "S60",
+    "S61",
+    "S62",
+    "S63",
+    "S64",
+    "S65",
+    "S66",
+    "S67",
+    "S68",
+    "S98",
+    "S99"
+  ],
+  "run_id": "repeat-check-stable",
+  "checked_on": "2026-10-15",
+  "book_commit": "641d3dc948cc95d378524cb50c942240f1600d30",
+  "policy_sha256": "13071fd8eba172a3a3ac9afa3504d280ad28e2410ad6b24eaa62da397752df4c"
+}

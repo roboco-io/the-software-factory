@@ -1,0 +1,828 @@
+{
+  "run_id": "2026-10-15-demo-examples-initial",
+  "mode": "수정 포함",
+  "date": "2026-10-15",
+  "book_commit": "641d3dc948cc95d378524cb50c942240f1600d30",
+  "previous_demo_revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+  "candidate_demo_revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+  "policy_before_sha256": "61cfdfd8b0e7437242b13e5b9549dee170edff7edd9676fd2c9cb4e386b1e331",
+  "policy_after_sha256": "13071fd8eba172a3a3ac9afa3504d280ad28e2410ad6b24eaa62da397752df4c",
+  "scope": {
+    "authored_files_before": 51,
+    "authored_files_after": 60,
+    "chapters": 20,
+    "patterns": 15,
+    "original_mentions": 29,
+    "new_reader_pages": 9
+  },
+  "coverage": [
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "mentions": 2
+    },
+    {
+      "path": "manuscript/chapters/ch02.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/chapters/ch03.md",
+      "mentions": 2
+    },
+    {
+      "path": "manuscript/chapters/ch04.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/chapters/ch05.md",
+      "mentions": 2
+    },
+    {
+      "path": "manuscript/chapters/ch06.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/chapters/ch07.md",
+      "mentions": 3
+    },
+    {
+      "path": "manuscript/chapters/ch08.md",
+      "mentions": 3
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "mentions": 3
+    },
+    {
+      "path": "manuscript/chapters/ch10.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/chapters/ch11.md",
+      "mentions": 3
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "mentions": 3
+    },
+    {
+      "path": "manuscript/chapters/ch13.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/chapters/ch14.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/chapters/ch15.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/chapters/ch16.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/chapters/ch17.md",
+      "mentions": 2
+    },
+    {
+      "path": "manuscript/chapters/ch18.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/chapters/ch19.md",
+      "mentions": 3
+    },
+    {
+      "path": "manuscript/chapters/ch20.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p01.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p02.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p03.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p04.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p05.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p06.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p07.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p08.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p09.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p10.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p11.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p12.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p13.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p14.md",
+      "mentions": 0
+    },
+    {
+      "path": "manuscript/patterns/p15.md",
+      "mentions": 0
+    }
+  ],
+  "mention_decisions": [
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "line": 39,
+      "section": "구현 예제에서 판단의 연결을 읽는다",
+      "kind": "content",
+      "source_ids": [
+        "S59"
+      ],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo",
+        "https://roboco.io/the-software-factory-demo/"
+      ],
+      "text": "이 책은 공통 구현 예제로 로보코의 [The Software Factory Demo](https://github.com/roboco-io/the-software-factory-demo)를 사용한다. 글을 작성하고 읽는 예제 서비스를 대상으로 요청·구현·검토·검사·병합·배포를 연결한 공개 프로젝트다.[S59] 뒤의 장은 이 흐름에서 요청의 충분성, 수정 증거, 사람에게 돌아오는 판단, 실패 뒤의 기준 변경을 각각 살펴본다. [배포된 데모](https://roboco.io/the-software-factory-demo/)에서 실제 화면을 살펴볼 수 있다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "짧은 작동·판단 해설과 해당 독자 페이지로 연결; 코드/원 로그는 해설 근거 안내로 이동",
+      "reader_page": "manuscript/demo/index.md"
+    },
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "line": 86,
+      "section": "출처와 검토",
+      "kind": "source-list",
+      "source_ids": [
+        "S59"
+      ],
+      "urls": [],
+      "text": "[S59]. 확인 범위와 한계는 [출처 대장](../../research/sources.json), 주장 유형은 [주장 메모](../../research/claims/ch01.json)에 기록한다. 이 장의 적용 방법은 저자 제안이며 실제 조직의 인과 효과·패턴 효과·원서 본문 대조·편집 확정은 완료하지 않았다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "판본별 인용과 확인 범위 대조; 기존 이력 보존",
+      "reader_page": "manuscript/demo/index.md"
+    },
+    {
+      "path": "manuscript/chapters/ch03.md",
+      "line": 78,
+      "section": "정책을 바꾸는 변경도 분류한다",
+      "kind": "content",
+      "source_ids": [
+        "S60"
+      ],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/factory/risk-policy.yml"
+      ],
+      "text": "데모의 [위험 정책](https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/factory/risk-policy.yml)은 변경 경로의 등급과 필수 검사를 선언한다. 정책·워크플로·팩토리 자체 코드의 변경은 일반 제품 변경보다 높은 등급으로 분류된다.[S60] 어떤 기능을 구현할지와 그 변경을 받아들일 조건을 다른 대상으로 관리하는 예다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "짧은 작동·판단 해설과 해당 독자 페이지로 연결; 코드/원 로그는 해설 근거 안내로 이동",
+      "reader_page": "manuscript/demo/policy-and-gate.md"
+    },
+    {
+      "path": "manuscript/chapters/ch03.md",
+      "line": 118,
+      "section": "출처와 검토",
+      "kind": "source-list",
+      "source_ids": [
+        "S60"
+      ],
+      "urls": [],
+      "text": "[S16], [S17], [S38], [S60], [S69]. 공개 자료의 확인 범위와 한계는 [출처 대장](../../research/sources.json), 주요 주장의 성격과 검토 사항은 [주장 메모](../../research/claims/ch03.json)에 기록한다. 사례의 조직 성과, 실행 검증, 패턴 효과는 확인하지 않았다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "판본별 인용과 확인 범위 대조; 기존 이력 보존",
+      "reader_page": "manuscript/demo/policy-and-gate.md"
+    },
+    {
+      "path": "manuscript/chapters/ch05.md",
+      "line": 45,
+      "section": "요청을 정리한 결과와 실행 승인을 나눈다",
+      "kind": "content",
+      "source_ids": [
+        "S61"
+      ],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/.github/ISSUE_TEMPLATE/feature.yml"
+      ],
+      "text": "데모의 [기능 요청서](https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/.github/ISSUE_TEMPLATE/feature.yml)는 목표와 수용 기준을 필수 입력으로 받는다. 요청을 정리하는 에이전트는 종류·예상 위험·수용 기준·요약을 구조화해 돌려준다. 이 정리는 실행 승인과 별도 단계다.[S61] 계약의 일부를 요청서에서 받고 수행 전에 다시 확인하는 구조를 볼 수 있다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "짧은 작동·판단 해설과 해당 독자 페이지로 연결; 코드/원 로그는 해설 근거 안내로 이동",
+      "reader_page": "manuscript/demo/request.md"
+    },
+    {
+      "path": "manuscript/chapters/ch05.md",
+      "line": 111,
+      "section": "출처와 검토",
+      "kind": "source-list",
+      "source_ids": [
+        "S61"
+      ],
+      "urls": [],
+      "text": "[S23], [S47], [S61], [S72], [S75]. 확인 범위와 한계는 [출처 대장](../../research/sources.json), 주요 주장의 성격은 [주장 메모](../../research/claims/ch05.json)에 기록한다. 기술 명세와 제품 문서의 구조를 조직의 업무 계약과 같은 것으로 취급하지 않았다. 실제 도구 실행·접근 제한의 집행·조직 성과·패턴 효과·원서 본문 대조는 검증하지 않았다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "판본별 인용과 확인 범위 대조; 기존 이력 보존",
+      "reader_page": "manuscript/demo/request.md"
+    },
+    {
+      "path": "manuscript/chapters/ch07.md",
+      "line": 68,
+      "section": "실행 오류와 재현 증거를 구분하는 구현",
+      "kind": "content",
+      "source_ids": [
+        "S62"
+      ],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/evidence.ts"
+      ],
+      "text": "이 책의 공통 구현 예제인 로보코의 데모에는 [수정 증거 판정](https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/evidence.ts)이 있다. 아래는 이 코드를 읽어 확인한 동작이며 실행해 본 결과가 아니다. 팩토리 봇이 낸 변경 제안이 버그 수정으로 분류되면, 이 판정은 재현 테스트를 요구한다. 수정 전 코드에 새 테스트를 적용하면 개별 테스트 사례가 실패하고, 수정 후에는 통과해야 한다. 테스트 수집 오류·시간 초과·결과 보고서 누락은 버그 재현 성공으로 인정하지 않는다. 브라우저 전체 동작 검사는 이 판정의 실행 범위 밖이다.[S62]",
+      "status": "검증 완료(변경 범위)",
+      "decision": "짧은 작동·판단 해설과 해당 독자 페이지로 연결; 코드/원 로그는 해설 근거 안내로 이동",
+      "reader_page": "manuscript/demo/evidence.md"
+    },
+    {
+      "path": "manuscript/chapters/ch07.md",
+      "line": 70,
+      "section": "실행 오류와 재현 증거를 구분하는 구현",
+      "kind": "content",
+      "source_ids": [
+        "S59"
+      ],
+      "urls": [],
+      "text": "리더는 검사 통과 여부와 함께 어떤 실패를 증거로 인정했는지 읽을 수 있다. 검사가 시작되지 못한 실패를 재현으로 인정하면 잘못된 수정도 근거를 갖춘 것처럼 보인다. 이 검사의 대상이 아닌 변경은 재현 검사를 하지 않고 통과할 수 있으므로, 통과 표시만으로 모든 결과에 같은 검증이 적용됐다고 해석해서는 안 된다. 데모 README도 이 장치를 악의적인 코드의 판정 조작까지 막는 보장으로 제시하지 않는다.[S59] 업무에 맞는 검사 범위와 그 밖의 조건을 수용할 책임을 함께 정해야 한다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "짧은 작동·판단 해설과 해당 독자 페이지로 연결; 코드/원 로그는 해설 근거 안내로 이동",
+      "reader_page": "manuscript/demo/evidence.md"
+    },
+    {
+      "path": "manuscript/chapters/ch07.md",
+      "line": 100,
+      "section": "출처와 검토",
+      "kind": "source-list",
+      "source_ids": [
+        "S59",
+        "S62"
+      ],
+      "urls": [],
+      "text": "[S10], [S13], [S18], [S42], [S59], [S62]. 확인 범위와 한계는 [출처 대장](../../research/sources.json), 주장의 성격과 검토 항목은 [주장 메모](../../research/claims/ch07.json)에 기록한다. 제품 실행·전체 CI 로그·Enterprise 환경·조직 성과와 패턴 효과는 검증하지 않았다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "판본별 인용과 확인 범위 대조; 기존 이력 보존",
+      "reader_page": "manuscript/demo/evidence.md"
+    },
+    {
+      "path": "manuscript/chapters/ch08.md",
+      "line": 77,
+      "section": "멈춘 범위와 재개할 범위를 구분하는 구현",
+      "kind": "content",
+      "source_ids": [
+        "S63"
+      ],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/guard.ts"
+      ],
+      "text": "데모의 [실패율 차단기](https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/guard.ts)는 정한 관찰 창과 표본 조건에서 구현·수정 실행의 실패 비율을 판단해 새 작업 시작을 일시 중지한다. 별도의 명령 처리 코드는 저장소 쓰기 권한과 현재 상태를 확인한 뒤 관련 실행 취소와 사람에게의 이관을 처리한다.[S63] 무엇을 중단하고 어떤 판단은 계속할지 구분한 예다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "짧은 작동·판단 해설과 해당 독자 페이지로 연결; 코드/원 로그는 해설 근거 안내로 이동",
+      "reader_page": "manuscript/demo/recovery.md"
+    },
+    {
+      "path": "manuscript/chapters/ch08.md",
+      "line": 79,
+      "section": "멈춘 범위와 재개할 범위를 구분하는 구현",
+      "kind": "content",
+      "source_ids": [
+        "S59"
+      ],
+      "urls": [],
+      "text": "차단기 해제, 취소된 작업의 재시도, 이미 반영한 외부 효과의 복구는 서로 다르다. 데모의 임계값을 그대로 옮기기 전에 실패 영향과 표본의 의미를 판단해야 한다. 오래 대기한 작업이 자동으로 복구되는지도 별도 질문이다. 데모 문서는 준비 단계 실패 뒤 사람이 상태를 정리해야 하는 경우를 남겨 두고 있다.[S59] 리더는 예외 경로가 작동하지 않는 경우까지 운영 책임에 포함해야 한다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "짧은 작동·판단 해설과 해당 독자 페이지로 연결; 코드/원 로그는 해설 근거 안내로 이동",
+      "reader_page": "manuscript/demo/recovery.md"
+    },
+    {
+      "path": "manuscript/chapters/ch08.md",
+      "line": 109,
+      "section": "출처와 검토",
+      "kind": "source-list",
+      "source_ids": [
+        "S59",
+        "S63"
+      ],
+      "urls": [],
+      "text": "[S50], [S51], [S59], [S63], [S72]. 확인 범위와 한계는 [출처 대장](../../research/sources.json), 주요 주장의 성격은 [주장 메모](../../research/claims/ch08.json)에 기록한다. 공급자의 기술 설계 설명을 조직의 운영 효과로 일반화하지 않았다. 실제 API 실행·중복 방지·부하·복구 효과·원서 본문 대조는 검증하지 않았다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "판본별 인용과 확인 범위 대조; 기존 이력 보존",
+      "reader_page": "manuscript/demo/recovery.md"
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "line": 107,
+      "section": "결과를 만드는 단계와 게시하는 단계를 나눈다",
+      "kind": "content",
+      "source_ids": [
+        "S64"
+      ],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/.github/workflows/factory-implement.yml"
+      ],
+      "text": "데모의 [구현 워크플로](https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/.github/workflows/factory-implement.yml)는 준비·에이전트 수행·게시의 세 단계를 별도 실행 환경으로 나눈다. 게시는 에이전트가 만든 변경을 저장소에 올리는 단계다. 에이전트 수행 단계의 실행 환경은 변경을 만들고, 게시 단계의 실행 환경은 준비 단계가 남긴 계획과 전달받은 결과를 처리한다. 게시 단계는 저장소에 변경을 게시하는 데 쓰는 GitHub App 토큰을 자체 발급받는다. 그리고 작업 트리, 곧 에이전트가 변경한 파일을 담은 디렉터리의 코드를 실행하지 않도록 구성되어 있다. 준비 단계도 같은 토큰을 발급받지만, 에이전트 수행 단계는 이 토큰 없이 배정된 모델 엔진의 API 키만 받는다.[S64] 그래서 이 구성에서는 변경을 만드는 단계에 저장소에 게시할 토큰이 주어지지 않는다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "짧은 작동·판단 해설과 해당 독자 페이지로 연결; 코드/원 로그는 해설 근거 안내로 이동",
+      "reader_page": "manuscript/demo/execution-authority.md"
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "line": 109,
+      "section": "결과를 만드는 단계와 게시하는 단계를 나눈다",
+      "kind": "content",
+      "source_ids": [
+        "S59"
+      ],
+      "urls": [],
+      "text": "결과를 만드는 능력과 공유 영역에 반영할 권한을 같은 주체에 모두 줄 필요는 없다. 다만 실행 환경을 나눈 사실이 사업적 수용 판단이나 완전한 보안 격리를 대신하지 않는다. 데모가 공개한 실행 환경·캐시 등의 제한도 함께 읽어야 한다.[S59] 리더는 단계 사이에서 무엇을 신뢰하고 무엇을 재확인하며 누가 예외를 결정하는지 정한다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "짧은 작동·판단 해설과 해당 독자 페이지로 연결; 코드/원 로그는 해설 근거 안내로 이동",
+      "reader_page": "manuscript/demo/execution-authority.md"
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "line": 167,
+      "section": "출처와 검토",
+      "kind": "source-list",
+      "source_ids": [
+        "S59",
+        "S64"
+      ],
+      "urls": [],
+      "text": "[S01], [S08], [S09], [S20], [S21], [S22], [S23], [S39], [S44], [S59], [S64]. 확인 범위와 한계는 [출처 대장](../../research/sources.json), 주요 주장의 성격은 [주장 메모](../../research/claims/ch09.json)에 기록한다. 공개 문서의 구조를 확인했으며 제품 설치·실행·조직 성과·패턴 효과·원서 본문 대조는 수행하지 않았다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "판본별 인용과 확인 범위 대조; 기존 이력 보존",
+      "reader_page": "manuscript/demo/execution-authority.md"
+    },
+    {
+      "path": "manuscript/chapters/ch11.md",
+      "line": 49,
+      "section": "역할에 실행 조합을 배정하는 구현",
+      "kind": "content",
+      "source_ids": [
+        "S65"
+      ],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/config/agents.ts"
+      ],
+      "text": "데모의 [역할 배정 코드](https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/config/agents.ts)는 역할별 실행 도구와 예산을 읽고 모델을 설정값으로 선택한다. 검토 도구가 구현 도구와 같으면 대체 후보를 찾고, 다른 도구를 배정할 수 없으면 오류로 처리한다.[S65] 특정 모델 이름을 원리로 고정하지 않고 역할과 실행 조합을 연결하는 예다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "짧은 작동·판단 해설과 해당 독자 페이지로 연결; 코드/원 로그는 해설 근거 안내로 이동",
+      "reader_page": "manuscript/demo/agent-selection.md"
+    },
+    {
+      "path": "manuscript/chapters/ch11.md",
+      "line": 51,
+      "section": "역할에 실행 조합을 배정하는 구현",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "그러나 다른 도구를 배정한 사실은 독립 검증의 충분한 증거가 아니다. 같은 요구 누락과 평가 자료를 공유하면 서로 다른 조합도 같은 오류를 낼 수 있다. 리더는 배정 규칙을 출발점으로 삼아 대표 실패를 얼마나 발견하는지와 추가 비용을 평가한다. 이 데모의 역할 설정은 비교할 구성을 남기는 방법이며 도구 순위나 조합의 우열을 입증한 실험은 아니다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "짧은 작동·판단 해설과 해당 독자 페이지로 연결; 코드/원 로그는 해설 근거 안내로 이동",
+      "reader_page": "manuscript/demo/agent-selection.md"
+    },
+    {
+      "path": "manuscript/chapters/ch11.md",
+      "line": 77,
+      "section": "출처와 검토",
+      "kind": "source-list",
+      "source_ids": [
+        "S65"
+      ],
+      "urls": [],
+      "text": "[S46], [S65]. 확인 범위와 한계는 [출처 대장](../../research/sources.json), 주장 유형은 [주장 메모](../../research/claims/ch11.json)에 기록한다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "판본별 인용과 확인 범위 대조; 기존 이력 보존",
+      "reader_page": "manuscript/demo/agent-selection.md"
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "line": 35,
+      "section": "변경의 위험과 현재 증거를 병합 판단에 연결한다",
+      "kind": "content",
+      "source_ids": [
+        "S60"
+      ],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/gate.ts"
+      ],
+      "text": "데모의 [병합 판단 코드](https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/gate.ts)는 변경 파일과 필수 검사, 현재 커밋에 대한 리뷰 결과를 함께 읽는다. T1 변경에는 현재 커밋의 승인 판정을 요구하고, T2·T3 변경과 개선 PR은 자동 병합 대상에서 제외한다. T0에는 별도 조건이 적용된다.[S60] 여기서 T0부터 T3까지는 데모가 정의한 위험 등급이며 모든 조직의 표준은 아니다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "짧은 작동·판단 해설과 해당 독자 페이지로 연결; 코드/원 로그는 해설 근거 안내로 이동",
+      "reader_page": "manuscript/demo/policy-and-gate.md"
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "line": 37,
+      "section": "변경의 위험과 현재 증거를 병합 판단에 연결한다",
+      "kind": "content",
+      "source_ids": [
+        "S59"
+      ],
+      "urls": [],
+      "text": "리더는 위험 등급별로 필요한 증거와 누가 반영할 수 있는지 설명할 수 있어야 한다. 옛 버전의 승인을 새 변경에 사용하지 않는 조건도 필요하다. 코드가 자동 병합을 거부하는 것과 사람이 하는 모든 병합에 동일 승인이 강제되는 것은 다르다. 데모 문서는 유일한 코드 소유자가 직접 작성한 변경에서 승인 강제가 제한되는 경우를 밝힌다.[S59] 조직에서 적용할 때에는 역할 배치와 실제 저장소 권한을 함께 확인한다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "짧은 작동·판단 해설과 해당 독자 페이지로 연결; 코드/원 로그는 해설 근거 안내로 이동",
+      "reader_page": "manuscript/demo/policy-and-gate.md"
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "line": 75,
+      "section": "출처와 검토",
+      "kind": "source-list",
+      "source_ids": [
+        "S59",
+        "S60"
+      ],
+      "urls": [],
+      "text": "[S44], [S59], [S60]. 확인 범위와 한계는 [출처 대장](../../research/sources.json), 주장 유형은 [주장 메모](../../research/claims/ch12.json)에 기록한다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "판본별 인용과 확인 범위 대조; 기존 이력 보존",
+      "reader_page": "manuscript/demo/policy-and-gate.md"
+    },
+    {
+      "path": "manuscript/chapters/ch17.md",
+      "line": 59,
+      "section": "지표 이름보다 계산 대상을 읽는다",
+      "kind": "content",
+      "source_ids": [
+        "S66"
+      ],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/report/metrics.ts"
+      ],
+      "text": "데모의 [주간 지표 코드](https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/report/metrics.ts)는 최근 7일 동안 기록된 실행만 집계 대상으로 삼는다. 그 기간에 구현 단계의 실행 기록이 있는 요청을 분모로 삼고, 배포 성공 기록이 있으며 그 기간의 모든 실행이 성공으로 기록된 요청을 완주로 센다. 이 계산에서는 정책에 따라 사람에게 넘긴 경우도 완주에서 제외된다. 알려진 비용의 합계와 비용을 보고한 실행 수를 함께 남기며, 작은 표본은 데이터 부족으로 표시한다.[S66]",
+      "status": "검증 완료(변경 범위)",
+      "decision": "짧은 작동·판단 해설과 해당 독자 페이지로 연결; 코드/원 로그는 해설 근거 안내로 이동",
+      "reader_page": "manuscript/demo/metrics.md"
+    },
+    {
+      "path": "manuscript/chapters/ch17.md",
+      "line": 97,
+      "section": "출처와 검토",
+      "kind": "source-list",
+      "source_ids": [
+        "S66"
+      ],
+      "urls": [],
+      "text": "[S33] · [S53] · [S54] · [S66] · [S73] · [S74]. 확인 범위와 한계는 [출처 대장](../../research/sources.json), 주장 유형은 [주장 메모](../../research/claims/ch17.json)에 기록한다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "판본별 인용과 확인 범위 대조; 기존 이력 보존",
+      "reader_page": "manuscript/demo/metrics.md"
+    },
+    {
+      "path": "manuscript/chapters/ch19.md",
+      "line": 45,
+      "section": "규칙 변경이 실제로 무엇을 더 잡는지 확인한다",
+      "kind": "content",
+      "source_ids": [
+        "S67"
+      ],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/eval.ts"
+      ],
+      "text": "데모의 [개선 평가 코드](https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/packages/factory/src/stages/eval.ts)는 봇의 개선 PR에 새 평가 사례를 요구한다. 이전 규칙이 놓치고 새 규칙이 검출하는지 확인하며, 기존 사례의 삭제·변경과 회귀도 검사한다. 개선 역할이 바꿀 파일 범위도 제한한다.[S67] 이는 규칙을 많이 추가한 사실과 같은 실패를 새로 발견할 수 있게 된 변화를 구분하는 구현이다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "짧은 작동·판단 해설과 해당 독자 페이지로 연결; 코드/원 로그는 해설 근거 안내로 이동",
+      "reader_page": "manuscript/demo/improvement.md"
+    },
+    {
+      "path": "manuscript/chapters/ch19.md",
+      "line": 47,
+      "section": "규칙 변경이 실제로 무엇을 더 잡는지 확인한다",
+      "kind": "content",
+      "source_ids": [
+        "S59",
+        "S68"
+      ],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/actions/runs/38223377457/job/114724977130",
+        "https://github.com/roboco-io/the-software-factory-demo/actions/runs/38223958193/job/114726765443"
+      ],
+      "text": "공개된 개선 PR #47과 검증 PR #48에서는 이 연결의 일부를 실행 기록으로 확인할 수 있다. [PR #47의 평가 로그](https://github.com/roboco-io/the-software-factory-demo/actions/runs/38223377457/job/114724977130)는 새 오류 형식 사례의 전후 검출 차이를 기록한다. [PR #48의 검사 로그](https://github.com/roboco-io/the-software-factory-demo/actions/runs/38223958193/job/114726765443)에는 해당 규칙 위반으로 실패한 결과가 남아 있다. #47은 병합되었고 #48은 병합 없이 닫혔다.[S68] 프로젝트는 이를 잘못된 지시를 의도적으로 넣은 리허설로 설명한다.[S59]",
+      "status": "검증 완료(변경 범위)",
+      "decision": "짧은 작동·판단 해설과 해당 독자 페이지로 연결; 코드/원 로그는 해설 근거 안내로 이동",
+      "reader_page": "manuscript/demo/improvement.md"
+    },
+    {
+      "path": "manuscript/chapters/ch19.md",
+      "line": 89,
+      "section": "출처와 검토",
+      "kind": "source-list",
+      "source_ids": [
+        "S59",
+        "S67",
+        "S68"
+      ],
+      "urls": [],
+      "text": "[S43] · [S59] · [S67] · [S68] · [S71]. 확인 범위와 한계는 [출처 대장](../../research/sources.json), 주장 유형은 [주장 메모](../../research/claims/ch19.json)에 기록한다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "판본별 인용과 확인 범위 대조; 기존 이력 보존",
+      "reader_page": "manuscript/demo/improvement.md"
+    },
+    {
+      "path": "manuscript/front-matter/00-preface.md",
+      "line": 31,
+      "section": "구현을 따라 읽는 공통 예제",
+      "kind": "content",
+      "source_ids": [
+        "S59"
+      ],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo",
+        "https://roboco.io/the-software-factory-demo/"
+      ],
+      "text": "로보코가 제안하는 소프트웨어 팩토리의 구현체인 [The Software Factory Demo](https://github.com/roboco-io/the-software-factory-demo)가 공개되어 있다.[S59] 이 책은 직관적인 이해를 돕기 위해 이 데모를 책 전체의 공통 예시로 활용한다. 요청이 작업으로 정리되고 에이전트가 수행하며, 검증·반영·실패 처리와 개선으로 이어지는 구조를 관련 장에서 함께 살펴본다. [배포된 데모](https://roboco.io/the-software-factory-demo/)에서 실제 화면을 살펴볼 수 있다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "공통 예제 소개 유지; 독자용 해설 진입 링크 추가",
+      "reader_page": "manuscript/demo/index.md"
+    },
+    {
+      "path": "manuscript/front-matter/00-preface.md",
+      "line": 33,
+      "section": "구현을 따라 읽는 공통 예제",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [],
+      "text": "독자는 원칙을 읽은 뒤 데모에서 그 판단이 어디에 연결되는지 확인할 수 있다. 문서와 코드에서 확인한 구조, 공개 실행 기록에서 관찰한 결과의 범위를 각 장에 밝히며 자신의 업무에 적용할 조건을 판단하도록 돕는다.",
+      "status": "검증 완료(변경 범위)",
+      "decision": "공통 예제 소개 유지; 독자용 해설 진입 링크 추가",
+      "reader_page": "manuscript/demo/index.md"
+    },
+    {
+      "path": "website/src/pages/about.astro",
+      "line": 7,
+      "section": "",
+      "kind": "content",
+      "source_ids": [],
+      "urls": [
+        "https://github.com/roboco-io/the-software-factory-demo",
+        "https://roboco.io/the-software-factory-demo/"
+      ],
+      "text": " <h2 id=\"source-scope\">자료를 읽는 기준</h2><p>관찰한 사실, 업체의 보고, 저자의 해석과 제안을 구분합니다. 『More Effective Agile』의 연결은 공개 목차의 조직 주제를 재고찰한 것입니다. 원서 전체 본문을 대조한 요약이나 평가가 아닙니다.</p><p>공통 구현 예제는 <a href=\"https://github.com/roboco-io/the-software-factory-demo\">The Software Factory Demo</a>입니다. 원고가 확인한 고정 버전의 구조와 실행 기록을 구분해 읽습니다. <a href=\"/sources/\">참고문헌</a>에서 자료별 시점과 확인 범위를 볼 수 있습니다. <a href=\"https://roboco.io/the-software-factory-demo/\">배포된 데모 둘러보기</a>로 실제 화면도 살펴볼 수 있습니다.</p>",
+      "status": "검증 완료(변경 범위)",
+      "decision": "공통 예제 소개 유지; 독자용 해설 진입 링크 추가",
+      "reader_page": "manuscript/demo/index.md"
+    }
+  ],
+  "new_reader_pages": [
+    "manuscript/demo/index.md",
+    "manuscript/demo/request.md",
+    "manuscript/demo/policy-and-gate.md",
+    "manuscript/demo/evidence.md",
+    "manuscript/demo/recovery.md",
+    "manuscript/demo/execution-authority.md",
+    "manuscript/demo/agent-selection.md",
+    "manuscript/demo/metrics.md",
+    "manuscript/demo/improvement.md"
+  ],
+  "before_sha256": {
+    "manuscript/chapters/ch01.md": "2d534cc8b1c66137af279511995b48daeeb1709b0c7a15e439f0d818814e0069",
+    "manuscript/chapters/ch02.md": "5f59521aa0a3052785b961182ed8bcbd9d7660f770204ca9330a2487ddd0909e",
+    "manuscript/chapters/ch03.md": "219a23f81db90677b2bad3dca141e326bc6fdb62e198c874920d524b0a59f82d",
+    "manuscript/chapters/ch04.md": "9363b337d9915e4bc7410ef8e6aab8795b57b94cd75cae53548886677d80eea7",
+    "manuscript/chapters/ch05.md": "6e92230211685d68ff10343779a4760d72831bffa7ffcae4c9cd68bb5f82dabf",
+    "manuscript/chapters/ch06.md": "980c0d6c51d27ede3ce24f99ed7854f4449efbf81ed8a0ed6fef2364f82ecc7d",
+    "manuscript/chapters/ch07.md": "00f8daeef71c95618a86a780109917fb5f6304f52e244675b193e15282ac06a1",
+    "manuscript/chapters/ch08.md": "52732551dab816fd9e991a05484876163b8732471ee99b65c2213633bc2405c9",
+    "manuscript/chapters/ch09.md": "f81cf133e7f4c33779eaabc99973bab396c60b4f5245dc7414d5f89253afe751",
+    "manuscript/chapters/ch10.md": "3b93f9c4346f338b5d5320b176a70439239b669287cf8873a6ba1032971372bf",
+    "manuscript/chapters/ch11.md": "2314391f316809cd44d12baeb9d9837cfe1e3e1b63eb01c155fca9919bc3fe07",
+    "manuscript/chapters/ch12.md": "55ac9fcf5eb296eeb1c5c4259c21277b0bb2b69e1fa1060ac792571465ef5f54",
+    "manuscript/chapters/ch13.md": "9d00b7b15a5c4bbbf89f4371123a14a790e1bc5c5ed76bf6590967754a51fe13",
+    "manuscript/chapters/ch14.md": "9aa2c3c49b822d5c97ccf69ed6a436568746e64f9dd6e8d2c825f74fc8f43c91",
+    "manuscript/chapters/ch15.md": "37337e0ea6a92567003b31d13358a32c5fda7750881bbcf5fe0008e1638df6f0",
+    "manuscript/chapters/ch16.md": "1f541d680593350e97ae1222aacf0e7685677a1024fced2204de40ccf7fffb17",
+    "manuscript/chapters/ch17.md": "6399a0d9808a33c2f6cdb8d173ae545ca47ac4d60d38b2734b8c2c5e17144811",
+    "manuscript/chapters/ch18.md": "791210a5ab4ec80ff17b36174ec6d2a683132a2d95edcfe69e2b368ea5a77f80",
+    "manuscript/chapters/ch19.md": "b98a5ad56b8698de73ac7a7cd8769ae8f5691943fc6fa913b41590fa7aeebcd7",
+    "manuscript/chapters/ch20.md": "d6a5c9a52d77d7a3c89269c9e1cafa7234a93f019b7697067a4b55754c83d171",
+    "manuscript/figures/README.md": "19242ae6c405747a002f01009717b3d07abf4b7ec220288fc4c7e5fb10ba16e0",
+    "manuscript/front-matter/00-preface.md": "97854e5d524115d0d22e8bcfb82c2727b1df02cee2c523bf03571da585303483",
+    "manuscript/patterns/p01.md": "edd353fa37fbd47069ef2142c34774b6c0960c91de771ab516e48faac1688226",
+    "manuscript/patterns/p02.md": "f9a89d1c89dac44c6cf42345e84475639a073b7cf204d176a89b1fb51eca7f24",
+    "manuscript/patterns/p03.md": "b9ebb4ab1c4baf7a3bb191f61d7bc17c139a5df2b1aeee44b393b8f2e14586b6",
+    "manuscript/patterns/p04.md": "ac3b8729b7facfefae8c4b4b99f5669fcc3a00b69b62662b78de0cfa7f0eac12",
+    "manuscript/patterns/p05.md": "ce66132ca44d8bba44e72c32b12640d06fc5c5ca45600b18264060d5ddaab2b5",
+    "manuscript/patterns/p06.md": "5b4ae48de698daede970aec218614fe5d8c5df1e211f99a225346c5b00a4224d",
+    "manuscript/patterns/p07.md": "90280cb56a0acef84a10d87a0dcd575ae277ddde437446d082b04b16d6477641",
+    "manuscript/patterns/p08.md": "b0770a619455d7b4113a49b9e47f26b89c9fe03f714072a45eaef1e354145af8",
+    "manuscript/patterns/p09.md": "ce48cde3588dc3b3aee4ad05d252a7a3e5516eb89a4a2e29d1bd4fadd89d1ad7",
+    "manuscript/patterns/p10.md": "684e2b8aba567b43e435d23d58fd19f304acc1c9907f1f79197ea45aed6eb190",
+    "manuscript/patterns/p11.md": "0ce646482803f3581110dcdeb0ecaaa4d09c8866ab1a28cdc6ba1724b3380926",
+    "manuscript/patterns/p12.md": "300ecaf2219154726e7d2738250b439e7369e4881f6e4cdda8450fb3b81a30ea",
+    "manuscript/patterns/p13.md": "152f0b9e33ead7ef4e5426addf4ff414280a4900a09f012ca93d829775f03794",
+    "manuscript/patterns/p14.md": "f8ebdc5dd092f2f5698174755ddfbef87294af0c601629bd32b973967a0c054c",
+    "manuscript/patterns/p15.md": "13e0f83a136197f728b45e19c038df9a3fc235d8f2d28678b051dc671a2c3614",
+    "website/src/components/BookAnalytics.astro": "c6b714c99d5667e74874dd2c19082501475ecfa35418c1ede621bdff00cbf62e",
+    "website/src/components/BookContent.astro": "136ebdcbbec58e797f098e0843ab7ec750a0f893da4f8e3c1c1ad387a2101621",
+    "website/src/components/BookFooter.astro": "31e645892ab0d257c3cbce8902263c76929d1bc131628868d63e0f44016c6c93",
+    "website/src/components/BookSiteTitle.astro": "d6950b813e2b2fc4b5cef3b638f668cb052e16c81e2dfbe6384ae173bde802b8",
+    "website/src/components/PageTitle.astro": "238cf84aff47cb196aa5867342b96214b1afdfca74f423053b4bdb9a6987e123",
+    "website/src/pages/404.astro": "7e499b8686cd87a92a9d5a6a18d21dadb59e7e0c2e4e4138f5630bd78f2ba827",
+    "website/src/pages/about.astro": "dd3fb839130bf5c2dec057402102e2eb2cf29ef2d2979644503b9a64a4c8908c",
+    "website/src/pages/contents.astro": "313655f043b242e2a95f13e56435f20da4a60a0e5874f3621f3c543265f725d9",
+    "website/src/pages/guide.astro": "165971c0283f0b9f9f29ee7ac99842d3d092890e212fb2e166b3ea98bc650871",
+    "website/src/pages/index.astro": "39dc822774aa6ea4198de9e81bd144d94075e5525b103b797b70887843b2de84",
+    "website/src/pages/license.astro": "e0cb4055b8e3cfcee9aeb130f6d7a4e5506e372c2d1663946364c069dc776a70",
+    "website/src/pages/patterns/index.astro": "a78b7bf907e7f359ea2359d8bdc806e81d30e39727221133dd47a8b6e58978e4",
+    "website/src/pages/privacy.astro": "300b9f2f9fd399faf2f3fca924e3cb5df6f7346daa9b65a8ce418eb41475ed3a",
+    "website/src/pages/releases.astro": "f9fb85b2da650cff71e8d4db47c503f376e9d14e30f0cd095d6316f58905ea07",
+    "AGENTS.md": "cc6285fd85c2299571c34ad8f4aa69a425979322017d69e3385f725eacd39bc2",
+    "STATUS.md": "4b255718584c7560cf8f1c2a68d70d88db5ffc8d13a245c3dbca551703e802d4",
+    "website/content-manifest.json": "a2b74dd31c89db187a69880aef03e625815923606acc70f49ac1417eade7522f",
+    "research/sources.json": "0f6a7e0604860983af42d8584b021a7215ba5c93c861ade2d7f77bfb2b3d5a2d",
+    "research/software-factory-demo-inventory.json": "d2e0d8d31f57e8f05fa77e575bb4a87ea9560ebf672d20f5000ed4eb9dda35b2",
+    "research/cases/software-factory-demo.md": "88846bd1a48057f1970a6c3608f5280a232dc97f521c79b08f5e0ffba96b2357",
+    "CHANGELOG.md": "95ca21c1d54ca6557c14c291ea13a0635103aeb6d0d54e2704df04596232a8b0",
+    "planning/book-brief.md": "1484fe2f443801e01b28b50e7649bb837fad203cb02964d366822f0815708872",
+    "planning/decisions.md": "79d32285cde83fda5a589d2c39212bc44548b4f0bbd16ddf33659ff91cf5ad46",
+    "research/claims/ch01.json": "fcfded011671a546ce6945aa8320f5457c0f5f9ad125ef65bc4af1f0204d5ad5",
+    "research/claims/ch03.json": "b6552f49b0759ba8834dccee3f16d24cb0bbe2b3b636d0f43bc868305bc9bdc6",
+    "research/claims/ch05.json": "a9e43b3c22ff5020603b7b4b6e02355f07cbcd4ef806b5843adc799cc9df38df",
+    "research/claims/ch07.json": "efebcc65ec90984b5fc429bce2115e4e59644a2e360b11ffe3af863fefd83590",
+    "research/claims/ch08.json": "3bf9d193a458cfcd4296639d0d574473ba0c56db503aeb93eda8b89f374f984c",
+    "research/claims/ch09.json": "8ff643b30432c0baeb9a4945e49409348c2d2b21a0dd8e654d65605bd8dc4ef3",
+    "research/claims/ch11.json": "a89572e775962c01df6728ce73c1f838b8e18da5386045eddb90f77bea163fb3",
+    "research/claims/ch12.json": "1441f04b3245ab72f7276d1d74bfca83e0d61cb8fb5a4affc1a297f6ee2ef41c",
+    "research/claims/ch17.json": "af9b4fb8ba144c7cabfd40fd8278584fbb6c12ca207e1859845da630efc90bae",
+    "research/claims/ch19.json": "737727c66addbf5cdb7dcd56a3328be48fbbf8a29bd67f0ca39f01a2f37c5c68",
+    "research/claims/preface.json": "f9309af90f53fcaa881c28e530339204a281319c4fe6355cc6b48f481df1be58",
+    "research/claims/software-factory-demo.json": "a63bf25c5c0140058e660e6b6c81769998500a3404d8dc2cd030be40f880beb7",
+    "website/astro.config.mjs": "e0bb8197c2e527f37ee354d8347eeb62cf240e8c13f56532ef997a9fdff53b56",
+    "website/scripts/generate-content.mjs": "9c30aeb7629bf73c71a1b2e5db7090e1f24bc42cf748f34893cc7a95fc749217",
+    "website/scripts/publication.mjs": "617985e062f2136c8ad373cc77d9e05efecc8b5300f9445c3353d59e4dcc2863",
+    "website/tests/publication.test.mjs": "ca923c31a34591885405060d2b1b0abde6cc0bc06ba1e77591ecb5924f342f1e",
+    ".claude/agents/demo-example-maintainer.md": null,
+    ".claude/agents/demo-example-verifier.md": null,
+    "manuscript/demo/agent-selection.md": null,
+    "manuscript/demo/evidence.md": null,
+    "manuscript/demo/execution-authority.md": null,
+    "manuscript/demo/improvement.md": null,
+    "manuscript/demo/index.md": null,
+    "manuscript/demo/metrics.md": null,
+    "manuscript/demo/policy-and-gate.md": null,
+    "manuscript/demo/recovery.md": null,
+    "manuscript/demo/request.md": null,
+    "planning/demo-example-maintenance-policy.md": null,
+    "planning/demo-example-maintenance-runbook.md": null,
+    "planning/reviews/2026-10-15-demo-examples-evidence-a.json": null,
+    "planning/reviews/2026-10-15-demo-examples-evidence-a.md": null,
+    "planning/reviews/2026-10-15-demo-examples-evidence-b.json": null,
+    "planning/reviews/2026-10-15-demo-examples-evidence-b.md": null,
+    "planning/reviews/2026-10-15-demo-examples-initial-after-inventory.json": null,
+    "planning/reviews/2026-10-15-demo-examples-repeat-check-inventory.json": null,
+    "planning/reviews/2026-10-15-demo-examples-repeat-check-stable-inventory.json": null,
+    "planning/reviews/2026-10-15-demo-examples-repeat-check-stable.json": null,
+    "planning/reviews/2026-10-15-demo-examples-repeat-check-stable.md": null,
+    "planning/reviews/2026-10-15-demo-examples-repeat-check.json": null,
+    "planning/reviews/2026-10-15-demo-examples-repeat-check.md": null,
+    "planning/reviews/2026-10-15-demo-examples-verify-initial-manifest.json": null,
+    "planning/reviews/2026-10-15-demo-examples-verify-initial.json": null,
+    "planning/reviews/2026-10-15-demo-examples-verify-initial.md": null,
+    "planning/sessions/2026-10-15-demo-example-policy.md": null,
+    "research/demo-example-cases.json": null,
+    "scripts/demo_examples.py": null,
+    "scripts/tests/test_demo_examples.py": null,
+    "website/demo-pages.json": null,
+    "website/tests/e2e/demo.spec.ts": null,
+    "planning/sessions/2026-10-15-demo-examples-initial.md": null,
+    "planning/reviews/2026-10-15-demo-examples-initial.md": null
+  },
+  "after_sha256": {
+    ".claude/agents/demo-example-maintainer.md": "eda7bd2800154c9163d29f867268dc50dc745fc6ec8c80a8b74b3967277cc772",
+    ".claude/agents/demo-example-verifier.md": "134259dda2b97436fca1ee04b6dec32e1ff981e16546dac6958e098d0ceafc42",
+    "AGENTS.md": "32f2a2e0c05bf3a5c9a6fb8e409a78744f027e3bc379d86e5053989861482f82",
+    "CHANGELOG.md": "aa0e1d51c19d687f5b8ebbe4acc6fa96d216eb424658079928678847d2235840",
+    "STATUS.md": "4f4d2f724930fbdcef13c3f602094488883f0141a33e0107f5e29690b3ceb67d",
+    "manuscript/chapters/ch01.md": "4c1e63eef692f700c080266e5b9ec8e7f323619d8a3d0d4eba051f95f6d348ca",
+    "manuscript/chapters/ch03.md": "e210446c0ee26d3b7d385731f2e9ca4fe417373e78cf3ad731256292d3a34d5e",
+    "manuscript/chapters/ch05.md": "5292b1b06315af39f55a06cff0198d98042f8a97c7d1f1f6515c334037382449",
+    "manuscript/chapters/ch07.md": "15bff9900755a24ad7ec39ba533c53e5cbc41dc7909dc357c39fea55fa50749a",
+    "manuscript/chapters/ch08.md": "fde127aa8841b85fd9813a078ef98cf2fc9d5609fa9fbebaaf5b1712c55a3c53",
+    "manuscript/chapters/ch09.md": "9ee9cc81b2dfe3afe22d22a4aa0044cbedfd5968fc0292c475a7da6bc0d8c156",
+    "manuscript/chapters/ch11.md": "4c2c3d52179790e7310aa0964e7e30355c4cb902eaec1ef9b024b47a3770d07d",
+    "manuscript/chapters/ch12.md": "4ede33fa07337aa4c7b74d4532de24cc10b414ee4746ed7d49cf8f279f0d169c",
+    "manuscript/chapters/ch17.md": "2db8a80906012e9a602b1057ba6b30258e378054156c1f694b5c02c7b34504b4",
+    "manuscript/chapters/ch19.md": "5bf0dca173d34e17a4891ce89d9533b5e602a3c2597ab7d6e4d9d23e9cb99a3c",
+    "manuscript/demo/agent-selection.md": "b2d5e886c03b146b91f816f0ca2d056c6557a236691fef74120f9984a3a859bf",
+    "manuscript/demo/evidence.md": "f65cfad879d6eb5532e2be9c29417bedb066d37741a330014524efc464e9ca83",
+    "manuscript/demo/execution-authority.md": "2a63eadf65a06b3840f9a8bca1a473293226fd8bac06809c5299c5b80ee97fa4",
+    "manuscript/demo/improvement.md": "e38eab7e20189f68036e5d010213399e07335fdb105ce78ee6ab18326f4748b6",
+    "manuscript/demo/index.md": "14d28da0e3ace75a3c29ad9d73812be5fb60e6fa352c6baa4da86530db2d7b77",
+    "manuscript/demo/metrics.md": "ff0a72f1aedabcbc421063c84c034e01fbf41e54ecf0fcc3d208edd648f8d671",
+    "manuscript/demo/policy-and-gate.md": "149159de81032a34a08d0649f393ce9ebc6cb25033de9dc4be8454043d9b4021",
+    "manuscript/demo/recovery.md": "1aa20c25c30bf68cf792bc166420e6c6abb07f705c815cb73707cc579ae6ab00",
+    "manuscript/demo/request.md": "000010507f534d9aba726739bbccdf6ae9953d5d5d8e72e050886907520c81b5",
+    "manuscript/front-matter/00-preface.md": "b117df8abde965bad839300303dff31fa720a5c7816540e51dfe225fc3a852c7",
+    "planning/book-brief.md": "20913f8a91374e65914a70d28bfcc60b7f1d282b057d15a91ede4fc418f393ed",
+    "planning/decisions.md": "23bccad1d8185801bf1deddb964732dcad83fee62a0d197a9a8d0a2104db1a52",
+    "planning/demo-example-maintenance-policy.md": "13071fd8eba172a3a3ac9afa3504d280ad28e2410ad6b24eaa62da397752df4c",
+    "planning/demo-example-maintenance-runbook.md": "79b1ae0ddb60492fc7d5f2df203a688bcd39bb7a5f734c2da3428e5f6a1f6d85",
+    "planning/reviews/2026-10-15-demo-examples-evidence-a.json": "1de4d69b247bfd65d9563b0b041bd59875784c512208d13bfaf7efdde89ea85c",
+    "planning/reviews/2026-10-15-demo-examples-evidence-a.md": "8066a9e0f0137d452158d510671a283b897d37d4a59a60f289adbc543c12bd4a",
+    "planning/reviews/2026-10-15-demo-examples-evidence-b.json": "44ab3c96068d5848a2d4c9d1a6581890be023ec043591f8edef8baf015968f2f",
+    "planning/reviews/2026-10-15-demo-examples-evidence-b.md": "2ded3796877a0d90f4e9a57f74a288083b67d8238d478d50452b0c683170a26c",
+    "planning/reviews/2026-10-15-demo-examples-initial-after-inventory.json": "7f3d45e686ea9c32159497d40be0233d6d16eed49e831ee347abecfb25f6a160",
+    "planning/reviews/2026-10-15-demo-examples-initial.md": "ab6d7e5503d9776ba65d3a7e3e794f44cc72eabc4374f3b612d1c5993a42e158",
+    "planning/reviews/2026-10-15-demo-examples-repeat-check-inventory.json": "5e83324b886be1993b15f218de0c48cd2f0255ef5354ce36daf4673de1c304c2",
+    "planning/reviews/2026-10-15-demo-examples-repeat-check-stable-inventory.json": "58f8784b4d19339bc8f984f6ef020734b40b13f99b130f416665969187fa47ab",
+    "planning/reviews/2026-10-15-demo-examples-repeat-check-stable.json": "638bbdeb6137975397a65d8eca9e0c379acac4f8a44b9bdf538b5b811fbcc925",
+    "planning/reviews/2026-10-15-demo-examples-repeat-check-stable.md": "c3ea24728a9995865c72e4661a72e64431ef0dacfa45cd8dbd5547cdf2c51c3a",
+    "planning/reviews/2026-10-15-demo-examples-repeat-check.json": "1abe17342e7754a9a0208b433276d606c95f2122aea57642327054eea6722b53",
+    "planning/reviews/2026-10-15-demo-examples-repeat-check.md": "e52598add0fa77981af0c72275bc6c3b9a0bb1d8c3873b75bf38692572f43dd4",
+    "planning/reviews/2026-10-15-demo-examples-verify-initial-manifest.json": "3743a140a46fabfe5fe9e06b30045daa004a8d028c0512e6f4bc7a02f5ed7f14",
+    "planning/reviews/2026-10-15-demo-examples-verify-initial.json": "0009e1b71e517cb42c6ae2d009e3f4c6d22918fa2725e3802baa2226fab96c81",
+    "planning/reviews/2026-10-15-demo-examples-verify-initial.md": "51d739da75813b0e35a1425e0ec33cab33068016c644ef1c5d6df95c24688a21",
+    "planning/sessions/2026-10-15-demo-example-policy.md": "f6c93631c5da6fa34aec144caf16c3851b6b268c1dd6f2054cfac4f15e406caf",
+    "planning/sessions/2026-10-15-demo-examples-initial.md": "ab5811ad2ea7a4532783dcf67e7c36f3b50243ce2102260522a47f7d8a98d81c",
+    "research/cases/software-factory-demo.md": "5a5bed69b1ba1dee66e048e6d6416f6b90ace60f9c8e3187130f7fe9c189ebea",
+    "research/claims/ch01.json": "b03c37df7783b017a74685c252c3de9afc815b31495948f285b1856526f143a8",
+    "research/claims/ch03.json": "f9f66d97e2b7675720484626cbed52d1ad3a3a5ccde7104f6fe8b3bc74e9ecdb",
+    "research/claims/ch05.json": "a72091406272aece5693de693262bc943bd502bca902c911d2d9410121da2ff6",
+    "research/claims/ch07.json": "7e04e1a025711c43e223212ea79d38d13b0e9f6c2e2c1c54e617473035d31879",
+    "research/claims/ch08.json": "d2dab31d9fdceca989655bf686c95f452a53c17422673c1da0e62045bafb80e0",
+    "research/claims/ch09.json": "4e940ae61b5d94ce84df6be6c049c327f344ff4ca437f35f0a1d9b75a4e308f4",
+    "research/claims/ch11.json": "0c68ebf1a7654d71127006862d16cdf5f4ee13cde2f48e9cc3d939d75b2de47f",
+    "research/claims/ch12.json": "449d74587557f44d93e2e89c38c0a8b929ce7e857f353713787c0d28cfea8a94",
+    "research/claims/ch17.json": "c698a89098eae64346e174bab8d28ff7618f317486bd3ef769a8729dea391bd9",
+    "research/claims/ch19.json": "0a7b7446f94cf3e303d35778c72f6e17606a26f5f75628661c3d8f9fe0578976",
+    "research/claims/preface.json": "a63716ebd3f2d91d47d1e6d1d520c68a8edca8f3b5486eeff1cac6633cc2a210",
+    "research/claims/software-factory-demo.json": "0e5d012017eb07611097f7087fc01e14f45eb822e298eb8b0b452520b2cdbd55",
+    "research/demo-example-cases.json": "e7f571e1f107dd5b3aab41ee9c1c05265033cd010b3bab70c99da8478040e993",
+    "research/software-factory-demo-inventory.json": "0205005f83a96b324917220c6cd06b774085f7369e1d1092ad11f5aa4a844aa0",
+    "research/sources.json": "d84c1f6a91203d1e149f1ee4e95c8de588638310a8d7060ce7d7a31ae6db9710",
+    "scripts/demo_examples.py": "e569bc399ad04893d5e7f7d67ded393dfde4d86f8e1e8abca045061ee7518870",
+    "scripts/tests/test_demo_examples.py": "248569eaacdc48f472f73ba670882844ed413d23398bbdc87a3e7d7750aeccee",
+    "website/astro.config.mjs": "71f8f403c99500afad3eb06eb352e4bbeb3a4fe1c336ae420dfd80c6905a2f80",
+    "website/content-manifest.json": "682a24da196154b1e10cac313c5d7e4ed3e5c72f9a2bc25f536a798a5c3ccd03",
+    "website/demo-pages.json": "33f03d7e9472d888797b079e54cfc19deceeea36ecfaac8ceb76003c7f185d77",
+    "website/scripts/generate-content.mjs": "e781de9f54d51fba35f54554fd76174c49bdcda2e91375239d8ccc77efa350b3",
+    "website/scripts/publication.mjs": "5a4b08dab84d609520648f9e5e9c902e2fe0eb676430ce4ca43f7a5d7bd1ce29",
+    "website/src/pages/about.astro": "5acca2076bf7a90fdf05788be82761f5231c9422bee1f4cd1eedcb8bf971bfd3",
+    "website/tests/e2e/demo.spec.ts": "346e7a05fd6ef87a1826d0d35eb4ccfebc0e64fe31da9dd14bc940a5e05970a1",
+    "website/tests/publication.test.mjs": "32c3938b378192e4a94d0801b8a8f59330fb8dfff1f2b54c6cae3f1f535ebd0f"
+  },
+  "evidence_reports": [
+    "planning/reviews/2026-10-15-demo-examples-evidence-a.md",
+    "planning/reviews/2026-10-15-demo-examples-evidence-b.md"
+  ],
+  "verification_report": "planning/reviews/2026-10-15-demo-examples-verify-initial.md",
+  "validation": {
+    "inventory_unit": "2 passed",
+    "website_unit": "26 passed",
+    "astro": "0 errors/warnings/hints",
+    "build": "56 pages; local links and anchors PASS",
+    "browser": "25 passed; 1 intentional desktop skip of mobile-only test",
+    "anchors": "all previous anchors preserved",
+    "revisions": "11 changed existing pages +1; 9 new demo pages revision1",
+    "sources": "original97 unchanged; 9 new verified revision records",
+    "execution_scope": "book website tests only; demo not executed",
+    "visual": "1065px index, 390px execution-authority inspected; tables and return links readable"
+  },
+  "publication": {
+    "committed": false,
+    "pushed": false,
+    "deployed": false,
+    "scheduled": false
+  },
+  "repeat_validation": {
+    "report": "planning/reviews/2026-10-15-demo-examples-repeat-check-stable.md",
+    "candidate_identical": true,
+    "protected_files_unchanged": 84,
+    "agent_manuscript_source_revision_writes": 0,
+    "concurrent_change_handling": "진행자 ch01/검증기록 변경 감지·보존·재고정"
+  },
+  "hash_scope": "실행 관련 변경 파일과 고정 보고서. output/의 기존 사용자 산출물과 자체 manifest는 제외(재귀 해시 방지)."
+}

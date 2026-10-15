@@ -1,0 +1,272 @@
+{
+  "run_id": "2026-10-15-demo-examples-evidence-a",
+  "checked_on": "2026-10-15",
+  "role": "근거 점검 에이전트",
+  "mode": "점검",
+  "previous_commit": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+  "candidate_commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+  "repository": "roboco-io/the-software-factory-demo",
+  "chapters": [
+    "ch03",
+    "ch05",
+    "ch07",
+    "ch08",
+    "ch12"
+  ],
+  "compare": {
+    "status": "ahead",
+    "ahead_by": 3,
+    "total_commits": 3,
+    "core_paths_changed": false,
+    "meaningful_document_change": "README의 상세 설정·운영·보안 한계를 docs/operations.md로 이동. README가 비개발자용 흐름 설명으로 개편됨."
+  },
+  "confirmation_level": "원격 고정 원문 정적 확인. 데모·테스트·워크플로 실행 및 운영성과 확인 없음",
+  "files": [
+    {
+      "path": "LICENSE",
+      "commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/LICENSE",
+      "scope": "전체. 2/4/6/7조의 허락·재배포·상표·보증 부인 확인",
+      "line_count": 203,
+      "comparison_to_previous": "unchanged (compare 목록에 없음)"
+    },
+    {
+      "path": "factory/risk-policy.yml",
+      "commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "blob_sha": "35a092ba8550e70b97b212afa6db37e695ddd66e",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/factory/risk-policy.yml",
+      "scope": "전체 파일",
+      "line_count": 64,
+      "comparison_to_previous": "unchanged (compare 목록에 없음)"
+    },
+    {
+      "path": "packages/factory/src/stages/gate.ts",
+      "commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "blob_sha": "db39598d7322f4b4ce4563d3de144f25a7fac193",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/gate.ts",
+      "scope": "전체 파일",
+      "line_count": 229,
+      "comparison_to_previous": "unchanged (compare 목록에 없음)"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature.yml",
+      "commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "blob_sha": "ea875d2c02e849ae540d200e9cce076adb0447be",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/.github/ISSUE_TEMPLATE/feature.yml",
+      "scope": "전체 파일",
+      "line_count": 23,
+      "comparison_to_previous": "unchanged (compare 목록에 없음)"
+    },
+    {
+      "path": "factory/prompts/triage.md",
+      "commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "blob_sha": "2099932ecf1c6dbc38e39e52368d7ed6658a3aee",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/factory/prompts/triage.md",
+      "scope": "전체 파일",
+      "line_count": 38,
+      "comparison_to_previous": "unchanged (compare 목록에 없음)"
+    },
+    {
+      "path": "packages/factory/src/stages/triage.ts",
+      "commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "blob_sha": "d6a079474402231ee49ee9124c6c5c426e595d43",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/triage.ts",
+      "scope": "전체 파일",
+      "line_count": 126,
+      "comparison_to_previous": "unchanged (compare 목록에 없음)"
+    },
+    {
+      "path": "packages/factory/src/stages/evidence.ts",
+      "commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "blob_sha": "0f7824a4b2101f5d0e1bf97ceefacb1c39d9eee1",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/evidence.ts",
+      "scope": "전체 파일",
+      "line_count": 427,
+      "comparison_to_previous": "unchanged (compare 목록에 없음)"
+    },
+    {
+      "path": "packages/factory/src/policy/evidence.ts",
+      "commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "blob_sha": "646bf877c85e0d8f003578371095d2025e645641",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/policy/evidence.ts",
+      "scope": "전체 파일",
+      "line_count": 68,
+      "comparison_to_previous": "unchanged (compare 목록에 없음)"
+    },
+    {
+      "path": "packages/factory/src/stages/guard.ts",
+      "commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "blob_sha": "8d1044d05f2a075589af4c0175f493c4e13a1586",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/guard.ts",
+      "scope": "전체 파일",
+      "line_count": 85,
+      "comparison_to_previous": "unchanged (compare 목록에 없음)"
+    },
+    {
+      "path": "packages/factory/src/stages/command.ts",
+      "commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "blob_sha": "d452ef32e255783d2acbdc2023797432a4e0b836",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/command.ts",
+      "scope": "전체 파일",
+      "line_count": 90,
+      "comparison_to_previous": "unchanged (compare 목록에 없음)"
+    },
+    {
+      "path": "packages/factory/src/state/machine.ts",
+      "commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "blob_sha": "8b4496d980909640bb2aca4674f37f82d61a7edb",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/state/machine.ts",
+      "scope": "전체 파일",
+      "line_count": 87,
+      "comparison_to_previous": "unchanged (compare 목록에 없음)"
+    },
+    {
+      "path": "docs/operations.md",
+      "commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "blob_sha": "c71a72d218093bf0141ad0d463af6251c908fdbc",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md",
+      "scope": "머리말, 운영자 안내(준비 실패·재개), evidence 안내, 팩토리/프리뷰 보안 한계 선택 절",
+      "line_count": 145,
+      "comparison_to_previous": "added"
+    },
+    {
+      "path": "README.md",
+      "commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "blob_sha": "86ffab5283ec21d4afdae986e39db1230fa6409e",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/README.md",
+      "scope": "전체 파일",
+      "line_count": 108,
+      "comparison_to_previous": "modified"
+    },
+    {
+      "path": "packages/factory/src/policy/risk.ts",
+      "commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "blob_sha": "06f8425966c24348c2e6a003499a6045c60ed7f1",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/policy/risk.ts",
+      "scope": "전체 파일",
+      "line_count": 101,
+      "comparison_to_previous": "unchanged (compare 목록에 없음)"
+    },
+    {
+      "path": "packages/factory/src/report/comments.ts",
+      "commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "blob_sha": "2da05653c6ad0857cf4edcd41a9d659087f43631",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/report/comments.ts",
+      "scope": "TriageSchema·renderTriageComment·latestVerdict 선택 함수",
+      "line_count": 116,
+      "comparison_to_previous": "unchanged (compare 목록에 없음)"
+    },
+    {
+      "path": "packages/factory/src/stages/common.ts",
+      "commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "blob_sha": "b6cc62f2a8574ea49b8b9af70ea0e361e74f94af",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/common.ts",
+      "scope": "isWriter·readState·moveTo 선택 함수",
+      "line_count": 215,
+      "comparison_to_previous": "unchanged (compare 목록에 없음)"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "blob_sha": "b84c4de1263bfdfb825aad4e57bc40ff0cbb7a72",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/.github/workflows/ci.yml",
+      "scope": "evidence-plan 및 evidence job 전체",
+      "line_count": 251,
+      "comparison_to_previous": "unchanged (compare 목록에 없음)"
+    },
+    {
+      "path": "packages/factory/test/gate.test.ts",
+      "commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "blob_sha": "2ef89bb75ae15ffd83f88ef491e92dfb9bed6925",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/test/gate.test.ts",
+      "scope": "테스트 목록 및 62–100,125–179행 본문",
+      "line_count": 296,
+      "comparison_to_previous": "unchanged (compare 목록에 없음)"
+    },
+    {
+      "path": "packages/factory/test/evidence-run.test.ts",
+      "commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "blob_sha": "1ec0df9620739a4569ab7e3d397bb1c344e5dc93",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/test/evidence-run.test.ts",
+      "scope": "테스트 목록 및 159–252행 본문",
+      "line_count": 386,
+      "comparison_to_previous": "unchanged (compare 목록에 없음)"
+    },
+    {
+      "path": "packages/factory/test/guard.test.ts",
+      "commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "blob_sha": "d274b7781eb9dfc23bb161a49ded1973dc9f94d5",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/test/guard.test.ts",
+      "scope": "테스트 목록 및 27–60행 본문",
+      "line_count": 188,
+      "comparison_to_previous": "unchanged (compare 목록에 없음)"
+    },
+    {
+      "path": "packages/factory/test/command.test.ts",
+      "commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "blob_sha": "1a330b26ba178496a262f6c53b9a23da66f1b6eb",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/test/command.test.ts",
+      "scope": "테스트 목록 및 31–67,126–169행 본문",
+      "line_count": 180,
+      "comparison_to_previous": "unchanged (compare 목록에 없음)"
+    },
+    {
+      "path": "THIRD_PARTY_LICENSES.txt",
+      "commit": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "blob_sha": "e5fb84cc5263ee00d4fb15b661dea67901389263",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/THIRD_PARTY_LICENSES.txt",
+      "scope": "전체 파일",
+      "line_count": 36,
+      "comparison_to_previous": "unchanged (compare 목록에 없음)"
+    }
+  ],
+  "source_mapping": {
+    "S59": [
+      "README.md",
+      "docs/operations.md",
+      "packages/factory/src/state/machine.ts"
+    ],
+    "S60": [
+      "factory/risk-policy.yml",
+      "packages/factory/src/policy/risk.ts",
+      "packages/factory/src/stages/gate.ts",
+      "packages/factory/src/report/comments.ts"
+    ],
+    "S61": [
+      ".github/ISSUE_TEMPLATE/feature.yml",
+      "factory/prompts/triage.md",
+      "packages/factory/src/stages/triage.ts",
+      "packages/factory/src/stages/command.ts",
+      "packages/factory/src/state/machine.ts"
+    ],
+    "S62": [
+      "packages/factory/src/stages/evidence.ts",
+      "packages/factory/src/policy/evidence.ts",
+      ".github/workflows/ci.yml",
+      "docs/operations.md"
+    ],
+    "S63": [
+      "packages/factory/src/stages/guard.ts",
+      "packages/factory/src/stages/command.ts",
+      "packages/factory/src/state/machine.ts",
+      "packages/factory/src/stages/common.ts",
+      "docs/operations.md"
+    ]
+  },
+  "limitations": [
+    "문서 설명과 정적 코드 구조만 확인했다.",
+    "필수 체크의 skipped/neutral도 gate에서 pass로 취급하므로 모든 검사가 실제 수행됨을 보장한다고 쓰지 않는다.",
+    "T0-T3는 위험 등급이며 정책 적용 범위/원칙 계층이 아니다.",
+    "실행 취소는 외부 효과 복구가 아니다.",
+    "실제 저장소 보호·권한 설정과 전체 워크플로 효과를 검증하지 않았다."
+  ],
+  "previous_version_files": [{"path":"README.md","commit":"25a73b9c342ef380f96ff0d705df9b7ef33dd82c","blob_sha":"971de2d2f96f055063973f5e72bc64b11b99338e","url":"https://github.com/roboco-io/the-software-factory-demo/blob/25a73b9c342ef380f96ff0d705df9b7ef33dd82c/README.md","scope":"제목 목록과 준비 실패·CODEOWNERS·evidence 보안 한계 선택 문단"}],
+  "access_failures": [],
+  "license": {
+    "license": "Apache-2.0",
+    "code_docs_config": "README가 자체 코드·문서·설정에 적용함을 명시",
+    "third_party": "tests/realworld/vendor Hurl 테스트는 MIT; 별도 저작권 고지. 프레임워크 로고는 본 라이선스 제외.",
+    "use": "구현 관계의 자체 해설과 고정 링크. 대량 원문 복제 없음. 별도 NOTICE 존재 여부는 미확인; 원문 코드 복제 전 추가 확인 필요."
+  }
+}

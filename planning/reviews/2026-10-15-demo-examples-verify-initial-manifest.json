@@ -1,0 +1,348 @@
+{
+  "axis": "demo-verification",
+  "scope": "demo examples initial",
+  "version": "641d3dc948cc95d378524cb50c942240f1600d30",
+  "started_at": "2026-10-15T12:10:29.762341",
+  "worktree_clean": false,
+  "policies": [
+    "planning/demo-example-maintenance-policy.md",
+    "planning/review-policies/README.md",
+    "planning/glossary.md"
+  ],
+  "files": [
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "sha256": "149159de81032a34a08d0649f393ce9ebc6cb25033de9dc4be8454043d9b4021"
+    },
+    {
+      "path": "manuscript/demo/evidence.md",
+      "sha256": "f65cfad879d6eb5532e2be9c29417bedb066d37741a330014524efc464e9ca83"
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "sha256": "b2d5e886c03b146b91f816f0ca2d056c6557a236691fef74120f9984a3a859bf"
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "sha256": "1aa20c25c30bf68cf792bc166420e6c6abb07f705c815cb73707cc579ae6ab00"
+    },
+    {
+      "path": "manuscript/demo/execution-authority.md",
+      "sha256": "2a63eadf65a06b3840f9a8bca1a473293226fd8bac06809c5299c5b80ee97fa4"
+    },
+    {
+      "path": "manuscript/demo/index.md",
+      "sha256": "14d28da0e3ace75a3c29ad9d73812be5fb60e6fa352c6baa4da86530db2d7b77"
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "sha256": "e38eab7e20189f68036e5d010213399e07335fdb105ce78ee6ab18326f4748b6"
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "sha256": "ff0a72f1aedabcbc421063c84c034e01fbf41e54ecf0fcc3d208edd648f8d671"
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "sha256": "000010507f534d9aba726739bbccdf6ae9953d5d5d8e72e050886907520c81b5"
+    },
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "sha256": "5a73a9ed167e4be7073e955ea4ab09e2cb98cdfc2ec1785e363281040929c35e"
+    },
+    {
+      "path": "manuscript/chapters/ch03.md",
+      "sha256": "e210446c0ee26d3b7d385731f2e9ca4fe417373e78cf3ad731256292d3a34d5e"
+    },
+    {
+      "path": "manuscript/chapters/ch05.md",
+      "sha256": "5292b1b06315af39f55a06cff0198d98042f8a97c7d1f1f6515c334037382449"
+    },
+    {
+      "path": "manuscript/chapters/ch07.md",
+      "sha256": "15bff9900755a24ad7ec39ba533c53e5cbc41dc7909dc357c39fea55fa50749a"
+    },
+    {
+      "path": "manuscript/chapters/ch08.md",
+      "sha256": "fde127aa8841b85fd9813a078ef98cf2fc9d5609fa9fbebaaf5b1712c55a3c53"
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "sha256": "9ee9cc81b2dfe3afe22d22a4aa0044cbedfd5968fc0292c475a7da6bc0d8c156"
+    },
+    {
+      "path": "manuscript/chapters/ch11.md",
+      "sha256": "4c2c3d52179790e7310aa0964e7e30355c4cb902eaec1ef9b024b47a3770d07d"
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "sha256": "4ede33fa07337aa4c7b74d4532de24cc10b414ee4746ed7d49cf8f279f0d169c"
+    },
+    {
+      "path": "manuscript/chapters/ch17.md",
+      "sha256": "2db8a80906012e9a602b1057ba6b30258e378054156c1f694b5c02c7b34504b4"
+    },
+    {
+      "path": "manuscript/chapters/ch19.md",
+      "sha256": "5bf0dca173d34e17a4891ce89d9533b5e602a3c2597ab7d6e4d9d23e9cb99a3c"
+    },
+    {
+      "path": "research/sources.json",
+      "sha256": "d84c1f6a91203d1e149f1ee4e95c8de588638310a8d7060ce7d7a31ae6db9710"
+    },
+    {
+      "path": "research/demo-example-cases.json",
+      "sha256": "b71e8e4725664398516a7d67f22660186c24fead1bbda49869783e4be6d9c24b"
+    },
+    {
+      "path": ".claude/agents/demo-example-maintainer.md",
+      "sha256": "eda7bd2800154c9163d29f867268dc50dc745fc6ec8c80a8b74b3967277cc772"
+    },
+    {
+      "path": ".claude/agents/demo-example-verifier.md",
+      "sha256": "134259dda2b97436fca1ee04b6dec32e1ff981e16546dac6958e098d0ceafc42"
+    },
+    {
+      "path": "planning/demo-example-maintenance-runbook.md",
+      "sha256": "79b1ae0ddb60492fc7d5f2df203a688bcd39bb7a5f734c2da3428e5f6a1f6d85"
+    },
+    {
+      "path": "scripts/demo_examples.py",
+      "sha256": "e569bc399ad04893d5e7f7d67ded393dfde4d86f8e1e8abca045061ee7518870"
+    },
+    {
+      "path": "website/src/pages/about.astro",
+      "sha256": "5acca2076bf7a90fdf05788be82761f5231c9422bee1f4cd1eedcb8bf971bfd3"
+    },
+    {
+      "path": "manuscript/front-matter/00-preface.md",
+      "sha256": "b117df8abde965bad839300303dff31fa720a5c7816540e51dfe225fc3a852c7",
+      "baseline_note": "추가 범위 확인 시 해시; 최초 고정 이후 기록"
+    },
+    {
+      "path": "planning/demo-example-maintenance-policy.md",
+      "sha256": "13071fd8eba172a3a3ac9afa3504d280ad28e2410ad6b24eaa62da397752df4c",
+      "baseline_note": "추가 범위 확인 시 해시; 최초 고정 이후 기록"
+    },
+    {
+      "path": "website/content-manifest.json",
+      "sha256": "682a24da196154b1e10cac313c5d7e4ed3e5c72f9a2bc25f536a798a5c3ccd03",
+      "baseline_note": "추가 범위 확인 시 해시; 최초 고정 이후 기록"
+    },
+    {
+      "path": "website/demo-pages.json",
+      "sha256": "33f03d7e9472d888797b079e54cfc19deceeea36ecfaac8ceb76003c7f185d77",
+      "baseline_note": "추가 범위 확인 시 해시; 최초 고정 이후 기록"
+    }
+  ],
+  "ended_at": "2026-10-15T12:12:40.345828",
+  "final_files": [
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "sha256": "149159de81032a34a08d0649f393ce9ebc6cb25033de9dc4be8454043d9b4021"
+    },
+    {
+      "path": "manuscript/demo/evidence.md",
+      "sha256": "f65cfad879d6eb5532e2be9c29417bedb066d37741a330014524efc464e9ca83"
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "sha256": "b2d5e886c03b146b91f816f0ca2d056c6557a236691fef74120f9984a3a859bf"
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "sha256": "1aa20c25c30bf68cf792bc166420e6c6abb07f705c815cb73707cc579ae6ab00"
+    },
+    {
+      "path": "manuscript/demo/execution-authority.md",
+      "sha256": "2a63eadf65a06b3840f9a8bca1a473293226fd8bac06809c5299c5b80ee97fa4"
+    },
+    {
+      "path": "manuscript/demo/index.md",
+      "sha256": "14d28da0e3ace75a3c29ad9d73812be5fb60e6fa352c6baa4da86530db2d7b77"
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "sha256": "e38eab7e20189f68036e5d010213399e07335fdb105ce78ee6ab18326f4748b6"
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "sha256": "ff0a72f1aedabcbc421063c84c034e01fbf41e54ecf0fcc3d208edd648f8d671"
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "sha256": "000010507f534d9aba726739bbccdf6ae9953d5d5d8e72e050886907520c81b5"
+    },
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "sha256": "4c1e63eef692f700c080266e5b9ec8e7f323619d8a3d0d4eba051f95f6d348ca"
+    },
+    {
+      "path": "manuscript/chapters/ch03.md",
+      "sha256": "e210446c0ee26d3b7d385731f2e9ca4fe417373e78cf3ad731256292d3a34d5e"
+    },
+    {
+      "path": "manuscript/chapters/ch05.md",
+      "sha256": "5292b1b06315af39f55a06cff0198d98042f8a97c7d1f1f6515c334037382449"
+    },
+    {
+      "path": "manuscript/chapters/ch07.md",
+      "sha256": "15bff9900755a24ad7ec39ba533c53e5cbc41dc7909dc357c39fea55fa50749a"
+    },
+    {
+      "path": "manuscript/chapters/ch08.md",
+      "sha256": "fde127aa8841b85fd9813a078ef98cf2fc9d5609fa9fbebaaf5b1712c55a3c53"
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "sha256": "9ee9cc81b2dfe3afe22d22a4aa0044cbedfd5968fc0292c475a7da6bc0d8c156"
+    },
+    {
+      "path": "manuscript/chapters/ch11.md",
+      "sha256": "4c2c3d52179790e7310aa0964e7e30355c4cb902eaec1ef9b024b47a3770d07d"
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "sha256": "4ede33fa07337aa4c7b74d4532de24cc10b414ee4746ed7d49cf8f279f0d169c"
+    },
+    {
+      "path": "manuscript/chapters/ch17.md",
+      "sha256": "2db8a80906012e9a602b1057ba6b30258e378054156c1f694b5c02c7b34504b4"
+    },
+    {
+      "path": "manuscript/chapters/ch19.md",
+      "sha256": "5bf0dca173d34e17a4891ce89d9533b5e602a3c2597ab7d6e4d9d23e9cb99a3c"
+    },
+    {
+      "path": "research/sources.json",
+      "sha256": "d84c1f6a91203d1e149f1ee4e95c8de588638310a8d7060ce7d7a31ae6db9710"
+    },
+    {
+      "path": "research/demo-example-cases.json",
+      "sha256": "e7f571e1f107dd5b3aab41ee9c1c05265033cd010b3bab70c99da8478040e993"
+    },
+    {
+      "path": ".claude/agents/demo-example-maintainer.md",
+      "sha256": "eda7bd2800154c9163d29f867268dc50dc745fc6ec8c80a8b74b3967277cc772"
+    },
+    {
+      "path": ".claude/agents/demo-example-verifier.md",
+      "sha256": "134259dda2b97436fca1ee04b6dec32e1ff981e16546dac6958e098d0ceafc42"
+    },
+    {
+      "path": "planning/demo-example-maintenance-runbook.md",
+      "sha256": "79b1ae0ddb60492fc7d5f2df203a688bcd39bb7a5f734c2da3428e5f6a1f6d85"
+    },
+    {
+      "path": "scripts/demo_examples.py",
+      "sha256": "e569bc399ad04893d5e7f7d67ded393dfde4d86f8e1e8abca045061ee7518870"
+    },
+    {
+      "path": "website/src/pages/about.astro",
+      "sha256": "5acca2076bf7a90fdf05788be82761f5231c9422bee1f4cd1eedcb8bf971bfd3"
+    },
+    {
+      "path": "manuscript/front-matter/00-preface.md",
+      "sha256": "b117df8abde965bad839300303dff31fa720a5c7816540e51dfe225fc3a852c7"
+    },
+    {
+      "path": "planning/demo-example-maintenance-policy.md",
+      "sha256": "13071fd8eba172a3a3ac9afa3504d280ad28e2410ad6b24eaa62da397752df4c"
+    },
+    {
+      "path": "website/content-manifest.json",
+      "sha256": "682a24da196154b1e10cac313c5d7e4ed3e5c72f9a2bc25f536a798a5c3ccd03"
+    },
+    {
+      "path": "website/demo-pages.json",
+      "sha256": "33f03d7e9472d888797b079e54cfc19deceeea36ecfaac8ceb76003c7f185d77"
+    }
+  ],
+  "rechecked_drift": [
+    "research/demo-example-cases.json: historical_records PR/version/job mapping 추가 후 evidence-b.json과 직접 대조",
+    "manuscript/chapters/ch01.md: S59 단일 항목 안내를 참고문헌·각 해설로 변경. 39~43행 재열람으로 S98 등과의 정합성 확인, 주장 불변."
+  ],
+  "direct_remote_reads": [
+    {
+      "path": ".github/workflows/factory-implement.yml",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/.github/workflows/factory-implement.yml",
+      "scope": "전체"
+    },
+    {
+      "path": "packages/factory/src/stages/gate.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/gate.ts",
+      "scope": "전체"
+    },
+    {
+      "path": "packages/factory/src/report/metrics.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/report/metrics.ts",
+      "scope": "전체"
+    },
+    {
+      "path": "packages/factory/src/stages/eval.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/eval.ts",
+      "scope": "전체"
+    },
+    {
+      "path": "packages/factory/src/state/machine.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/state/machine.ts",
+      "scope": "전체"
+    },
+    {
+      "path": "packages/factory/src/stages/evidence.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/evidence.ts",
+      "scope": "취득 후 대상 분류·runEvidence/판정 관련 부분"
+    },
+    {
+      "path": "packages/factory/src/stages/guard.ts",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/guard.ts",
+      "scope": "전체"
+    },
+    {
+      "path": "docs/operations.md",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md",
+      "scope": "취득 후 운영·복구·자가개선·리허설·보안/제한 부분"
+    }
+  ],
+  "previous_blob_comparison": {
+    ".github/workflows/factory-implement.yml": "이전 25a73b9/후보 5b1927f blob SHA 동일 직접 확인",
+    "packages/factory/src/report/metrics.ts": "이전 25a73b9/후보 5b1927f blob SHA 동일 직접 확인",
+    "packages/factory/src/stages/eval.ts": "이전 25a73b9/후보 5b1927f blob SHA 동일 직접 확인"
+  },
+  "command_checks": [
+    {
+      "command": "python3 scripts/demo_examples.py --run-id verifier-initial",
+      "result": "60파일·114언급·35장/패턴 coverage; 내용 의미 판정 별도"
+    },
+    {
+      "command": "source/object + URL registry comparison",
+      "result": "기존97 source 객체 무변경; 해설 밖 blob/actions0; 미등록 해설 blob0"
+    }
+  ],
+  "not_executed": [
+    "데모 코드·테스트·워크플로",
+    "책 웹 전체 빌드/브라우저 재실행 (진행자 보고의 실제 로그는 통합 기록에서 확인)",
+    "역사 job 로그 재열람 (근거 B 직접 확인 기록 대조)"
+  ],
+  "integration_followup": {
+    "checked_at": "2026-10-15T12:17:04.765981",
+    "files_read": [
+      "planning/reviews/2026-10-15-demo-examples-initial.md",
+      "planning/reviews/2026-10-15-demo-examples-initial-manifest.json",
+      "planning/sessions/2026-10-15-demo-examples-initial.md",
+      "STATUS.md 마지막 절",
+      "planning/reviews/2026-10-15-demo-examples-repeat-check-stable.md",
+      "planning/reviews/2026-10-15-demo-examples-repeat-check-stable.json"
+    ],
+    "checks": [
+      "최초29언급·35coverage·9해설·11기존revision과1증가·기존anchor유지 직접대조",
+      "dist HTML56개 직접확인",
+      "Playwright .last-run passed·failedTests=[]",
+      "원고/웹/registry 최종hash일치; STATUS는 마지막 기록 작성으로 최종고정예정"
+    ],
+    "not_reexecuted": [
+      "원격 확인",
+      "단위·Astro·빌드·브라우저 테스트"
+    ]
+  }
+}

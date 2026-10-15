@@ -269,5 +269,16 @@
     "not_applied": "R004의 '판정 번복' 정의는 저자 결정 사항이라 보류. P3 의견은 U006·U010 외 미반영.",
     "status": "수정자 반영 완료·저자 검토 대기",
     "limit": "새 출처·사실·수치 추가 없음. 주장 강도·출처 표식 유지. 독립 리뷰·실행 확인 아님."
+  },
+  "demo_explanation_update": {
+    "date": "2026-10-15",
+    "revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+    "source": "S103",
+    "location": "manuscript/demo/execution-authority.md",
+    "scope": "준비·수행·게시의 권한과 계획·결과 전달 및 게시 전 검증",
+    "claim_type": "정적 사실과 저자 해석을 구분한 해설",
+    "status": "별도 AI 수정 검증 완료(해당 변경 범위)",
+    "prior_review": "변경 문단은 이전 버전의 리뷰 완료를 승계하지 않음",
+    "verification": "planning/reviews/2026-10-15-demo-examples-verify-initial.md"
   }
 }

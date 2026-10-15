@@ -1,0 +1,432 @@
+{
+  "schema_version": 1,
+  "repository": "roboco-io/the-software-factory-demo",
+  "previous_revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+  "current_verified_revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+  "checked_on": "2026-10-15",
+  "cases": [
+    {
+      "id": "index",
+      "chapters": [
+        "ch01"
+      ],
+      "reader_manuscript": "manuscript/demo/index.md",
+      "reader_url": "/demo/",
+      "source_ids": [
+        "S98"
+      ],
+      "verified_revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "checked_on": "2026-10-15",
+      "level": "문서·정적 코드 구조 확인",
+      "evidence_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "86ffab5283ec21d4afdae986e39db1230fa6409e",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/README.md",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        },
+        {
+          "path": "docs/operations.md",
+          "blob_sha": "c71a72d218093bf0141ad0d463af6251c908fdbc",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        }
+      ],
+      "limit": "실행·운영 효과·책의 정책 계층 전체 구현을 주장하지 않음"
+    },
+    {
+      "id": "request",
+      "chapters": [
+        "ch05"
+      ],
+      "reader_manuscript": "manuscript/demo/request.md",
+      "reader_url": "/demo/request/",
+      "source_ids": [
+        "S99"
+      ],
+      "verified_revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "checked_on": "2026-10-15",
+      "level": "문서·정적 코드 구조 확인",
+      "evidence_files": [
+        {
+          "path": ".github/ISSUE_TEMPLATE/feature.yml",
+          "blob_sha": "ea875d2c02e849ae540d200e9cce076adb0447be",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/.github/ISSUE_TEMPLATE/feature.yml",
+          "scope": "전체 파일"
+        },
+        {
+          "path": "factory/prompts/triage.md",
+          "blob_sha": "2099932ecf1c6dbc38e39e52368d7ed6658a3aee",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/factory/prompts/triage.md",
+          "scope": "전체 파일"
+        },
+        {
+          "path": "packages/factory/src/stages/triage.ts",
+          "blob_sha": "d6a079474402231ee49ee9124c6c5c426e595d43",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/triage.ts",
+          "scope": "전체 파일"
+        },
+        {
+          "path": "packages/factory/src/stages/command.ts",
+          "blob_sha": "d452ef32e255783d2acbdc2023797432a4e0b836",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/command.ts",
+          "scope": "전체 파일"
+        },
+        {
+          "path": "packages/factory/src/state/machine.ts",
+          "blob_sha": "8b4496d980909640bb2aca4674f37f82d61a7edb",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/state/machine.ts",
+          "scope": "전체 파일"
+        }
+      ],
+      "limit": "실행·운영 효과·책의 정책 계층 전체 구현을 주장하지 않음"
+    },
+    {
+      "id": "policy-and-gate",
+      "chapters": [
+        "ch03",
+        "ch12"
+      ],
+      "reader_manuscript": "manuscript/demo/policy-and-gate.md",
+      "reader_url": "/demo/policy-and-gate/",
+      "source_ids": [
+        "S100"
+      ],
+      "verified_revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "checked_on": "2026-10-15",
+      "level": "문서·정적 코드 구조 확인",
+      "evidence_files": [
+        {
+          "path": "factory/risk-policy.yml",
+          "blob_sha": "35a092ba8550e70b97b212afa6db37e695ddd66e",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/factory/risk-policy.yml",
+          "scope": "전체 파일"
+        },
+        {
+          "path": "packages/factory/src/policy/risk.ts",
+          "blob_sha": "06f8425966c24348c2e6a003499a6045c60ed7f1",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/policy/risk.ts",
+          "scope": "전체 파일"
+        },
+        {
+          "path": "packages/factory/src/stages/gate.ts",
+          "blob_sha": "db39598d7322f4b4ce4563d3de144f25a7fac193",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/gate.ts",
+          "scope": "전체 파일"
+        },
+        {
+          "path": "docs/operations.md",
+          "blob_sha": "c71a72d218093bf0141ad0d463af6251c908fdbc",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        }
+      ],
+      "limit": "실행·운영 효과·책의 정책 계층 전체 구현을 주장하지 않음"
+    },
+    {
+      "id": "evidence",
+      "chapters": [
+        "ch07"
+      ],
+      "reader_manuscript": "manuscript/demo/evidence.md",
+      "reader_url": "/demo/evidence/",
+      "source_ids": [
+        "S101"
+      ],
+      "verified_revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "checked_on": "2026-10-15",
+      "level": "문서·정적 코드 구조 확인",
+      "evidence_files": [
+        {
+          "path": "packages/factory/src/stages/evidence.ts",
+          "blob_sha": "0f7824a4b2101f5d0e1bf97ceefacb1c39d9eee1",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/evidence.ts",
+          "scope": "전체 파일"
+        },
+        {
+          "path": "packages/factory/src/policy/evidence.ts",
+          "blob_sha": "646bf877c85e0d8f003578371095d2025e645641",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/policy/evidence.ts",
+          "scope": "전체 파일"
+        },
+        {
+          "path": ".github/workflows/ci.yml",
+          "blob_sha": "b84c4de1263bfdfb825aad4e57bc40ff0cbb7a72",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/.github/workflows/ci.yml",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        },
+        {
+          "path": "docs/operations.md",
+          "blob_sha": "c71a72d218093bf0141ad0d463af6251c908fdbc",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        }
+      ],
+      "limit": "실행·운영 효과·책의 정책 계층 전체 구현을 주장하지 않음"
+    },
+    {
+      "id": "recovery",
+      "chapters": [
+        "ch08"
+      ],
+      "reader_manuscript": "manuscript/demo/recovery.md",
+      "reader_url": "/demo/recovery/",
+      "source_ids": [
+        "S102"
+      ],
+      "verified_revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "checked_on": "2026-10-15",
+      "level": "문서·정적 코드 구조 확인",
+      "evidence_files": [
+        {
+          "path": "packages/factory/src/stages/guard.ts",
+          "blob_sha": "8d1044d05f2a075589af4c0175f493c4e13a1586",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/guard.ts",
+          "scope": "전체 파일"
+        },
+        {
+          "path": "packages/factory/src/stages/command.ts",
+          "blob_sha": "d452ef32e255783d2acbdc2023797432a4e0b836",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/command.ts",
+          "scope": "전체 파일"
+        },
+        {
+          "path": "packages/factory/src/state/machine.ts",
+          "blob_sha": "8b4496d980909640bb2aca4674f37f82d61a7edb",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/state/machine.ts",
+          "scope": "전체 파일"
+        },
+        {
+          "path": "docs/operations.md",
+          "blob_sha": "c71a72d218093bf0141ad0d463af6251c908fdbc",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        }
+      ],
+      "limit": "실행·운영 효과·책의 정책 계층 전체 구현을 주장하지 않음"
+    },
+    {
+      "id": "execution-authority",
+      "chapters": [
+        "ch09"
+      ],
+      "reader_manuscript": "manuscript/demo/execution-authority.md",
+      "reader_url": "/demo/execution-authority/",
+      "source_ids": [
+        "S103"
+      ],
+      "verified_revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "checked_on": "2026-10-15",
+      "level": "문서·정적 코드 구조 확인",
+      "evidence_files": [
+        {
+          "path": ".github/workflows/factory-implement.yml",
+          "blob_sha": "84bccd3bce0d4a7fb1e2802f79a1394e83635774",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/.github/workflows/factory-implement.yml",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        },
+        {
+          "path": "packages/factory/src/stages/implement.ts",
+          "blob_sha": "4955f567db45e22fc6d1c79a2bf08e23d4d24ba0",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/implement.ts",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        },
+        {
+          "path": "packages/factory/src/stages/protect.ts",
+          "blob_sha": "f66f4c5de5232f011b2730b582ef37612bccf8d5",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/protect.ts",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        },
+        {
+          "path": "docs/operations.md",
+          "blob_sha": "c71a72d218093bf0141ad0d463af6251c908fdbc",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        }
+      ],
+      "limit": "실행·운영 효과·책의 정책 계층 전체 구현을 주장하지 않음"
+    },
+    {
+      "id": "agent-selection",
+      "chapters": [
+        "ch11"
+      ],
+      "reader_manuscript": "manuscript/demo/agent-selection.md",
+      "reader_url": "/demo/agent-selection/",
+      "source_ids": [
+        "S104"
+      ],
+      "verified_revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "checked_on": "2026-10-15",
+      "level": "문서·정적 코드 구조 확인",
+      "evidence_files": [
+        {
+          "path": "packages/factory/src/config/agents.ts",
+          "blob_sha": "ef221740f64420c141d1fe7f0165f4719c177c09",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/config/agents.ts",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        },
+        {
+          "path": "factory/agents.yml",
+          "blob_sha": "911963f9601f42c42e34143325203e00110b93cc",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/factory/agents.yml",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        },
+        {
+          "path": "packages/factory/src/stages/implement.ts",
+          "blob_sha": "4955f567db45e22fc6d1c79a2bf08e23d4d24ba0",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/implement.ts",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        },
+        {
+          "path": "packages/factory/src/stages/review.ts",
+          "blob_sha": "2f8406fb5846219874503c95a271498636e4ef16",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/review.ts",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        }
+      ],
+      "limit": "실행·운영 효과·책의 정책 계층 전체 구현을 주장하지 않음"
+    },
+    {
+      "id": "metrics",
+      "chapters": [
+        "ch17"
+      ],
+      "reader_manuscript": "manuscript/demo/metrics.md",
+      "reader_url": "/demo/metrics/",
+      "source_ids": [
+        "S105"
+      ],
+      "verified_revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "checked_on": "2026-10-15",
+      "level": "문서·정적 코드 구조 확인",
+      "evidence_files": [
+        {
+          "path": "packages/factory/src/report/metrics.ts",
+          "blob_sha": "40cd82afb0cc79ba400110b907597551788acec2",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/report/metrics.ts",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        },
+        {
+          "path": "packages/factory/src/stages/weekly.ts",
+          "blob_sha": "959cd342c18ed535405b9ac51ce594f0f774ee6f",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/weekly.ts",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        },
+        {
+          "path": "packages/factory/src/runs/store.ts",
+          "blob_sha": "38c57c40fa264b9a5916c6ebeefe162148161772",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/runs/store.ts",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        }
+      ],
+      "limit": "실행·운영 효과·책의 정책 계층 전체 구현을 주장하지 않음"
+    },
+    {
+      "id": "improvement",
+      "chapters": [
+        "ch19"
+      ],
+      "reader_manuscript": "manuscript/demo/improvement.md",
+      "reader_url": "/demo/improvement/",
+      "source_ids": [
+        "S106",
+        "S68"
+      ],
+      "verified_revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "checked_on": "2026-10-15",
+      "level": "문서·정적 코드 구조 확인",
+      "evidence_files": [
+        {
+          "path": "packages/factory/src/stages/eval.ts",
+          "blob_sha": "7ee2cc12462cc0c2ddf4070d2feaf7d610b3e41f",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/eval.ts",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        },
+        {
+          "path": "packages/factory/src/stages/collect.ts",
+          "blob_sha": "e54f76bc1ff3b6225e72f17c6fa3de6eb9a327aa",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/collect.ts",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        },
+        {
+          "path": "packages/factory/src/stages/improve.ts",
+          "blob_sha": "9ed51c236c62a9baf44a1dea091dc8f1a0c0704b",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/improve.ts",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        },
+        {
+          "path": "packages/factory/src/policy/improve-paths.ts",
+          "blob_sha": "cffbafe209ff6c388cbf26c05da996a488c5a329",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/policy/improve-paths.ts",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        },
+        {
+          "path": ".github/workflows/factory-weekly.yml",
+          "blob_sha": "a495785796675dfdfd9de62fd657229a3cdb5292",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/.github/workflows/factory-weekly.yml",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        },
+        {
+          "path": "docs/operations.md",
+          "blob_sha": "c71a72d218093bf0141ad0d463af6251c908fdbc",
+          "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md",
+          "scope": "전체 파일 취득 후 관련 함수·정의 직접 확인"
+        }
+      ],
+      "limit": "실행·운영 효과·책의 정책 계층 전체 구현을 주장하지 않음"
+    }
+  ],
+  "historical_records": {
+    "source_ids": [
+      "S68"
+    ],
+    "date": "2026-10-12",
+    "note": "의도적 리허설의 PR47/48와 원래 job 판본. 이번 후보의 새 실행 아님. PR48의 merge_commit_sha는 검사한 임시 병합 판본이며 실제 병합을 뜻하지 않는다.",
+    "prs": [
+      {
+        "pr": 47,
+        "url": "https://github.com/roboco-io/the-software-factory-demo/pull/47",
+        "merged": true,
+        "state": "closed",
+        "base_sha": "484da0efd671cc2c87cc2085ae43c7130a80985d",
+        "head_sha": "7f65b26d7d48a4dc9e49e461bb7e4886ad3f03dd",
+        "merge_commit_sha": "af44832a32248740a77156f60d124487cdca1c5e",
+        "created_at": "2026-10-12T08:24:29Z",
+        "checked_on": "2026-10-15",
+        "scope": "PR 본문과 메타데이터 재열람; 재실행 아님"
+      },
+      {
+        "pr": 48,
+        "url": "https://github.com/roboco-io/the-software-factory-demo/pull/48",
+        "merged": false,
+        "state": "closed",
+        "base_sha": "af44832a32248740a77156f60d124487cdca1c5e",
+        "head_sha": "60ef31c9e9db979fe290e3bd0493d8a6bb5e1b71",
+        "merge_commit_sha": "4dc986c9c8f06bf891e7d77720eb36463c16313d",
+        "created_at": "2026-10-12T08:30:12Z",
+        "checked_on": "2026-10-15",
+        "scope": "PR 본문과 메타데이터 재열람; 재실행 아님"
+      }
+    ],
+    "logs": [
+      {
+        "job_id": 114724977130,
+        "url": "https://github.com/roboco-io/the-software-factory-demo/actions/runs/38223377457/job/114724977130",
+        "observed": "PR47 eval 통과, error-format base 미검출/head 검출",
+        "versions": [
+          "484da0efd671cc2c87cc2085ae43c7130a80985d",
+          "7f65b26d7d48a4dc9e49e461bb7e4886ad3f03dd"
+        ]
+      },
+      {
+        "job_id": 114726765443,
+        "url": "https://github.com/roboco-io/the-software-factory-demo/actions/runs/38223958193/job/114726765443",
+        "observed": "PR48 tags.ts no-restricted-syntax 오류·종료 코드1",
+        "versions": [
+          "4dc986c9c8f06bf891e7d77720eb36463c16313d"
+        ]
+      }
+    ]
+  }
+}

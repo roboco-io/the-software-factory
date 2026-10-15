@@ -144,5 +144,27 @@
   "unmapped_chapters": {
     "scope": "2·4·6·10·13·14·15·16·18·20장에 직접 사례 문단을 추가하지 않음",
     "reason": "이번 확인에서 직접 뒷받침되는 운영 판단에 집중. 인지 참여·조직 설계·장기 학습 효과를 데모 실행만으로 연결하지 않고 관련 장을 통한 간접 참조를 유지."
-  }
+  },
+  "maintenance_runs": [
+    {
+      "run_id": "2026-10-15-demo-examples-initial",
+      "candidate_revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "sources": [
+        "S98",
+        "S99",
+        "S100",
+        "S101",
+        "S102",
+        "S103",
+        "S104",
+        "S105",
+        "S106"
+      ],
+      "case_registry": "research/demo-example-cases.json",
+      "claim_type": "정적 구조 관찰과 별도 저자 해석",
+      "note": "이전 claims와 revision은 당시 기록으로 유지. 현재 사용 범위는 registry와 S98~S106. 과거 실행 S68 유지.",
+      "status": "별도 AI 수정 검증 완료(해당 범위)",
+      "verification": "planning/reviews/2026-10-15-demo-examples-verify-initial.md"
+    }
+  ]
 }

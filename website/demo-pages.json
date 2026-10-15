@@ -1,0 +1,56 @@
+[
+  {
+    "id": "demo-index",
+    "path": "manuscript/demo/index.md",
+    "route": "demo",
+    "title": "데모 해설"
+  },
+  {
+    "id": "demo-request",
+    "path": "manuscript/demo/request.md",
+    "route": "demo/request",
+    "title": "요청에서 실행 가능한 작업까지"
+  },
+  {
+    "id": "demo-policy-and-gate",
+    "path": "manuscript/demo/policy-and-gate.md",
+    "route": "demo/policy-and-gate",
+    "title": "정책과 수용 경계"
+  },
+  {
+    "id": "demo-evidence",
+    "path": "manuscript/demo/evidence.md",
+    "route": "demo/evidence",
+    "title": "결과를 판단하는 증거"
+  },
+  {
+    "id": "demo-recovery",
+    "path": "manuscript/demo/recovery.md",
+    "route": "demo/recovery",
+    "title": "실패에서 복구로"
+  },
+  {
+    "id": "demo-execution-authority",
+    "path": "manuscript/demo/execution-authority.md",
+    "route": "demo/execution-authority",
+    "title": "만드는 권한과 게시하는 권한"
+  },
+  {
+    "id": "demo-agent-selection",
+    "path": "manuscript/demo/agent-selection.md",
+    "route": "demo/agent-selection",
+    "title": "에이전트 선택과 평가"
+  },
+  {
+    "id": "demo-metrics",
+    "path": "manuscript/demo/metrics.md",
+    "route": "demo/metrics",
+    "title": "활동과 성과를 구분하는 지표"
+  },
+  {
+    "id": "demo-improvement",
+    "path": "manuscript/demo/improvement.md",
+    "route": "demo/improvement",
+    "title": "관찰을 개선으로 연결하기"
+  }
+]

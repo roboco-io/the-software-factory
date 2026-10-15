@@ -20,7 +20,7 @@
 
 ## 구현 예제
 
-공통 구현 예제는 로보코의 [The Software Factory Demo](https://github.com/roboco-io/the-software-factory-demo)다. 고정 버전의 문서·코드·공개 실행 기록을 관련 장의 판단 원리에 연결한다. 설치 튜토리얼과 조직 효과의 입증 사례로 확대하지 않는다. 장별 범위는 [구현 사례 지도](../research/cases/software-factory-demo.md)를 따른다.
+공통 구현 예제는 로보코의 [The Software Factory Demo](https://github.com/roboco-io/the-software-factory-demo)다. 고정 버전의 문서·코드·공개 실행 기록을 관련 장의 판단 원리에 연결한다. 설치 튜토리얼과 조직 효과의 입증 사례로 확대하지 않는다. 장별 범위는 [구현 사례 지도](../research/cases/software-factory-demo.md)를 따른다. 독자는 [데모 해설](../manuscript/demo/index.md)에서 흐름과 구현 근거의 관계를 읽을 수 있다. 갱신 작업은 [데모 사례 정책](demo-example-maintenance-policy.md)과 [실행 안내](demo-example-maintenance-runbook.md)를 따른다.
 
 ## 주 독자
 

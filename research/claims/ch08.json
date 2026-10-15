@@ -140,5 +140,16 @@
     "result": "기존 장의 담당 역할·비용·한계가 세 축과 충돌하지 않아 본문 유지",
     "status": "대상 연결 검증 완료·본문 유지",
     "limit": "작성 에이전트의 자기 점검. 독립 인간·실제 독자·운영 효과·저자 편집 확정 아님"
+  },
+  "demo_explanation_update": {
+    "date": "2026-10-15",
+    "revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+    "source": "S102",
+    "location": "manuscript/demo/recovery.md",
+    "scope": "새 작업 차단·개별 중단·재시도·수동 복구",
+    "claim_type": "정적 사실과 저자 해석을 구분한 해설",
+    "status": "별도 AI 수정 검증 완료(해당 변경 범위)",
+    "prior_review": "변경 문단은 이전 버전의 리뷰 완료를 승계하지 않음",
+    "verification": "planning/reviews/2026-10-15-demo-examples-verify-initial.md"
   }
 }

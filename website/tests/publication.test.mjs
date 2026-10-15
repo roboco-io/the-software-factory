@@ -21,3 +21,16 @@ test('authored policy diagrams get public paths while unrelated SVG paths remain
  assert.ok(transformMarkdown('![정책 계층](../figures/policy-hierarchy.svg)').includes('![정책 계층](/diagrams/policy-hierarchy.svg)'));
  assert.throws(()=>publicLink('../figures/private.svg'));
 });
+test('only registered demo pages resolve with their authored context',()=>{
+ assert.equal(publicLink('../demo/request.md'),'/demo/request/');
+ assert.equal(publicLink('../demo/index.md'),'/demo/');
+ assert.equal(publicLink('evidence.md#s01','manuscript/demo/request.md'),'/demo/evidence/#s01');
+ assert.equal(publicLink('index.md','manuscript/demo/request.md'),'/demo/');
+ assert.equal(publicLink('../front-matter/00-preface.md','manuscript/demo/index.md'),'/book/preface/');
+ assert.throws(()=>publicLink('index.md'));
+ assert.throws(()=>publicLink('index.md','manuscript/demo/private.md'));
+ assert.throws(()=>publicLink('private.md','manuscript/demo/request.md'));
+ assert.throws(()=>publicLink('../demo/private.md'));
+ assert.throws(()=>publicLink('../demo/../STATUS.md'));
+ assert.ok(transformMarkdown('[解説](evidence.md)',{},'manuscript/demo/request.md').includes('(/demo/evidence/)'));
+});

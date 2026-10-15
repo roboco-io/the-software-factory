@@ -183,5 +183,12 @@
     "scope": "정책을 작업 지침으로, 하네스를 정책·계획과 집행·이력·개선으로 명시",
     "status": "검증 완료(변경 범위 자기 점검)",
     "limit": "독립 리뷰·전체 원고 편집 확정·운영 효과 검증 아님"
+  },
+  "demo_explanation_update": {
+    "source": "S98",
+    "revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+    "scope": "공통 예제 소개와 독자용 해설 연결",
+    "status": "별도 AI 수정 검증 완료(해당 변경 범위)",
+    "verification": "planning/reviews/2026-10-15-demo-examples-verify-initial.md"
   }
 }

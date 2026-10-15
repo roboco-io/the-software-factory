@@ -148,5 +148,16 @@
     "result": "에이전트가 의도에서 계약·작업을 도출하는 정상 경로와 반환 조건 추가",
     "status": "수정 및 연결 검증 완료",
     "limit": "작성 에이전트의 자기 점검. 독립 인간·실제 독자·운영 효과·저자 편집 확정 아님"
+  },
+  "demo_explanation_update": {
+    "date": "2026-10-15",
+    "revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+    "source": "S99",
+    "location": "manuscript/demo/request.md",
+    "scope": "요청 입력·정리·명령 권한과 상태 전이",
+    "claim_type": "정적 사실과 저자 해석을 구분한 해설",
+    "status": "별도 AI 수정 검증 완료(해당 변경 범위)",
+    "prior_review": "변경 문단은 이전 버전의 리뷰 완료를 승계하지 않음",
+    "verification": "planning/reviews/2026-10-15-demo-examples-verify-initial.md"
   }
 }

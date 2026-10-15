@@ -3745,6 +3745,314 @@
       "verification_scope": "Context7 공식 문서에서 사용자 지정 도메인의 site·base와 배포 흐름 확인",
       "limit": "배포 문서는 기능 설명. 실제 DNS·HTTPS·워크플로 결과는 배포 기록에서 별도 확인. 로고는 CC/MIT로 재허락하지 않음.",
       "use": "planning/sessions/2026-10-14-pages-deployment.md"
+    },
+    {
+      "id": "S98",
+      "title": "The Software Factory Demo — 데모 해설 (2026-10-15 확인 판본)",
+      "author": "ROBOCO / the-software-factory-demo contributors",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/README.md",
+      "published_on": null,
+      "checked_on": "2026-10-15",
+      "revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "revision_committed_on": "2026-10-13T22:20:56Z",
+      "verification_status": "고정 문서·정적 코드 관련 부분 직접 확인(근거 조사 에이전트 A/B)",
+      "verification_scope": "공통 예제의 흐름과 확인 범위",
+      "supporting_urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md"
+      ],
+      "use": "독자용 해설과 관련 장의 사례",
+      "limit": "데모 설치·테스트·워크플로 실행·전체 권한·운영 효과를 검증하지 않음. 과거 실행 기록은 S68의 당시 판본으로 구분.",
+      "prior_related_sources": [
+        "S59"
+      ],
+      "usage_review": {
+        "checked_on": "2026-10-15",
+        "files": [
+          "manuscript/demo/index.md",
+          "manuscript/chapters/ch01.md",
+          "manuscript/front-matter/00-preface.md"
+        ],
+        "direct_quote_words": 0,
+        "scope": "작동 관계의 짧은 자체 산문·원문 링크. 코드·원문·로그 전문이나 이미지 복제 없음.",
+        "permission_basis": "확인 판본 README의 자체 코드·문서·설정 Apache-2.0 표시와 LICENSE 조항 확인. 저자의 자체 산문·출처 표시로 관계를 해설하며 기본 200단어를 넘는 누적 의역은 이 허락 범위 안에서 관리한다. 제3자 파일·상표·이미지에는 확대하지 않는다.",
+        "license_url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/LICENSE",
+        "manual_review": "본문·해설·조사 보고서·메타데이터의 중복을 대조하고 같은 코드를 독립 효과 근거로 세지 않는다."
+      }
+    },
+    {
+      "id": "S99",
+      "title": "The Software Factory Demo — 요청에서 실행 가능한 작업까지 (2026-10-15 확인 판본)",
+      "author": "ROBOCO / the-software-factory-demo contributors",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/.github/ISSUE_TEMPLATE/feature.yml",
+      "published_on": null,
+      "checked_on": "2026-10-15",
+      "revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "revision_committed_on": "2026-10-13T22:20:56Z",
+      "verification_status": "고정 문서·정적 코드 관련 부분 직접 확인(근거 조사 에이전트 A/B)",
+      "verification_scope": "요청 입력·정리·명령 권한과 상태 전이",
+      "supporting_urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/factory/prompts/triage.md",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/triage.ts",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/command.ts",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/state/machine.ts"
+      ],
+      "use": "독자용 해설과 관련 장의 사례",
+      "limit": "데모 설치·테스트·워크플로 실행·전체 권한·운영 효과를 검증하지 않음. 과거 실행 기록은 S68의 당시 판본으로 구분.",
+      "prior_related_sources": [
+        "S61"
+      ],
+      "usage_review": {
+        "checked_on": "2026-10-15",
+        "files": [
+          "manuscript/demo/request.md",
+          "manuscript/chapters/ch05.md"
+        ],
+        "direct_quote_words": 0,
+        "scope": "작동 관계의 짧은 자체 산문·원문 링크. 코드·원문·로그 전문이나 이미지 복제 없음.",
+        "permission_basis": "확인 판본 README의 자체 코드·문서·설정 Apache-2.0 표시와 LICENSE 조항 확인. 저자의 자체 산문·출처 표시로 관계를 해설하며 기본 200단어를 넘는 누적 의역은 이 허락 범위 안에서 관리한다. 제3자 파일·상표·이미지에는 확대하지 않는다.",
+        "license_url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/LICENSE",
+        "manual_review": "본문·해설·조사 보고서·메타데이터의 중복을 대조하고 같은 코드를 독립 효과 근거로 세지 않는다."
+      }
+    },
+    {
+      "id": "S100",
+      "title": "The Software Factory Demo — 정책과 수용 경계 (2026-10-15 확인 판본)",
+      "author": "ROBOCO / the-software-factory-demo contributors",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/factory/risk-policy.yml",
+      "published_on": null,
+      "checked_on": "2026-10-15",
+      "revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "revision_committed_on": "2026-10-13T22:20:56Z",
+      "verification_status": "고정 문서·정적 코드 관련 부분 직접 확인(근거 조사 에이전트 A/B)",
+      "verification_scope": "변경 위험 분류·현재 버전 판정·자동 병합과 사람 이관",
+      "supporting_urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/policy/risk.ts",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/gate.ts",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md"
+      ],
+      "use": "독자용 해설과 관련 장의 사례",
+      "limit": "데모 설치·테스트·워크플로 실행·전체 권한·운영 효과를 검증하지 않음. 과거 실행 기록은 S68의 당시 판본으로 구분.",
+      "prior_related_sources": [
+        "S60"
+      ],
+      "usage_review": {
+        "checked_on": "2026-10-15",
+        "files": [
+          "manuscript/demo/policy-and-gate.md",
+          "manuscript/chapters/ch03.md",
+          "manuscript/chapters/ch12.md"
+        ],
+        "direct_quote_words": 0,
+        "scope": "작동 관계의 짧은 자체 산문·원문 링크. 코드·원문·로그 전문이나 이미지 복제 없음.",
+        "permission_basis": "확인 판본 README의 자체 코드·문서·설정 Apache-2.0 표시와 LICENSE 조항 확인. 저자의 자체 산문·출처 표시로 관계를 해설하며 기본 200단어를 넘는 누적 의역은 이 허락 범위 안에서 관리한다. 제3자 파일·상표·이미지에는 확대하지 않는다.",
+        "license_url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/LICENSE",
+        "manual_review": "본문·해설·조사 보고서·메타데이터의 중복을 대조하고 같은 코드를 독립 효과 근거로 세지 않는다."
+      }
+    },
+    {
+      "id": "S101",
+      "title": "The Software Factory Demo — 결과를 판단하는 증거 (2026-10-15 확인 판본)",
+      "author": "ROBOCO / the-software-factory-demo contributors",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/evidence.ts",
+      "published_on": null,
+      "checked_on": "2026-10-15",
+      "revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "revision_committed_on": "2026-10-13T22:20:56Z",
+      "verification_status": "고정 문서·정적 코드 관련 부분 직접 확인(근거 조사 에이전트 A/B)",
+      "verification_scope": "수정 대상·전후 비교·실행 오류와 단언 실패·판정 한계",
+      "supporting_urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/policy/evidence.ts",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/.github/workflows/ci.yml",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md"
+      ],
+      "use": "독자용 해설과 관련 장의 사례",
+      "limit": "데모 설치·테스트·워크플로 실행·전체 권한·운영 효과를 검증하지 않음. 과거 실행 기록은 S68의 당시 판본으로 구분.",
+      "prior_related_sources": [
+        "S62"
+      ],
+      "usage_review": {
+        "checked_on": "2026-10-15",
+        "files": [
+          "manuscript/demo/evidence.md",
+          "manuscript/chapters/ch07.md"
+        ],
+        "direct_quote_words": 0,
+        "scope": "작동 관계의 짧은 자체 산문·원문 링크. 코드·원문·로그 전문이나 이미지 복제 없음.",
+        "permission_basis": "확인 판본 README의 자체 코드·문서·설정 Apache-2.0 표시와 LICENSE 조항 확인. 저자의 자체 산문·출처 표시로 관계를 해설하며 기본 200단어를 넘는 누적 의역은 이 허락 범위 안에서 관리한다. 제3자 파일·상표·이미지에는 확대하지 않는다.",
+        "license_url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/LICENSE",
+        "manual_review": "본문·해설·조사 보고서·메타데이터의 중복을 대조하고 같은 코드를 독립 효과 근거로 세지 않는다."
+      }
+    },
+    {
+      "id": "S102",
+      "title": "The Software Factory Demo — 실패에서 복구로 (2026-10-15 확인 판본)",
+      "author": "ROBOCO / the-software-factory-demo contributors",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/guard.ts",
+      "published_on": null,
+      "checked_on": "2026-10-15",
+      "revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "revision_committed_on": "2026-10-13T22:20:56Z",
+      "verification_status": "고정 문서·정적 코드 관련 부분 직접 확인(근거 조사 에이전트 A/B)",
+      "verification_scope": "새 작업 차단·개별 중단·재시도·수동 복구",
+      "supporting_urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/command.ts",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/state/machine.ts",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md"
+      ],
+      "use": "독자용 해설과 관련 장의 사례",
+      "limit": "데모 설치·테스트·워크플로 실행·전체 권한·운영 효과를 검증하지 않음. 과거 실행 기록은 S68의 당시 판본으로 구분.",
+      "prior_related_sources": [
+        "S63"
+      ],
+      "usage_review": {
+        "checked_on": "2026-10-15",
+        "files": [
+          "manuscript/demo/recovery.md",
+          "manuscript/chapters/ch08.md"
+        ],
+        "direct_quote_words": 0,
+        "scope": "작동 관계의 짧은 자체 산문·원문 링크. 코드·원문·로그 전문이나 이미지 복제 없음.",
+        "permission_basis": "확인 판본 README의 자체 코드·문서·설정 Apache-2.0 표시와 LICENSE 조항 확인. 저자의 자체 산문·출처 표시로 관계를 해설하며 기본 200단어를 넘는 누적 의역은 이 허락 범위 안에서 관리한다. 제3자 파일·상표·이미지에는 확대하지 않는다.",
+        "license_url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/LICENSE",
+        "manual_review": "본문·해설·조사 보고서·메타데이터의 중복을 대조하고 같은 코드를 독립 효과 근거로 세지 않는다."
+      }
+    },
+    {
+      "id": "S103",
+      "title": "The Software Factory Demo — 만드는 권한과 게시하는 권한 (2026-10-15 확인 판본)",
+      "author": "ROBOCO / the-software-factory-demo contributors",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/.github/workflows/factory-implement.yml",
+      "published_on": null,
+      "checked_on": "2026-10-15",
+      "revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "revision_committed_on": "2026-10-13T22:20:56Z",
+      "verification_status": "고정 문서·정적 코드 관련 부분 직접 확인(근거 조사 에이전트 A/B)",
+      "verification_scope": "준비·수행·게시의 권한과 계획·결과 전달 및 게시 전 검증",
+      "supporting_urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/implement.ts",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/protect.ts",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md"
+      ],
+      "use": "독자용 해설과 관련 장의 사례",
+      "limit": "데모 설치·테스트·워크플로 실행·전체 권한·운영 효과를 검증하지 않음. 과거 실행 기록은 S68의 당시 판본으로 구분.",
+      "prior_related_sources": [
+        "S64"
+      ],
+      "usage_review": {
+        "checked_on": "2026-10-15",
+        "files": [
+          "manuscript/demo/execution-authority.md",
+          "manuscript/chapters/ch09.md"
+        ],
+        "direct_quote_words": 0,
+        "scope": "작동 관계의 짧은 자체 산문·원문 링크. 코드·원문·로그 전문이나 이미지 복제 없음.",
+        "permission_basis": "확인 판본 README의 자체 코드·문서·설정 Apache-2.0 표시와 LICENSE 조항 확인. 저자의 자체 산문·출처 표시로 관계를 해설하며 기본 200단어를 넘는 누적 의역은 이 허락 범위 안에서 관리한다. 제3자 파일·상표·이미지에는 확대하지 않는다.",
+        "license_url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/LICENSE",
+        "manual_review": "본문·해설·조사 보고서·메타데이터의 중복을 대조하고 같은 코드를 독립 효과 근거로 세지 않는다."
+      }
+    },
+    {
+      "id": "S104",
+      "title": "The Software Factory Demo — 에이전트 선택과 평가 (2026-10-15 확인 판본)",
+      "author": "ROBOCO / the-software-factory-demo contributors",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/config/agents.ts",
+      "published_on": null,
+      "checked_on": "2026-10-15",
+      "revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "revision_committed_on": "2026-10-13T22:20:56Z",
+      "verification_status": "고정 문서·정적 코드 관련 부분 직접 확인(근거 조사 에이전트 A/B)",
+      "verification_scope": "역할 선언·다른 도구 배정·호출·배정 실패",
+      "supporting_urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/factory/agents.yml",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/implement.ts",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/review.ts"
+      ],
+      "use": "독자용 해설과 관련 장의 사례",
+      "limit": "데모 설치·테스트·워크플로 실행·전체 권한·운영 효과를 검증하지 않음. 과거 실행 기록은 S68의 당시 판본으로 구분.",
+      "prior_related_sources": [
+        "S65"
+      ],
+      "usage_review": {
+        "checked_on": "2026-10-15",
+        "files": [
+          "manuscript/demo/agent-selection.md",
+          "manuscript/chapters/ch11.md"
+        ],
+        "direct_quote_words": 0,
+        "scope": "작동 관계의 짧은 자체 산문·원문 링크. 코드·원문·로그 전문이나 이미지 복제 없음.",
+        "permission_basis": "확인 판본 README의 자체 코드·문서·설정 Apache-2.0 표시와 LICENSE 조항 확인. 저자의 자체 산문·출처 표시로 관계를 해설하며 기본 200단어를 넘는 누적 의역은 이 허락 범위 안에서 관리한다. 제3자 파일·상표·이미지에는 확대하지 않는다.",
+        "license_url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/LICENSE",
+        "manual_review": "본문·해설·조사 보고서·메타데이터의 중복을 대조하고 같은 코드를 독립 효과 근거로 세지 않는다."
+      }
+    },
+    {
+      "id": "S105",
+      "title": "The Software Factory Demo — 활동과 성과를 구분하는 지표 (2026-10-15 확인 판본)",
+      "author": "ROBOCO / the-software-factory-demo contributors",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/report/metrics.ts",
+      "published_on": null,
+      "checked_on": "2026-10-15",
+      "revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "revision_committed_on": "2026-10-13T22:20:56Z",
+      "verification_status": "고정 문서·정적 코드 관련 부분 직접 확인(근거 조사 에이전트 A/B)",
+      "verification_scope": "관찰 창·분모·완주·정책 보류·비용 누락",
+      "supporting_urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/weekly.ts",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/runs/store.ts"
+      ],
+      "use": "독자용 해설과 관련 장의 사례",
+      "limit": "데모 설치·테스트·워크플로 실행·전체 권한·운영 효과를 검증하지 않음. 과거 실행 기록은 S68의 당시 판본으로 구분.",
+      "prior_related_sources": [
+        "S66"
+      ],
+      "usage_review": {
+        "checked_on": "2026-10-15",
+        "files": [
+          "manuscript/demo/metrics.md",
+          "manuscript/chapters/ch17.md"
+        ],
+        "direct_quote_words": 0,
+        "scope": "작동 관계의 짧은 자체 산문·원문 링크. 코드·원문·로그 전문이나 이미지 복제 없음.",
+        "permission_basis": "확인 판본 README의 자체 코드·문서·설정 Apache-2.0 표시와 LICENSE 조항 확인. 저자의 자체 산문·출처 표시로 관계를 해설하며 기본 200단어를 넘는 누적 의역은 이 허락 범위 안에서 관리한다. 제3자 파일·상표·이미지에는 확대하지 않는다.",
+        "license_url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/LICENSE",
+        "manual_review": "본문·해설·조사 보고서·메타데이터의 중복을 대조하고 같은 코드를 독립 효과 근거로 세지 않는다."
+      }
+    },
+    {
+      "id": "S106",
+      "title": "The Software Factory Demo — 관찰을 개선으로 연결하기 (2026-10-15 확인 판본)",
+      "author": "ROBOCO / the-software-factory-demo contributors",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/eval.ts",
+      "published_on": null,
+      "checked_on": "2026-10-15",
+      "revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "revision_committed_on": "2026-10-13T22:20:56Z",
+      "verification_status": "고정 문서·정적 코드 관련 부분 직접 확인(근거 조사 에이전트 A/B)",
+      "verification_scope": "후보 수집·허용 변경·새 사례 전후 검출과 회귀, 과거 실행과의 구분",
+      "supporting_urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/collect.ts",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/improve.ts",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/policy/improve-paths.ts",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/.github/workflows/factory-weekly.yml",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md"
+      ],
+      "use": "독자용 해설과 관련 장의 사례",
+      "limit": "데모 설치·테스트·워크플로 실행·전체 권한·운영 효과를 검증하지 않음. 과거 실행 기록은 S68의 당시 판본으로 구분.",
+      "prior_related_sources": [
+        "S67"
+      ],
+      "usage_review": {
+        "checked_on": "2026-10-15",
+        "files": [
+          "manuscript/demo/improvement.md",
+          "manuscript/chapters/ch19.md"
+        ],
+        "direct_quote_words": 0,
+        "scope": "작동 관계의 짧은 자체 산문·원문 링크. 코드·원문·로그 전문이나 이미지 복제 없음.",
+        "permission_basis": "확인 판본 README의 자체 코드·문서·설정 Apache-2.0 표시와 LICENSE 조항 확인. 저자의 자체 산문·출처 표시로 관계를 해설하며 기본 200단어를 넘는 누적 의역은 이 허락 범위 안에서 관리한다. 제3자 파일·상표·이미지에는 확대하지 않는다.",
+        "license_url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/LICENSE",
+        "manual_review": "본문·해설·조사 보고서·메타데이터의 중복을 대조하고 같은 코드를 독립 효과 근거로 세지 않는다."
+      }
     }
   ],
   "source_aliases": {

@@ -1,0 +1,44 @@
+{
+  "axis": "reader-style",
+  "scope": "ch07",
+  "review_date": "2026-10-15",
+  "base_commit": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+  "working_tree_status": "?? output/ (대상 파일 변경 없음)",
+  "target_files_uncommitted_changes": false,
+  "sha256": {
+    "manuscript/chapters/ch07.md": "2876529d23f932d42c4b8d0e1c81299a28f3d0fb29a7182ffe3ec0cfe027cbff",
+    "planning/review-policies/README.md": "03821ccbcc410b5ce574c677e637d8d1e7dd722fa250766ebe818bf0907b2a5e",
+    "planning/review-policies/03-reader-style.md": "089b0616c2172e9e26d47fb196b30c524fe11b4a207997bc0ad45267c923fca9",
+    ".claude/agents/review-reader-style.md": "72db562eb8ebcacbad9eccd7970e20ba1e36197d709562cc0eb681295943922d",
+    "planning/editorial-policy.md": "b4dd176998da253ccb9330f11b702972262f04697f5b9d5fe2453f44cba4baaf",
+    "AGENTS.md": "3ac508335144af80177cdaa6cbe61210f47f1ca6c8c6addb467711be0966c770",
+    "planning/book-brief.md": "ceba36b7f52880e6d956d6ad946ff4bae7d538554f760eba064d7cd0181d1f4d"
+  },
+  "searched_only": [
+    "manuscript/front-matter/00-preface.md",
+    "manuscript/chapters/ch01.md",
+    "manuscript/chapters/ch02.md",
+    "manuscript/chapters/ch03.md",
+    "manuscript/chapters/ch04.md",
+    "manuscript/chapters/ch05.md",
+    "manuscript/chapters/ch06.md"
+  ],
+  "read_for_context": [
+    "research/sources.json (S10,S13,S18,S42,S59,S62 항목)",
+    "website/tests/publication.test.mjs 12-14행"
+  ],
+  "outputs": [
+    "planning/reviews/2026-10-15-reader-style-ch07.md",
+    "planning/reviews/2026-10-15-reader-style-ch07.json",
+    "planning/reviews/2026-10-15-reader-style-ch07-manifest.json"
+  ],
+  "not_checked": [
+    "실제 독자 시험",
+    "서문·1-6장 전문",
+    "patterns P06·P07 원문",
+    "research/claims/ch07.json",
+    "8·9·16·19장",
+    "공개 웹본 빌드 결과"
+  ],
+  "status_md_updated": false
+}

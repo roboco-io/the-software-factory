@@ -1,0 +1,25 @@
+{
+  "reviewed_on": "2026-10-15",
+  "axis": "evidence",
+  "scope": "ch07",
+  "variant": "verify",
+  "base_commit": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+  "working_tree_clean": false,
+  "policy": [
+    "planning/review-policies/README.md (조정 후, D28)",
+    "planning/review-policies/02-evidence.md (저자 검토 전, 기준으로 사용 가능)"
+  ],
+  "files": {
+    "manuscript/chapters/ch07.md": "425aeb47664e6bf8f21cba07181d3114064b7634da95d626d5f7ab6e26af16c8",
+    "manuscript/patterns/p06.md": "5b4ae48de698daede970aec218614fe5d8c5df1e211f99a225346c5b00a4224d",
+    "manuscript/patterns/p07.md": "f7d6e02803017689dda2e578a8d1777afe3d0e0a1bc5556e2518995c4e6b2ae5",
+    "research/claims/ch07.json": "567f6f226ae8abaa922b94898c828792c68d7dd634a2046d876eeb472c01243d"
+  },
+  "external_sources_checked": {
+    "S62": "gh api contents evidence.ts @25a73b9 (426행 전체 중 판정·보고서 처리 부분 읽음)",
+    "S59": "gh api contents README.md @25a73b9, '팩토리 보안 한계' 절 204·206행",
+    "S13": "gh pr view 18048 --json",
+    "S18": "gh pr view 17660 --json",
+    "S10": "curl 원문 HTML, 정의 절·Types of graders 절"
+  }
+}

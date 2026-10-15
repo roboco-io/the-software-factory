@@ -1,0 +1,101 @@
+{
+  "axis": "argument",
+  "scope": "ch07",
+  "variant": "cmp",
+  "date": "2026-10-15",
+  "base_commit": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+  "worktree_status_at_start": [
+    "?? output/",
+    "?? planning/reviews/2026-10-15-argument-ch07-cmp.json",
+    "?? planning/reviews/2026-10-15-argument-ch07-cmp.md",
+    "?? planning/reviews/2026-10-15-argument-ch07-manifest.json",
+    "?? planning/reviews/2026-10-15-argument-ch07.json",
+    "?? planning/reviews/2026-10-15-argument-ch07.md",
+    "?? planning/reviews/2026-10-15-evidence-ch07-cmp.md",
+    "?? planning/reviews/2026-10-15-evidence-ch07-manifest.json",
+    "?? planning/reviews/2026-10-15-evidence-ch07.json",
+    "?? planning/reviews/2026-10-15-evidence-ch07.md",
+    "?? planning/reviews/2026-10-15-publication-ch07-cmp-manifest.json",
+    "?? planning/reviews/2026-10-15-publication-ch07-cmp.json",
+    "?? planning/reviews/2026-10-15-publication-ch07-cmp.md",
+    "?? planning/reviews/2026-10-15-publication-ch07-manifest.json",
+    "?? planning/reviews/2026-10-15-publication-ch07.json",
+    "?? planning/reviews/2026-10-15-publication-ch07.md",
+    "?? planning/reviews/2026-10-15-reader-style-ch07-cmp.md",
+    "?? planning/reviews/2026-10-15-reader-style-ch07-manifest.json",
+    "?? planning/reviews/2026-10-15-reader-style-ch07.json",
+    "?? planning/reviews/2026-10-15-reader-style-ch07.md",
+    "?? planning/reviews/2026-10-15-round-ch07.md"
+  ],
+  "target_files_uncommitted_changes": false,
+  "files_read_full": {
+    "manuscript/chapters/ch06.md": "980c0d6c51d27ede3ce24f99ed7854f4449efbf81ed8a0ed6fef2364f82ecc7d",
+    "manuscript/chapters/ch07.md": "2876529d23f932d42c4b8d0e1c81299a28f3d0fb29a7182ffe3ec0cfe027cbff",
+    "manuscript/chapters/ch08.md": "52732551dab816fd9e991a05484876163b8732471ee99b65c2213633bc2405c9",
+    "manuscript/patterns/p06.md": "b64fa9c9dcffa423b42e9807e914fb26685f5767b5287d33a38de69c0de36715",
+    "manuscript/patterns/p07.md": "dd48d5079511e382bac24a020e08338f595120103d3da19b591e8d0a635f654a",
+    "pattern_catalog.json": "cb3e66d0d8eaeaea3067b062beddd1cd393ac958d90d4f17390db3b9d1bf3cdf",
+    "AGENTS.md": "3ac508335144af80177cdaa6cbe61210f47f1ca6c8c6addb467711be0966c770",
+    "planning/book-brief.md": "ceba36b7f52880e6d956d6ad946ff4bae7d538554f760eba064d7cd0181d1f4d",
+    "outline/toc.md": "b1c7c9fa6c85c13d920c709cfb07ab55ca5f742d25eb2b675317ed474075668d",
+    "research/harness-editorial-note.md": "1b8ca2b0849075d5970b727b70f9c7e85270af2fe66d722c9d7dc64808e4e7d7",
+    "planning/review-policies/README.md": "03821ccbcc410b5ce574c677e637d8d1e7dd722fa250766ebe818bf0907b2a5e",
+    "planning/review-policies/01-argument.md": "3f1f3ebe8c1b2b995b6d645d3f3d57e8a860ccf6f1b9275528ed5d82b0c4dbd6",
+    ".claude/agents/review-argument.md": "74105f143af2431d0bb421d25a1aa754d639f8ac1e552316867f8f5f883d3e16"
+  },
+  "files_read_partial": {
+    "manuscript/chapters/ch01.md": {
+      "range": "하네스 언급 문단(13·21·25·31·33·35행)",
+      "sha256": "12d90025a081519dfb86f88f2793163987196cc0ce6fbda07677fc99e3f6f1b4"
+    },
+    "manuscript/chapters/ch03.md": {
+      "range": "31행",
+      "sha256": "61ecb27620d5c1a43fa52afe7e410a6baf958dd7d33f2ff08b63011cabf3b8d1"
+    },
+    "manuscript/chapters/ch04.md": {
+      "range": "21-25·37·77행",
+      "sha256": "0b0b6d8bdeae06fd15d556850a070be31ece8c2602246811c6076ac7b931c2f1"
+    },
+    "manuscript/chapters/ch09.md": {
+      "range": "9·31-37·48-73·100-108행",
+      "sha256": "ab2991c86d549f1223a7efde5ffe88a60055dab53665ba3201170ee419ab056c"
+    },
+    "manuscript/chapters/ch12.md": {
+      "range": "35-49행",
+      "sha256": "5d2d2deb34c60ffde34ecac40f30a4947d44936825819db10580c3f500053f7d"
+    },
+    "manuscript/chapters/ch16.md": {
+      "range": "43·94행",
+      "sha256": "49c6f3614caa554ecb8a92b230485c5701dcb51920ffce0d47b77d37ecf7c091"
+    },
+    "manuscript/front-matter/00-preface.md": {
+      "range": "17·19행",
+      "sha256": "270d4ea6a3003a181b91c942c9334790f4e4620c5ccc06e79cba966fd658250a"
+    },
+    "research/sources.json": {
+      "range": "S13·S18·S42 항목",
+      "sha256": "3cc0f524429cb3e6b505721998adf1701eae38b764f36cc6999a7285548f949e"
+    },
+    "research/claims/ch07.json": {
+      "range": "앞부분 2500자",
+      "sha256": "1012a347d0d5c5838ba55eb61494b26989bbf772bb3eb553d9e6d5df0172edd6"
+    },
+    "research/cases/openhands-revert.md": {
+      "range": "10·12·20행",
+      "sha256": "8a3324e02ae6eb4e334ba8ba042500e3003639ad624b04f4b1e4398cd63585a4"
+    }
+  },
+  "commands": [
+    "git rev-parse HEAD",
+    "git status --short",
+    "git log --oneline -- manuscript/chapters/ch07.md",
+    "git show 7c0fc80 -- manuscript/chapters/ch07.md",
+    "grep (하네스·7장·P\\d\\d·연락처)",
+    "shasum -a 256"
+  ],
+  "outputs": [
+    "planning/reviews/2026-10-15-argument-ch07-cmp.md",
+    "planning/reviews/2026-10-15-argument-ch07-cmp.json",
+    "planning/reviews/2026-10-15-argument-ch07-cmp-manifest.json"
+  ]
+}

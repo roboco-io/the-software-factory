@@ -1,0 +1,61 @@
+{
+  "axis": "evidence",
+  "scope": "ch07",
+  "variant": "verify",
+  "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c (+미커밋 수정)",
+  "report": "planning/reviews/2026-10-15-evidence-ch07-verify.md",
+  "opinions": [
+    {
+      "id": "E001-cmp",
+      "priority": "P2",
+      "status": "검증 완료",
+      "axis": "evidence",
+      "location": "manuscript/chapters/ch07.md 66행 (실행 오류와 재현 증거를 구분하는 구현)",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c (+미커밋 수정)",
+      "problem": "원래 지적: 64행 '실제 단언이 실패'가 데모 evidence.ts의 판정보다 강하다. 수정 후 본문은 '개별 테스트 사례가 실패'로 좁혔고, 문단 첫머리에 코드를 읽어 확인한 동작이며 실행 결과가 아니라고 밝힌다.",
+      "reader_impact": "독자가 판정이 단언 실패만 인정한다고 오해하지 않는다.",
+      "evidence": "고정 커밋 25a73b9 packages/factory/src/stages/evidence.ts를 gh api(contents?ref=25a73b9..., raw)로 직접 읽었다. judgeSide(174-201행)는 assertionResults[].status==='failed'를 세며 단언 실패와 다른 예외를 구분하지 않는다. message가 비어 있지 않거나 assertionResults가 비면 collectErrors로 분리한다. 수정 전(base) 판정(387-402행): collectErrors가 있으면 실패, 어느 쪽에서도 base.failed>0이 아니면 실패, head는 collectErrors·failed>0·passed===0이면 실패. 시간 초과(15분)·보고서 없음/형식 오류(fail closed)도 실패(369-380행 부근). 수정 후 본문의 세 서술(개별 테스트 사례 실패 / 수집 오류·시간 초과·보고서 누락 불인정 / 수정 후 통과)이 모두 코드와 일치한다. 실행하지 않았다.",
+      "minimal_fix": "없음",
+      "acceptance": "수정 후 66행과 evidence.ts 대조 완료. 본문은 '단언'이라는 표현을 쓰지 않는다.",
+      "forward_to": []
+    },
+    {
+      "id": "E003-cmp",
+      "priority": "P2",
+      "status": "검증 완료",
+      "axis": "evidence",
+      "location": "manuscript/chapters/ch07.md 66행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c (+미커밋 수정)",
+      "problem": "원래 지적: 7장 안에서 데모가 저자 측(로보코) 자료이며 코드 읽기 수준 확인임을 밝히지 않는다. 수정 후 66행은 '이 책의 공통 구현 예제인 로보코의 데모'라고 쓰고 '이 코드를 읽어 확인한 동작이며 실행해 본 결과가 아니다'라고 적는다.",
+      "reader_impact": "독자가 데모를 독립 제3자 사례나 실행 검증으로 읽지 않는다.",
+      "evidence": "S59 limit('저자 측 데모 설명과 코드 구조. 운영 효과·독립 재현 아님')·S62 verification_scope(코드 구조 확인)와 본문 표현이 맞는다. 주장 메모의 새 항목 유형 '직접 확인한 관찰(코드 구조 확인)'과도 맞는다. 저자 측이라는 점을 '로보코'와 '이 책의 공통 구현 예제'로 밝혔다. 첫 등장 기준의 문체 판단은 독자·문체 축 소관.",
+      "minimal_fix": "없음",
+      "acceptance": "수정 후 66행 확인 완료.",
+      "forward_to": []
+    },
+    {
+      "id": "E005",
+      "priority": "P3",
+      "status": "열림",
+      "axis": "evidence",
+      "location": "manuscript/chapters/ch07.md 56행 (S13 문장) / research/claims/ch07.json 해당 주장 메모",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c (+미커밋 수정)",
+      "problem": "새 본문 '#17660의 변경 전체를 되돌린다'는 S13 본문 Summary 'Revert #17660 in full'과 Notes 'exact revert'에 근거하며 사실로 맞다. 그러나 주장 메모(문단 2의 note)와 출처 대장 S13 verification_scope에는 이 범위(전체 되돌림) 확인이 기록되어 있지 않다. 54행의 '오픈소스 코딩 에이전트 프로젝트 OpenHands'라는 설명도 S18·S13 본문에 없는 일반 지식이다.",
+      "reader_impact": "독자 판단에는 영향이 없다. 근거 기록이 본문보다 좁아 다음 리뷰에서 같은 문장을 출처 밖 서술로 오인할 수 있다.",
+      "evidence": "gh pr view 18048 --json body,state,mergedAt: MERGED 2026-10-06T13:41:30Z, Summary 첫 항목 'Revert #17660 in full.', Why 'removed the bundled VS Code consumer before OpenHands Enterprise had an equivalent path...', Design Doc 'this is an exact revert'. gh pr view 17660: MERGED 2026-10-06T01:38:53Z, 'no packaged-release claim is made'. 두 PR 본문 모두 프로젝트 성격은 서술하지 않는다. 프로젝트 성격은 이번에 확인하지 않았다(원문 미대조).",
+      "minimal_fix": "주장 메모 S13 항목 note에 'Summary: Revert #17660 in full, exact revert' 확인을 한 줄 추가하고, 프로젝트 설명은 근거를 달거나 메모에 일반 지식임을 적는다. 선택 사항.",
+      "acceptance": "메모에 기록이 있으면 닫는다.",
+      "forward_to": []
+    }
+  ],
+  "handoffs": [
+    {
+      "forward_to": [
+        "reader-style"
+      ],
+      "location": "manuscript/chapters/ch07.md 32행 S10 문장 뒤 '이 장은 뒤의 것을 결과 상태라고 부른다'",
+      "problem": "'뒤의 것'이 환경에 남은 상태인지 코드·모델·사람 판정인지 문장만으로 모호할 수 있다. 출처 표식 [S10] 뒤에 저자 용어 정의를 두어 출처 범위 구분은 유지되므로 사실 축 문제는 아니다."
+    }
+  ],
+  "handoffs_received": []
+}

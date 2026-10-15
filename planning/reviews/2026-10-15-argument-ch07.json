@@ -1,0 +1,280 @@
+{
+  "date": "2026-10-15",
+  "axis": "argument",
+  "scope": "ch07",
+  "base_commit": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+  "policies": {
+    "planning/review-policies/README.md": "저자 검토 후 확정(확정 전)",
+    "planning/review-policies/01-argument.md": "저자 검토 후 확정(확정 전)"
+  },
+  "reviewer": "review-argument 에이전트(AI), 독립 인간 리뷰 아님",
+  "counts": {
+    "P0": 0,
+    "P1": 1,
+    "P2": 6,
+    "P3": 2
+  },
+  "summary": {
+    "chapter": 7,
+    "central_claim": "완료 보고는 수용 판단을 요청하는 자료이므로, 조직은 작업 전에 정한 완료 조건마다 증거와 판정 경로를 연결하고 수행자와 다른 기준·자료·권한으로 판정해 확인한 범위 안에서만 결과를 수용해야 한다.",
+    "leader_decision": "리더는 변경의 영향과 복구 가능성에 따라 결과마다 완료 조건·증거·판정 경로를 정하고, 미검증 조건의 제한 수용과 후속 관찰의 책임자를 지정한다.",
+    "abilities_propositions": [
+      "수행자의 완료 선언을 결과의 증거와 연결한다",
+      "자동 실행의 권한, 예외 처리와 책임을 설계한다",
+      "설명 가능한 자동화는 개선을 돕는다",
+      "전자동 개발은 정의한 범위의 정상 경로를 자동화한다"
+    ],
+    "patterns": [
+      "P06",
+      "P07"
+    ],
+    "missing_steps": [
+      "A001",
+      "A003"
+    ]
+  },
+  "findings": [
+    {
+      "id": "A001",
+      "priority": "P1",
+      "status": "열림",
+      "axis": "argument",
+      "location": "ch07.md 7·13·17·19-24·28·44행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "problem": "7행은 수용을 책임 인수로 정의하고 28행은 정상 경로의 자동 수용을 제시하지만, 자동 수용된 결과의 책임 주체와 판정 권한·수용 권한의 관계를 밝히지 않는다. 책임 주체 표현이 여섯 가지로 흩어져 있다.",
+      "reader_impact": "리더가 자동 수용 경로의 결과 책임을 누구에게 둘지 7장에서 판단할 수 없고, 책임이 비어 있는 수용으로 오해할 수 있다.",
+      "evidence": "기준 1·2·3. 7장 전체, 9장 105행, 12장 49행, book-brief 책의 핵심을 읽음. 9·12장 전체는 읽지 않음.",
+      "minimum_fix": "28행 뒤에 자동 수용 경로의 결과 책임은 그 검증 정책을 승인한 수용 권한자에게 있고, 판정자는 증거를 대조하며 수용 권한자가 미검증 위험의 감수를 결정한다는 구분을 두세 문장으로 추가하고 9장으로 넘긴다.",
+      "acceptance": "7장만 읽고 자동 수용 결과의 책임자를 지목할 수 있고, 판정자와 수용 권한자의 관계가 명시되며, 9장 105행·12장 49행과 모순되지 않는다.",
+      "policy_criteria": [
+        1,
+        2,
+        3
+      ],
+      "files": [
+        "manuscript/chapters/ch07.md"
+      ]
+    },
+    {
+      "id": "A002",
+      "priority": "P2",
+      "status": "열림",
+      "axis": "argument",
+      "location": "ch07.md 28·46·80행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "problem": "28행은 정상 경로의 조건으로 독립 판정을 들지만 46·80행은 독립 검토를 고영향·반복 오해 조건에 한정하고 저위험 작업은 정해진 증거로 수용한다. 28행은 독립성 정의(40절)보다 앞선다.",
+      "reader_impact": "저영향 반복 작업에도 독립 판정을 의무화할지에 대해 장 안의 기준이 다른 답을 준다.",
+      "evidence": "기준 2. 7장 전체 대조.",
+      "minimum_fix": "28행의 '정해진 증거와 독립 판정으로'를 '검증 정책이 정한 증거와 판정 경로로'로 바꾸고 독립 판정 조건은 40절·80행을 가리킨다.",
+      "acceptance": "28·46·80행이 하나의 기준으로 읽힌다.",
+      "policy_criteria": [
+        2
+      ],
+      "files": [
+        "manuscript/chapters/ch07.md"
+      ]
+    },
+    {
+      "id": "A003",
+      "priority": "P2",
+      "status": "열림",
+      "axis": "argument",
+      "location": "ch07.md 전체(28·32-36·86-88행), 대조 ch01.md 21·31행, ch04.md 23·25행, research/harness-editorial-note.md",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "problem": "7장에 '하네스'·'에이전트'가 없고, 판정 기준·수행 기록·판정 누락 관찰이 하네스 사이클(검증 정책·실행 이력·모니터링·개선)의 어디에 해당하는지, 판정 누락이 하네스 개선 루프로 돌아가는지 본문이 말하지 않는다. 편집 메모는 7장을 연결했다고 기록한다.",
+      "reader_impact": "리더가 7장의 판정 설계를 세 번째 축의 일부가 아닌 팀 품질 관행으로 읽어 9장의 하네스 운영 책임과 연결하지 못한다.",
+      "evidence": "기준 3. grep으로 단어 부재 확인. 1·4장은 관련 행만 확인. 모순은 없어 P2.",
+      "minimum_fix": "서두나 86-88행에 판정 기준과 수행 기록이 하네스 사이클의 검증 정책·실행 이력에 해당하고 판정 누락은 4장의 하네스 개선 루프로 돌아간다는 한두 문장을 추가하고, 수행자에 사람과 에이전트가 포함됨을 밝힌다.",
+      "acceptance": "7장만 읽고 판정 경로의 하네스 단계와 판정 누락의 환류 루프를 답할 수 있고, 하네스를 실행 기반으로 축소하지 않는다.",
+      "policy_criteria": [
+        3
+      ],
+      "files": [
+        "manuscript/chapters/ch07.md"
+      ]
+    },
+    {
+      "id": "A004",
+      "priority": "P2",
+      "status": "열림",
+      "axis": "argument",
+      "location": "ch07.md 88행, ch08.md 91-95행, ch04.md 37행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "problem": "실패 원인 분류(의도·정책·계획·구현·검증)와 4·19장 인계 문장이 7장 88행과 8장 93·95행에서 거의 같은 문장으로 반복되며 7장은 판정 체계 고유의 기여를 더하지 않는다.",
+      "reader_impact": "2부 독자가 같은 분류를 두 번 읽고 7장 고유의 판정 체계 개선 대상을 얻지 못한다.",
+      "evidence": "기준 5. 7·8장 전체, 4장 37행 확인.",
+      "minimum_fix": "일반 원인 분류는 8장에 모으고 7장 88행은 판정 체계 자체의 실패(기준 누락, 자료 공유, 권한 집중)로 좁혀 44행과 연결한다. 인계 문장은 한 장에만 둔다.",
+      "acceptance": "두 문단이 서로 다른 판단을 제공하고 인계 문장이 2부에서 한 번만 나온다.",
+      "policy_criteria": [
+        5
+      ],
+      "files": [
+        "manuscript/chapters/ch07.md",
+        "manuscript/chapters/ch08.md"
+      ]
+    },
+    {
+      "id": "A005",
+      "priority": "P2",
+      "status": "열림",
+      "axis": "argument",
+      "location": "manuscript/patterns/p06.md 7·35행, pattern_catalog.json P06·P07",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "problem": "P06 카드 7행 마지막 문장이 P07의 문제를, 35행이 P07의 해결 요소(기준·데이터·권한의 독립성)를 담아 두 패턴의 경계가 흐려진다. 본문 7장은 구분이 명확하다.",
+      "reader_impact": "카드 독자가 P06만으로 독립성이 확보된다고 보거나 두 패턴을 하나의 일반 조언으로 읽는다.",
+      "evidence": "기준 4. P06·P07 카드와 카탈로그 대조. 정의 밖 확장은 아니어서 P2.",
+      "minimum_fix": "해당 문장을 'P07이 다룬다'는 연결로 바꾸고, P06 경계에는 목적 축소·증거 유효 기간·환경 범위(7장 36행) 같은 고유 한계를 둔다.",
+      "acceptance": "P06 카드가 카탈로그 P06 정의 안에 있고 독립성 내용은 P07 카드에만 해결 구조로 있다.",
+      "policy_criteria": [
+        4
+      ],
+      "files": [
+        "manuscript/patterns/p06.md"
+      ]
+    },
+    {
+      "id": "A006",
+      "priority": "P2",
+      "status": "열림",
+      "axis": "argument",
+      "location": "manuscript/patterns/p07.md 7·11·15·17·25·35행, 대조 ch07.md 42-50행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "problem": "P07 카드가 카탈로그 문장을 반복하고(15·17행 중복), 7장 44행의 독립성 세 차원(기준 근거·검증 자료·판정 권한), 46행의 적용 조건과 소규모 팀 대안, 50행의 사람 판정자 조건을 해결 구조로 담지 않는다. 상충하는 힘은 한 문장이다.",
+      "reader_impact": "카드만으로 판정 경로를 어떤 차원에서 독립시키고 언제 줄일지 판단할 수 없다.",
+      "evidence": "기준 4. P07 카드와 7장 40절 전체를 읽음. 12·16장의 P07 사용 전체는 미확인.",
+      "minimum_fix": "해결 구조를 44행의 세 차원으로 정리하고 15·17행을 합치며, 46·50행의 조건과 대안을 한두 문장으로 옮긴다. 새 사례·수치 추가 없음.",
+      "acceptance": "카드만 읽고 세 차원·적용 조건·소규모 팀 대안을 말할 수 있고 7장 40절과 모순되지 않는다.",
+      "policy_criteria": [
+        4
+      ],
+      "files": [
+        "manuscript/patterns/p07.md"
+      ]
+    },
+    {
+      "id": "A007",
+      "priority": "P3",
+      "status": "열림",
+      "axis": "argument",
+      "location": "ch07.md 28·36·82행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "problem": "P11(28행), P13(36행), P12(82행)의 해결 내용을 패턴 이름 없이 사용한다. 의미 변형은 없다.",
+      "reader_impact": "8·9장에서 같은 패턴을 만날 때 7장과의 연결을 놓칠 수 있다. 영향은 작다.",
+      "evidence": "기준 4·5. 카탈로그와 대조. P11·P12·P13 카드는 미확인.",
+      "minimum_fix": "선택: 짧은 패턴 연결을 두거나 연결하지 않는 이유를 남긴다.",
+      "acceptance": "저자가 채택 여부를 정한다. 채택 시 ID·이름이 카탈로그와 같다.",
+      "policy_criteria": [
+        4,
+        5
+      ],
+      "files": [
+        "manuscript/chapters/ch07.md"
+      ]
+    },
+    {
+      "id": "A008",
+      "priority": "P3",
+      "status": "저자 판단 대기",
+      "axis": "argument",
+      "location": "pattern_catalog.json P07 solution, 대조 ch07.md 44행, p07.md 17행, ch12.md 41행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "problem": "세 파일이 독립성의 차원으로 쓰는 '평가 기준 변경 권한의 분리'가 카탈로그 P07 해결 문장에 없다. 해석 범위 안이라 의미 변형으로 보지 않았다.",
+      "reader_impact": "카탈로그·도표만 보는 독자가 판정 권한 분리를 P07의 일부로 인식하지 못할 수 있다.",
+      "evidence": "기준 4. 카탈로그와 세 파일의 해당 행 대조.",
+      "minimum_fix": "저자가 카탈로그 P07 solution에 권한 분리를 더할지 정하고, 더하면 AGENTS.md의 패턴 변경 절차를 따른다.",
+      "acceptance": "결정이 기록되고 카탈로그와 세 파일이 같은 차원을 가리킨다.",
+      "policy_criteria": [
+        4
+      ],
+      "files": [
+        "pattern_catalog.json"
+      ]
+    },
+    {
+      "id": "A009",
+      "priority": "P2",
+      "status": "열림",
+      "axis": "argument",
+      "origin": "R009(독자·문체 축에서 넘김)",
+      "location": "ch07.md 48행 마지막 문장, 86행. 대조 pattern_catalog.json P07 validation, p07.md 17·35행, ch12.md 43·69행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "problem": "48행 '실패 발견과 오류의 상관관계'는 카탈로그 기준(숨겨 둔 실패 사례의 발견 + 오류 상관관계 조사)의 두 항목인지 '실패 발견과 오류 사이의 상관관계'인지 모호하다. 또 7장·P07 카드 17행·12장은 '알려진 실패'를 쓰고 카탈로그·카드 35행은 '숨겨 둔'을 써서, 판정 경로가 시험용 실패를 미리 모르게 한다는 조건이 빠질 수 있다.",
+      "reader_impact": "리더가 판정 경로에 시험용 실패를 알려 준 채로 검증 체계를 시험해도 된다고 이해해 독립성의 근거를 얻지 못할 수 있다.",
+      "evidence": "기준 4. 해당 행 grep 대조. 조건 누락과 모호성이므로 P2. '숨김'의 대상(판정 경로/수행자)은 카탈로그에도 정의되지 않음.",
+      "minimum_fix": "48행을 '판정 경로가 미리 알지 못하는 실패를 발견하는지와, 여러 판정 경로가 같은 오류를 함께 놓치는지'처럼 두 항목으로 쓴다. 86행·p07.md 17행·ch12.md 43·69행에 같은 조건을 적용할지 카탈로그를 바꿀지 저자가 정한다(A008과 함께 처리 가능).",
+      "acceptance": "48행이 두 확인 항목으로 읽히고 7·12장, P07 카드, 카탈로그가 시험용 실패의 은닉 조건에 대해 같은 의미를 쓴다.",
+      "policy_criteria": [
+        4
+      ],
+      "files": [
+        "manuscript/chapters/ch07.md",
+        "manuscript/patterns/p07.md",
+        "manuscript/chapters/ch12.md",
+        "pattern_catalog.json"
+      ]
+    }
+  ],
+  "handoffs": [
+    {
+      "to": "evidence",
+      "location": "ch07.md 32행 [S10]",
+      "reason": "발표 시점과 요약 범위 확인"
+    },
+    {
+      "to": "evidence",
+      "location": "ch07.md 54·56행 [S18]·[S13]",
+      "reason": "PR 번호·병합일(2026-10-06)·본문 요약 확인"
+    },
+    {
+      "to": "evidence",
+      "location": "ch07.md 38행 [S42]",
+      "reason": "저자 자신의 글을 출처로 쓸 때의 지위와 대장 기록"
+    },
+    {
+      "to": "evidence",
+      "location": "ch07.md 64·66행 [S62]·[S59]",
+      "reason": "데모 고정 커밋의 판정 동작과 문서 서술 확인. 데모 미확인"
+    },
+    {
+      "to": "reader-style",
+      "location": "ch07.md 전체",
+      "reason": "수행자/실행자 혼용"
+    },
+    {
+      "to": "reader-style",
+      "location": "ch07.md 28행",
+      "reason": "'전자동 개발'·'독립 판정'이 장 안에서 정의 없이 처음 등장"
+    },
+    {
+      "to": "reader-style",
+      "location": "p07.md 7·11·25행",
+      "reason": "짧은 문장과 명사 나열"
+    },
+    {
+      "to": "publication",
+      "location": "p06.md 3행, p07.md 3행",
+      "reason": "카드 상태 표시 형식 불일치"
+    }
+  ],
+  "not_performed": [
+    "출처 대장·주장 메모 대조",
+    "데모 코드 확인",
+    "2·3·4·9·12·16·19장 본문 전체(관련 행만 grep)",
+    "P11·P12·P13·P15 카드",
+    "check_project.py·웹 빌드 실행",
+    "STATUS.md 기록(호출자 지시로 수행 안 함)"
+  ],
+  "handoffs_received": [
+    {
+      "id": "R009",
+      "from_axis": "reader-style",
+      "result": "A009 / P2"
+    },
+    {
+      "id": "R012",
+      "from_axis": "reader-style",
+      "result": "문제 없음",
+      "reason": "3·4·5·6·8장 모두 같은 문단을 결론 직전에 두어 구조가 일관되고, 92행 결론은 88행을 이어받는 단계가 아니라 장 전체 요약이어서 논증 단계가 끊기지 않는다. 이동 여부는 독자·문체·편집 판단이며 옮기면 3-8장을 함께 옮겨야 한다."
+    }
+  ]
+}

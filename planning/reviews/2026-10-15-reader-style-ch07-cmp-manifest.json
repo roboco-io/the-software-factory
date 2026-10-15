@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-15",
+  "axis": "reader-style",
+  "scope": "ch07",
+  "base_commit": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+  "working_tree": "대상 파일에 커밋하지 않은 변경 없음. 추적하지 않는 파일: output/ 및 planning/reviews/ 아래 2026-10-15 보고서(읽지 않음).",
+  "files": {
+    "manuscript/chapters/ch07.md": "2876529d23f932d42c4b8d0e1c81299a28f3d0fb29a7182ffe3ec0cfe027cbff",
+    "manuscript/front-matter/00-preface.md": "270d4ea6a3003a181b91c942c9334790f4e4620c5ccc06e79cba966fd658250a",
+    ".claude/agents/review-reader-style.md": "72db562eb8ebcacbad9eccd7970e20ba1e36197d709562cc0eb681295943922d",
+    "planning/review-policies/README.md": "03821ccbcc410b5ce574c677e637d8d1e7dd722fa250766ebe818bf0907b2a5e",
+    "planning/review-policies/03-reader-style.md": "089b0616c2172e9e26d47fb196b30c524fe11b4a207997bc0ad45267c923fca9",
+    "planning/editorial-policy.md": "b4dd176998da253ccb9330f11b702972262f04697f5b9d5fe2453f44cba4baaf",
+    "AGENTS.md": "3ac508335144af80177cdaa6cbe61210f47f1ca6c8c6addb467711be0966c770"
+  },
+  "partially_read": [
+    "manuscript/chapters/ch01.md",
+    "ch02.md",
+    "ch03.md",
+    "ch04.md",
+    "ch05.md",
+    "ch06.md (grep 용어 검색과 일부 행)",
+    "ch08.md, ch09.md, ch16.md, ch19.md (제목 첫 줄만)",
+    "manuscript/patterns/p07.md (앞부분)",
+    "pattern_catalog.json (P06·P07 이름)"
+  ]
+}

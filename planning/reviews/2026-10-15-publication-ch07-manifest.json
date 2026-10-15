@@ -1,0 +1,82 @@
+{
+  "axis": "publication",
+  "scope": "ch07",
+  "date": "2026-10-15",
+  "base_commit": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+  "working_tree": "clean except untracked output/",
+  "previous_public_commit": {
+    "sha": "121e501",
+    "basis": "origin/main; live site /book/ch07/ data-reader-revision=1 at 2026-10-15 08:59 KST"
+  },
+  "tracked_files_sha256": {
+    "manuscript/chapters/ch07.md": "2876529d23f932d42c4b8d0e1c81299a28f3d0fb29a7182ffe3ec0cfe027cbff",
+    "website/content-manifest.json": "4e91c9e2b9654993b360611e95aaaf1800776f6eff13515a2963172630dfdb47",
+    "CHANGELOG.md": "125e16b54cda6485660fe723ad5b2cf54fbe00326b49ab83700b8ed629980c0c",
+    "LICENSE.md": "ba19d86be538b9a9deb859388d082e5f5b0d3e064c1a529029d3b2cde7194ef8",
+    "book-publication.json": "5a7840d423e64ea7536322d27db3ee2f113aefb769f00c3baf10f9049cd85cd5",
+    "book_project.json": "b083124c52a8e9abbe7dd12351184ae73ac1e0ae5bfcfc81b9ec870476fe1f94",
+    "outline/toc.md": "b1c7c9fa6c85c13d920c709cfb07ab55ca5f742d25eb2b675317ed474075668d",
+    "README.md": "b02e5b6c9a16f7079a31a6b1e2f62b50c53943612e3f5923ea56c6226adc3861",
+    "website/README.md": "35b84e66ba0be6445e332a759a831f86c7c289bf3dda60613cbed3f42ad2d111",
+    "skills/book-changelog/references/policy.md": "1df972dbb069de29ed2c022a60c0a25f9cc9935bd75bce858bb9d02d83e4b7ae",
+    "planning/review-policies/README.md": "03821ccbcc410b5ce574c677e637d8d1e7dd722fa250766ebe818bf0907b2a5e",
+    "planning/review-policies/04-publication.md": "c384a551b132494ee5adda1fddf791ecc72bf0086303cc844115d9e590cb0ffd",
+    "website/scripts/publication.mjs": "f56399c66c634c1cac4d97591b32b10dea1c7c05c056156f70c22352c3998dea",
+    "website/src/styles/book.css": "ca86167e231b1caa7fa80afd4d2c8a221a3f5af9e31be8302f0aaf11a277f035"
+  },
+  "generated_files_sha256": {
+    "website/src/content/docs/book/ch07.md": "847c2e80e36ee4eb084d9dfb7bc69cf7eedbe2839e05493833a2313e5bafa76f",
+    "website/dist/book/ch07/index.html": "bf0370779bc1ab2deac347e8ed21531726154af4d61ba0b2457104a910f2a2e1",
+    "website/dist/sources/index.html": "241b1a68a19f67b73a9b729345d3153c514cdaaf6e05a2544cc908cf53753cc6",
+    "website/dist/changelog/index.html": "174d02d2be2434a070ccce6a31d7bb832783ed7d5aa56ead7da58c32c2c621d1",
+    "website/dist/license/index.html": "c0593a68cc6686b93c5fc5b1c4b5989e6484e5d4bd54764e527c46fc6041af09"
+  },
+  "generated_note": "빌드 산출물은 다른 병렬 리뷰의 빌드로 덮였을 수 있다.",
+  "commands": [
+    {
+      "cmd": "python3 scripts/check_project.py",
+      "cwd": ".",
+      "result": "pass"
+    },
+    {
+      "cmd": "git diff --check",
+      "cwd": ".",
+      "result": "pass"
+    },
+    {
+      "cmd": "git diff --check 121e501 2f19b89",
+      "cwd": ".",
+      "result": "pass"
+    },
+    {
+      "cmd": "npm test",
+      "cwd": "website",
+      "result": "pass",
+      "detail": "13/13"
+    },
+    {
+      "cmd": "npm run check",
+      "cwd": "website",
+      "result": "pass",
+      "detail": "0 errors, 0 warnings"
+    },
+    {
+      "cmd": "npm run build",
+      "cwd": "website",
+      "result": "pass",
+      "detail": "46 pages; check-output PASS"
+    },
+    {
+      "cmd": "npm run test:e2e",
+      "cwd": "website",
+      "result": "pass",
+      "detail": "12 passed, Chromium only"
+    }
+  ],
+  "not_run": [
+    "npm ci (node_modules present)",
+    "iOS Safari",
+    "screen reader",
+    "keyboard table scroll"
+  ]
+}

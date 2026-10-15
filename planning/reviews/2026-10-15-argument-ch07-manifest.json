@@ -1,0 +1,94 @@
+{
+  "verified_on": "2026-10-15",
+  "axis": "argument",
+  "scope": "ch07",
+  "base_commit": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+  "commit_time": "2026-10-15T08:56:10+09:00",
+  "working_tree": "git status --short: '?? output/'만 존재. 대상 파일에 미커밋 변경 없음. 해시는 참고용.",
+  "files": {
+    "manuscript/chapters/ch06.md": {
+      "sha256": "980c0d6c51d27ede3ce24f99ed7854f4449efbf81ed8a0ed6fef2364f82ecc7d",
+      "read": "전체"
+    },
+    "manuscript/chapters/ch07.md": {
+      "sha256": "2876529d23f932d42c4b8d0e1c81299a28f3d0fb29a7182ffe3ec0cfe027cbff",
+      "read": "전체"
+    },
+    "manuscript/chapters/ch08.md": {
+      "sha256": "52732551dab816fd9e991a05484876163b8732471ee99b65c2213633bc2405c9",
+      "read": "전체"
+    },
+    "manuscript/patterns/p06.md": {
+      "sha256": "b64fa9c9dcffa423b42e9807e914fb26685f5767b5287d33a38de69c0de36715",
+      "read": "전체"
+    },
+    "manuscript/patterns/p07.md": {
+      "sha256": "dd48d5079511e382bac24a020e08338f595120103d3da19b591e8d0a635f654a",
+      "read": "전체"
+    },
+    "pattern_catalog.json": {
+      "sha256": "cb3e66d0d8eaeaea3067b062beddd1cd393ac958d90d4f17390db3b9d1bf3cdf",
+      "read": "전체"
+    },
+    "AGENTS.md": {
+      "sha256": "3ac508335144af80177cdaa6cbe61210f47f1ca6c8c6addb467711be0966c770",
+      "read": "전체"
+    },
+    "planning/book-brief.md": {
+      "sha256": "ceba36b7f52880e6d956d6ad946ff4bae7d538554f760eba064d7cd0181d1f4d",
+      "read": "전체"
+    },
+    "outline/toc.md": {
+      "sha256": "b1c7c9fa6c85c13d920c709cfb07ab55ca5f742d25eb2b675317ed474075668d",
+      "read": "전체"
+    },
+    "research/harness-editorial-note.md": {
+      "sha256": "1b8ca2b0849075d5970b727b70f9c7e85270af2fe66d722c9d7dc64808e4e7d7",
+      "read": "전체"
+    },
+    "planning/review-policies/README.md": {
+      "sha256": "03821ccbcc410b5ce574c677e637d8d1e7dd722fa250766ebe818bf0907b2a5e",
+      "read": "전체"
+    },
+    "planning/review-policies/01-argument.md": {
+      "sha256": "3f1f3ebe8c1b2b995b6d645d3f3d57e8a860ccf6f1b9275528ed5d82b0c4dbd6",
+      "read": "전체"
+    },
+    ".claude/agents/review-argument.md": {
+      "sha256": "74105f143af2431d0bb421d25a1aa754d639f8ac1e552316867f8f5f883d3e16",
+      "read": "전체"
+    },
+    "manuscript/chapters/ch01.md": {
+      "sha256": "12d90025a081519dfb86f88f2793163987196cc0ce6fbda07677fc99e3f6f1b4",
+      "read": "관련 행만(grep) 또는 일부"
+    },
+    "manuscript/chapters/ch02.md": {
+      "sha256": "fc921d1c6d6a9dbed956f6c2ec61cf95a8983442288c55c315305e395368cea8",
+      "read": "관련 행만(grep) 또는 일부"
+    },
+    "manuscript/chapters/ch04.md": {
+      "sha256": "0b0b6d8bdeae06fd15d556850a070be31ece8c2602246811c6076ac7b931c2f1",
+      "read": "관련 행만(grep) 또는 일부"
+    },
+    "manuscript/chapters/ch05.md": {
+      "sha256": "6e92230211685d68ff10343779a4760d72831bffa7ffcae4c9cd68bb5f82dabf",
+      "read": "관련 행만(grep) 또는 일부"
+    },
+    "manuscript/chapters/ch09.md": {
+      "sha256": "ab2991c86d549f1223a7efde5ffe88a60055dab53665ba3201170ee419ab056c",
+      "read": "관련 행만(grep) 또는 일부"
+    },
+    "manuscript/chapters/ch12.md": {
+      "sha256": "5d2d2deb34c60ffde34ecac40f30a4947d44936825819db10580c3f500053f7d",
+      "read": "관련 행만(grep) 또는 일부"
+    },
+    "manuscript/chapters/ch16.md": {
+      "sha256": "49c6f3614caa554ecb8a92b230485c5701dcb51920ffce0d47b77d37ecf7c091",
+      "read": "관련 행만(grep) 또는 일부"
+    },
+    "planning/review-policies/process.md": {
+      "sha256": "1f596b850b6a340386e5939b43694de90a6075134b91e6997e3bee9d9df56af8",
+      "read": "관련 행만(grep) 또는 일부"
+    }
+  }
+}

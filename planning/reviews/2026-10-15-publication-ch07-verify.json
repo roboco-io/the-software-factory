@@ -1,0 +1,148 @@
+{
+  "axis": "publication",
+  "scope": "ch07",
+  "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c+uncommitted",
+  "report": "planning/reviews/2026-10-15-publication-ch07-verify.md",
+  "type": "verification",
+  "opinions": [
+    {
+      "id": "U001",
+      "priority": "P2",
+      "status": "열림·보류",
+      "axis": "publication",
+      "location": "manuscript/chapters/ch07.md 96행, website/scripts/publication.mjs",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c+uncommitted",
+      "problem": "20개 장 '자료 확인 범위' 링크 목적지에 출처 ID 목록만 있다.",
+      "reader_impact": "독자가 링크에서 약속된 정보를 찾지 못한다.",
+      "evidence": "이번 수정 범위가 아니다. publication.mjs는 바뀌지 않았다.",
+      "minimal_fix": "변환 규칙의 문장 또는 링크 목적지를 맞춘다. 3단계 전에 일괄 처리한다.",
+      "acceptance": "20개 장의 공개본 문장이 목적지 내용과 맞는다.",
+      "forward_to": []
+    },
+    {
+      "id": "U002",
+      "priority": "P2",
+      "status": "검증 완료",
+      "axis": "publication",
+      "location": "website/src/styles/book.css, website/tests/e2e/reading.spec.ts 53행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c+uncommitted",
+      "problem": "(수정됨) 모바일 폭에서 7장 표의 셋째 열이 단서 없이 잘렸다.",
+      "reader_impact": "(해소) 표가 폭 안에 들어온다.",
+      "evidence": "빌드 후 393px·360px에서 scrollWidth=clientWidth(361, 328)이고 머리글 오른쪽 끝이 폭 안이다. e2e 13개 통과. Chromium 결과이며 iOS Safari는 확인하지 않았다.",
+      "minimal_fix": "",
+      "acceptance": "셋째 열 머리글이 완전히 보이거나 스크롤 단서가 보인다. 충족.",
+      "forward_to": []
+    },
+    {
+      "id": "U003",
+      "priority": "P2",
+      "status": "검증 완료",
+      "axis": "publication",
+      "location": "CHANGELOG.md 공개 예정 항목",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c+uncommitted",
+      "problem": "(수정됨) 7장 판정 책임 변화에 장 링크가 없었다.",
+      "reader_impact": "(해소) 링크와 변화 서술이 있다.",
+      "evidence": "7장 링크와 판정자·수용 책임자 구분 서술이 ch07.md 30행과 일치한다. 공개 날짜는 확정하지 않았다.",
+      "minimal_fix": "",
+      "acceptance": "공개 예정 항목에서 7장 링크와 바뀐 판단을 읽을 수 있다. 충족.",
+      "forward_to": []
+    },
+    {
+      "id": "U004",
+      "priority": "P2",
+      "status": "검증 완료",
+      "axis": "publication",
+      "location": "CHANGELOG.md 공개 예정 항목, website/content-manifest.json p06·p07",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c+uncommitted",
+      "problem": "p06·p07 revision을 2로 올렸으나 체인지 로그에 패턴 링크와 변화 서술이 없다.",
+      "reader_impact": "'읽은 뒤 수정됨'을 본 독자가 무엇을 다시 읽을지 알 수 없다.",
+      "evidence": "04 정책 기준 4를 패턴에 같은 취지로 적용한 해석이다(정책은 '장'만 명시). CHANGELOG.md를 읽어 확인했다. 재검증(09:31 KST): 링크가 dist/patterns/p06,p07과 일치하고 서술이 p06.md·p07.md 수정과 맞는다.",
+      "minimal_fix": "공개 예정 항목에 p06·p07 링크와 변화 한 문장을 추가하거나 정책에 패턴 취급을 명시한다.",
+      "acceptance": "공개 예정 항목에서 두 패턴 링크와 바뀐 판단을 읽을 수 있다.",
+      "forward_to": []
+    },
+    {
+      "id": "U005",
+      "priority": "P3",
+      "status": "열림",
+      "axis": "publication",
+      "location": "website/tests/e2e/reading.spec.ts 53-61행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c+uncommitted",
+      "problem": "새 표 e2e가 /book/ch07/만 검사하고 단서는 gradient 존재만 확인한다.",
+      "reader_impact": "다른 장의 표 잘림을 이 검사가 잡지 못한다.",
+      "evidence": "테스트 코드를 읽었다. 다른 장의 표는 측정하지 않았다.",
+      "minimal_fix": "표가 있는 모든 장을 반복 측정하고 단서 확인의 한계를 주석으로 적는다.",
+      "acceptance": "표가 있는 모든 장이 모바일 폭에서 통과한다.",
+      "forward_to": []
+    }
+  ],
+  "handoffs": [],
+  "handoffs_received": [],
+  "checks": [
+    {
+      "command": "python3 scripts/check_project.py",
+      "location": "root",
+      "result": "통과"
+    },
+    {
+      "command": "git diff --check 2f19b89",
+      "location": "root",
+      "result": "통과"
+    },
+    {
+      "command": "npm test",
+      "location": "website",
+      "result": "통과"
+    },
+    {
+      "command": "npm run check",
+      "location": "website",
+      "result": "통과"
+    },
+    {
+      "command": "npm run build",
+      "location": "website",
+      "result": "통과"
+    },
+    {
+      "command": "npm run test:e2e",
+      "location": "website",
+      "result": "통과"
+    },
+    {
+      "command": "7장 표 가로 넘침 측정 393/360px",
+      "location": "website/dist",
+      "result": "통과"
+    }
+  ],
+  "additional": {
+    "s04_anchor": "유지",
+    "p06_p07_revision": "2 타당",
+    "ch07_revision": "추가 상향 불필요(배포 1, manifest 2)",
+    "rendering": "문제 없음"
+  },
+  "environment": "worktree 없이 작업 트리에서 직접 빌드(다른 리뷰어 없음). Sonnet, medium. 배포 사이트는 다시 열지 않음.",
+  "reverification": {
+    "time": "2026-10-15 09:31 KST",
+    "checks": [
+      {
+        "command": "python3 scripts/check_project.py",
+        "result": "통과"
+      },
+      {
+        "command": "npm run build (website)",
+        "result": "통과"
+      },
+      {
+        "command": "git diff --check",
+        "result": "통과"
+      }
+    ],
+    "not_rerun": [
+      "npm test",
+      "npm run check",
+      "npm run test:e2e",
+      "표 측정"
+    ]
+  }
+}

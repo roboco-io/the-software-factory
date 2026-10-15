@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-15",
+  "axis": "evidence",
+  "scope": "ch07",
+  "variant": "cmp",
+  "base_commit": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+  "policy": [
+    "planning/review-policies/README.md",
+    "planning/review-policies/02-evidence.md"
+  ],
+  "policy_status": "저자 검토 후 확정, 확정 전 리뷰 기준으로 사용 가능",
+  "summary": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 3,
+    "P3": 1,
+    "claims_checked_against_source": 8,
+    "claims_in_scope": 8,
+    "claims_unchecked": 0
+  },
+  "findings": [
+    {
+      "id": "E001",
+      "priority": "P2",
+      "status": "열림",
+      "location": "manuscript/chapters/ch07.md 64행 (실행 오류와 재현 증거를 구분하는 구현, 첫 문단)",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "problem": "본문은 수정 전 코드에서 '실제 단언이 실패'해야 한다고 쓰지만, stages/evidence.ts의 judgeSide·runEvidence는 개별 테스트 상태가 failed인 것이 하나라도 있으면(여러 스위트면 한 스위트만) 재현으로 인정한다. 걸러내는 것은 수집 오류·시간 초과·보고서 누락·프로세스 시작 실패 같은 파일 수준 실패이며, 테스트 본문 안의 일반 오류(예: TypeError)는 단언 실패와 구분되지 않는 것으로 읽힌다.",
+      "reader_impact": "리더가 진짜 단언 실패만 증거로 인정된다고 믿고 수정 전 실패의 종류를 보증받았다고 판단할 수 있다.",
+      "basis": "정책 1(코드 구조를 더 강한 동작으로 서술)·2(확인 수준). 코드 구조 확인(커밋 25a73b9c, evidence.ts 174-200, 395-401, 391행 메시지). 실행하지 않았고 vitest의 failed 판정 조건은 일반 동작에 근거한 추론.",
+      "verification_level": "코드 읽기. 실행 미확인.",
+      "minimum_fix": "'실제 단언이 실패하고'를 '수집 오류가 아닌 개별 테스트의 실패가 기록되고'로 좁히거나 단언 실패와 일반 오류를 구분하지 않는다는 한계를 한 문장 추가.",
+      "acceptance": "64행이 evidence.ts의 판정 조건과 일치하고 66행과 모순이 없다. 가능하면 존재하지 않는 함수를 호출하는 테스트로 판정을 실행해 확인."
+    },
+    {
+      "id": "E002",
+      "priority": "P2",
+      "status": "열림",
+      "location": "ch07.md 54·56행; research/sources.json S13·S18 author",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "problem": "두 PR 본문 첫머리에 'created by an AI agent (OpenHands) on behalf of Graham Neubig'가 표시되어 있고 사람은 HUMAN 블록 한 줄만 직접 썼다. 본문의 '작성자의 보고'와 대장의 author는 사람 보고로 읽힌다. 56행의 '문제를 설명하며'가 에이전트 서술인지 사람의 우려인지도 구분되지 않는다.",
+      "reader_impact": "이 장의 주제인 수행자 자체 보고의 사례임이 드러나지 않고 사람의 보고로 오독된다.",
+      "basis": "정책 3. gh pr view --json body로 두 PR 본문 전체 직접 확인.",
+      "verification_level": "원문 직접 확인(PR 본문)",
+      "minimum_fix": "54행을 'OpenHands 에이전트가 Graham Neubig를 대신해 작성한 것으로 표시된 PR 본문의 보고'로 바꾸고 S13·S18 author와 56행의 서술 주체를 함께 정정.",
+      "acceptance": "54·56행과 대장 author가 PR 본문 첫머리 표시 및 HUMAN 블록과 일치."
+    },
+    {
+      "id": "E003",
+      "priority": "P2",
+      "status": "열림",
+      "location": "ch07.md 64-66행, 96행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "problem": "7장은 '데모의 수정 증거 판정'이라고만 쓰며 이 구현이 저자 측(로보코) 자료이고 코드를 읽은 수준의 확인이며 독립 재현이 아님을 이 장 안에서 표시하지 않는다. 96행의 확인 한계도 데모 코드 미실행을 열거하지 않는다. 1장 39행과 서문 31행에는 로보코 구현체임이 명시되어 있다.",
+      "reader_impact": "리더가 64-66행의 동작 서술을 독립 검증을 거친 제3자 구현이나 실행 확인으로 읽을 수 있다.",
+      "basis": "정책 6(로보코 자료의 자체 설명 표시)·2. 대장 S59·S62 limit와 본문 대조.",
+      "verification_level": "본문·대장 대조",
+      "minimum_fix": "64행에 '저자 측 로보코 데모, 고정 커밋의 코드를 읽은 결과' 표시를 넣거나 96행에 데모 코드 미실행을 추가.",
+      "acceptance": "7장만 읽어도 저자 측 자료이며 코드 읽기 수준 확인임을 알 수 있고 96행과 대장 limit가 같은 범위를 말한다."
+    },
+    {
+      "id": "E004",
+      "priority": "P3",
+      "status": "열림",
+      "location": "research/sources.json S13·S18·S59·S10; research/claims/ch07.json review.pending",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "problem": "대장 기록이 현재 확인 결과와 다르거나 낡았다: S18 limit는 Draft 표시·현재 상태 미확인이라 적지만 2026-10-15 현재 MERGED(2026-10-06T01:38:53Z, 초안 아님, 검사 성공 15·건너뜀 7, 에이전트 리뷰어의 APPROVED 2건 후 Graham Neubig가 병합). S13 title에 revert: 누락. 두 PR 모두 v1.26.0(2026-10-08T20:36Z)에 포함. usage_review.files에 S10·S59 관련 일부 파일 누락. pending의 OpenHands 확인 항목은 일부 확인 가능.",
+      "reader_impact": "직접 영향 없음. 수정 단계에서 낡은 대장이 본문 한계 서술과 어긋날 위험.",
+      "basis": "정책 3·4. gh pr view·gh release view·gh search prs 출력.",
+      "verification_level": "원문 직접 확인(PR 메타데이터·댓글·리뷰 일부, 릴리스 게시 시각). 리뷰 전문과 변경 파일은 미확인.",
+      "minimum_fix": "수정 단계에서 S18 limit·verification_status 갱신, S13 title에 revert: 반영, S10·S59 usage_review.files 보완. 본문 수정 불필요.",
+      "acceptance": "대장의 S13·S18 항목이 위 사실과 일치."
+    }
+  ],
+  "handoff": [
+    "독자·문체/논증: 54-56행에서 #18048이 #17660을 되돌린다는 연결이 본문에 명시되지 않음(사실은 S13 본문이 지지).",
+    "독자·문체: 54행은 PR #17660 본문이 보고한 typecheck 미통과 한계를 쓰지 않음(선택적 요약, 오해 수준 아님).",
+    "논증: 22-28행의 표와 자동 수용 정책은 설계 제안으로 표시되어 근거 축 통과, 설계 타당성은 논증 축이 판정."
+  ],
+  "not_verified": [
+    "원서 More Effective Agile 본문(대상 아님, 대응표 일치만 확인)",
+    "S10 글 전체 통독(관련 구절과 정의만 확인)",
+    "S13·S18 변경 파일·CI 로그·#18048이 #17660을 in full 되돌렸다는 코드 수준 대조",
+    "Enterprise 환경의 실제 영향",
+    "S62 데모 코드 실행(E001은 코드 읽기에 따른 추론)",
+    "ci.yml evidence job 전체"
+  ],
+  "limit": "단일 AI 리뷰어의 판정. 독립 인간 검증·실제 독자 시험 아님."
+}

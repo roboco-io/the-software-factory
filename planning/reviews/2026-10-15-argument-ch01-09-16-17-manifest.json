@@ -1,0 +1,162 @@
+{
+  "axis": "argument",
+  "scope": "ch01-09-16-17",
+  "version": "776f80d0dda5bab6dae0e611aa84601a26b1a522",
+  "version_commit_time": "2026-10-15T10:11:57+09:00",
+  "reviewed_at": "2026-10-15T10:17:41+09:00",
+  "working_tree_clean": false,
+  "working_tree_note": "다른 세션의 website/·.github/workflows/pages.yml 수정과 미추적 파일(output/, planning/ga4-integration.md, website/ 하위)이 있음. 대상 파일(manuscript/, outline/, research/, pattern_catalog.json, planning/glossary.md)에는 커밋하지 않은 변경이 없음. 해시는 참고용.",
+  "policies": [
+    {
+      "path": "planning/review-policies/README.md",
+      "status": "저자 요청으로 작성, 저자 검토 후 확정. 2026-10-15 7장 시범 결과로 조정(D28)"
+    },
+    {
+      "path": "planning/review-policies/01-argument.md",
+      "status": "README의 정책 상태를 따름. 2026-10-15 7장 시범 결과로 조정(D28)"
+    }
+  ],
+  "partially_read": [
+    "manuscript/chapters/ch02.md 5-11행",
+    "ch04.md 23·25행",
+    "ch08.md 마지막 절",
+    "ch10.md 5-11·44-46·68행",
+    "ch11.md 9·35-43행",
+    "ch12.md 19·25·35·41-49·65·69행",
+    "ch13.md 32-40·54행",
+    "ch15.md 44·48행·마지막 절",
+    "ch18.md 5-70행",
+    "manuscript/patterns/p07.md·p12.md 근거와 연결 절",
+    "planning/decisions.md D18·D28 행"
+  ],
+  "not_read": [
+    "research/sources.json",
+    "research/claims/*.json",
+    "데모 저장소 코드",
+    "research/mcconnell/chapter-map.md",
+    "planning/review-policies/process.md",
+    "ch03·ch05·ch06·ch14·ch19·ch20"
+  ],
+  "commands_run": [
+    "git rev-parse HEAD",
+    "git status --short",
+    "git log -1 --format='%H %cI'",
+    "shasum -a 256 (대상 파일)",
+    "git show 776f80d:book_project.json",
+    "git show 776f80d:research/sources.json",
+    "git grep core_definition|purpose|book_project 776f80d -- website scripts manuscript"
+  ],
+  "target_files": [
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "role": "리뷰 대상",
+      "sha256": "12d90025a081519dfb86f88f2793163987196cc0ce6fbda07677fc99e3f6f1b4"
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "role": "리뷰 대상",
+      "sha256": "ab2991c86d549f1223a7efde5ffe88a60055dab53665ba3201170ee419ab056c"
+    },
+    {
+      "path": "manuscript/chapters/ch16.md",
+      "role": "리뷰 대상",
+      "sha256": "392b3e22a53321989ddd1fc3c56b1291f3a8c123993d0272069379b5a1dca38b"
+    },
+    {
+      "path": "manuscript/chapters/ch17.md",
+      "role": "리뷰 대상",
+      "sha256": "c9ccc4ab91f293b6317f1e63a44cad21917f8f87af5c1ecdede4fb84ff36fe98"
+    },
+    {
+      "path": "manuscript/chapters/ch07.md",
+      "role": "연결 확인용(이미 리뷰·수정됨)",
+      "sha256": "2a5fb2dfa91cd299410ca953d366123789f4e5712e5c99e928c00d27ff283443"
+    },
+    {
+      "path": "manuscript/patterns/p01.md",
+      "role": "리뷰 대상",
+      "sha256": "edd353fa37fbd47069ef2142c34774b6c0960c91de771ab516e48faac1688226"
+    },
+    {
+      "path": "manuscript/patterns/p03.md",
+      "role": "리뷰 대상",
+      "sha256": "b9ebb4ab1c4baf7a3bb191f61d7bc17c139a5df2b1aeee44b393b8f2e14586b6"
+    },
+    {
+      "path": "manuscript/patterns/p06.md",
+      "role": "리뷰 대상",
+      "sha256": "5b4ae48de698daede970aec218614fe5d8c5df1e211f99a225346c5b00a4224d"
+    },
+    {
+      "path": "manuscript/patterns/p08.md",
+      "role": "리뷰 대상",
+      "sha256": "b0770a619455d7b4113a49b9e47f26b89c9fe03f714072a45eaef1e354145af8"
+    },
+    {
+      "path": "manuscript/patterns/p10.md",
+      "role": "리뷰 대상",
+      "sha256": "f9d2eae6121a16d82ee890ba49247b8848938c5701c719bb95d1978e7dfc8ee2"
+    },
+    {
+      "path": "manuscript/patterns/p11.md",
+      "role": "리뷰 대상",
+      "sha256": "0ce646482803f3581110dcdeb0ecaaa4d09c8866ab1a28cdc6ba1724b3380926"
+    },
+    {
+      "path": "manuscript/patterns/p13.md",
+      "role": "리뷰 대상",
+      "sha256": "152f0b9e33ead7ef4e5426addf4ff414280a4900a09f012ca93d829775f03794"
+    },
+    {
+      "path": "manuscript/patterns/p14.md",
+      "role": "리뷰 대상",
+      "sha256": "f8ebdc5dd092f2f5698174755ddfbef87294af0c601629bd32b973967a0c054c"
+    },
+    {
+      "path": "manuscript/patterns/p15.md",
+      "role": "리뷰 대상",
+      "sha256": "c2a44a8bd0d0cf3f613fa28c74426015b7e74673588017c9544806fbad498fc0"
+    },
+    {
+      "path": "pattern_catalog.json",
+      "role": "기준 자료",
+      "sha256": "cb3e66d0d8eaeaea3067b062beddd1cd393ac958d90d4f17390db3b9d1bf3cdf"
+    },
+    {
+      "path": "outline/toc.md",
+      "role": "기준 자료",
+      "sha256": "b1c7c9fa6c85c13d920c709cfb07ab55ca5f742d25eb2b675317ed474075668d"
+    },
+    {
+      "path": "planning/book-brief.md",
+      "role": "기준 자료",
+      "sha256": "ceba36b7f52880e6d956d6ad946ff4bae7d538554f760eba064d7cd0181d1f4d"
+    },
+    {
+      "path": "AGENTS.md",
+      "role": "기준 자료",
+      "sha256": "3ac508335144af80177cdaa6cbe61210f47f1ca6c8c6addb467711be0966c770"
+    },
+    {
+      "path": "research/harness-editorial-note.md",
+      "role": "기준 자료",
+      "sha256": "1b8ca2b0849075d5970b727b70f9c7e85270af2fe66d722c9d7dc64808e4e7d7"
+    },
+    {
+      "path": "planning/glossary.md",
+      "role": "기준 자료",
+      "sha256": "abff5ac0a0c0db9fcd1297d4a5787beaf14de1ceb4307b80d55625a8d4203e57"
+    },
+    {
+      "path": "book_project.json",
+      "role": "추가 판정(넘겨받은 사항)의 기준 자료",
+      "sha256": "b083124c52a8e9abbe7dd12351184ae73ac1e0ae5bfcfc81b9ec870476fe1f94"
+    },
+    {
+      "path": "research/sources.json",
+      "role": "추가 판정(넘겨받은 사항)의 기준 자료",
+      "sha256": "3cc0f524429cb3e6b505721998adf1701eae38b764f36cc6999a7285548f949e"
+    }
+  ],
+  "handoff_judgment": "2026-10-15 진행자 요청으로 다른 축이 넘긴 5개 사항을 같은 기준 버전으로 추가 판정. book_project.json·sources.json(S54 항목)·website 생성 코드의 purpose 사용 행을 확인. S54 원문은 읽지 않음."
+}

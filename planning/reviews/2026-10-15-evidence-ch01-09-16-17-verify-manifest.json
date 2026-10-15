@@ -1,0 +1,39 @@
+{
+  "axis": "evidence",
+  "scope": "ch01,ch09,ch16,ch17",
+  "variant": "verify",
+  "version": "3002170",
+  "reviewed_on": "2026-10-15",
+  "reviewer": "review-evidence 에이전트(Claude); 독립 인간 검증 아님",
+  "working_tree_clean": false,
+  "policy": [
+    "planning/review-policies/README.md (D28 조정 후)",
+    "planning/review-policies/02-evidence.md (저자 검토 전)",
+    "planning/review-policies/process.md 2단계 (5)",
+    ".claude/agents/review-evidence.md"
+  ],
+  "files": {
+    "manuscript/chapters/ch01.md": "e0526df3b16edbb51f00f973284124a3a716eb40dddcf1a80952164a7b651dad",
+    "manuscript/chapters/ch09.md": "8db70464ce24b70fc3a6a61268861e3b6a5d6a3ad31462195c9f909822b0eade",
+    "manuscript/chapters/ch16.md": "4263f0ff64daa23381c71c8a1a19ee339beb51eb3b48f0f223997ccdf50dfd6a",
+    "manuscript/chapters/ch17.md": "a08a2c9d35c0a072ac12735a66651327165b293354793d0bc13c52654b9e6415",
+    "research/claims/ch01.json": "fcfded011671a546ce6945aa8320f5457c0f5f9ad125ef65bc4af1f0204d5ad5",
+    "research/claims/ch09.json": "8ff643b30432c0baeb9a4945e49409348c2d2b21a0dd8e654d65605bd8dc4ef3",
+    "research/claims/ch16.json": "d9b3680293a72bd631cf303bdb189cb9e5752707bbb09ceb22a3376bf1a3ec51",
+    "research/claims/ch17.json": "af9b4fb8ba144c7cabfd40fd8278584fbb6c12ca207e1859845da630efc90bae",
+    "research/sources.json": "7cbf2c92f263999c551ef571fa752233af07f23a10652729b9dfc3b789020bb0"
+  },
+  "external_sources_checked": {
+    "S27": "ar5iv 2102.09692 HTML 초록·3.3·3.5·4.1·4.2·표 3",
+    "S53": "metr.org 원문 HTML(상단 경고·Methodology·Core Result)",
+    "S74": "dora.dev 원문 HTML(게시일·Step 1·자기보고/로그 절·푸터)",
+    "S64": "gh api factory-implement.yml @25a73b9",
+    "S66": "gh api report/metrics.ts, stages/weekly.ts @25a73b9",
+    "S70": "vaf.roboco.io/ko/ 소개"
+  },
+  "not_checked": [
+    "S27 ACM 출판본",
+    "S53 arXiv 논문",
+    "코드 실행·런타임 권한"
+  ]
+}

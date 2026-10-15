@@ -1,0 +1,68 @@
+{
+ "axis": "publication",
+ "scope": "ch01-09-16-17",
+ "phase": "verify",
+ "date": "2026-10-15",
+ "base_commit": "3002170",
+ "origin_main": "3002170",
+ "diff_sha256_16": "3d91b9045ca98989",
+ "build_note": "다른 빌드 작업자가 없어 주 작업 트리 website/에서 직접 빌드함. 로컬 빌드 기준이며 배포 확인 아님.",
+ "verdicts": [
+  {
+   "id": "U001",
+   "verdict": "열림·보류 유지",
+   "note": "변경 없음"
+  },
+  {
+   "id": "U002",
+   "verdict": "해소",
+   "note": "ch01 41행이 출처 대장의 S59 항목으로 바뀌고 목적지에 S59 있음"
+  },
+  {
+   "id": "U003",
+   "verdict": "해소",
+   "note": "공개 예정 항목에 17장 링크와 변화 서술 있음"
+  },
+  {
+   "id": "U004",
+   "verdict": "해소",
+   "note": "HEAD=origin/main=3002170, 776f80d·ac2b5c1 모두 조상"
+  },
+  {
+   "id": "U006",
+   "verdict": "해소",
+   "note": "네 장 원고에 ~ 0건, del/s 요소 없음"
+  },
+  {
+   "id": "U010",
+   "verdict": "해소",
+   "note": "표본: 첫 참조 링크, 반복 참조 평문; 전수 정독은 아님"
+  }
+ ],
+ "checks": {
+  "check_project": "pass",
+  "git_diff_check": "pass",
+  "npm_test": "pass 25",
+  "npm_check": "pass",
+  "npm_build": "pass 47 pages",
+  "test_e2e": "pass 23"
+ },
+ "revisions": {
+  "ch01": "5->6",
+  "ch09": "4->5",
+  "ch16": "2->3",
+  "ch17": "2->3",
+  "appropriate": true,
+  "anchors_preserved": true
+ },
+ "new_opinions": [
+  {
+   "id": "N001",
+   "priority": "P3",
+   "location": "manuscript/chapters/ch01.md 41행",
+   "problem": "출처 대장 링크가 /sources/ 맨 위로 열리고 #S59 앵커가 없음",
+   "acceptance": "링크가 S59 항목으로 바로 이동하거나 현 상태 유지를 기록"
+  }
+ ],
+ "report": "planning/reviews/2026-10-15-publication-ch01-09-16-17-verify.md"
+}

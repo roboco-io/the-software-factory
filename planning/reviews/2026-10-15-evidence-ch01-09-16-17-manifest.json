@@ -1,0 +1,87 @@
+{
+  "axis": "evidence",
+  "scope": "ch01,ch09,ch16,ch17",
+  "version": "776f80d0dda5bab6dae0e611aa84601a26b1a522",
+  "base_commit_date": "2026-10-15T10:11:57+09:00",
+  "reviewed_on": "2026-10-15",
+  "reviewer": "review-evidence 에이전트(Claude); 독립 인간 검증 아님",
+  "worktree_clean": false,
+  "worktree_note": "작업 트리에 웹 분석 코드·STATUS.md·CHANGELOG.md 등 다른 변경이 있으나 대상 파일에는 커밋하지 않은 변경이 없다(git diff --quiet HEAD 확인).",
+  "uncommitted_changes_in_targets": false,
+  "policies": [
+    {
+      "path": "planning/review-policies/README.md",
+      "status": "저자 검토 전(확정 전); 2026-10-15 7장 시범 결과로 조정(D28)"
+    },
+    {
+      "path": "planning/review-policies/02-evidence.md",
+      "status": "저자 검토 전(확정 전)"
+    },
+    {
+      "path": ".claude/agents/review-evidence.md",
+      "status": "에이전트 정의"
+    }
+  ],
+  "targets": [
+    "manuscript/chapters/ch01.md",
+    "manuscript/chapters/ch09.md",
+    "manuscript/chapters/ch16.md",
+    "manuscript/chapters/ch17.md",
+    "research/claims/ch01.json",
+    "research/claims/ch09.json",
+    "research/claims/ch16.json",
+    "research/claims/ch17.json",
+    "research/sources.json",
+    "research/evidence-policy.md",
+    "research/mcconnell/chapter-map.md",
+    "research/claims/software-factory-demo.json",
+    "pattern_catalog.json"
+  ],
+  "sha256": {
+    "manuscript/chapters/ch01.md": "12d90025a081519dfb86f88f2793163987196cc0ce6fbda07677fc99e3f6f1b4",
+    "manuscript/chapters/ch09.md": "ab2991c86d549f1223a7efde5ffe88a60055dab53665ba3201170ee419ab056c",
+    "manuscript/chapters/ch16.md": "392b3e22a53321989ddd1fc3c56b1291f3a8c123993d0272069379b5a1dca38b",
+    "manuscript/chapters/ch17.md": "c9ccc4ab91f293b6317f1e63a44cad21917f8f87af5c1ecdede4fb84ff36fe98",
+    "research/claims/ch01.json": "c4798512273d9a145b990c9887552645a6049f2a3f01eadead1ee0f6527e18ca",
+    "research/claims/ch09.json": "72e564466234adb1aa56db58b4c996e663b4bc55891248eadd8495f40aa8ba84",
+    "research/claims/ch16.json": "6f23d094b5b91fbe4e9b3c980102e30cca05e76965775e1c082938a24b962555",
+    "research/claims/ch17.json": "a7b636b3abd9dc9fd6de27ed0c5e864902e649b400f29e0175cd66d7c2d37a8f",
+    "research/sources.json": "3cc0f524429cb3e6b505721998adf1701eae38b764f36cc6999a7285548f949e",
+    "research/evidence-policy.md": "31cc33437b4232e7801deedc8d0d3e3b07c465dff9844f265e7b4cc9237f6e55",
+    "research/mcconnell/chapter-map.md": "ecfbcbbcfffaa6f6f4a9f33dfab271b38264a81fc2d455b9052d0551c8126c41",
+    "research/claims/software-factory-demo.json": "a63bf25c5c0140058e660e6b6c81769998500a3404d8dc2cd030be40f880beb7",
+    "pattern_catalog.json": "cb3e66d0d8eaeaea3067b062beddd1cd393ac958d90d4f17390db3b9d1bf3cdf",
+    "planning/review-policies/README.md": "af9acc01fddc45976e5449ee0859c2bc73ca592a68d02a662c37be981c38dd5b",
+    "planning/review-policies/02-evidence.md": "6b6607f004ded59da540fc73465c2dafe84a75bee7cd8c517e80cb6d79384018",
+    ".claude/agents/review-evidence.md": "70987a4cebf11aaaeae99008b8fc196b11c9fa4356749761d5431ad239e7d06c"
+  },
+  "external_snapshots": {
+    "S59/S64/S66": "roboco-io/the-software-factory-demo@25a73b9c342ef380f96ff0d705df9b7ef33dd82c (raw)",
+    "S01/S33/S34/S36/S37/S39/S44": "roboco-io/roboco-io.github.io@2a96f577e7ae0cf36b01814cdb93461d8000007d (raw)",
+    "S70": "vaf.roboco.io 영문 홈과 /ko/, roboco-io/vibe-adoption-framework@10faece6c11c1c93b1046b127a1ed7ed1088e97a VAF-ko.md",
+    "S73": "roboco-io/dora-ai-guide 커밋 이력 (gh api 2026-10-15), 첫 커밋 afaaff66 2026-09-24T09:04:14Z",
+    "S09": "대장 URL 403; r.jina.ai 프록시와 Exa 가져오기로 확인",
+    "S28": "대장 URL 403; Microsoft Research 게시 초록만 확인; 원문 미대조",
+    "S30": "대장 URL 403; Crossref 초록만 확인; 원문 미대조",
+    "웹 원문(2026-10-15 curl)": "S08, S20, S21, S22, S23, S24, S25, S26, S27, S31, S53, S54, S73, S74",
+    "추가 판정(코드)": "roboco-io/the-software-factory-demo@25a73b9 packages/factory/src/stages/{gate,command,weekly,common}.ts raw, report/metrics.ts"
+  },
+  "commands": [
+    "git rev-parse HEAD",
+    "git status --short",
+    "git diff --quiet HEAD -- <대상 파일>",
+    "shasum -a 256 <대상 파일>",
+    "git grep -lwF <출처 ID>",
+    "curl <출처 URL>; gh api repos/roboco-io/dora-ai-guide/commits",
+    "curl raw 소스(추가 판정 항목 1): gate.ts, command.ts, weekly.ts, common.ts"
+  ],
+  "not_run": [
+    "scripts/check_project.py",
+    "웹 테스트·빌드"
+  ],
+  "outputs": [
+    "planning/reviews/2026-10-15-evidence-ch01-09-16-17.md",
+    "planning/reviews/2026-10-15-evidence-ch01-09-16-17.json",
+    "planning/reviews/2026-10-15-evidence-ch01-09-16-17-manifest.json"
+  ]
+}

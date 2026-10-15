@@ -1,0 +1,110 @@
+{
+  "axis": "evidence",
+  "scope": "ch01,ch09,ch16,ch17 (verify)",
+  "version": "3002170",
+  "report": "planning/reviews/2026-10-15-evidence-ch01-09-16-17-verify.md",
+  "verifications": [
+    {
+      "item": 1,
+      "target": "ch16.md 41행 S27",
+      "verdict": "검증 완료",
+      "note": "199명·모의 AI·지표 한정·전체 성능 무차이 원문과 일치. 표현 보완은 E009."
+    },
+    {
+      "item": 2,
+      "target": "ch17.md 59행 S53",
+      "verdict": "검증 완료",
+      "note": "16명·246건·무작위 배정·19%·2025년 7월·초기 도구·자기보고·기대/인식 일치. 원문 상단 out-of-date 경고와 충돌 없음. 경고 문장 추가는 E003(저자 선택)."
+    },
+    {
+      "item": 3,
+      "target": "ch17.md 59행 METR 소개, 73행 DORA 소개",
+      "verdict": "열림",
+      "note": "E008. DORA 날짜·내용 일치."
+    },
+    {
+      "item": 4,
+      "target": "ch09.md 105행 S64",
+      "verdict": "검증 완료",
+      "note": "세 job, 게시·준비 job의 App 토큰, 에이전트 job의 엔진 키만, 작업 트리 주석 일치."
+    },
+    {
+      "item": 5,
+      "target": "ch17.md 53행 S66",
+      "verdict": "검증 완료",
+      "note": "7일 창(weekly.ts PERIOD_DAYS=7, metrics.ts 주석)과 계산 서술 일치."
+    },
+    {
+      "item": 6,
+      "target": "sources.json S09 usage_review",
+      "verdict": "검증 완료",
+      "note": "추가 파일 4개와 83(29+14+17+23) 재집계 일치. 제외 이유 기록은 E010."
+    },
+    {
+      "item": "E001",
+      "target": "이전 보고서 E001 수용 조건",
+      "verdict": "검증 완료",
+      "note": "요약이 있는 내용 파일 모두 목록에 있고 합계 83<200."
+    },
+    {
+      "item": "markers",
+      "target": "수정된 모든 문단",
+      "verdict": "검증 완료",
+      "note": "네 장의 [Sxx] 개수 불변, 수정 문단의 범위 한정 유지."
+    }
+  ],
+  "s53_cumulative_estimate": {
+    "unit": "공백 단위(어절)",
+    "narrow_source_summary_sentences": 79,
+    "narrow_total_with_ledger_and_note": 170,
+    "conservative_whole_field": 270,
+    "under_200": "좁은 집계 기준 예(여유 약 30), 보수 집계 기준 초과 가능",
+    "ledger_update_by": "진행자"
+  },
+  "opinions": [
+    {
+      "id": "E008",
+      "priority": "P3",
+      "status": "열림",
+      "axis": "evidence",
+      "location": "manuscript/chapters/ch17.md 59행 첫 문장, 73행 둘째 문장",
+      "version": "3002170 + 미커밋 수정",
+      "problem": "METR 소개가 출처의 자기소개(비영리, 첨단 AI 자율 수행 능력 평가)보다 좁고, DORA를 연구 조직으로 소개하나 S74 푸터는 Google Cloud가 운영하는 프로그램이라고 적는다. 두 소개 문장에 표식이 바로 붙지 않는다.",
+      "reader_impact": "결과 해석에는 영향이 없으나 기관 성격을 다르게 이해할 수 있다.",
+      "evidence": "정책 기준 3. 2026-10-15 원문 HTML 직접 확인. DORA의 외부 사실은 확인하지 않음.",
+      "minimal_fix": "59행 첫 문장을 METR의 실제 업무와 이 연구가 그 일부임을 밝히도록 고치고 [S53]을 붙인다. 73행은 'Google Cloud가 운영하는 프로그램'으로 고치고 [S74]를 붙인다.",
+      "acceptance": "두 소개 문장이 원문 자기소개와 맞고 표식이 붙어 있다.",
+      "forward_to": []
+    },
+    {
+      "id": "E009",
+      "priority": "P3",
+      "status": "열림",
+      "axis": "evidence",
+      "location": "manuscript/chapters/ch16.md 41행",
+      "version": "3002170 + 미커밋 수정",
+      "problem": "'인지 개입 조건을 가장 낮게 평가'는 초록의 보고이나 표 3에서 인지 개입과 단순 설명형 비교는 신뢰·선호가 유의하지 않고 시스템 복잡성만 유의하다.",
+      "reader_impact": "수용성 저하가 모든 주관 지표에서 확정된 것으로 읽힐 수 있다. 16장 판단은 바뀌지 않는다.",
+      "evidence": "정책 기준 1. 원저자 HTML 초록·4.2절·표 3 직접 확인. 통계 재계산 안 함.",
+      "minimal_fix": "경향이라고 적고 신뢰·선호 차이가 유의하지 않았음을 덧붙이거나 초록이 보고한 경향임을 밝힌다.",
+      "acceptance": "본문이 수용성 비용의 근거 범위를 구분한다.",
+      "forward_to": []
+    },
+    {
+      "id": "E010",
+      "priority": "P3",
+      "status": "열림",
+      "axis": "evidence",
+      "location": "research/sources.json S09 usage_review.review_addendum.count_scope",
+      "version": "3002170 + 미커밋 수정",
+      "problem": "git grep에 나오는 STATUS.md, planning/sessions/2026-10-13-harness.md, research/remaining-review-source-checks.json을 목록에서 뺀 이유가 count_scope에 없다.",
+      "reader_impact": "없음. 기록 완결성.",
+      "evidence": "정책 기준 5. 세 파일의 S09 언급 줄 확인.",
+      "minimal_fix": "count_scope에 'ID만 언급하는 진행·접근 기록은 요약이 없어 제외'를 추가한다.",
+      "acceptance": "제외한 파일과 이유가 대장에 있다.",
+      "forward_to": []
+    }
+  ],
+  "handoffs": [],
+  "handoffs_received": []
+}

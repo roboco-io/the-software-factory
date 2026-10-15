@@ -1,0 +1,175 @@
+{
+  "axis": "evidence",
+  "scope": "ch01,ch09,ch16,ch17",
+  "version": "776f80d0dda5bab6dae0e611aa84601a26b1a522",
+  "report": "planning/reviews/2026-10-15-evidence-ch01-09-16-17.md",
+  "opinions": [
+    {
+      "id": "E001",
+      "priority": "P2",
+      "status": "열림",
+      "axis": "evidence",
+      "location": "research/sources.json S09 usage_review.files; manuscript/chapters/ch09.md 69행; manuscript/chapters/ch02.md 55행",
+      "version": "776f80d0dda5bab6dae0e611aa84601a26b1a522",
+      "problem": "S09는 9장 외에 ch02.md 55행, research/claims/ch02.json, research/cases/openai-harness.md에도 쓰이는데 usage_review.files(5개)에 이 세 파일이 없고 요약 공백 단위 합계도 기록이 없다. 세 위치가 같은 원문 내용을 요약한다.",
+      "reader_impact": "공개 판단에는 직접 영향이 없다. 출처당 200단어 한도 준수를 대장만으로 확인할 수 없다.",
+      "evidence": "정책 기준 5. git grep -lwF S09 결과와 대장 파일 목록을 대조했다. 어절 합계는 다시 세지 않았다.",
+      "minimal_fix": "usage_review.files에 세 파일을 추가하고 세 위치의 요약 공백 단위 합계와 집계 범위를 기록한다.",
+      "acceptance": "git grep -lwF S09 결과의 내용 파일이 모두 목록에 있고 합계가 200 이하이거나 초과 이유가 기록되어 있다.",
+      "forward_to": []
+    },
+    {
+      "id": "E002",
+      "priority": "P3",
+      "status": "열림",
+      "axis": "evidence",
+      "location": "research/sources.json S59 usage_review.cited_paragraph_whitespace_units(309); manuscript/chapters/ch01.md 39행",
+      "version": "776f80d0dda5bab6dae0e611aa84601a26b1a522",
+      "problem": "S59의 출처 표식 문단 공백 단위가 기본 상한 200을 넘는데 대장에 이용 허락 근거가 없다. 고정 커밋 README의 라이선스 절은 자체 코드·문서·설정을 Apache-2.0으로 배포한다고 적는다. research/README.md, planning/software-factory-demo-integration.md, website/scripts/publication.mjs가 usage_review.files에 없다.",
+      "reader_impact": "독자 판단에는 영향이 없다. 저자가 상한 초과를 설명하려면 근거 기록이 필요하다.",
+      "evidence": "정책 기준 5. 고정 커밋 README raw의 라이선스 절을 읽었다. Apache-2.0이 이 책의 요약 방식에 충분한지의 법적 판단은 범위 밖이다.",
+      "minimal_fix": "대장 S59에 Apache-2.0 확인(고정 커밋 README 라이선스 절)과 확인일을 적고 누락 파일 세 개를 목록에 추가한다.",
+      "acceptance": "대장에 S59의 이용 허락 근거와 누락 파일이 반영되어 있다.",
+      "forward_to": []
+    },
+    {
+      "id": "E003",
+      "priority": "P3",
+      "status": "열림",
+      "axis": "evidence",
+      "location": "research/sources.json S53 limit; manuscript/chapters/ch17.md 55행",
+      "version": "776f80d0dda5bab6dae0e611aa84601a26b1a522",
+      "problem": "S53 limit은 이전 수집본의 경고 문구를 이번 원문에서 확인하지 못했다고 적지만, 2026-10-15 원문에는 상단에 'These results are out of date ... no longer reflect the current impact' 경고와 'Update: In February 2026' 문구가 있다. 17장 55행은 이 원문과 일치하므로 본문 수정은 필요하지 않다.",
+      "reader_impact": "없음. 본문은 원문의 현재 상태와 맞는다.",
+      "evidence": "정책 기준 4. 원문 HTML을 직접 받아 확인했다. 경고가 추가된 시점은 확인하지 못했다.",
+      "minimal_fix": "S53 limit과 verification_history에 2026-10-15 경고 배너 확인을 추가한다. 17장에 한 문장을 덧붙일지는 저자 선택이다.",
+      "acceptance": "대장 S53 문구가 2026-10-15 원문과 일치한다.",
+      "forward_to": []
+    },
+    {
+      "id": "E004",
+      "priority": "P3",
+      "status": "열림",
+      "axis": "evidence",
+      "location": "research/claims/ch01.json review.mcconnell.original_chapters; research/mcconnell/chapter-map.md 표",
+      "version": "776f80d0dda5bab6dae0e611aa84601a26b1a522",
+      "problem": "1장 메모의 원서 장 목록은 [1, 2, 16]인데 대응 지도는 IDD 1장을 원서 1·2장에만 연결한다(원서 16장은 IDD 2·3·15·16장). 9·16·17장 메모는 지도와 일치한다.",
+      "reader_impact": "없음. 기록 불일치다.",
+      "evidence": "정책 기준 3·6. 지도 표 행을 파싱해 대조했다. 원서 목차는 열지 않아 어느 쪽이 맞는지는 판정하지 못했다.",
+      "minimal_fix": "메모 또는 지도 중 근거가 맞는 쪽으로 맞춘다.",
+      "acceptance": "1장 메모의 원서 장 목록이 지도의 IDD 1장 행과 일치한다.",
+      "forward_to": []
+    },
+    {
+      "id": "E005",
+      "priority": "P3",
+      "status": "열림",
+      "axis": "evidence",
+      "location": "manuscript/chapters/ch09.md 113행([S23]); research/sources.json S23 limit",
+      "version": "776f80d0dda5bab6dae0e611aa84601a26b1a522",
+      "problem": "본문은 GitHub 배포 환경의 보호 조건과 승인 전 비밀 정보 제한을 요약하나 제공 조건을 적지 않는다. 원문은 Free·Pro·Team 요금제에서 필수 검토자와 환경 비밀 정보가 공개 저장소에서만 제공된다고 적는다. 대장 limit에는 이 조건이 있다.",
+      "reader_impact": "비공개 저장소를 쓰는 리더가 모든 요금제에서 쓸 수 있다고 오해할 수 있다. 9장의 판단은 바뀌지 않는다.",
+      "evidence": "정책 기준 4. 원문의 Required reviewers·Environment secrets 절을 읽었다. 요금제 조건은 2026-10-15 시점이다.",
+      "minimal_fix": "113행에 제공 조건이 요금제와 저장소 종류에 따라 다르다는 문장을 추가한다.",
+      "acceptance": "본문이 제공 조건의 존재를 밝히거나 생략 이유가 기록되어 있다.",
+      "forward_to": []
+    },
+    {
+      "id": "E006",
+      "priority": "P3",
+      "status": "열림",
+      "axis": "evidence",
+      "location": "research/sources.json S09 author, S74 갱신일; research/claims/ch17.json S33·S54 메모 type; research/claims/ch01.json 앞 여섯 메모",
+      "version": "776f80d0dda5bab6dae0e611aa84601a26b1a522",
+      "problem": "S09 author가 비어 있다(원문 byline: Ryan Lopopolo). S74 원문의 Last updated 2025-08-26이 대장에 없다(본문 8월 6일은 맞다). 17장 메모에서 S33(저자 초안)과 S54(METR 공식 글)가 같은 type·note 문구를 쓰고, 1장 앞 여섯 메모도 같은 문구가 반복되어 소제목별 주장 구분이 드러나지 않는다.",
+      "reader_impact": "없음. 기록 정밀도 문제다.",
+      "evidence": "정책 기준 3. 원문 byline·갱신일과 메모 JSON을 직접 대조했다.",
+      "minimal_fix": "S09 author와 S74 갱신일을 채우고 17장 S33·S54 메모 type을 각각 저자 초안의 제안과 제3자 연구 조직의 공식 글로 나눈다.",
+      "acceptance": "대장·메모에 세 항목이 반영되어 있다.",
+      "forward_to": []
+    },
+    {
+      "id": "E007",
+      "priority": "P3",
+      "status": "열림",
+      "axis": "evidence",
+      "location": "manuscript/chapters/ch01.md 86행",
+      "version": "776f80d0dda5bab6dae0e611aa84601a26b1a522",
+      "problem": "86행은 '원서 주제의 기존 연결: [연구 대응 지도]'만 적어, 연결이 공개 목차 범위의 주제 연결이며 원서의 주장이 아니라 이 책의 재고찰 질문이라는 점을 이 줄에 쓰지 않는다. 9·16장은 공개 목차 범위를 본문에 쓴다. 1장 84행은 원서 본문 대조 미완료를 밝히므로 원서 본문을 읽은 것처럼 쓴 위반은 아니다.",
+      "reader_impact": "독자가 대응 지도의 연결을 원서 저자의 주장으로 읽을 수 있다. 영향은 작다.",
+      "evidence": "정책 기준 6. 네 장의 해당 줄과 대응 지도의 범위 문구를 읽었다. 원서 목차는 열지 않았다. 다른 축(문체)이 넘긴 항목 7의 판정으로 등록.",
+      "minimal_fix": "86행을 '원서 주제 연결(공개 목차 범위, 원서 본문 대조 아님): [연구 대응 지도]'로 고친다. 17장 83·89행에 '이 책의 재고찰 질문'이라는 표현을 덧붙일 수 있다(선택).",
+      "acceptance": "1장 86행이 공개 목차 범위와 본문 미대조를 적는다.",
+      "forward_to": [
+        "reader-style"
+      ]
+    }
+  ],
+  "handoffs": [
+    {
+      "forward_to": [
+        "reader-style"
+      ],
+      "location": "manuscript/chapters/ch16.md 58행 '앞선 VAF의'",
+      "problem": "약어 VAF가 16장에서 풀어 쓰이지 않았고 13장 36행도 풀어 쓰지 않는다. '앞선'이 가리키는 대상이 불명확하다. 사실 문제는 아니며 문체 축이 판정한다."
+    },
+    {
+      "forward_to": [
+        "publication"
+      ],
+      "location": "manuscript/chapters/ch01.md 39행 배포된 데모 링크",
+      "problem": "링크는 HTTP 200이고 문서 제목은 'Conveyor — Software Factory Demo'이다. 문장이 설명하는 예제 서비스 화면인지 렌더링 없이 확인하지 못했다. 고정 커밋 README의 roboco.io/software-factory-demo/ 주소는 현재 HTTP 404이나 원고는 이 주소를 쓰지 않는다."
+    },
+    {
+      "forward_to": [
+        "argument"
+      ],
+      "location": "manuscript/chapters/ch17.md 55-57행",
+      "problem": "S54 원문은 2026년 초 속도 향상이 2025년 초보다 클 가능성이 높으나 데이터는 아주 약한 증거라고 쓴다. 17장은 확정 근거로 확대하지 않는다고만 쓴다. 사실 오류는 아니며 이 방향성을 논증에 포함할지는 논증 축이 판단한다."
+    }
+  ],
+  "handoffs_received": [
+    {
+      "from": "argument 1",
+      "location": "ch17.md 49·51행; ch01.md 19행",
+      "result": "문제 없음",
+      "evidence": "고정 커밋 25a73b9의 metrics.ts completionRate와 gate.ts 145-170행을 읽었다. 정책 보류(risk_t2/t3 등)는 ok:false로 기록되어 완주에서 빠진다. @factory stop은 command 기록이 ok:true라 모든 사람 이관이 빠지는 것은 아니며, 17장은 '정책에 따라'로 한정해 정확하다. 1장 19행은 S59 표식이 없는 정의이며 충돌하지 않는다. 코드 구조 확인 수준, 실행 확인 아님."
+    },
+    {
+      "from": "argument/reader-style 2",
+      "location": "ch16.md 58행",
+      "result": "문제 없음",
+      "evidence": "VAF-ko.md@10faece 36행과 vaf.roboco.io/ko/ 58행의 '원리 2' 제목과 글자 단위로 일치. 대장 기본 URL은 영문판. 5어절로 25단어 한도 안."
+    },
+    {
+      "from": "reader-style 3",
+      "location": "ch17.md 55-57행",
+      "result": "문제 없음",
+      "evidence": "S53·S54 원문을 읽었다. 현재 문장은 범위 안. 사용 가능 범위(스냅샷, 16명·246건·2025년 초 도구·자기보고 시간, S54의 신뢰도 한계)와 사용 불가 범위(19%의 현재 일반화, 후속 추정치의 효과 크기)를 보고서 6절 항목 3에 기록. S53 out-of-date 경고는 E003."
+    },
+    {
+      "from": "reader-style 4",
+      "location": "ch17.md 49행 관찰 창",
+      "result": "문제 없음",
+      "evidence": "weekly.ts PERIOD_DAYS=7, 실행 기록 ts로 거른 최근 7일 구간을 completionRate에 넘김. metrics.ts 35행 주석과 일치. 올바른 풀이는 '최근 7일 동안 기록된 실행'. 접수 시점 기준이나 고정 7일로 풀면 틀림."
+    },
+    {
+      "from": "reader-style 5",
+      "location": "ch16.md 41행 영양 선택 실험",
+      "result": "문제 없음",
+      "evidence": "S27 원문 4.1·표 1·표 2 대조. 줄여도 되는 것은 과제 모양. 유지할 것은 모의 AI, 2021·199명, 효과가 난 지표 한정(탄수화물 원천 식별; 전체 결정 지표는 비유의), 전체 성능 무차이는 동등성 아님, 수용성 대가와 개인차, 현대 에이전트 아님."
+    },
+    {
+      "from": "reader-style 6",
+      "location": "ch09.md 99-101행",
+      "result": "문제 없음",
+      "evidence": "S64 워크플로 전체를 읽었다. 작업 트리는 에이전트가 고친 파일을 담은 디렉터리로 풀 수 있고 샌드박스로 풀면 범위 초과. 자격 증명은 GitHub App 토큰으로 한정하고 prepare job도 같은 토큰을 발급, 에이전트 job은 엔진 API 키를 가진다. 구성 확인이며 실행 확인 아님."
+    },
+    {
+      "from": "reader-style 7",
+      "location": "ch01·09·16·17장 원서 연결 고지",
+      "result": "E007",
+      "evidence": "최소 내용은 공개 목차 범위, 원서 본문 미대조, 이 책의 재고찰 질문 세 가지. 9장은 모두 충족, 16장은 114행으로 보완, 17장은 (1)과 암시된 (3)이며 충분, 1장 86행이 가장 약해 E007 등록."
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "axis": "publication",
+  "scope": "ch01-09-16-17",
+  "version": "776f80d0dda5bab6dae0e611aa84601a26b1a522",
+  "reviewed_at": "2026-10-15 10:12-10:30 KST",
+  "working_tree_clean": false,
+  "working_tree_note": "주 작업 트리는 깨끗하지 않았다. 다른 세션이 website/(BookFooter.astro, quiz.ts, reader.ts, 신규 analytics 파일)와 .github/workflows/pages.yml 을 미커밋으로 수정 중이었고, 리뷰 도중 CHANGELOG.md 와 STATUS.md 도 미커밋으로 수정되었다. 이 리뷰는 기준 커밋 776f80d 를 git worktree 로 따로 체크아웃해 그 사본에서만 읽고 빌드했다. 아래 해시는 사본(커밋된 내용)의 값이다. 주 작업 트리의 website/ 는 건드리지 않았다.",
+  "worktree": {
+    "path": "/private/tmp/claude-501/-Users-dohyunjung-Workspace-roboco-io-education-idd-book/3bc99f97-381f-4cdf-819b-ddada865ab69/scratchpad/wt-pub",
+    "commit": "776f80d0dda5bab6dae0e611aa84601a26b1a522",
+    "removed_after_review": true
+  },
+  "policy_files": [
+    {
+      "path": "planning/review-policies/README.md",
+      "status": "저자 검토 전, 7장 시범 결과로 조정(D28)"
+    },
+    {
+      "path": "planning/review-policies/04-publication.md",
+      "status": "저자 검토 전, 7장 시범 결과로 조정(D28)"
+    }
+  ],
+  "previous_public_commit": {
+    "sha_at_review_start": "e5fefc7eaafca2f4d2818b76a041c4d7b54b1d74",
+    "sha_latest_fetched": "ac2b5c1f5d8c997edae6bcd86a545c0bddaf9947",
+    "merge_base": "121e5011f4a103ae912da98195c4ff0e7c65a5a1",
+    "diverged": true,
+    "commits_only_on_origin": [
+      "c26beac",
+      "e5fefc7",
+      "ac2b5c1"
+    ],
+    "commits_only_on_base": 5
+  },
+  "live_site_checks": [
+    {
+      "url": "https://factory.roboco.io/book/ch01/",
+      "checked_at": "2026-10-15 10:13 KST",
+      "data_reader_revision": "3",
+      "origin_manifest_revision": "3"
+    },
+    {
+      "url": "https://factory.roboco.io/book/ch09/",
+      "checked_at": "2026-10-15 10:13 KST",
+      "data_reader_revision": "2",
+      "origin_manifest_revision": "2"
+    },
+    {
+      "url": "https://factory.roboco.io/book/ch16/",
+      "checked_at": "2026-10-15 10:13 KST",
+      "data_reader_revision": "1",
+      "origin_manifest_revision": "1"
+    },
+    {
+      "url": "https://factory.roboco.io/book/ch17/",
+      "checked_at": "2026-10-15 10:13 KST",
+      "data_reader_revision": "1",
+      "origin_manifest_revision": "1"
+    },
+    {
+      "url": "https://factory.roboco.io/changelog/ , /privacy/",
+      "checked_at": "2026-10-15 10:17 KST",
+      "result": "privacy 200. 10:17:08 에 체인지 로그의 '선택 가능한 이용 통계' 항목은 0건, 약 20초 뒤 재확인에서 존재. ac2b5c1 배포가 리뷰 중 완료된 것으로 본다."
+    }
+  ],
+  "target_files": [
+    "manuscript/chapters/ch01.md",
+    "manuscript/chapters/ch09.md",
+    "manuscript/chapters/ch16.md",
+    "manuscript/chapters/ch17.md",
+    "website/content-manifest.json",
+    "CHANGELOG.md",
+    "LICENSE.md",
+    "book-publication.json",
+    "book_project.json",
+    "outline/toc.md",
+    "README.md",
+    "STATUS.md",
+    "website/README.md",
+    "skills/book-changelog/references/policy.md",
+    "website/scripts/publication.mjs",
+    "website/scripts/generate-content.mjs",
+    "website/src/styles/book.css"
+  ],
+  "target_files_sha256": {
+    "manuscript/chapters/ch01.md": "12d90025a081519dfb86f88f2793163987196cc0ce6fbda07677fc99e3f6f1b4",
+    "manuscript/chapters/ch09.md": "ab2991c86d549f1223a7efde5ffe88a60055dab53665ba3201170ee419ab056c",
+    "manuscript/chapters/ch16.md": "392b3e22a53321989ddd1fc3c56b1291f3a8c123993d0272069379b5a1dca38b",
+    "manuscript/chapters/ch17.md": "c9ccc4ab91f293b6317f1e63a44cad21917f8f87af5c1ecdede4fb84ff36fe98",
+    "manuscript/patterns/p01.md": "edd353fa37fbd47069ef2142c34774b6c0960c91de771ab516e48faac1688226",
+    "website/content-manifest.json": "257ab5fdb5c44bdd40e2699b74a584e727c73603822fe79a0e59bdc742a1e74c",
+    "CHANGELOG.md": "e316ca44535958b7238643a9b7f9337eeba7a3559190eb95f0ec47585c66e53c",
+    "LICENSE.md": "ba19d86be538b9a9deb859388d082e5f5b0d3e064c1a529029d3b2cde7194ef8",
+    "book-publication.json": "5a7840d423e64ea7536322d27db3ee2f113aefb769f00c3baf10f9049cd85cd5",
+    "book_project.json": "b083124c52a8e9abbe7dd12351184ae73ac1e0ae5bfcfc81b9ec870476fe1f94",
+    "outline/toc.md": "b1c7c9fa6c85c13d920c709cfb07ab55ca5f742d25eb2b675317ed474075668d",
+    "README.md": "b02e5b6c9a16f7079a31a6b1e2f62b50c53943612e3f5923ea56c6226adc3861",
+    "STATUS.md": "751d81dc138427686b63d75eeb98d0eac774d5e1cb49d0f11c76a305334b29a5",
+    "website/README.md": "35b84e66ba0be6445e332a759a831f86c7c289bf3dda60613cbed3f42ad2d111",
+    "skills/book-changelog/references/policy.md": "1df972dbb069de29ed2c022a60c0a25f9cc9935bd75bce858bb9d02d83e4b7ae",
+    "planning/review-policies/README.md": "af9acc01fddc45976e5449ee0859c2bc73ca592a68d02a662c37be981c38dd5b",
+    "planning/review-policies/04-publication.md": "9efb23bff8729aa07c543cd1edee3158f0f3b90bdd2d0e8b7ab2fab27d6245e7",
+    ".claude/agents/review-publication.md": "5c905de8d4c07fbb3cebee5989cfef28e479f0c3e397e5d219521940e073b72a",
+    "website/scripts/publication.mjs": "f56399c66c634c1cac4d97591b32b10dea1c7c05c056156f70c22352c3998dea",
+    "website/scripts/generate-content.mjs": "325b4c5db5feea5df266a7ebd2b5bfa91a171d5e35303d08dc713862a73692f0",
+    "website/src/styles/book.css": "7eaf435ddbba6020c94d3861b1c5a9fff4ad86cb873047fb08a94c6bde70ae34"
+  },
+  "uncommitted_target_files_in_main_tree": [
+    "CHANGELOG.md",
+    "STATUS.md"
+  ],
+  "uncommitted_note": "이 두 파일의 미커밋 변경은 다른 세션의 것이며 이 리뷰의 판정 대상이 아니다. 판정은 커밋된 776f80d 의 내용에 대한 것이다.",
+  "generated_files_sha256": {
+    "website/dist/book/ch01/index.html": "cb11f8490f4c26e09b4c1e9b956833cb21e896001de4fd7d5eceec8e0dcb7c2b",
+    "website/dist/book/ch09/index.html": "b81a8877e9b2b583cefbd37e004b0573c64c97083a395e598b2aad5252b420fc",
+    "website/dist/book/ch16/index.html": "cdf18e2d93f3e32dc0b0f0824aac428b523286dd34ccd052c9f0467b9a61c449",
+    "website/dist/book/ch17/index.html": "4c6208c4f5e80d6152aefa6786186a2c2933545b11f1783045bb4bcbba84e9d1",
+    "website/dist/changelog/index.html": "78823f5b981a3d0213f56fd041acc3997911924189792cb2296249bd4975a783",
+    "website/dist/license/index.html": "c762c7dbc45e357e736025d402793f748e7211d1df9208bf51bacfc23232985f",
+    "website/dist/sources/index.html": "03d789334cf63ab29c405c9f09a4f3fb03a2e6be0934b1e7a7de166fdc77ff7f"
+  },
+  "generated_note": "빌드 산출물은 사본 website/dist 의 값이다. 생성물이므로 커밋 대상이 아니다.",
+  "commands": [
+    {
+      "cmd": "python3 scripts/check_project.py",
+      "cwd": "사본 루트",
+      "result": "통과",
+      "detail": "20장 15패턴 97출처"
+    },
+    {
+      "cmd": "git diff --check e5fefc7..776f80d",
+      "cwd": "사본 루트",
+      "result": "실패",
+      "detail": "planning/reviews/2026-10-15-publication-ch07-cmp.md:7 끝 공백 1건(U008)"
+    },
+    {
+      "cmd": "git diff --check 121e501..776f80d",
+      "cwd": "사본 루트",
+      "result": "실패",
+      "detail": "같은 1건"
+    },
+    {
+      "cmd": "npm ci",
+      "cwd": "사본 website/",
+      "result": "통과",
+      "detail": "설치 스크립트 안내 경고만"
+    },
+    {
+      "cmd": "npm test",
+      "cwd": "사본 website/",
+      "result": "통과",
+      "detail": "13/13"
+    },
+    {
+      "cmd": "npm run check",
+      "cwd": "사본 website/",
+      "result": "통과",
+      "detail": "오류 0 경고 0 힌트 0"
+    },
+    {
+      "cmd": "npm run build",
+      "cwd": "사본 website/",
+      "result": "통과",
+      "detail": "46쪽, check-output 통과(링크·앵커·내부 경로 노출 없음)"
+    },
+    {
+      "cmd": "PLAYWRIGHT_CHANNEL=chrome npm run test:e2e",
+      "cwd": "사본 website/",
+      "result": "통과",
+      "detail": "13 통과 1 건너뜀. 설치된 Chrome 채널 사용. 실제 iOS Safari 아님"
+    },
+    {
+      "cmd": "표 가로 넘침 측정(393px·360px, ch01·09·16·17)",
+      "cwd": "사본 website/dist 를 정적 서버로 열어 Playwright 실행",
+      "result": "통과",
+      "detail": "9장 4열 표만 스크롤(426/361, 426/328)하며 그림자 단서 있음(U005). 나머지 표와 페이지 전체는 넘침 없음"
+    },
+    {
+      "cmd": "링크 목적지 내용 확인(표본)",
+      "cwd": "사본 website/dist",
+      "result": "실패",
+      "detail": "U001, U002. /sources/#refs-chNN, /sources/#S59, /about/#source-scope, /changelog/, /license/ 확인"
+    },
+    {
+      "cmd": "'읽은 뒤 수정됨' 표시 시험(이전 revision 저장 후 열기)",
+      "cwd": "사본 website/dist",
+      "result": "통과",
+      "detail": "ch01(3), ch09(2), ch16(1), ch17(1)에서 표시"
+    },
+    {
+      "cmd": "git merge-tree --write-tree origin/main 776f80d",
+      "cwd": "주 저장소(읽기 전용 시험 병합)",
+      "result": "충돌",
+      "detail": "CHANGELOG.md, STATUS.md(U004)"
+    },
+    {
+      "cmd": "curl 외부 링크 상태 코드(피드백 Issues, 데모 사이트·저장소·고정 파일, 공개 4개 장)",
+      "cwd": "-",
+      "result": "통과",
+      "detail": "모두 HTTP 200"
+    }
+  ]
+}

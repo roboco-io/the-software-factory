@@ -570,3 +570,7 @@ S16(GitHub 공식 규칙 문서)과 S17(2025-10-20 Anthropic 실행 경계 설�
 
 - 사용자가 첨부한1734×907 PNG를 변경 없이 website/public/images/software-factory-social-cobalt.png로 복사했다. 공통 Open Graph·Twitter 이미지 URL을 교체하고 대체 설명을 실제 색상·구성에 맞췄다. 새URL로 기존 아이보리 이미지 캐시와 구분한다.
 - [적용 기록](planning/sessions/2026-10-15-social-thumbnail-cobalt.md)에 확인 범위·검증 결과를 남긴다. 본문·읽음revision·독자 체인지로그는 변경하지 않는다. 커밋·푸시·배포는 수행하지 않았다.
+
+### 공개 확인 · 2026-10-15
+
+9c5de8d를 origin/main에 푸시하고 원격 SHA 일치를 확인했다. [Pages 실행38686800209](https://github.com/roboco-io/the-software-factory/actions/runs/38686800209) 빌드·검사·배포 성공. 공개 새PNG의 HTTP200·image/png·원본SHA256일치, 홈·18장의 Open Graph/Twitter 새URL과1734×907크기를 확인했다. 푸시 전 단위26·56페이지빌드/링크·구조/공백 검사도 통과했다. SNS 사업자별 실제 카드 캐시 갱신은 별도 시험하지 않았다. 이 공개확인 기록만 후속 문서 커밋으로 푸시하며 사이트 내용은9c5de8d의 배포본이다.

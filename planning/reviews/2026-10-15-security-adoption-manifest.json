@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-15",
+  "book_commit": "6bd575dcf95584065cf56feedc8216257e2debc7",
+  "policy": "현행 원고 리뷰 정책·집필지침",
+  "scope": "18장중심·12/17/19장 연결·근거/주장/공개예정 기록",
+  "before_sha256": {
+    "manuscript/chapters/ch12.md": "4ede33fa07337aa4c7b74d4532de24cc10b414ee4746ed7d49cf8f279f0d169c",
+    "manuscript/chapters/ch17.md": "2db8a80906012e9a602b1057ba6b30258e378054156c1f694b5c02c7b34504b4",
+    "manuscript/chapters/ch18.md": "791210a5ab4ec80ff17b36174ec6d2a683132a2d95edcfe69e2b368ea5a77f80",
+    "manuscript/chapters/ch19.md": "5bf0dca173d34e17a4891ce89d9533b5e602a3c2597ab7d6e4d9d23e9cb99a3c",
+    "website/content-manifest.json": "682a24da196154b1e10cac313c5d7e4ed3e5c72f9a2bc25f536a798a5c3ccd03",
+    "research/sources.json": "4c5ef764f37f88746a71122aabe79c513dfe354131446e71f6b169d3900afe95",
+    "research/claims/ch12.json": "449d74587557f44d93e2e89c38c0a8b929ce7e857f353713787c0d28cfea8a94",
+    "research/claims/ch17.json": "c698a89098eae64346e174bab8d28ff7618f317486bd3ef769a8729dea391bd9",
+    "research/claims/ch18.json": "6969d60faae9210dba3251532ff3397daa27229d41e4fcd34379661bce89a855",
+    "research/claims/ch19.json": "0a7b7446f94cf3e303d35778c72f6e17606a26f5f75628661c3d8f9fe0578976",
+    "research/claims/security-adoption.json": "7eedb87452ec78b32c9a47688882df8830e6d2ebb91bf6fc0628d2ad8fcbcce7",
+    "planning/security-adoption-integration-proposal.md": "223549db305ae1c7bcd648f6e5849146f65ed2846ae69daf54cb5bc550679b01",
+    "STATUS.md": "31bd566d232b8070d6fed687ed1cba7f5f8620d988ab8b96332ff1eada2ef31d",
+    "CHANGELOG.md": "1a7844df9db34ee6f4c60d6af41a5cf18de76b525b2406c953370dd9f651e2bb",
+    "planning/decisions.md": "23bccad1d8185801bf1deddb964732dcad83fee62a0d197a9a8d0a2104db1a52",
+    "research/security-adoption-evidence.md": null,
+    "planning/reviews/2026-10-15-security-adoption.md": null,
+    "planning/sessions/2026-10-15-security-adoption.md": null
+  },
+  "after_sha256": {
+    "manuscript/chapters/ch12.md": "0615e34ce74f5e781919732589bd898e619f14235d2cf234f98571ab95456ef1",
+    "manuscript/chapters/ch17.md": "81ef0ea487d5e071904e4de7dc42b3d28a43a8c3a1daa1bb7a4fba94d5bca2c2",
+    "manuscript/chapters/ch18.md": "3fe7c7dd1c27b009f3ec0804e29fd7f81acf74a4b953cca5934cf8340ea52d3a",
+    "manuscript/chapters/ch19.md": "e28bb0a9886c5804857858745c7358fb29c42808e8d40460ce5432b726fc8306",
+    "website/content-manifest.json": "95e5af1fada1f5b547b1b1e147db54f2501af3bbf1797fa75f6f5a710869719e",
+    "research/sources.json": "1482d40e5f48c84432fadccdd78236c4493db5205103ad1091caa5f4051c0481",
+    "research/claims/ch12.json": "c02a2779cf37d8d76391627d754f02ca227f55969b74f883ae3977737774a7bf",
+    "research/claims/ch17.json": "1a24ebc94fc1296073a585cb55e3218b79af6d312fb512a7e5d046bab9f51937",
+    "research/claims/ch18.json": "ec47118aaecc46a9c40b0d67fdf004b319d7297306900ab50505523457d43528",
+    "research/claims/ch19.json": "e10fbfa3a4c82888dcb70a31bcc790abb3a95af7e72157297ef0d2389c0a1d55",
+    "research/claims/security-adoption.json": "29978a3513d9dc9840c82adca174e4527b1c8563c866562fbcdd0c895e45a32e",
+    "planning/security-adoption-integration-proposal.md": "d76c09625273d4f332c23d72692fe0faaf3b00762cb15ab2677aa71a246445f8",
+    "STATUS.md": "c212b04793a3735367b85150b21f238df1a6158e1ce82ffa40810f31e0574679",
+    "CHANGELOG.md": "4c7c3d7130c9a2155c9c4d3a5604433e67ae3dd5b6168c005970296d38bff427",
+    "planning/decisions.md": "c6116c550b49833304911d723d12f54829f0a3182579a8cac10ad36d50702e2d",
+    "research/security-adoption-evidence.md": "dd55874e00506d35f73cb2b53bb4f514d2c17b8a52a74f503e78f2ff80c99603",
+    "planning/reviews/2026-10-15-security-adoption.md": "7e20e311981bfe4d4da05c6a1d707afd514c8b667e4ff2698e88eba6a1bb9982",
+    "planning/sessions/2026-10-15-security-adoption.md": "dcc6fa0f61334c1f88dbeb95226383264bbf503d97064864680b5dc3e3bfaa12"
+  },
+  "claims": {
+    "S107": "저자조건부전망",
+    "S108": "공식지침초록의정의/권고",
+    "S109": "업체자체관측",
+    "S110": "업체특정기간집계",
+    "chapters12_17_19": "저자운영/측정/개선제안"
+  },
+  "acceptance": {
+    "SA01": "변경범위자기검증완료",
+    "SA02": "변경범위자기검증완료",
+    "SA03": "변경범위자기검증완료",
+    "SA04": "변경범위자기검증완료"
+  },
+  "validation": {
+    "structure": "20 chapters;15 patterns;110 sources",
+    "unit": "26 passed",
+    "astro": "0 errors/warnings/hints",
+    "build": "56 pages; links/anchors PASS",
+    "browser": "4 chapters x 2 widths:8 checks PASS; not full e2e rerun",
+    "existing_anchors": "preserved",
+    "revisions": "only ch12/ch17/ch18/ch19 +1"
+  },
+  "limits": [
+    "self-check only",
+    "NIST PDF full text not read",
+    "unadopted incidents/regulations not verified",
+    "no security tool/demo/service execution",
+    "no commit/push/deploy"
+  ]
+}

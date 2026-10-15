@@ -4053,6 +4053,111 @@
         "license_url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/LICENSE",
         "manual_review": "본문·해설·조사 보고서·메타데이터의 중복을 대조하고 같은 코드를 독립 효과 근거로 세지 않는다."
       }
+    },
+    {
+      "id": "S107",
+      "title": "보안이 소프트웨어 팩토리 도입을 가속한다",
+      "author": "정도현 / ROBOCO",
+      "url": "https://github.com/roboco-io/roboco-io.github.io/blob/5513d84853da07295d2abe23549f6f54d3a6ebac/content/ko/posts/security-accelerates-software-factory.md",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-15",
+      "verification_status": "사용자 로컬 원고와 공개 저장소의 고정 원고 확인",
+      "verification_scope": "저자의 조건부 전망·설계 제안 및 원문의 외부 근거 링크를 확인. 후속 검증한 외부 근거는 S108~S110으로 별도 등록.",
+      "local_manuscript": "/Users/dohyunjung/Workspace/roboco-io/company/roboco-io.github.io/content/ko/posts/security-accelerates-software-factory.md",
+      "use": "18장 보안 도입 가설의 저자 출처",
+      "limit": "저자 전망은 실제 도입 확산·인과 효과의 관측이 아님. 블로그의 사고·규정·업체 주장 전체를 검증하지 않음. 공개 사이트 URL 열기는 실패하여 확인 가능한 저장소 판본으로 연결.",
+      "verification_history": [
+        {
+          "checked_on": "2026-10-15",
+          "scope": "로컬 글의 중심 주장·대응 대기·조건부 도입·증거·위임·보안 한계·측정 논점 확인. 날짜는 front matter 기준.",
+          "status": "사용자가 지정한 로컬 원고 확인; 공개 URL과 원문의 외부 근거는 미대조",
+          "url": "https://roboco.io/posts/security-accelerates-software-factory/"
+        }
+      ],
+      "revision": "5513d84853da07295d2abe23549f6f54d3a6ebac",
+      "blob_sha": "ba09f5a87d8398cf78fafacf654344cab9d10e22",
+      "usage_review": {
+        "files": [
+          "manuscript/chapters/ch18.md",
+          "planning/security-adoption-integration-proposal.md",
+          "research/claims/security-adoption.json"
+        ],
+        "direct_quote_words": 0,
+        "scope": "저자의 조건부 전망을 짧게 의역·출처 표시. 본문에서 블로그의 모든 사건·수치를 재현하지 않음."
+      }
+    },
+    {
+      "id": "S108",
+      "title": "NIST SP 800-40 Rev. 4 — Guide to Enterprise Patch Management Planning: Preventive Maintenance for Technology",
+      "author": "Murugiah Souppaya / Karen Scarfone, NIST",
+      "url": "https://csrc.nist.gov/pubs/sp/800/40/r4/final",
+      "published_on": "2022-04-06",
+      "verification_scope": "공식 서지 페이지의 발행일·저자·초록. 식별·우선순위·획득·설치·설치 확인과 예방적 유지관리 관점. PDF 전문 미열람.",
+      "limit": "기업 패치 관리 지침의 초록 확인. 소프트웨어 팩토리·AI 도입 권고나 효과 근거 아님.",
+      "checked_on": "2026-10-15",
+      "verification_status": "공식 1차 자료의 명시한 부분 직접 확인",
+      "use": "18장 보안 요구·조치 역량 논거; 저자 전망과 구분",
+      "usage_review": {
+        "checked_on": "2026-10-15",
+        "direct_quote_words": 0,
+        "files": [
+          "manuscript/chapters/ch18.md",
+          "research/claims/ch18.json",
+          "research/claims/security-adoption.json",
+          "research/security-adoption-evidence.md",
+          "research/sources.json"
+        ],
+        "scope": "핵심 관측/권고와 한계만 짧게 의역. 인용문·전체표·그림 복제 없음. 누적 파생 설명200단어 기본 상한을 기준으로 점검."
+      }
+    },
+    {
+      "id": "S109",
+      "title": "Project Glasswing: An initial update",
+      "author": "Anthropic",
+      "url": "https://www.anthropic.com/research/glasswing-initial-update",
+      "published_on": "2026-05-22",
+      "verification_scope": "공식 글의 공개 시점·분류/보고/패치 설계·배포의 역량 병목 진단, 공개 유예와 집계 한계 절 직접 확인.",
+      "limit": "업체의 특정 프로젝트 자체 관찰. 업계 전체 병목·보안 동기 도입 확산·팩토리 효과의 독립 입증 아님. 집계 수치는 본문에서 재현하지 않음.",
+      "checked_on": "2026-10-15",
+      "verification_status": "공식 1차 자료의 명시한 부분 직접 확인",
+      "use": "18장 보안 요구·조치 역량 논거; 저자 전망과 구분",
+      "usage_review": {
+        "checked_on": "2026-10-15",
+        "direct_quote_words": 0,
+        "files": [
+          "manuscript/chapters/ch18.md",
+          "research/claims/ch18.json",
+          "research/claims/security-adoption.json",
+          "research/security-adoption-evidence.md",
+          "research/sources.json"
+        ],
+        "scope": "핵심 관측/권고와 한계만 짧게 의역. 인용문·전체표·그림 복제 없음. 누적 파생 설명200단어 기본 상한을 기준으로 점검."
+      }
+    },
+    {
+      "id": "S110",
+      "title": "Found means fixed: Secure code more than three times faster with Copilot Autofix",
+      "author": "Mike Hanley / GitHub",
+      "url": "https://github.blog/news-insights/product-news/secure-code-more-than-three-times-faster-with-copilot-autofix/",
+      "published_on": "2024-08-14",
+      "updated_on": "2025-01-21",
+      "verification_scope": "공식 발표의 날짜, 2024년5~7월 베타 고객 자료·GHAS 저장소 PR의 신규 CodeQL 경고, Autofix 수정 커밋 중앙값28분과 수동 경고 해결1.5시간의 비교 절 확인.",
+      "limit": "업체 집계이며 무작위 대조·실제 서비스 배포까지의 시간·전체 팩토리의 효과는 확인하지 않음. 현재 제품 성능/가격 추천으로 사용하지 않음.",
+      "checked_on": "2026-10-15",
+      "verification_status": "공식 1차 자료의 명시한 부분 직접 확인",
+      "use": "18장 보안 요구·조치 역량 논거; 저자 전망과 구분",
+      "usage_review": {
+        "checked_on": "2026-10-15",
+        "direct_quote_words": 0,
+        "files": [
+          "manuscript/chapters/ch18.md",
+          "research/claims/ch18.json",
+          "research/claims/security-adoption.json",
+          "research/security-adoption-evidence.md",
+          "research/sources.json"
+        ],
+        "scope": "핵심 관측/권고와 한계만 짧게 의역. 인용문·전체표·그림 복제 없음. 누적 파생 설명200단어 기본 상한을 기준으로 점검."
+      }
     }
   ],
   "source_aliases": {

@@ -210,5 +210,16 @@
     "status": "별도 AI 수정 검증 완료(해당 변경 범위)",
     "prior_review": "변경 문단은 이전 버전의 리뷰 완료를 승계하지 않음",
     "verification": "planning/reviews/2026-10-15-demo-examples-verify-initial.md"
+  },
+  "security_adoption_update": {
+    "date": "2026-10-15",
+    "section": "보안 대응은 발견부터 효과 확인까지 측정한다",
+    "type": "저자 조건부 전망·운영/측정 제안",
+    "source_ids": [],
+    "basis": "18장의 도입 가설을 이 장의 권한/측정/개선 원리에 적용하는 저자 제안",
+    "status": "검증 완료(변경 범위 자기 점검)",
+    "prior_review": "추가·변경 문단은 이전 버전 리뷰 판정을 자동 승계하지 않음",
+    "report": "planning/reviews/2026-10-15-security-adoption.md",
+    "limit": "독립 리뷰·실제 도입/보안 효과·법규 적합성·저자 편집 확정 아님"
   }
 }

@@ -1,0 +1,33 @@
+{
+  "axis": "evidence",
+  "scope": "ch07",
+  "reviewed_on": "2026-10-15",
+  "base_commit": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+  "base_commit_date": "2026-10-15T08:56:10+09:00",
+  "worktree_status": [
+    "?? output/"
+  ],
+  "uncommitted_changes_in_targets": false,
+  "sha256": {
+    "manuscript/chapters/ch07.md": "2876529d23f932d42c4b8d0e1c81299a28f3d0fb29a7182ffe3ec0cfe027cbff",
+    "research/claims/ch07.json": "1012a347d0d5c5838ba55eb61494b26989bbf772bb3eb553d9e6d5df0172edd6",
+    "research/sources.json": "3cc0f524429cb3e6b505721998adf1701eae38b764f36cc6999a7285548f949e",
+    "planning/review-policies/README.md": "03821ccbcc410b5ce574c677e637d8d1e7dd722fa250766ebe818bf0907b2a5e",
+    "planning/review-policies/02-evidence.md": "6b6607f004ded59da540fc73465c2dafe84a75bee7cd8c517e80cb6d79384018",
+    ".claude/agents/review-evidence.md": "fbd9a944495c8aa1034194f0bc6b96f019468d36d36828f6a154811faa01ccd6",
+    "research/mcconnell/chapter-map.md": "ecfbcbbcfffaa6f6f4a9f33dfab271b38264a81fc2d455b9052d0551c8126c41",
+    "research/evidence-policy.md": "31cc33437b4232e7801deedc8d0d3e3b07c465dff9844f265e7b4cc9237f6e55"
+  },
+  "external_snapshots": {
+    "S42": "roboco-io/roboco-io.github.io@2a96f577e7ae0cf36b01814cdb93461d8000007d",
+    "S59/S62": "roboco-io/the-software-factory-demo@25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+    "S13": "OpenHands/OpenHands#18048 (API 2026-10-15)",
+    "S18": "OpenHands/OpenHands#17660 (API 2026-10-15)",
+    "S10": "anthropic.com 페이지 (WebFetch 2026-10-15)"
+  },
+  "outputs": [
+    "planning/reviews/2026-10-15-evidence-ch07.md",
+    "planning/reviews/2026-10-15-evidence-ch07.json",
+    "planning/reviews/2026-10-15-evidence-ch07-manifest.json"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "axis": "publication",
+  "scope": "ch07",
+  "date": "2026-10-15",
+  "base_commit": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+  "policy": "planning/review-policies/04-publication.md",
+  "checks": [
+    {"cmd": "python3 scripts/check_project.py", "result": "pass"},
+    {"cmd": "git diff --check", "result": "pass"},
+    {"cmd": "npm test", "result": "pass"},
+    {"cmd": "npm run check", "result": "pass"},
+    {"cmd": "npm run build", "result": "pass"},
+    {"cmd": "npm run test:e2e", "result": "pass", "note": "PLAYWRIGHT_CHANNEL=chrome; not iOS Safari"}
+  ],
+  "findings": [
+    {
+      "id": "U001",
+      "priority": "P2",
+      "status": "열림",
+      "location": "CHANGELOG.md 공개 예정 첫 항목",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "problem": "7장에 수용 책임·권한 관련 문단이 추가되고 revision이 2로 올랐으나, 공개 예정 항목이 7장을 링크하거나 언급하지 않는다.",
+      "minimal_fix": "공개 예정 항목에 7장 링크와 변경 취지 한 구절을 추가한다.",
+      "acceptance": "CHANGELOG의 공개 예정 항목에서 /book/ch07/ 링크와 변경 내용을 읽을 수 있다."
+    }
+  ],
+  "counts": {"P0": 0, "P1": 0, "P2": 1, "P3": 0},
+  "handoff": [
+    {"axis": "argument", "note": "7장 추가 문단과 판정 책임자 정의의 정합성"},
+    {"axis": "evidence", "note": "추가 문단이 출처 없는 설계 제안으로 표시되었는지"}
+  ]
+}

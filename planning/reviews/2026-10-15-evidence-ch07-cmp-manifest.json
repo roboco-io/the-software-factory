@@ -1,0 +1,80 @@
+{
+  "reviewed_on": "2026-10-15",
+  "axis": "evidence",
+  "scope": "ch07",
+  "variant": "cmp",
+  "base_commit": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+  "state": "대상 파일 3개는 커밋과 동일(git status 변경 없음). 작업 트리에는 이전 미추적 보고서와 output/이 있으나 리뷰 대상 아님.",
+  "files": {
+    "manuscript/chapters/ch07.md": {
+      "sha256": "2876529d23f932d42c4b8d0e1c81299a28f3d0fb29a7182ffe3ec0cfe027cbff"
+    },
+    "research/claims/ch07.json": {
+      "sha256": "1012a347d0d5c5838ba55eb61494b26989bbf772bb3eb553d9e6d5df0172edd6"
+    },
+    "research/sources.json": {
+      "sha256": "3cc0f524429cb3e6b505721998adf1701eae38b764f36cc6999a7285548f949e"
+    },
+    "planning/review-policies/README.md": {
+      "sha256": "03821ccbcc410b5ce574c677e637d8d1e7dd722fa250766ebe818bf0907b2a5e"
+    },
+    "planning/review-policies/02-evidence.md": {
+      "sha256": "6b6607f004ded59da540fc73465c2dafe84a75bee7cd8c517e80cb6d79384018"
+    },
+    "pattern_catalog.json": {
+      "sha256": "cb3e66d0d8eaeaea3067b062beddd1cd393ac958d90d4f17390db3b9d1bf3cdf"
+    },
+    "research/mcconnell/chapter-map.md": {
+      "sha256": "ecfbcbbcfffaa6f6f4a9f33dfab271b38264a81fc2d455b9052d0551c8126c41"
+    }
+  },
+  "external_sources_checked": {
+    "S10": {
+      "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+      "method": "WebFetch 요약과 curl 원문 HTML 구절 검색"
+    },
+    "S13": {
+      "url": "https://github.com/OpenHands/OpenHands/pull/18048",
+      "method": "gh pr view --json"
+    },
+    "S18": {
+      "url": "https://github.com/OpenHands/OpenHands/pull/17660",
+      "method": "gh pr view --json"
+    },
+    "S42": {
+      "url": "https://github.com/roboco-io/roboco-io.github.io/blob/2a96f577e7ae0cf36b01814cdb93461d8000007d/content/ko/posts/software-factory-evidence-before-fix.md",
+      "method": "raw 수신, blob sha dc4af92537bc7c8b6222db6c56aa9da206abcabb 일치"
+    },
+    "S62": {
+      "commit": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+      "files": [
+        "packages/factory/src/stages/evidence.ts",
+        "packages/factory/src/policy/evidence.ts",
+        ".github/workflows/ci.yml(evidence 관련 행)"
+      ],
+      "method": "raw 수신"
+    },
+    "S59": {
+      "commit": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
+      "files": [
+        "README.md"
+      ],
+      "method": "raw 수신"
+    }
+  },
+  "commands": [
+    "git rev-parse HEAD",
+    "git status --short",
+    "gh pr view <n> -R OpenHands/OpenHands --json ...",
+    "gh release view v1.26.0",
+    "gh search prs",
+    "curl raw.githubusercontent.com",
+    "shasum -a 256"
+  ],
+  "not_read": "같은 날짜의 다른 ch07 보고서(argument, reader-style, publication, 기존 evidence, round, three-axis)는 읽지 않았다.",
+  "outputs": [
+    "planning/reviews/2026-10-15-evidence-ch07-cmp.md",
+    "planning/reviews/2026-10-15-evidence-ch07-cmp.json",
+    "planning/reviews/2026-10-15-evidence-ch07-cmp-manifest.json"
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "axis": "argument",
+  "scope": "ch07",
+  "date": "2026-10-15",
+  "variant": "cmp (모델 비교용 독립 리뷰)",
+  "base_commit": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+  "policies": [
+    "planning/review-policies/README.md",
+    "planning/review-policies/01-argument.md"
+  ],
+  "policy_status": "저자 검토 전(확정 전)",
+  "report": "planning/reviews/2026-10-15-argument-ch07-cmp.md",
+  "summary": {
+    "P0": 0,
+    "P1": 1,
+    "P2": 4,
+    "P3": 3
+  },
+  "chapter_summary": [
+    {
+      "chapter": 7,
+      "central_claim": "완료 보고는 수용 근거가 아니라 판단 요청 자료이므로, 실행 전에 정한 완료 조건마다 증거와 판정 주체를 연결하고 수행자와 다른 기준·자료·권한의 경로로 확인한 범위에서만 수용하며 남은 불확실성을 책임자와 후속 관찰에 연결한다.",
+      "leader_decision": "완료 조건별 증거와 판정 주체를 정하고, 영향·복구 가능성에 따라 자동 수용·독립 판정·사람 판단 경로를 배정하며, 미검증 조건의 수용 제한·관찰 책임·재판정 조건을 정한다.",
+      "capability": "수행자의 완료 선언을 결과의 증거와 연결한다",
+      "patterns": [
+        "P06",
+        "P07"
+      ],
+      "missing_steps": [
+        "A001",
+        "A002",
+        "A003"
+      ]
+    }
+  ],
+  "opinions": [
+    {
+      "id": "A001",
+      "priority": "P1",
+      "status": "열림",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "location": "manuscript/chapters/ch07.md 28·46·80행",
+      "problem": "자동 수용 정상 경로에서 독립 판정이 항상 필요한지(28행) 영향·반복 오해 조건에서만 필요한지(46·80행) 서로 다르게 서술되어, 장의 결정인 독립 판정 책임의 범위와 비용을 정할 수 없다. 28행은 지위 표시 없는 지시문이다.",
+      "criterion": "기준 1·2, README P1(결정·작동 원리·비용의 불명확)",
+      "minimal_fix": "기준의 독립(항상)과 자료·판정 경로의 독립(조건부)을 44행의 세 항목으로 구분해 기본값을 밝히고 28행에 제안 지위를 표시한다.",
+      "acceptance": "28·46·80행이 같은 기준으로 서술되고 P07 카드 21·25행과 모순되지 않는다."
+    },
+    {
+      "id": "A002",
+      "priority": "P2",
+      "status": "열림",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "location": "manuscript/chapters/ch07.md 28행, 32-38행, 86-88행",
+      "problem": "하네스와 그 사이클(검증 정책·실행 계획·실행 이력·모니터링과 개선)이 7장에 언급되지 않고, '수행 기록'이 9장의 '실행 이력'과 다른 용어로 쓰인다.",
+      "criterion": "기준 3(용어 흔들림은 P2)",
+      "minimal_fix": "판정 기준·경로·기록·관찰을 하네스 사이클 단계에 대응시키는 문단을 넣고 용어를 통일한다.",
+      "acceptance": "7장에서 판정 요소의 하네스 단계를 읽을 수 있고 9장 105행과 충돌하지 않는다."
+    },
+    {
+      "id": "A003",
+      "priority": "P2",
+      "status": "열림",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "location": "manuscript/chapters/ch07.md 7·13·17·19-24·28·44·72행",
+      "problem": "판정 주체·판정자·판정 책임자·위험의 책임자·의도 소유자·관찰 담당자의 관계와 지정 주체가 정리되지 않는다.",
+      "criterion": "기준 2(누가 무엇을 제공하고 결정하는가)",
+      "minimal_fix": "11-28행에 역할 정의와 겸임 조건을 두세 문장으로 넣고 용어를 통일한다.",
+      "acceptance": "역할별 결정 사항이 드러나고 9장의 수용 주체와 대응된다."
+    },
+    {
+      "id": "A004",
+      "priority": "P2",
+      "status": "열림",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "location": "manuscript/chapters/ch07.md 54-58행",
+      "problem": "PR #17660과 #18048의 관계를 밝히지 않아 58행의 질문이 전제하는 연결이 사실인지 해석인지 알 수 없다.",
+      "criterion": "기준 7, 논증 단계의 연결",
+      "minimal_fix": "확인한 범위에서 두 PR의 관계를 한 문장으로 밝히거나 해석으로 표시한다.",
+      "acceptance": "54-58행에서 관계의 지위가 표시되고 사실·출처 축 판정과 일치한다."
+    },
+    {
+      "id": "A005",
+      "priority": "P3",
+      "status": "열림",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "location": "manuscript/chapters/ch07.md 88행, ch08.md 91-95행, p06.md 적용 절차 5",
+      "problem": "실패 원인 분류와 4·19장 연결 문장이 8장과 거의 같게 반복된다.",
+      "criterion": "기준 5",
+      "minimal_fix": "7장 88행을 판정 번복 원인과 개선 대상의 연결로 줄이고 상세 분류는 8·19장에 둔다.",
+      "acceptance": "상세 분류가 한 장에만 있다."
+    },
+    {
+      "id": "A006",
+      "priority": "P2",
+      "status": "열림",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "location": "manuscript/patterns/p06.md 7행, 35행",
+      "problem": "P06 카드가 P07의 문제(실행자 검증의 오해 반복)와 독립성 조건을 함께 서술하고, 7장 26행의 증거 깊이 조절(적용 범위 축소 조건)이 없다.",
+      "criterion": "기준 4",
+      "minimal_fix": "7행·35행의 P07 내용을 P07 연결로 줄이고 비례 원칙을 카드에 넣는다.",
+      "acceptance": "P06 카드가 카탈로그 P06 문제 범위 안에 있고 축소 조건이 있다."
+    },
+    {
+      "id": "A007",
+      "priority": "P3",
+      "status": "열림",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "location": "manuscript/patterns/p07.md 7·15-17·35행",
+      "problem": "해결 원리가 카탈로그 문장의 반복이며 7장 44행의 독립성 세 항목과 50행의 사람 판정자 조건이 구조로 정리되지 않았다. 다음 판단이 비어 있다.",
+      "criterion": "기준 4",
+      "minimal_fix": "해결 원리를 기준·자료·권한의 분리와 판정 경로 시험으로 재구성하고 다음 확인 사항을 적는다.",
+      "acceptance": "카드에서 분리 항목과 시험 방법을 읽을 수 있다."
+    },
+    {
+      "id": "A008",
+      "priority": "P3",
+      "status": "열림",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "location": "manuscript/chapters/ch07.md 28·36행",
+      "problem": "사람 개입 조건(P11)과 기록 연결(P13)을 쓰면서 패턴 이름을 붙이지 않아 8장 P11 소개와의 연결이 드러나지 않는다.",
+      "criterion": "기준 4·5",
+      "minimal_fix": "해당 문장에 패턴 ID·이름을 짧게 붙인다. 저자가 7장 패턴을 P06·P07로 한정하면 채택하지 않을 수 있다.",
+      "acceptance": "저자가 채택 여부를 정한다."
+    }
+  ],
+  "handoff": [
+    {
+      "axis": "evidence",
+      "location": "ch07.md 54-56행, S13·S18",
+      "reason": "#18048이 되돌린 제거가 #17660의 변경인지, #17660 병합 상태 확인"
+    },
+    {
+      "axis": "evidence",
+      "location": "ch07.md 38행, S42",
+      "reason": "저자 자기 인용이 제안 출처로만 쓰였는지"
+    },
+    {
+      "axis": "evidence",
+      "location": "ch07.md 32행, S10",
+      "reason": "발표 시점과 판정 조합 요약의 원문 범위"
+    },
+    {
+      "axis": "evidence",
+      "location": "ch07.md 64-66행, S62·S59",
+      "reason": "수정 증거 판정 동작과 원문 한계 서술의 일치"
+    },
+    {
+      "axis": "reader-style",
+      "location": "ch07.md 15행",
+      "reason": "같은 예시를 두 번 도입하는 것처럼 읽힘"
+    },
+    {
+      "axis": "reader-style",
+      "location": "p07.md 15·17행",
+      "reason": "해결 원리 문장 반복"
+    },
+    {
+      "axis": "publication",
+      "location": "p06.md 3행",
+      "reason": "상태 표기 '샘플 초고'가 다른 카드와 다름"
+    }
+  ],
+  "not_performed": [
+    "출처 원문 대조",
+    "1·2·3·4·5·9·10·11·12·16·19장 전체 읽기(해당 문단만)",
+    "scripts/check_project.py·웹 빌드",
+    "사람 리뷰어·실제 독자 확인",
+    "같은 날짜 다른 ch07 보고서와의 대조(지시에 따라 읽지 않음)",
+    "STATUS.md 갱신(지시에 따라 생략)"
+  ]
+}

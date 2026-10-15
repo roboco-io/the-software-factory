@@ -1,0 +1,13 @@
+{
+  "axis": "publication",
+  "scope": "ch07",
+  "date": "2026-10-15",
+  "base_commit": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+  "previous_public_commit": "origin/main (121e501)",
+  "uncommitted_changes_in_target_files": false,
+  "files": {
+    "manuscript/chapters/ch07.md": "2876529d23f932d42c4b8d0e1c81299a28f3d0fb29a7182ffe3ec0cfe027cbff",
+    "website/content-manifest.json": "4e91c9e2b9654993b360611e95aaaf1800776f6eff13515a2963172630dfdb47",
+    "CHANGELOG.md": "125e16b54cda6485660fe723ad5b2cf54fbe00326b49ab83700b8ed629980c0c"
+  }
+}

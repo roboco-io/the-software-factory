@@ -113,5 +113,16 @@
     ],
     "before_sha256": "e734a27d01ee6092602697c72dd3bb1a6f303a991eeb38a409a7846756d90ec0",
     "status": "추가 문단·연결·출처 검토 완료·편집 확정 미완료"
+  },
+  "three_axis_review": {
+    "reviewed_on": "2026-10-15",
+    "base_commit": "04a0b2e2eeca7af049cd2d38d224dc97ac3765e7",
+    "before_sha256": "3b93f9c4346f338b5d5320b176a70439239b669287cf8873a6ba1032971372bf",
+    "report": "planning/reviews/2026-10-15-three-axis-review.md",
+    "scope": "홈의 세 축과 정의·정상 실행·정책 개선의 장별 연결; 모든 외부 사실의 재검증 아님",
+    "sections_changed": [],
+    "result": "기존 장의 담당 역할·비용·한계가 세 축과 충돌하지 않아 본문 유지",
+    "status": "대상 연결 검증 완료·본문 유지",
+    "limit": "작성 에이전트의 자기 점검. 독립 인간·실제 독자·운영 효과·저자 편집 확정 아님"
   }
 }

@@ -1,0 +1,120 @@
+{
+  "axis": "evidence",
+  "scope": "ch07",
+  "reviewed_on": "2026-10-15",
+  "base_commit": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+  "policies": [
+    {
+      "path": "planning/review-policies/README.md",
+      "status": "저자 검토 전(확정 전)"
+    },
+    {
+      "path": "planning/review-policies/02-evidence.md",
+      "status": "저자 검토 전(확정 전)"
+    }
+  ],
+  "reviewer": "review-evidence 에이전트(Claude); 독립 인간 검증 아님",
+  "summary": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 4,
+    "source_checked_claims": 6,
+    "target_claims": 7,
+    "not_checked_against_original": [
+      "90행 More Effective Agile 주제 연결(원 목차 미대조)"
+    ],
+    "missing_claim_memos": 0
+  },
+  "sources_opened": {
+    "S10": "WebFetch: 게시일, transcript/outcome 정의, grader 유형·조합",
+    "S13": "gh api pulls/18048: 본문 전체, created_at, merged_at 2026-10-06T13:41:30Z",
+    "S18": "gh api pulls/17660: 본문 전체, merged_at 2026-10-06T01:38:53Z",
+    "S42": "raw @2a96f57: front matter, TL;DR, 1절",
+    "S59": "raw README @25a73b9: 110·204·206행",
+    "S62": "raw evidence.ts(stages, policy), ci.yml @25a73b9"
+  },
+  "findings": [
+    {
+      "id": "E001",
+      "priority": "P3",
+      "status": "열림",
+      "location": "research/sources.json S18 limit; research/claims/ch07.json S18 note; research/cases/openhands-revert.md 20행",
+      "problem": "S18 limit은 Draft 표시·현재 상태 미확인·API 열기 실패를 적지만, 2026-10-15 gh api 확인 결과 PR #17660은 2026-10-06T01:38:53Z 병합됨. 같은 항목의 review_checks와 불일치. 본문 영향 없음.",
+      "evidence": "기준 3·4. gh api로 state·merged_at·merged_by 직접 확인. Checks·Files changed 미확인.",
+      "minimal_fix": "S18 limit에 2026-10-15 병합 확인을 추가하고 Draft 관측은 이력으로 보존. 주장 메모·사례 지도 정리.",
+      "acceptance": "S18 limit·review_checks·주장 메모·사례 지도가 같은 병합 상태와 확인일을 말한다.",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c"
+    },
+    {
+      "id": "E002",
+      "priority": "P3",
+      "status": "열림",
+      "location": "research/sources.json S10 usage_review.files",
+      "problem": "research/remaining-review-source-checks.json이 S10을 언급하지만 usage_review.files에 없다(메타데이터 한 줄, 요약 없음).",
+      "evidence": "기준 5. git grep 파일 목록 대조. 어절 재집계 미수행.",
+      "minimal_fix": "파일을 목록에 추가하거나 메타데이터 파일 제외 규칙을 count_method에 기록.",
+      "acceptance": "git grep 결과와 usage_review.files가 일치하거나 제외 이유가 기록됨.",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c"
+    },
+    {
+      "id": "E003",
+      "priority": "P3",
+      "status": "열림",
+      "location": "manuscript/chapters/ch07.md 54행; research/sources.json S13·S18 author",
+      "problem": "두 PR 본문의 AGENT 부분은 OpenHands 에이전트가 Graham Neubig을 대신해 작성했다고 표시. 본문의 '작성자의 보고'는 틀리지 않으나 사례 주체의 성격 정보가 대장에 없음.",
+      "evidence": "기준 1. 두 PR 본문을 gh api로 직접 읽음. 본문 판정에는 영향 없음.",
+      "minimal_fix": "대장 S13·S18 author 또는 limit에 에이전트 작성 표시를 기록. 본문 수정은 저자 판단.",
+      "acceptance": "대장에 작성 주체 표시가 있고, 본문을 바꾼 경우 58행의 인과 부정 제한과 충돌하지 않음.",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c"
+    },
+    {
+      "id": "E004",
+      "priority": "P3",
+      "status": "열림",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "location": "manuscript/chapters/ch07.md 66행 셋째 문장",
+      "origin": "독자·문체 R008에서 넘어온 사항(조정자 요청)",
+      "problem": "'이 검사의 대상이 아닌 변경은 재현 검사를 하지 않고 통과할 수 있으므로'는 구현 사실이지만 출처 표식이 없다. 뒤 문장의 '원문'(S59)이 S62 코드인지 README인지가 표식에 의해서만 정해진다. 내용은 출처와 맞다.",
+      "evidence": "기준 3. 고정 커밋 evidence.ts runEvidence의 비대상 즉시 통과와 README 110행을 직접 읽음. 코드 구조 확인 수준.",
+      "minimal_fix": "셋째 문장에 [S62]를 붙이거나 '원문도'를 '데모 README도'로 바꾼다.",
+      "acceptance": "66행의 구현 사실 문장마다 출처 표식이 있고, '원문'의 지시 대상이 분명하며, S62 limit을 넘는 표현이 없다."
+    }
+  ],
+  "handoff_to_other_axes": [
+    {
+      "axis": "publication",
+      "location": "ch07.md 64행 데모 링크",
+      "reason": "저장소 이름 변경 후 공개 웹본의 링크 렌더링 미확인"
+    }
+  ],
+  "not_performed": [
+    "More Effective Agile 원 목차 대조",
+    "OpenHands CI 로그·리뷰 이력",
+    "데모 코드 실행",
+    "저장소 전체 출처별 어절 재집계",
+    "STATUS.md 갱신(요청에 따라 보류)"
+  ],
+  "additional_rulings": [
+    {
+      "item": "R007 54·56행 S13–S18 관계",
+      "result": "문제 없음",
+      "basis": "S13 Summary 'Revert #17660 in full', 같은 이슈 #17659. 본문은 관계를 생략했지만 틀리거나 출처를 넘지 않음. 인과·실제 장애 서술은 원문을 넘음."
+    },
+    {
+      "item": "R005 32행 S10 쉬운 말 풀이 한계",
+      "result": "문제 없음",
+      "basis": "정의(trial 기록·최종 환경 상태), 평가 맥락, 'typically combine', 생산성 효과 미입증의 네 경계를 보고서에 기록."
+    },
+    {
+      "item": "R008 66행 '원문'",
+      "result": "S59 범위 안; 표식 없는 사실 문장은 E004",
+      "basis": "README 204·206행."
+    },
+    {
+      "item": "출판·논증 28행 표식 없는 문단",
+      "result": "문제 없음",
+      "basis": "처방형 저자 설계 제안이고 주장 메모에 기록됨. 효과 단정으로 바뀌면 근거·제안 표시 필요."
+    }
+  ]
+}

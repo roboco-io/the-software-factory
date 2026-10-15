@@ -1,0 +1,257 @@
+{
+  "axis": "reader-style",
+  "scope": "ch07",
+  "review_date": "2026-10-15",
+  "base_commit": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+  "policies": [
+    "planning/review-policies/README.md",
+    "planning/review-policies/03-reader-style.md"
+  ],
+  "policy_status": "저자 확정 전(README 표기)",
+  "reviewer": "review-reader-style 에이전트(AI). 실제 독자 시험 아님",
+  "report": "planning/reviews/2026-10-15-reader-style-ch07.md",
+  "counts": {
+    "P0": 0,
+    "P1": 1,
+    "P2": 9,
+    "P3": 4
+  },
+  "opinions": [
+    {
+      "id": "R001",
+      "priority": "P1",
+      "status": "열림",
+      "file": "manuscript/chapters/ch07.md",
+      "location": "13·17·28·42-44·50행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "criterion": "기준 1 용어(P1 승격)",
+      "problem": "판정할 주체·판정 책임자·판정자·해당 위험의 책임자·의도 소유자의 관계가 정의되지 않아 결정권자를 특정하기 어렵다. 판정자는 서문·1-6장에 없는 새 용어다.",
+      "minimal_fix": "42행 근처에 판정자와 판정 책임자의 관계를 정의한다(역할 구분은 논증·구조 축 판정 후).",
+      "acceptance": "판정 관련 역할 이름이 정의된 이름으로만 쓰이고, 사람/자동화 여부와 수용 책임이 본문에서 확인된다.",
+      "forward_to": [
+        "argument"
+      ]
+    },
+    {
+      "id": "R002",
+      "priority": "P2",
+      "status": "열림",
+      "file": "manuscript/chapters/ch07.md",
+      "location": "7·9·13·15·42-46행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "criterion": "기준 1 용어",
+      "problem": "결과를 만드는 역할을 수행자·실행자·결과를 만든 주체로 혼용한다. 1-6장에도 정의 없이 혼용된다.",
+      "minimal_fix": "7장 안에서 한 용어로 통일한다. 책 전체 선택은 저자가 결정한다.",
+      "acceptance": "7장에서 해당 역할 용어가 하나로 통일되거나 구분이 정의된다.",
+      "forward_to": []
+    },
+    {
+      "id": "R003",
+      "priority": "P2",
+      "status": "열림",
+      "file": "manuscript/chapters/ch07.md",
+      "location": "9·28·48·80·86행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "criterion": "기준 1 용어",
+      "problem": "판정 경로·정상 경로·독립 판정이 정의 없이 쓰이고, 검증 정책·전자동 개발은 1장 정의와 연결되지 않는다.",
+      "minimal_fix": "9행에서 판정 경로를 정의하고, 28행에서 1장 정의와 40행 절을 가리킨다.",
+      "acceptance": "세 용어가 처음 등장할 때 뜻이나 정의 위치가 표시된다.",
+      "forward_to": []
+    },
+    {
+      "id": "R004",
+      "priority": "P2",
+      "status": "열림",
+      "file": "manuscript/chapters/ch07.md",
+      "location": "28행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "criterion": "기준 2 연결, 기준 3 문장",
+      "problem": "지시문에 행위 주체가 없고 문단의 판단이 마지막 문장에 있다.",
+      "minimal_fix": "주어를 넣고 판단을 문단 앞쪽으로 옮긴다. 주어 선택이 책임 구조를 바꾸면 논증·구조 축으로 넘긴다.",
+      "acceptance": "모든 지시문의 주체를 식별할 수 있고 첫 두 문장에 리더가 정할 사항이 드러난다.",
+      "forward_to": []
+    },
+    {
+      "id": "R005",
+      "priority": "P2",
+      "status": "열림",
+      "file": "manuscript/chapters/ch07.md",
+      "location": "21·32·34행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "criterion": "기준 1 용어",
+      "problem": "최종 상태·최종 환경 상태·결과 상태가 혼용되고, 코드·모델·사람의 판정이 설명 없이 쓰인다.",
+      "minimal_fix": "32행에서 판정 수단을 풀어 쓰고 결과 상태로 통일한다.",
+      "acceptance": "같은 개념이 하나의 용어로 쓰이고 판정 수단이 쉬운 말로 설명된다.",
+      "forward_to": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "R006",
+      "priority": "P2",
+      "status": "열림",
+      "file": "manuscript/chapters/ch07.md",
+      "location": "23·54-58행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "criterion": "기준 1 용어",
+      "problem": "OpenHands·PR·배포 패키지·Enterprise·VS Code 경로·소비자가 설명 없이 쓰인다.",
+      "minimal_fix": "OpenHands와 PR을 처음 쓸 때 소개하고, 소비자의 뜻을 처음 나오는 곳에서 밝힌다.",
+      "acceptance": "비기술 리더가 54-58행에서 어떤 변경이 어떤 사용 경로를 확인하지 않았는지 본문만으로 말할 수 있다.",
+      "forward_to": []
+    },
+    {
+      "id": "R007",
+      "priority": "P2",
+      "status": "열림",
+      "file": "manuscript/chapters/ch07.md",
+      "location": "54·56행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "criterion": "기준 2 연결",
+      "problem": "PR #18048이 되돌린 제거가 PR #17660의 변경인지 본문이 말하지 않아 58행의 질문이 어디서 나왔는지 따라가기 어렵다.",
+      "minimal_fix": "사실·출처 축 확인 후 그 범위에서 두 문단을 잇는 문장을 넣거나, 별개의 기록임을 밝힌다.",
+      "acceptance": "독자가 두 PR의 관계를 본문에서 알 수 있다.",
+      "forward_to": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "R008",
+      "priority": "P2",
+      "status": "열림",
+      "file": "manuscript/chapters/ch07.md",
+      "location": "64-66행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "criterion": "기준 1 용어, 기준 3 문장",
+      "problem": "'버그로 분류된 팩토리 봇의 변경 제안'의 수식 관계가 모호하고, 테스트 용어가 많으며, 66행의 '원문'이 어느 문서인지 알 수 없다.",
+      "minimal_fix": "수식 관계를 풀고 팩토리 봇을 소개하며 '원문'을 문서 이름으로 바꾼다. 출처 표식은 유지한다.",
+      "acceptance": "64행이 한 가지로 읽히고 66행의 '원문'이 식별된다.",
+      "forward_to": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "R009",
+      "priority": "P2",
+      "status": "열림",
+      "file": "manuscript/chapters/ch07.md",
+      "location": "48·86행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "criterion": "기준 3 문장",
+      "problem": "'실패 발견과 오류의 상관관계'가 무엇과 무엇의 관계인지 보이지 않는다.",
+      "minimal_fix": "86행처럼 두 질문으로 풀어 쓴다. 패턴 기준 문구라면 논증·구조 축이 확인한다.",
+      "acceptance": "48행에서 P07의 검증 기준이 두 질문으로 식별된다.",
+      "forward_to": [
+        "argument"
+      ]
+    },
+    {
+      "id": "R010",
+      "priority": "P2",
+      "status": "열림",
+      "file": "manuscript/chapters/ch07.md",
+      "location": "50행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "criterion": "기준 3 문장",
+      "problem": "'AI 제안'이 AI의 결과물인지 AI 판정 의견인지 모호해 사람이 먼저 할 일이 달라진다.",
+      "minimal_fix": "저자가 의도한 대상으로 바꾼다.",
+      "acceptance": "사람이 무엇을 보기 전에 실패 조건을 정하는지 한 가지로 읽힌다.",
+      "forward_to": []
+    },
+    {
+      "id": "R011",
+      "priority": "P3",
+      "status": "열림",
+      "file": "manuscript/chapters/ch07.md",
+      "location": "13행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "criterion": "기준 3 문장",
+      "problem": "'수행자가 충족하기 쉬운 기준으로 바꾸면'의 주체가 두 가지로 읽힌다.",
+      "minimal_fix": "기준을 바꾸는 주체를 명시한다.",
+      "acceptance": "문장이 한 가지로 읽힌다.",
+      "forward_to": []
+    },
+    {
+      "id": "R012",
+      "priority": "P3",
+      "status": "열림",
+      "file": "manuscript/chapters/ch07.md",
+      "location": "90행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "criterion": "기준 4 반복, 기준 2 연결",
+      "problem": "『More Effective Agile』 연결 문단이 결론 직전에 있고 3-6장과 같은 형식으로 반복된다.",
+      "minimal_fix": "결론 뒤나 출처 절로 옮기는 방안을 저자가 검토한다.",
+      "acceptance": "저자가 위치를 결정하고 장마다 일관된다.",
+      "forward_to": [
+        "argument"
+      ]
+    },
+    {
+      "id": "R013",
+      "priority": "P3",
+      "status": "열림",
+      "file": "manuscript/chapters/ch07.md",
+      "location": "38행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "criterion": "기준 5 예시·근거 성격",
+      "problem": "「증거로 거르는 팩토리」가 저자의 공개 연재 글임을 본문에서 알 수 없다.",
+      "minimal_fix": "글의 성격을 한 구절로 붙인다.",
+      "acceptance": "인용 대상이 저자의 이전 글임을 본문만으로 알 수 있다.",
+      "forward_to": []
+    },
+    {
+      "id": "R014",
+      "priority": "P3",
+      "status": "열림",
+      "file": "manuscript/chapters/ch07.md",
+      "location": "15행",
+      "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+      "criterion": "기준 2 연결",
+      "problem": "같은 가상 상황을 두 문장에서 두 번 도입한다.",
+      "minimal_fix": "두 문장을 합치고 가상 상황 표시는 유지한다.",
+      "acceptance": "가상 상황이 한 번만 도입된다.",
+      "forward_to": []
+    }
+  ],
+  "forwarded": [
+    {
+      "to": "argument",
+      "location": "13·17·28·42-50행",
+      "reason": "판정 역할 구분은 책임 구조의 결정(R001)"
+    },
+    {
+      "to": "argument",
+      "location": "48행",
+      "reason": "P07 검증 기준 문구 여부(R009)"
+    },
+    {
+      "to": "argument",
+      "location": "90행 및 3-6장",
+      "reason": "원서 연결 문단 배치는 책 구성 판단(R012)"
+    },
+    {
+      "to": "evidence",
+      "location": "54-56행",
+      "reason": "S13이 S18의 변경을 되돌린 것으로 명시하는지(R007)"
+    },
+    {
+      "to": "evidence",
+      "location": "32행",
+      "reason": "S10 요약을 풀어 쓸 때 원문 범위(R005)"
+    },
+    {
+      "to": "evidence",
+      "location": "66행",
+      "reason": "'원문'이 S59인지 S62인지와 내용 확인(R008)"
+    },
+    {
+      "to": "publication",
+      "location": "3행",
+      "reason": "상태 표시가 공개본에서 제거되는지 실제 빌드 미확인"
+    },
+    {
+      "to": "publication",
+      "location": "90·96행",
+      "reason": "../../research/ 상대 링크가 공개본에서 열리는지"
+    }
+  ]
+}

@@ -15,3 +15,9 @@ test('source marks and internal links transform without touching external code U
  assert.ok(out.includes('href="/sources/#S10"'));assert.ok(out.includes('[7장](/book/ch07/)'));
  assert.ok(out.includes('id="s01"'));assert.ok(out.includes('https://example.org/src.ts'));
 });
+test('authored policy diagrams get public paths while unrelated SVG paths remain private',()=>{
+ assert.equal(publicLink('../figures/policy-hierarchy.svg'),'/diagrams/policy-hierarchy.svg');
+ assert.equal(publicLink('../figures/harness-policy-cycle.svg'),'/diagrams/harness-policy-cycle.svg');
+ assert.ok(transformMarkdown('![정책 계층](../figures/policy-hierarchy.svg)').includes('![정책 계층](/diagrams/policy-hierarchy.svg)'));
+ assert.throws(()=>publicLink('../figures/private.svg'));
+});

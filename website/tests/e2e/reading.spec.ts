@@ -35,7 +35,7 @@ test('layout fits the viewport and keyboard can reach the question choices',asyn
  await page.screenshot({path:`test-results/home-${info.project.name}.png`,fullPage:true});
  await page.goto('/guide/');await page.locator('input[name="purpose"]').first().focus();await page.keyboard.press('Space');await expect(page.locator('input[name="purpose"]').first()).toBeChecked();
  await page.screenshot({path:`test-results/guide-${info.project.name}.png`,fullPage:true});
- await page.goto('/book/ch07/');expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBeTruthy();await page.screenshot({path:`test-results/chapter-${info.project.name}.png`,fullPage:false});
+ for(const id of ['ch07','ch09']){await page.goto(`/book/${id}/`);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBeTruthy();await page.screenshot({path:`test-results/chapter-${id}-${info.project.name}.png`,fullPage:false});}
 });
 test('Korean search and pattern identifiers resolve from the built index',async({page})=>{
  await page.goto('/');
@@ -49,4 +49,13 @@ test('chapter resume button preserves the previous section offset',async({page})
  await page.goto('/');await page.evaluate(k=>localStorage.setItem(k,JSON.stringify({version:1,enabled:true,chapters:{ch07:{status:'reading',revision:'1',anchor:'s04',offset:.5}},last:'ch07',answers:null,fontSize:'normal'})),key);
  await page.goto('/book/ch07/');const expected=await page.evaluate(()=>{const a=document.getElementById('s04')!,b=document.getElementById('s05')!;return a.getBoundingClientRect().top+scrollY+(b.getBoundingClientRect().top-a.getBoundingClientRect().top)*.5-120;});
  await page.locator('[data-resume-current]').click();await expect.poll(async()=>Math.abs((await page.evaluate(()=>scrollY))-expected)).toBeLessThan(40);
+});
+test('chapter tables stay readable at mobile width: they fit or scroll with a visible cue',async({page},info)=>{
+ test.skip(info.project.name!=='mobile','table overflow is a narrow-viewport problem');
+ for(const width of [393,360]){
+  await page.setViewportSize({width,height:844});await page.goto('/book/ch07/');
+  const tables=await page.locator('.book-article table').evaluateAll(list=>list.map(t=>{const s=getComputedStyle(t);const r=t.getBoundingClientRect();return {fits:t.scrollWidth<=t.clientWidth+1,inViewport:r.left>=-1&&r.right<=innerWidth+1,scrolls:['auto','scroll'].includes(s.overflowX),cue:/gradient/.test(s.backgroundImage)};}));
+  expect(tables.length).toBeGreaterThan(0);
+  for(const t of tables){expect(t.inViewport).toBeTruthy();expect(t.fits||(t.scrolls&&t.cue)).toBeTruthy();}
+ }
 });

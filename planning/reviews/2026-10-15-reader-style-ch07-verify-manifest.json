@@ -1,0 +1,19 @@
+{
+  "axis": "reader-style",
+  "scope": "ch07-verify",
+  "version": "2f19b8911bca8e9e7219f6dccd13b3935ca3bc6c",
+  "reviewed_at": "2026-10-15",
+  "working_tree_clean": false,
+  "policies": [
+    "planning/review-policies/README.md",
+    "planning/review-policies/03-reader-style.md",
+    "planning/glossary.md"
+  ],
+  "target_files": {
+    "manuscript/chapters/ch07.md": "425aeb47664e6bf8f21cba07181d3114064b7634da95d626d5f7ab6e26af16c8",
+    "manuscript/patterns/p06.md": "5b4ae48de698daede970aec218614fe5d8c5df1e211f99a225346c5b00a4224d",
+    "manuscript/patterns/p07.md": "f7d6e02803017689dda2e578a8d1777afe3d0e0a1bc5556e2518995c4e6b2ae5"
+  },
+  "glossary_sha256": "abff5ac0a0c0db9fcd1297d4a5787beaf14de1ceb4307b80d55625a8d4203e57",
+  "reverification_ch07_sha256": "1566b99d62e21e44e3b982e741a2956f33f580e8444a9b3dbeaa2717c0290f0b"
+}

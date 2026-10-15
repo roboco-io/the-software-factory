@@ -12,14 +12,18 @@ function render(answers:any,focus=false){
  form.hidden=true;result.hidden=false;
  result.querySelector<HTMLElement>('h2')!.textContent=purposeLabels[route.purpose];
  result.querySelector<HTMLElement>('[data-route-description]')!.textContent=`${depthLabels[route.depth]} · ${route.chapters.length}개 장으로 시작합니다. ${route.fullBook?'이 경로 뒤에는 전체 20장을 이어 읽을 수 있습니다.':''}`;
- result.querySelector<HTMLElement>('[data-role-description]')!.textContent=route.role==='other'?'현재 목적에 맞춰 읽을 순서를 골랐습니다.':`${roleLabels[route.role]}의 관점에서 특히 살펴볼 장을 표시했습니다.`;
+ result.querySelector<HTMLElement>('[data-route-summary]')!.textContent=route.summary;
+ result.querySelector<HTMLElement>('[data-role-description]')!.textContent=route.role==='other'?'현재 목적에 맞춰 읽을 순서를 골랐습니다.':route.emphasis.length?`${roleLabels[route.role]}의 관점에서 특히 살펴볼 장을 표시했습니다.`:`${roleLabels[route.role]}의 관점에서도 현재 목적의 판단 순서를 먼저 따라가세요.`;
  const list=result.querySelector<HTMLOListElement>('[data-recommendations]')!;list.replaceChildren();let done=0;let next:any;
  for(const number of route.chapters){
   const c=book.chapters[number-1],status=readStatus(state,c.id,c.revision);if(['read','updated'].includes(status))done++;else if(!next)next=c;
   const li=document.createElement('li'),num=document.createElement('span'),main=document.createElement('div'),link=document.createElement('a'),reason=document.createElement('p'),badge=document.createElement('span');
-  num.className='chapter-number';num.textContent=String(number).padStart(2,'0');link.href=c.url+(route.depth==='overview'?'#chapter-brief':'');link.textContent=c.title.replace(/^\d+장 /,'');reason.textContent=c.decision;badge.className='status-pill';badge.dataset.status=status;badge.textContent=labels[status];
+  num.className='chapter-number';num.textContent=String(number).padStart(2,'0');link.href=c.url+(route.depth==='overview'?'#chapter-brief':'');link.textContent=c.title.replace(/^\d+장 /,'');reason.textContent=route.reasons[number]??c.decision;badge.className='status-pill';badge.dataset.status=status;badge.textContent=labels[status];
   main.append(link,reason);if(route.emphasis.includes(number)){const emphasis=document.createElement('small');emphasis.className='role-emphasis';emphasis.textContent='이 역할에서 특히 살펴볼 장';main.append(emphasis);}li.append(num,main,badge);list.append(li);
  }
+ const resources=result.querySelector<HTMLElement>('[data-demo-resources]')!;resources.replaceChildren();
+ for(const item of route.resources){const demo=book.demos.find(d=>d.id===item.id);if(!demo)continue;const li=document.createElement('li'),link=document.createElement('a'),reason=document.createElement('p');link.href=demo.url;link.textContent=demo.title;reason.textContent=item.reason;li.append(link,reason);resources.append(li);}
+ result.querySelector<HTMLElement>('[data-route-resources]')!.hidden=resources.childElementCount===0;
  result.querySelector<HTMLElement>('[data-route-progress]')!.textContent=`추천 경로 ${done}/${route.chapters.length}장 읽음`;
  const continueLink=result.querySelector<HTMLAnchorElement>('[data-route-continue]')!;continueLink.href=next?next.url+(route.depth==='overview'?'#chapter-brief':''):'/contents/';continueLink.textContent=next?`${next.number}장부터 이어 읽기`:'경로를 마쳤어요 · 전체 목차';
  if(focus)result.querySelector<HTMLElement>('h2')!.focus();

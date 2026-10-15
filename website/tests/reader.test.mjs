@@ -17,7 +17,7 @@ test('goal takes precedence over role; role changes emphasis; full reading stays
  const b=recommend({purpose:'adoption',role:'lead',depth:'overview'});
  assert.deepEqual(a.chapters,[1,9,17,18,20]);assert.deepEqual(a.chapters,b.chapters);
  assert.notDeepEqual(a.emphasis,b.emphasis);assert.equal(a.fullBook,true);
- assert.deepEqual(recommend({purpose:'invalid'}).chapters,[1,2,3,4]);
+ assert.deepEqual(recommend({purpose:'invalid'}).chapters,[1,2,3,9,19]);
 });
 test('visiting never marks a chapter read; marking and undoing survives a new store',()=>{
  const s=memory(),p=createProgressStore(()=>s);p.visit('ch07','1','s03',.4);

@@ -1,0 +1,37 @@
+import {test,expect} from '@playwright/test';
+const key='software-factory.reader.v1';
+test('security and harness routes explain the chapter order, link demos and preserve saved reading',async({page})=>{
+ await page.goto('/book/ch07/');await page.locator('[data-mark-read]').first().click();
+ await page.goto('/guide/');
+ await page.getByRole('radio',{name:'보안 대응·안전한 자동화',exact:true}).check();
+ await page.getByRole('button',{name:'다음 질문',exact:true}).click();
+ await page.getByRole('radio',{name:'보안·위험 관리 책임자',exact:true}).check();
+ await page.getByRole('button',{name:'다음 질문',exact:true}).click();
+ await page.getByRole('radio',{name:'관련 장 정독하기',exact:true}).check();
+ await page.getByRole('button',{name:'추천 경로 보기',exact:true}).click();
+ await expect(page.locator('[data-route-summary]')).toContainText('조건부 도입 동기');
+ const links=page.locator('[data-recommendations] a');
+ expect(await links.evaluateAll(list=>list.map(a=>a.getAttribute('href')))).toEqual(['/book/ch18/','/book/ch07/','/book/ch12/','/book/ch17/','/book/ch19/']);
+ await expect(page.locator('[data-recommendations] li').first()).toContainText('병목');
+ await expect(page.locator('[data-route-progress]')).toHaveText('추천 경로 1/5장 읽음');
+ await page.getByRole('link',{name:'정책과 수용 경계',exact:true}).click();await expect(page).toHaveURL(/\/demo\/policy-and-gate\/$/);
+ await page.goto('/guide/');await expect(page.locator('#recommendation-result')).toBeVisible();
+ await page.getByRole('button',{name:'답변 바꾸기',exact:true}).click();await expect(page.getByRole('radio',{name:'보안 대응·안전한 자동화',exact:true})).toBeChecked();
+ await page.getByRole('radio',{name:'하네스 운영·개선',exact:true}).check();await page.getByRole('button',{name:'다음 질문',exact:true}).click();
+ await page.getByRole('radio',{name:'플랫폼·하네스 운영자',exact:true}).check();await page.getByRole('button',{name:'다음 질문',exact:true}).click();
+ await page.getByRole('radio',{name:'추천 뒤 전체 20장 읽기',exact:true}).check();await page.getByRole('button',{name:'추천 경로 보기',exact:true}).click();
+ await expect(page.locator('[data-route-description]')).toContainText('5개 장으로 시작');
+ await expect(page.locator('[data-route-description]')).toContainText('전체 20장');
+ expect(await links.evaluateAll(list=>list.map(a=>a.getAttribute('href')))).toEqual(['/book/ch03/','/book/ch09/','/book/ch10/','/book/ch11/','/book/ch19/']);
+ await expect(page.locator('[data-role-description]')).toContainText('플랫폼·하네스 운영자');
+ await expect(page.locator('[data-demo-resources] li')).toHaveCount(2);
+ expect(await page.evaluate(k=>JSON.parse(localStorage.getItem(k)!).chapters.ch07.status,key)).toBe('read');
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(page.viewportSize()!.width+1);
+});
+test('a role with no matching emphasis and a route without demos make no empty promises',async({page})=>{
+ await page.goto('/');await page.evaluate(k=>localStorage.setItem(k,JSON.stringify({version:1,enabled:true,chapters:{},last:null,answers:{purpose:'team',role:'security',depth:'overview'},fontSize:'normal'})),key);
+ await page.goto('/guide/');await expect(page.locator('[data-role-description]')).toContainText('판단 순서를 먼저');
+ await expect(page.locator('[data-role-description]')).not.toContainText('표시했습니다');
+ await expect(page.locator('[data-route-resources]')).toBeHidden();
+ await expect(page.locator('[data-recommendations] a').first()).toHaveAttribute('href','/book/ch06/#chapter-brief');
+});

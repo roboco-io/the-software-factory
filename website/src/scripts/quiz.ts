@@ -25,7 +25,7 @@ function render(answers:any,focus=false){
  if(focus)result.querySelector<HTMLElement>('h2')!.focus();
 }
 form.addEventListener('submit',e=>{e.preventDefault();const key=['purpose','role','depth'][step];if(!form.querySelector(`input[name="${key}"]:checked`)){form.querySelector<HTMLElement>('[data-quiz-error]')!.textContent='선택지를 하나 골라 주세요.';steps[step].querySelector<HTMLInputElement>('input')?.focus();return;}
- if(step<2){showStep(step+1);return;}const data=Object.fromEntries(new FormData(form));progress.setAnswers(data);changed();render(data,true);
+ if(step<2){showStep(step+1);return;}const data=Object.fromEntries(new FormData(form));progress.setAnswers(data);changed();render(data,true);window.dispatchEvent(new CustomEvent('book:analytics',{detail:{name:'guide_complete',data:{chapter_count:recommend(data).chapters.length}}}));
 });
 form.querySelector('[data-quiz-back]')!.addEventListener('click',()=>showStep(Math.max(0,step-1)));
 result.querySelector('[data-edit-answers]')!.addEventListener('click',()=>{result.hidden=true;form.hidden=false;const a=normalizeAnswers(activeAnswers??{});for(const [key,value] of Object.entries(a)){const input=form.querySelector<HTMLInputElement>(`input[name="${key}"][value="${value}"]`);if(input)input.checked=true;}showStep(0);});

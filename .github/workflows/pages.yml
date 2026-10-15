@@ -26,6 +26,7 @@ jobs:
     env:
       SITE_URL: https://factory.roboco.io
       ASTRO_TELEMETRY_DISABLED: '1'
+      PUBLIC_GA_MEASUREMENT_ID: ${{ vars.PUBLIC_GA_MEASUREMENT_ID }}
     defaults:
       run:
         working-directory: website

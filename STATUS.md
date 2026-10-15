@@ -444,3 +444,8 @@ S16(GitHub 공식 규칙 문서)과 S17(2025-10-20 Anthropic 실행 경계 설�
 - 요청에 따라 imagegen으로 책 제목·부제·저자·공개 도메인과 의도·실행·검증·개선의 추상 순환을 담은 가로 이미지를 생성했다. 원본 1731×909 PNG를 website/public/images/software-factory-social.png에 보존했다. 직접 생성한 이미지이며 로보코 로고를 변형·재생성하지 않았다.
 - Starlight 공통 head에 Open Graph 이미지·실제 크기·대체 설명과 Twitter 이미지를 지정했다. 홈과 각 장의 제목·URL은 기존 메타데이터를 유지한다. 공유 미리보기 그림 변경으로 체인지 로그의 중요한 내용 변경 항목은 추가하지 않는다.
 - 검증·공개 완료: 단위 13개·원고 구조·Astro 진단 0건·46페이지 빌드·링크 검사 통과. 홈·1장의 og:image·twitter:image가 하나씩이며 summary_large_image 카드인 것을 빌드 결과로 확인했다. 698602f 푸시와 [Pages 배포](https://github.com/roboco-io/the-software-factory/actions/runs/38582367712) 성공. 공개 홈·1장 메타데이터 및 이미지 HTTP 200·PNG MIME·원본 SHA-256 일치를 확인했다. SNS 사업자별 실제 공유 카드·캐시 갱신은 별도 시험하지 않았다.
+
+## 2026-10-15 GA4 통계 도입
+
+- 책 전용 속성 G-VPLZXJ5P05, 향상된 측정 사용을 저자가 선택했다. 자동 조회·스크롤·외부 클릭과 독서 맞춤 이벤트 3개를 분리했다. 동의 전 태그 차단·통계 재선택·철회, 책 전용 쿠키, 읽기 기록 보존과 개인정보 안내를 구현했다.
+- [구현·검증 세션](planning/sessions/2026-10-15-ga4-integration.md)·[구현 계획](planning/ga4-integration.md)·[운영](website/ANALYTICS.md). 원격 main 기준 별도 작업 트리에서 구조·단위 24개·브라우저 20개·타입 진단 0건·47페이지 빌드/링크 검사 통과. 원고·리뷰 정책 미게시 변경은 이번 배포 범위에서 제외한다. 실제 GA 수신은 배포 후 별도 확인한다.

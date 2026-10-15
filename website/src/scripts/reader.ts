@@ -47,7 +47,7 @@ function restore(item:any){
 }
 if(id){
  progress.visit(id,revision,previous?.anchor??'',previous?.offset??0);
- all<HTMLButtonElement>('[data-mark-read]').forEach(button=>button.addEventListener('click',()=>{suppressPosition=false;const status=readStatus(progress.read().state,id,revision);progress.mark(id,revision,status!=='read');changed();}));
+ all<HTMLButtonElement>('[data-mark-read]').forEach(button=>button.addEventListener('click',()=>{suppressPosition=false;const status=readStatus(progress.read().state,id,revision);progress.mark(id,revision,status!=='read');if(status!=='read')window.dispatchEvent(new CustomEvent('book:analytics',{detail:{name:'chapter_mark_read',data:{chapter_id:id}}}));changed();}));
  const resume=document.querySelector<HTMLAnchorElement>('[data-resume-current]');
  if(previous?.anchor && !location.hash && resume){
   resume.hidden=false;resume.href=resumeURL(id);

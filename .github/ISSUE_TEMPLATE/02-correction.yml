@@ -1,0 +1,40 @@
+name: 오탈자·사실·출처 정정
+description: 오탈자, 사실 오류, 인용·출처 문제, 깨진 본문 링크를 알려 주세요.
+title: "[정정] "
+body:
+  - type: markdown
+    attributes:
+      value: The Software Factory를 읽고 의견을 보내주셔서 감사합니다. 기존 이슈에 같은 내용이 있는지 먼저 살펴봐 주세요. 작성한 내용은 공개됩니다.
+  - type: input
+    id: location
+    attributes:
+      label: 관련 위치
+      description: 페이지 URL과 장·절 이름을 적어 주세요. 책 전체에 대한 의견이면 “전체”라고 적어 주세요.
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 정정 종류
+      options:
+        - 오탈자·문장
+        - 사실·날짜·수치
+        - 인용·출처
+        - 본문 링크
+        - 기타
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: 현재 내용과 문제
+      description: 문제 문장을 짧게 인용하거나 문제가 있는 내용을 설명해 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: 수정 제안과 근거
+      description: 선택 사항입니다. 올바른 표현이나 1차 자료 URL을 알려 주세요. 정답을 모르셔도 제보할 수 있습니다.
+    validations:
+      required: false

@@ -1,0 +1,35 @@
+name: 책 내용 피드백·질문
+description: 이해하기 어려운 설명, 논증에 대한 의견, 책을 읽으며 생긴 질문을 남깁니다.
+title: "[책 피드백] "
+body:
+  - type: markdown
+    attributes:
+      value: The Software Factory를 읽고 의견을 보내주셔서 감사합니다. 기존 이슈에 같은 내용이 있는지 먼저 살펴봐 주세요. 작성한 내용은 공개됩니다.
+  - type: input
+    id: location
+    attributes:
+      label: 관련 위치
+      description: 페이지 URL과 장·절 이름을 적어 주세요. 책 전체에 대한 의견이면 “전체”라고 적어 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: 의견이나 질문
+      description: 어떤 부분이 도움이 되었거나 이해하기 어려웠는지, 또는 어떤 주장에 의견이 있는지 알려 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 읽는 맥락
+      description: 선택 사항입니다. 역할이나 해결하려는 문제를 알려 주시면 설명을 개선하는 데 도움이 됩니다.
+    validations:
+      required: false
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 원하는 설명이나 보완
+      description: 선택 사항입니다. 추가 예시나 설명 방식에 대한 제안을 남겨 주세요.
+    validations:
+      required: false

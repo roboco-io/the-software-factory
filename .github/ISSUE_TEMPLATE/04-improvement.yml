@@ -1,0 +1,46 @@
+name: 주제·사례·기능 제안
+description: 추가로 다루면 좋을 주제·사례 또는 사이트 기능을 제안합니다.
+title: "[개선 제안] "
+body:
+  - type: markdown
+    attributes:
+      value: The Software Factory를 읽고 의견을 보내주셔서 감사합니다. 기존 이슈에 같은 내용이 있는지 먼저 살펴봐 주세요. 작성한 내용은 공개됩니다.
+  - type: dropdown
+    id: area
+    attributes:
+      label: 제안 대상
+      options:
+        - 책의 주제·설명·사례
+        - 데모 해설
+        - 웹사이트 기능
+        - 기타
+    validations:
+      required: true
+  - type: textarea
+    id: need
+    attributes:
+      label: 필요한 이유
+      description: 어떤 독자 문제를 해결하거나 어떤 판단을 돕기 위한 제안인가요?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 제안 내용
+      description: 추가하거나 바꾸면 좋을 내용을 적어 주세요.
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: 관련 위치
+      description: 선택 사항입니다. 관련 장·절 또는 페이지 URL을 적어 주세요.
+    validations:
+      required: false
+  - type: textarea
+    id: references
+    attributes:
+      label: 참고 자료
+      description: 선택 사항입니다. 참고할 자료나 공개 사례가 있으면 링크와 관련성을 알려 주세요.
+    validations:
+      required: false

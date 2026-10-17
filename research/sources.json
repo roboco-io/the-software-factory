@@ -4158,6 +4158,341 @@
         ],
         "scope": "핵심 관측/권고와 한계만 짧게 의역. 인용문·전체표·그림 복제 없음. 누적 파생 설명200단어 기본 상한을 기준으로 점검."
       }
+    },
+    {
+      "id": "S111",
+      "title": "Validating Admission Policy",
+      "author": "Kubernetes contributors",
+      "url": "https://kubernetes.io/docs/reference/access-authn-authz/validating-admission-policy/",
+      "published_on": null,
+      "checked_on": "2026-10-15",
+      "verification_status": "공식1차 문서의 관련 절 직접 확인",
+      "verification_scope": "What is Validating Admission Policy, What Resources Make a Policy, Creating a ValidatingAdmissionPolicy, Validation actions. YAML예시의조건식(CEL)·정책/바인딩·범위와평가/집행 연결.",
+      "use": "3장 구조화된 정책 표현과 실제 평가·집행의 구분",
+      "limit": "공식문서의구조확인. 제품설치·실행·설정효과·에이전트자연언어지침효과를검증하지않음. 책의설명용YAML은제품설정이나공식예제의복제가아님.",
+      "usage_review": {
+        "checked_on": "2026-10-15",
+        "direct_quote_words": 0,
+        "files": [
+          "manuscript/chapters/ch03.md",
+          "research/claims/ch03.json",
+          "research/policy-forms-editorial-note.md",
+          "research/sources.json"
+        ],
+        "scope": "조건·범위·집행의관계만짧게의역. 원문YAML·표·이미지·전체문서복제없음. 누적파생설명200단어기본상한을대조."
+      }
+    },
+    {
+      "id": "S112",
+      "title": "How the Claude Code team does code review",
+      "author": "Addy Osmani, Morgan Westlee Lunt, Qing Wang / Anthropic Claude Code team",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "published_on": "2026-10-15",
+      "checked_on": "2026-10-17",
+      "verification_status": "1차 자료 본문 직접 확인",
+      "verification_scope": "본문 전체 확인. 채택 위치: Layer by layer, The scarce resource, How we make the reviewer better. 도표 이미지·연결된 별도 자료·내부 실행은 검증하지 않음.",
+      "use": "7·12·17·19장의 자체 운영 설명과 저자 제안 연결",
+      "limit": "업체 자체 보고. 독립 재현·인과·다수결의 독립성·보편적 승인 의무·팩토리 전체 성과 입증 아님. 수치·표·도표를 전재하지 않음.",
+      "usage_review": {
+        "checked_on": "2026-10-17",
+        "direct_quote_words": 0,
+        "files": [
+          "manuscript/chapters/ch07.md",
+          "manuscript/chapters/ch12.md",
+          "manuscript/chapters/ch17.md",
+          "manuscript/chapters/ch19.md",
+          "research/sources.json",
+          "research/claims/ch07.json",
+          "research/claims/ch12.json",
+          "research/claims/ch17.json",
+          "research/claims/ch19.json",
+          "research/anthropic-code-review-note.md"
+        ],
+        "scope": "사실 의역은 네 장의 S112 표시 문단과 최소 서지·확인 범위로 제한. 별도 사실 요약을 중복 작성하지 않음. 저자 제안은 명시적으로 구분. 전체 파생 사실 설명 200단어 기본 상한 아래로 제한."
+      }
+    },
+    {
+      "id": "S113",
+      "title": "Building effective agent automations",
+      "author": "Lance Martin, CJ Avilla / Anthropic",
+      "url": "https://claude.dev/blog/building-effective-agent-automations/",
+      "published_on": "2026-10-08",
+      "checked_on": "2026-10-17",
+      "verification_status": "원문 본문 확인·관련 절 재대조·원고 반영",
+      "verification_scope": "Sources; Destination; Agent; Schedule; Memory; Guardrails",
+      "use": "우선순위 후보 채택: ch08, ch09, ch14. 업체 설명과 저자 해석을 분리. 상세 위치는 research/claude-dev-adoption-note.md",
+      "limit": "업체 자체 설명·제안·시연/관측. 연결된 코드·문서·영상·실제 실행·독립 재현·조직 효과는 검증하지 않음. 후보별 제한은 조사 메모 참조.",
+      "usage_review": {
+        "checked_on": "2026-10-17",
+        "direct_quote_words": 0,
+        "files": [
+          "research/claude-dev-automation-candidates.md",
+          "research/claude-dev-survey-2026-10-17.md",
+          "research/claims/claude-dev-survey.json",
+          "research/sources.json",
+          "manuscript/chapters/ch08.md",
+          "manuscript/chapters/ch09.md",
+          "manuscript/chapters/ch14.md",
+          "research/claims/ch08.json",
+          "research/claims/ch09.json",
+          "research/claims/ch14.json",
+          "research/claude-dev-adoption-note.md"
+        ],
+        "scope": "직접 인용 0. 원문별 이전 조사 메모·통합 후보·출처 대장과 이번 사실 의역을 누적 점검. 사실은 중심 장 한 곳에 제한하고 다른 장은 저자 제안/내부 링크로 연결. 200단어 기본 상한 안에서 사용. 코드·설정·전체 표/그림·성과 수치를 전재하지 않음."
+      }
+    },
+    {
+      "id": "S114",
+      "title": "Claude Code in the cloud: a field guide to cloud sessions",
+      "author": "Addy Osmani / Anthropic",
+      "url": "https://claude.dev/blog/claude-code-in-the-cloud/",
+      "published_on": "2026-10-06",
+      "checked_on": "2026-10-17",
+      "verification_status": "원문 본문 직접 확인·반영 후보 조사",
+      "verification_scope": "본문 전체; Under the hood; Seven workflows; Common questions",
+      "use": "본문 미반영. 후보 위치·우선순위는 research/claude-dev-automation-candidates.md",
+      "limit": "업체 자체 설명·제안·시연/관측. 연결된 코드·문서·영상·실제 실행·독립 재현·조직 효과는 검증하지 않음. 후보별 제한은 조사 메모 참조.",
+      "usage_review": {
+        "checked_on": "2026-10-17",
+        "direct_quote_words": 0,
+        "files": [
+          "research/claude-dev-automation-candidates.md",
+          "research/claude-dev-survey-2026-10-17.md",
+          "research/claims/claude-dev-survey.json",
+          "research/sources.json"
+        ],
+        "scope": "상세 사실 요약은 담당 메모 한 곳에 제한. 후보는 저자 해석으로 표시. 원문별 누적 파생 요약 200단어 기본 상한 아래로 제한. 향후 본문 채택 때 재점검 필요."
+      }
+    },
+    {
+      "id": "S115",
+      "title": "Automating eval design and hillclimbing with Claude",
+      "author": "Lance Martin / Anthropic",
+      "url": "https://claude.dev/blog/automating-eval-design-and-hillclimbing/",
+      "published_on": "2026-09-28",
+      "checked_on": "2026-10-17",
+      "verification_status": "원문 본문 확인·관련 절 재대조·원고 반영",
+      "verification_scope": "Eval design; Diagnostic checks; Hillclimbing; Overfitting; Examples",
+      "use": "우선순위 후보 채택: ch11, ch19. 업체 설명과 저자 해석을 분리. 상세 위치는 research/claude-dev-adoption-note.md",
+      "limit": "업체 자체 설명·제안·시연/관측. 연결된 코드·문서·영상·실제 실행·독립 재현·조직 효과는 검증하지 않음. 후보별 제한은 조사 메모 참조.",
+      "usage_review": {
+        "checked_on": "2026-10-17",
+        "direct_quote_words": 0,
+        "files": [
+          "research/claude-dev-eval-cost-candidates.md",
+          "research/claude-dev-survey-2026-10-17.md",
+          "research/claims/claude-dev-survey.json",
+          "research/sources.json",
+          "manuscript/chapters/ch11.md",
+          "manuscript/chapters/ch19.md",
+          "research/claims/ch11.json",
+          "research/claims/ch19.json",
+          "research/claude-dev-adoption-note.md"
+        ],
+        "scope": "직접 인용 0. 원문별 이전 조사 메모·통합 후보·출처 대장과 이번 사실 의역을 누적 점검. 사실은 중심 장 한 곳에 제한하고 다른 장은 저자 제안/내부 링크로 연결. 200단어 기본 상한 안에서 사용. 코드·설정·전체 표/그림·성과 수치를 전재하지 않음."
+      }
+    },
+    {
+      "id": "S116",
+      "title": "Using Claude Code: Spending your effort",
+      "author": "Thariq Shihipar / Anthropic",
+      "url": "https://claude.dev/blog/spending-your-effort/",
+      "published_on": "2026-09-25",
+      "checked_on": "2026-10-17",
+      "verification_status": "원문 본문 직접 확인·반영 후보 조사",
+      "verification_scope": "What is effort; Effort curves; Building with effort; difficult tasks; 각주",
+      "use": "본문 미반영. 후보 위치·우선순위는 research/claude-dev-eval-cost-candidates.md",
+      "limit": "업체 자체 설명·제안·시연/관측. 연결된 코드·문서·영상·실제 실행·독립 재현·조직 효과는 검증하지 않음. 후보별 제한은 조사 메모 참조.",
+      "usage_review": {
+        "checked_on": "2026-10-17",
+        "direct_quote_words": 0,
+        "files": [
+          "research/claude-dev-eval-cost-candidates.md",
+          "research/claude-dev-survey-2026-10-17.md",
+          "research/claims/claude-dev-survey.json",
+          "research/sources.json"
+        ],
+        "scope": "상세 사실 요약은 담당 메모 한 곳에 제한. 후보는 저자 해석으로 표시. 원문별 누적 파생 요약 200단어 기본 상한 아래로 제한. 향후 본문 채택 때 재점검 필요."
+      }
+    },
+    {
+      "id": "S117",
+      "title": "What a task costs on Opus 5.5",
+      "author": "Addy Osmani / Anthropic",
+      "url": "https://claude.dev/blog/what-a-task-costs-on-opus-5-5/",
+      "published_on": "2026-09-25",
+      "checked_on": "2026-10-17",
+      "verification_status": "원문 본문 직접 확인·반영 후보 조사",
+      "verification_scope": "The cost of a task; Same tasks side-by-side; Tips; Measure it yourself; Keep in mind",
+      "use": "본문 미반영. 후보 위치·우선순위는 research/claude-dev-eval-cost-candidates.md",
+      "limit": "업체 자체 설명·제안·시연/관측. 연결된 코드·문서·영상·실제 실행·독립 재현·조직 효과는 검증하지 않음. 후보별 제한은 조사 메모 참조.",
+      "usage_review": {
+        "checked_on": "2026-10-17",
+        "direct_quote_words": 0,
+        "files": [
+          "research/claude-dev-eval-cost-candidates.md",
+          "research/claude-dev-survey-2026-10-17.md",
+          "research/claims/claude-dev-survey.json",
+          "research/sources.json"
+        ],
+        "scope": "상세 사실 요약은 담당 메모 한 곳에 제한. 후보는 저자 해석으로 표시. 원문별 누적 파생 요약 200단어 기본 상한 아래로 제한. 향후 본문 채택 때 재점검 필요."
+      }
+    },
+    {
+      "id": "S118",
+      "title": "Getting started with Claude Code mods",
+      "author": "Addy Osmani / Anthropic",
+      "url": "https://claude.dev/blog/getting-started-with-claude-code-mods/",
+      "published_on": "2026-10-01",
+      "checked_on": "2026-10-17",
+      "verification_status": "원문 본문 직접 확인·반영 후보 조사",
+      "verification_scope": "How a mod works; Sharing; Two more mods; Four habits; 튜토리얼 본문",
+      "use": "본문 미반영. 후보 위치·우선순위는 research/claude-dev-mods-operations-candidates.md",
+      "limit": "업체 자체 설명·제안·시연/관측. 연결된 코드·문서·영상·실제 실행·독립 재현·조직 효과는 검증하지 않음. 후보별 제한은 조사 메모 참조.",
+      "usage_review": {
+        "checked_on": "2026-10-17",
+        "direct_quote_words": 0,
+        "files": [
+          "research/claude-dev-mods-operations-candidates.md",
+          "research/claude-dev-survey-2026-10-17.md",
+          "research/claims/claude-dev-survey.json",
+          "research/sources.json"
+        ],
+        "scope": "상세 사실 요약은 담당 메모 한 곳에 제한. 후보는 저자 해석으로 표시. 원문별 누적 파생 요약 200단어 기본 상한 아래로 제한. 향후 본문 채택 때 재점검 필요."
+      }
+    },
+    {
+      "id": "S119",
+      "title": "How we made claude.ai 3x faster in two weeks",
+      "author": "Raymond Wang, Sam Attard, Issac G. / Anthropic",
+      "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
+      "published_on": "2026-09-23",
+      "checked_on": "2026-10-17",
+      "verification_status": "원문 본문 확인·관련 절 재대조·원고 반영",
+      "verification_scope": "본문 전체; The loop; Scaling horizontally; Guardrails; Steering",
+      "use": "우선순위 후보 채택: ch14, ch15. 업체 설명과 저자 해석을 분리. 상세 위치는 research/claude-dev-adoption-note.md",
+      "limit": "업체 자체 설명·제안·시연/관측. 연결된 코드·문서·영상·실제 실행·독립 재현·조직 효과는 검증하지 않음. 후보별 제한은 조사 메모 참조.",
+      "usage_review": {
+        "checked_on": "2026-10-17",
+        "direct_quote_words": 0,
+        "files": [
+          "research/claude-dev-mods-operations-candidates.md",
+          "research/claude-dev-survey-2026-10-17.md",
+          "research/claims/claude-dev-survey.json",
+          "research/sources.json",
+          "manuscript/chapters/ch14.md",
+          "manuscript/chapters/ch15.md",
+          "research/claims/ch14.json",
+          "research/claims/ch15.json",
+          "research/claude-dev-adoption-note.md"
+        ],
+        "scope": "직접 인용 0. 원문별 이전 조사 메모·통합 후보·출처 대장과 이번 사실 의역을 누적 점검. 사실은 중심 장 한 곳에 제한하고 다른 장은 저자 제안/내부 링크로 연결. 200단어 기본 상한 안에서 사용. 코드·설정·전체 표/그림·성과 수치를 전재하지 않음."
+      }
+    },
+    {
+      "id": "S120",
+      "title": "A harness for every task: dynamic workflows in Claude Code",
+      "author": "Thariq Shihipar, Sid Bidasaria / Anthropic",
+      "url": "https://claude.dev/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code/",
+      "published_on": "2026-06-02",
+      "checked_on": "2026-10-17",
+      "verification_status": "원문 본문 확인·관련 절 재대조·원고 반영",
+      "verification_scope": "본문 전체; How/Why; Helpful patterns; Triaging at scale; When not to use",
+      "use": "우선순위 후보 채택: ch06, ch09. 업체 설명과 저자 해석을 분리. 상세 위치는 research/claude-dev-adoption-note.md",
+      "limit": "업체 자체 설명·제안·시연/관측. 연결된 코드·문서·영상·실제 실행·독립 재현·조직 효과는 검증하지 않음. 후보별 제한은 조사 메모 참조.",
+      "usage_review": {
+        "checked_on": "2026-10-17",
+        "direct_quote_words": 0,
+        "files": [
+          "research/claude-dev-harness-candidates.md",
+          "research/claude-dev-survey-2026-10-17.md",
+          "research/claims/claude-dev-survey.json",
+          "research/sources.json",
+          "manuscript/chapters/ch06.md",
+          "manuscript/chapters/ch09.md",
+          "research/claims/ch06.json",
+          "research/claims/ch09.json",
+          "research/claude-dev-adoption-note.md"
+        ],
+        "scope": "직접 인용 0. 원문별 이전 조사 메모·통합 후보·출처 대장과 이번 사실 의역을 누적 점검. 사실은 중심 장 한 곳에 제한하고 다른 장은 저자 제안/내부 링크로 연결. 200단어 기본 상한 안에서 사용. 코드·설정·전체 표/그림·성과 수치를 전재하지 않음."
+      }
+    },
+    {
+      "id": "S121",
+      "title": "Seeing like an agent: how we design tools in Claude Code",
+      "author": "Thariq Shihipar / Anthropic",
+      "url": "https://claude.dev/blog/seeing-like-an-agent/",
+      "published_on": "2026-04-10",
+      "checked_on": "2026-10-17",
+      "verification_status": "원문 본문 확인·관련 절 재대조·원고 반영",
+      "verification_scope": "본문 전체; Updating with capabilities; Search interface; Progressive disclosure",
+      "use": "우선순위 후보 채택: ch11. 업체 설명과 저자 해석을 분리. 상세 위치는 research/claude-dev-adoption-note.md",
+      "limit": "업체 자체 설명·제안·시연/관측. 연결된 코드·문서·영상·실제 실행·독립 재현·조직 효과는 검증하지 않음. 후보별 제한은 조사 메모 참조.",
+      "usage_review": {
+        "checked_on": "2026-10-17",
+        "direct_quote_words": 0,
+        "files": [
+          "research/claude-dev-harness-candidates.md",
+          "research/claude-dev-survey-2026-10-17.md",
+          "research/claims/claude-dev-survey.json",
+          "research/sources.json",
+          "manuscript/chapters/ch11.md",
+          "research/claims/ch11.json",
+          "research/claude-dev-adoption-note.md"
+        ],
+        "scope": "직접 인용 0. 원문별 이전 조사 메모·통합 후보·출처 대장과 이번 사실 의역을 누적 점검. 사실은 중심 장 한 곳에 제한하고 다른 장은 저자 제안/내부 링크로 연결. 200단어 기본 상한 안에서 사용. 코드·설정·전체 표/그림·성과 수치를 전재하지 않음."
+      }
+    },
+    {
+      "id": "S122",
+      "title": "Lessons from building Claude Code: How we use skills",
+      "author": "Thariq Shihipar / Anthropic",
+      "url": "https://claude.dev/blog/lessons-from-building-claude-code-how-we-use-skills/",
+      "published_on": "2026-06-03",
+      "checked_on": "2026-10-17",
+      "verification_status": "원문 본문 확인·관련 절 재대조·원고 반영",
+      "verification_scope": "본문 전체; Tips; Distributing; Managing; Measuring skills",
+      "use": "우선순위 후보 채택: ch10, ch13. 업체 설명과 저자 해석을 분리. 상세 위치는 research/claude-dev-adoption-note.md",
+      "limit": "업체 자체 설명·제안·시연/관측. 연결된 코드·문서·영상·실제 실행·독립 재현·조직 효과는 검증하지 않음. 후보별 제한은 조사 메모 참조.",
+      "usage_review": {
+        "checked_on": "2026-10-17",
+        "direct_quote_words": 0,
+        "files": [
+          "research/claude-dev-harness-candidates.md",
+          "research/claude-dev-survey-2026-10-17.md",
+          "research/claims/claude-dev-survey.json",
+          "research/sources.json",
+          "manuscript/chapters/ch10.md",
+          "manuscript/chapters/ch13.md",
+          "research/claims/ch10.json",
+          "research/claims/ch13.json",
+          "research/claude-dev-adoption-note.md"
+        ],
+        "scope": "직접 인용 0. 원문별 이전 조사 메모·통합 후보·출처 대장과 이번 사실 의역을 누적 점검. 사실은 중심 장 한 곳에 제한하고 다른 장은 저자 제안/내부 링크로 연결. 200단어 기본 상한 안에서 사용. 코드·설정·전체 표/그림·성과 수치를 전재하지 않음."
+      }
+    },
+    {
+      "id": "S123",
+      "title": "Lessons from building Claude Code: Prompt caching is everything",
+      "author": "Thariq Shihipar / Anthropic",
+      "url": "https://claude.dev/blog/lessons-from-building-claude-code-prompt-caching-is-everything/",
+      "published_on": "2026-04-30",
+      "checked_on": "2026-10-17",
+      "verification_status": "원문 본문 직접 확인·반영 후보 조사",
+      "verification_scope": "본문 전체; prompt layout; tools/models; compaction; lessons",
+      "use": "본문 미반영. 후보 위치·우선순위는 research/claude-dev-harness-candidates.md",
+      "limit": "업체 자체 설명·제안·시연/관측. 연결된 코드·문서·영상·실제 실행·독립 재현·조직 효과는 검증하지 않음. 후보별 제한은 조사 메모 참조.",
+      "usage_review": {
+        "checked_on": "2026-10-17",
+        "direct_quote_words": 0,
+        "files": [
+          "research/claude-dev-harness-candidates.md",
+          "research/claude-dev-survey-2026-10-17.md",
+          "research/claims/claude-dev-survey.json",
+          "research/sources.json"
+        ],
+        "scope": "상세 사실 요약은 담당 메모 한 곳에 제한. 후보는 저자 해석으로 표시. 원문별 누적 파생 요약 200단어 기본 상한 아래로 제한. 향후 본문 채택 때 재점검 필요."
+      }
     }
   ],
   "source_aliases": {
@@ -4176,6 +4511,17 @@
       "scope": "원안의 네 단계·에이전트 작업을 감싸는 사이클을 참고. 정책은 검증만의 기준이 아니라 작업 지침이며 상위 원칙과 적용 범위의 계층을 갖는다는 정의는 후속 저자 지시",
       "adoption": "3장 정책 계층과 9장 하네스 사이클 도표·관련 정의. 저자 설계 제안이며 운영 효과 입증 아님",
       "record": "research/policy-hierarchy-editorial-note.md"
+    }
+  ],
+  "editorial_decisions": [
+    {
+      "id": "D35",
+      "checked_on": "2026-10-15",
+      "basis": "저자의 이 대화 내 직접 변경 지시",
+      "type": "책의 규범적 정의·설계 기준; 외부 관측 아님",
+      "scope": "개별 승인 없는 완전 자동화의 허용 범위·자동 예외·사람 판단·보류 구분",
+      "policy": "planning/automation-scope-policy.md",
+      "limit": "신규 외부 출처 ID나 실행·효과 확인을 추가하지 않음. 기존110출처 객체와 역사 기록 보존."
     }
   ]
 }

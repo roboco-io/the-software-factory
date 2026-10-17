@@ -8,6 +8,8 @@
 
 검토 승인을 받은 뒤 코드가 바뀌면 예전 승인을 그대로 쓰지 않도록 현재 버전과 판정을 연결한다. 이 연결은 검토한 대상과 실제 반영할 대상을 맞추기 위한 장치다. 파일 목록이나 위험을 확정할 수 없는 경우도 자동 반영에서 막는다.[S100]
 
+이 데모의 위험 정책 파일은 YAML로 경로 규칙과 필수 검사 항목을 선언한다. 그 파일을 읽는 분류·병합 코드가 실제 입력을 평가해 다음 행동을 정한다.[S100] 구조화된 문서를 저장하는 일과 이를 판정·집행하는 일을 연결해 읽을 수 있는 예다.
+
 ## 구현 근거 읽기
 
 | 확인할 대상 | 역할과 확인할 사실 | 구현 근거 |
@@ -16,6 +18,8 @@
 | 변경 분류 | 파일 규칙을 변경 전체의 위험으로 모음 | [분류 방식 확인](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/policy/risk.ts) |
 | 병합 판단 | 현재 버전의 판정과 자동 병합/사람 이관을 연결 | [판단 경로 확인](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/gate.ts) |
 | 운영 안내 | 코드 소유자의 승인 강제에 남는 제한 | [운영 한계 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md) |
+
+높은 위험을 사람에게 넘기는 것은 이 데모의 정책이다. 책의 일반 기준은 위험의 크기만으로 수동 승인을 고정하지 않고 원칙·정책과 증거·권한·복구 조건으로 자동화 범위를 나누는 것이다. 실제 구현에 없는 자동 병합을 이 데모가 제공한다고 쓰지 않는다.
 
 ## 리더의 판단과 한계
 

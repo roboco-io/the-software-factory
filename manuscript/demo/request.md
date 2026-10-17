@@ -17,6 +17,8 @@
 | 명령 처리 | 시작 판단자의 권한과 허용된 상태 확인 | [권한 확인 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/stages/command.ts) |
 | 상태 전이 | 정리와 승인 상태가 어떻게 연결되는지 확인 | [전이 규칙 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/state/machine.ts) |
 
+데모가 사람의 시작 명령을 요구하는 사실과 팩토리의 실행 허용 판단을 자동화할 수 있다는 원칙은 구분한다. 다른 적용에서는 정책으로 요청을 분류해 개별 승인 없이 시작할 수 있다. 이 페이지는 그 자동 시작을 데모에서 실행·확인했다고 주장하지 않는다.
+
 ## 리더의 판단과 한계
 
 예상 위험은 요청 단계의 판단이다. 실제로 변경된 파일의 위험 판정과 같은 것으로 취급하지 않는다. 정리 결과에 빠진 조건을 누가 보완하고, 누가 자원 사용과 실행을 허용할지 정해야 한다. 이번 확인은 지침·코드의 정의이며 모든 환경에서 읽기 전용 제약이 강제됨을 검증한 것은 아니다.

@@ -2,7 +2,7 @@
   "chapter": 17,
   "manuscript": "manuscript/chapters/ch17.md",
   "status": "초고 검토 메모",
-  "central_claim": "활동량을 수용 결과와 구분하고 분모·품질·전체 비용·조건 변화·대조 한계를 보존해 투자와 확대를 판단한다.",
+  "central_claim": "자동화 대상의 범위와 무승인 완주를 분리하고 수용 결과·품질·전체 비용과 필요한 인간 판단을 같은 조건에서 평가한다.",
   "claims": [
     {
       "location": "활동의 증가와 성과의 증가를 구분한다",
@@ -221,5 +221,29 @@
     "prior_review": "추가·변경 문단은 이전 버전 리뷰 판정을 자동 승계하지 않음",
     "report": "planning/reviews/2026-10-15-security-adoption.md",
     "limit": "독립 리뷰·실제 도입/보안 효과·법규 적합성·저자 편집 확정 아님"
+  },
+  "automation_scope_update": {
+    "date": "2026-10-15",
+    "author_decision": "D35",
+    "type": "저자 설계 원칙·범위 판단 기준",
+    "policy": "planning/automation-scope-policy.md",
+    "scope": "현재 장의 위임·판정·예외·측정 논증을 개별 승인 없는 완전 자동화 기준에 연결",
+    "source_ids": [],
+    "status": "검증 완료(해당 변경 범위 자기 점검)",
+    "prior_reviews": "변경 문단은 이전 버전 리뷰 결과를 자동 승계하지 않음",
+    "limits": "모든 업무의 현재 자동화 가능성·실제 운영 효과·외부 사례의 승인 제거를 입증하지 않음",
+    "report": "planning/reviews/2026-10-15-automation-scope.md"
+  },
+  "anthropic_review_update": {
+    "checked_on": "2026-10-17",
+    "source_ids": [
+      "S112"
+    ],
+    "type": "업체 자체 보고·저자 해석·설계 제안 구분",
+    "location": "## 세 축의 병목을 서로 다른 증거로 본다",
+    "scope": "해당 장의 S112 문단 및 뒤따르는 저자 제안. 원문 절 대응은 조사 메모 참조.",
+    "status": "수정됨·원문 대조와 변경 범위 자기 점검 완료",
+    "limits": "본문 원문 대조이며 내부 구현·실행·운영 효과의 독립 확인은 아님",
+    "report": "planning/reviews/2026-10-17-anthropic-code-review.md"
   }
 }

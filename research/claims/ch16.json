@@ -2,7 +2,7 @@
   "chapter": 16,
   "manuscript": "manuscript/chapters/ch16.md",
   "status": "초고 검토 메모",
-  "central_claim": "수행의 자동화를 유지하면서 사람이 실제 판단 권한·능력·기여·결과 피드백을 갖도록 업무를 설계하고 태도·참여·책임 행동을 구분해 평가한다.",
+  "central_claim": "개별 승인 없는 자동화를 유지하며 사람이 맡은 기준·위임 경계·운영 판단과 학습의 권한·정보·피드백을 설계한다.",
   "claims": [
     {
       "location": "승인할 일만 남았을 때 / 오너십·집중·책임 행동을 구분한다",
@@ -236,5 +236,17 @@
     "result": "기존 장의 담당 역할·비용·한계가 세 축과 충돌하지 않아 본문 유지",
     "status": "대상 연결 검증 완료·본문 유지",
     "limit": "작성 에이전트의 자기 점검. 독립 인간·실제 독자·운영 효과·저자 편집 확정 아님"
+  },
+  "automation_scope_update": {
+    "date": "2026-10-15",
+    "author_decision": "D35",
+    "type": "저자 설계 원칙·범위 판단 기준",
+    "policy": "planning/automation-scope-policy.md",
+    "scope": "현재 장의 위임·판정·예외·측정 논증을 개별 승인 없는 완전 자동화 기준에 연결",
+    "source_ids": [],
+    "status": "검증 완료(해당 변경 범위 자기 점검)",
+    "prior_reviews": "변경 문단은 이전 버전 리뷰 결과를 자동 승계하지 않음",
+    "limits": "모든 업무의 현재 자동화 가능성·실제 운영 효과·외부 사례의 승인 제거를 입증하지 않음",
+    "report": "planning/reviews/2026-10-15-automation-scope.md"
   }
 }

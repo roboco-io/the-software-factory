@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-17",
+  "head": "9a1aba448060ee0e48e24621a36cbe593ac3283b",
+  "baseline": "미커밋 D35~D37 및 이슈 설정 기록을 포함한 작업 시작 판본",
+  "before_sha256": {
+    "manuscript/chapters/ch07.md": "a6645641f09c7ac467b7a11bb72ab54442adb5fb12048f46d5968847d2d9c655",
+    "manuscript/chapters/ch12.md": "01d1a2516d9f462d14efb0e8142c89b5951c6c76c38955efe1d780a3c9085458",
+    "manuscript/chapters/ch17.md": "0d3fac765ac0ad0b323edc3eed11d7ca4d8a0e82064bd8abbe4b95ba57636985",
+    "manuscript/chapters/ch19.md": "a53de7d6d3affbc5893f588323d39f65c3426cf57063f235a1b557b8edf188ff",
+    "research/sources.json": "fb1540a75f94f414a8b911a3eed0d8d37875490bc137253c5e1dc30c43497a06",
+    "website/content-manifest.json": "4e186aefc65fae0f78efbdc2de5a51b74cced3473b5aea188a3c86a551ba0d43",
+    "CHANGELOG.md": "8b8bd577ffbd7f50ea81c8861971463159cbaff6424504120ef5c976d6a5a5e6"
+  },
+  "after_sha256": {
+    "manuscript/chapters/ch07.md": "b00ecdcd29d19f159c39cc2f4833609a06bf06336cc1e38b014863e8c9f58c7d",
+    "manuscript/chapters/ch12.md": "132228ef1e8005e73d3ff95a392015a33ec978224e31ba002092f1fd7356d907",
+    "manuscript/chapters/ch17.md": "58970cc7eae9e885b60f75aa9e7dd1542cd84236d4a7854f75b20f77fc86dabf",
+    "manuscript/chapters/ch19.md": "8bec5b7612aaa47c932fbadd27383fef858fc70aecb34149e91a201ce5abede4",
+    "research/sources.json": "02cb3f5cbac683e92eb8264a519e282417fd489a8ce399b2b47f4a1cb16cfcb7",
+    "website/content-manifest.json": "823f5e5455bb8e3e1bdae5c954e160bd3faf1b3759f6e51e8cc0ebb6cd4f5061",
+    "CHANGELOG.md": "10770b78147900607617ab488e45902b0eeedb530d28a0ef2b1c30d5e87ba41a",
+    "research/claims/ch07.json": "2d12f41325e56a4348c7cda036894b4d12a5deccc8824616fc639ba6c335229f",
+    "research/claims/ch12.json": "9bc267c8ab31c0106876c137c35f10ee88438cff04ce10f684edf8eb21111085",
+    "research/claims/ch17.json": "5fce21f33940a5daf766197c8abe8df09944d53c8676ebd1f3cbbdde8a4f3de7",
+    "research/claims/ch19.json": "591f8ef54b5433c2d8b5620ff3005dcd27dea76ec9e751de8a02cbca7577e212",
+    "research/anthropic-code-review-note.md": "ca859558c11b212b671b445da8334f4c7750311862f645074fe3ab29ce262d72",
+    "planning/reviews/2026-10-17-anthropic-code-review.md": "32da8372526cb9582c9c5122246f84aa99c74becbb4f09ae02c5c88e64c48f8d",
+    "planning/sessions/2026-10-17-anthropic-code-review.md": "757e62ae63e60f9bac9da628ffc8ccb369df4e1e5c4e71ca3b0d5100d8060f08",
+    "STATUS.md": "5768941289cfa590b6d65cfca1d4f376b0b35598990461c2247d950ac00468ae"
+  },
+  "changed_reader_pages": [
+    "ch07",
+    "ch12",
+    "ch17",
+    "ch19"
+  ],
+  "source_added": "S112",
+  "source_preservation": "기존 111출처 객체 및 기타 메타데이터의 직렬화 SHA-256 일치 확인",
+  "validation": {
+    "structure": "20 chapters,15 patterns,112 sources",
+    "build": "56 pages; internal links/anchors passed",
+    "content": "rendered four citations and new 7/12 chapter text verified",
+    "anchors": "existing anchors preserved; four revisions +1",
+    "scope": "산문 수정. 브라우저 전체 재시험·독립 리뷰·내부 구현 실행 없음"
+  },
+  "publication": "local draft; not committed,pushed or deployed"
+}

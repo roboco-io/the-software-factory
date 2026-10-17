@@ -161,5 +161,38 @@
     "status": "별도 AI 수정 검증 완료(해당 변경 범위)",
     "prior_review": "변경 문단은 이전 버전의 리뷰 완료를 승계하지 않음",
     "verification": "planning/reviews/2026-10-15-demo-examples-verify-initial.md"
+  },
+  "automation_scope_update": {
+    "date": "2026-10-15",
+    "author_decision": "D35",
+    "type": "저자 설계 원칙·범위 판단 기준",
+    "policy": "planning/automation-scope-policy.md",
+    "scope": "현재 장의 위임·판정·예외·측정 논증을 개별 승인 없는 완전 자동화 기준에 연결",
+    "source_ids": [],
+    "status": "검증 완료(해당 변경 범위 자기 점검)",
+    "prior_reviews": "변경 문단은 이전 버전 리뷰 결과를 자동 승계하지 않음",
+    "limits": "모든 업무의 현재 자동화 가능성·실제 운영 효과·외부 사례의 승인 제거를 입증하지 않음",
+    "report": "planning/reviews/2026-10-15-automation-scope.md"
+  },
+  "policy_forms_update": {
+    "date": "2026-10-15",
+    "author_decision": "D36",
+    "type": "저자 개념 설명·설계 예시와 공식 문서의 제한적 관찰",
+    "source_ids": [
+      "S111"
+    ],
+    "scope": "자연언어·구조화·혼합 정책과 표현/해석/평가/집행·입력 신뢰성의 구분",
+    "status": "수정됨·변경 범위 자기 점검 및 사이트 검증 완료",
+    "limits": "책의YAML은설명용이며설정실행/도구호환/전체결정론적결과를검증하지않음",
+    "report": "planning/reviews/2026-10-15-policy-forms.md"
+  },
+  "human_routing_examples": {
+    "date": "2026-10-16",
+    "author_decision": "D37",
+    "type": "저자 정책 설계 예시",
+    "scope": "권한 변경의 규칙 기반 사람 확인 분류와 비용 트레이드오프의 LLM 문맥 분류를 최종 결정 권한과 구분",
+    "source_ids": [],
+    "status": "수정됨·변경 범위 자기 점검 및 빌드 검증 완료",
+    "limits": "실제 조직 사례·구현 실행·분류 정확성 검증이 아님"
   }
 }

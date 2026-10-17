@@ -220,5 +220,29 @@
     "status": "별도 AI 수정 검증 완료(해당 변경 범위)",
     "prior_review": "변경 문단은 이전 버전의 리뷰 완료를 승계하지 않음",
     "verification": "planning/reviews/2026-10-15-demo-examples-verify-initial.md"
+  },
+  "automation_scope_update": {
+    "date": "2026-10-15",
+    "author_decision": "D35",
+    "type": "저자 설계 원칙·범위 판단 기준",
+    "policy": "planning/automation-scope-policy.md",
+    "scope": "현재 장의 위임·판정·예외·측정 논증을 개별 승인 없는 완전 자동화 기준에 연결",
+    "source_ids": [],
+    "status": "검증 완료(해당 변경 범위 자기 점검)",
+    "prior_reviews": "변경 문단은 이전 버전 리뷰 결과를 자동 승계하지 않음",
+    "limits": "모든 업무의 현재 자동화 가능성·실제 운영 효과·외부 사례의 승인 제거를 입증하지 않음",
+    "report": "planning/reviews/2026-10-15-automation-scope.md"
+  },
+  "anthropic_review_update": {
+    "checked_on": "2026-10-17",
+    "source_ids": [
+      "S112"
+    ],
+    "type": "업체 자체 보고·저자 해석·설계 제안 구분",
+    "location": "## 독립성은 판정자를 따로 두는 데서 끝나지 않는다",
+    "scope": "해당 장의 S112 문단 및 뒤따르는 저자 제안. 원문 절 대응은 조사 메모 참조.",
+    "status": "수정됨·원문 대조와 변경 범위 자기 점검 완료",
+    "limits": "본문 원문 대조이며 내부 구현·실행·운영 효과의 독립 확인은 아님",
+    "report": "planning/reviews/2026-10-17-anthropic-code-review.md"
   }
 }

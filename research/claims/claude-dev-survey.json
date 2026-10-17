@@ -1,0 +1,115 @@
+{
+  "checked_on": "2026-10-17",
+  "status": "우선6개 후보 본문 반영·보조5개 보류",
+  "scope": "7개 최신글을 세 하위 에이전트가 나눠 읽고 4개 이전 글을 주 에이전트가 추가 확인. 이미 반영한 S112 제외. 사이트 전수 조사 아님.",
+  "source_ids": [
+    "S113",
+    "S114",
+    "S115",
+    "S116",
+    "S117",
+    "S118",
+    "S119",
+    "S120",
+    "S121",
+    "S122",
+    "S123"
+  ],
+  "claim_types": [
+    "업체 자체 설명·관측·제안",
+    "기존 원고와의 연결은 저자 해석 후보"
+  ],
+  "claims": [
+    {
+      "source_id": "S113",
+      "evidence_pointer": "research/claude-dev-automation-candidates.md",
+      "verification_scope": "Sources; Destination; Agent; Schedule; Memory; Guardrails",
+      "type": "원문 설명 확인·적용은 편집 후보",
+      "limits": "운영 효과의 독립 검증이나 채택 확정 아님"
+    },
+    {
+      "source_id": "S114",
+      "evidence_pointer": "research/claude-dev-automation-candidates.md",
+      "verification_scope": "본문 전체; Under the hood; Seven workflows; Common questions",
+      "type": "원문 설명 확인·적용은 편집 후보",
+      "limits": "운영 효과의 독립 검증이나 채택 확정 아님"
+    },
+    {
+      "source_id": "S115",
+      "evidence_pointer": "research/claude-dev-eval-cost-candidates.md",
+      "verification_scope": "Eval design; Diagnostic checks; Hillclimbing; Overfitting; Examples",
+      "type": "원문 설명 확인·적용은 편집 후보",
+      "limits": "운영 효과의 독립 검증이나 채택 확정 아님"
+    },
+    {
+      "source_id": "S116",
+      "evidence_pointer": "research/claude-dev-eval-cost-candidates.md",
+      "verification_scope": "What is effort; Effort curves; Building with effort; difficult tasks; 각주",
+      "type": "원문 설명 확인·적용은 편집 후보",
+      "limits": "운영 효과의 독립 검증이나 채택 확정 아님"
+    },
+    {
+      "source_id": "S117",
+      "evidence_pointer": "research/claude-dev-eval-cost-candidates.md",
+      "verification_scope": "The cost of a task; Same tasks side-by-side; Tips; Measure it yourself; Keep in mind",
+      "type": "원문 설명 확인·적용은 편집 후보",
+      "limits": "운영 효과의 독립 검증이나 채택 확정 아님"
+    },
+    {
+      "source_id": "S118",
+      "evidence_pointer": "research/claude-dev-mods-operations-candidates.md",
+      "verification_scope": "How a mod works; Sharing; Two more mods; Four habits; 튜토리얼 본문",
+      "type": "원문 설명 확인·적용은 편집 후보",
+      "limits": "운영 효과의 독립 검증이나 채택 확정 아님"
+    },
+    {
+      "source_id": "S119",
+      "evidence_pointer": "research/claude-dev-mods-operations-candidates.md",
+      "verification_scope": "본문 전체; The loop; Scaling horizontally; Guardrails; Steering",
+      "type": "원문 설명 확인·적용은 편집 후보",
+      "limits": "운영 효과의 독립 검증이나 채택 확정 아님"
+    },
+    {
+      "source_id": "S120",
+      "evidence_pointer": "research/claude-dev-harness-candidates.md",
+      "verification_scope": "본문 전체; How/Why; Helpful patterns; Triaging at scale; When not to use",
+      "type": "원문 설명 확인·적용은 편집 후보",
+      "limits": "운영 효과의 독립 검증이나 채택 확정 아님"
+    },
+    {
+      "source_id": "S121",
+      "evidence_pointer": "research/claude-dev-harness-candidates.md",
+      "verification_scope": "본문 전체; Updating with capabilities; Search interface; Progressive disclosure",
+      "type": "원문 설명 확인·적용은 편집 후보",
+      "limits": "운영 효과의 독립 검증이나 채택 확정 아님"
+    },
+    {
+      "source_id": "S122",
+      "evidence_pointer": "research/claude-dev-harness-candidates.md",
+      "verification_scope": "본문 전체; Tips; Distributing; Managing; Measuring skills",
+      "type": "원문 설명 확인·적용은 편집 후보",
+      "limits": "운영 효과의 독립 검증이나 채택 확정 아님"
+    },
+    {
+      "source_id": "S123",
+      "evidence_pointer": "research/claude-dev-harness-candidates.md",
+      "verification_scope": "본문 전체; prompt layout; tools/models; compaction; lessons",
+      "type": "원문 설명 확인·적용은 편집 후보",
+      "limits": "운영 효과의 독립 검증이나 채택 확정 아님"
+    }
+  ],
+  "report": "research/claude-dev-survey-2026-10-17.md",
+  "adoption": {
+    "checked_on": "2026-10-17",
+    "source_ids": [
+      "S113",
+      "S115",
+      "S120",
+      "S122",
+      "S119",
+      "S121"
+    ],
+    "record": "research/claude-dev-adoption-note.md",
+    "limits": "후보 조사 자체는 과거 기록. 반영 후 판본은 별도manifest로 고정."
+  }
+}

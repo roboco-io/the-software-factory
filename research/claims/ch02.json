@@ -154,5 +154,17 @@
     "status": "검증 완료(변경 범위 자기 점검)",
     "prior_reviews": "변경 문단은 이전 버전 리뷰의 완료 판정을 자동 승계하지 않음",
     "limit": "독립 리뷰·전체 원고 편집 확정·운영 효과 검증 아님"
+  },
+  "automation_scope_update": {
+    "date": "2026-10-15",
+    "author_decision": "D35",
+    "type": "저자 설계 원칙·범위 판단 기준",
+    "policy": "planning/automation-scope-policy.md",
+    "scope": "현재 장의 위임·판정·예외·측정 논증을 개별 승인 없는 완전 자동화 기준에 연결",
+    "source_ids": [],
+    "status": "검증 완료(해당 변경 범위 자기 점검)",
+    "prior_reviews": "변경 문단은 이전 버전 리뷰 결과를 자동 승계하지 않음",
+    "limits": "모든 업무의 현재 자동화 가능성·실제 운영 효과·외부 사례의 승인 제거를 입증하지 않음",
+    "report": "planning/reviews/2026-10-15-automation-scope.md"
   }
 }

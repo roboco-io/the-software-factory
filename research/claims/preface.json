@@ -190,5 +190,23 @@
     "scope": "공통 예제 소개와 독자용 해설 연결",
     "status": "별도 AI 수정 검증 완료(해당 변경 범위)",
     "verification": "planning/reviews/2026-10-15-demo-examples-verify-initial.md"
+  },
+  "automation_scope_update": {
+    "date": "2026-10-15",
+    "author_decision": "D35",
+    "type": "저자 설계 원칙",
+    "policy": "planning/automation-scope-policy.md",
+    "status": "검증 완료(해당 변경 범위 자기 점검)",
+    "scope": "허용 범위의 개별 승인 없는 완전 자동화"
+  },
+  "policy_forms_update": {
+    "date": "2026-10-15",
+    "author_decision": "D36",
+    "type": "저자 개념 설명·설계 예시",
+    "source_ids": [],
+    "scope": "자연언어·구조화·혼합 정책과 표현/해석/평가/집행·입력 신뢰성의 구분",
+    "status": "수정됨·변경 범위 자기 점검 및 사이트 검증 완료",
+    "limits": "책의YAML은설명용이며설정실행/도구호환/전체결정론적결과를검증하지않음",
+    "report": "planning/reviews/2026-10-15-policy-forms.md"
   }
 }

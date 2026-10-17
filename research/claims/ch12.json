@@ -2,7 +2,7 @@
   "chapter": 12,
   "manuscript": "manuscript/chapters/ch12.md",
   "status": "초고 검토 메모",
-  "central_claim": "평가 적격성과 행동의 허용을 구분하고 단계별 권한·독립 판정·정지·예외·운영 증거를 연결한다.",
+  "central_claim": "자동 처리·사람 판단·보류의 정책을 증거와 실제 권한에 연결해 수행부터 수용·배포·허용된 복구까지 집행한다.",
   "claims": [
     {
       "location": "능력의 증거와 행동의 허용을 나눈다",
@@ -177,5 +177,48 @@
     "prior_review": "추가·변경 문단은 이전 버전 리뷰 판정을 자동 승계하지 않음",
     "report": "planning/reviews/2026-10-15-security-adoption.md",
     "limit": "독립 리뷰·실제 도입/보안 효과·법규 적합성·저자 편집 확정 아님"
+  },
+  "automation_scope_update": {
+    "date": "2026-10-15",
+    "author_decision": "D35",
+    "type": "저자 설계 원칙·범위 판단 기준",
+    "policy": "planning/automation-scope-policy.md",
+    "scope": "현재 장의 위임·판정·예외·측정 논증을 개별 승인 없는 완전 자동화 기준에 연결",
+    "source_ids": [],
+    "status": "검증 완료(해당 변경 범위 자기 점검)",
+    "prior_reviews": "변경 문단은 이전 버전 리뷰 결과를 자동 승계하지 않음",
+    "limits": "모든 업무의 현재 자동화 가능성·실제 운영 효과·외부 사례의 승인 제거를 입증하지 않음",
+    "report": "planning/reviews/2026-10-15-automation-scope.md"
+  },
+  "policy_forms_update": {
+    "date": "2026-10-15",
+    "author_decision": "D36",
+    "type": "저자 개념 설명·설계 예시",
+    "source_ids": [],
+    "scope": "자연언어·구조화·혼합 정책과 표현/해석/평가/집행·입력 신뢰성의 구분",
+    "status": "수정됨·변경 범위 자기 점검 및 사이트 검증 완료",
+    "limits": "책의YAML은설명용이며설정실행/도구호환/전체결정론적결과를검증하지않음",
+    "report": "planning/reviews/2026-10-15-policy-forms.md"
+  },
+  "human_routing_examples": {
+    "date": "2026-10-16",
+    "author_decision": "D37",
+    "type": "저자 정책 설계 예시",
+    "scope": "권한 변경의 규칙 기반 사람 확인 분류와 비용 트레이드오프의 LLM 문맥 분류를 최종 결정 권한과 구분",
+    "source_ids": [],
+    "status": "수정됨·변경 범위 자기 점검 및 빌드 검증 완료",
+    "limits": "실제 조직 사례·구현 실행·분류 정확성 검증이 아님"
+  },
+  "anthropic_review_update": {
+    "checked_on": "2026-10-17",
+    "source_ids": [
+      "S112"
+    ],
+    "type": "업체 자체 보고·저자 해석·설계 제안 구분",
+    "location": "## 검증을 권한 밖에서 유지할 조건을 정한다",
+    "scope": "해당 장의 S112 문단 및 뒤따르는 저자 제안. 원문 절 대응은 조사 메모 참조.",
+    "status": "수정됨·원문 대조와 변경 범위 자기 점검 완료",
+    "limits": "본문 원문 대조이며 내부 구현·실행·운영 효과의 독립 확인은 아님",
+    "report": "planning/reviews/2026-10-17-anthropic-code-review.md"
   }
 }

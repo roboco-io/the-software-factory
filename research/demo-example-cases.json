@@ -428,5 +428,10 @@
         ]
       }
     ]
+  },
+  "book_automation_scope": {
+    "date": "2026-10-15",
+    "policy": "planning/automation-scope-policy.md",
+    "note": "독자 해설은 책의 새 목표와 데모의 실제 수동 단계를 구분한다. 데모의 기존 확인 버전·파일·실행 상태는 바꾸지 않음."
   }
 }

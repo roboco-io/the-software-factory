@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-17",
+  "head": "9a1aba448060ee0e48e24621a36cbe593ac3283b",
+  "source_count": 123,
+  "new_source_ids": [
+    "S113",
+    "S114",
+    "S115",
+    "S116",
+    "S117",
+    "S118",
+    "S119",
+    "S120",
+    "S121",
+    "S122",
+    "S123"
+  ],
+  "existing_source_objects_preserved": 112,
+  "files_sha256": {
+    "research/sources.json": "f99e96d62e230a0e7f6bac4bff061b0e751b1f9f9ad2883a3ce65e43006462f3",
+    "research/claims/claude-dev-survey.json": "660edddd38f8f4d9afef498be9e893c77c8a58e6ce6bdd67f7b7204a8b7ac13a",
+    "research/claude-dev-survey-2026-10-17.md": "47a0bd2bb0a4f81935197aabea017c6829f75c4e141f9b53acad701fcef04e4b",
+    "research/claude-dev-automation-candidates.md": "f3b83881eaec76fbafaf0bebd9908737a198b8f410dcdb2a66125d30f583dd2a",
+    "research/claude-dev-eval-cost-candidates.md": "dfcb6e69920c743110072683e67c2564b9f2c7c09972015707b1bf53d0b82de9",
+    "research/claude-dev-mods-operations-candidates.md": "32563050af44711a3c723231d345cb98b780e17193173c64e0b7421d0ecd4c7b",
+    "research/claude-dev-harness-candidates.md": "680a44bbabf145bb3d15b52b7c3923587cdbea96982164bc9d95221aaf17e153",
+    "planning/sessions/2026-10-17-claude-dev-survey.md": "1d5b19d18a89762634836710dac0f848b6de13e0a65bbbe8902db7a801a13780",
+    "STATUS.md": "71a971c4e9e36e470d2c909a15845b9d97c0624eefc5eb673157d4b910720bc9"
+  },
+  "stage": "후보 조사. 본문·독자용 변경 기록·웹 미수정",
+  "limits": "선별 11편. 전수 조사·독립 효과 검증·실행·게시 아님"
+}

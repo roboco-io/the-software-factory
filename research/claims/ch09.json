@@ -280,5 +280,39 @@
     "status": "별도 AI 수정 검증 완료(해당 변경 범위)",
     "prior_review": "변경 문단은 이전 버전의 리뷰 완료를 승계하지 않음",
     "verification": "planning/reviews/2026-10-15-demo-examples-verify-initial.md"
+  },
+  "automation_scope_update": {
+    "date": "2026-10-15",
+    "author_decision": "D35",
+    "type": "저자 설계 원칙·범위 판단 기준",
+    "policy": "planning/automation-scope-policy.md",
+    "scope": "현재 장의 위임·판정·예외·측정 논증을 개별 승인 없는 완전 자동화 기준에 연결",
+    "source_ids": [],
+    "status": "검증 완료(해당 변경 범위 자기 점검)",
+    "prior_reviews": "변경 문단은 이전 버전 리뷰 결과를 자동 승계하지 않음",
+    "limits": "모든 업무의 현재 자동화 가능성·실제 운영 효과·외부 사례의 승인 제거를 입증하지 않음",
+    "report": "planning/reviews/2026-10-15-automation-scope.md"
+  },
+  "policy_forms_update": {
+    "date": "2026-10-15",
+    "author_decision": "D36",
+    "type": "저자 개념 설명·설계 예시",
+    "source_ids": [],
+    "scope": "자연언어·구조화·혼합 정책과 표현/해석/평가/집행·입력 신뢰성의 구분",
+    "status": "수정됨·변경 범위 자기 점검 및 사이트 검증 완료",
+    "limits": "책의YAML은설명용이며설정실행/도구호환/전체결정론적결과를검증하지않음",
+    "report": "planning/reviews/2026-10-15-policy-forms.md"
+  },
+  "claude_dev_adoption": {
+    "checked_on": "2026-10-17",
+    "source_ids": [
+      "S113",
+      "S120"
+    ],
+    "type": "업체 자체 설명·저자 해석/제안 구분",
+    "scope": "6개 우선 후보의 기존 절 통합. 사실의 상세 요약은 해당 원고 인용 문단과 조사 메모에 한정",
+    "status": "수정됨·원문 및 변경 범위 자기 점검 완료",
+    "limits": "제품 설치·실제 실행·독립 효과·편집 확정을 확인한 것은 아님. 직접 인용 없음.",
+    "report": "planning/reviews/2026-10-17-claude-dev-adoption.md"
   }
 }

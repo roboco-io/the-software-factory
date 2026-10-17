@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-16",
+  "author_decision": "D37",
+  "baseline": "직전 D35/D36 미커밋 초안",
+  "before_sha256": {
+    "manuscript/chapters/ch03.md": "0175446f870b9844bbb755487a7cd9577ba629694fcd494db513e9f6843d6e88",
+    "manuscript/chapters/ch12.md": "c7f95a5622d099ba52942a146e028599dc737e3903a062182fac25e8327d21d0",
+    "planning/automation-scope-policy.md": "25b4b072cb25fbaf9bcce7aa0567eb23fec9a18dc31c0f5bec7e418a50d3080c",
+    "website/content-manifest.json": "3babd15c5b18e79e38a1637e27e7dd5b49d6117f6eae32e166420c48e81c206c"
+  },
+  "after_sha256": {
+    "manuscript/chapters/ch03.md": "62bce489731e0d1c496ce65693cd694ed44be3105b54fe0ee0069810e148f71f",
+    "manuscript/chapters/ch12.md": "01d1a2516d9f462d14efb0e8142c89b5951c6c76c38955efe1d780a3c9085458",
+    "planning/automation-scope-policy.md": "4c5b1c419499c54db2201628dc00a686c6ae2bd6d591a7577a038223b10091f1",
+    "website/content-manifest.json": "4e186aefc65fae0f78efbdc2de5a51b74cced3473b5aea188a3c86a551ba0d43",
+    "research/claims/ch03.json": "92599e99277928a2441e30bf05f172aec45267acbb39f3914f632e1a40af6cf7",
+    "research/claims/ch12.json": "8d46a0700ebefb695b3b8186e4b4a645998aa74af0be27e585faa220b63fe871",
+    "planning/decisions.md": "a47fd98b67f03a2fa1df32da5bc1ad57a7f149c680dd3af1b52c4e31eb974ace",
+    "STATUS.md": "a33af4f432f2af9963927b9164ad4ff3cc5157455398fcc71ec4910757927dd5",
+    "planning/sessions/2026-10-16-human-routing-examples.md": "b3cf07e0acea008fc6310e9c545c90640a17b114acce860c9e81600383d79e9e"
+  },
+  "validation": "구조·56페이지 빌드·내부 링크/앵커·공백 검사 통과",
+  "limits": "자기 점검. 실제 정책 엔진·분류 정확성 시험 아님. 커밋/배포 없음"
+}

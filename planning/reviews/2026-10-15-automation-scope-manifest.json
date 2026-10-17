@@ -1,0 +1,1141 @@
+{
+  "date": "2026-10-15",
+  "base_commit": "1ccf930953b9934c22c3d9ea9638d7c044b3dc59",
+  "author_decision": "D35",
+  "policy": "planning/automation-scope-policy.md",
+  "before_sha256": {
+    "AGENTS.md": "32f2a2e0c05bf3a5c9a6fb8e409a78744f027e3bc379d86e5053989861482f82",
+    "manuscript/chapters/ch01.md": "4c1e63eef692f700c080266e5b9ec8e7f323619d8a3d0d4eba051f95f6d348ca",
+    "manuscript/chapters/ch02.md": "5f59521aa0a3052785b961182ed8bcbd9d7660f770204ca9330a2487ddd0909e",
+    "manuscript/chapters/ch03.md": "e210446c0ee26d3b7d385731f2e9ca4fe417373e78cf3ad731256292d3a34d5e",
+    "manuscript/chapters/ch04.md": "9363b337d9915e4bc7410ef8e6aab8795b57b94cd75cae53548886677d80eea7",
+    "manuscript/chapters/ch05.md": "5292b1b06315af39f55a06cff0198d98042f8a97c7d1f1f6515c334037382449",
+    "manuscript/chapters/ch06.md": "980c0d6c51d27ede3ce24f99ed7854f4449efbf81ed8a0ed6fef2364f82ecc7d",
+    "manuscript/chapters/ch07.md": "15bff9900755a24ad7ec39ba533c53e5cbc41dc7909dc357c39fea55fa50749a",
+    "manuscript/chapters/ch08.md": "fde127aa8841b85fd9813a078ef98cf2fc9d5609fa9fbebaaf5b1712c55a3c53",
+    "manuscript/chapters/ch09.md": "9ee9cc81b2dfe3afe22d22a4aa0044cbedfd5968fc0292c475a7da6bc0d8c156",
+    "manuscript/chapters/ch10.md": "3b93f9c4346f338b5d5320b176a70439239b669287cf8873a6ba1032971372bf",
+    "manuscript/chapters/ch11.md": "4c2c3d52179790e7310aa0964e7e30355c4cb902eaec1ef9b024b47a3770d07d",
+    "manuscript/chapters/ch12.md": "0615e34ce74f5e781919732589bd898e619f14235d2cf234f98571ab95456ef1",
+    "manuscript/chapters/ch13.md": "9d00b7b15a5c4bbbf89f4371123a14a790e1bc5c5ed76bf6590967754a51fe13",
+    "manuscript/chapters/ch14.md": "9aa2c3c49b822d5c97ccf69ed6a436568746e64f9dd6e8d2c825f74fc8f43c91",
+    "manuscript/chapters/ch15.md": "37337e0ea6a92567003b31d13358a32c5fda7750881bbcf5fe0008e1638df6f0",
+    "manuscript/chapters/ch16.md": "1f541d680593350e97ae1222aacf0e7685677a1024fced2204de40ccf7fffb17",
+    "manuscript/chapters/ch17.md": "81ef0ea487d5e071904e4de7dc42b3d28a43a8c3a1daa1bb7a4fba94d5bca2c2",
+    "manuscript/chapters/ch18.md": "4c2e2c7a69f4af0440e358bad2e6534444072241466d91729feccc295a3c93e3",
+    "manuscript/chapters/ch19.md": "e28bb0a9886c5804857858745c7358fb29c42808e8d40460ce5432b726fc8306",
+    "manuscript/chapters/ch20.md": "d6a5c9a52d77d7a3c89269c9e1cafa7234a93f019b7697067a4b55754c83d171",
+    "manuscript/demo/agent-selection.md": "b2d5e886c03b146b91f816f0ca2d056c6557a236691fef74120f9984a3a859bf",
+    "manuscript/demo/evidence.md": "f65cfad879d6eb5532e2be9c29417bedb066d37741a330014524efc464e9ca83",
+    "manuscript/demo/execution-authority.md": "2a63eadf65a06b3840f9a8bca1a473293226fd8bac06809c5299c5b80ee97fa4",
+    "manuscript/demo/improvement.md": "e38eab7e20189f68036e5d010213399e07335fdb105ce78ee6ab18326f4748b6",
+    "manuscript/demo/index.md": "14d28da0e3ace75a3c29ad9d73812be5fb60e6fa352c6baa4da86530db2d7b77",
+    "manuscript/demo/metrics.md": "ff0a72f1aedabcbc421063c84c034e01fbf41e54ecf0fcc3d208edd648f8d671",
+    "manuscript/demo/policy-and-gate.md": "149159de81032a34a08d0649f393ce9ebc6cb25033de9dc4be8454043d9b4021",
+    "manuscript/demo/recovery.md": "1aa20c25c30bf68cf792bc166420e6c6abb07f705c815cb73707cc579ae6ab00",
+    "manuscript/demo/request.md": "000010507f534d9aba726739bbccdf6ae9953d5d5d8e72e050886907520c81b5",
+    "manuscript/figures/README.md": "19242ae6c405747a002f01009717b3d07abf4b7ec220288fc4c7e5fb10ba16e0",
+    "manuscript/figures/harness-policy-cycle.svg": "ba96b912ecde714da71b994d7f51b8c6b78063f79b797971a12df025fbcd9cfd",
+    "manuscript/figures/policy-hierarchy.svg": "ec75a283d74c34380af7cd7fc1b6c1ebe08f1e15cba27ea52699d1bf3a9597e6",
+    "manuscript/front-matter/00-preface.md": "b117df8abde965bad839300303dff31fa720a5c7816540e51dfe225fc3a852c7",
+    "manuscript/patterns/p01.md": "edd353fa37fbd47069ef2142c34774b6c0960c91de771ab516e48faac1688226",
+    "manuscript/patterns/p02.md": "f9a89d1c89dac44c6cf42345e84475639a073b7cf204d176a89b1fb51eca7f24",
+    "manuscript/patterns/p03.md": "b9ebb4ab1c4baf7a3bb191f61d7bc17c139a5df2b1aeee44b393b8f2e14586b6",
+    "manuscript/patterns/p04.md": "ac3b8729b7facfefae8c4b4b99f5669fcc3a00b69b62662b78de0cfa7f0eac12",
+    "manuscript/patterns/p05.md": "ce66132ca44d8bba44e72c32b12640d06fc5c5ca45600b18264060d5ddaab2b5",
+    "manuscript/patterns/p06.md": "5b4ae48de698daede970aec218614fe5d8c5df1e211f99a225346c5b00a4224d",
+    "manuscript/patterns/p07.md": "90280cb56a0acef84a10d87a0dcd575ae277ddde437446d082b04b16d6477641",
+    "manuscript/patterns/p08.md": "b0770a619455d7b4113a49b9e47f26b89c9fe03f714072a45eaef1e354145af8",
+    "manuscript/patterns/p09.md": "ce48cde3588dc3b3aee4ad05d252a7a3e5516eb89a4a2e29d1bd4fadd89d1ad7",
+    "manuscript/patterns/p10.md": "684e2b8aba567b43e435d23d58fd19f304acc1c9907f1f79197ea45aed6eb190",
+    "manuscript/patterns/p11.md": "0ce646482803f3581110dcdeb0ecaaa4d09c8866ab1a28cdc6ba1724b3380926",
+    "manuscript/patterns/p12.md": "300ecaf2219154726e7d2738250b439e7369e4881f6e4cdda8450fb3b81a30ea",
+    "manuscript/patterns/p13.md": "152f0b9e33ead7ef4e5426addf4ff414280a4900a09f012ca93d829775f03794",
+    "manuscript/patterns/p14.md": "f8ebdc5dd092f2f5698174755ddfbef87294af0c601629bd32b973967a0c054c",
+    "manuscript/patterns/p15.md": "13e0f83a136197f728b45e19c038df9a3fc235d8f2d28678b051dc671a2c3614",
+    "pattern_catalog.json": "cb3e66d0d8eaeaea3067b062beddd1cd393ac958d90d4f17390db3b9d1bf3cdf",
+    "planning/book-brief.md": "20913f8a91374e65914a70d28bfcc60b7f1d282b057d15a91ede4fc418f393ed",
+    "planning/glossary.md": "2a1ad36eeb794a583ee9080ca58a03f8b91ff74c204cddbbf196be423fb39e44",
+    "planning/review-policies/01-argument.md": "1a907e0459d39fc7b4f1a3deaba11e893a46bb7b7014101a0b218734348da1d2",
+    "research/harness-editorial-note.md": "5fced15a135c87d7c7cb9d527cfc9a5534281ed3862bf8e6ab8152a268c28090",
+    "website/content-manifest.json": "e5af042b0a163d13cf364fdb93aac4ff6e4bf6ad44e450587f520fa56a40490e",
+    "website/src/lib/recommendations.mjs": "8946b40c2d09d5eeafc5052cfbc6ae8c86fb6d0a79578a287b5632f2fc5b7d50",
+    "website/src/pages/index.astro": "39dc822774aa6ea4198de9e81bd144d94075e5525b103b797b70887843b2de84",
+    "research/claims/ch07.json": "7e04e1a025711c43e223212ea79d38d13b0e9f6c2e2c1c54e617473035d31879",
+    "outline/toc.md": "b1c7c9fa6c85c13d920c709cfb07ab55ca5f742d25eb2b675317ed474075668d",
+    "research/claims/preface.json": "a63716ebd3f2d91d47d1e6d1d520c68a8edca8f3b5486eeff1cac6633cc2a210",
+    "research/claims/ch05.json": "a72091406272aece5693de693262bc943bd502bca902c911d2d9410121da2ff6",
+    "research/claims/ch17.json": "1a24ebc94fc1296073a585cb55e3218b79af6d312fb512a7e5d046bab9f51937",
+    "research/claims/ch10.json": "c8b23c271b03390ae50cf8cee520ea81b6f20ff545c56275a2b43f9e501d17a9",
+    "research/claims/ch18.json": "28515f561b428ead20268337e7cc9fc011c10f4841af71b3c0dada0fa9c7cf4a",
+    "research/sources.json": "1482d40e5f48c84432fadccdd78236c4493db5205103ad1091caa5f4051c0481",
+    "research/claims/ch01.json": "b03c37df7783b017a74685c252c3de9afc815b31495948f285b1856526f143a8",
+    "research/claims/ch12.json": "c02a2779cf37d8d76391627d754f02ca227f55969b74f883ae3977737774a7bf",
+    "planning/reviews/2026-10-15-automation-scope.md": null,
+    "planning/demo-example-maintenance-policy.md": "13071fd8eba172a3a3ac9afa3504d280ad28e2410ad6b24eaa62da397752df4c",
+    "research/claims/ch08.json": "d2dab31d9fdceca989655bf686c95f452a53c17422673c1da0e62045bafb80e0",
+    "research/claims/ch03.json": "f9f66d97e2b7675720484626cbed52d1ad3a3a5ccde7104f6fe8b3bc74e9ecdb",
+    "research/claims/ch20.json": "9e08cd712483fcf1435aa5ddc25e6de787f4385247986eb41f315e5e67459d8b",
+    "CHANGELOG.md": "eacdcb4fc413ab072711f7cfd11bc5916b12f29a9649777d24abe05e5ae7e0a4",
+    "research/demo-example-cases.json": "e7f571e1f107dd5b3aab41ee9c1c05265033cd010b3bab70c99da8478040e993",
+    "research/cases/software-factory-demo.md": "5a5bed69b1ba1dee66e048e6d6416f6b90ace60f9c8e3187130f7fe9c189ebea",
+    "research/claims/ch16.json": "d9b3680293a72bd631cf303bdb189cb9e5752707bbb09ceb22a3376bf1a3ec51",
+    "planning/decisions.md": "257a8da9a2e6d83204a6a17f71bdc6825f4d2c220d4f9c24f1e35291f078f745",
+    "research/claims/ch19.json": "e10fbfa3a4c82888dcb70a31bcc790abb3a95af7e72157297ef0d2389c0a1d55",
+    "planning/reader-guide-routes.md": "0a1081fe740bb8e68601df11e1254c96cf23f020ee8c95f1ec425d1662a71a43",
+    "research/claims/ch13.json": "4b15c1b2321fd88583f3852f97a95465bbbcce27234c2e130f4686a8a787b685",
+    "research/claims/ch15.json": "e126f46179a3a022eb98e22dc2c83821d2ee0ac16c64ae44d243a033a06889cd",
+    "research/claims/ch14.json": "c754bfb572ee774fd8216c98e91db543cc8351b5cad70cfbe6378b5382eeca6f",
+    "book_project.json": "8d738dc2d0585df20c37871571de2e91d9b6a88673386f96f2b38ddcbe2fe54d",
+    "research/claims/ch02.json": "13f3d7e2ff80851a84da8c9c320fa44fe38f78ac73f1a2139e0f93bae1c4bbaa",
+    "research/claims/ch06.json": "645590980843188a53c0d9510d0dac3d3bebe8995e69b23420ba7cb110d022df",
+    "planning/sessions/2026-10-15-automation-scope.md": null,
+    "research/claims/ch04.json": "f927a5539217a91ad73d713c2e6b6390b8fff58516bf3c6d51b13b03d2ab5657",
+    "research/claims/ch11.json": "0c68ebf1a7654d71127006862d16cdf5f4ee13cde2f48e9cc3d939d75b2de47f",
+    "STATUS.md": "f8e579cf743648747dd276f08d78e93d5447d0bcb6efe6a0dffb80ac48937df2",
+    "planning/automation-scope-policy.md": null,
+    "research/claims/ch09.json": "4e940ae61b5d94ce84df6be6c049c327f344ff4ca437f35f0a1d9b75a4e308f4"
+  },
+  "after_sha256": {
+    "AGENTS.md": "5bcc285bcb46396f7f5b81cae57857ed2dfdeabe57f2e9daa4968e0e348b7e79",
+    "CHANGELOG.md": "6278ac551ebddae50056c6d2ea50f4acefc6d8c57b1e32a6d10f1632a90e2e6e",
+    "STATUS.md": "f2137249403fbb10770f080e5653841a998918c07ba315002decb7d2253e9504",
+    "book_project.json": "db89e672b8148eae24f91fe4ca4c722ea8230f11c2b119a88782b63d24f4349a",
+    "manuscript/chapters/ch01.md": "6bdc31c4990a19bbc10449b408344f8ef141ae122232da910fb59d0be5216ba6",
+    "manuscript/chapters/ch02.md": "65efb5f01f50f12b250d630242833501be1eadb590e8e44342587f9f29d36ff0",
+    "manuscript/chapters/ch03.md": "5e0826812a73fbf41bccfe078b95f4f78d54a2363a18d54347b124e1b0fb52ae",
+    "manuscript/chapters/ch04.md": "abf4af1032d1448cf9a8de6ace5d52ef97dea288d9db4285fe9c96fbdf067021",
+    "manuscript/chapters/ch05.md": "d849b892fbb43b5af6ac7b7d9e5358ed33680c35ac7b254d0f2726f0dbe1eaff",
+    "manuscript/chapters/ch06.md": "781946cb21a46f64d66e4cd57bc76f8cd7b6b4df73d980bc15e356e2c51112db",
+    "manuscript/chapters/ch07.md": "a6645641f09c7ac467b7a11bb72ab54442adb5fb12048f46d5968847d2d9c655",
+    "manuscript/chapters/ch08.md": "8e7b872ea5c7a88999ebb2749271ca8a0ecafd764bcbce42455989f15a99822e",
+    "manuscript/chapters/ch09.md": "30fa90c24617cebb650cdc56e10a11b5b5e9b0532e3589792dbf687b87a7dd4d",
+    "manuscript/chapters/ch10.md": "6c02be3f7aae92fde687deee140039aea33b10eb9a682fbebdcc6b5d9ca6ae87",
+    "manuscript/chapters/ch11.md": "3ccdc8cf442b2e7c5572e659afc9b85fcbc5683f20e4c4a21dfb40246f8ffd63",
+    "manuscript/chapters/ch12.md": "634338171ce265aa04ca45dc8db49320f8c436f8fa8232aaf2ff95cb2d5cb43e",
+    "manuscript/chapters/ch13.md": "89584fae5869be099fa44aba4c267fdc96b6626b726d5618980ca6b9e8028bfd",
+    "manuscript/chapters/ch14.md": "5f958a80462c88b47f01420f393cba836c105c07e1301e447ee2b9aa9e79882c",
+    "manuscript/chapters/ch15.md": "f88290045f8f2bf886c2027b4129d3710b74d84c981c1be97863ad5dbcaa87d8",
+    "manuscript/chapters/ch16.md": "e4f285846b4dd9f7e7b22e440424becbbf448b1cee68796d1d295818219865ca",
+    "manuscript/chapters/ch17.md": "0d3fac765ac0ad0b323edc3eed11d7ca4d8a0e82064bd8abbe4b95ba57636985",
+    "manuscript/chapters/ch18.md": "dc403d49337e9a54916c73db32d4006357e5115966dc12fef362a57f92362eba",
+    "manuscript/chapters/ch19.md": "a53de7d6d3affbc5893f588323d39f65c3426cf57063f235a1b557b8edf188ff",
+    "manuscript/chapters/ch20.md": "2ae2d7263ceba20f69a34b72e5447411dc0adcf24fc4ca105280c7d11505744d",
+    "manuscript/demo/improvement.md": "05758622dd2372bebdec358d279a65941e96316c9e99cfdbe0afb727ac25979a",
+    "manuscript/demo/index.md": "027551bcb0655a7f20d3bd4bbc711e1086cd76ff12c5afd76ef3883c459df12a",
+    "manuscript/demo/policy-and-gate.md": "ab36c8770ed892be704308be643a19ac75b948a14b6e6cc595b9959af5236cee",
+    "manuscript/demo/recovery.md": "1aaf1ad7a521be0c81d8d170e523e134f5e8fd80974609d073adfbc60a901dae",
+    "manuscript/demo/request.md": "095dc45b8716391cebe975c372d7ad4fea43380f018955e1c46e2c65eb3033b5",
+    "manuscript/figures/README.md": "dfb732ca83aedd80e9ea5f381669a3d0d8b893f375dd6439ec71cdc9d82e7332",
+    "manuscript/figures/harness-policy-cycle.svg": "36ed24291d052c06fe91fa6a8d9a66c3583bcef0b48958fad7c1ecf68026bfff",
+    "manuscript/front-matter/00-preface.md": "76b06156b7259772d2a032f63d1f2a4d5eb9d16fc51eb5ac3863355383a950d0",
+    "manuscript/patterns/p01.md": "b14aa6430cddad944e4157b4898153ded0efaca17b6fda17cf2c0f3d85e07a13",
+    "manuscript/patterns/p02.md": "01999faff6987b1e62b62e279fd3a37266261fcf2d6d83fec440c9f18e7c143c",
+    "manuscript/patterns/p03.md": "2cbd6aaade053645ebd33fd9efb1f1f8b2fb0eb6ab5145ae8d68ce517f67b270",
+    "manuscript/patterns/p06.md": "224f703abb8a6a64866d6124daa57708aca4cd5aab003f05b61bc7f6a35ce0a3",
+    "manuscript/patterns/p07.md": "8f4a95ef0b7b005a074594ddb469c687a279c4034d4b528f3c6d5ea434c2f731",
+    "manuscript/patterns/p10.md": "9c482a14be6bf85096b32487bc3fcd2312b9d3874d38133a2b659b1d927f227d",
+    "manuscript/patterns/p11.md": "af416e33ad45b9e2bc687161bc4f8567222afd77cb2a315400da14271a022776",
+    "manuscript/patterns/p12.md": "6ce6fd470c9bb1df6a8920e5e5961532547552133a1e3263809323955e1db041",
+    "manuscript/patterns/p15.md": "19eb9ec94981417ed0c447bd106720497fd09dfda902ee2ed68d661b41c1b03d",
+    "outline/toc.md": "14b5926012d4f1e286598670f98006a6c3fe976020e47718ec9945167b95840b",
+    "pattern_catalog.json": "2b77cb6a8c9f4602f24818754a360e525b239553506718091cf391081afb960f",
+    "planning/automation-scope-policy.md": "460fc3dd66af1ded40359c7bae1d89858418b52403c0749949c33bfb641f9b2b",
+    "planning/book-brief.md": "193ba094efe2a823bd0ccfe8a71801ac22c5ee7dafb5e73e6b2295b3fc39ce6a",
+    "planning/decisions.md": "9cbd3f6a4c9737a12e48cc345ec57c271d946c5ad7477653ca04bd85681aeb4d",
+    "planning/demo-example-maintenance-policy.md": "b3cf534e251aeebba9769016df62d12bb7fdac25e8984dbd38793a90a1f95f62",
+    "planning/glossary.md": "0b9d3846ea6f35ca7f136a8d5215fd46ab01cc64a73247e9d2e5f9d7025632b9",
+    "planning/reader-guide-routes.md": "e1ee81488d3f15f56ccdd08100d27afe6fad5e904ece456063197ab582ea51dc",
+    "planning/review-policies/01-argument.md": "f57a3996a52cd9f2861484fb7c33b781bb52a6ecbcc62c55c4205a01ab8e5614",
+    "planning/reviews/2026-10-15-automation-scope.md": "7028d672f01af517a96fa8d227ec100cf6b96c0ec8a78db0854db1b8df152644",
+    "planning/sessions/2026-10-15-automation-scope.md": "ea18b42129b23f87a0a64af1f4cfbd3c79bdff939f2f4f7241728115b9e092b6",
+    "research/cases/software-factory-demo.md": "6934ea1892eaae3c808d52e31e4324b96cba4b7b98bb0eef01d61a85bea57d93",
+    "research/claims/ch01.json": "752b0c1c2b925c3e2ec94458dceb78fb29cbda951a2bd5d5d0775e256cb13edc",
+    "research/claims/ch02.json": "70f9650cc6d30ee7cac99fe9d9deb567bb9a8bcbd57ab791b9fed3cc745e8d23",
+    "research/claims/ch03.json": "d2eae284f2413b7029c4473a34d3d3949b628140bec05742953f27d94f5ee8da",
+    "research/claims/ch04.json": "960bb888e05ffab32754eba5b12c61f73580d252240b79ca58faeec3c475449a",
+    "research/claims/ch05.json": "e9462c485a137fda683ca13c81bf31d42d22aa5a0d8e1c864f4d683129994e3a",
+    "research/claims/ch06.json": "d0c7dd03c9d4495407d60f146b3551bb943fcc2b87979bc6aaeda0f66e6a6411",
+    "research/claims/ch07.json": "3181b6d62cf1445f7ead21e880dffe4c878a95611cce5fbf1b28b3b7b9ff2ff3",
+    "research/claims/ch08.json": "01b88239b6e5916a24cf9197e9a5fa2e2fdb0f728b94375a5ad6bb2b08cf151f",
+    "research/claims/ch09.json": "283c542b4f78b7ce7de400571a280913ea908bbf50ce2e4cad00dee1092c594f",
+    "research/claims/ch10.json": "33763ad2f91e44a7e20c5fc543c45dca9042897fc7e1aa44c7920128e74c4dd3",
+    "research/claims/ch11.json": "f0d9b1bcda183cd006792bd32b2eeda7ab02c3894adb46240559ced625fc8a10",
+    "research/claims/ch12.json": "c3e2146165c2563df94c4c0b97e616da0a4608443caac1a9d5a86b45a05abe6f",
+    "research/claims/ch13.json": "c3944240313494d654bab8f9379f508958e39cfdadd02b0f528761480992a1c0",
+    "research/claims/ch14.json": "25d852237797fe2cc6d131425791a190caf3cd3c2f4e9a9ae589efc3320922c4",
+    "research/claims/ch15.json": "b6ac164c19e5b6fe69b6adc07adb81cc9df3444839c7b53910d1a3b76e5ab49c",
+    "research/claims/ch16.json": "1d118bb58246c9a7eec25d1a160379f19928aa62cc6ddac8dfd4f45b2bc65d58",
+    "research/claims/ch17.json": "5de00e7e7f73d58c1120c5364ea1bd6dac5327be1ecfe59d617d5a4da235439e",
+    "research/claims/ch18.json": "00efb7d271bef9a25696a33d3ca6ca7e5ebc90ff90725d30ee8db70d545a7d3e",
+    "research/claims/ch19.json": "6071601254e7646f46cdce79c0ed3fdab72a7cdbaa6df3e84e3baa0b5720bfa9",
+    "research/claims/ch20.json": "022ca09ee7abca35eeedb504f79b8dcebde89460d6c2e880acd42bbf755dbf00",
+    "research/claims/preface.json": "e4d59bf00053f8069502be944f0bc9bf0141530a15220aff4ef7846ac946cfe2",
+    "research/demo-example-cases.json": "b2a9a88d62da7f27b0629ae417fb8c7de67719b56f46eaba7b0f6a716b58baff",
+    "research/harness-editorial-note.md": "5f31c98f43f1a8f8528faf288eaaf533317c16cb8751133ba9d4fb04931e12af",
+    "research/sources.json": "7b2593d17e055016367289fe1f735cf7584c0dd80a315d8f7e08d2ff958326a5",
+    "website/content-manifest.json": "3c53ede1c4c3327b31648ae6b24feaae5b6c3c6ee01f8d75d44cf04570253fb1",
+    "website/src/lib/recommendations.mjs": "94672ad3bcb5a1a3c95fd27d1967ccd8234c50d0d375dca5cb70f7775124a400",
+    "website/src/pages/index.astro": "fd55ef846305aaddfc5a94208cafbd2ee53fc14e4f7deee45374fa63f25bfd93"
+  },
+  "reader_page_coverage": [
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/chapters/ch02.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/chapters/ch03.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/chapters/ch04.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/chapters/ch05.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/chapters/ch06.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/chapters/ch07.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/chapters/ch08.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/chapters/ch10.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/chapters/ch11.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/chapters/ch13.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/chapters/ch14.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/chapters/ch15.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/chapters/ch16.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/chapters/ch17.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/chapters/ch18.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/chapters/ch19.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/chapters/ch20.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "status": "유지",
+      "reason": "관련 승인/예외 표현 검색·대조에서 새 기준과 충돌하는 전제 미발견"
+    },
+    {
+      "path": "manuscript/demo/evidence.md",
+      "status": "유지",
+      "reason": "관련 승인/예외 표현 검색·대조에서 새 기준과 충돌하는 전제 미발견"
+    },
+    {
+      "path": "manuscript/demo/execution-authority.md",
+      "status": "유지",
+      "reason": "관련 승인/예외 표현 검색·대조에서 새 기준과 충돌하는 전제 미발견"
+    },
+    {
+      "path": "manuscript/demo/improvement.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/demo/index.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "status": "유지",
+      "reason": "관련 승인/예외 표현 검색·대조에서 새 기준과 충돌하는 전제 미발견"
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/demo/recovery.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/front-matter/00-preface.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/patterns/p01.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/patterns/p02.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/patterns/p03.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/patterns/p04.md",
+      "status": "유지",
+      "reason": "관련 승인/예외 표현 검색·대조에서 새 기준과 충돌하는 전제 미발견"
+    },
+    {
+      "path": "manuscript/patterns/p05.md",
+      "status": "유지",
+      "reason": "관련 승인/예외 표현 검색·대조에서 새 기준과 충돌하는 전제 미발견"
+    },
+    {
+      "path": "manuscript/patterns/p06.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/patterns/p07.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/patterns/p08.md",
+      "status": "유지",
+      "reason": "관련 승인/예외 표현 검색·대조에서 새 기준과 충돌하는 전제 미발견"
+    },
+    {
+      "path": "manuscript/patterns/p09.md",
+      "status": "유지",
+      "reason": "관련 승인/예외 표현 검색·대조에서 새 기준과 충돌하는 전제 미발견"
+    },
+    {
+      "path": "manuscript/patterns/p10.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/patterns/p11.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/patterns/p12.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    },
+    {
+      "path": "manuscript/patterns/p13.md",
+      "status": "유지",
+      "reason": "관련 승인/예외 표현 검색·대조에서 새 기준과 충돌하는 전제 미발견"
+    },
+    {
+      "path": "manuscript/patterns/p14.md",
+      "status": "유지",
+      "reason": "관련 승인/예외 표현 검색·대조에서 새 기준과 충돌하는 전제 미발견"
+    },
+    {
+      "path": "manuscript/patterns/p15.md",
+      "status": "수정",
+      "reason": "새 자동화 범위 기준의 해당 논증을 갱신"
+    }
+  ],
+  "changed_reader_pages": [
+    "ch01",
+    "ch02",
+    "ch03",
+    "ch04",
+    "ch05",
+    "ch06",
+    "ch07",
+    "ch08",
+    "ch09",
+    "ch10",
+    "ch11",
+    "ch12",
+    "ch13",
+    "ch14",
+    "ch15",
+    "ch16",
+    "ch17",
+    "ch18",
+    "ch19",
+    "ch20",
+    "demo-improvement",
+    "demo-index",
+    "demo-policy-and-gate",
+    "demo-recovery",
+    "demo-request",
+    "preface",
+    "p01",
+    "p02",
+    "p03",
+    "p06",
+    "p07",
+    "p10",
+    "p11",
+    "p12",
+    "p15"
+  ],
+  "initial_automation_mentions": [
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 3,
+      "text": "같은 에이전트가 만든 변경이라도 문서 수정과 인증 기능 수정의 위험은 다르다. 데모는 바뀐 파일의 위험을 분류하고 그 결과를 자동 병합 또는 사람의 판단 경로와 연결한다.[S100]"
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 7,
+      "text": "위험 정책은 변경 경로별 등급과 필요한 검사 항목을 선언한다. 분류 코드는 파일별 규칙을 적용하고 변경 전체에서 가장 높은 위험을 사용한다. 병합 판단은 그 위험과 현재 변경 버전의 검사·리뷰를 함께 읽는다. 낮은 위험 일부는 자동 처리하지만 높은 위험과 개선 변경은 사람에게 넘긴다.[S100]"
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 9,
+      "text": "검토 승인을 받은 뒤 코드가 바뀌면 예전 승인을 그대로 쓰지 않도록 현재 버전과 판정을 연결한다. 이 연결은 검토한 대상과 실제 반영할 대상을 맞추기 위한 장치다. 파일 목록이나 위험을 확정할 수 없는 경우도 자동 반영에서 막는다.[S100]"
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 18,
+      "text": "| 운영 안내 | 코드 소유자의 승인 강제에 남는 제한 | [운영 한계 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/docs/operations.md) |"
+    },
+    {
+      "path": "manuscript/demo/policy-and-gate.md",
+      "line": 24,
+      "text": "코드의 자동 병합 거부와 모든 사용자의 직접 병합을 막는 저장소 권한은 별도로 확인해야 한다. 운영 안내는 작성자가 유일한 코드 소유자일 때 승인 강제가 제한되는 경우를 밝힌다. 또한 이 병합 판정은 일부 생략·중립 검사 상태도 통과로 다루므로, 허용된 상태와 검사 실제 수행을 구분해야 한다.[S100]"
+    },
+    {
+      "path": "manuscript/demo/agent-selection.md",
+      "line": 9,
+      "text": "검토 단계는 변경 제안의 메타데이터에서 구현 도구를 확인해 검토 조합을 고르고, 선택에 실패하면 사람에게 넘긴다. 읽기 전용 요청과 검토 예산도 호출에 전달한다. 설정 파일의 선언만 보는 대신 실제 호출까지 이어지는지 확인하는 이유다.[S104]"
+    },
+    {
+      "path": "manuscript/demo/index.md",
+      "line": 7,
+      "text": "사람이 목표와 완료 기준을 정하고 작업 시작을 승인하면 에이전트가 변경을 만든다. 다른 검토와 검사를 거쳐 변경을 기준 버전에 합치고 서비스에 배포한다. 여기서 병합은 변경을 프로젝트의 기준 코드에 합치는 일이며, 배포는 그 결과를 사용자가 쓰는 서비스에 반영하는 일이다. 실행 중 남긴 기록은 다음 개선 판단의 자료가 된다.[S98]"
+    },
+    {
+      "path": "manuscript/demo/metrics.md",
+      "line": 7,
+      "text": "주간 처리 단계는 최근 7일의 기록을 계산에 넘긴다. 완주율의 분모는 그 기간에 구현 실행 기록이 있는 요청이다. 배포 성공 기록이 있고 그 기간의 모든 실행이 성공으로 남은 요청을 완주로 센다. 따라서 정책에 따라 사람에게 넘긴 경우도 완주에서는 제외될 수 있다.[S105]"
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "line": 5,
+      "text": "## 요청과 승인을 잇는 흐름"
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "line": 9,
+      "text": "작업 시작 명령은 저장소의 쓰기 권한과 요청 상태를 확인한다. 상태 전이는 정리 작업과 실행 승인을 구분한다. 다만 코드에는 새 요청에서 승인 상태로 바로 넘어가는 경로도 있어, 모든 요청에 에이전트 정리가 반드시 선행한다고 읽어서는 안 된다.[S99]"
+    },
+    {
+      "path": "manuscript/demo/request.md",
+      "line": 18,
+      "text": "| 상태 전이 | 정리와 승인 상태가 어떻게 연결되는지 확인 | [전이 규칙 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/packages/factory/src/state/machine.ts) |"
+    },
+    {
+      "path": "manuscript/patterns/p10.md",
+      "line": 23,
+      "text": "권한 경계를 유지하는 비용과 결정 대기 시간이 생긴다. 행동·대상·종료 조건을 실제 접근 제한과 맞추고 중단 경로를 확인해야 한다. 영향이 크거나 복구가 어려운 행동은 이 통제를 감수하며 이미 확인한 범위의 정상 수행까지 매번 새 승인으로 돌리지 않는다."
+    },
+    {
+      "path": "manuscript/patterns/p14.md",
+      "line": 7,
+      "text": "빠른 수행 뒤에도 인계·승인·재설명과 책임 공백이 목적을 막는 상황에 적용을 검토한다. 빠른 구현 후에도 부서 간 인계와 승인 대기가 남는다."
+    },
+    {
+      "path": "manuscript/chapters/ch05.md",
+      "line": 19,
+      "text": "예를 들어 사내 문의에 근거가 있는 답변 초안을 제공하는 업무를 맡긴다고 하자. 이는 원리를 설명하기 위한 가상 상황이다. 입력은 문의와 승인된 참고 자료다. 결과는 문의에 대한 초안과 그 답변을 뒷받침하는 근거다. 참고 자료에 답이 없거나 서로 충돌한다면 그 사실과 다음 확인 대상을 남기는 결과도 가능하다. 초안을 만드는 일과 직원에게 최종 답변을 발송하는 일은 다른 권한이다."
+    },
+    {
+      "path": "manuscript/chapters/ch05.md",
+      "line": 21,
+      "text": "어떤 자료가 승인된 자료인지도 확인할 수 있어야 한다. 오래된 문서를 최신 기준으로 쓰거나 다른 업무의 정보를 섞으면 형식상 같은 결과라도 판단의 근거가 달라진다. 계약에는 자료의 출처와 적용 범위, 필요한 버전이나 시점을 연결한다. 자료가 없거나 접근할 수 없다면 수행자가 추정해서 채워도 되는지 정한다. 중요한 경계와 수용 기준을 임의로 만들어서는 안 된다."
+    },
+    {
+      "path": "manuscript/chapters/ch05.md",
+      "line": 23,
+      "text": "결과의 형식은 다음 업무에서 사용할 수 있는 수준으로 정한다. 사람의 판단을 위한 설명과 다른 실행 주체가 사용할 구조가 함께 필요할 수 있다. 모든 정보를 하나의 형식으로 통일하기보다 공통으로 보존할 내용과 전달 방법을 나누어 본다. 내용의 해석이 필요한 조건은 담당자와 확인할 증거를 붙인다."
+    },
+    {
+      "path": "manuscript/chapters/ch05.md",
+      "line": 43,
+      "text": "## 요청을 정리한 결과와 실행 승인을 나눈다"
+    },
+    {
+      "path": "manuscript/chapters/ch05.md",
+      "line": 45,
+      "text": "데모는 목표와 수용 기준을 요청서에서 받고, 에이전트가 요청 종류·예상 위험·수용 기준·요약을 정리하게 한다. 정리 결과는 형태를 검사해 기록하지만, 그것만으로 작업 시작을 승인하지 않는다. 시작 명령은 별도로 권한과 현재 상태를 확인한다.[S99] 리더는 설명의 형식이 갖춰졌다는 사실과 목표가 적절하며 실행을 허용해도 된다는 판단을 구분해야 한다. 요청·정리·승인을 연결하는 구조는 [데모 해설: 요청에서 실행 가능한 작업까지](../demo/request.md)에 설명했다."
+    },
+    {
+      "path": "manuscript/chapters/ch05.md",
+      "line": 63,
+      "text": "GitHub의 배포 환경 문서는 승인 조건이 있으면 승인 전에는 해당 환경의 비밀 정보에 접근할 수 없다고 설명한다.[S23] 확인한 것은 제품의 문서상 구조다. 계약의 조건을 실행 환경의 접근 제한에 연결할 수 있다는 해석은 가능하지만 실제 설정과 집행은 별도 확인이 필요하다."
+    },
+    {
+      "path": "manuscript/chapters/ch05.md",
+      "line": 73,
+      "text": "실행 계약에는 필요한 검증 시간, 사람에게 돌아올 판단 부담, 새 의존 관계를 유지할 여력과 실행 비용의 한도를 연결한다. 한도를 넘으면 추가 자원을 승인할지, 범위를 줄일지, 중단할지 판단할 책임자도 정한다. 상한이 부족하다는 이유로 품질이나 정책 경계를 수행자가 낮추지는 않는다. 모든 계약에 같은 예산 표를 추가하기보다 결과의 영향과 반복 비용을 설명하는 데 필요한 항목을 선택한다."
+    },
+    {
+      "path": "manuscript/chapters/ch05.md",
+      "line": 81,
+      "text": "준비 수준의 판정에는 비용도 든다. 작고 되돌리기 쉬운 반복 작업에 새로운 계약과 승인 절차를 모두 만들면 부담이 더 클 수 있다. 기존 계약의 적용 범위를 확인하는 짧은 기록으로 충분한지 먼저 본다. 반대로 여러 팀의 자원과 사용자 약속에 영향을 주는 작업에는 조건을 연결하는 비용을 감수할 이유가 커진다."
+    },
+    {
+      "path": "manuscript/chapters/ch15.md",
+      "line": 25,
+      "text": "협력을 시작할 때 공동 결과와 각자의 판단 책임, 제공할 정보를 정한다. 모든 활동을 영구적인 공동 승인으로 남기면 작은 변경도 여러 팀을 기다리게 될 수 있다. 반대로 협력의 종료를 서둘러 중요한 지식을 넘기지 못하면 새 책임 공백이 생긴다."
+    },
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "line": 13,
+      "text": "로보코가 제안하는 소프트웨어 팩토리는 의도를 효율적으로 정의하고 개선하는 파이프라인, 에이전트에 의한 전자동 소프트웨어 개발, 정책에 기반한 하네스 개선 루프를 결합한 생산 체계다. 여기서 정책은 에이전트에게 일을 맡길 때 사용하는 지침이다. 이 책은 이 세 축이 함께 작동할 조건과 운영 책임을 다룬다. 의도는 무엇을 만들 가치가 있는지 정하고, 에이전트는 정해진 범위의 개발을 수행하며, 하네스는 수행의 기준과 기록을 다음 개선에 연결한다."
+    },
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "line": 17,
+      "text": "팩토리는 제품 팀 안에서 운영할 수도 있고 여러 팀이 일부 기반을 공유할 수도 있다. 특정 모델이나 제품, 중앙 조직 하나를 필수 조건으로 정하지 않는다. 정상 개발 경로는 에이전트와 자동 실행 도구가 이어 수행하도록 설계하고 결과를 증거로 확인한다. 사업적 약속과 위험을 판단하고 새로운 권한을 허용하는 책임은 사람에게 남는다."
+    },
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "line": 19,
+      "text": "전자동 개발은 의도와 정책을 확정한 범위에서 작업 분해·설계·구현·검증·배포가 매 단계의 인간 지시 없이 이어지는 것을 뜻한다. 일부 단계의 자동화는 그 경로를 만들기 위한 도입 단계로 구분한다. 사람은 의도의 선택과 변경, 위임 범위와 예외의 판단, 결과에 대한 책임을 맡는다. 정책이 정한 중단이나 사람에게 넘기는 일도 정상적인 통제 결과이며, 이를 모든 상황에서 사람 없이 성공한다는 보장으로 읽지 않는다."
+    },
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "line": 39,
+      "text": "이 책은 공통 구현 예제로 로보코의 [The Software Factory Demo](https://github.com/roboco-io/the-software-factory-demo)를 사용한다. 글을 작성하고 읽는 예제 서비스를 대상으로 요청·구현·검토·검사·병합·배포를 연결한 공개 프로젝트다.[S98] 뒤의 장은 이 흐름에서 요청의 충분성, 수정 증거, 사람에게 돌아오는 판단, 실패 뒤의 기준 변경을 각각 살펴본다. 코드를 읽기 전에 [독자용 데모 해설](../demo/index.md)에서 질문별 흐름과 구현 근거를 찾아볼 수 있다. [배포된 데모](https://roboco.io/the-software-factory-demo/)에서 실제 화면을 살펴볼 수 있다."
+    },
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "line": 64,
+      "text": "P01 ‘의도의 명시화’는 기준과 책임을 드러낸다. 수행자를 선별하고 필요한 맥락을 공급하며, 결과를 별도 기준으로 판정하고 실패를 복구할 수 있어야 명시한 기준이 실제로 유지된다. 규칙을 많이 적거나 모든 결과에 사람의 승인을 붙이는 것만으로 이를 대신할 수는 없다."
+    },
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "line": 66,
+      "text": "완전 자동화도 대상 범위 안에서 설명해야 한다. 어떤 입력을 받고 어떤 결과를 만들며 어떤 예외에서 멈추는지 정한다. 정상 수행을 자동화했어도 기준을 바꾸고 새로운 위험을 감수할 책임은 남는다. 범위의 자동화 목표와 모든 상황의 성공 보장을 구분한다."
+    },
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "line": 68,
+      "text": "## 사람의 판단과 조직의 흐름을 함께 설계한다"
+    },
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "line": 70,
+      "text": "수행이 빨라져도 승인과 인계, 재설명에 시간이 걸릴 수 있다. 커뮤니케이션 비용은 메시지의 개수보다 필요한 판단과 맥락을 전달하는 부담으로 본다. 이미 정한 기준을 다시 찾는 비용과 새로운 문제를 발견할 협의를 구분해야 한다. 전자를 줄이면서 후자의 통로를 유지하는 것이 과제다."
+    },
+    {
+      "path": "manuscript/chapters/ch01.md",
+      "line": 74,
+      "text": "사람에게도 목적과 결과에 기여할 역할이 필요하다. 기준을 선택하고 잘못된 결과를 거부하며 실패를 개선할 실제 권한과 역량을 연결한다. [16장](ch16.md)은 오너십·인지적 참여·책임 행동을 나누어 이 업무 설계를 다룬다. 자동화를 줄인 양으로 사람의 역할이 보존되었다고 판단하지 않는다."
+    },
+    {
+      "path": "manuscript/chapters/ch10.md",
+      "line": 60,
+      "text": "4장에서 소개한 VDLC의 현재 맥락·환류 가이드는 규칙과 지식을 갱신하며 사람의 이해도 함께 보완하도록 제안한다.[S71] 이 책에서는 그 자산이 다음 수행에 충분한지를 제한된 진단 과제로 확인할 수 있다. 다른 수행자에게 승인된 자료와 현재 상태만 제공해 대표 업무를 이어 맡기고, 어떤 판단을 다시 물어야 했는지 살핀다."
+    },
+    {
+      "path": "manuscript/chapters/ch04.md",
+      "line": 99,
+      "text": "의도 실행 루프를 닫으려면 사람의 판단이 사라져야 하는 것이 아니다. 위임된 범위에서 수행과 확인을 반복하고, 기준의 변경이 필요한 곳에는 근거와 책임을 연결해야 한다. 결과를 수용하는 판단, 다음 실행을 바꾸는 판단, 그 변경을 유지하는 판단이 서로 이어질 때 조직은 실행을 반복하며 기준도 개선할 수 있다. 5장은 이 관계를 개별 작업의 실행 계약으로 옮기는 방법을 다룬다."
+    },
+    {
+      "path": "manuscript/chapters/ch14.md",
+      "line": 9,
+      "text": "이 책은 설명·탐색·판단 대기·인계·맥락 손실과 재작업을 구분하도록 제안한다. P12 ‘결정에 필요한 보고’는 사람에게 필요한 판단과 근거를 연결한다. P14 ‘흐름에 맞춘 권한과 팀 경계’는 실제 의존성과 대기를 확인하고 역할과 책임을 조정한다. 어느 비용이 불필요한 반복이고 어느 협의가 새로운 지식을 만드는지 먼저 살핀다."
+    },
+    {
+      "path": "manuscript/chapters/ch14.md",
+      "line": 13,
+      "text": "가상의 문의 기능 변경이 구현을 마쳤지만 자료 사용의 승인을 기다린다고 하자. 이는 설명 예시다. 기다린 시간의 원인이 승인자의 부재인지, 위험 정보의 부족인지, 결정할 권한의 충돌인지에 따라 개선이 다르다. 수행자를 늘리는 것만으로 그 판단이 빨라지지는 않을 수 있다."
+    },
+    {
+      "path": "manuscript/chapters/ch14.md",
+      "line": 27,
+      "text": "여러 승인이 동시에 진행되었다면 각 대기 시간을 더한 값이 고객의 전체 대기 시간은 아니다. 작업 한 건의 실제 전달 경로에서 어느 판단이 다음 단계의 시작을 막았는지 확인한다. 고객이 기다린 경과 시간과 담당자가 자료를 만들고 검토한 투입 시간도 구분한다. 대기를 줄인 변경이 다른 역할의 검토·유지 부담을 늘렸는지 같은 작업 범위에서 함께 기록해야 병목 이동을 판단할 수 있다."
+    },
+    {
+      "path": "manuscript/chapters/ch14.md",
+      "line": 49,
+      "text": "승인 단계를 줄였는데 제품 팀이 모든 결과를 다시 확인한다면 비용이 다른 곳으로 옮겨갔을 수 있다. 공통 문서를 만들었는데 갱신을 기다리는 시간이 늘었다면 기준의 유지 책임을 살핀다. 중앙에서 판단을 모으면 기준은 일관될 수 있지만 대기와 현장 지식의 손실이 생길 수도 있다."
+    },
+    {
+      "path": "manuscript/chapters/ch20.md",
+      "line": 20,
+      "text": "| 실행 권한 | 영향·독립 판정·중단·복구 | 이전 권한과 정상 경로 |"
+    },
+    {
+      "path": "manuscript/chapters/ch20.md",
+      "line": 57,
+      "text": "완전 자동화는 이 책의 지향점이지만 정의한 범위 안에서 평가한다. 대상·입력·성공 기준·정지와 복구·남은 인간 책임을 밝혀야 한다. 모델의 최소 수행 능력과 환경 적합성, 비용과 속도의 차이가 사라졌다는 주장은 하지 않는다."
+    },
+    {
+      "path": "manuscript/chapters/ch20.md",
+      "line": 59,
+      "text": "원서의 포트폴리오 투자와 조직 변화라는 주제의 연결은 기존 공개 목차 범위다. 이 책의 소프트웨어 팩토리는 의도 파이프라인, 에이전트의 전자동 개발, 정책 기반 하네스 개선 루프를 함께 넓히는 생산 체계다. 새 범위의 의도를 정할 수 있는지, 정상 개발 경로가 자동으로 이어지는지, 기록과 외부 신호가 다음 개선에 반영되는지를 함께 확인한다. 리더는 그 연결이 실제로 작동하는 업무에서 범위를 넓히고, 필요하면 고치고 멈출 책임을 유지한다."
+    },
+    {
+      "path": "manuscript/chapters/ch03.md",
+      "line": 7,
+      "text": "리더가 실행을 위임할 때 어려운 문제는 작업 순서를 정하는 일만이 아니다. 수행자가 방법을 바꾸다가 지켜야 할 약속까지 바꾸는 일을 어떻게 알아볼 것인가. 계획대로 진행하기 어려울 때 일정과 범위를 조정할 수는 있다. 그러나 어떤 조정이 실행자의 권한에 속하고 어떤 조정이 새로운 사업 판단을 요구하는지 불분명하면, 조직은 매번 승인을 기다리거나 경계를 넘어선 결과를 뒤늦게 발견한다."
+    },
+    {
+      "path": "manuscript/chapters/ch03.md",
+      "line": 74,
+      "text": "이 설명에서 얻을 수 있는 해석은 모든 행동을 개별 승인하는 대신, 허용 범위를 먼저 정하고 범위를 넘는 행동을 판단 대상으로 남길 수 있다는 것이다. 다만 접근을 허용하는 경계가 결과의 정확성이나 사업적 타당성까지 보장하지는 않는다. 실행 경계를 정하는 판단과 결과를 수용하는 판단을 연결해야 한다. 이 책의 P02는 이 관계를 조직의 책임으로 확장한 제안이며, 두 제품 사례가 P02의 보편적 효과를 입증한다고 주장하지 않는다."
+    },
+    {
+      "path": "manuscript/chapters/ch03.md",
+      "line": 94,
+      "text": "같은 예외가 반복되면 정책이 지나치게 좁거나 계획에 필요한 능력이 부족할 수 있다. 둘을 구분해야 한다. 허용 환경 안에서도 대안이 있었는데 이를 찾지 못했다면 계획과 실행 능력을 검토한다. 경계를 정한 이유가 이미 달라졌다면 정책을 재검토한다. 예외 승인 횟수만으로 어느 쪽이 잘못됐는지 단정하지 않고, 원인과 영향을 확인할 증거를 모은다."
+    },
+    {
+      "path": "manuscript/chapters/ch03.md",
+      "line": 96,
+      "text": "소규모 팀에서는 한 사람이 계획을 바꾸고 정책 예외도 판단할 수 있다. 이때 필요한 것은 직책을 추가하는 일보다 어떤 권한으로 무엇을 바꾸었는지 구분하는 일이다. 다만 한 사람이 놓친 조건을 같은 사람이 계속 수용할 위험은 남는다. 변경의 영향이 크거나 복구가 어려운 경우에는 별도의 검토를 배치할지 판단해야 한다. 권한을 분리하는 정도는 결과의 영향과 검토 비용에 맞춰 정한다."
+    },
+    {
+      "path": "manuscript/chapters/ch03.md",
+      "line": 104,
+      "text": "반복할 이유가 적고 영향이 작으며 되돌리기 쉬운 작업에는 별도 정책 체계를 만드는 비용이 더 클 수도 있다. 이 책은 모든 작업에 같은 문서와 승인 절차를 적용하도록 권하지 않는다. 기존 기준을 참조하는 짧은 작업 기록으로 충분한지 먼저 판단한다. 반대로 실행자가 여러 팀의 정보와 자원에 접근하거나 같은 작업을 반복한다면, 경계와 권한을 유지하는 비용을 감수할 이유가 커진다."
+    },
+    {
+      "path": "manuscript/chapters/ch13.md",
+      "line": 40,
+      "text": "대표 오류를 분석하고 근거와 가정을 설명하는 과제로 부족한 역량을 확인한다. 새로운 도메인의 위험을 검토할 사람에게 도구 사용법만 교육해서는 충분하지 않을 수 있다. 학습과 지원의 비용을 예산에 포함하고, 확보한 능력을 사용할 자료와 권한이 있는지 확인한다. 그 능력을 실제 수용·거부·후속 대응에 쓰게 하는 업무 설계는 [16장](ch16.md)으로 이어진다."
+    },
+    {
+      "path": "manuscript/chapters/ch13.md",
+      "line": 46,
+      "text": "P14 ‘흐름에 맞춘 권한과 팀 경계’는 실제 의존성과 대기를 확인한 뒤 책임과 인터페이스를 재설계하도록 제안한다. 채용 수요도 이 흐름을 근거로 검토할 수 있다. 질문과 승인이 한 사람에게 몰린다면 단순히 수행자를 늘리기 전에 그 판단에 필요한 지식과 권한을 조사한다."
+    },
+    {
+      "path": "manuscript/chapters/ch07.md",
+      "line": 30,
+      "text": "수용 책임자가 있다는 이유로 모든 결과를 사람이 직접 승인해야 하는 것은 아니다. 이 책은 반복적이고 영향이 정해진 정상 경로에서는 자동 판정이 정해진 증거를 확인하면 다음 단계로 넘어가도록 설계할 것을 제안한다. 이때에도 수용 결정은 사라지지 않는다. 수용 책임자는 어떤 조건의 결과를 자동으로 받아들일지 검증 정책에 미리 정해 두고, 그 범위의 수용을 자동 판정에 위임한다. 정책 중 완료 조건, 판정 기준, 자동 수용의 범위를 다루는 부분을 이 장에서는 검증 정책이라고 부른다. 에이전트의 작업 지침 전체를 검증으로 한정하는 뜻은 아니다. 그렇게 수용한 결과의 책임도 수용 책임자에게 남는다."
+    },
+    {
+      "path": "manuscript/chapters/ch07.md",
+      "line": 32,
+      "text": "사람의 확인은 새로운 약속, 기준 사이의 충돌, 미검증 위험처럼 사람이 결정해야 할 조건에 배치한다. 사람이 확인한 경우에도 판정자는 같은 검증 정책 아래에서 근거를 남긴다. 수용 책임자는 사람이 확인할 내용과 시점, 자동 수용한 결과의 표본 점검 범위도 검증 정책에 담는다. [1장](ch01.md)은 전자동 개발을 확정한 범위의 정상 경로가 매 단계의 인간 지시 없이 이어지는 것으로 정의했다. 이런 위임 구조가 있어야 전자동 개발과 수용 책임을 함께 유지할 수 있다. 별도의 독립된 판정 경로를 둘 조건은 다음 절에서 다룬다."
+    },
+    {
+      "path": "manuscript/chapters/ch07.md",
+      "line": 62,
+      "text": "이 기록에서 이 책이 제기하는 질문은 변경을 수용할 때 검증 범위에 소비자 시스템의 조건이 포함되었는가이다. 일부 검사가 통과했다는 보고가 있어도 그 검사 밖의 사용 경로까지 확인했다는 뜻은 아니다. 다만 이 자료만으로 당시의 모든 승인 과정이나 실패 원인을 재구성할 수는 없다. 이 사례를 AI의 승인 때문에 결함이 생겼다는 증거로 사용하지 않는다. 공개 기록에서 드러난 확인 범위와 소비자 조건 사이의 간격을 검토 대상으로 삼는다."
+    },
+    {
+      "path": "manuscript/chapters/ch07.md",
+      "line": 86,
+      "text": "필요한 증거를 얻을 수 없는 결과는 성공으로 계산하지 않는다. 검증 장치가 작동하지 않아 판정을 보류한 경우와 결과가 기준을 위반한 경우도 구분한다. 불확실한 판정을 사람에게 전달할 때에는 확인한 조건, 부족한 증거, 결과를 수용하면 감수할 위험과 가능한 다음 행동을 제시한다. 중단과 재시도 및 복구의 구체적인 선택은 8장에서 다룬다."
+    },
+    {
+      "path": "manuscript/chapters/ch17.md",
+      "line": 39,
+      "text": "[5장](ch05.md)에서 실행 계약에 정한 자원 상한, 곧 검증 시간·사람의 판단 부담·실행 비용에 쓸 수 있는 한도와도 연결한다. 실행 요금이 줄어도 사람의 판정 시간이 늘거나 새 의존 관계를 계속 유지해야 한다면 전체 부담이 줄었다고 단정하지 않는다. 준비에 한 번 든 비용과 반복 검증·운영에 드는 비용을 나누고, 그 부담을 맡은 역할에 필요한 시간과 지원이 배정되었는지 확인한다. 상한을 바꾸는 결정은 더 빨리 만들 수 있다는 기대보다 수용 결과와 지속할 비용의 증거에 근거해야 한다."
+    },
+    {
+      "path": "manuscript/chapters/ch17.md",
+      "line": 53,
+      "text": "의도 파이프라인에서는 실행할 기준에 도달하기까지의 시간, 기준 누락으로 돌아온 질문과 재작업, 피드백 뒤 유지·수정·종료한 근거를 본다. 전자동 개발에서는 정의한 범위의 처음부터 배포까지 이어진 실행과 멈춘 위치, 사람이 추가로 지시한 내용, 수용 결과와 전체 비용을 본다. 정책이 요구한 예외 판단과 정상 경로의 불필요한 개입은 구분한다."
+    },
+    {
+      "path": "manuscript/chapters/ch17.md",
+      "line": 59,
+      "text": "데모의 주간 보고는 최근 7일의 실행 기록을 골라 지표를 계산한다. 그 기간에 구현 기록이 있는 요청을 분모로 삼고, 배포 성공 기록이 있으며 그 기간의 모든 실행이 성공인 요청을 완주로 센다. 정책에 따라 사람에게 넘긴 경우도 완주에서는 제외된다. 비용은 알려진 값만 합산하고 비용을 보고한 기록 수를 함께 남기며 작은 표본은 데이터 부족으로 표시한다.[S105] 같은 완주율도 관찰 기간과 분모가 다르면 의미가 달라진다. 수집·기간 선택·계산의 관계는 [데모 해설: 활동과 성과를 구분하는 지표](../demo/metrics.md)에 설명했다."
+    },
+    {
+      "path": "manuscript/chapters/ch17.md",
+      "line": 61,
+      "text": "따라서 이 완주율을 고객 문제 해결률이나 제품 결함률로 읽을 수는 없다. 사람의 판단이 필요한 변경을 올바르게 보류해도 자동화의 완주 비율은 낮아질 수 있다. 리더는 어떤 개입을 줄이려는지와 유지해야 하는 개입이 무엇인지 먼저 정한다. 보고된 실행 비용도 사람의 검토·운영·학습까지 포함한 전체 비용과 구분한다. 같은 화면에 성공률과 비용이 있어도 분모·누락·관찰 기간을 읽지 않으면 투자 판단은 달라질 수 있다."
+    },
+    {
+      "path": "manuscript/chapters/ch17.md",
+      "line": 65,
+      "text": "[18장](ch18.md)의 보안 도입 가설을 시험할 때에는 수정안 생성 시간만 비교하지 않는다. 이 책은 발견 또는 접수부터 영향 분류·수정·검증·배포를 거쳐 위험이 줄었음을 확인할 때까지의 시간과 대기를 나누어 기록하도록 제안한다. 단계별 책임과 시작·종료 시점을 먼저 정해야 승인 대기를 지표 밖으로 밀어내지 않을 수 있다."
+    },
+    {
+      "path": "manuscript/chapters/ch17.md",
+      "line": 70,
+      "text": "| 단계별 대기 | 분류·수정·검증·승인·배포 사이의 대기와 실제 작업 시간 | 필요한 판단과 불필요한 반복 승인을 구분한다. |"
+    },
+    {
+      "path": "manuscript/chapters/ch17.md",
+      "line": 91,
+      "text": "이 책의 투자 판단에서는 사용자 결과를 바꾸려는지, 전달의 안정성을 높이려는지, 사람의 판단 부담을 줄이려는지 먼저 구분한다. 도입 전부터 측정해 온 기준선은 그대로 유지하고 새 업무에 필요한 개입·미검증·비용 자료를 보완한다."
+    },
+    {
+      "path": "manuscript/chapters/ch17.md",
+      "line": 101,
+      "text": "[16장](ch16.md)은 심리적 오너십·인지적 참여·책임 행동을 서로 다른 평가 대상으로 나누고, 사람이 행사할 판단을 평가 과제로 시험하는 방법을 다뤘다. 평가 항목은 그 장을 따른다. 이 장에서는 그 평가 결과를 투자 판단에 연결한다. 태도 점수나 승인 횟수로 책임 행동의 효과를 대신하지 않는다."
+    },
+    {
+      "path": "manuscript/chapters/ch06.md",
+      "line": 17,
+      "text": "예를 들어 5장의 가상 사내 문의 업무를 확장한다고 하자. 승인된 참고 자료에서 근거를 찾아 답변 초안을 만들고, 근거가 부족하면 보류하며, 허용된 경우에만 최종 답변을 발송하는 흐름이다. 이는 실제 고객 사례가 아니다. 자료를 찾는 부분과 초안을 만드는 부분, 발송하는 부분으로 나눌 수 있지만 각 부분의 완료 조건과 연결 조건이 있어야 한다."
+    },
+    {
+      "path": "manuscript/chapters/ch06.md",
+      "line": 21,
+      "text": "| 승인된 자료에서 근거를 찾는다 | 문의에 관련된 근거와 출처를 제시하거나 근거 부족을 표시한다. | 사용할 자료의 범위·버전과 근거 부족 상태의 의미 |"
+    },
+    {
+      "path": "manuscript/chapters/ch06.md",
+      "line": 78,
+      "text": "분해하면 계약과 검증, 인수인계 기록을 여러 곳에 유지하는 비용이 생긴다. 너무 잘게 나누면 각 단위보다 설명과 통합에 더 많은 노력이 들 수 있다. 한 가지 판단을 해야 할 작업을 여러 승인으로 쪼개면 결정 대기가 늘어날 수도 있다. 리더는 작은 작업을 많이 만드는 것보다 실패와 판단의 위치를 명확하게 만드는 데 집중한다."
+    },
+    {
+      "path": "manuscript/chapters/ch16.md",
+      "line": 5,
+      "text": "## 승인할 일만 남았을 때"
+    },
+    {
+      "path": "manuscript/chapters/ch16.md",
+      "line": 7,
+      "text": "AI가 결과를 빠르게 만들어 주면 사람은 그 결과를 승인하는 역할에 집중할 수 있다. 그러나 승인할 결과가 계속 쌓이고 판단에 필요한 시간과 정보가 부족하면 확인 행위만 남을 수 있다. 결과의 목적과 한계를 설명하지 못해도 절차는 끝난 것으로 표시된다. 문제가 생긴 뒤 그 사람에게 책임을 묻는 것만으로는 다음 판단을 개선하기 어렵다. 리더는 사람이 무엇을 수행했는지에 더해 무엇을 실제로 판단할 수 있었는지 확인해야 한다."
+    },
+    {
+      "path": "manuscript/chapters/ch16.md",
+      "line": 11,
+      "text": "이 장에서 승인은 사람이 개별 결과를 직접 보고 수용하는 결정을 가리킨다. 7장의 수용에는 이 승인과, 수용 책임자가 검증 정책에 미리 정한 범위에서 자동 판정에 맡긴 자동 수용이 함께 들어 있다. 이 책은 자동화의 범위를 넓히면서도 사람이 결과의 목적과 수용 기준, 예외와 개선에 기여할 수 있도록 권한다. 위임할 수행과 사람이 유지할 판단을 구분하는 것이 출발점이다."
+    },
+    {
+      "path": "manuscript/chapters/ch16.md",
+      "line": 37,
+      "text": "저자의 「바이브 코딩 리뷰 전략」 원고는 승인 책임·위험 표시·체크리스트와 검토 뒤 피드백으로 사람의 참여를 설계하자고 제안한다.[S34] 이 책은 그 문제의식을 이어받되 서약 문구나 의견 개수만으로 책임 행동이 좋아졌다고 판단하지 않는다. 필요한 자료와 시간, 거부할 권한이 없으면 참여 요구가 형식으로 남을 수 있다. 평가할 것은 확인 표시가 아니라 발견한 문제와 그 뒤의 판단이다."
+    },
+    {
+      "path": "manuscript/chapters/ch16.md",
+      "line": 47,
+      "text": "선택의 기본값, 곧 사람이 따로 고르지 않을 때 적용되는 선택도 검토할 수 있다. 이 책은 사람이 맡는 중요한 수용 판단에서 승인을 기본값으로 미리 정해 두기보다 기준과 미확인 항목을 먼저 보여주고, 수용·보류·추가 확인을 선택할 수 있게 하는 업무 설계를 제안한다. 가상 조회 기능의 결과에서 소비자 조건이 미검증이라면 수용 책임자는 추가 확인을 요청하거나 위임받은 범위 안에서 제한 수용을 판단한다. 부족한 증거와 다음 담당자를 보고에 연결하면 승인 외의 선택도 실제 다음 행동으로 이어진다."
+    },
+    {
+      "path": "manuscript/chapters/ch16.md",
+      "line": 58,
+      "text": "이 표는 업무 설계 제안이며 각 행의 효과가 그대로 입증된 것은 아니다. 정상 결과까지 일률적으로 사람에게 돌리면 자동화의 이익을 잃을 수 있다. P11 ‘예외를 통한 개입’에 따라 정상 결과는 정해진 검증으로 처리하고 정책 충돌과 불확실성, 큰 영향에 판단을 배치한다. 정상 결과가 이렇게 자동 수용되어도 그 결과의 책임은 7장의 수용 책임자에게 남는다. 이 경로에서 수용 책임자가 실제로 판단하고 바꿀 수 있는 것은 개별 결과가 아니라 검증 정책에 정한 자동 수용의 범위와 예외의 기준, 자동 수용한 결과의 표본 점검, 운영 결과와 놓친 사건의 확인이다. 제품 결과라면 이 범위를 정하는 사람은 제품 책임자다. 이 판단에 필요한 권한과 시간, 자료가 없으면 다음 절에서 다루는 것처럼 책임자라는 이름만 남는다. 이 판단은 정상 결과 하나하나에 사람의 승인을 요구하는 것이 아니다. 중요한 결정에서 생각할 여지를 주는 것과 모든 작업에 인간 승인을 추가하는 것은 다른 설계다."
+    },
+    {
+      "path": "manuscript/chapters/ch16.md",
+      "line": 66,
+      "text": "이 논의에서 이 책이 얻는 해석은 결과 책임을 사람에게 남겼다면 그 사람이 실제로 바꿀 수 있는 것이 무엇인지 확인해야 한다는 것이다. 결과를 거부할 수 없거나 정지 요청이 전달되지 않거나 판단에 필요한 자료에 접근할 수 없다면 수용 책임자라는 이름이 문제 대응을 보장하지 않는다. 개별 결과를 보지 않는 자동 수용 경로의 수용 책임자에게도 같은 질문이 적용된다. 책임감 교육을 늘리기 전에 이 제약부터 살펴야 한다."
+    },
+    {
+      "path": "manuscript/chapters/ch16.md",
+      "line": 68,
+      "text": "P10 ‘범위가 정해진 자율성’은 영향과 복구 가능성에 따라 실행 권한과 정지 조건, 예외 경로를 정한다. 사람의 판단 역할에도 이 경계가 필요하다. 수용 책임자는 위임받은 범위 안에서 결과를 거부하거나 수정 요청을 할 수 있어야 한다. 자신의 권한을 넘는 사업적 약속은 그 약속을 정할 권한을 가진 사람에게, 정책 변경은 정책의 형식과 집행을 관리하는 정책 책임자에게 근거와 함께 넘긴다. 권한을 준다는 것은 모든 판단을 독단적으로 하게 한다는 뜻이 아니다."
+    },
+    {
+      "path": "manuscript/chapters/ch16.md",
+      "line": 70,
+      "text": "P14 ‘흐름에 맞춘 권한과 팀 경계’는 실제 의존성과 대기를 확인한 뒤 책임과 인터페이스를 재설계하도록 제안한다. 수용 책임자가 반복해서 다른 팀의 답을 기다린다면 무엇을 직접 결정할 수 있고 어떤 정보가 필요한지 살핀다. 운영 방식으로 해결할 수 있는 문제와 팀 경계를 바꿔야 할 문제를 구분한다. 사람에게 통제권을 돌려준다는 이유만으로 조직 개편을 일괄 적용하지 않는다."
+    },
+    {
+      "path": "manuscript/chapters/ch16.md",
+      "line": 72,
+      "text": "## 결과의 의미를 사람의 판단과 연결한다"
+    },
+    {
+      "path": "manuscript/chapters/ch16.md",
+      "line": 76,
+      "text": "인정과 평가의 대상도 구체적으로 정한다. 생성한 산출물과 승인 횟수만 세면 중요한 위험을 발견해 작업을 멈춘 기여가 기록에서 빠질 수 있다. 잘못된 결과를 거부한 판단, 의도의 누락을 발견한 질문, 사용자 결과를 확인해 기준을 고친 행동도 검토한다. 다만 질문과 중단이 많다는 사실 자체를 좋은 성과로 바꾸지 않는다. 그 판단이 결과의 품질과 위험, 전체 비용에 어떤 영향을 주었는지 함께 본다."
+    },
+    {
+      "path": "manuscript/chapters/ch16.md",
+      "line": 78,
+      "text": "리더 자신도 같은 기준을 적용해야 한다. 불확실성을 설명한 사람에게 근거 없이 더 빨리 승인하라고 요구하면서 문제가 생기면 왜 발견하지 못했는지 묻는 방식은 판단의 기준을 충돌시킨다. 일정과 범위를 조정할 필요가 있다면 누가 어떤 위험을 감수하기로 했는지 남긴다. 수용 책임자가 필요한 판단을 할 수 있는 조건을 유지하는 일이 리더십의 일부다."
+    },
+    {
+      "path": "manuscript/chapters/ch16.md",
+      "line": 100,
+      "text": "학습 시간도 운영 비용에 포함한다. AI 없이 대표 결과를 평가하는 과제나 오류 분석이 실제 업무의 판단으로 이어지는지 확인한다. 모든 직원에게 같은 훈련을 적용하기보다 맡은 판단의 범위와 현재 능력에 맞춰 정한다. 잘하지 못한 사람에게 책임 의식을 강조하는 것보다 필요한 자료와 훈련, 검토 지원을 제공하는 일이 먼저일 수 있다."
+    },
+    {
+      "path": "manuscript/chapters/ch16.md",
+      "line": 112,
+      "text": "리더는 사람에게 책임감을 요구하면서 그 책임을 행사할 조건을 함께 만든다. 수행을 위임할 수 있는 범위는 넓히되 목적과 기준을 판단하고 결과를 다시 볼 통로를 유지한다. 그 사람이 어떤 결정을 내렸고 어떤 결과에 대응했는지 확인할 때 오너십은 태도의 선언을 넘어 조직의 운영 문제로 다뤄질 수 있다. 다음 장은 그 변화와 판단 부담을 사용자 결과·품질·전체 비용의 측정에 연결한다."
+    },
+    {
+      "path": "manuscript/chapters/ch02.md",
+      "line": 43,
+      "text": "이 구분은 승인 단계를 계속 늘리라는 뜻으로 해석해서는 곤란하다. 목적과 경계가 분명한 범위에서는 실행 주체가 방법을 선택하도록 위임할 수 있다. 반대로 사업상 약속이나 허용 위험을 바꾸는 결정은 그 권한을 가진 책임자에게 돌아가야 한다. 자동화 수준을 높일수록 리더는 개입의 횟수와 함께 개입이 필요한 이유를 살핀다. 반복되는 질문은 의도나 정책에 빠진 판단을 발견하는 자료가 된다."
+    },
+    {
+      "path": "manuscript/chapters/ch02.md",
+      "line": 53,
+      "text": "의도를 기록하고 정책을 명시하면 문서와 승인만 늘어날 것이라는 반론은 타당하다. 모든 판단을 사전에 고정하려 하면 탐색의 여지가 줄고, 변화한 현실을 반영하지 못한 기준이 남을 수 있다. 특히 무엇이 사용자에게 가치인지 아직 모르는 작업에서는 자세한 실행계획이 잘못된 확신을 만들기도 한다. 명시화의 양과 업무의 신뢰성은 같은 척도가 아니다."
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "line": 19,
+      "text": "이 책은 계정이나 승인 표시만으로 판단의 범위와 품질을 확정하지 않는다. 어떤 자료와 기준으로 무엇을 수용했는지 남겨야 위임한 권한을 재검토할 수 있다."
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "line": 29,
+      "text": "이 표는 권한 설계 제안이다. 여러 책임을 한 사람이 맡을 수 있지만 어떤 자격으로 무엇을 결정했는지 구분해야 한다. 모든 단계에 새 승인을 추가하자는 뜻은 아니다. 정한 조건 안에서 자동으로 처리할 범위를 명시한다."
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "line": 31,
+      "text": "전자동 개발을 허용할 범위에서는 정해진 조건의 충족이 다음 행동의 허용으로 이어져야 한다. 단계마다 같은 사람의 새 지시를 받는 구조는 자동 도구를 쓰더라도 정상 경로의 전자동 운영과는 구분한다. 자동 진행의 근거와 중단·이관 조건을 함께 정하고, 사람이 개입하지 않은 정상 실행도 어떤 정책과 증거로 진행됐는지 이력에 남긴다."
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "line": 35,
+      "text": "데모의 병합 판단은 변경 위험, 필요한 검사와 현재 변경 버전의 리뷰를 함께 읽는다. 일부 낮은 위험 변경은 자동 병합할 수 있지만, 높은 위험과 개선 변경은 사람에게 넘긴다. 검토 뒤 코드가 바뀌었다면 예전 승인을 새 변경의 근거로 그대로 쓰지 않도록 판정과 변경 버전을 연결한다.[S100] 이 구조의 위험 등급과 검사·권한의 관계는 [데모 해설: 정책과 수용 경계](../demo/policy-and-gate.md)에 모았다. 등급은 데모의 선택이며 모든 조직의 표준이 아니다."
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "line": 37,
+      "text": "리더는 위험 등급별로 필요한 증거와 누가 반영할 수 있는지 설명할 수 있어야 한다. 옛 버전의 승인을 새 변경에 사용하지 않는 조건도 필요하다. 코드가 자동 병합을 거부하는 것과 사람이 하는 모든 병합에 동일 승인이 강제되는 것은 다르다. 데모 운영 안내는 유일한 코드 소유자가 직접 작성한 변경에서 승인 강제가 제한되는 경우를 밝힌다.[S100] 조직에서 적용할 때에는 역할 배치와 실제 저장소 권한을 함께 확인한다."
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "line": 49,
+      "text": "하네스에 호출 전 검사가 있어도 다른 도구나 경로로 같은 행동을 할 수 있다면 경계가 유지되지 않을 수 있다. 중단·권한 회수 뒤 이미 진행 중인 행동이 어떻게 처리되는지도 살핀다. 허용 여부를 확인할 수 없는 상태를 자동 승인으로 바꾸지 않고, 부족한 증거와 진행 상태를 판단 책임자에게 돌려보낸다. 하네스 운영자에게 집행을 맡겨도 정책 예외와 결과 수용의 사업 책임은 해당 권한자에게 남는다."
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "line": 53,
+      "text": "[18장](ch18.md)은 보안 요구를 팩토리 도입의 조건부 동기로 다룬다. 이때 줄일 대상은 사람이 매번 수행하거나 같은 승인을 반복하느라 생기는 대기다. 긴급성을 이유로 최상위 원칙이나 직무 분리를 해제하지 않는다. 리더는 미리 정한 위험 범위와 증거가 충족되면 자동으로 진행할 경로, 사람이 판단할 변경과 예외, 즉시 중단할 조건을 나눈다."
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "line": 55,
+      "text": "사람의 판단이 필요한 경로에는 당번과 연락 수단, 판단에 필요한 문제 분류·변경 요약·검증 결과·복구 조건을 준비한다. 수행자가 증거를 준비할 권한과 제품 책임자가 결과를 받아들일 책임은 구분한다. 이 배치는 이 책의 운영 제안이며, 규제의 승인 의무가 사라지거나 자동 반영이 허용된다는 뜻은 아니다. 조직에 적용되는 별도 승인·보고 조건은 실행 경계에 연결한다."
+    },
+    {
+      "path": "manuscript/chapters/ch12.md",
+      "line": 69,
+      "text": "## 예외가 정상 경로를 지우지 않게 한다"
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "line": 9,
+      "text": "[1장](ch01.md)에서 정의한 세 축은 의도 파이프라인, 에이전트의 전자동 개발, 정책 기반 하네스 개선 루프다. 이 장은 그 연결을 운영할 책임을 배치한다. 이 책의 팩토리는 특정 제품이나 하나의 중앙 조직을 뜻하지 않는다. 제품 팀 안에서 이 체계를 운영할 수도 있고, 여러 팀이 일부 기반을 공유할 수도 있다. 이 장은 여러 제품 팀이 함께 쓰는 실행 환경·검증 장치·기록을 공유 기반이라고 부르고, 같은 대상을 공통 기반이라고도 쓴다. 공유 기반은 하네스의 실행 기반과 검증 경로 가운데 여러 팀이 함께 쓰는 부분이다. 리더는 먼저 어느 기능과 판단을 함께 제공할 이유가 있는지, 제품마다 달라야 하는 기준은 무엇인지 정해야 한다."
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "line": 17,
+      "text": "하네스 운영자는 하네스 사이클과 그 실행 기반을 운영하는 사람 또는 팀이며, 공유 기반에서는 계약에 따라 실행하고 결과를 확인할 환경과 기록을 제공한다. 정책 책임자는 팩토리 쪽에서 정책(검증 정책 포함)의 형식과 적용, 변경 절차를 관리한다. 정책 책임자는 제품 결과를 자동으로 수용할 범위를 단독으로 정하지 않으며, 그 범위는 제품 책임자가 승인한다. 조직 공통의 정보 취급이나 권한 정책은 해당 위험을 책임지는 주체가 유지한다. 이 역할은 조직의 규모와 업무에 맞춰 배치할 수 있다. 직책을 새로 만들기 전에 어떤 결정이 누구에게 속하는지 식별해야 한다."
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "line": 24,
+      "text": "| 정책 적용 | 제품 특유의 약속과 위험 | 공통 정책의 적용·충돌 확인 | 정책 변경과 예외 승인(해당 정책의 변경 권한자) |"
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "line": 66,
+      "text": "| 실행 이력 | 변경과 적용 기준·통과/실패·차단·사람의 판단 | 코드를 다시 전부 읽지 않아도 바뀐 것과 남은 위험을 찾는가 |"
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "line": 71,
+      "text": "하네스가 넓은 사이클이라는 뜻은 모든 기능과 책임을 한 프로그램이나 한 팀에 모으라는 뜻이 아니다. 제품 책임자는 약속과 관찰할 결과, 수용 기준을 정하고 자동으로 수용할 범위를 승인한다. 정책 책임자는 그 기준이 담긴 정책(검증 정책 포함)의 형식과 적용, 변경 절차를 관리한다. 하네스 운영자는 실행·기록·관찰의 연결을 제공한다. 보관과 표본 검토, 정책 갱신에는 비용이 들므로 실패 영향과 반복 빈도에 맞춰 깊이를 정한다. [19장](ch19.md)은 이 사이클이 발견한 문제를 검증 가능한 변경으로 옮기는 방법을 다룬다."
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "line": 97,
+      "text": "별도 형식 문서는 구성요소의 책임자를 표시하는 소유자 정보를 설명하면서, 그 정보를 실행 시스템의 권한 부여에 사용해서는 안 된다고 명시한다.[S22] 이는 해당 필드의 문서상 의미다. 책임자가 기록되었다고 실제 접근 권한이나 승인 경로가 자동으로 설정된다는 뜻은 아니다."
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "line": 103,
+      "text": "저자의 「누가 병합하는가」는 변경을 반영한 주체와 그 변경을 실제로 검토한 증거를 구분해서 살핀다.[S44] 이 책은 같은 관점을 결과 수용 기록에도 적용한다. 반영 권한을 행사한 계정만으로 검토의 범위나 판단의 질을 확정하지 않는다. 누가 어떤 기준을 적용했고 어떤 예외를 허용했는지 확인할 기록이 필요하다. 공개 저장소의 승인·병합 비율은 별도 원천 대조 전에는 이 책의 성과 근거로 가져오지 않는다."
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "line": 113,
+      "text": "공유 기반은 실행이 끝났는지와 정해진 검증이 어떤 결과를 냈는지 보고할 수 있다. 수용 책임자인 제품 책임자는 그 증거가 업무의 약속을 충분히 확인하는지 판단한다. 제품 책임자는 P06을 적용해 자동으로 수용할 조건, 사람의 해석이 필요한 조건과 운영 관찰이 남은 조건을 나눈다. 7장에서 정한 판정 경로를 이 장의 책임에 연결하면 다음과 같다. 하네스 운영자는 공유 기반의 자동 판정과 검증 경로, 곧 판정자의 경로를 운영한다. 제품 책임자는 자동 수용의 범위와 자동 수용한 결과의 표본 점검 범위를 승인한다. 정책 책임자는 그 범위가 검증 정책에 담겨 집행되도록 정책의 형식과 절차를 관리한다. 자동으로 수용한 결과의 책임도 제품 책임자에게 남는다."
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "line": 121,
+      "text": "GitHub의 배포 환경 문서는 보호 조건을 충족해야 작업이 진행되며, 승인 조건이 있으면 승인 전에는 해당 환경의 비밀 정보에 접근할 수 없다고 설명한다.[S23] 여기서 비밀 정보는 인증에 쓰는 자격 증명 등이다. 확인한 것은 제품의 문서상 구조이며 실제 저장소 설정이나 실행은 시험하지 않았다."
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "line": 123,
+      "text": "이 구조에서 이 책이 얻는 해석은 실행을 막는 조건과 그 조건을 해제할 권한을 따로 정할 수 있다는 것이다. 다만 승인할 사람이 있다는 사실만으로 그 사람이 적절한 기준과 증거를 갖고 판단한다는 점까지 보장되지는 않는다. 이 책은 예외를 요청할 때 충돌한 조건, 확인한 증거, 허용할 범위와 남은 위험을 연결하도록 권한다. 구체적인 권한 설계와 배포 검증은 [12장](ch12.md)에서 다룬다."
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "line": 131,
+      "text": "사업 우선순위는 제품 책임자가, 공통 기반의 실행 가능성은 하네스 운영자가, 정책 예외는 해당 정책의 변경 권한자가 판단한다. 이 판단들이 충돌할 때 선택지를 모을 조정 책임자도 계약에 지정한다. 조정 책임자는 출시 범위 축소·추가 확인·일정 변경을 관계자에게 제시하며 자신의 권한 밖의 정책을 대신 승인하지 않는다. 합의하지 못하면 조직에서 지정한 상위 판단 경로로 넘기고, 해당 판단의 권한자가 새 범위를 정한 뒤 그 범위에 맞는 증거를 확인한다. 출시 범위는 제품 책임자가, 정책 예외의 범위는 해당 정책의 변경 권한자가 정한다."
+    },
+    {
+      "path": "manuscript/chapters/ch09.md",
+      "line": 133,
+      "text": "응답 기한과 대체 판단자, 그동안 유지할 제한 상태도 실행 전에 정한다. 기한 안에 답이 없으면 승인으로 간주하지 않고 대체 판단자에게 이관한다. 대체 경로도 작동하지 않으면 최초 대응자가 보류 상태와 남은 위험을 보고하고 새 실행을 시작하지 않는다. 리더는 이관이 반복되는 시간과 보류 중의 사용자 영향을 함께 살펴 조정 경로를 고친다. 이는 책임 충돌을 다루기 위한 이 책의 운영 제안이며 모든 판단을 한 사람에게 모으자는 뜻은 아니다."
+    },
+    {
+      "path": "manuscript/chapters/ch19.md",
+      "line": 17,
+      "text": "실패를 누구에게 돌릴지에만 집중하면 연결된 조건을 놓칠 수 있다. 수행자가 틀렸더라도 왜 그 결과를 판정이 수용했는지 살핀다. 계획에 필요한 자료가 제공되지 않았다면 지식 공급을 조사한다. 사람이 기준 변경을 승인했다면 어떤 약속과 위험을 감수했는지 확인한다."
+    },
+    {
+      "path": "manuscript/chapters/ch19.md",
+      "line": 55,
+      "text": "발견한 결함은 요구와 영향이 확인된 뒤 검증 조건과 회귀 과제로 옮긴다. 잘못된 차단이 많다면 규칙을 완화하거나 다른 집행 방식으로 바꿀 수 있지만, 기존 경계가 유지된다는 증거와 변경 권한이 필요하다. 하네스 변경도 에이전트가 제안·구현·평가할 수 있다. 자신의 통과를 위해 기준을 낮추거나 정책 변경을 단독 승인하는 권한까지 주는 것은 다른 결정이다."
+    },
+    {
+      "path": "manuscript/chapters/ch19.md",
+      "line": 65,
+      "text": "최상위 원칙과 충돌하는 요청은 성공 사례를 늘리기 위해 승인하지 않는다. 허용되는 방법이나 작업 범위를 다시 선택하거나 중단하고, 해결할 수 없는 충돌은 원칙을 책임지는 주체에게 넘긴다. 개선 이력에는 지침을 바꾼 경우와 집행 수단을 바꾼 경우를 구분해 남겨야 다음 실패에서 같은 판단을 반복하지 않을 수 있다."
+    },
+    {
+      "path": "manuscript/chapters/ch08.md",
+      "line": 65,
+      "text": "## 사람에게 돌아올 예외를 결정과 연결한다"
+    },
+    {
+      "path": "manuscript/chapters/ch08.md",
+      "line": 67,
+      "text": "P11은 정상 결과를 정해진 검증으로 처리하고 정책 충돌과 불확실성, 큰 영향에 사람이 개입하도록 제안한다. 알려진 일시적 오류를 허용 범위에서 처리할 수 있다면 매번 새로운 승인을 요청할 필요는 없을 수 있다. 반대로 결과가 무엇인지 알 수 없거나 허용한 경계 밖의 행동이 필요하다면 별도의 판단을 요청해야 한다. 실패라는 이름만으로 모든 사건을 같은 알림으로 보내지 않는다."
+    },
+    {
+      "path": "manuscript/chapters/ch08.md",
+      "line": 73,
+      "text": "예외를 허용할 때에는 대상과 기간, 종료 조건과 남은 위험을 남긴다. 한 번의 허용이 같은 종류의 모든 작업에 적용되거나 이후의 권한으로 남지 않도록 한다. 반복되는 예외는 정책이 현실과 어긋났는지, 계획과 수행 능력이 부족한지 검토할 자료가 된다. 승인 횟수만으로 어느 쪽이 잘못됐는지 단정하지 않는다."
+    },
+    {
+      "path": "manuscript/chapters/ch08.md",
+      "line": 79,
+      "text": "차단기 해제, 취소된 작업의 재시도, 이미 반영한 외부 효과의 복구는 서로 다르다. 데모의 임계값을 그대로 옮기기 전에 실패 영향과 표본의 의미를 판단해야 한다. 오래 대기한 작업이 자동으로 복구되는지도 별도 질문이다. 데모 운영 안내는 준비 단계 실패 뒤 사람이 상태를 정리해야 하는 경우를 남겨 두고 있다.[S102] 리더는 예외 경로가 작동하지 않는 경우까지 운영 책임에 포함해야 한다."
+    },
+    {
+      "path": "manuscript/chapters/ch08.md",
+      "line": 93,
+      "text": "실행 오류와 판단 기준의 누락, 정책 충돌과 검증 장치의 문제를 구분한다. 실제 상태를 확인하지 못했다면 관측과 기록을 보완할 이유가 있을 수 있다. 중복 행동이 생겼다면 요청 식별과 반복의 권한을 조사한다. 사람에게 같은 질문이 반복되면 계약과 예외 경로에 빠진 판단이 있는지 살핀다. 하나의 원인으로 모든 실패를 설명하지 않는다."
+    },
+    {
+      "path": "manuscript/chapters/ch08.md",
+      "line": 99,
+      "text": "P10은 허용 범위 밖 행동과 정지 조건의 작동을 확인한다. 중단 뒤 남은 실행과 권한, 재개할 때 적용한 기준을 살핀다. P11은 예외 처리 시간과 놓친 사건, 불필요한 알림을 함께 본다. 같은 문제를 반복해서 사람에게 보내는지와 중요한 판단이 묻혔는지도 확인한다."
+    },
+    {
+      "path": "manuscript/chapters/ch18.md",
+      "line": 25,
+      "text": "이 자료들에서 얻는 해석은 발견 능력과 안전하게 조치하는 능력을 따로 투자·평가해야 한다는 것이다. 에이전트가 수정안과 증거를 준비하면 사람이 판단하기 전의 대기를 줄일 수 있다. 반대로 기존 패치 자동화와 긴급 변경 경로가 충분하다면 새 팩토리가 더할 이익은 작을 수 있다. 지연의 원인이 실행 능력인지, 승인 권한의 배치인지, 검증 환경이나 배포 일정인지 먼저 확인한다."
+    },
+    {
+      "path": "manuscript/chapters/ch18.md",
+      "line": 39,
+      "text": "첫 도입 범위에도 세 축의 연결을 포함한다. 하나의 의도를 탐색하고 실행할 기준으로 정리한 뒤, 허용한 개발 경로를 에이전트가 이어 수행하며, 정책에 따른 검증·이력·운영 피드백이 다음 의도와 하네스 변경에 돌아오는지 확인한다. 처음부터 큰 제품 전체를 맡길 필요는 없다. 초안 작성만 자동화한 경우에는 그 부분의 증거를 확보한 것으로 보고, 배포까지의 정상 경로를 검증한 것으로 확대하지 않는다."
+    },
+    {
+      "path": "manuscript/front-matter/00-preface.md",
+      "line": 11,
+      "text": "사람에게 일을 맡길 때도 같은 질문을 한다. 무엇을 달성해야 하는가. 어떤 제약을 지켜야 하는가. 결과를 무엇으로 판단할 것인가. 말로 지시할 수 있는 업무라면 자동화의 후보가 될 수 있다. 다만 사람이 말 사이에서 이해하는 관행과 예외를 드러내고 실제 행동 및 검증으로 연결하는 작업이 뒤따라야 한다."
+    },
+    {
+      "path": "manuscript/front-matter/00-preface.md",
+      "line": 17,
+      "text": "로보코가 제안하는 소프트웨어 팩토리의 핵심은 의도를 효율적으로 정의하고 개선하는 파이프라인, 에이전트에 의한 전자동 소프트웨어 개발, 정책에 기반한 하네스 개선 루프다. 의도는 탐색과 운영의 증거로 다듬고, 개발은 정해진 범위에서 작업 분해부터 배포까지 자동으로 이어가며, 하네스는 그 실행을 감싸고 다음 개선에 연결한다. 어떤 일을 맡기고 어떤 증거로 받아들이며 실패 뒤 누가 판단할지를 정한다. 사람이 모든 작업의 다음 단계를 지시하지 않아도 진행되는 구조를 만들며, 필요한 판단은 근거와 함께 사람에게 전달한다. 코드 생성이 빨라질수록 검증과 병합 및 예외 처리의 처리량이 중요해진다."
+    },
+    {
+      "path": "manuscript/front-matter/00-preface.md",
+      "line": 21,
+      "text": "이 변화는 실행 주체를 선별하는 방식에도 영향을 준다. 실제 업무를 수행할 수 있는 모델과 에이전트의 조합을 평가하고 비용과 실패 유형을 관찰해야 한다. 사람에게는 고객을 이해하고 목적을 판단하며 실행 체계를 설계하는 역량이 요구된다. 좋은 실행자를 고르는 일과 좋은 시스템을 만드는 일이 함께 중요해진다."
+    },
+    {
+      "path": "manuscript/front-matter/00-preface.md",
+      "line": 23,
+      "text": "조직의 구조도 같은 관점에서 살핀다. 구현이 빨라도 설명과 인계 및 승인 대기가 길면 고객이 결과를 받는 시간은 줄지 않는다. 우리는 커뮤니케이션 비용을 메시지 개수로만 보지 않는다. 필요한 맥락을 전달하는 시간, 판단을 기다리는 시간, 오해를 수정하는 시간을 함께 본다. 실제 병목에 맞춰 역할과 권한 및 팀 경계를 바꿀 수 있어야 한다."
+    },
+    {
+      "path": "AGENTS.md",
+      "line": 10,
+      "text": "- 이 책의 AI 기반 팩토리는 모델·에이전트·하네스를 필수 역할로 다룬다. 에이전트가 모델과 하네스·도구를 결합해 작동한다는 관계를 설명한다. 세 독립 제품의 필수 구매나 특정 하네스 구현을 주장하지 않는다. 로보코의 세 축인 의도 정의·개선 파이프라인, 에이전트의 전자동 개발, 정책 기반 하네스 개선 루프를 일관되게 연결한다. 하네스는 정책·계획과 집행·실행 이력·모니터링과 개선의 전체 사이클이며 실행 기반의 기능은 그 일부로 설명한다. 정책은 에이전트에게 일을 맡길 때의 지침이며 검증은 그 준수를 확인하는 수단 중 하나다. 최상위 원칙은 개별 실행·자동 개선에서 타협하거나 우회할 수 없다. 적용 범위의 계층과 강제성을 구분하고 하위 정책은 상위 원칙을 보존한다. 정상 개발 경로의 자동 진행과 인간의 의도·위임·예외 판단 및 결과 책임을 구분한다."
+    },
+    {
+      "path": "AGENTS.md",
+      "line": 52,
+      "text": "- “완전 자동화”에는 대상 업무의 범위, 성공 기준, 예외와 복구, 남는 인간 책임을 명시한다. 정의한 범위 안의 자동화 목표와 모든 상황에 대한 보장을 구분한다."
+    },
+    {
+      "path": "planning/book-brief.md",
+      "line": 11,
+      "text": "로보코의 소프트웨어 팩토리는 의도를 효율적으로 정의·개선하는 파이프라인, 에이전트의 전자동 소프트웨어 개발, 정책 기반 하네스 개선 루프를 결합한 생산 체계다. 전자동 개발은 정의한 범위의 정상 경로가 작업 분해부터 배포까지 매 단계의 인간 지시 없이 이어지는 뜻으로 사용한다. 사람의 의도·위임·예외 판단과 결과 책임은 유지한다."
+    },
+    {
+      "path": "planning/book-brief.md",
+      "line": 53,
+      "text": "| 전자동 개발은 정의한 범위의 정상 경로를 자동화한다. | 최소 수행 능력과 정책·검증·복구를 갖추고 작업 분해부터 배포까지 매 단계의 인간 지시 없이 이어지는 범위를 평가한다. |"
+    },
+    {
+      "path": "planning/book-brief.md",
+      "line": 55,
+      "text": "| 모델과 에이전트의 선별이 중요해진다. | 사람의 판단·육성·채용과 실행 능력의 평가·구매·운영을 함께 다룬다. |"
+    },
+    {
+      "path": "planning/glossary.md",
+      "line": 28,
+      "text": "| 제품 책임자 | 제품 쪽에서 결과의 수용 책임자를 맡는 사람 | 제품 결과에 대해서는 수용 책임자와 같은 사람이다. \"결과 책임자\", \"결과 수용 권한자\"는 이 용어로 통일한다. 자동 수용 범위는 제품 책임자가 승인한다 |"
+    },
+    {
+      "path": "planning/glossary.md",
+      "line": 65,
+      "text": "## 전자동 개발"
+    },
+    {
+      "path": "planning/glossary.md",
+      "line": 67,
+      "text": "[집필 기획](book-brief.md) \"책의 핵심\"의 문장을 옮긴다. 전자동 개발은 정의한 범위의 정상 경로가 작업 분해부터 배포까지 매 단계의 인간 지시 없이 이어지는 뜻으로 사용한다. 사람의 의도·위임·예외 판단과 결과 책임은 유지한다. [집필 지침](../AGENTS.md)은 이를 \"정상 개발 경로의 자동 진행과 인간의 의도·위임·예외 판단 및 결과 책임을 구분한다\"고 쓴다."
+    },
+    {
+      "path": "planning/review-policies/01-argument.md",
+      "line": 29,
+      "text": "이 책의 팩토리는 의도 정의·개선 파이프라인, 에이전트의 전자동 개발, 정책 기반 하네스 개선 루프의 세 축을 결합한 체계다. 하네스는 정책 → 계획과 집행 → 실행 이력 → 모니터링·개선의 전체 사이클이고, 도구 호출·상태·권한 처리는 그 실행 부분이다. 정책은 에이전트의 작업 지침이며 검증은 확인 수단 중 하나다. 적용 범위별 하위 지침과 개선이 최상위 원칙을 완화하거나 우회하지 않는지도 확인한다. 리뷰어는 다음을 확인한다."
+    },
+    {
+      "path": "planning/review-policies/01-argument.md",
+      "line": 32,
+      "text": "- 전자동 개발을 \"정의한 범위의 정상 경로가 매 단계의 인간 지시 없이 이어지는 것\"으로 다루며, 인간의 의도·위임·예외 판단과 결과 책임을 남겨 두는가."
+    },
+    {
+      "path": "planning/review-policies/01-argument.md",
+      "line": 66,
+      "text": "| 1장 | 17장 | 1장의 세 축과 전자동 개발 정의가 17장의 측정 대상(완주·사람 이관·의도 부합)과 같은 뜻인가 |"
+    },
+    {
+      "path": "planning/review-policies/01-argument.md",
+      "line": 74,
+      "text": "`AGENTS.md`의 \"주요 주장에 적용할 제한\"을 논증의 관점에서 확인한다. \"모델 성능에 좌우되지 않는다\"는 의존을 줄이는 목표로, \"완전 자동화\"는 대상·성공 기준·예외·복구·남는 인간 책임과 함께, \"조직 개편이 필수\"는 흐름과 권한의 병목을 근거로 한 조건부 판단으로 쓰여야 한다. \"커뮤니케이션 비용\"을 메시지 수나 회의 시간으로 환원하지 않아야 한다. 이 제한을 어긴 문장이 장의 결론을 떠받치면 P1, 부수적 문장이면 P2다."
+    },
+    {
+      "path": "planning/review-policies/01-argument.md",
+      "line": 86,
+      "text": "7장 시범의 두 의견이 이 경계의 예다. 7장의 중심 결정은 \"누가 어떤 기준으로 결과를 받아들이는가\"이다. 자동 수용 경로에서 결과 책임을 지는 주체가 장 안에 정해지지 않은 문제는, 리더가 수용 책임을 누구에게 둘지 정할 수 없게 만들므로 P1이다. 반면 정상 경로의 조건으로 쓴 \"독립 판정\"이 다른 절의 조건부 독립 검토와 맞지 않는 문제는, 리더가 결정을 내릴 수는 있지만 저영향 반복 작업에 어느 기준을 적용할지 두 답을 얻게 되므로 P2다."
+    },
+    {
+      "path": "website/src/pages/index.astro",
+      "line": 16,
+      "text": "   <p>로보코의 소프트웨어 팩토리는 <strong>의도를 정의하고 개선하는 파이프라인, 에이전트에 의한 전자동 소프트웨어 개발, 정책에 기반한 하네스 개선 루프</strong>를 결합한 소프트웨어 생산 체계입니다.</p>"
+    },
+    {
+      "path": "website/src/pages/index.astro",
+      "line": 19,
+      "text": "    <li><strong>에이전트가 소프트웨어 개발을 전자동으로 수행합니다.</strong> 의도와 정책이 정한 범위 안에서 작업 분해·설계·구현·검증·배포를 이어갑니다. 사람은 의도와 위임 범위, 예외에 대한 판단과 결과의 책임을 맡습니다.</li>"
+    },
+    {
+      "path": "website/src/pages/index.astro",
+      "line": 25,
+      "text": "   <ol class=\"parts-list\">{book.parts.map((part,i)=><li><span class=\"part-number\">{String(i+1).padStart(2,'0')}</span><div><a href={book.chapters.find(c=>c.part===i+1)?.url}>{part.replace(/^\\d부 /,'')}</a><p>{['목적과 기준, 바꿀 권한을 정합니다.','계약·분해·완료·복구를 설계합니다.','생산 기반과 지식·능력·권한을 연결합니다.','사람의 판단과 팀의 협력을 뒷받침합니다.','측정하고 도입하며, 근거에 따라 넓힙니다.'][i]}</p></div><span>{i*4+1}–{i*4+4}장</span></li>)}</ol>"
+    },
+    {
+      "path": "website/src/lib/recommendations.mjs",
+      "line": 12,
+      "text": " intent:{chapters:[1,2,3,4,5],summary:'원하는 결과를 정한 뒤, 정책과 실행계획을 나누고 수행·검증에 쓸 계약으로 구체화합니다.',reasons:{1:'코드 생성량보다 달성할 업무 결과를 선택합니다.',2:'의도 정의와 피드백을 잇는 지속적인 기준을 만듭니다.',3:'보존할 원칙·지침과 위임할 수행 방법을 분리합니다.',4:'실행 결과가 다음 의도와 하네스 판단으로 돌아오게 합니다.',5:'입력·출력·권한·완료 증거·예외를 실행 계약에 연결합니다.'},resources:[{id:'demo-request',reason:'요청을 정리하는 일과 실행을 승인하는 일을 구분해 봅니다.'}]},"
+    },
+    {
+      "path": "website/src/lib/recommendations.mjs",
+      "line": 18,
+      "text": " ownership:{chapters:[7,9,13,16,17],summary:'사람에게 남는 수용·운영 책임을 구분하고, 역량 투자·판단과 학습·실제 책임 행동의 평가를 연결합니다.',reasons:{7:'자동 판정에서도 결과를 받아들일 사람의 책임을 명확히 합니다.',9:'제품·정책·운영의 역할마다 사람이 맡을 판단을 구분합니다.',13:'사람의 판단·학습과 실행 능력 구매·운영에 투자합니다.',16:'심리적 오너십·인지적 참여·책임 행동을 구분해 설계합니다.',17:'태도나 승인 횟수와 실제 대응·사용자 결과를 따로 평가합니다.'},resources:[]},"
+    }
+  ],
+  "pattern_refinement": {
+    "id": "P11",
+    "name": "예외를 통한 개입",
+    "before": "정상 결과는 정해진 검증으로 처리하고 정책 충돌과 불확실성 및 큰 영향에 개입한다.",
+    "after": "정책의 증거·권한 조건을 충족한 결과와 예외는 자동 처리하고, 조건 미확인은 보류하며 위임 범위 밖이거나 사람에게 유보된 판단만 이관한다.",
+    "reason": "예외·큰영향 자체를 사람 개입의 필요조건으로 고정하지 않고 정책의 위임 경계를 기준으로 구분"
+  },
+  "source_preservation": "기존110출처 객체 동일; 외부URL/인용표식 보존; 관련데모관측10문단 동일",
+  "validation": {
+    "acceptance": {
+      "AS01": "자기점검완료",
+      "AS02": "자기점검완료",
+      "AS03": "자기점검완료",
+      "AS04": "자기점검완료",
+      "AS05": "자기점검완료",
+      "AS06": "자기점검완료"
+    },
+    "unit": "29passed",
+    "astro": "0errors/warnings/hints",
+    "build": "56pages;links/anchorsPASS",
+    "browser": "29passed;1intentionalskip",
+    "final_copy_edits": "build/static checks repeated; no claim of full e2e rerun after every final word edit",
+    "stable_anchors": "all existing preserved",
+    "reading_storage": "unchanged",
+    "revisions": "35 changed pages +1 only",
+    "visual": "cycle SVG and390px ch03 table"
+  },
+  "status": "로컬수정·변경범위자기점검완료",
+  "limitations": [
+    "별도독립리뷰아님",
+    "외부/데모 재실행·효과 검증없음",
+    "실제전체업무의자동화가능성을보장하지않음",
+    "커밋·푸시·배포없음"
+  ]
+}

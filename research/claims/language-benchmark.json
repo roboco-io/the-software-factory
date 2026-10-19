@@ -1,0 +1,26 @@
+{
+  "checked_on": "2026-10-19",
+  "source_ids": [
+    "S124"
+  ],
+  "type": "프로젝트 자체 보고·공개 코드/집계 확인·저자 적용 제안 구분",
+  "status": "11장 중심5개장 반영·변경 범위 자기 점검 완료",
+  "commit": "50b8b4dd3cf565742f4413414879605be91dfccf",
+  "evidence": "research/language-benchmark-candidates.md",
+  "claims": [
+    {
+      "type": "집계 대조",
+      "scope": "30행의 pass/followup/error_rate 필드 파싱. 재실행 아님."
+    },
+    {
+      "type": "코드 구조 확인",
+      "scope": "score.js/build_dashboard_data.py/gate.sh/run_followups.sh 일부. 구현 완전성 검증 아님."
+    },
+    {
+      "type": "저자 제안",
+      "scope": "11장 조합 평가를 중심으로17장 비용,7/12장 단계별 수용,19장 실패 분류 연결"
+    }
+  ],
+  "limits": "언어 고유의 효과·모든 업무의 자동화·운영성과·실제 비용을 확정하지 않음",
+  "adoption_report": "planning/reviews/2026-10-19-language-benchmark-adoption.md"
+}

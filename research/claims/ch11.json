@@ -197,5 +197,16 @@
     "status": "수정됨·원문 및 변경 범위 자기 점검 완료",
     "limits": "제품 설치·실제 실행·독립 효과·편집 확정을 확인한 것은 아님. 직접 인용 없음.",
     "report": "planning/reviews/2026-10-17-claude-dev-adoption.md"
+  },
+  "language_benchmark_adoption": {
+    "checked_on": "2026-10-19",
+    "source_ids": [
+      "S124"
+    ],
+    "type": "프로젝트 자체 보고·공개 집계 대조와 저자 해석/제안 구분",
+    "scope": "실험의 중심 설명은11장, 원인 보고는19장.7/12/17장은 기존 원칙에 연결한 저자 제안.",
+    "status": "수정됨·변경 범위 자기 점검 완료",
+    "limits": "외부 실험 재현·언어 고유 효과·일반 성공률·실제 청구액 확인 아님. 기존 패턴 정의는 유지.",
+    "report": "planning/reviews/2026-10-19-language-benchmark-adoption.md"
   }
 }

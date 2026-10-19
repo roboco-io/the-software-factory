@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-19",
+  "head": "204f34f83e530b7828138d5eeed797cbcfa55a62",
+  "baseline": "직전 미커밋 S124 조사 상태를 포함",
+  "before_sha256": {
+    "manuscript/chapters/ch11.md": "26c3679f3f350d6b2c23b620002e82b3c4ee73dbed005bdb7345bafb51c34418",
+    "manuscript/chapters/ch17.md": "58970cc7eae9e885b60f75aa9e7dd1542cd84236d4a7854f75b20f77fc86dabf",
+    "manuscript/chapters/ch07.md": "b00ecdcd29d19f159c39cc2f4833609a06bf06336cc1e38b014863e8c9f58c7d",
+    "manuscript/chapters/ch12.md": "132228ef1e8005e73d3ff95a392015a33ec978224e31ba002092f1fd7356d907",
+    "manuscript/chapters/ch19.md": "e1d47bba02816c7becfc300b9fd9e6e69bac55349e37765a62b4d44d7d33124b",
+    "research/sources.json": "5dd8ac3f5f3b98bb895098e208dab427cc4449202758fe2888b6681879f88233",
+    "website/content-manifest.json": "a2e49f8419fd734908d567ed84e7f71fb786e44be3d67bdd39fcc8f0eb80923b",
+    "CHANGELOG.md": "845b77b65e9ba9d3e7714fdd3836579cee71853097f0ba7628f26b042593200e"
+  },
+  "after_sha256": {
+    "manuscript/chapters/ch11.md": "6e3bcc4a587b3bd6de0409e96d85b81d27ba0b7883f053f70cdc6d259d1578f3",
+    "manuscript/chapters/ch17.md": "eab86032ad39f14d3598ba4cdc6f0075d33ce868025a87d380c5b3877c5bdbb7",
+    "manuscript/chapters/ch07.md": "ebcd0666d8d649b5ae139d011fea4ece6e358615d0dcba36b6ebaea29384bc28",
+    "manuscript/chapters/ch12.md": "83a76eed6324e621e072d3c5360f0e2f19bcda6f955e30d0b6286c846b8027b9",
+    "manuscript/chapters/ch19.md": "0bc3574f9b81aa70795d8f74a71c6d4c863db8caf17cb51a78d6783c204fd47a",
+    "research/sources.json": "ffb2b0ababdec9b5da466311e60d40af0ccf7af9b17273ab333c348ca8c9fe55",
+    "website/content-manifest.json": "edbc578cf9a8dea4a57bd0bfd3696f58cc1b8e75ddcdd14a782b27783dc0f37f",
+    "CHANGELOG.md": "51045ad206398d082f4de9ea584e372842c0c9f0e045a1cf145bd40bd8b74f53",
+    "research/claims/ch11.json": "4a17b26f085d8b09253e86ce7b6806c0e45c33452c2eac06616a8a9fa9cb1b87",
+    "research/claims/ch17.json": "46a66afaf51f14b03365f907428df04f3997bb4e09bce921bef716b8a1557b35",
+    "research/claims/ch07.json": "3d389f4427520ae7a251bf05a76ccc7aaa37513ac580df306c90e467e439835c",
+    "research/claims/ch12.json": "c94467a6ec7eeb46c2f8846367a0e295506652a3f5f532bf084a843b6965072a",
+    "research/claims/ch19.json": "b06e3d606a4851633a6d2514a53dbeafedf5663d7c6ed6fda1c44cd6b2eee139",
+    "research/claims/language-benchmark.json": "cd0c813dbe7399a1b5d7fa59135ad86cc2727b8b97a3d1db1485fa110f0aad90",
+    "research/language-benchmark-candidates.md": "7e551b1de257b97d4b62bf69c84a510fa478c8bd72d3bf58c796a5c1229f3d44",
+    "planning/reviews/2026-10-19-language-benchmark-adoption.md": "164a1224349e93230555752b53cc6e0f15a5efac0ac8560eff7ad838723415d2",
+    "planning/sessions/2026-10-19-language-benchmark-adoption.md": "922b449d818bba2bf5f15f5eb557543cb7e52308daf9bcfc1126e60a89d621e6",
+    "STATUS.md": "16d5ff333575d56de9d542e17a3d9358d51724c5a098f1588e472da99ca8bbd0"
+  },
+  "changed_reader_pages": [
+    "ch11",
+    "ch17",
+    "ch07",
+    "ch12",
+    "ch19"
+  ],
+  "new_source_added_in_adoption": false,
+  "source_preservation": "기존123출처 객체 일치, S124 사용 범위만 후속 정리",
+  "validation": {
+    "structure": "20 chapters,15 patterns,124 sources",
+    "build": "56 pages and local links/anchors passed",
+    "content": "five generated chapter texts and S124 source marks verified",
+    "reader_state": "existing anchors preserved; only5 changed revisions +1; new ch11 section s10",
+    "scope": "산문 변경. 전체 브라우저 시험·독립 리뷰·실험 실행은 수행하지 않음"
+  },
+  "publication": "local draft; not committed,pushed or deployed"
+}

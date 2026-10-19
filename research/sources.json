@@ -4493,6 +4493,48 @@
         ],
         "scope": "상세 사실 요약은 담당 메모 한 곳에 제한. 후보는 저자 해석으로 표시. 원문별 누적 파생 요약 200단어 기본 상한 아래로 제한. 향후 본문 채택 때 재점검 필요."
       }
+    },
+    {
+      "id": "S124",
+      "title": "Language Benchmark — EXP-001 report and measurement definitions",
+      "author": "roboco-io / language-benchmark project",
+      "url": "https://github.com/roboco-io/language-benchmark/blob/50b8b4dd3cf565742f4413414879605be91dfccf/experiments/001-five-language-realworld/report.md",
+      "published_on": null,
+      "experiment_date": "2026-10-18",
+      "checked_on": "2026-10-19",
+      "commit": "50b8b4dd3cf565742f4413414879605be91dfccf",
+      "verification_status": "공개 문서·일부 코드 구조와 집계 CSV 직접 확인",
+      "verification_scope": "README, EXP-001 report, quality rules, SCHEMA, deviations, runs.csv, score.js, build_dashboard_data.py, gate.sh, run_followups.sh. 보고/규칙/스키마의 기본 브랜치 내용과 고정 ref 내용 일치 확인.",
+      "use": "11장 기술 스택 조합 평가의 중심 사례,19장 실패 원인 설명.7·12·17장에는 저자 해석·제안으로 연결.",
+      "limit": "한 과제·언어별 한 프레임워크·모델별3회. 언어 고유 효과와 구현/라이브러리/이미지/환경 효과를 분리하지 못함. 전체 세션·재채점·앱/부하 실행·독립 재현·실제 청구액은 확인하지 않음.",
+      "supporting_urls": [
+        "https://github.com/roboco-io/language-benchmark/blob/50b8b4dd3cf565742f4413414879605be91dfccf/analysis/metrics/runs.csv",
+        "https://github.com/roboco-io/language-benchmark/blob/50b8b4dd3cf565742f4413414879605be91dfccf/analysis/metrics/SCHEMA.md",
+        "https://github.com/roboco-io/language-benchmark/blob/50b8b4dd3cf565742f4413414879605be91dfccf/experiments/001-five-language-realworld/runs/deviations.md",
+        "https://github.com/roboco-io/language-benchmark/blob/50b8b4dd3cf565742f4413414879605be91dfccf/dashboard/score.js",
+        "https://github.com/roboco-io/language-benchmark/blob/50b8b4dd3cf565742f4413414879605be91dfccf/scripts/build_dashboard_data.py",
+        "https://github.com/roboco-io/language-benchmark/blob/50b8b4dd3cf565742f4413414879605be91dfccf/docs/experiment-quality-rules.md"
+      ],
+      "usage_review": {
+        "checked_on": "2026-10-19",
+        "direct_quote_words": 0,
+        "files": [
+          "research/language-benchmark-candidates.md",
+          "research/claims/language-benchmark.json",
+          "research/sources.json",
+          "manuscript/chapters/ch11.md",
+          "manuscript/chapters/ch17.md",
+          "manuscript/chapters/ch07.md",
+          "manuscript/chapters/ch12.md",
+          "manuscript/chapters/ch19.md",
+          "research/claims/ch11.json",
+          "research/claims/ch17.json",
+          "research/claims/ch07.json",
+          "research/claims/ch12.json",
+          "research/claims/ch19.json"
+        ],
+        "scope": "직접 인용0. 기존 조사 카드의 중복 사실 요약을 원고 위치 참조로 바꾸고,11장 중심 관측·19장 원인 설명과 대장·주장 메모의 누적 범위를 점검했다. 200단어 기본 상한 안의 제한적 파생 설명이며 독자용 표·코드·보고서 번역·언어 순위표를 복제하지 않았다."
+      }
     }
   ],
   "source_aliases": {

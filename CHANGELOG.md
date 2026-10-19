@@ -2,6 +2,10 @@
 
 책을 다시 읽거나 활용할 때 알아둘 중요한 변화를 기록합니다.
 
+## 공개 예정
+
+- **기술 스택을 팩토리의 실행 조합으로 평가합니다.** [11장](https://factory.roboco.io/book/ch11/)에 Language Benchmark 사례와 적용 한계를 추가했습니다. [17장](https://factory.roboco.io/book/ch17/)은 구현·운영·변경 비용과 목적별 비교를, [7장](https://factory.roboco.io/book/ch07/)·[12장](https://factory.roboco.io/book/ch12/)은 단계별 수용·권한을, [19장](https://factory.roboco.io/book/ch19/)은 결과물과 하네스의 실패 분류를 연결합니다. 실험의 자체 보고와 이 책의 해석을 구분했습니다.
+
 ## 2026-10-17 · 정책 기반 자동화와 운영 사례
 
 - **자동화의 누락 관측과 개선 판단을 구체화했습니다.** [8장](https://factory.roboco.io/book/ch08/)은 정상적인 침묵과 관측 실패를, [11장](https://factory.roboco.io/book/ch11/)·[19장](https://factory.roboco.io/book/ch19/)은 평가 잡음과 실제 개선을 구분합니다. 작업별 실행 구조, 공유 스킬의 관리·투자, 협업 책임을 기존 장에 연결했습니다. Anthropic의 운영 설명과 이 책의 제안은 구분해 서술했습니다.

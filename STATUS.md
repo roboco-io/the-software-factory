@@ -683,3 +683,8 @@ S16(GitHub 공식 규칙 문서)과 S17(2025-10-20 Anthropic 실행 경계 설�
 
 - 0c51fe3·599b258를 origin/main에 푸시하고 원격SHA일치를 확인했다. [Pages39341181584](https://github.com/roboco-io/the-software-factory/actions/runs/39341181584) 빌드·브라우저·배포 성공.
 - 실제공개7경로의 HTTP200/새원고·출처·체인지로그, Chrome11장s10/S124출처링크·390px/1065px폭을 확인했다. 체인지로그를 실제게시일2026-10-20로 옮겨 후속푸시한다. [배포 세션](planning/sessions/2026-10-20-language-benchmark-publication.md).
+
+### Language Benchmark 최종 공개 확인 · 2026-10-20
+
+- ab907ad의 게시일 변경을 origin/main에 푸시하고 원격SHA일치를 확인했다. [Pages39341515795](https://github.com/roboco-io/the-software-factory/actions/runs/39341515795) 빌드·브라우저·배포 성공. 사이트 빌드 판본은ab907ad다.
+- 공개7경로·체인지로그2026-10-20·11장s10/S124출처링크·모바일/데스크톱폭을 실제Chrome에서 재확인했다. [배포 세션](planning/sessions/2026-10-20-language-benchmark-publication.md). 이 최종 기록만 별도커밋·푸시하며 필수 배포 작업은 완료됐다.

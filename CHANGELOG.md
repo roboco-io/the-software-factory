@@ -2,7 +2,7 @@
 
 책을 다시 읽거나 활용할 때 알아둘 중요한 변화를 기록합니다.
 
-## 공개 예정
+## 2026-10-20 · 기술 스택과 팩토리 평가
 
 - **기술 스택을 팩토리의 실행 조합으로 평가합니다.** [11장](https://factory.roboco.io/book/ch11/)에 Language Benchmark 사례와 적용 한계를 추가했습니다. [17장](https://factory.roboco.io/book/ch17/)은 구현·운영·변경 비용과 목적별 비교를, [7장](https://factory.roboco.io/book/ch07/)·[12장](https://factory.roboco.io/book/ch12/)은 단계별 수용·권한을, [19장](https://factory.roboco.io/book/ch19/)은 결과물과 하네스의 실패 분류를 연결합니다. 실험의 자체 보고와 이 책의 해석을 구분했습니다.
 

@@ -678,3 +678,8 @@ S16(GitHub 공식 규칙 문서)과 S17(2025-10-20 Anthropic 실행 경계 설�
 
 - 사용자 배포 요청으로5개장·S124·조사/주장/검증 기록을 공개한다. 구조20장/15패턴/124출처·공백·단위29·Astro0·56페이지빌드/내부링크·앵커를 새로 확인했다.
 - [배포 세션](planning/sessions/2026-10-20-language-benchmark-publication.md). 콘텐츠와 조사기록을 분리 커밋·푸시하고 Pages 및 공개내용을 확인한다. 체인지로그 게시일은 공개 확인 후 기록한다.
+
+### Language Benchmark 첫 공개 확인 · 2026-10-20
+
+- 0c51fe3·599b258를 origin/main에 푸시하고 원격SHA일치를 확인했다. [Pages39341181584](https://github.com/roboco-io/the-software-factory/actions/runs/39341181584) 빌드·브라우저·배포 성공.
+- 실제공개7경로의 HTTP200/새원고·출처·체인지로그, Chrome11장s10/S124출처링크·390px/1065px폭을 확인했다. 체인지로그를 실제게시일2026-10-20로 옮겨 후속푸시한다. [배포 세션](planning/sessions/2026-10-20-language-benchmark-publication.md).

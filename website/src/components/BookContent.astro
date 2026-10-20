@@ -5,6 +5,6 @@ const chapter=book.chapters.find(c=>c.id===data.bookId);
 ---
 {chapter && <section class="reading-tools" data-reader-id={chapter.id} data-reader-revision={chapter.revision} data-pagefind-ignore>
  <div class="reading-tool-row"><span class="reading-state" data-current-status>안 읽음</span><button type="button" class="quiet-button" data-mark-read>읽음으로 표시</button><a data-resume-current hidden href="#">이전 위치에서 계속 읽기</a><a href="/about/#reading-settings">읽기 설정</a></div>
- <aside id="chapter-brief" class="chapter-brief"><span>이 장에서 내릴 결정</span><p>{chapter.decision}</p><p class="brief-purpose">{chapter.purpose}</p><div class="pattern-links">{chapter.patterns.map(id=><a href={`/patterns/${id.toLowerCase()}/`}>{book.patterns.find(p=>p.id===id.toLowerCase())?.title??id}</a>)}</div></aside>
+ <aside id="chapter-brief" class="chapter-brief"><span>이 장에서 내릴 결정</span><p>{chapter.decision}</p><p class="brief-purpose">{chapter.purpose}</p><div class="pattern-links">{chapter.patterns.map(id=><a href={`/patterns/${id.toLowerCase()}/`}>{book.patterns.find(p=>p.id===id.toLowerCase())?.title??id}<span class="pattern-badge" aria-hidden="true">패턴</span></a>)}</div></aside>
 </section>}
 <div class="sl-markdown-content book-article"><slot /></div>

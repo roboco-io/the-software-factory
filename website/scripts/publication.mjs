@@ -1,4 +1,5 @@
 import {readFileSync} from 'node:fs';
+import {linkPatternReferences} from './pattern-references.mjs';
 const demoPages=JSON.parse(readFileSync(new URL('../demo-pages.json',import.meta.url),'utf8'));
 const demoSources=new Set(demoPages.map(page=>page.path));
 const demoLinks=new Map(demoPages.map(page=>[page.path.split('/').at(-1),`/${page.route}/`]));
@@ -20,8 +21,9 @@ export function publicLink(target,sourcePath='') {
  return result+(hash?'#'+hash:'');
 }
 export function transformMarkdown(text,anchors={},sourcePath='') {
- return text.replace(/^# .+\n/,'').replace(/^상태:.*\n/gm,'')
- .replace(/\[([^\]]+)\]\(([^\s)]+)\)/g,(_,label,url)=>`[${label.replace('주장 메모','자료 확인 범위').replace('기존 연구 대응 지도','원서 주제 연결의 범위').replace('연구 대응 지도','원서 주제 연결의 범위')}](${publicLink(url,sourcePath)})`)
+ const body=text.replace(/^# .+\n/,'').replace(/^상태:.*\n/gm,'')
+ .replace(/\[([^\]]+)\]\(([^\s)]+)\)/g,(_,label,url)=>`[${label.replace('주장 메모','자료 확인 범위').replace('기존 연구 대응 지도','참고 도서 주제 연결의 범위').replace('연구 대응 지도','참고 도서 주제 연결의 범위')}](${publicLink(url,sourcePath)})`);
+ return linkPatternReferences(body)
  .replace(/\[(S\d{2,})\](?!\()/g,(_,id)=>`<a class="source-ref" href="/sources/#${id}" aria-label="출처 ${id}">[${id}]</a>`)
  .replace(/^## (.+)$/gm,(line,title)=>{if(!anchors[title])throw Error('Missing stable anchor: '+title);return `<span id="${anchors[title]}" data-reading-anchor aria-hidden="true"></span>\n\n${line}`;}).trim();
 }

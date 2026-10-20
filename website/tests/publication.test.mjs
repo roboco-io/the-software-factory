@@ -34,3 +34,31 @@ test('only registered demo pages resolve with their authored context',()=>{
  assert.throws(()=>publicLink('../demo/../STATUS.md'));
  assert.ok(transformMarkdown('[解説](evidence.md)',{},'manuscript/demo/request.md').includes('(/demo/evidence/)'));
 });
+test('pattern references in prose and tables link to the catalog with a visible badge',()=>{
+ const out=transformMarkdown("P14 ‘흐름에 맞춘 권한과 팀 경계’는 책임을 다룬다. P01과 P15도 참조한다.\n\n| 패턴 | 설명 |\n|---|---|\n| P07 | 검증 |\n\nP99와 XP14는 식별자가 아니다.");
+ for(const id of ['p14','p01','p15','p07'])assert.ok(out.includes(`href="/patterns/${id}/"`));
+ assert.equal((out.match(/class="pattern-badge"/g)||[]).length,4);
+ assert.ok(out.includes('>패턴</span>'));
+ assert.ok(out.includes('aria-label="P14 흐름에 맞춘 권한과 팀 경계 패턴"'));
+ assert.ok(out.includes('P99와 XP14'));
+});
+test('existing pattern links get one badge while external links and images keep their labels',()=>{
+ const out=transformMarkdown('[P14 흐름에 맞춘 권한과 팀 경계](../patterns/p14.md#s03) [P14 외부 자료](https://example.org/P14) ![P14 이미지](https://example.org/P14.png)');
+ assert.equal((out.match(/class="pattern-badge"/g)||[]).length,1);
+ assert.ok(out.includes('href="/patterns/p14/#s03"'));
+ assert.ok(out.includes('[P14 외부 자료](https://example.org/P14)'));
+ assert.ok(out.includes('![P14 이미지](https://example.org/P14.png)'));
+});
+test('pattern linking preserves code,raw HTML,headings and link definitions',()=>{
+ const source='## P14 예시\n\n`P14`\n\n```text\nP14\n```\n\n<a href="https://example.org/P14">P14</a>\n\n<span data-pattern="P14"></span>\n\n[자료][ref]\n\n[ref]: https://example.org/P14';
+ const out=transformMarkdown(source,{'P14 예시':'s01'});
+ assert.ok(!out.includes('class="pattern-ref"'));
+ assert.ok(out.includes('`P14`'));assert.ok(out.includes('```text\nP14\n```'));
+ assert.ok(out.includes('<a href="https://example.org/P14">P14</a>'));
+ assert.ok(out.includes('[ref]: https://example.org/P14'));
+});
+test('badge transformation is stable when an already generated reference is processed again',()=>{
+ const first=transformMarkdown('P14는 책임 경계를 정한다.');
+ assert.equal((first.match(/class="pattern-badge"/g)||[]).length,1);
+ assert.equal(transformMarkdown(first),first);
+});

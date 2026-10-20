@@ -66,3 +66,7 @@ html:has(.book-home) .content-panel:first-child{display:none;}html:has(.book-hom
 .factory-definition{margin-bottom:3rem;padding:1.5rem 0;border-top:1px solid var(--line);}.factory-definition>p{max-width:46rem;line-height:1.85;word-break:keep-all;overflow-wrap:anywhere;}.factory-definition .definition-source{font-size:.85rem;color:var(--muted);}.factory-definition a{color:var(--accent);}
 
 .factory-pillars{max-width:46rem;padding-left:1.5rem;line-height:1.85;word-break:keep-all;overflow-wrap:anywhere;}.factory-pillars li+li{margin-top:1rem;}.factory-pillars strong{display:block;color:var(--ink);}
+
+/* Pattern references stay part of the sentence;only the small category badge is unbreakable. */
+.pattern-ref .pattern-badge,.pattern-links .pattern-badge{display:inline-block;white-space:nowrap;font:600 .65em/1.35 var(--sl-font);vertical-align:middle;margin-inline-start:.4em;padding:.05em .4em;border:1px solid var(--line);border-radius:.3em;background:var(--wash);color:var(--accent);text-decoration:none;letter-spacing:0;}
+.book-article a.pattern-ref{white-space:normal;text-decoration-thickness:1px;}

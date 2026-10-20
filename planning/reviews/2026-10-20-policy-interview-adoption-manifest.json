@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-20",
+  "head": "7112ea7ce8f2f026d600f9ae21e017efff7e5eeb",
+  "baseline": "직전1장 미커밋 원고를 보존한 상태",
+  "author_decisions": [
+    "D39",
+    "D40"
+  ],
+  "before_sha256": {
+    "manuscript/chapters/ch09.md": "0343158850054e8fc7a09883f186eb0686e6ab0d525db0dafdd0a7077cc20076",
+    "planning/automation-scope-policy.md": "4c5b1c419499c54db2201628dc00a686c6ae2bd6d591a7577a038223b10091f1",
+    "website/content-manifest.json": "d27955ba6f8c21bc1a02154b55eafb883010f50a79d4d4e10a5fae6182c9919d",
+    "CHANGELOG.md": "f21ced07b2b77e14aa4ed9e47c47c230fd379f02820fcd75aff28e1de12dba6c",
+    "research/sources.json": "ae9f6e7e216b367a4ace0029c75b1d5c47158b1a94cac6ee4b3aaded0229ca5f",
+    "manuscript/chapters/ch12.md": "83a76eed6324e621e072d3c5360f0e2f19bcda6f955e30d0b6286c846b8027b9"
+  },
+  "after_sha256": {
+    "manuscript/chapters/ch09.md": "448a4119bb9c3f71afa656e180e1769df1258d5f479f841bd48b598156a906b3",
+    "planning/automation-scope-policy.md": "edf96e26ab4b4685e4ba6720b452c4d1c5a26ea859029981399dbef497087512",
+    "website/content-manifest.json": "f7bc542f07f1833b96ba36160faf3adb47bb99c3b5c73d71d9d3b336cf210e0b",
+    "CHANGELOG.md": "e96ffb5d4eb23fa18babb800a50730300ae1e4088ad16179aefea770b8d21e26",
+    "research/sources.json": "0b7d20013af0f439c7a8366315257ca5229625577e0ad5e6b30c51ae18d079d4",
+    "manuscript/chapters/ch12.md": "bad31390ac291bbfdc2a9ed469337e771ddff892e1b50501d8679b227713ebf4",
+    "research/claims/ch09.json": "bbf840fb98ea6a87fca86942c8e8a386d119afa03244645c8d65935aee90278d",
+    "research/claims/ch12.json": "93640bffbdedffd89c357f4e541bf8a5f3cd6f22b75df49b90a10194d26fd16a",
+    "research/claims/policy-interview-reversibility.json": "2f6e98776a3fa536f818b008fafb1dec1042405e14958c8321f673be9f96b5ee",
+    "research/policy-interview-reversibility-proposal.md": "20c3474b381bf41c40db0cf58b0f36de603322d7f806b60c740e064dcac9f2fe",
+    "planning/decisions.md": "fdc29793e3d589cc89cbc4e8e98b5d175b322e2500d35549b1a29a24db5568f9",
+    "STATUS.md": "8c7c78bcd2cc6718fdee809feb1347d8bdbef1a9d8df5013e62547e1e8472853",
+    "planning/reviews/2026-10-20-policy-interview-adoption.md": "7496e40f4d65fadf8344b9648a524d3754330e3c2aa213770a5782d4860a9644",
+    "planning/sessions/2026-10-20-policy-interview-adoption.md": "67651547f13e52f465d2952f093f03fd203264383ef6eb7438d8a91f6c8c4968"
+  },
+  "validation": {
+    "structure": "20 chapters,15 patterns,126 sources",
+    "build": "56 pages; local links and anchors passed",
+    "generated_content": "policy interview,conditional irreversible automation and security texts verified",
+    "reader_revisions": "ch09/ch12 only +1 relative to preceding ch01 draft; old anchors kept",
+    "source_preservation": "existing124 objects unchanged;S125/S126 added",
+    "limits": "자기 점검.전체브라우저/제품 실행/독자시험 없음"
+  },
+  "publication": "local draft;not committed,pushed or deployed"
+}

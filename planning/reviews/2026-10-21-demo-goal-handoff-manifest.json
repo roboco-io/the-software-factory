@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-21",
+  "repository": "roboco-io/the-software-factory-demo",
+  "issue_number": 79,
+  "issue_url": "https://github.com/roboco-io/the-software-factory-demo/issues/79",
+  "proposal_path": "planning/demo-business-goal-automation-proposal.md",
+  "body_sha256": "7252f70e2d83fc8dd8691ba80c5767272b6cd993754779b83ec2147575fe2ec2",
+  "remote_body_match": true,
+  "base_commit": "a5bba6b7075222e7c0204f6822fba74977d313f4",
+  "execution_mode": "기획/조정용상위이슈.초기구축은외부신뢰실행자권고.자동착수명령없음.",
+  "related_open_pull_requests": [
+    76,
+    78
+  ],
+  "validation": "문서자기점검/구조·링크/공백/원격본문일치.실제구축·시험·운영아님."
+}

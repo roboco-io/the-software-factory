@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-21",
+  "head": "7112ea7ce8f2f026d600f9ae21e017efff7e5eeb",
+  "author_decision": "D42",
+  "before_sha256": {
+    "manuscript/front-matter/00-preface.md": "5815b7b347570ab3c9b00aa05d5731d01eded2365e3ad6845213e4be2926ca68",
+    "website/content-manifest.json": "b4ecb90ed764677ad481e279666e60e8838814ed33b680b6b2e0358719b326b1",
+    "research/sources.json": "6b676ddadf196fc48b14a70ff5eac9e55bbbaf0a92e7fb09121e4a1e6de114c4",
+    "research/claims/preface.json": "c7107ce31c91aba928c738be06122a2436fab621d407719f286a1821586a79cb",
+    "research/claims/vibe-coding-scale.json": "223790420f0cc7e63c980185188feb94abf459e9b3ec2e81dc8fc1b9b522e939",
+    "CHANGELOG.md": "289c8ac69a3c95999265629d764a8e1eb3d094799ccd67a0d8112b6d01dca2d2"
+  },
+  "after_sha256": {
+    "manuscript/front-matter/00-preface.md": "aafe08f646efc9b3cea5c1b0f01eee62948e94cdaf294e5678322d07665a2db7",
+    "website/content-manifest.json": "f8a84451a9d2cb58b79a81c17961d838b94fa775f02ea12d9d0212c0fba84281",
+    "research/sources.json": "96b2a2ae19cbde6fbdb883ac295f999079b52c490f27cc93b04386b3c6503f50",
+    "research/claims/preface.json": "b606d7e08729ae518e1c2ff14179f57680dd6ea681b82db6d386df8c370bd29b",
+    "research/claims/vibe-coding-scale.json": "6f1383053379af626ab951fff7791cc5ea78baaffa6c16c53aed42997415ff9c",
+    "CHANGELOG.md": "760c739735bbcbfb8089d852a21aeb85be929f24104f404813f753c37f6cc265",
+    "STATUS.md": "60351f7c012db89bbbb748e89bd5e0ab7198880214809d6317fcf81fc9b2a535",
+    "planning/decisions.md": "6524b2b7b933e4994488f99021ed14b68570f58fc37848147c87c6c351d75209",
+    "planning/sessions/2026-10-21-preface-vibe-scale.md": "f7995af4c6c76d567db2449b2897b8fcdeb3840adafea89ecf09e7504d5e7507"
+  },
+  "validation": {
+    "build": "56 pages and internal links/anchors passed",
+    "rendered": "blog URL,S127,level5 direction and actual-scope distinction verified",
+    "reader_state": "preface only revision+1;all anchors unchanged"
+  },
+  "limits": "변경범위자기점검.독립리뷰·실제효과·전체브라우저시험 아님",
+  "publication": "local draft;not committed,pushed or deployed"
+}

@@ -208,5 +208,26 @@
     "status": "수정됨·변경 범위 자기 점검 및 사이트 검증 완료",
     "limits": "책의YAML은설명용이며설정실행/도구호환/전체결정론적결과를검증하지않음",
     "report": "planning/reviews/2026-10-15-policy-forms.md"
+  },
+  "reference_book_terminology_update": {
+    "checked_on": "2026-10-20",
+    "author_decision": "D41",
+    "type": "저자 지시에 따른 서지 관계·용어 정정",
+    "source_ids": [],
+    "scope": "More Effective Agile을 참고 도서로 명시.이 책은 독립 저작이며 기존 확인 범위·인용은 유지.",
+    "status": "수정됨·변경 범위 자기 점검 완료",
+    "limits": "새 외부 원문·판본 대조를 수행하거나 기존 확인 수준을 높인 것이 아님.",
+    "report": "planning/reviews/2026-10-20-reference-book-terminology.md"
+  },
+  "vibe_scale_update": {
+    "checked_on": "2026-10-21",
+    "author_decision": "D42",
+    "source_ids": [
+      "S127"
+    ],
+    "type": "2025년 저자 척도 소개와 현재 책의 지향점 해석 구분",
+    "scope": "블로그링크·다섯단계의간략소개·5단계와팩토리운영체계의연결",
+    "status": "수정됨·변경 범위 자기 점검 완료",
+    "limits": "실제 구현의5단계도달·공인인증·효과검증을주장하지않으며과거척도에현재무승인조건을소급하지않음"
   }
 }

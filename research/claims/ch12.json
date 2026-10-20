@@ -80,7 +80,7 @@
     "pending": [
       "저자 검토·편집 확정",
       "적용 효과와 조직 운영 근거 보강",
-      "원서 관련 본문 대조"
+      "참고 도서 관련 본문 대조"
     ],
     "mcconnell": {
       "original_chapters": [
@@ -231,5 +231,27 @@
     "status": "수정됨·변경 범위 자기 점검 완료",
     "limits": "외부 실험 재현·언어 고유 효과·일반 성공률·실제 청구액 확인 아님. 기존 패턴 정의는 유지.",
     "report": "planning/reviews/2026-10-19-language-benchmark-adoption.md"
+  },
+  "security_reversibility_update": {
+    "checked_on": "2026-10-20",
+    "author_decision": "D40",
+    "source_ids": [
+      "S126"
+    ],
+    "type": "공식 용어 정의와 저자 보안 원칙·설계 제안 구분",
+    "scope": "최소 권한·전달 경계의 사전 집행,권한 원복과 데이터 회복 구분",
+    "status": "수정됨·근거 및 변경 범위 자기 점검 완료",
+    "limits": "제품 실행·노출 회수 가능성·법규 적합성의 실증 검증 아님",
+    "report": "planning/reviews/2026-10-20-policy-interview-adoption.md"
+  },
+  "reference_book_terminology_update": {
+    "checked_on": "2026-10-20",
+    "author_decision": "D41",
+    "type": "저자 지시에 따른 서지 관계·용어 정정",
+    "source_ids": [],
+    "scope": "More Effective Agile을 참고 도서로 명시.이 책은 독립 저작이며 기존 확인 범위·인용은 유지.",
+    "status": "수정됨·변경 범위 자기 점검 완료",
+    "limits": "새 외부 원문·판본 대조를 수행하거나 기존 확인 수준을 높인 것이 아님.",
+    "report": "planning/reviews/2026-10-20-reference-book-terminology.md"
   }
 }

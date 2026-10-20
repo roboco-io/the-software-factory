@@ -59,7 +59,7 @@
     "pending": [
       "저자 검토·편집 확정",
       "적용 효과와 조직 운영 근거 보강",
-      "원서 관련 본문 대조"
+      "참고 도서 관련 본문 대조"
     ],
     "mcconnell": {
       "original_chapters": [
@@ -134,5 +134,15 @@
     "status": "수정됨·원문 및 변경 범위 자기 점검 완료",
     "limits": "제품 설치·실제 실행·독립 효과·편집 확정을 확인한 것은 아님. 직접 인용 없음.",
     "report": "planning/reviews/2026-10-17-claude-dev-adoption.md"
+  },
+  "reference_book_terminology_update": {
+    "checked_on": "2026-10-20",
+    "author_decision": "D41",
+    "type": "저자 지시에 따른 서지 관계·용어 정정",
+    "source_ids": [],
+    "scope": "More Effective Agile을 참고 도서로 명시.이 책은 독립 저작이며 기존 확인 범위·인용은 유지.",
+    "status": "수정됨·변경 범위 자기 점검 완료",
+    "limits": "새 외부 원문·판본 대조를 수행하거나 기존 확인 수준을 높인 것이 아님.",
+    "report": "planning/reviews/2026-10-20-reference-book-terminology.md"
   }
 }

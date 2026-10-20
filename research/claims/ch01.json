@@ -73,7 +73,7 @@
     "pending": [
       "저자 검토·편집 확정",
       "적용 효과와 조직 운영 근거 보강",
-      "원서 관련 본문 대조"
+      "참고 도서 관련 본문 대조"
     ],
     "mcconnell": {
       "original_chapters": [
@@ -192,5 +192,25 @@
     "status": "수정됨·변경 범위 자기 점검 및 사이트 검증 완료",
     "limits": "책의YAML은설명용이며설정실행/도구호환/전체결정론적결과를검증하지않음",
     "report": "planning/reviews/2026-10-15-policy-forms.md"
+  },
+  "opening_clarity_update": {
+    "checked_on": "2026-10-20",
+    "author_decision": "D38",
+    "type": "저자 지시에 따른 책의 목적·규범적 설명",
+    "source_ids": [],
+    "scope": "고객 문제·사업 성과와 비기능 요건을 첫 절/장 요약/리더 결정에 명시",
+    "status": "수정됨·변경 범위 자기 점검 완료",
+    "limits": "새 경험·성과 수치·외부 인과 효과를 추가한 것이 아님. 기존 자동화 목표·패턴·출처를 보존.",
+    "report": "planning/reviews/2026-10-20-ch01-opening.md"
+  },
+  "reference_book_terminology_update": {
+    "checked_on": "2026-10-20",
+    "author_decision": "D41",
+    "type": "저자 지시에 따른 서지 관계·용어 정정",
+    "source_ids": [],
+    "scope": "More Effective Agile을 참고 도서로 명시.이 책은 독립 저작이며 기존 확인 범위·인용은 유지.",
+    "status": "수정됨·변경 범위 자기 점검 완료",
+    "limits": "새 외부 원문·판본 대조를 수행하거나 기존 확인 수준을 높인 것이 아님.",
+    "report": "planning/reviews/2026-10-20-reference-book-terminology.md"
   }
 }

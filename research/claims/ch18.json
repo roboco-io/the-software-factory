@@ -70,7 +70,7 @@
     "pending": [
       "저자 검토·편집 확정",
       "적용 효과와 조직 운영 근거 보강",
-      "원서 관련 본문 대조"
+      "참고 도서 관련 본문 대조"
     ],
     "mcconnell": {
       "original_chapters": [
@@ -183,5 +183,15 @@
     "prior_reviews": "변경 문단은 이전 버전 리뷰 결과를 자동 승계하지 않음",
     "limits": "모든 업무의 현재 자동화 가능성·실제 운영 효과·외부 사례의 승인 제거를 입증하지 않음",
     "report": "planning/reviews/2026-10-15-automation-scope.md"
+  },
+  "reference_book_terminology_update": {
+    "checked_on": "2026-10-20",
+    "author_decision": "D41",
+    "type": "저자 지시에 따른 서지 관계·용어 정정",
+    "source_ids": [],
+    "scope": "More Effective Agile을 참고 도서로 명시.이 책은 독립 저작이며 기존 확인 범위·인용은 유지.",
+    "status": "수정됨·변경 범위 자기 점검 완료",
+    "limits": "새 외부 원문·판본 대조를 수행하거나 기존 확인 수준을 높인 것이 아님.",
+    "report": "planning/reviews/2026-10-20-reference-book-terminology.md"
   }
 }

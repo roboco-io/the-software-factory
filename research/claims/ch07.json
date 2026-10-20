@@ -58,7 +58,7 @@
       "note": "판정 번복·운영 결함·오류 상관관계·대기·잘못된 거부를 관찰하도록 제안. 8·9·19장의 세부 논의를 대신하지 않음."
     },
     {
-      "location": "리더는 판정 체계가 놓친 것을 관찰한다 / 원서 연결",
+      "location": "리더는 판정 체계가 놓친 것을 관찰한다 / 참고 도서 연결",
       "type": "주제 재고찰",
       "note": "기존 공개 목차 대응표의 11·12장 주제 연결. 새 원문 확인이나 본문 대조가 아님."
     },
@@ -118,7 +118,7 @@
     "sources": "직접 인용 0단어. 누적 사용 범위와 집계 방법은 sources.json의 usage_review 참조.",
     "pending": [
       "저자 검토",
-      "원서 본문 대조",
+      "참고 도서 본문 대조",
       "OpenHands 전체 CI·리뷰·Enterprise 환경 확인",
       "실제 업무에서 패턴 효과 검증"
     ],
@@ -255,5 +255,15 @@
     "status": "수정됨·변경 범위 자기 점검 완료",
     "limits": "외부 실험 재현·언어 고유 효과·일반 성공률·실제 청구액 확인 아님. 기존 패턴 정의는 유지.",
     "report": "planning/reviews/2026-10-19-language-benchmark-adoption.md"
+  },
+  "reference_book_terminology_update": {
+    "checked_on": "2026-10-20",
+    "author_decision": "D41",
+    "type": "저자 지시에 따른 서지 관계·용어 정정",
+    "source_ids": [],
+    "scope": "More Effective Agile을 참고 도서로 명시.이 책은 독립 저작이며 기존 확인 범위·인용은 유지.",
+    "status": "수정됨·변경 범위 자기 점검 완료",
+    "limits": "새 외부 원문·판본 대조를 수행하거나 기존 확인 수준을 높인 것이 아님.",
+    "report": "planning/reviews/2026-10-20-reference-book-terminology.md"
   }
 }

@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-20",
+  "head": "7112ea7ce8f2f026d600f9ae21e017efff7e5eeb",
+  "baseline": "이전1장/정책·보안원고를 보존한 미커밋 초안.웹표현코드는HEAD가 작업시작판본.",
+  "before_sha256": {
+    "website/scripts/publication.mjs": "5a4b08dab84d609520648f9e5e9c902e2fe0eb676430ce4ca43f7a5d7bd1ce29",
+    "website/scripts/pattern-references.mjs": null,
+    "website/src/components/BookContent.astro": "136ebdcbbec58e797f098e0843ab7ec750a0f893da4f8e3c1c1ad387a2101621",
+    "website/src/styles/book.css": "53a7894366abf8c446ad4fa90af23091c8ca3a046f109e5ccdca982ddf22babe",
+    "website/tests/publication.test.mjs": "32c3938b378192e4a94d0801b8a8f59330fb8dfff1f2b54c6cae3f1f535ebd0f",
+    "website/tests/e2e/patterns.spec.ts": null,
+    "website/package.json": "898569fc3077935399d5cc67d8d292927ef8fcd93337add305396400f6dc0e71",
+    "website/package-lock.json": "c5df0b0cbbc30458e2afe3fedb0de5d1da2538861552114df61203e0904d63d4"
+  },
+  "after_sha256": {
+    "website/scripts/publication.mjs": "eaed35b9c67d049961107b2ec24ac9cc21de67408371a9ff57f157162987014a",
+    "website/scripts/pattern-references.mjs": "ab2a966e14060be0d2009351788971c16dfecda24e9e4e1e97661128f83a8956",
+    "website/src/components/BookContent.astro": "bc573339b4e6b61c214e966a90cad9204111a12a29a0b5ec06bd7368b5a1b97f",
+    "website/src/styles/book.css": "e440ee5129484417d4050c1b10f308a5579fc6cf7b81f51fcb4aefcddcf02d84",
+    "website/tests/publication.test.mjs": "95161cd5afcebbef821f909741b1bbe09dc85052e61bf0826ec8faae9965d9bc",
+    "website/tests/e2e/patterns.spec.ts": "827dd2b6a3773b447c86dcfa416f434dcfad6e736926a902e6b3116ee6f362d8",
+    "website/package.json": "806d04ff003b692a5283e0957e2dce32a109f0dabbc4a1bc6ff13d1ad8f5c7c4",
+    "website/package-lock.json": "6e4cc1f3fc98239e3ec1a789aa2496ac05923f0e2f48397330401c083c2a4f65",
+    "CHANGELOG.md": "20a16e250553c7a6c2f59e6d82a6f66f272d72c481b1cd070e3fc593cb4b0c89",
+    "STATUS.md": "f69d2110a4d311dee3913f9057fde72a3dd9d8f749e72ecea43fc71469ab7f1b",
+    "planning/sessions/2026-10-20-pattern-reference-badges.md": "6a85d88b9b1470fc04fb0b4c02f8d96003119d6114cc01656dfddde2a81c3589"
+  },
+  "validation": {
+    "unit": "33 passed",
+    "astro": "0 errors/warnings/hints",
+    "build": "56 pages;internal links/anchors passed",
+    "browser": "31 passed,1 intentional desktop skip of mobile-only test",
+    "coverage": "45 reader pages;161 inline pattern links;0 dangling known IDs or nested anchors",
+    "visual": "ch13 at390px dark and1065px light viewed",
+    "preservation": "manifest and sources hashes match preceding policy draft;no new reader revisions"
+  },
+  "publication": "local draft;not committed,pushed or deployed"
+}

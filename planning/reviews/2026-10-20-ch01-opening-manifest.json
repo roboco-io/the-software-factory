@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-20",
+  "head": "7112ea7ce8f2f026d600f9ae21e017efff7e5eeb",
+  "author_decision": "D38",
+  "before_sha256": {
+    "manuscript/chapters/ch01.md": "91892fe2794fa2f27f23011214d98d99b80eb26f577d763142ccca5510751e3a",
+    "book_project.json": "db89e672b8148eae24f91fe4ca4c722ea8230f11c2b119a88782b63d24f4349a",
+    "outline/toc.md": "14b5926012d4f1e286598670f98006a6c3fe976020e47718ec9945167b95840b",
+    "website/content-manifest.json": "edbc578cf9a8dea4a57bd0bfd3696f58cc1b8e75ddcdd14a782b27783dc0f37f",
+    "CHANGELOG.md": "65c87ed8050080dd0aa837e1751d60c887c98f8058cfbe9eb32821db1f2e6866"
+  },
+  "after_sha256": {
+    "manuscript/chapters/ch01.md": "a0da39b9095c0e41aa17cbdb4ef9fb3d5aaeeb4715e0e5df714ba05932c04029",
+    "book_project.json": "c358def885190325500e95c8d51174af96ee88dd6a8a18dbc1a6f0b92a1c8fc3",
+    "outline/toc.md": "17064bf0cba2e3d4613812bc1d816890853af14ef4f1ed0c525bc91e47b2e547",
+    "website/content-manifest.json": "d27955ba6f8c21bc1a02154b55eafb883010f50a79d4d4e10a5fae6182c9919d",
+    "CHANGELOG.md": "f21ced07b2b77e14aa4ed9e47c47c230fd379f02820fcd75aff28e1de12dba6c",
+    "research/claims/ch01.json": "f200c527be350eb9ba0d01865c84211443611a9772dc26c5348dca1711da7e5c",
+    "planning/decisions.md": "daf138ef49c8ac3538fae2382f0b2d581f428217217012028228d5dba8e31978",
+    "STATUS.md": "3556bcc129808e1b797841464e22ab08cd9948b28d696552a25d2408f320bb25",
+    "planning/reviews/2026-10-20-ch01-opening.md": "60c99f36898230d36077983c20b451fcd42cc4b55143766fd99f807f073c96f4",
+    "planning/sessions/2026-10-20-ch01-opening.md": "a9bb086079f1b0fe25896bcdd997164fb41a4e3488c639f9513438fac2c7bdb4"
+  },
+  "validation": {
+    "build": "56 pages and internal links/anchors passed",
+    "rendered": "new opening,chapter summary,stable s01 and old Korean heading URL checked",
+    "source_preservation": "sources.json unchanged from HEAD",
+    "reader_revision": "ch01 only +1;prior stable anchors kept",
+    "scope": "산문 수정의 자기 점검. 전체 브라우저/독자 시험 아님"
+  },
+  "publication": "local draft; not committed,pushed or deployed"
+}

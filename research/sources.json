@@ -226,7 +226,7 @@
       "checked_on": "2026-10-11",
       "published_on": null,
       "verification_status": "본문 또는 공개 소개 확인",
-      "limit": "원서 본문 전체 미확보",
+      "limit": "참고 도서 본문 전체 미확보",
       "verification_scope": "공식 도서 소개 확인",
       "usage_review": {
         "files": [
@@ -4534,6 +4534,119 @@
           "research/claims/ch19.json"
         ],
         "scope": "직접 인용0. 기존 조사 카드의 중복 사실 요약을 원고 위치 참조로 바꾸고,11장 중심 관측·19장 원인 설명과 대장·주장 메모의 누적 범위를 점검했다. 200단어 기본 상한 안의 제한적 파생 설명이며 독자용 표·코드·보고서 번역·언어 순위표를 복제하지 않았다."
+      }
+    },
+    {
+      "id": "S125",
+      "title": "2015 Letter to Shareholders — Invention Machine",
+      "author": "Jeffrey P. Bezos / Amazon.com, Inc.",
+      "url": "https://ir.aboutamazon.com/files/doc_financials/annual/2015-Letter-to-Shareholders.PDF",
+      "published_on": null,
+      "report_year": 2015,
+      "checked_on": "2026-10-20",
+      "verification_status": "1차 자료 관련 절 직접 확인",
+      "verification_scope": "PDF5쪽 Invention Machine의 결정 유형 관련 문단(웹추출196~206행). 전체서한의사업실적·외부근거는 검증하지 않음.",
+      "use": "9장 회복 가능성의 조직적 판단 틀 참고. 심층인터뷰·조건부자동화 기준은 저자 제안D39.",
+      "limit": "AI정책·심층인터뷰·자동승인 효과를 입증하지 않음. 실제 회복 가능성·영향·책임을 연결하는 제안은 책의 해석 후보.",
+      "usage_review": {
+        "checked_on": "2026-10-20",
+        "direct_quote_words": 0,
+        "files": [
+          "research/policy-interview-reversibility-proposal.md",
+          "research/claims/policy-interview-reversibility.json",
+          "research/sources.json",
+          "manuscript/chapters/ch09.md",
+          "research/claims/ch09.json"
+        ],
+        "scope": "원문의결정유형관계만 짧게의역. 전체서한·도표복제 없음.200단어 기본상한 내 제한."
+      }
+    },
+    {
+      "id": "S126",
+      "title": "least privilege — NIST CSRC Glossary",
+      "author": "NIST Computer Security Resource Center",
+      "url": "https://csrc.nist.gov/glossary/term/least_privilege",
+      "published_on": null,
+      "checked_on": "2026-10-20",
+      "verification_status": "공식 용어집 정의 직접 확인",
+      "verification_scope": "최소권한 정의 항목(웹추출115~125행). 연결된 원전 표준 전체는 확인하지 않음. AC-6 검색 링크는 CPRT목록으로 리다이렉트되어 근거로 사용하지 않음.",
+      "use": "12장 최소 권한의 용어상 근거.9장 정보 비가역성의 엄격한 적용은 저자D40의 원칙.",
+      "limit": "특정 제품의 집행·정보 회수·법규 적합성을 검증하지 않음. 인터뷰 효과·자동 승인 안전성을 입증하지 않음.",
+      "usage_review": {
+        "checked_on": "2026-10-20",
+        "direct_quote_words": 0,
+        "files": [
+          "manuscript/chapters/ch12.md",
+          "research/claims/ch12.json",
+          "research/sources.json"
+        ],
+        "scope": "정의만 짧게 의역.200단어 기본상한 이내. 원전 표준의 요구사항을 전재하지 않음."
+      }
+    },
+    {
+      "id": "S127",
+      "title": "바이브 코딩 척도",
+      "author": "정도현 / ROBOCO",
+      "url": "https://roboco.io/posts/vibe-coding-scale/",
+      "published_on": "2025-05-16",
+      "checked_on": "2026-10-21",
+      "verification_status": "저자 공개 글 본문 직접 확인",
+      "verification_scope": "1~5단계의 정의와 결론. 특히4단계 프로젝트 지원과5단계 사업목표/운영자동화의 구분.",
+      "use": "서문에2025년 척도와 원문링크를 소개.현재팩토리의5단계지향은저자의후속해석으로명시.",
+      "limit": "저자의성숙도제안이며독립검증척도/공인인증이아님.현재책의5단계대응은후속해석으로당시글에소급하지않음.실제구현의도달단계는별도평가.",
+      "usage_review": {
+        "checked_on": "2026-10-21",
+        "direct_quote_words": 4,
+        "files": [
+          "research/claims/vibe-coding-scale.json",
+          "research/sources.json",
+          "manuscript/front-matter/00-preface.md",
+          "research/claims/preface.json"
+        ],
+        "scope": "5단계 명칭의 짧은 인용과 척도의 요약.기존 질문답변용메모와서문누적사용을점검했다.200단어기본상한 내 제한하며원문전체·성과주장을복제하지않음."
+      }
+    },
+    {
+      "id": "S128",
+      "title": "The Software Factory Demo — goal automation feasibility snapshot",
+      "author": "roboco-io / the-software-factory-demo",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/a5bba6b7075222e7c0204f6822fba74977d313f4/README.md",
+      "published_on": null,
+      "checked_on": "2026-10-21",
+      "commit": "a5bba6b7075222e7c0204f6822fba74977d313f4",
+      "verification_status": "공개 문서·선택 코드 경로의 정적 확인",
+      "verification_scope": "README첫100행,feature.yml,command/triage,implement의프롬프트/게이트/게시부분,protect/improve-paths,metrics,weekly/deploy,agents/risk설정과관련workflow일부.전체저장소·실행·운영효과 확인 아님.",
+      "use": "현재데모가이슈한건으로사업목표중심자동화기반을자가확장할수있는지검토.책의기존검증판본은승격하지않음.",
+      "limit": "파일경로보호와제어흐름의정적확인.실제GitHub권한·키·배포환경·런타임보안·사업데이터·성과·전수기능부재를검증하지않음.제안여정은관측된구현과구분.",
+      "supporting_urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/a5bba6b7075222e7c0204f6822fba74977d313f4/factory/prompts/implement.md",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/a5bba6b7075222e7c0204f6822fba74977d313f4/packages/factory/src/stages/implement.ts",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/a5bba6b7075222e7c0204f6822fba74977d313f4/packages/factory/src/stages/protect.ts",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/a5bba6b7075222e7c0204f6822fba74977d313f4/packages/factory/src/policy/improve-paths.ts",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/a5bba6b7075222e7c0204f6822fba74977d313f4/packages/factory/src/stages/command.ts",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/a5bba6b7075222e7c0204f6822fba74977d313f4/packages/factory/src/stages/deploy.ts",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/a5bba6b7075222e7c0204f6822fba74977d313f4/packages/factory/src/report/metrics.ts",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/a5bba6b7075222e7c0204f6822fba74977d313f4/packages/factory/src/stages/weekly.ts"
+      ],
+      "usage_review": {
+        "checked_on": "2026-10-21",
+        "direct_quote_words": 0,
+        "files": [
+          "research/demo-business-goal-feasibility.md",
+          "research/claims/demo-business-goal-feasibility.json",
+          "research/sources.json"
+        ],
+        "scope": "정적제약만짧게요약.코드·전체문서복제없음.해석/설계제안은명시적으로구분.누적요약200단어기본상한이내로제한."
+      },
+      "handoff_observation": {
+        "checked_on": "2026-10-21",
+        "scope": "기획전달시main동일SHA재확인·AGENTS와PR76/78제목/본문/열림상태 확인.해당PR코드/시험결과는검증하지않고현재main구현과분리.",
+        "proposal": "planning/demo-business-goal-automation-proposal.md",
+        "issue_url": "https://github.com/roboco-io/the-software-factory-demo/issues/79",
+        "related_urls": [
+          "https://github.com/roboco-io/the-software-factory-demo/pull/76",
+          "https://github.com/roboco-io/the-software-factory-demo/pull/78"
+        ]
       }
     }
   ],

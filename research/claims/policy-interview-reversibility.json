@@ -1,0 +1,18 @@
+{
+  "checked_on": "2026-10-20",
+  "status": "D39·D40 답변 반영·9/12장 수정·변경 범위 자기 점검 완료",
+  "source_ids": [
+    "S125"
+  ],
+  "type": "사용자 직접 제안·저자 해석 후보와 원문 판단 틀 구분",
+  "scope": "9장에 정책 심층인터뷰와 회복 가능성 기준을 통합할 후보",
+  "limits": "심층인터뷰 효과·특정 제품의 정보회수/자동승인 안전성을 실증한 것은 아님. 기존 자동화 경계에 저자의 보안 원칙을 구체화함.",
+  "record": "research/policy-interview-reversibility-proposal.md",
+  "author_decision": "D39",
+  "resolution": "단방향도 대상과 사안에 따라 조건부자동화 가능. 고정 사람승인 규칙 없음.",
+  "author_decisions": [
+    "D39",
+    "D40"
+  ],
+  "adoption_report": "planning/reviews/2026-10-20-policy-interview-adoption.md"
+}

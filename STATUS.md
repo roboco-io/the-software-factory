@@ -806,3 +806,7 @@ D48에 따라9장SVG중앙을의도로변경하고본문·표·심층인터뷰·
 ## 2026-10-21 책 토론 포럼 절 링크
 
 사용자 결정(데모 저장소 포럼 후속 작업)에 따라 웹 생성기 `website/scripts/publication.mjs`의 `transformMarkdown`이 문서 ID를 받아 각 `##` 절 제목 아래에 ‘이 절 토론하기’ 링크(`https://roboco.io/the-software-factory-demo/#/book/<문서 ID>?anchor=<sNN>`)를 넣는다. 링크는 고정 앵커를 쓰므로 제목이 바뀌어도 유지되고, 사이트 검색 색인에서는 제외한다(`data-pagefind-ignore`). 원고·매니페스트·출처는 바꾸지 않았다. 변경 파일: `website/scripts/publication.mjs`, `website/scripts/generate-content.mjs`, `website/src/styles/book.css`, `website/tests/publication.test.mjs`, `CHANGELOG.md`. 검증: 단위 34·프로젝트 검사(20장/15패턴/128출처)·Astro 오류/경고/힌트 0·56페이지 빌드와 링크 검사·브라우저 31 통과/의도적 제외 1. 포럼 쪽 연동(절 토론 목록, 절 단위 개정 표시, 개정 제안 이슈)은 데모 저장소 PR #107·#108에 있다.
+
+## 2026-10-21 책 배포 후 포럼 목차 동기화 호출
+
+사용자 결정(데모 저장소 포럼 후속 작업)에 따라 `.github/workflows/pages.yml`에 `notify-forum` job을 추가했다. Pages 배포가 성공하면 이 job이 배포한 커밋 SHA를 담아 포럼의 내부 엔드포인트 `POST https://sfd-api.roboco.workers.dev/api/book/sync`를 호출한다. 포럼은 그 커밋의 매니페스트와 원고를 읽어 목차·절 해시를 갱신하므로, 독자가 새 절의 "이 절 토론하기" 링크를 눌렀을 때 포럼이 매시 동기화를 기다리지 않고 그 절을 안다. 인증은 저장소 비밀값 `FORUM_SYNC_TOKEN`(포럼의 `BOOK_SYNC_TOKEN`과 같은 값)이다. 비밀값이 없으면 job은 안내만 남기고 성공으로 끝나며, 포럼의 매시 동기화는 그대로 남는다. 원고·매니페스트·사이트 출력은 바꾸지 않았으므로 독자용 변경 기록은 추가하지 않는다. 포럼 쪽 엔드포인트는 데모 저장소 PR #111이다.

@@ -1,0 +1,13 @@
+{
+  "checked_on": "2026-10-21",
+  "decision": "D48",
+  "files": {
+    "manuscript/chapters/ch09.md": "020fef297f625c6ce5e670ee625544755c39915d092ef1116341dd2f6e209ed2",
+    "manuscript/figures/harness-policy-cycle.svg": "9bc653d779cc0532fcc2eb4f31cfff0a2608b415fec0701fd2b6fb409e8ae8a2",
+    "research/claims/ch09.json": "a3cb7e5a11923dfcd81a56cffc8e276197ef9977e6d44c5532b02495da397b63"
+  },
+  "scope": "의도·맥락·정책·에이전트 관계, SVG/설명 일치 자기 점검",
+  "external_claims_added": false,
+  "existing_anchors": "preserved",
+  "reader_revision": "ch09 incremented"
+}

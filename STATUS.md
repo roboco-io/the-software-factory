@@ -802,3 +802,7 @@ D48에 따라9장SVG중앙을의도로변경하고본문·표·심층인터뷰·
 사용자 요청으로 정의/보안서문/기존전환·신규구축/의도중심하네스 설명을 커밋·배포한다. 삽화는 미채택초안으로만 보관하고 공개사이트에서 제외한다. 구조20장/15패턴/128출처·단위33·Astro0·56페이지빌드/링크·브라우저31통과/의도적제외1. [배포세션](planning/sessions/2026-10-21-definition-deployment.md). 실제공개와원격결과는후속확인한다.
 
 배포 확인: 15d5a1b/cb56505/3be034d/23c946c 커밋 및 origin/main SHA일치 확인. Pages 실행39544047410 성공. 공개홈/서문/9장/18장/SVG HTTP200·새정의/보안전망/두경로/의도표기와삽화부재를확인했다. 체인지로그를2026-10-21공개기록으로옮겨후속배포한다.
+
+## 2026-10-21 책 토론 포럼 절 링크
+
+사용자 결정(데모 저장소 포럼 후속 작업)에 따라 웹 생성기 `website/scripts/publication.mjs`의 `transformMarkdown`이 문서 ID를 받아 각 `##` 절 제목 아래에 ‘이 절 토론하기’ 링크(`https://roboco.io/the-software-factory-demo/#/book/<문서 ID>?anchor=<sNN>`)를 넣는다. 링크는 고정 앵커를 쓰므로 제목이 바뀌어도 유지되고, 사이트 검색 색인에서는 제외한다(`data-pagefind-ignore`). 원고·매니페스트·출처는 바꾸지 않았다. 변경 파일: `website/scripts/publication.mjs`, `website/scripts/generate-content.mjs`, `website/src/styles/book.css`, `website/tests/publication.test.mjs`, `CHANGELOG.md`. 검증: 단위 34·프로젝트 검사(20장/15패턴/128출처)·Astro 오류/경고/힌트 0·56페이지 빌드와 링크 검사·브라우저 31 통과/의도적 제외 1. 포럼 쪽 연동(절 토론 목록, 절 단위 개정 표시, 개정 제안 이슈)은 데모 저장소 PR #107·#108에 있다.

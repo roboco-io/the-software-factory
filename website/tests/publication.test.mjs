@@ -62,3 +62,20 @@ test('badge transformation is stable when an already generated reference is proc
  assert.equal((first.match(/class="pattern-badge"/g)||[]).length,1);
  assert.equal(transformMarkdown(first),first);
 });
+
+test('links each section to its discussion on the book forum', () => {
+ const out=transformMarkdown('# 제목\n\n## 첫 절\n\n본문.\n\n## 둘째 절\n\n더.',{'첫 절':'s01','둘째 절':'s02'},'manuscript/chapters/ch05.md','ch05');
+ const links=[...out.matchAll(/<a class="forum-link" href="([^"]+)"[^>]*>이 절 토론하기<\/a>/g)].map(m=>m[1]);
+ assert.deepEqual(links,[
+  'https://roboco.io/the-software-factory-demo/#/book/ch05?anchor=s01',
+  'https://roboco.io/the-software-factory-demo/#/book/ch05?anchor=s02',
+ ]);
+ // 링크는 절 제목 바로 다음에 오고, 사이트 검색 색인에서는 제외한다.
+ assert.ok(/## 첫 절\n\n<p data-pagefind-ignore><a class="forum-link"/.test(out));
+ // 문서 ID 없이 변환하면(이전 호출 방식) 링크를 넣지 않는다.
+ assert.ok(!transformMarkdown('## 첫 절\n\n본문.',{'첫 절':'s01'}).includes('forum-link'));
+});
+test('forum link accessible name starts with the visible text and escapes the heading', () => {
+ const out=transformMarkdown('## A & "B" <C>\n\n본문.',{'A & "B" <C>':'s01'},'manuscript/chapters/ch01.md','ch01');
+ assert.ok(out.includes('aria-label="이 절 토론하기: A &amp; &quot;B&quot; &lt;C&gt;"'));
+});

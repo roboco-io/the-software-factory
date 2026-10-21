@@ -70,3 +70,4 @@ html:has(.book-home) .content-panel:first-child{display:none;}html:has(.book-hom
 /* Pattern references stay part of the sentence;only the small category badge is unbreakable. */
 .pattern-ref .pattern-badge,.pattern-links .pattern-badge{display:inline-block;white-space:nowrap;font:600 .65em/1.35 var(--sl-font);vertical-align:middle;margin-inline-start:.4em;padding:.05em .4em;border:1px solid var(--line);border-radius:.3em;background:var(--wash);color:var(--accent);text-decoration:none;letter-spacing:0;}
 .book-article a.pattern-ref{white-space:normal;text-decoration-thickness:1px;}
+.book-article .forum-link{font-size:.85em;color:var(--sl-color-gray-3);text-decoration:none;}.book-article .forum-link:hover{text-decoration:underline;}

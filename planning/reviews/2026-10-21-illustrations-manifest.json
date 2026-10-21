@@ -1,0 +1,39 @@
+{
+  "created_on": "2026-10-21",
+  "status": "insertion deferred by author; assets retained as drafts",
+  "style": "A, cobalt/ivory editorial illustration",
+  "generation_tool": "imagegen",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "web_encoding": "cwebp quality 86, no resize",
+  "logo": "original SVG overlaid as a separate HTML layer; not redrawn by imagegen",
+  "semantic_revision": "unchanged; supplemental illustrations, existing prose and reading anchors preserved",
+  "assets": [
+    {
+      "chapter": "ch01",
+      "name": "ch01-customer-outcome",
+      "purpose": "Customer outcome within nonfunctional constraints",
+      "png_sha256": "bd3913ca1ac6cbd04bd1b0c7750d8bc7126da9856b52460b7353fc633e69c3da",
+      "webp_sha256": "3ae524af23fb0f1c80699a15cb0032714ecf1cc5c6a4e344beeab29666fc9261",
+      "webp_bytes": 111248
+    },
+    {
+      "chapter": "ch04",
+      "name": "ch04-two-improvement-loops",
+      "purpose": "Connected intent and harness improvement loops",
+      "png_sha256": "f078eb7f85e7657a9f7272c537cc3c9e441e02c442a909f130d8d2b76f036966",
+      "webp_sha256": "ba3c2e548a316c02f10640eb7368609fef2335f3719bef274e106f3c2f906c13",
+      "webp_bytes": 115810
+    },
+    {
+      "chapter": "ch09",
+      "name": "ch09-shared-responsibility",
+      "purpose": "Product, policy and harness operating responsibilities",
+      "png_sha256": "487a2a7c6b0d9d865f1d2c602cb11816b60e338297d544bb22fd8af45d485707",
+      "webp_sha256": "4853e48739ec1637cb7f09be070928877d439555f84daaa21efbc2fcd6ad4e2d",
+      "webp_bytes": 151262
+    }
+  ]
+}

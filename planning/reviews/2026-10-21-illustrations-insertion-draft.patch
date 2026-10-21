@@ -1,0 +1,185 @@
+diff --git a/.gitignore b/.gitignore
+index 702b80b..6619bea 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -19,3 +19,6 @@ website/public/licenses/
+ 
+ # Generated copies of manuscript SVG figures
+ website/public/diagrams/
++
++# Generated web copies of manuscript illustrations
++website/public/illustrations/
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 0ce6b5e..6846fb9 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -2,6 +2,10 @@
+ 
+ 책을 다시 읽거나 활용할 때 알아둘 중요한 변화를 기록합니다.
+ 
++## 공개 예정
++
++- **팩토리의 핵심 관계를 삽화로 설명합니다.** [1장](https://factory.roboco.io/book/ch01/)은 고객 결과와 지킬 조건을, [4장](https://factory.roboco.io/book/ch04/)은 의도·하네스의 두 개선 루프를, [9장](https://factory.roboco.io/book/ch09/)은 자동 실행을 함께 운영하는 책임을 보여 줍니다. 로보코 로봇 고양이 로고를 에이전트 활동 표식으로 사용하고, 캡션과 대체 텍스트를 함께 제공합니다.
++
+ ## 2026-10-21 · 정책과 목표·독자 안내
+ 
+ - **이용 통계 수집 목적과 정보 범위를 명확히 안내합니다.** 책의 구성·설명·독서 기능을 개선하기 위한 선택적 동의임을 설명합니다. 이름·이메일은 맞춤 통계에 보내지 않으며, Google이 쿠키 식별자와 기기·브라우저 정보를 처리한다는 점을 동의 화면과 [개인정보 안내](https://factory.roboco.io/privacy/)에 명시합니다.
+diff --git a/manuscript/chapters/ch01.md b/manuscript/chapters/ch01.md
+index 68d3c4d..be497b4 100644
+--- a/manuscript/chapters/ch01.md
++++ b/manuscript/chapters/ch01.md
+@@ -12,6 +12,21 @@
+ 
+ 이 책은 원하는 결과와 지켜야 할 조건을 의도로 명시하고, 그 의도를 실행·검증·운영·개선으로 이어가는 소프트웨어 팩토리를 제안한다. 의도는 달성할 결과와 그 이유, 보호할 경계와 성공을 판단할 기준이다. 리더의 일은 이 기준에 따라 자동화할 범위를 정하고, 실제 결과의 증거로 의도와 생산 체계를 계속 고치는 것이다.
+ 
++<figure class="book-illustration">
++<div class="illustration-scene illustration-scene--ch01">
++
++![고객의 문제에서 정한 목표가 정보 보호와 비용 경계 안의 자동 실행을 거쳐 고객이 사용하는 결과로 이어지고, 관찰이 목표로 돌아오는 모습](../figures/illustrations/ch01-customer-outcome.webp)
++
++<div class="illustration-agent-mark">
++
++![로보코 로봇 고양이: 터미널 환경의 AI를 형상화한 에이전트 표식](../figures/illustrations/roboco-logo.svg)
++
++</div>
++</div>
++
++<figcaption>그림 1-1. 고객이 얻을 결과와 지켜야 할 조건을 함께 정한다. 자동 실행의 속도만 보지 않고, 정보 보호와 비용 등 비기능 요건을 지키며 고객의 문제를 해결했는지 관찰한다. 관찰한 결과는 다음 의도를 개선하는 근거가 된다. 로봇 고양이 표식은 터미널 환경의 AI를 형상화한 로보코 로고로, 이 책의 삽화에서는 에이전트의 활동을 나타낸다. 개념 설명을 위한 삽화다.</figcaption>
++</figure>
++
+ ## 소프트웨어 팩토리는 무엇을 운영하는가
+ 
+ 로보코가 제안하는 소프트웨어 팩토리는 의도를 효율적으로 정의하고 개선하는 파이프라인, 에이전트에 의한 전자동 소프트웨어 개발, 정책에 기반한 하네스 개선 루프를 결합한 생산 체계다. 여기서 정책은 에이전트와 실행 시스템이 따를 지침과 규칙이다. 자연언어·구조화된 문서 또는 둘의 결합으로 표현하고 실제 판정·행동에 연결한다. 이 책은 이 세 축이 함께 작동할 조건과 운영 책임을 다룬다. 의도는 무엇을 만들 가치가 있는지 정하고, 에이전트는 정해진 범위의 개발을 수행하며, 하네스는 수행의 기준과 기록을 다음 개선에 연결한다.
+diff --git a/manuscript/chapters/ch04.md b/manuscript/chapters/ch04.md
+index 8e7b626..c5e1f04 100644
+--- a/manuscript/chapters/ch04.md
++++ b/manuscript/chapters/ch04.md
+@@ -28,6 +28,21 @@
+ 
+ 의도와 하네스의 환류도 사람의 매회 승인을 전제로 삼지 않는다. 미리 정한 정책 안에서 목표를 구체화하거나 하위 지침·계획을 고치고 별도 평가를 통과한 변경을 적용하는 부분은 자동화할 수 있다. 상위 원칙의 변경이나 위임하지 않은 약속·위험을 선택해야 하면 해당 책임자에게 연결한다. 반복 수행과 자동 개선의 허용 범위를 각각 기록해야 실행 권한이 기준을 임의로 낮출 권한으로 바뀌지 않는다.
+ 
++<figure class="book-illustration">
++<div class="illustration-scene illustration-scene--ch04">
++
++![고정된 상위 원칙 아래에서 고객의 목표를 재검토하는 왼쪽 루프와 정책·실행·기록을 개선하는 오른쪽 루프가 실제 사용의 관찰로 연결되는 모습](../figures/illustrations/ch04-two-improvement-loops.webp)
++
++<div class="illustration-agent-mark">
++
++![로보코 로봇 고양이: 터미널 환경의 AI를 형상화한 에이전트 표식](../figures/illustrations/roboco-logo.svg)
++
++</div>
++</div>
++
++<figcaption>그림 4-1. 관찰한 결과를 두 개선 루프에 연결한다. 왼쪽은 무엇을 왜 만들지 의도를 개선하고, 오른쪽은 그 약속을 지킬 정책과 실행·관찰 방식을 개선한다. 같은 관찰이 두 루프에 영향을 줄 수 있지만, 어느 쪽도 상위 원칙을 실행의 편의에 맞춰 낮추지는 않는다. 로보코 로봇 고양이 표식은 에이전트의 활동을 나타낸다. 개념 설명을 위한 삽화다.</figcaption>
++</figure>
++
+ ## 반복 실행과 기준의 개선을 구분한다
+ 
+ Anthropic의 2024년 12월 글은 생성 결과에 평가와 피드백을 주는 반복 구조를 설명하며, 명확한 평가 기준과 반복 개선의 가치가 있는 조건을 제시한다.[S19] 이는 업체의 설계 지침이다. 이 구조를 모든 업무에서 효과가 입증된 운영 방식으로 읽어서는 안 된다.
+diff --git a/manuscript/chapters/ch09.md b/manuscript/chapters/ch09.md
+index 32fa3d9..b8f782c 100644
+--- a/manuscript/chapters/ch09.md
++++ b/manuscript/chapters/ch09.md
+@@ -32,6 +32,21 @@
+ 
+ 제품 책임자가 자동 수용 범위를 정한다는 것은 사전 위임과 운영 책임을 뜻한다. 그 범위 안에서는 정책 적용과 독립 판정, 수용·반영·배포 및 허용된 복구가 개별 승인 없이 이어진다. 정책 책임자와 하네스 운영자는 자동 처리·사람 판단·보류의 경계가 실제 실행에서 일치하는지 확인한다. 책임자를 기록한 뒤 모든 결과를 그 사람에게 승인받게 하는 구조와 구분한다.
+ 
++<figure class="book-illustration">
++<div class="illustration-scene illustration-scene--ch09">
++
++![목표를 정하는 제품 책임자, 정책 경계를 관리하는 책임자, 기록과 실행 기반을 개선하는 하네스 운영자가 고객과 자동 실행 공간을 함께 연결하는 모습](../figures/illustrations/ch09-shared-responsibility.webp)
++
++<div class="illustration-agent-mark">
++
++![로보코 로봇 고양이: 터미널 환경의 AI를 형상화한 에이전트 표식](../figures/illustrations/roboco-logo.svg)
++
++</div>
++</div>
++
++<figcaption>그림 9-1. 자동 실행을 함께 운영하되 책임은 구분한다. 왼쪽의 제품 책임자는 고객 결과와 위임 범위를, 오른쪽 위의 정책 책임자는 적용할 지침과 경계를, 오른쪽 아래의 하네스 운영자는 실행 기반과 기록·개선을 맡는다. 그림의 인물은 역할을 구분한 것이며 별도 직책이나 조직을 요구하지 않는다. 허용된 범위의 개별 실행마다 사람의 승인을 거치지는 않는다. 로보코 로봇 고양이 표식은 에이전트의 활동을 나타낸다. 개념 설명을 위한 삽화다.</figcaption>
++</figure>
++
+ ## 하네스가 실행을 지속할 조건을 만든다
+ 
+ 1장에서 모델·에이전트·하네스의 역할을 나눴다. 이 책에서 하네스는 정책·계획과 집행·실행 이력·모니터링과 개선을 잇는 전체 사이클이다. 그 안의 실행 기반은 에이전트의 실행 루프를 유지한다. 현재 목표와 상태를 읽어 모델에 필요한 맥락을 전달하고, 모델이 요청한 도구 호출을 허용된 경로로 실행하며, 결과나 실패를 다음 판단으로 돌려보낸다. 중단과 이관 뒤에도 같은 작업을 다시 식별할 수 있게 기록을 연결한다. 이 책은 이러한 역할을 팩토리의 필수 운영 기반으로 다룬다.
+@@ -111,7 +126,7 @@ Anthropic은 2025년 장기 실행 실험에서 초기 환경 준비와 이후 
+ 
+ ![상위 원칙 아래 정책, 계획과 집행, 실행 이력, 모니터링과 개선이 에이전트의 작업을 감싸며 순환하는 하네스](../figures/harness-policy-cycle.svg)
+ 
+-그림 9-1. 정책 기반 하네스 개선 사이클. 저자가 제공한 원안을 현재의 정책 정의와 계층에 맞춰 재구성했다. [다이어그램 크게 보기](../figures/harness-policy-cycle.svg).
++그림 9-2. 정책 기반 하네스 개선 사이클. 저자가 제공한 원안을 현재의 정책 정의와 계층에 맞춰 재구성했다. [다이어그램 크게 보기](../figures/harness-policy-cycle.svg).
+ 
+ 그림의 정책 단계에는 [3장](ch03.md)의 적용 범위별 지침을 연결한다. 최상위 원칙은 사이클이 자동으로 완화할 대상이 아니라 작업과 개선이 지켜야 할 경계다. 계획과 집행은 검사를 돌리는 일뿐 아니라 수행자의 행동·도구·협업·보고를 지침에 맞게 연결하는 일이다. 도구로 강제할 수 없는 판단도 담당자와 필요한 근거를 정해 실행 경로에 포함한다.
+ 
+diff --git a/website/scripts/generate-content.mjs b/website/scripts/generate-content.mjs
+index e14532e..d7f4415 100644
+--- a/website/scripts/generate-content.mjs
++++ b/website/scripts/generate-content.mjs
+@@ -60,3 +60,7 @@ writeFileSync(resolve(licenseDir,'THIRD-PARTY.txt'),'Notices for the primary web
+ // Authored SVG originals remain in the manuscript for print and web reuse.
+ const diagramDir=resolve(site,'public/diagrams');mkdirSync(diagramDir,{recursive:true});
+ for(const name of ['policy-hierarchy.svg','harness-policy-cycle.svg'])copyFileSync(resolve(root,'manuscript/figures',name),resolve(diagramDir,name));
++
++// Web-optimized copies; PNG masters stay with the manuscript.
++const illustrationDir=resolve(site,'public/illustrations');mkdirSync(illustrationDir,{recursive:true});
++for(const name of ['ch01-customer-outcome','ch04-two-improvement-loops','ch09-shared-responsibility'])copyFileSync(resolve(root,'manuscript/figures/illustrations',name+'.webp'),resolve(illustrationDir,name+'.webp'));
+diff --git a/website/scripts/publication.mjs b/website/scripts/publication.mjs
+index 512c075..31d5705 100644
+--- a/website/scripts/publication.mjs
++++ b/website/scripts/publication.mjs
+@@ -12,6 +12,8 @@ export function publicLink(target,sourcePath='') {
+  else if(/(?:^|\/)ch\d{2}\.md$/.test(path)) result='/book/'+path.match(/ch\d{2}/)[0]+'/';
+  else if(/(?:^|\/)p\d{2}\.md$/.test(path)) result='/patterns/'+path.match(/p\d{2}/)[0]+'/';
+  else if(/(?:^|\/)figures\/(policy-hierarchy|harness-policy-cycle)\.svg$/.test(path)) result='/diagrams/'+path.match(/(policy-hierarchy|harness-policy-cycle)\.svg$/)[0];
++ else if(/^\.\.\/figures\/illustrations\/(ch01-customer-outcome|ch04-two-improvement-loops|ch09-shared-responsibility)\.webp$/.test(path)) result='/illustrations/'+path.split('/').at(-1);
++ else if(path==='../figures/illustrations/roboco-logo.svg') result='/images/roboco-logo.svg';
+  else if(path.endsWith('/research/sources.json')) result='/sources/';
+  else if(/\/research\/claims\/ch\d{2}\.json$/.test(path)) return '/sources/#refs-'+path.match(/ch\d{2}/)[0];
+  else if(path.endsWith('/research/cases/software-factory-demo.md')) return '/sources/#S59';
+diff --git a/website/src/styles/book.css b/website/src/styles/book.css
+index 6fea146..fd22e40 100644
+--- a/website/src/styles/book.css
++++ b/website/src/styles/book.css
+@@ -70,3 +70,14 @@ html:has(.book-home) .content-panel:first-child{display:none;}html:has(.book-hom
+ /* Pattern references stay part of the sentence;only the small category badge is unbreakable. */
+ .pattern-ref .pattern-badge,.pattern-links .pattern-badge{display:inline-block;white-space:nowrap;font:600 .65em/1.35 var(--sl-font);vertical-align:middle;margin-inline-start:.4em;padding:.05em .4em;border:1px solid var(--line);border-radius:.3em;background:var(--wash);color:var(--accent);text-decoration:none;letter-spacing:0;}
+ .book-article a.pattern-ref{white-space:normal;text-decoration-thickness:1px;}
++
++.book-article .book-illustration{margin:2rem 0;break-inside:avoid;}
++.book-illustration p{margin:0!important;}
++.book-article .book-illustration img{display:block;width:100%;height:auto;aspect-ratio:3/2;border-radius:6px;background:#faf9f6;}
++.book-illustration figcaption{margin-top:.8rem;color:var(--muted);font-size:.88em;line-height:1.75;word-break:keep-all;overflow-wrap:anywhere;}
++
++.illustration-scene{position:relative;overflow:hidden;border-radius:6px;background:#faf9f6;}
++.illustration-agent-mark{position:absolute;width:13%;left:52%;top:56%;transform:translate(-50%,-50%);padding:1%;background:#faf9f6;border:1px solid #bac9e0;border-radius:8%;box-shadow:0 2px 5px #17212f18;}
++.illustration-scene--ch04 .illustration-agent-mark{left:76%;top:49%;}
++.illustration-scene--ch09 .illustration-agent-mark{left:52%;top:52%;}
++.book-article .illustration-agent-mark img{width:100%;height:auto;aspect-ratio:auto;border-radius:0;background:none;}
+diff --git a/website/tests/e2e/figures.spec.ts b/website/tests/e2e/figures.spec.ts
+index a572bc3..f54b905 100644
+--- a/website/tests/e2e/figures.spec.ts
++++ b/website/tests/e2e/figures.spec.ts
+@@ -7,3 +7,23 @@ test('policy figures load at chapter width and keep a link to the scalable origi
+   await expect(page.getByRole('link',{name:'다이어그램 크게 보기',exact:true})).toHaveAttribute('href',`/diagrams/${name}.svg`);
+  }
+ });
++
++test('chapter illustrations keep captions, original agent marks and responsive layout in both themes',async({page},testInfo)=>{
++ for(const theme of ['light','dark']){
++  await page.addInitScript(value=>localStorage.setItem('starlight-theme',value),theme);
++  for(const chapter of ['ch01','ch04','ch09']){
++   await page.goto(`/book/${chapter}/`);
++   const figure=page.locator('figure.book-illustration');await expect(figure).toHaveCount(1);
++   await figure.scrollIntoViewIfNeeded();
++   const scene=figure.locator('img[src$=".webp"]'),logo=figure.locator('img[src="/images/roboco-logo.svg"]');
++   for(const img of [scene,logo]){await img.evaluate((el:HTMLImageElement)=>el.decode());expect(await img.evaluate((el:HTMLImageElement)=>el.naturalWidth)).toBeGreaterThan(0);await expect(img).toHaveAttribute('alt',/.+/);}
++   await expect(figure.locator('figcaption')).toContainText('개념 설명');
++   await expect(figure.locator('figcaption')).toContainText('로보코');
++   const outer=await scene.boundingBox(),mark=await logo.boundingBox();expect(outer).not.toBeNull();expect(mark).not.toBeNull();
++   expect(mark!.x).toBeGreaterThan(outer!.x);expect(mark!.x+mark!.width).toBeLessThan(outer!.x+outer!.width);
++   expect(mark!.y).toBeGreaterThan(outer!.y);expect(mark!.y+mark!.height).toBeLessThan(outer!.y+outer!.height);
++   expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(page.viewportSize()!.width+1);
++   await figure.screenshot({path:testInfo.outputPath(`${chapter}-${theme}.png`)});
++  }
++ }
++});

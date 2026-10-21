@@ -79,3 +79,12 @@ test('forum link accessible name starts with the visible text and escapes the he
  const out=transformMarkdown('## A & "B" <C>\n\n본문.',{'A & "B" <C>':'s01'},'manuscript/chapters/ch01.md','ch01');
  assert.ok(out.includes('aria-label="이 절 토론하기: A &amp; &quot;B&quot; &lt;C&gt;"'));
 });
+test('a pattern page has one forum link to its section in the patterns document', () => {
+ const out=transformMarkdown('# P03 실행 가능한 계약\n\n상태: 초고\n\n## 상황\n\n본문.\n\n## 해법\n\n더.',{'상황':'s01','해법':'s02'},'manuscript/patterns/p03.md','p03');
+ const links=[...out.matchAll(/<a class="forum-link" href="([^"]+)"[^>]*>([^<]+)<\/a>/g)].map(m=>[m[1],m[2]]);
+ // 포럼은 패턴 15개를 문서 patterns 하나로 묶고 패턴 하나를 절 하나(앵커 pNN)로 다룬다.
+ assert.deepEqual(links,[['https://roboco.io/the-software-factory-demo/#/book/patterns?anchor=p03','이 패턴 토론하기']]);
+ assert.ok(out.startsWith('<p data-pagefind-ignore><a class="forum-link"'));
+ // 패턴 안의 절 앵커는 그대로 출력한다.
+ assert.ok(out.includes('<span id="s02" data-reading-anchor'));
+});

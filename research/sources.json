@@ -4064,14 +4064,20 @@
       "verification_status": "사용자 로컬 원고와 공개 저장소의 고정 원고 확인",
       "verification_scope": "저자의 조건부 전망·설계 제안 및 원문의 외부 근거 링크를 확인. 후속 검증한 외부 근거는 S108~S110으로 별도 등록.",
       "local_manuscript": "/Users/dohyunjung/Workspace/roboco-io/company/roboco-io.github.io/content/ko/posts/security-accelerates-software-factory.md",
-      "use": "18장 보안 도입 가설의 저자 출처",
-      "limit": "저자 전망은 실제 도입 확산·인과 효과의 관측이 아님. 블로그의 사고·규정·업체 주장 전체를 검증하지 않음. 공개 사이트 URL 열기는 실패하여 확인 가능한 저장소 판본으로 연결.",
+      "use": "18장 보안 도입 가설과 서문 저자 전망의 출발점",
+      "limit": "저자 전망은 실제 도입 확산·인과 효과의 관측이 아님. 블로그의 사고·규정·업체 주장 전체를 검증하지 않음. 2026-10-15 공개 URL 접근 실패로 기존 본문 출처는 저장소 고정 판본을 사용한다. 2026-10-21 공개 글은 후속 의견 검토용으로 읽었으며 기존 인용 판본을 교체하지 않았다.",
       "verification_history": [
         {
           "checked_on": "2026-10-15",
           "scope": "로컬 글의 중심 주장·대응 대기·조건부 도입·증거·위임·보안 한계·측정 논점 확인. 날짜는 front matter 기준.",
           "status": "사용자가 지정한 로컬 원고 확인; 공개 URL과 원문의 외부 근거는 미대조",
           "url": "https://roboco.io/posts/security-accelerates-software-factory/"
+        },
+        {
+          "checked_on": "2026-10-21",
+          "url": "https://roboco.io/posts/security-accelerates-software-factory/",
+          "scope": "공개 글의 보안 압력·발견 후 조치 대기·자동화 범위·팩토리 자체 보안 위험·조건부 전망을 읽고 서문 논지 후보와 대조. 외부 사고·규정·수치의 1차 근거를 이번 세션에서 재검증하지 않음. 기존 고정 판본의 본문 인용은 변경하지 않음.",
+          "status": "서문 반영 의견을 위한 후속 공개 글 읽기"
         }
       ],
       "revision": "5513d84853da07295d2abe23549f6f54d3a6ebac",
@@ -4080,10 +4086,12 @@
         "files": [
           "manuscript/chapters/ch18.md",
           "planning/security-adoption-integration-proposal.md",
-          "research/claims/security-adoption.json"
+          "research/claims/security-adoption.json",
+          "manuscript/front-matter/00-preface.md",
+          "research/claims/security-preface-proposal.json"
         ],
         "direct_quote_words": 0,
-        "scope": "저자의 조건부 전망을 짧게 의역·출처 표시. 본문에서 블로그의 모든 사건·수치를 재현하지 않음."
+        "scope": "저자의 조건부 전망을 짧게 의역·출처 표시. 본문에서 블로그의 모든 사건·수치를 재현하지 않음. 서문은 기존 도입 가속 전망을 짧게 연결하고 필수 기반 전망은 D46의 저자 제안으로 구분. 직접 인용·새 외부 사건/통계 없음."
       }
     },
     {

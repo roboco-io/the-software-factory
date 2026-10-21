@@ -13,13 +13,14 @@ import book from '../data/book.json';
   </section>
   <section class="factory-definition" aria-labelledby="factory-definition-title">
    <div class="section-heading"><div><p>로보코가 제안하는 운영 방식</p><h2 id="factory-definition-title">소프트웨어 팩토리란</h2></div></div>
-   <p>로보코의 소프트웨어 팩토리는 <strong>의도를 정의하고 개선하는 파이프라인, 에이전트에 의한 전자동 소프트웨어 개발, 정책에 기반한 하네스 개선 루프</strong>를 결합한 소프트웨어 생산 체계입니다.</p>
+   <p>로보코의 소프트웨어 팩토리는 <strong>비즈니스 목표를 중심으로 소프트웨어 개발·운영·개선을 자동화하는 체계</strong>입니다. 고객의 문제와 기대하는 사업 성과를 목표로 삼고, 보안·신뢰성·비용 등의 조건을 지키면서 정책이 허용한 범위에서 실행합니다. 실제 결과를 관찰해 다음 행동과 실행 방식을 개선합니다.</p>
+   <p>이 비즈니스 목표 중심 자동화를 실현하는 원리는 다음 세 가지입니다.</p>
    <ol class="factory-pillars">
-    <li><strong>의도를 효율적으로 정의하고 개선합니다.</strong> 무엇을 왜 만들고, 무엇을 하지 않을지 정합니다. 탐색과 실행에서 얻은 피드백으로 의도를 다듬고, 다음 개발의 기준으로 연결합니다.</li>
-    <li><strong>에이전트가 소프트웨어 개발을 전자동으로 수행합니다.</strong> 원칙과 정책이 허용하고 필요한 조건을 갖춘 범위는 사람의 개별 승인 없이 수용·배포까지 이어갑니다. 정해진 예외·복구도 자동 처리하고, 사람이 판단할 부분과 조건 미확인의 보류는 정책으로 구분합니다. 결과의 책임과 개별 승인은 다릅니다.</li>
+    <li><strong>의도를 효율적으로 정의하고 개선합니다.</strong> 고객 문제와 사업 목표를 실행 가능한 가설·조건·판정 기준으로 구체화합니다. 탐색과 운영에서 얻은 증거로 의도를 다듬고 다음 개발의 기준으로 연결합니다.</li>
+    <li><strong>에이전트가 소프트웨어 개발을 전자동으로 수행합니다.</strong> 목표에 필요한 변경을 설계·구현·검증·배포로 이어갑니다. 원칙과 정책이 허용하고 필요한 조건을 갖춘 범위는 사람의 개별 승인 없이 수용·배포까지 이어갑니다. 정해진 예외·복구도 자동 처리하고, 사람이 판단할 부분과 조건 미확인의 보류는 정책으로 구분합니다. 결과의 책임과 개별 승인은 다릅니다.</li>
     <li><strong>정책에 따라 하네스를 계속 개선합니다.</strong> 하네스는 정책 → 계획과 집행 → 실행 이력 → 모니터링·개선의 전체 사이클입니다. 정책은 에이전트의 작업 지침이며, 상위 원칙 아래 적용 범위별로 구체화합니다. 지침을 실제 수행에 적용하고 행동·변경·판단 근거를 기록합니다. 실행 이력과 운영·사용자 신호로 하위 지침과 집행 방식을 개선하되, 상위 원칙을 완화하거나 우회하지 않습니다.</li>
    </ol>
-   <p class="definition-source">로보코의 정의를 이루는 세 축입니다. <a href="https://intent.roboco.io/ko/guide/concept.html">의도 공학의 핵심 개념</a>과 <a href="/book/ch09/">팩토리의 구조와 하네스 운영</a>에서 자세히 읽을 수 있습니다.</p>
+   <p class="definition-source">세 원리를 같은 목표에 연결하고, 배포 이후의 결과로 다음 개선·추가 조사·중단을 판단합니다. 사업 성과는 실제 증거로 확인해야 합니다. <a href="https://intent.roboco.io/ko/guide/concept.html">의도 공학의 핵심 개념</a>과 <a href="/book/ch09/">팩토리의 구조와 하네스 운영</a>에서 자세히 읽을 수 있습니다.</p>
   </section>
   <section class="home-contents"><div class="section-heading"><div><p>책의 구성</p><h2>다섯 챕터로 이루어지는 하나의 흐름</h2></div><a href="/contents/">전체 목차 보기</a></div>
    <ol class="parts-list">{book.parts.map((part,i)=><li><span class="part-number">{String(i+1).padStart(2,'0')}</span><div><a href={book.chapters.find(c=>c.part===i+1)?.url}>{part.replace(/^\d부 /,'')}</a><p>{['목적과 기준, 바꿀 권한을 정합니다.','계약·분해·완료·복구를 설계합니다.','생산 기반과 지식·능력·권한을 연결합니다.','사람의 판단과 팀의 협력을 뒷받침합니다.','측정하고 도입하며, 근거에 따라 넓힙니다.'][i]}</p></div><span>{i*4+1}–{i*4+4}장</span></li>)}</ol>

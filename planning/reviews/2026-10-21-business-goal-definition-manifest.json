@@ -1,0 +1,18 @@
+{
+  "checked_on": "2026-10-21",
+  "decision": "D45",
+  "scope": "저자 정의·문맥 일치",
+  "files": {
+    "manuscript/front-matter/00-preface.md": "ea3f450bfe2bff09da8f948a6d51eced0d09b9453ee9c59cfecad28f6a616f74",
+    "manuscript/chapters/ch01.md": "44ffead153cc46b233cc6d798999d9ba78caca0e1e3a0ba6829242037d99eccf",
+    "manuscript/chapters/ch09.md": "747b636e299871cabcec2e3efb7d04a6228027ad912428b58de7873b39f9070b",
+    "manuscript/chapters/ch18.md": "d67d088ae022e86f92b025a3dbfe5912c88f987ee6a3808998cdc9dae9583b89",
+    "manuscript/chapters/ch20.md": "a6fb13e10c168744263526683c933ee8187ab3579c650fb168475085f9580e68",
+    "website/src/pages/index.astro": "eecbb3e3716deebaccac2a1c3b8755162d831303958c049b8b063462d1c6967f",
+    "planning/book-brief.md": "a20c7abc7cf9b00bfeb868407c5852cffb34920ee6a88e8352394d70e8948f08",
+    "book_project.json": "0359f0e0370ca0c3f78d68b5167b98bf676da6052c59c4f790fa19357d831b41",
+    "AGENTS.md": "c8d12b8fc2755212456deb825f4c4c78b3b82b1706eed596cc508e197f2cae8b"
+  },
+  "external_sources_added": false,
+  "illustrations": "deferred; no manuscript integration"
+}

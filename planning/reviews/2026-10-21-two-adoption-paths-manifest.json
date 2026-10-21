@@ -1,0 +1,22 @@
+{
+  "checked_on": "2026-10-21",
+  "decision": "D47",
+  "files": {
+    "manuscript/front-matter/00-preface.md": "6db80c6f74b0520ca9f04b8c872ed5739458283487a71c7047a6bc9fd4cb9e9c",
+    "manuscript/chapters/ch09.md": "2a04adf699c81acd893c2096d2e82db00a5ae6c0a8ee00e7b032c2684db9b2bd",
+    "manuscript/chapters/ch18.md": "e7dac9cfdc823323c9870da0a87f5c34cddca3d5dbc2589767478ff8745fcbea",
+    "manuscript/chapters/ch20.md": "e3fcc02de322882f3513e92bcf8b455d3765026d538c920837dcdd74e9e1d5c8",
+    "book_project.json": "7023517459e257aeef5c69d9e9ee7c89914e3355ee3790f8b1576aafb0de7c45",
+    "outline/toc.md": "c027c8f085614cb998b32886278a6aef6e67dbc79c793cc1e36e9ace42e711d2",
+    "planning/book-brief.md": "856dbef1113bd91f4429190686fc32e74dfe439ea518cc157028824dd50ca116"
+  },
+  "source_ids_added": [],
+  "type": "저자 제안의 적용 범위·연결 자기 점검",
+  "reader_revisions_updated": [
+    "preface",
+    "ch09",
+    "ch18",
+    "ch20"
+  ],
+  "anchors": "기존 앵커 보존, 18장 새 절에만 새 앵커 등록"
+}

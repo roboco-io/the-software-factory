@@ -88,3 +88,10 @@ test('a pattern page has one forum link to its section in the patterns document'
  // 패턴 안의 절 앵커는 그대로 출력한다.
  assert.ok(out.includes('<span id="s02" data-reading-anchor'));
 });
+test('preface and demo pages keep one forum link per section', () => {
+ for(const [path,id] of [['manuscript/front-matter/00-preface.md','preface'],['manuscript/demo/request.md','demo-request']]){
+  const out=transformMarkdown('## 첫 절\n\n본문.',{'첫 절':'s01'},path,id);
+  assert.ok(out.includes(`href="https://roboco.io/the-software-factory-demo/#/book/${id}?anchor=s01"`));
+  assert.ok(!out.includes('이 패턴 토론하기'));
+ }
+});

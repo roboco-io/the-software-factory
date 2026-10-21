@@ -22,6 +22,7 @@ export function publicLink(target,sourcePath='') {
 }
 // 책 토론 포럼(데모 서비스)의 절 토론 목록. 문서 ID와 고정 앵커로 연결하므로 제목이 바뀌어도 링크가 유지된다.
 export const FORUM_BASE='https://roboco.io/the-software-factory-demo/';
+const escapeAttr=v=>v.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 export const forumSectionUrl=(docId,anchor)=>`${FORUM_BASE}#/book/${docId}?anchor=${anchor}`;
 export function transformMarkdown(text,anchors={},sourcePath='',docId='') {
  const body=text.replace(/^# .+\n/,'').replace(/^상태:.*\n/gm,'')
@@ -29,6 +30,6 @@ export function transformMarkdown(text,anchors={},sourcePath='',docId='') {
  return linkPatternReferences(body)
  .replace(/\[(S\d{2,})\](?!\()/g,(_,id)=>`<a class="source-ref" href="/sources/#${id}" aria-label="출처 ${id}">[${id}]</a>`)
  .replace(/^## (.+)$/gm,(line,title)=>{if(!anchors[title])throw Error('Missing stable anchor: '+title);
-  const forum=docId?`\n\n<p data-pagefind-ignore><a class="forum-link" href="${forumSectionUrl(docId,anchors[title])}" aria-label="${title.replace(/"/g,'&quot;')} 절 토론하기">이 절 토론하기</a></p>`:'';
+  const forum=docId?`\n\n<p data-pagefind-ignore><a class="forum-link" href="${forumSectionUrl(docId,anchors[title])}" aria-label="이 절 토론하기: ${escapeAttr(title)}">이 절 토론하기</a></p>`:'';
   return `<span id="${anchors[title]}" data-reading-anchor aria-hidden="true"></span>\n\n${line}${forum}`;}).trim();
 }

@@ -75,3 +75,7 @@ test('links each section to its discussion on the book forum', () => {
  // 문서 ID 없이 변환하면(이전 호출 방식) 링크를 넣지 않는다.
  assert.ok(!transformMarkdown('## 첫 절\n\n본문.',{'첫 절':'s01'}).includes('forum-link'));
 });
+test('forum link accessible name starts with the visible text and escapes the heading', () => {
+ const out=transformMarkdown('## A & "B" <C>\n\n본문.',{'A & "B" <C>':'s01'},'manuscript/chapters/ch01.md','ch01');
+ assert.ok(out.includes('aria-label="이 절 토론하기: A &amp; &quot;B&quot; &lt;C&gt;"'));
+});

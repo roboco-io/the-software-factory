@@ -20,10 +20,15 @@ export function publicLink(target,sourcePath='') {
  if(!result)throw Error('Unmapped publication link: '+target);
  return result+(hash?'#'+hash:'');
 }
-export function transformMarkdown(text,anchors={},sourcePath='') {
+// 책 토론 포럼(데모 서비스)의 절 토론 목록. 문서 ID와 고정 앵커로 연결하므로 제목이 바뀌어도 링크가 유지된다.
+export const FORUM_BASE='https://roboco.io/the-software-factory-demo/';
+export const forumSectionUrl=(docId,anchor)=>`${FORUM_BASE}#/book/${docId}?anchor=${anchor}`;
+export function transformMarkdown(text,anchors={},sourcePath='',docId='') {
  const body=text.replace(/^# .+\n/,'').replace(/^상태:.*\n/gm,'')
  .replace(/\[([^\]]+)\]\(([^\s)]+)\)/g,(_,label,url)=>`[${label.replace('주장 메모','자료 확인 범위').replace('기존 연구 대응 지도','참고 도서 주제 연결의 범위').replace('연구 대응 지도','참고 도서 주제 연결의 범위')}](${publicLink(url,sourcePath)})`);
  return linkPatternReferences(body)
  .replace(/\[(S\d{2,})\](?!\()/g,(_,id)=>`<a class="source-ref" href="/sources/#${id}" aria-label="출처 ${id}">[${id}]</a>`)
- .replace(/^## (.+)$/gm,(line,title)=>{if(!anchors[title])throw Error('Missing stable anchor: '+title);return `<span id="${anchors[title]}" data-reading-anchor aria-hidden="true"></span>\n\n${line}`;}).trim();
+ .replace(/^## (.+)$/gm,(line,title)=>{if(!anchors[title])throw Error('Missing stable anchor: '+title);
+  const forum=docId?`\n\n<p data-pagefind-ignore><a class="forum-link" href="${forumSectionUrl(docId,anchors[title])}" aria-label="${title.replace(/"/g,'&quot;')} 절 토론하기">이 절 토론하기</a></p>`:'';
+  return `<span id="${anchors[title]}" data-reading-anchor aria-hidden="true"></span>\n\n${line}${forum}`;}).trim();
 }

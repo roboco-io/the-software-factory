@@ -30,7 +30,7 @@ for(const entry of entries){
  const data={title:entry.title,description:entry.decision??entry.purpose??project.working_subtitle,bookId:entry.id,revision:record.revision,decision:entry.decision??'',pagefind:true,editUrl:false};
  if(entry.number){data.prev={link:entry.number===1?'/book/preface/':`/book/ch${String(entry.number-1).padStart(2,'0')}/`,label:entry.number===1?'서문':`${entry.number-1}장`};data.next=entry.number===20?false:{link:`/book/ch${String(entry.number+1).padStart(2,'0')}/`,label:`${entry.number+1}장`};}
  else {data.prev=false;data.next=entry.id==='preface'?{link:'/book/ch01/',label:'1장 코드 생성에서 의도 실현으로'}:false;}
- write(entry.route,data,transformMarkdown(text,record.anchors,entry.path));
+ write(entry.route,data,transformMarkdown(text,record.anchors,entry.path,entry.id));
 }
 const safe=v=>String(v??'').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 let bibliography='본문에 인용한 자료만 모았습니다. 공개 설명·코드 구조·실행 기록·운영 효과의 확인 범위는 서로 다릅니다. 발표일을 확인하지 못한 자료는 확인일을 표시합니다.\n\n';

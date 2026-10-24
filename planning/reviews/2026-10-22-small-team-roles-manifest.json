@@ -1,0 +1,20 @@
+{
+  "checked_on": "2026-10-22",
+  "base_commit": "10236a028600f4e01d8f228ecbf09b9f029ccd48",
+  "decision": "D49",
+  "files": {
+    "manuscript/chapters/ch09.md": "93f8bac80cd004764d7fde0b32168244fd00773dcfb1e8aaf3b84196dd295435",
+    "manuscript/chapters/ch13.md": "d886d909986e32b2e5d88f80b148478b9fbf34d63a81b0329f4ed205460174f9",
+    "manuscript/chapters/ch14.md": "f7de354110dd09879f9db69f52676e31ca9a756894c3948f00fb39a4ed16d93d",
+    "manuscript/chapters/ch17.md": "c85ff5ff5b6765a76bf6c2698ac5e889c39bb6a76add909aedd5d0ca96cb021c",
+    "manuscript/chapters/ch18.md": "f5d4a355af1d9818e6acc49a77d1ea906c7ab4b6c0e2dfe60beebc493a185c35"
+  },
+  "reader_revisions": {
+    "ch09": "15",
+    "ch13": "5",
+    "ch14": "5",
+    "ch17": "10",
+    "ch18": "9"
+  },
+  "status": "변경 범위 자기 검증"
+}

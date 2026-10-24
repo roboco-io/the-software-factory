@@ -1,0 +1,38 @@
+{
+  "checked_on": "2026-10-24",
+  "decision": "D51",
+  "base_commit": "10236a028600f4e01d8f228ecbf09b9f029ccd48",
+  "files": {
+    "manuscript/front-matter/00-preface.md": "8bd10af6802c0fef180baa131b6a7e5592668b608962baaaa8f1d17d32af3060",
+    "manuscript/chapters/ch01.md": "e6d33c8801ab33a0f56f94b4681bca5643dde9c82180e875411e470f260ddc93",
+    "manuscript/chapters/ch03.md": "5512daf4ecac1df245e2b0172757c275f0be336cf9ac74f03b0e0e3357f29286",
+    "manuscript/chapters/ch09.md": "c40c62a5071989fbcd4187a79a55bf5eb6638b9c9204b9acecfe02642c696aad",
+    "manuscript/chapters/ch12.md": "a817b33141756dba347ebf4300aa6a9659abffccbbd8904b6ee68449c9401d9f",
+    "manuscript/chapters/ch18.md": "1e1aa2199007d0b7d7fc19e776ec8d472ea402bf0e4adcd5a715fc3fa5919282",
+    "manuscript/chapters/ch20.md": "8b5c838573314c072b088223a49948498a893509e2cf64873a862d7b9173f68f",
+    "website/src/pages/index.astro": "568eea064d9ffa43fab9cec3333aa0c867807251f8b8f854698f2d4dc05c693a",
+    "book_project.json": "8e549415af5e0f39f1e170a079fd342f27d1203584984ef117c8569da16bad48",
+    "planning/book-brief.md": "75cde89f947c49919e7b9ef05a33e8922c971e5ddf968acd7f3b7c7d3bee2783",
+    "planning/automation-scope-policy.md": "545c2fabdeefbbf4f84baf11ef9bec414113e21e8cf305291ff497405cf99a7f",
+    "AGENTS.md": "5e1a4eda80c7feec67c3058c42bb475610cbd363f0f882097d9ead3f3fc851ea"
+  },
+  "base_reader_revisions": {
+    "preface": "16",
+    "ch01": "13",
+    "ch03": "9",
+    "ch09": "16",
+    "ch12": "13",
+    "ch18": "10",
+    "ch20": "8"
+  },
+  "reader_revisions": {
+    "preface": "17",
+    "ch01": "14",
+    "ch03": "10",
+    "ch09": "17",
+    "ch12": "14",
+    "ch18": "11",
+    "ch20": "9"
+  },
+  "scope": "SDLC 보안 설계 요건의 정의·정책·단계 설명 정합성"
+}

@@ -329,9 +329,9 @@
       "id": "S09",
       "title": "Harness engineering: leveraging Codex in an agent-first world",
       "url": "https://openai.com/index/harness-engineering/",
-      "use": "2장과 패턴의 공개 근거",
+      "use": "2장과 패턴의 공개 근거; D49 ch09 소수 인원 R&R 반영",
       "published_on": "2026-02-11",
-      "checked_on": "2026-10-11",
+      "checked_on": "2026-10-22",
       "verification_status": "본문 관련 부분 직접 확인",
       "verification_scope": "2026-02-11 OpenAI 원문 중 저장소 지식 관리, 계획, 구조 제약 검증 부분 직접 확인. 팀의 자기보고 사례로 사용하며 보편적 생산성 효과는 주장하지 않는다.",
       "limit": "업체의 자체 보고 또는 평가 지침. 보편적인 생산성 인과 효과를 주장하지 않음",
@@ -347,6 +347,18 @@
           "scope": "도입과 Redefining the role of the engineer의 환경·도구·피드백 설계 설명 재확인",
           "report": "research/harness-editorial-note.md",
           "status": "공식 원문 해당 부분 확인. 전체 문서 통독·실행·운영 효과 검증 아님."
+        },
+        {
+          "checked_on": "2026-10-21",
+          "scope": "소수 인원 R&R 조사 관련 부분 재대조. 상세 확인 범위는 조사 카드에 한정.",
+          "report": "research/small-team-factory-roles.md",
+          "status": "업체 설명/측정 한계 확인. 효과 재현·전체 운영 인력 감사 아님."
+        },
+        {
+          "checked_on": "2026-10-22",
+          "scope": "이번 본문의 수치·날짜·역할/지원 조건 관련 원문 절 재대조. 기존 확인 범위 이상의 전문/효과 검증 없음.",
+          "report": "planning/reviews/2026-10-22-small-team-roles-review.md",
+          "status": "원문 부분 대조와 문장·귀속 자기 점검"
         }
       ],
       "usage_review": {
@@ -359,7 +371,8 @@
           "manuscript/chapters/ch02.md",
           "research/claims/ch02.json",
           "research/cases/openai-harness.md",
-          "research/README.md"
+          "research/README.md",
+          "research/small-team-factory-roles.md"
         ],
         "harness_addendum": {
           "checked_on": "2026-10-13",
@@ -373,6 +386,16 @@
           "manuscript_summary_whitespace_units": 83,
           "count_scope": "저장소 전체에서 S09 표식을 검색해 원고·연구 파일을 목록에 추가(E001). 출처 내용을 요약한 문장만 공백 단위로 집계: 2장 55행 표식 이전 두 문장 29, 9장 75행 표식 이전 한 문장 14, 서문 45행 표식 이전 한 문장 17, research/cases/openai-harness.md '확인한 설명' 두 문장 23. 저자 해석 문장, 주장 메모 note, 대장·색인 서지 기록, research/harness-editorial-note.md 표 행은 제외. 한국어 어절이며 원문 대조나 전체 파생량의 자동 판정은 아님.",
           "summary_check": "네 위치는 모두 지침·지식·계획·구조 제약 또는 환경·도구·피드백 설계라는 같은 설명 범위를 짧게 요약하며 직접 인용이 없음. 집계 합계는 출처별 200단어 기본 상한 안. 이번 점검에서 원문을 다시 열지 않았음."
+        },
+        "small_team_addendum": {
+          "checked_on": "2026-10-21",
+          "new_direct_quotes": 0,
+          "scope": "기존 요약을 장문 재수록하지 않고 소수 인원/측정 관련 확인만 짧게 추가. S53은 더 요약하지 않는다."
+        },
+        "adoption_2026_10_22": {
+          "direct_quote_words": 0,
+          "scope": "보고서·원고·대장의 해당 출처 요약을 함께 확인. 자료 설명을 짧게 유지하고 저자 설계를 별도 구분. S130 불일치 비율 미채택, S131 게재본 표본 사용.",
+          "report": "planning/reviews/2026-10-22-small-team-roles-review.md"
         }
       },
       "preface_attribution": {
@@ -2242,7 +2265,8 @@
           "research/README.md",
           "research/claims/ch17.json",
           "research/sources.json",
-          "planning/reviews/2026-10-13-baseline-review.md"
+          "planning/reviews/2026-10-13-baseline-review.md",
+          "research/small-team-factory-roles.md"
         ],
         "direct_quote_words": 0,
         "summary_check": "완성한 장과 기존 원고·연구 메모·주장 메모·대장·색인의 누적 사용을 검토. 자료 설명은 짧게 유지하고 저자의 해석·제안·확인 한계를 구분. 직접 인용·원문 복제·수치 재현 없음. 출처별 200단어 기본 상한 안에서 파생 설명을 수동 점검.",
@@ -2253,6 +2277,11 @@
           "report": "planning/reviews/2026-10-13-baseline-review.md",
           "new_direct_quotes": 0,
           "scope": "기존 요약 재수록 대신 확인 위치·판정과 수정 차이를 기록. 전체 누적 파생량 재집계는 미완료."
+        },
+        "small_team_addendum": {
+          "checked_on": "2026-10-21",
+          "new_direct_quotes": 0,
+          "scope": "기존 요약을 장문 재수록하지 않고 소수 인원/측정 관련 확인만 짧게 추가. S53은 더 요약하지 않는다."
         }
       },
       "review_checks": [
@@ -2261,6 +2290,12 @@
           "scope": "공식 후속 글 도입부의 측정 제한 설명",
           "report": "planning/reviews/2026-10-13-baseline-review.md",
           "status": "관련 범위 재대조; 전체 통독·효과 검증 아님"
+        },
+        {
+          "checked_on": "2026-10-21",
+          "scope": "소수 인원 R&R 조사 관련 부분 재대조. 상세 확인 범위는 조사 카드에 한정.",
+          "report": "research/small-team-factory-roles.md",
+          "status": "업체 설명/측정 한계 확인. 효과 재현·전체 운영 인력 감사 아님."
         }
       ]
     },
@@ -4655,6 +4690,208 @@
           "https://github.com/roboco-io/the-software-factory-demo/pull/76",
           "https://github.com/roboco-io/the-software-factory-demo/pull/78"
         ]
+      }
+    },
+    {
+      "id": "S129",
+      "title": "Software Factories And The Agentic Moment",
+      "author": "Justin McCarthy / StrongDM",
+      "url": "https://factory.strongdm.ai/",
+      "published_on": "2026-02-06",
+      "checked_on": "2026-10-22",
+      "verification_status": "명시한 1차 원문 범위 직접 확인",
+      "verification_scope": "공식 글의 팀 설립자·명세/시나리오·자동 실행·검증 환경 설명.",
+      "use": "소수 인원 팩토리 R&R 조사 후보; 본문 미반영; D49 ch09 소수 인원 R&R 반영",
+      "limit": "업체 자체 보고. 3명은 AI 팀의 설립 구성원 수이며 회사 전체나 지원 인원 총계가 아님. 같은 범위의 인력 감소율·운영 품질 비교 없음.",
+      "usage_review": {
+        "files": [
+          "research/small-team-factory-roles.md",
+          "research/claims/small-team-factory-roles.json",
+          "manuscript/chapters/ch09.md",
+          "research/claims/ch09.json"
+        ],
+        "direct_quote_words": 0,
+        "scope": "조사 카드의 짧은 요약과 한계만 사용. 실제 원고 확장 시 누적량 재점검.",
+        "adoption_2026_10_22": {
+          "direct_quote_words": 0,
+          "scope": "보고서·원고·대장의 해당 출처 요약을 함께 확인. 자료 설명을 짧게 유지하고 저자 설계를 별도 구분. S130 불일치 비율 미채택, S131 게재본 표본 사용.",
+          "report": "planning/reviews/2026-10-22-small-team-roles-review.md"
+        }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-22",
+          "scope": "이번 본문의 수치·날짜·역할/지원 조건 관련 원문 절 재대조. 기존 확인 범위 이상의 전문/효과 검증 없음.",
+          "report": "planning/reviews/2026-10-22-small-team-roles-review.md",
+          "status": "원문 부분 대조와 문장·귀속 자기 점검"
+        }
+      ]
+    },
+    {
+      "id": "S130",
+      "title": "One Developer Is All You Need: A Case Study of an AI-Augmented One-Person Squad in a Brownfield Enterprise",
+      "author": "Marcelo Vilas Boas, Gustavo Pinto, Edward Roberto Monteiro, Vinicius Fernandes Carida, Danilo Ribeiro",
+      "url": "https://arxiv.org/html/2605.18461v2",
+      "published_on": "2026-05-19",
+      "checked_on": "2026-10-22",
+      "verification_status": "명시한 1차 원문 범위 직접 확인",
+      "verification_scope": "v2의 III·IV·V·VI·VIII: 역할 배치·사례 조건·기간/팀 비교·기존 검증 조직·한계 및 표IV의 산술 문제 확인.",
+      "use": "소수 인원 팩토리 R&R 조사 후보; 본문 미반영; D49 ch13 소수 인원 R&R 반영",
+      "limit": "단일 참여관찰 사례이며 동시 대조군·공개 재현자료·독립감사 없음. 학술지 게재 정보는 별도 확인하지 않음. 표IV의 8.93→2.2와 -51%는 불일치하여 해당 비율 미채택.",
+      "usage_review": {
+        "files": [
+          "research/small-team-factory-roles.md",
+          "research/claims/small-team-factory-roles.json",
+          "manuscript/chapters/ch13.md",
+          "research/claims/ch13.json"
+        ],
+        "direct_quote_words": 0,
+        "scope": "조사 카드의 짧은 요약과 한계만 사용. 실제 원고 확장 시 누적량 재점검.",
+        "adoption_2026_10_22": {
+          "direct_quote_words": 0,
+          "scope": "보고서·원고·대장의 해당 출처 요약을 함께 확인. 자료 설명을 짧게 유지하고 저자 설계를 별도 구분. S130 불일치 비율 미채택, S131 게재본 표본 사용.",
+          "report": "planning/reviews/2026-10-22-small-team-roles-review.md"
+        }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-22",
+          "scope": "이번 본문의 수치·날짜·역할/지원 조건 관련 원문 절 재대조. 기존 확인 범위 이상의 전문/효과 검증 없음.",
+          "report": "planning/reviews/2026-10-22-small-team-roles-review.md",
+          "status": "원문 부분 대조와 문장·귀속 자기 점검"
+        }
+      ]
+    },
+    {
+      "id": "S131",
+      "title": "The Cybernetic Teammate: A Field Experiment on Generative AI and Teamwork",
+      "author": "Fabrizio Dell’Acqua et al. / Organization Science",
+      "url": "https://pubsonline.informs.org/doi/10.1287/orsc.2025.20702",
+      "published_on": "2026-06-12",
+      "checked_on": "2026-10-22",
+      "verification_status": "명시한 1차 원문 범위 직접 확인",
+      "verification_scope": "공개 게재본 초록·실험설계·성과 결과·일반화 한계.",
+      "use": "소수 인원 팩토리 R&R 조사 후보; 본문 미반영; D49 ch14 소수 인원 R&R 반영",
+      "limit": "소비재 신제품 아이디어의 1일 실험. 소프트웨어 개발/상시 운영 인력 대체 실험 아님. 분석791명은 게재본 기준이며 이전 작업논문의776명과 혼용하지 않음.",
+      "usage_review": {
+        "files": [
+          "research/small-team-factory-roles.md",
+          "research/claims/small-team-factory-roles.json",
+          "manuscript/chapters/ch14.md",
+          "research/claims/ch14.json"
+        ],
+        "direct_quote_words": 0,
+        "scope": "조사 카드의 짧은 요약과 한계만 사용. 실제 원고 확장 시 누적량 재점검.",
+        "adoption_2026_10_22": {
+          "direct_quote_words": 0,
+          "scope": "보고서·원고·대장의 해당 출처 요약을 함께 확인. 자료 설명을 짧게 유지하고 저자 설계를 별도 구분. S130 불일치 비율 미채택, S131 게재본 표본 사용.",
+          "report": "planning/reviews/2026-10-22-small-team-roles-review.md"
+        }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-22",
+          "scope": "이번 본문의 수치·날짜·역할/지원 조건 관련 원문 절 재대조. 기존 확인 범위 이상의 전문/효과 검증 없음.",
+          "report": "planning/reviews/2026-10-22-small-team-roles-review.md",
+          "status": "원문 부분 대조와 문장·귀속 자기 점검"
+        }
+      ]
+    },
+    {
+      "id": "S132",
+      "title": "The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers",
+      "author": "Kevin Zheyuan Cui, Mert Demirer, Sonia Jaffe, Leon Musolff, Sida Peng, Tobias Salz / Management Science",
+      "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2025.00535",
+      "published_on": "2026-02-27",
+      "checked_on": "2026-10-22",
+      "verification_status": "명시한 1차 원문 범위 직접 확인",
+      "verification_scope": "게재본의 서지·초록·표준오차·사후등록 고지. 전문 방법/보충자료 미검토.",
+      "use": "소수 인원 팩토리 R&R 조사 후보; 본문 미반영; D49 ch17 소수 인원 R&R 반영",
+      "limit": "코드 완성 보조 도구 접근의 효과이며 자율 팩토리나 팀 감축 실험 아님. 26.08%는 완료 과제 증가 추정, SE10.3%이며 기업별 잡음이 있음.",
+      "usage_review": {
+        "files": [
+          "research/small-team-factory-roles.md",
+          "research/claims/small-team-factory-roles.json",
+          "manuscript/chapters/ch17.md",
+          "research/claims/ch17.json"
+        ],
+        "direct_quote_words": 0,
+        "scope": "조사 카드의 짧은 요약과 한계만 사용. 실제 원고 확장 시 누적량 재점검.",
+        "adoption_2026_10_22": {
+          "direct_quote_words": 0,
+          "scope": "보고서·원고·대장의 해당 출처 요약을 함께 확인. 자료 설명을 짧게 유지하고 저자 설계를 별도 구분. S130 불일치 비율 미채택, S131 게재본 표본 사용.",
+          "report": "planning/reviews/2026-10-22-small-team-roles-review.md"
+        }
+      },
+      "review_checks": [
+        {
+          "checked_on": "2026-10-22",
+          "scope": "이번 본문의 수치·날짜·역할/지원 조건 관련 원문 절 재대조. 기존 확인 범위 이상의 전문/효과 검증 없음.",
+          "report": "planning/reviews/2026-10-22-small-team-roles-review.md",
+          "status": "원문 부분 대조와 문장·귀속 자기 점검"
+        }
+      ]
+    },
+    {
+      "id": "S133",
+      "title": "Building a C compiler with a team of parallel Claudes",
+      "author": "Nicholas Carlini / Anthropic",
+      "url": "https://www.anthropic.com/research/building-c-compiler",
+      "published_on": "2026-02-05",
+      "checked_on": "2026-10-21",
+      "verification_status": "명시한 1차 원문 범위 직접 확인",
+      "verification_scope": "공식 실험 글의 16에이전트·하네스/검증 설계·비용·평가·기술 한계. 코드를 실행하지 않음.",
+      "use": "소수 인원 팩토리 R&R 조사 후보; 본문 미반영",
+      "limit": "연구자가 주도한 기술 산출물 실험. 상용 서비스의 조직 총원이나 상시 운영/보안/고객 지원을 1인이 충족했다는 증거 아님.",
+      "usage_review": {
+        "files": [
+          "research/small-team-factory-roles.md",
+          "research/claims/small-team-factory-roles.json"
+        ],
+        "direct_quote_words": 0,
+        "scope": "조사 카드의 짧은 요약과 한계만 사용. 실제 원고 확장 시 누적량 재점검."
+      }
+    },
+    {
+      "id": "S134",
+      "title": "로보코 솔루션 — 보안이 내재된 소프트웨어 팩토리",
+      "author": "ROBOCO",
+      "url": "https://roboco.io/solutions/",
+      "published_on": null,
+      "checked_on": "2026-10-24",
+      "verification_status": "공개 서비스 소개의 관련 원문 직접 확인",
+      "verification_scope": "보안이 내재된 소프트웨어 팩토리 절의 단계별 장치와 승인 선택, 파일럿·구축·운영 단계의 제안 확인.",
+      "use": "12장 통제 흐름의 설계 아이디어; 장별 보안 논점은 저자 제안으로 구분",
+      "limit": "서비스 제공자의 구성 제안이다. 우회 불가능성·실제 효과·익명 고객 성과·인증/규제 설명·최신 데모 동작을 독립 검증하지 않음. 사람 승인 선택을 일반 의무로 옮기지 않는다.",
+      "usage_review": {
+        "files": [
+          "manuscript/chapters/ch12.md",
+          "research/claims/ch12.json",
+          "research/security-factory-throughline.md"
+        ],
+        "direct_quote_words": 0,
+        "scope": "관련 설명과 표는 짧게 의역. 장별 설계 논증은 이 책의 제안으로 구분. 상업 안내와 고객 사례는 미채택."
+      }
+    },
+    {
+      "id": "S135",
+      "title": "NIST SP 800-218 — Secure Software Development Framework (SSDF) Version 1.1",
+      "author": "Murugiah Souppaya, Karen Scarfone, Donna Dodson / NIST",
+      "url": "https://csrc.nist.gov/pubs/sp/800/218/final",
+      "published_on": "2022-02-03",
+      "checked_on": "2026-10-24",
+      "verification_status": "공식 서지·초록 관련 범위 직접 확인",
+      "verification_scope": "1.1판의 발행일·작성자와 기존 개발 생명주기에 보안 실무를 통합하도록 권고하는 초록. 전문 미열람.",
+      "use": "1장 보안 내재화의 기존 지침과 저자 전망 구분",
+      "limit": "AI 팩토리의 필수성·도입 의무·실제 효과를 입증하지 않는다. 현재 최신 판본이라는 주장 없이 2022년 자료로 사용.",
+      "usage_review": {
+        "files": [
+          "manuscript/chapters/ch01.md",
+          "research/claims/ch01.json",
+          "research/security-factory-throughline.md"
+        ],
+        "direct_quote_words": 0,
+        "scope": "초록의 한 논점만 의역하고 저자 정의와 분리."
       }
     }
   ],

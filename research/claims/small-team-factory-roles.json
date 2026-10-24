@@ -1,0 +1,61 @@
+{
+  "checked_on": "2026-10-21",
+  "status": "D49로 9·13·14·17·18장 반영, 변경 범위 자기 점검",
+  "claims": [
+    {
+      "source": "S129",
+      "type": "1차 자료에서 확인한 설명·보고",
+      "record": "research/small-team-factory-roles.md",
+      "note": "조사 카드의 확인 범위와 한계를 유지한다. 원고 반영 위치는 장별 주장 메모와 D49 세션 참조."
+    },
+    {
+      "source": "S130",
+      "type": "1차 자료에서 확인한 설명·보고",
+      "record": "research/small-team-factory-roles.md",
+      "note": "조사 카드의 확인 범위와 한계를 유지한다. 원고 반영 위치는 장별 주장 메모와 D49 세션 참조."
+    },
+    {
+      "source": "S09",
+      "type": "1차 자료에서 확인한 설명·보고",
+      "record": "research/small-team-factory-roles.md",
+      "note": "조사 카드의 확인 범위와 한계를 유지한다. 원고 반영 위치는 장별 주장 메모와 D49 세션 참조."
+    },
+    {
+      "source": "S133",
+      "type": "1차 자료에서 확인한 설명·보고",
+      "record": "research/small-team-factory-roles.md",
+      "note": "조사 카드의 확인 범위와 한계를 유지한다. 원고 반영 위치는 장별 주장 메모와 D49 세션 참조."
+    },
+    {
+      "source": "S131",
+      "type": "1차 자료에서 확인한 설명·보고",
+      "record": "research/small-team-factory-roles.md",
+      "note": "조사 카드의 확인 범위와 한계를 유지한다. 원고 반영 위치는 장별 주장 메모와 D49 세션 참조."
+    },
+    {
+      "source": "S132",
+      "type": "1차 자료에서 확인한 설명·보고",
+      "record": "research/small-team-factory-roles.md",
+      "note": "조사 카드의 확인 범위와 한계를 유지한다. 원고 반영 위치는 장별 주장 메모와 D49 세션 참조."
+    },
+    {
+      "source": "S54",
+      "type": "1차 자료에서 확인한 설명·보고",
+      "record": "research/small-team-factory-roles.md",
+      "note": "조사 카드의 확인 범위와 한계를 유지한다. 원고 반영 위치는 장별 주장 메모와 D49 세션 참조."
+    }
+  ],
+  "author_interpretations": [
+    {
+      "type": "설계 후보",
+      "claim": "제품/의도·실행 체계·정책/위험·수용/지속 운영의 책임을 구분하되 겸임·공유 지원·자동 수행으로 작은 팀을 구성한다.",
+      "limit": "최적 인원수나 일반적 감축률을 검증한 모델이 아니다."
+    }
+  ],
+  "unresolved": [
+    "S130 표IV 수치 불일치",
+    "공유 기반/검증/상시 운영의 전체 인력과 비용",
+    "장기 품질·부재 대응·직무분리의 지속 가능성"
+  ],
+  "adopted_on": "2026-10-22"
+}

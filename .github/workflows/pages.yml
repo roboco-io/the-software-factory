@@ -66,3 +66,26 @@ jobs:
       - name: Publish
         id: deployment
         uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+  # 책 토론 포럼(roboco-io/the-software-factory-demo)의 책 목차를 배포한 커밋으로 바로 동기화한다.
+  # 포럼은 매시 동기화도 하므로 이 job이 실패해도 늦어도 1시간 안에 반영된다. 토큰이 없으면(포크 등) 건너뛴다.
+  notify-forum:
+    needs: deploy
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions: {}
+    timeout-minutes: 5
+    steps:
+      - name: Sync forum book table of contents
+        env:
+          FORUM_SYNC_TOKEN: ${{ secrets.FORUM_SYNC_TOKEN }}
+          REF: ${{ github.sha }}
+        run: |
+          if [ -z "$FORUM_SYNC_TOKEN" ]; then
+            echo "::notice::FORUM_SYNC_TOKEN이 없어 포럼 동기화를 건너뛴다."
+            exit 0
+          fi
+          curl -fsS --retry 3 --retry-delay 10 --retry-all-errors -X POST \
+            -H "Authorization: Bearer $FORUM_SYNC_TOKEN" \
+            -H "Content-Type: application/json" \
+            --data "{\"ref\":\"$REF\"}" \
+            https://sfd-api.roboco.workers.dev/api/book/sync

@@ -1,7 +1,7 @@
 import {readFileSync,writeFileSync,mkdirSync,existsSync,rmSync,statSync,readdirSync,copyFileSync} from 'node:fs';
 import {fileURLToPath} from 'node:url';
 import {resolve,dirname} from 'node:path';
-import {transformMarkdown} from './publication.mjs';
+import {transformMarkdown,diagramFiles} from './publication.mjs';
 const site=fileURLToPath(new URL('..',import.meta.url)),root=resolve(site,'..');
 const read=p=>readFileSync(resolve(root,p),'utf8');
 const publication=JSON.parse(read('book-publication.json'));
@@ -27,7 +27,8 @@ for(const entry of entries){
  const ids=[...new Set([...text.matchAll(/\[(S\d{2,})\]/g)].map(m=>m[1]))];ids.forEach(id=>cite.add(id));
  const meta={...entry,revision:record.revision,sources:ids,url:`/${entry.route}/`};delete meta.path;
  if(entry.number)book.chapters.push(meta);else if(entry.id.startsWith('demo-'))book.demos.push(meta);else if(entry.id.startsWith('p')&&entry.id!=='preface')book.patterns.push(meta);
- const data={title:entry.title,description:entry.decision??entry.purpose??project.working_subtitle,bookId:entry.id,revision:record.revision,decision:entry.decision??'',pagefind:true,editUrl:false};
+ const description=entry.decision??entry.purpose??publication.description??project.working_subtitle;
+ const data={title:entry.title,description,head:[{tag:'meta',attrs:{name:'twitter:title',content:entry.title}},{tag:'meta',attrs:{name:'twitter:description',content:description}}],bookId:entry.id,revision:record.revision,decision:entry.decision??'',pagefind:true,editUrl:false};
  if(entry.number){data.prev={link:entry.number===1?'/book/preface/':`/book/ch${String(entry.number-1).padStart(2,'0')}/`,label:entry.number===1?'서문':`${entry.number-1}장`};data.next=entry.number===20?false:{link:`/book/ch${String(entry.number+1).padStart(2,'0')}/`,label:`${entry.number+1}장`};}
  else {data.prev=false;data.next=entry.id==='preface'?{link:'/book/ch01/',label:'1장 코드 생성에서 의도 실현으로'}:false;}
  write(entry.route,data,transformMarkdown(text,record.anchors,entry.path,entry.id));
@@ -59,4 +60,4 @@ writeFileSync(resolve(licenseDir,'THIRD-PARTY.txt'),'Notices for the primary web
 
 // Authored SVG originals remain in the manuscript for print and web reuse.
 const diagramDir=resolve(site,'public/diagrams');mkdirSync(diagramDir,{recursive:true});
-for(const name of ['policy-hierarchy.svg','harness-policy-cycle.svg'])copyFileSync(resolve(root,'manuscript/figures',name),resolve(diagramDir,name));
+for(const name of diagramFiles)copyFileSync(resolve(root,'manuscript/figures',name),resolve(diagramDir,name));

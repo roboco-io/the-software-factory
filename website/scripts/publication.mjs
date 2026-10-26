@@ -1,6 +1,7 @@
 import {readFileSync} from 'node:fs';
 import {linkPatternReferences} from './pattern-references.mjs';
 const demoPages=JSON.parse(readFileSync(new URL('../demo-pages.json',import.meta.url),'utf8'));
+export const diagramFiles=new Set(JSON.parse(readFileSync(new URL('../../manuscript/figures/catalog.json',import.meta.url),'utf8')).map(figure=>figure.file));
 const demoSources=new Set(demoPages.map(page=>page.path));
 const demoLinks=new Map(demoPages.map(page=>[page.path.split('/').at(-1),`/${page.route}/`]));
 export function publicLink(target,sourcePath='') {
@@ -11,7 +12,7 @@ export function publicLink(target,sourcePath='') {
  else if(path==='../front-matter/00-preface.md'&&demoSources.has(sourcePath)) result='/book/preface/';
  else if(/(?:^|\/)ch\d{2}\.md$/.test(path)) result='/book/'+path.match(/ch\d{2}/)[0]+'/';
  else if(/(?:^|\/)p\d{2}\.md$/.test(path)) result='/patterns/'+path.match(/p\d{2}/)[0]+'/';
- else if(/(?:^|\/)figures\/(policy-hierarchy|harness-policy-cycle)\.svg$/.test(path)) result='/diagrams/'+path.match(/(policy-hierarchy|harness-policy-cycle)\.svg$/)[0];
+ else if(/^\.\.\/figures\/[^/]+\.svg$/.test(path)&&diagramFiles.has(path.slice('../figures/'.length))) result='/diagrams/'+path.slice('../figures/'.length);
  else if(path.endsWith('/research/sources.json')) result='/sources/';
  else if(/\/research\/claims\/ch\d{2}\.json$/.test(path)) return '/sources/#refs-'+path.match(/ch\d{2}/)[0];
  else if(path.endsWith('/research/cases/software-factory-demo.md')) return '/sources/#S59';

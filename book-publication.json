@@ -5,5 +5,7 @@
     "url": "https://github.com/roboco-io/the-software-factory/issues",
     "access": "public"
   },
-  "site_url": "https://factory.roboco.io"
+  "site_url": "https://factory.roboco.io",
+  "description": "비즈니스 목표를 중심으로 소프트웨어 개발·운영·개선을 자동화하는 방법을 다루는 책입니다. SDLC 전반의 보안, 기존 서비스 전환과 신규 구축, 소수 인원의 역할과 책임을 공개 데모와 함께 설명합니다.",
+  "share_title": "The Software Factory — 비즈니스 목표 중심 자동화와 보안 내재화"
 }

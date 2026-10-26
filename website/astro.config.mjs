@@ -7,7 +7,7 @@ export default defineConfig({
  site:process.env.SITE_URL||book.publication.site_url,
  trailingSlash:'always',
  integrations:[starlight({
-  title:'The Software Factory',description:'소프트웨어 팩토리와 AI 시대의 조직 설계',defaultLocale:'root',locales:{root:{label:'한국어',lang:'ko'}},
+  title:'The Software Factory',description:book.publication.description,defaultLocale:'root',locales:{root:{label:'한국어',lang:'ko'}},
   favicon:'/favicon.svg',credits:false,disable404Route:true,
   head:[
    {tag:'meta',attrs:{property:'og:image',content:new URL('/images/software-factory-social-cobalt.png',book.publication.site_url).href}},

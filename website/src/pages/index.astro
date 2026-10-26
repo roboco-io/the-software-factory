@@ -2,7 +2,11 @@
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import book from '../data/book.json';
 ---
-<StarlightPage frontmatter={{title:'The Software Factory',description:book.subtitle,template:'splash',tableOfContents:false,prev:false,next:false}}>
+<StarlightPage frontmatter={{title:'The Software Factory',description:book.publication.description,head:[
+ {tag:'meta',attrs:{property:'og:title',content:book.publication.share_title}},
+ {tag:'meta',attrs:{name:'twitter:title',content:book.publication.share_title}},
+ {tag:'meta',attrs:{name:'twitter:description',content:book.publication.description}},
+],template:'splash',tableOfContents:false,prev:false,next:false}}>
  <div class="book-home">
   <section class="book-opening">
    <div class="opening-copy"><p class="edition-label"><span>{book.publication.status_label}</span></p><h1 id="_top">The Software<br/>Factory</h1><p class="book-subtitle">소프트웨어 팩토리와<br class="small-only"/> AI 시대의 조직 설계</p><p class="opening-description">AI가 일하는 속도만큼,<br/>조직의 판단도 나아지고 있나요?</p><p class="opening-detail">의도를 정하고, 실행을 맡기고, 증거로 판단하는 일.<br/>소프트웨어 조직의 리더를 위한 20개의 결정.</p>

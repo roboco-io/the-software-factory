@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import {publicLink,transformMarkdown} from '../scripts/publication.mjs';
+import {publicLink,transformMarkdown,diagramFiles} from '../scripts/publication.mjs';
 test('only known local manuscript references become public URLs',()=>{
  assert.equal(publicLink('../chapters/ch07.md'),'/book/ch07/');
  assert.equal(publicLink('p03.md'),'/patterns/p03/');
@@ -20,6 +20,8 @@ test('authored policy diagrams get public paths while unrelated SVG paths remain
  assert.equal(publicLink('../figures/harness-policy-cycle.svg'),'/diagrams/harness-policy-cycle.svg');
  assert.ok(transformMarkdown('![정책 계층](../figures/policy-hierarchy.svg)').includes('![정책 계층](/diagrams/policy-hierarchy.svg)'));
  assert.throws(()=>publicLink('../figures/private.svg'));
+ for(const file of diagramFiles)assert.equal(publicLink('../figures/'+file),'/diagrams/'+file);
+ assert.throws(()=>publicLink('../figures/../policy-hierarchy.svg'));
 });
 test('only registered demo pages resolve with their authored context',()=>{
  assert.equal(publicLink('../demo/request.md'),'/demo/request/');

@@ -135,5 +135,15 @@
   "scope": "실제 공개 HTTP 응답·SVG 원본 일치·본문/공유 설명; 독자 이해·운영 효과 검증 아님",
   "published_commit": "e5dac29d90599ca7d48aaeaceaa5a66ca1cf7605",
   "workflow_run": "https://github.com/roboco-io/the-software-factory/actions/runs/40251741464",
-  "workflow_result": "build/deploy/notify-forum success"
+  "workflow_result": "build/deploy/notify-forum success",
+  "final_publication_check": {
+    "checked_on": "2026-10-26",
+    "published_commit": "62c7bafba086ad673c1e44fadbf501cb3bc49b73",
+    "workflow_run": "https://github.com/roboco-io/the-software-factory/actions/runs/40252024363",
+    "workflow_result": "build/deploy/notify-forum success",
+    "http_responses_verified": 21,
+    "svg_originals_matched": 13,
+    "changelog_publication_date": "2026-10-26",
+    "pending_heading_absent": true
+  }
 }

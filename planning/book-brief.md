@@ -32,6 +32,10 @@
 
 기존 소프트웨어·서비스의 전환과 신규 서비스 구축을 모두 다룬다. 18장에서 기존 운영·고객 약속·기준선을 보존하며 전환할 조건과, 신규 사업 가설·실행 기반·첫 운영 증거를 함께 갖출 조건을 나눈다. 9장은 역할 배치를, 20장은 경로별 확대·복귀 판단을 연결한다. 기술 스택 교체나 전면 재작성을 팩토리 전환의 필수 조건으로 두지 않는다.
 
+## 집필 과정과 기획 동기
+
+D52 저자 진술에 따라 로보코 블로그 글을 뼈대로 주제별 GPT 토론을 정리해 ChatGPT로 집필하고, 리뷰에 Claude·데모 제작에 Claude를 주로 사용했음을 서문에 명시한다. More Effective Agile은 바이브 코딩 이전의 조직/프로세스 질문을 이후 조건에서 다시 묻는 동기다. 실제 참고 도서 내용의 확인 범위를 자동 확대하지 않는다.
+
 ## 구현 예제
 
 공통 구현 예제는 로보코의 [The Software Factory Demo](https://github.com/roboco-io/the-software-factory-demo)다. 고정 버전의 문서·코드·공개 실행 기록을 관련 장의 판단 원리에 연결한다. 설치 튜토리얼과 조직 효과의 입증 사례로 확대하지 않는다. 장별 범위는 [구현 사례 지도](../research/cases/software-factory-demo.md)를 따른다. 독자는 [데모 해설](../manuscript/demo/index.md)에서 흐름과 구현 근거의 관계를 읽을 수 있다. 갱신 작업은 [데모 사례 정책](demo-example-maintenance-policy.md)과 [실행 안내](demo-example-maintenance-runbook.md)를 따른다.

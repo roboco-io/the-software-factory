@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1080" viewBox="0 0 640 1080" role="img" aria-labelledby="title desc">
+<title id="title">데모의 만드는 권한과 게시하는 권한</title>
+<desc id="desc">준비 환경은 App 토큰으로 계획을 만든다. 에이전트 수행 환경은 게시용 App 토큰 없이 모델 키로 변경 묶음을 만든다. 별도 게시 환경은 준비 단계의 계획과 변경을 재대조하고 별도 발급 App 토큰으로 게시한다. 완전한 격리를 보장하는 그림은 아니다.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#287d70"/></marker></defs>
+<rect width="640" height="1080" rx="18" fill="#f8fafb"/>
+<g font-family="Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif">
+<text x="320" y="48" text-anchor="middle" font-size="30" font-weight="700" fill="#18313b">데모의 만드는 권한과 게시하는 권한</text>
+<rect x="40" y="80" width="560" height="160" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="120" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">준비 환경</text>
+<text x="320.0" y="160" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">App 토큰 사용</text>
+<text x="320.0" y="198" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">기준 버전·실행 계획을 고정</text>
+<path d="M320 240 V290" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="340" y="273.0" text-anchor="start" font-size="24" font-weight="400" fill="#18313b">계획 전달</text>
+<rect x="40" y="295" width="560" height="195" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="335" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">에이전트 수행 환경</text>
+<text x="320.0" y="375" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">배정한 모델의 키 사용</text>
+<text x="320.0" y="413" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">게시용 App 토큰을 전달하지 않음</text>
+<text x="320.0" y="451" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">작업 트리의 변경과 결과 묶음 생성</text>
+<path d="M320 490 V550" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="340" y="528.0" text-anchor="start" font-size="24" font-weight="400" fill="#18313b">변경 묶음·결과 전달</text>
+<rect x="40" y="555" width="560" height="240" rx="14" fill="#173f3c" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="595" text-anchor="middle" font-size="29" font-weight="700" fill="#ffffff">별도 게시 환경</text>
+<text x="320.0" y="635" text-anchor="middle" font-size="26" font-weight="400" fill="#dcf2ed">준비 단계의 계획을 직접 전달받음</text>
+<text x="320.0" y="673" text-anchor="middle" font-size="26" font-weight="400" fill="#dcf2ed">기준 코드로 버전·변경 경로 재대조</text>
+<text x="320.0" y="711" text-anchor="middle" font-size="26" font-weight="400" fill="#dcf2ed">작업 트리 코드는 실행하지 않음</text>
+<text x="320.0" y="749" text-anchor="middle" font-size="26" font-weight="400" fill="#dcf2ed">별도 발급 App 토큰으로 게시</text>
+<path d="M600 160 H620 V625 H602" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="320" y="850" text-anchor="middle" font-size="24" font-weight="400" fill="#18313b">준비 계획은 수행 단계의 결과와 따로 전달</text>
+<text x="320" y="915" text-anchor="middle" font-size="26" font-weight="700" fill="#18313b">게시 토큰 분리 ≠ 모든 자격 증명 제거</text>
+<text x="320" y="965" text-anchor="middle" font-size="25" font-weight="400" fill="#18313b">실행기·캐시 등의 남은 위험은 별도 확인</text>
+</g>
+</svg>

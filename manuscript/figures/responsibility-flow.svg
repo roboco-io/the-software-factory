@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1070" viewBox="0 0 640 1070" role="img" aria-labelledby="title desc">
+<title id="title">책임을 정하는 때와 실행하는 때</title>
+<desc id="desc">제품 결과·정책과 위험·하네스 운영의 책임은 같은 사람이 겸임할 수 있다. 설정한 범위에서 자동 수행과 판정을 반복하고 예외와 운영 결과는 책임자의 변경 판단으로 연결한다. 책임 묶음은 필수 인원 수가 아니다.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#287d70"/></marker></defs>
+<rect width="640" height="1070" rx="18" fill="#f8fafb"/>
+<g font-family="Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif">
+<text x="320" y="48" text-anchor="middle" font-size="30" font-weight="700" fill="#18313b">책임을 정하는 때와 실행하는 때</text>
+<rect x="40" y="80" width="560" height="110" rx="14" fill="#173f3c" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="120" text-anchor="middle" font-size="29" font-weight="700" fill="#ffffff">실행 전: 책임과 위임 조건</text>
+<text x="320.0" y="160" text-anchor="middle" font-size="26" font-weight="400" fill="#dcf2ed">아래 책임은 같은 사람이 겸임 가능</text>
+<rect x="40" y="215" width="560" height="110" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="255" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">제품 결과 책임</text>
+<text x="320.0" y="295" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">고객 문제·성공 기준·운영 결과</text>
+<rect x="40" y="345" width="560" height="110" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="385" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">정책·위험 책임</text>
+<text x="320.0" y="425" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">원칙·허용 범위·사람 판단 조건</text>
+<rect x="40" y="475" width="560" height="110" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="515" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">하네스 운영 책임</text>
+<text x="320.0" y="555" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">수행·판정·집행·관측 경로 유지</text>
+<path d="M320 585 V625" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="630" width="560" height="142" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="670" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">반복 실행: 자동 수행·판정</text>
+<text x="320.0" y="710" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">허용 범위에서 실행·검증·수용</text>
+<text x="320.0" y="748" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">수행자가 판정 기준을 임의 변경하지 않음</text>
+<path d="M320 772 V812" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="817" width="560" height="142" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="857" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">운영 결과·예외 → 변경 판단</text>
+<text x="320.0" y="897" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">제품 수용·지속 운영 책임을 연결</text>
+<text x="320.0" y="935" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">위임하지 않은 선택은 책임자에게</text>
+<path d="M600 890 H620 V135 H602" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="320" y="1020" text-anchor="middle" font-size="27" font-weight="700" fill="#18313b">책임 수 ≠ 인원 수 ≠ 개별 승인 횟수</text>
+</g>
+</svg>

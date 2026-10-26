@@ -8,7 +8,8 @@
     "planning/decisions.md",
     "research/mcconnell/chapter-map.md",
     "planning/roboco-sites-adoption.md",
-    "planning/web-publication-proposal.md"
+    "planning/web-publication-proposal.md",
+    "planning/sessions/2026-10-24-preface-authoring-method.md"
   ],
   "claims": [
     {
@@ -174,6 +175,13 @@
       "location": "정의·SDLC 보안 요건(D51)",
       "type": "저자 설계 요건",
       "note": "보안의 SDLC 전반 내재화를 팩토리의 설계 요건으로 명시한다. 요구·설계부터 운영·종료의 통제·증거·책임을 연결한다. 필수 기반이 될 것이라는 전망과 구분하며 표준의 특정 구현 의무나 보안 효과 보장으로 해석하지 않는다. 새 외부 사실 없음.",
+      "checked_on": "2026-10-24"
+    },
+    {
+      "location": "집필과 리뷰에 사용한 도구 / 기획의 기준과 생각의 출발점",
+      "type": "저자가 제공한 집필 과정·기획 동기 기록",
+      "basis": "D52: 2026-10-24 사용자 진술",
+      "note": "블로그 중심 구성·ChatGPT 저작/GPT 토론·Claude 리뷰와 데모 주도 사용을 저자 진술 범위로 명시. More Effective Agile이 조직/프로세스 논의의 동기였음을 기록하며 참고 도서 내용의 확인 범위를 확대하지 않음. 특정 모델/버전·전용 사용·검증 성과는 추가하지 않음.",
       "checked_on": "2026-10-24"
     }
   ],

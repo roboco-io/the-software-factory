@@ -1,0 +1,19 @@
+{
+  "checked_on": "2026-10-24",
+  "decision": "D52",
+  "base_commit": "778d60080c5f3834fed825d19a5adddac01d4ae2",
+  "files": {
+    "manuscript/front-matter/00-preface.md": "f119199a46cda15f490496da8a6a437fc5fe55c85c0b535863c3a7c8f8ef47a9",
+    "research/claims/preface.json": "b4a5697086838e597cfb44901dea5a484fc8b02597fb41ce0229134a3baae0ba",
+    "planning/book-brief.md": "9f43c15c1b815ab5127d80e5ba2c2f2412785224d0c49319b04940c87981c164"
+  },
+  "basis": "저자가 제공한 집필 과정과 기획 동기",
+  "checks": [
+    "기존 앵커 유지",
+    "새 절 s07 등록",
+    "서문 revision만 증가",
+    "56페이지 빌드/내부링크 통과",
+    "생성서문 문구·토론링크 확인"
+  ],
+  "limits": "저자 진술의 기록이며 도구 사용량/모델 버전의 독립 감사나 참고 도서 전체 대조 아님"
+}

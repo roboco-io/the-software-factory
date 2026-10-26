@@ -1,0 +1,810 @@
+[
+  {
+    "kind": "desktop",
+    "route": "/book/ch01/",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/diagrams/factory-overview.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 640
+      }
+    ],
+    "forum": 10,
+    "sections": 10,
+    "heading": "1장 코드 생성에서 의도 실현으로"
+  },
+  {
+    "kind": "desktop",
+    "route": "/book/ch02/",
+    "overflow": false,
+    "images": [],
+    "forum": 10,
+    "sections": 10,
+    "heading": "2장 의도를 지속적인 기준으로 만든다"
+  },
+  {
+    "kind": "desktop",
+    "route": "/book/ch03/",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/diagrams/policy-hierarchy.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 736
+      },
+      {
+        "src": "/diagrams/automation-routing.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 640
+      }
+    ],
+    "forum": 13,
+    "sections": 13,
+    "heading": "3장 정책과 실행계획을 분리한다"
+  },
+  {
+    "kind": "desktop",
+    "route": "/book/ch04/",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/diagrams/intent-harness-loops.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 640
+      }
+    ],
+    "forum": 11,
+    "sections": 11,
+    "heading": "4장 의도 실행 루프를 닫는다"
+  },
+  {
+    "kind": "desktop",
+    "route": "/book/ch05/",
+    "overflow": false,
+    "images": [],
+    "forum": 11,
+    "sections": 11,
+    "heading": "5장 의도를 실행 계약으로 바꾼다"
+  },
+  {
+    "kind": "desktop",
+    "route": "/book/ch06/",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/diagrams/work-dependencies.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 640
+      }
+    ],
+    "forum": 10,
+    "sections": 10,
+    "heading": "6장 작업을 검증 가능한 단위로 나눈다"
+  },
+  {
+    "kind": "desktop",
+    "route": "/book/ch07/",
+    "overflow": false,
+    "images": [],
+    "forum": 11,
+    "sections": 11,
+    "heading": "7장 증거로 완료를 판단한다"
+  },
+  {
+    "kind": "desktop",
+    "route": "/book/ch08/",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/diagrams/unknown-result-recovery.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 640
+      }
+    ],
+    "forum": 12,
+    "sections": 12,
+    "heading": "8장 예외와 복구를 설계한다"
+  },
+  {
+    "kind": "desktop",
+    "route": "/book/ch09/",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/diagrams/responsibility-flow.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 640
+      },
+      {
+        "src": "/diagrams/harness-policy-cycle.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 736
+      }
+    ],
+    "forum": 19,
+    "sections": 19,
+    "heading": "9장 팩토리의 책임과 경계를 정한다"
+  },
+  {
+    "kind": "desktop",
+    "route": "/book/ch10/",
+    "overflow": false,
+    "images": [],
+    "forum": 9,
+    "sections": 9,
+    "heading": "10장 일에 필요한 지식을 공급한다"
+  },
+  {
+    "kind": "desktop",
+    "route": "/book/ch11/",
+    "overflow": false,
+    "images": [],
+    "forum": 10,
+    "sections": 10,
+    "heading": "11장 모델과 에이전트의 능력을 평가한다"
+  },
+  {
+    "kind": "desktop",
+    "route": "/book/ch12/",
+    "overflow": false,
+    "images": [],
+    "forum": 11,
+    "sections": 11,
+    "heading": "12장 자동 실행의 권한과 검증을 연결한다"
+  },
+  {
+    "kind": "desktop",
+    "route": "/book/ch13/",
+    "overflow": false,
+    "images": [],
+    "forum": 8,
+    "sections": 8,
+    "heading": "13장 인재와 실행 능력에 투자한다"
+  },
+  {
+    "kind": "desktop",
+    "route": "/book/ch14/",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/diagrams/waiting-timeline.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 640
+      }
+    ],
+    "forum": 8,
+    "sections": 8,
+    "heading": "14장 커뮤니케이션의 병목을 찾는다"
+  },
+  {
+    "kind": "desktop",
+    "route": "/book/ch15/",
+    "overflow": false,
+    "images": [],
+    "forum": 8,
+    "sections": 8,
+    "heading": "15장 업무 흐름에 맞춰 권한과 팀 경계를 설계한다"
+  },
+  {
+    "kind": "desktop",
+    "route": "/book/ch16/",
+    "overflow": false,
+    "images": [],
+    "forum": 10,
+    "sections": 10,
+    "heading": "16장 리더십과 학습 문화를 다시 설계한다"
+  },
+  {
+    "kind": "desktop",
+    "route": "/book/ch17/",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/diagrams/measurement-population.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 640
+      }
+    ],
+    "forum": 12,
+    "sections": 12,
+    "heading": "17장 생산성과 의도 부합을 함께 측정한다"
+  },
+  {
+    "kind": "desktop",
+    "route": "/book/ch18/",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/diagrams/adoption-journeys.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 640
+      }
+    ],
+    "forum": 10,
+    "sections": 10,
+    "heading": "18장 증거를 확보하며 단계적으로 도입한다"
+  },
+  {
+    "kind": "desktop",
+    "route": "/book/ch19/",
+    "overflow": false,
+    "images": [],
+    "forum": 11,
+    "sections": 11,
+    "heading": "19장 실패를 정책과 계획의 개선으로 연결한다"
+  },
+  {
+    "kind": "desktop",
+    "route": "/book/ch20/",
+    "overflow": false,
+    "images": [],
+    "forum": 7,
+    "sections": 7,
+    "heading": "20장 자동화의 범위를 넓힌다"
+  },
+  {
+    "kind": "desktop",
+    "route": "/demo/evidence/",
+    "overflow": false,
+    "images": [],
+    "forum": 3,
+    "sections": 3,
+    "heading": "결과를 판단하는 증거"
+  },
+  {
+    "kind": "desktop",
+    "route": "/demo/execution-authority/",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/diagrams/demo-authority-boundary.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 640
+      }
+    ],
+    "forum": 3,
+    "sections": 3,
+    "heading": "만드는 권한과 게시하는 권한"
+  },
+  {
+    "kind": "desktop",
+    "route": "/demo/improvement/",
+    "overflow": false,
+    "images": [],
+    "forum": 4,
+    "sections": 4,
+    "heading": "관찰을 개선으로 연결하기"
+  },
+  {
+    "kind": "desktop",
+    "route": "/demo/",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/diagrams/demo-flow.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 640
+      }
+    ],
+    "forum": 3,
+    "sections": 3,
+    "heading": "데모 해설"
+  },
+  {
+    "kind": "desktop",
+    "route": "/demo/metrics/",
+    "overflow": false,
+    "images": [],
+    "forum": 3,
+    "sections": 3,
+    "heading": "활동과 성과를 구분하는 지표"
+  },
+  {
+    "kind": "desktop",
+    "route": "/demo/policy-and-gate/",
+    "overflow": false,
+    "images": [],
+    "forum": 3,
+    "sections": 3,
+    "heading": "정책과 수용 경계"
+  },
+  {
+    "kind": "desktop",
+    "route": "/demo/recovery/",
+    "overflow": false,
+    "images": [],
+    "forum": 3,
+    "sections": 3,
+    "heading": "실패에서 복구로"
+  },
+  {
+    "kind": "desktop",
+    "route": "/demo/request/",
+    "overflow": false,
+    "images": [],
+    "forum": 3,
+    "sections": 3,
+    "heading": "요청에서 실행 가능한 작업까지"
+  },
+  {
+    "kind": "desktop",
+    "route": "/book/preface/",
+    "overflow": false,
+    "images": [],
+    "forum": 7,
+    "sections": 7,
+    "heading": "서문 · 소프트웨어를 생산하는 조직"
+  },
+  {
+    "kind": "desktop",
+    "route": "/patterns/p03/",
+    "overflow": false,
+    "images": [],
+    "forum": 1,
+    "sections": 7,
+    "heading": "P03 실행 가능한 계약"
+  },
+  {
+    "kind": "desktop",
+    "route": "/patterns/p06/",
+    "overflow": false,
+    "images": [],
+    "forum": 1,
+    "sections": 7,
+    "heading": "P06 증거 기반 완료"
+  },
+  {
+    "kind": "desktop",
+    "route": "/patterns/p10/",
+    "overflow": false,
+    "images": [],
+    "forum": 1,
+    "sections": 7,
+    "heading": "P10 범위가 정해진 자율성"
+  },
+  {
+    "kind": "desktop",
+    "route": "/patterns/p11/",
+    "overflow": false,
+    "images": [],
+    "forum": 1,
+    "sections": 7,
+    "heading": "P11 예외를 통한 개입"
+  },
+  {
+    "kind": "desktop",
+    "route": "/patterns/p14/",
+    "overflow": false,
+    "images": [],
+    "forum": 1,
+    "sections": 7,
+    "heading": "P14 흐름에 맞춘 권한과 팀 경계"
+  },
+  {
+    "kind": "desktop",
+    "route": "/patterns/p15/",
+    "overflow": false,
+    "images": [],
+    "forum": 1,
+    "sections": 7,
+    "heading": "P15 검증을 거치는 개선"
+  },
+  {
+    "kind": "mobile",
+    "route": "/book/ch01/",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/diagrams/factory-overview.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 358
+      }
+    ],
+    "forum": 10,
+    "sections": 10,
+    "heading": "1장 코드 생성에서 의도 실현으로"
+  },
+  {
+    "kind": "mobile",
+    "route": "/book/ch02/",
+    "overflow": false,
+    "images": [],
+    "forum": 10,
+    "sections": 10,
+    "heading": "2장 의도를 지속적인 기준으로 만든다"
+  },
+  {
+    "kind": "mobile",
+    "route": "/book/ch03/",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/diagrams/policy-hierarchy.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 358
+      },
+      {
+        "src": "/diagrams/automation-routing.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 358
+      }
+    ],
+    "forum": 13,
+    "sections": 13,
+    "heading": "3장 정책과 실행계획을 분리한다"
+  },
+  {
+    "kind": "mobile",
+    "route": "/book/ch04/",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/diagrams/intent-harness-loops.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 358
+      }
+    ],
+    "forum": 11,
+    "sections": 11,
+    "heading": "4장 의도 실행 루프를 닫는다"
+  },
+  {
+    "kind": "mobile",
+    "route": "/book/ch05/",
+    "overflow": false,
+    "images": [],
+    "forum": 11,
+    "sections": 11,
+    "heading": "5장 의도를 실행 계약으로 바꾼다"
+  },
+  {
+    "kind": "mobile",
+    "route": "/book/ch06/",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/diagrams/work-dependencies.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 358
+      }
+    ],
+    "forum": 10,
+    "sections": 10,
+    "heading": "6장 작업을 검증 가능한 단위로 나눈다"
+  },
+  {
+    "kind": "mobile",
+    "route": "/book/ch07/",
+    "overflow": false,
+    "images": [],
+    "forum": 11,
+    "sections": 11,
+    "heading": "7장 증거로 완료를 판단한다"
+  },
+  {
+    "kind": "mobile",
+    "route": "/book/ch08/",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/diagrams/unknown-result-recovery.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 358
+      }
+    ],
+    "forum": 12,
+    "sections": 12,
+    "heading": "8장 예외와 복구를 설계한다"
+  },
+  {
+    "kind": "mobile",
+    "route": "/book/ch09/",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/diagrams/responsibility-flow.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 358
+      },
+      {
+        "src": "/diagrams/harness-policy-cycle.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 358
+      }
+    ],
+    "forum": 19,
+    "sections": 19,
+    "heading": "9장 팩토리의 책임과 경계를 정한다"
+  },
+  {
+    "kind": "mobile",
+    "route": "/book/ch10/",
+    "overflow": false,
+    "images": [],
+    "forum": 9,
+    "sections": 9,
+    "heading": "10장 일에 필요한 지식을 공급한다"
+  },
+  {
+    "kind": "mobile",
+    "route": "/book/ch11/",
+    "overflow": false,
+    "images": [],
+    "forum": 10,
+    "sections": 10,
+    "heading": "11장 모델과 에이전트의 능력을 평가한다"
+  },
+  {
+    "kind": "mobile",
+    "route": "/book/ch12/",
+    "overflow": false,
+    "images": [],
+    "forum": 11,
+    "sections": 11,
+    "heading": "12장 자동 실행의 권한과 검증을 연결한다"
+  },
+  {
+    "kind": "mobile",
+    "route": "/book/ch13/",
+    "overflow": false,
+    "images": [],
+    "forum": 8,
+    "sections": 8,
+    "heading": "13장 인재와 실행 능력에 투자한다"
+  },
+  {
+    "kind": "mobile",
+    "route": "/book/ch14/",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/diagrams/waiting-timeline.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 358
+      }
+    ],
+    "forum": 8,
+    "sections": 8,
+    "heading": "14장 커뮤니케이션의 병목을 찾는다"
+  },
+  {
+    "kind": "mobile",
+    "route": "/book/ch15/",
+    "overflow": false,
+    "images": [],
+    "forum": 8,
+    "sections": 8,
+    "heading": "15장 업무 흐름에 맞춰 권한과 팀 경계를 설계한다"
+  },
+  {
+    "kind": "mobile",
+    "route": "/book/ch16/",
+    "overflow": false,
+    "images": [],
+    "forum": 10,
+    "sections": 10,
+    "heading": "16장 리더십과 학습 문화를 다시 설계한다"
+  },
+  {
+    "kind": "mobile",
+    "route": "/book/ch17/",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/diagrams/measurement-population.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 358
+      }
+    ],
+    "forum": 12,
+    "sections": 12,
+    "heading": "17장 생산성과 의도 부합을 함께 측정한다"
+  },
+  {
+    "kind": "mobile",
+    "route": "/book/ch18/",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/diagrams/adoption-journeys.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 358
+      }
+    ],
+    "forum": 10,
+    "sections": 10,
+    "heading": "18장 증거를 확보하며 단계적으로 도입한다"
+  },
+  {
+    "kind": "mobile",
+    "route": "/book/ch19/",
+    "overflow": false,
+    "images": [],
+    "forum": 11,
+    "sections": 11,
+    "heading": "19장 실패를 정책과 계획의 개선으로 연결한다"
+  },
+  {
+    "kind": "mobile",
+    "route": "/book/ch20/",
+    "overflow": false,
+    "images": [],
+    "forum": 7,
+    "sections": 7,
+    "heading": "20장 자동화의 범위를 넓힌다"
+  },
+  {
+    "kind": "mobile",
+    "route": "/demo/evidence/",
+    "overflow": false,
+    "images": [],
+    "forum": 3,
+    "sections": 3,
+    "heading": "결과를 판단하는 증거"
+  },
+  {
+    "kind": "mobile",
+    "route": "/demo/execution-authority/",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/diagrams/demo-authority-boundary.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 358
+      }
+    ],
+    "forum": 3,
+    "sections": 3,
+    "heading": "만드는 권한과 게시하는 권한"
+  },
+  {
+    "kind": "mobile",
+    "route": "/demo/improvement/",
+    "overflow": false,
+    "images": [],
+    "forum": 4,
+    "sections": 4,
+    "heading": "관찰을 개선으로 연결하기"
+  },
+  {
+    "kind": "mobile",
+    "route": "/demo/",
+    "overflow": false,
+    "images": [
+      {
+        "src": "/diagrams/demo-flow.svg",
+        "loaded": true,
+        "alt": true,
+        "width": 358
+      }
+    ],
+    "forum": 3,
+    "sections": 3,
+    "heading": "데모 해설"
+  },
+  {
+    "kind": "mobile",
+    "route": "/demo/metrics/",
+    "overflow": false,
+    "images": [],
+    "forum": 3,
+    "sections": 3,
+    "heading": "활동과 성과를 구분하는 지표"
+  },
+  {
+    "kind": "mobile",
+    "route": "/demo/policy-and-gate/",
+    "overflow": false,
+    "images": [],
+    "forum": 3,
+    "sections": 3,
+    "heading": "정책과 수용 경계"
+  },
+  {
+    "kind": "mobile",
+    "route": "/demo/recovery/",
+    "overflow": false,
+    "images": [],
+    "forum": 3,
+    "sections": 3,
+    "heading": "실패에서 복구로"
+  },
+  {
+    "kind": "mobile",
+    "route": "/demo/request/",
+    "overflow": false,
+    "images": [],
+    "forum": 3,
+    "sections": 3,
+    "heading": "요청에서 실행 가능한 작업까지"
+  },
+  {
+    "kind": "mobile",
+    "route": "/book/preface/",
+    "overflow": false,
+    "images": [],
+    "forum": 7,
+    "sections": 7,
+    "heading": "서문 · 소프트웨어를 생산하는 조직"
+  },
+  {
+    "kind": "mobile",
+    "route": "/patterns/p03/",
+    "overflow": false,
+    "images": [],
+    "forum": 1,
+    "sections": 7,
+    "heading": "P03 실행 가능한 계약"
+  },
+  {
+    "kind": "mobile",
+    "route": "/patterns/p06/",
+    "overflow": false,
+    "images": [],
+    "forum": 1,
+    "sections": 7,
+    "heading": "P06 증거 기반 완료"
+  },
+  {
+    "kind": "mobile",
+    "route": "/patterns/p10/",
+    "overflow": false,
+    "images": [],
+    "forum": 1,
+    "sections": 7,
+    "heading": "P10 범위가 정해진 자율성"
+  },
+  {
+    "kind": "mobile",
+    "route": "/patterns/p11/",
+    "overflow": false,
+    "images": [],
+    "forum": 1,
+    "sections": 7,
+    "heading": "P11 예외를 통한 개입"
+  },
+  {
+    "kind": "mobile",
+    "route": "/patterns/p14/",
+    "overflow": false,
+    "images": [],
+    "forum": 1,
+    "sections": 7,
+    "heading": "P14 흐름에 맞춘 권한과 팀 경계"
+  },
+  {
+    "kind": "mobile",
+    "route": "/patterns/p15/",
+    "overflow": false,
+    "images": [],
+    "forum": 1,
+    "sections": 7,
+    "heading": "P15 검증을 거치는 개선"
+  }
+]

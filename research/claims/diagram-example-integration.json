@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-24",
+  "scope": "다이어그램·연결 예시의 원고 반영",
+  "reader_files": [
+    "manuscript/chapters/ch01.md",
+    "manuscript/chapters/ch02.md",
+    "manuscript/chapters/ch03.md",
+    "manuscript/chapters/ch04.md",
+    "manuscript/chapters/ch05.md",
+    "manuscript/chapters/ch06.md",
+    "manuscript/chapters/ch07.md",
+    "manuscript/chapters/ch08.md",
+    "manuscript/chapters/ch09.md",
+    "manuscript/chapters/ch10.md",
+    "manuscript/chapters/ch11.md",
+    "manuscript/chapters/ch12.md",
+    "manuscript/chapters/ch13.md",
+    "manuscript/chapters/ch14.md",
+    "manuscript/chapters/ch15.md",
+    "manuscript/chapters/ch16.md",
+    "manuscript/chapters/ch17.md",
+    "manuscript/chapters/ch18.md",
+    "manuscript/chapters/ch19.md",
+    "manuscript/chapters/ch20.md",
+    "manuscript/demo/evidence.md",
+    "manuscript/demo/execution-authority.md",
+    "manuscript/demo/improvement.md",
+    "manuscript/demo/index.md",
+    "manuscript/demo/metrics.md",
+    "manuscript/demo/policy-and-gate.md",
+    "manuscript/demo/recovery.md",
+    "manuscript/demo/request.md",
+    "manuscript/front-matter/00-preface.md",
+    "manuscript/patterns/p03.md",
+    "manuscript/patterns/p06.md",
+    "manuscript/patterns/p10.md",
+    "manuscript/patterns/p11.md",
+    "manuscript/patterns/p14.md",
+    "manuscript/patterns/p15.md"
+  ],
+  "claims": [
+    {
+      "type": "author_proposal",
+      "claim": "비즈니스 목표와 세 원리, 두 개선 루프, 실행 경로, 책임 겸임, 도입 경로와 측정 범위를 도표로 보강한다.",
+      "sources": [],
+      "limits": "보편적 조직 효과나 독자 이해 효과를 검증한 결과가 아니다."
+    },
+    {
+      "type": "explanatory_example",
+      "claim": "문의 초안의 의도·계약·증거를 연결하고 별도 위임된 외부 발송과 복구를 구분한다.",
+      "sources": [],
+      "limits": "실제 고객 사건·성과 수치·데모의 새 기능을 만들지 않았다. 초안 계약에는 외부 발송과 권한 변경을 포함하지 않는다."
+    },
+    {
+      "type": "observed_static_structure",
+      "claim": "데모의 시작 허용과 준비/수행/게시, 검사와 반영, 기록과 개선 관계를 고정 판본의 기존 설명으로 도식화한다.",
+      "sources": [
+        "S98",
+        "S103"
+      ],
+      "revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+      "verified_scope": "S98 README 개요/흐름, S103 워크플로 전체·protect 전체·implement 관련 부분·운영 한계 관련 부분 재확인",
+      "limits": "직접 실행/현재 기본 브랜치 전체/운영 효과/완전 격리/최상위 정책 계층 구현을 확인하지 않았다."
+    },
+    {
+      "type": "existing_explanation_reformatted",
+      "claim": "데모의 위험 판정·수정 증거·차단과 복구·분모·개선 평가를 기존 해설의 표와 교차 참조로 보강한다.",
+      "sources": [
+        "S100",
+        "S101",
+        "S102",
+        "S105",
+        "S106"
+      ],
+      "limits": "해당 코드 전체를 새로 재검증한 것은 아니다. 기존 확인 범위·한계를 보존한다."
+    }
+  ],
+  "illustration_status": "장식·래스터 삽화 보류 유지",
+  "publication_status": "미커밋·미배포"
+}

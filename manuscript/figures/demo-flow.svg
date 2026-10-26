@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1220" viewBox="0 0 640 1220" role="img" aria-labelledby="title desc">
+<title id="title">확인한 데모의 요청부터 개선까지</title>
+<desc id="desc">고정 판본의 데모 흐름이다. 사람의 시작 허용 후 준비·에이전트 수행·게시, 검사·검토와 병합 판단, 배포와 기록을 연결한다. 일부 병합과 개선 반영은 사람 판단으로 간다. 기록은 실행 중에도 남는다. 모든 팩토리의 필수 승인 절차를 뜻하지 않는다.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#287d70"/></marker></defs>
+<rect width="640" height="1220" rx="18" fill="#f8fafb"/>
+<g font-family="Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif">
+<text x="320" y="48" text-anchor="middle" font-size="30" font-weight="700" fill="#18313b">확인한 데모의 요청부터 개선까지</text>
+<rect x="40" y="80" width="560" height="110" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="120" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">요청과 시작 허용</text>
+<text x="320.0" y="160" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">목표·수용 기준 / 사람의 시작 판단</text>
+<path d="M320 190 V230" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="235" width="560" height="110" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="275" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">준비 → 에이전트 수행 → 게시</text>
+<text x="320.0" y="315" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">계획과 변경 묶음을 단계 사이 전달</text>
+<path d="M320 345 V385" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="390" width="560" height="110" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="430" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">검사·검토 → 병합 판단</text>
+<text x="320.0" y="470" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">조건에 따라 자동 병합 또는 사람 판단</text>
+<path d="M320 500 V540" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="545" width="560" height="110" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="585" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">배포 → 결과 관찰</text>
+<text x="320.0" y="625" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">서비스 반영과 운영 결과를 구분</text>
+<path d="M320 655 V695" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="700" width="560" height="110" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="740" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">실행 이력 → 개선 후보</text>
+<text x="320.0" y="780" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">기록은 실행 과정에도 남는다</text>
+<path d="M320 810 V850" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="855" width="560" height="110" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="895" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">지침·검사 변경 → 평가</text>
+<text x="320.0" y="935" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">확인한 데모는 개선 병합에 사람 판단</text>
+<path d="M600 915 H620 V290 H602" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="320" y="1030" text-anchor="middle" font-size="25" font-weight="700" fill="#18313b">코드·문서의 고정 판본을 설명한 흐름</text>
+<text x="320" y="1075" text-anchor="middle" font-size="24" font-weight="400" fill="#18313b">직접 실행·운영 효과를 새로 검증한 결과가 아니다.</text>
+<text x="320" y="1130" text-anchor="middle" font-size="24" font-weight="400" fill="#18313b">책의 목표: 정책이 허용하면 개별 승인 없이 자동화</text>
+</g>
+</svg>

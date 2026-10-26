@@ -3811,8 +3811,30 @@
         "scope": "작동 관계의 짧은 자체 산문·원문 링크. 코드·원문·로그 전문이나 이미지 복제 없음.",
         "permission_basis": "확인 판본 README의 자체 코드·문서·설정 Apache-2.0 표시와 LICENSE 조항 확인. 저자의 자체 산문·출처 표시로 관계를 해설하며 기본 200단어를 넘는 누적 의역은 이 허락 범위 안에서 관리한다. 제3자 파일·상표·이미지에는 확대하지 않는다.",
         "license_url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/LICENSE",
-        "manual_review": "본문·해설·조사 보고서·메타데이터의 중복을 대조하고 같은 코드를 독립 효과 근거로 세지 않는다."
-      }
+        "manual_review": "본문·해설·조사 보고서·메타데이터의 중복을 대조하고 같은 코드를 독립 효과 근거로 세지 않는다.",
+        "additional_reviews": [
+          {
+            "checked_on": "2026-10-24",
+            "files": [
+              "manuscript/figures/demo-flow.svg"
+            ],
+            "direct_quote_words": 0,
+            "scope": "기존 독자용 해설과 중복되는 관계를 자체 SVG와 대체 텍스트·캡션으로 요약. 기존 Apache-2.0 허락 범위를 유지하며 전문·제3자 이미지 복제 없음."
+          }
+        ]
+      },
+      "followup_checks": [
+        {
+          "checked_on": "2026-10-24",
+          "purpose": "기존 확인 판본의 데모 도표 제작을 위한 관계 재대조",
+          "revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+          "read_scope": [
+            "README.md"
+          ],
+          "result": "기존 해설의 시작 허용·실행/게시 분리·전달물과 보호 검사·남은 한계와 도표를 대조",
+          "limit": "최신 브랜치로 판본을 올리지 않음. 직접 실행·전체 보안 강제성·운영 효과 미검증."
+        }
+      ]
     },
     {
       "id": "S99",
@@ -3983,8 +4005,33 @@
         "scope": "작동 관계의 짧은 자체 산문·원문 링크. 코드·원문·로그 전문이나 이미지 복제 없음.",
         "permission_basis": "확인 판본 README의 자체 코드·문서·설정 Apache-2.0 표시와 LICENSE 조항 확인. 저자의 자체 산문·출처 표시로 관계를 해설하며 기본 200단어를 넘는 누적 의역은 이 허락 범위 안에서 관리한다. 제3자 파일·상표·이미지에는 확대하지 않는다.",
         "license_url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/LICENSE",
-        "manual_review": "본문·해설·조사 보고서·메타데이터의 중복을 대조하고 같은 코드를 독립 효과 근거로 세지 않는다."
-      }
+        "manual_review": "본문·해설·조사 보고서·메타데이터의 중복을 대조하고 같은 코드를 독립 효과 근거로 세지 않는다.",
+        "additional_reviews": [
+          {
+            "checked_on": "2026-10-24",
+            "files": [
+              "manuscript/figures/demo-authority-boundary.svg"
+            ],
+            "direct_quote_words": 0,
+            "scope": "기존 독자용 해설과 중복되는 관계를 자체 SVG와 대체 텍스트·캡션으로 요약. 기존 Apache-2.0 허락 범위를 유지하며 전문·제3자 이미지 복제 없음."
+          }
+        ]
+      },
+      "followup_checks": [
+        {
+          "checked_on": "2026-10-24",
+          "purpose": "기존 확인 판본의 데모 도표 제작을 위한 관계 재대조",
+          "revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+          "read_scope": [
+            ".github/workflows/factory-implement.yml",
+            "packages/factory/src/stages/protect.ts",
+            "packages/factory/src/stages/implement.ts (계획 타입·prepare/agent/publish와 보호 함수 호출 관련 부분)",
+            "docs/operations.md (운영 흐름·보안·실행기/캐시 제한 관련 부분)"
+          ],
+          "result": "기존 해설의 시작 허용·실행/게시 분리·전달물과 보호 검사·남은 한계와 도표를 대조",
+          "limit": "최신 브랜치로 판본을 올리지 않음. 직접 실행·전체 보안 강제성·운영 효과 미검증."
+        }
+      ]
     },
     {
       "id": "S104",
@@ -4892,6 +4939,66 @@
         ],
         "direct_quote_words": 0,
         "scope": "초록의 한 논점만 의역하고 저자 정의와 분리."
+      }
+    },
+    {
+      "id": "S136",
+      "title": "Make your website shareable on LinkedIn",
+      "author": "LinkedIn Help",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a521928/making-your-website-shareable-on-linkedin?lang=en",
+      "published_on": null,
+      "checked_on": "2026-10-24",
+      "verification_status": "공식 운영 안내의 관련 부분 직접 확인",
+      "verification_scope": "공식 안내의 og:title/image/description/url 요구 항목.",
+      "use": "SNS 공유 메타데이터 운영 근거; 책 본문 인용 아님",
+      "limit": "태그 제공과 실제 플랫폼의 카드 레이아웃 표시를 구분한다.",
+      "usage_review": {
+        "files": [
+          "planning/sessions/2026-10-24-social-sharing-description.md",
+          "research/claims/social-sharing-description.json"
+        ],
+        "direct_quote_words": 0,
+        "scope": "운영 안내를 짧게 기록하며 장문 원문/코드 예제는 재현하지 않음."
+      }
+    },
+    {
+      "id": "S137",
+      "title": "Use Post Inspector to refresh URL",
+      "author": "LinkedIn Help",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a6269011",
+      "published_on": null,
+      "checked_on": "2026-10-24",
+      "verification_status": "공식 운영 안내의 관련 부분 직접 확인",
+      "verification_scope": "캐시 갱신 절차와 새 게시물에만 영향이 있다는 공식 안내.",
+      "use": "SNS 공유 메타데이터 운영 근거; 책 본문 인용 아님",
+      "limit": "사이트 수정으로 기존 게시물의 미리보기를 바꿨다고 주장하지 않는다.",
+      "usage_review": {
+        "files": [
+          "planning/sessions/2026-10-24-social-sharing-description.md",
+          "research/claims/social-sharing-description.json"
+        ],
+        "direct_quote_words": 0,
+        "scope": "운영 안내를 짧게 기록하며 장문 원문/코드 예제는 재현하지 않음."
+      }
+    },
+    {
+      "id": "S138",
+      "title": "The Open Graph protocol",
+      "author": "Open Graph protocol",
+      "url": "https://ogp.me/",
+      "published_on": null,
+      "checked_on": "2026-10-24",
+      "verification_status": "공식 운영 안내의 관련 부분 직접 확인",
+      "verification_scope": "기본 메타데이터와 설명·이미지 속성의 정의.",
+      "use": "SNS 공유 메타데이터 운영 근거; 책 본문 인용 아님",
+      "limit": "특정 SNS 화면에서 설명 노출을 보장하는 자료는 아니다.",
+      "usage_review": {
+        "files": [
+          "planning/sessions/2026-10-24-social-sharing-description.md",
+          "research/claims/social-sharing-description.json"
+        ],
+        "direct_quote_words": 0,
+        "scope": "운영 안내를 짧게 기록하며 장문 원문/코드 예제는 재현하지 않음."
       }
     }
   ],

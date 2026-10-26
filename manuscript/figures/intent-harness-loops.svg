@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1050" viewBox="0 0 640 1050" role="img" aria-labelledby="title desc">
+<title id="title">같은 관측에서 나뉘는 두 개선 루프</title>
+<desc id="desc">공통 운영 증거를 의도와 하네스 두 경로로 검토한다. 의도는 목표와 성공 기준을, 하네스는 지침과 실행·검증·맥락 공급을 고친다. 각 변경 권한과 평가를 확인하고 다음 실행에 적용한다. 개별 작업 재시도와 구분하며 최상위 원칙을 보존한다.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#287d70"/></marker></defs>
+<rect width="640" height="1050" rx="18" fill="#f8fafb"/>
+<g font-family="Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif">
+<text x="320" y="48" text-anchor="middle" font-size="30" font-weight="700" fill="#18313b">같은 관측에서 나뉘는 두 개선 루프</text>
+<rect x="40" y="80" width="560" height="110" rx="14" fill="#173f3c" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="120" text-anchor="middle" font-size="29" font-weight="700" fill="#ffffff">공통 입력: 운영 증거</text>
+<text x="320.0" y="160" text-anchor="middle" font-size="26" font-weight="400" fill="#dcf2ed">사용자 결과 · 결함 · 차단 · 비용</text>
+<path d="M320 190 V230" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="235" width="560" height="195" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="275" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">의도 개선 루프</text>
+<text x="320.0" y="315" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">질문: 해결할 문제가 맞는가?</text>
+<text x="320.0" y="353" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">변경: 고객 약속·기대 결과·성공 기준</text>
+<text x="320.0" y="391" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">의도 변경 권한과 근거를 확인</text>
+<path d="M40 135 H20 V570 H38" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M600 330 H610 V735 H320" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="475" width="560" height="195" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="515" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">하네스 개선 루프</text>
+<text x="320.0" y="555" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">질문: 약속을 올바르게 수행했는가?</text>
+<text x="320.0" y="593" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">변경: 지침·맥락·집행·검증</text>
+<text x="320.0" y="631" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">변경 권한과 별도 평가를 확인</text>
+
+<path d="M320 670 V765" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="770" width="560" height="142" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="810" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">평가 → 적용 → 다음 실행·관측</text>
+<text x="320.0" y="850" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">원칙을 보존하며 허용한 범위만 개선</text>
+<text x="320.0" y="888" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">재시도는 같은 작업의 별도 복구 경로</text>
+<path d="M600 842 H630 V135 H602" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="320" y="980" text-anchor="middle" font-size="26" font-weight="700" fill="#18313b">목표를 낮추어 실패를 숨기지 않는다.</text>
+</g>
+</svg>

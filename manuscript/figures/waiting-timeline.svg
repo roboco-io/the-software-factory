@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="910" viewBox="0 0 640 910" role="img" aria-labelledby="title desc">
+<title id="title">경과 시간과 사람 투입은 다르다</title>
+<desc id="desc">같은 요청의 사건 순서를 따라 자동 수행, 판정 대기, 사람의 판단, 후속 실행을 구분한다. 요청부터 결과까지의 경과 시간과 실제 사람 투입은 다른 측정이다. 상자 높이와 간격은 실제 시간을 뜻하지 않는다.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#287d70"/></marker></defs>
+<rect width="640" height="910" rx="18" fill="#f8fafb"/>
+<g font-family="Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif">
+<text x="320" y="48" text-anchor="middle" font-size="30" font-weight="700" fill="#18313b">경과 시간과 사람 투입은 다르다</text>
+<rect x="40" y="80" width="560" height="110" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="120" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">요청 접수</text>
+<text x="320.0" y="160" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">측정 시작 조건을 고정</text>
+<path d="M320 190 V225" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="230" width="560" height="110" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="270" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">자동 수행</text>
+<text x="320.0" y="310" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">실행 시간과 사람 지원을 따로 기록</text>
+<path d="M320 340 V375" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="380" width="560" height="110" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="420" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">판정 대기</text>
+<text x="320.0" y="460" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">기다린 시간 ≠ 사람이 일한 시간</text>
+<path d="M320 490 V525" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="530" width="560" height="110" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="570" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">필요한 판단과 후속 실행</text>
+<text x="320.0" y="610" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">사람의 실제 판단·지원 투입을 기록</text>
+<path d="M320 640 V675" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="680" width="560" height="110" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<text x="320.0" y="720" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">수용한 결과</text>
+<text x="320.0" y="760" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">경과 시간과 전체 투입을 함께 비교</text>
+<text x="320" y="850" text-anchor="middle" font-size="24" font-weight="400" fill="#18313b">사건 순서의 예시이며 길이는 시간이 아니다.</text>
+</g>
+</svg>

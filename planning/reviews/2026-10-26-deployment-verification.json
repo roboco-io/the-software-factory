@@ -1,0 +1,139 @@
+{
+  "checked_on": "2026-10-26",
+  "site": "https://factory.roboco.io",
+  "checks": [
+    {
+      "path": "/diagrams/policy-hierarchy.svg",
+      "status": 200,
+      "sha256": "ec75a283d74c34380af7cd7fc1b6c1ebe08f1e15cba27ea52699d1bf3a9597e6",
+      "matches_local": true
+    },
+    {
+      "path": "/diagrams/harness-policy-cycle.svg",
+      "status": 200,
+      "sha256": "9bc653d779cc0532fcc2eb4f31cfff0a2608b415fec0701fd2b6fb409e8ae8a2",
+      "matches_local": true
+    },
+    {
+      "path": "/diagrams/factory-overview.svg",
+      "status": 200,
+      "sha256": "509e5e99c54bbc7e0ee01df956f43fa85617dcc368742ee236f7786b614571d0",
+      "matches_local": true
+    },
+    {
+      "path": "/diagrams/intent-harness-loops.svg",
+      "status": 200,
+      "sha256": "5829ce6bac4d936f29a6a6e7a8857fc217961e6c016faf2795e8d8811ff2608d",
+      "matches_local": true
+    },
+    {
+      "path": "/diagrams/automation-routing.svg",
+      "status": 200,
+      "sha256": "f799f77fb03c3a15568a9d2173fdb90e9ebef9bbb7277d2c97d0edc1791372bd",
+      "matches_local": true
+    },
+    {
+      "path": "/diagrams/responsibility-flow.svg",
+      "status": 200,
+      "sha256": "bb535c4ba675cc255546637ea78b306e14cdb139bba7ba86d3101a89e088cf10",
+      "matches_local": true
+    },
+    {
+      "path": "/diagrams/adoption-journeys.svg",
+      "status": 200,
+      "sha256": "cd56123d71abbade737b6b0c07b6d3fff1ec8a0cf0314c094022468a3ce6daf8",
+      "matches_local": true
+    },
+    {
+      "path": "/diagrams/measurement-population.svg",
+      "status": 200,
+      "sha256": "88ca9da19c112b9e8319da0a76816b8759bcd48356f8fd7e4c18045dc01ad075",
+      "matches_local": true
+    },
+    {
+      "path": "/diagrams/demo-flow.svg",
+      "status": 200,
+      "sha256": "1553f99b9bc9da684d18855498c5388fc12bc8f242e10d8adb54b66d448fc0e6",
+      "matches_local": true
+    },
+    {
+      "path": "/diagrams/demo-authority-boundary.svg",
+      "status": 200,
+      "sha256": "8ac3c5bbe923a36c5bc2f5d336c84d4123ad84689cc562c3b340c183922dbc9f",
+      "matches_local": true
+    },
+    {
+      "path": "/diagrams/work-dependencies.svg",
+      "status": 200,
+      "sha256": "fe88c19214454d6030c230f24fb8de9618b37c5d879863d619e10e07f284cce1",
+      "matches_local": true
+    },
+    {
+      "path": "/diagrams/unknown-result-recovery.svg",
+      "status": 200,
+      "sha256": "e1f61ec2c47284b7bccafd729916005895dfa9f01d767eb619d19052fd1f471a",
+      "matches_local": true
+    },
+    {
+      "path": "/diagrams/waiting-timeline.svg",
+      "status": 200,
+      "sha256": "42dd1ec3b5c8ed0ea1a42ddf6488d9c4eef92aa9db2df497561d4d934d3f509d",
+      "matches_local": true
+    },
+    {
+      "path": "/book/ch01/",
+      "status": 200,
+      "markers": [
+        "fig-1-1",
+        "/diagrams/factory-overview.svg"
+      ]
+    },
+    {
+      "path": "/book/ch04/",
+      "status": 200,
+      "markers": [
+        "fig-4-1",
+        "/diagrams/intent-harness-loops.svg"
+      ]
+    },
+    {
+      "path": "/book/preface/",
+      "status": 200,
+      "markers": [
+        "ChatGPT",
+        "Claude",
+        "GPT"
+      ]
+    },
+    {
+      "path": "/book/ch03/",
+      "status": 200,
+      "markers": [
+        "/diagrams/automation-routing.svg"
+      ]
+    },
+    {
+      "path": "/demo/",
+      "status": 200,
+      "markers": [
+        "/diagrams/demo-flow.svg"
+      ]
+    },
+    {
+      "path": "/demo/execution-authority/",
+      "status": 200,
+      "markers": [
+        "/diagrams/demo-authority-boundary.svg"
+      ]
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "shared_metadata_matches": true
+    }
+  ],
+  "scope": "실제 공개 HTTP 응답·SVG 원본 일치·본문/공유 설명; 독자 이해·운영 효과 검증 아님",
+  "published_commit": "e5dac29d90599ca7d48aaeaceaa5a66ca1cf7605",
+  "workflow_run": "https://github.com/roboco-io/the-software-factory/actions/runs/40251741464",
+  "workflow_result": "build/deploy/notify-forum success"
+}

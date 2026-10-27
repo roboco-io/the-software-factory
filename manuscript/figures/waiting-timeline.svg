@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="910" viewBox="0 0 640 910" role="img" aria-labelledby="title desc">
 <title id="title">경과 시간과 사람 투입은 다르다</title>
 <desc id="desc">같은 요청의 사건 순서를 따라 자동 수행, 판정 대기, 사람의 판단, 후속 실행을 구분한다. 요청부터 결과까지의 경과 시간과 실제 사람 투입은 다른 측정이다. 상자 높이와 간격은 실제 시간을 뜻하지 않는다.</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#287d70"/></marker></defs>
+<defs><marker id="arrow" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" viewBox="0 0 14 14" refX="14" refY="7" orient="auto"><path d="M0 0 L14 7 L0 14 Z" fill="#287d70"/></marker></defs>
 <rect width="640" height="910" rx="18" fill="#f8fafb"/>
 <g font-family="Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif">
 <text x="320" y="48" text-anchor="middle" font-size="30" font-weight="700" fill="#18313b">경과 시간과 사람 투입은 다르다</text>

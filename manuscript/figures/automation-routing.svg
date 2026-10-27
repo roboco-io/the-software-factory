@@ -1,35 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="1050" viewBox="0 0 640 1050" role="img" aria-labelledby="title desc">
 <title id="title">정책이 나누는 실행 경로</title>
 <desc id="desc">요청과 맥락에서 원칙·정책·증거·권한·복구 조건을 확인하고 자동 처리, 사람 판단, 보류, 차단으로 구분한다. 보류에서는 허용된 추가 조사만 수행한다. 원칙상 금지는 사람 판단으로 우회하지 않는다.</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#287d70"/></marker></defs>
+<defs><marker id="arrow" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" viewBox="0 0 14 14" refX="14" refY="7" orient="auto"><path d="M0 0 L14 7 L0 14 Z" fill="#287d70"/></marker></defs>
 <rect width="640" height="1050" rx="18" fill="#f8fafb"/>
 <g font-family="Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif">
 <text x="320" y="48" text-anchor="middle" font-size="30" font-weight="700" fill="#18313b">정책이 나누는 실행 경로</text>
-<rect x="40" y="80" width="560" height="110" rx="14" fill="#173f3c" stroke="#86ada5" stroke-width="2"/>
+<rect x="70" y="80" width="500" height="110" rx="14" fill="#173f3c" stroke="#86ada5" stroke-width="2"/>
 <text x="320.0" y="120" text-anchor="middle" font-size="29" font-weight="700" fill="#ffffff">요청과 맥락</text>
 <text x="320.0" y="160" text-anchor="middle" font-size="26" font-weight="400" fill="#dcf2ed">적용할 의도·원칙·정책을 확인</text>
 <path d="M320 190 V230" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
-<rect x="40" y="235" width="560" height="142" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<rect x="70" y="235" width="500" height="142" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
 <text x="320.0" y="275" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">실행 조건을 확인한다</text>
 <text x="320.0" y="315" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">대상·위임 범위·증거·실제 권한</text>
 <text x="320.0" y="353" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">회복 가능성·남는 영향·사안의 성격</text>
 <path d="M320 377 V420" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
 <text x="320" y="458" text-anchor="middle" font-size="28" font-weight="700" fill="#18313b">확인 결과에 따른 경로</text>
 <path d="M320 470 H20 V935" fill="none" stroke="#287d70" stroke-width="3"/>
-<path d="M20 545 H38" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
-<path d="M20 675 H38" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
-<path d="M20 805 H38" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
-<path d="M20 935 H38" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
-<rect x="40" y="490" width="560" height="110" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<path d="M20 545 H64" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M20 675 H64" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M20 805 H64" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M20 935 H64" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="70" y="490" width="500" height="110" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
 <text x="320.0" y="530" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">자동 처리</text>
 <text x="320.0" y="570" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">허용 범위와 조건 충족 → 끝까지 실행</text>
-<rect x="40" y="620" width="560" height="110" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<rect x="70" y="620" width="500" height="110" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
 <text x="320.0" y="660" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">사람 판단</text>
 <text x="320.0" y="700" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">정책이 유보한 선택 → 권한자에게 이관</text>
-<rect x="40" y="750" width="560" height="110" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<rect x="70" y="750" width="500" height="110" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
 <text x="320.0" y="790" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">보류</text>
 <text x="320.0" y="830" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">미확인·충돌 → 허용된 조사 후 재분류</text>
-<rect x="40" y="880" width="560" height="110" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<rect x="70" y="880" width="500" height="110" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
 <text x="320.0" y="920" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">차단</text>
 <text x="320.0" y="960" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">원칙상 금지 → 실행하지 않음</text>
 <text x="320" y="1026" text-anchor="middle" font-size="24" font-weight="400" fill="#18313b">사람 판단도 최상위 원칙을 우회하지 못한다.</text>

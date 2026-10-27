@@ -1,31 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="1060" viewBox="0 0 640 1060" role="img" aria-labelledby="title desc">
 <title id="title">기존 전환과 신규 구축의 두 여정</title>
 <desc id="desc">기존 서비스는 현재 고객 약속·데이터·운영 기준선과 회귀 조건에서, 신규 서비스는 사업 가설·첫 사용자 흐름·초기 실행 기반에서 시작한다. 둘 다 제한된 시험과 운영 증거로 유지·보완·중단·확대를 결정한다.</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#287d70"/></marker></defs>
+<defs><marker id="arrow" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" viewBox="0 0 14 14" refX="14" refY="7" orient="auto"><path d="M0 0 L14 7 L0 14 Z" fill="#287d70"/></marker></defs>
 <rect width="640" height="1060" rx="18" fill="#f8fafb"/>
 <g font-family="Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif">
 <text x="320" y="48" text-anchor="middle" font-size="30" font-weight="700" fill="#18313b">기존 전환과 신규 구축의 두 여정</text>
-<rect x="40" y="80" width="560" height="142" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<rect x="70" y="80" width="500" height="142" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
 <text x="320.0" y="120" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">경로 A: 기존 서비스 전환</text>
 <text x="320.0" y="160" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">고객 약속·데이터·운영을 보존</text>
 <text x="320.0" y="198" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">현재 기준선·회귀·이관 조건 확인</text>
-<rect x="40" y="250" width="560" height="142" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<rect x="70" y="250" width="500" height="142" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
 <text x="320.0" y="290" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">경로 B: 신규 서비스 구축</text>
 <text x="320.0" y="330" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">사업 가설·작은 사용자 흐름 정의</text>
 <text x="320.0" y="368" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">실행 기반과 첫 운영 증거 확보</text>
-<path d="M600 151 H620 V462 H320" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
-<text x="320" y="440" text-anchor="middle" font-size="26" font-weight="700" fill="#18313b">두 출발점에서 공통 시험으로 합류</text>
-<path d="M320 465 V505" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
-<rect x="40" y="510" width="560" height="142" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<path d="M570 151 H620 V465 H320" fill="none" stroke="#287d70" stroke-width="3"/>
+<path d="M320 392 V465" fill="none" stroke="#287d70" stroke-width="3"/>
+<circle cx="320" cy="465" r="4" fill="#287d70"/>
+
+<path d="M320 465 V504" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="70" y="510" width="500" height="142" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
 <text x="320.0" y="550" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">제한된 범위의 시험</text>
 <text x="320.0" y="590" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">의도·정책·증거·복구 조건을 연결</text>
 <text x="320.0" y="628" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">초기 기반 설정과 제품 수행 권한을 구분</text>
 <path d="M320 652 V695" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
-<rect x="40" y="700" width="560" height="104" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
+<rect x="70" y="700" width="500" height="104" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
 <text x="320.0" y="740" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">실제 결과와 전체 부담 관찰</text>
 <text x="320.0" y="780" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">고객 결과 · 보안 · 비용 · 지원 투입</text>
 <path d="M320 804 V845" fill="none" stroke="#287d70" stroke-width="3" marker-end="url(#arrow)"/>
-<rect x="40" y="850" width="560" height="110" rx="14" fill="#173f3c" stroke="#86ada5" stroke-width="2"/>
+<rect x="70" y="850" width="500" height="110" rx="14" fill="#173f3c" stroke="#86ada5" stroke-width="2"/>
 <text x="320.0" y="890" text-anchor="middle" font-size="29" font-weight="700" fill="#ffffff">유지 · 보완 · 중단 · 확대</text>
 <text x="320.0" y="930" text-anchor="middle" font-size="26" font-weight="400" fill="#dcf2ed">다음 범위의 조건을 다시 확인</text>
 <text x="320" y="1010" text-anchor="middle" font-size="24" font-weight="400" fill="#18313b">신규 서비스에 기존 운영 기준선을 가정하지 않는다.</text>

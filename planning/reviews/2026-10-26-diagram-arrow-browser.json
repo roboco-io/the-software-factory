@@ -1,0 +1,344 @@
+{
+  "checked_on": "2026-10-26",
+  "scope": "도표13개를 포함한11개 독자 페이지의 실제 로컬 화면",
+  "checks": [
+    {
+      "device": "desktop",
+      "route": "/book/ch01/",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/diagrams/factory-overview.svg",
+          "width": 640,
+          "alt": true,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/book/ch03/",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/diagrams/policy-hierarchy.svg",
+          "width": 736,
+          "alt": true,
+          "loaded": true
+        },
+        {
+          "src": "/diagrams/automation-routing.svg",
+          "width": 640,
+          "alt": true,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/book/ch04/",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/diagrams/intent-harness-loops.svg",
+          "width": 640,
+          "alt": true,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/book/ch06/",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/diagrams/work-dependencies.svg",
+          "width": 640,
+          "alt": true,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/book/ch08/",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/diagrams/unknown-result-recovery.svg",
+          "width": 640,
+          "alt": true,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/book/ch09/",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/diagrams/responsibility-flow.svg",
+          "width": 640,
+          "alt": true,
+          "loaded": true
+        },
+        {
+          "src": "/diagrams/harness-policy-cycle.svg",
+          "width": 736,
+          "alt": true,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/book/ch14/",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/diagrams/waiting-timeline.svg",
+          "width": 640,
+          "alt": true,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/book/ch17/",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/diagrams/measurement-population.svg",
+          "width": 640,
+          "alt": true,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/book/ch18/",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/diagrams/adoption-journeys.svg",
+          "width": 640,
+          "alt": true,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/demo/",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/diagrams/demo-flow.svg",
+          "width": 640,
+          "alt": true,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/demo/execution-authority/",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/diagrams/demo-authority-boundary.svg",
+          "width": 640,
+          "alt": true,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/book/ch01/",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/diagrams/factory-overview.svg",
+          "width": 358,
+          "alt": true,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/book/ch03/",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/diagrams/policy-hierarchy.svg",
+          "width": 358,
+          "alt": true,
+          "loaded": true
+        },
+        {
+          "src": "/diagrams/automation-routing.svg",
+          "width": 358,
+          "alt": true,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/book/ch04/",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/diagrams/intent-harness-loops.svg",
+          "width": 358,
+          "alt": true,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/book/ch06/",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/diagrams/work-dependencies.svg",
+          "width": 358,
+          "alt": true,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/book/ch08/",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/diagrams/unknown-result-recovery.svg",
+          "width": 358,
+          "alt": true,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/book/ch09/",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/diagrams/responsibility-flow.svg",
+          "width": 358,
+          "alt": true,
+          "loaded": true
+        },
+        {
+          "src": "/diagrams/harness-policy-cycle.svg",
+          "width": 358,
+          "alt": true,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/book/ch14/",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/diagrams/waiting-timeline.svg",
+          "width": 358,
+          "alt": true,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/book/ch17/",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/diagrams/measurement-population.svg",
+          "width": 358,
+          "alt": true,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/book/ch18/",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/diagrams/adoption-journeys.svg",
+          "width": 358,
+          "alt": true,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/demo/",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/diagrams/demo-flow.svg",
+          "width": 358,
+          "alt": true,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/demo/execution-authority/",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/diagrams/demo-authority-boundary.svg",
+          "width": 358,
+          "alt": true,
+          "loaded": true
+        }
+      ]
+    }
+  ],
+  "base_commit": "51ceede7fe9997dcf312248917a577b1fd46d9ca",
+  "svg_sha256": {
+    "manuscript/figures/adoption-journeys.svg": "3d774d463b577419698ba7e8906ffec76bd4bc1c4a086af50834dc9ae7789823",
+    "manuscript/figures/automation-routing.svg": "6c141285ced6aef5d72c7a6f48d7540d08cad20a746b49eac52de555b56aba5e",
+    "manuscript/figures/demo-authority-boundary.svg": "609a3e7ef962bcdb4358c678f6f04102fbe2128fcaa16bba78953c914c8c3884",
+    "manuscript/figures/demo-flow.svg": "4b02c0d58936041d65e317bee5ed1e9ee22ebe43af3ac3132ad806b84a27112f",
+    "manuscript/figures/factory-overview.svg": "499fb8191c02e24982f77d0f8807b1f59bd217c82eb9581463b0b54273728e8f",
+    "manuscript/figures/harness-policy-cycle.svg": "bf192bb790b74c45f6be161e605cd0e84dafcc2f29645d231542f8caffb264d0",
+    "manuscript/figures/intent-harness-loops.svg": "1a375d80af20724f9fc6bcbe865e7d2e1ddd44532c1eb597c469955d3aba9019",
+    "manuscript/figures/measurement-population.svg": "88ca9da19c112b9e8319da0a76816b8759bcd48356f8fd7e4c18045dc01ad075",
+    "manuscript/figures/policy-hierarchy.svg": "f822a386498045a97d1588443c7e9a5e78703ee0f53138aceb8f559d000c8bdd",
+    "manuscript/figures/responsibility-flow.svg": "9b0cf4ac9849f3a7fcc3233c31fc497f6308ac4099455b08cd302217b19a66ca",
+    "manuscript/figures/unknown-result-recovery.svg": "b7c0859ce065c8bbd70f4953546a20ec0704643c95725730195925481403169d",
+    "manuscript/figures/waiting-timeline.svg": "810b2a3e0efbc66094c0ee57544a5631c3e103f27598a8b0adf2fe361cd681ad",
+    "manuscript/figures/work-dependencies.svg": "0c81fefc2f867b40bffdf3e0f23bc9bc48bfb1dc07246807bf907eccdfeb6996"
+  },
+  "verification": {
+    "svg_count": 13,
+    "changed_svg_count": 12,
+    "narrowed_cards_diagrams": 9,
+    "merged_arrow_junctions": 3,
+    "text_overflow": false,
+    "unit_passed": 37,
+    "e2e_passed": 33,
+    "e2e_skipped": 1,
+    "build_pages": 56,
+    "publication_status": "로컬 반영·미커밋·미배포"
+  }
+}

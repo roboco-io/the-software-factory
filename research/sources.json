@@ -5000,6 +5000,94 @@
         "direct_quote_words": 0,
         "scope": "운영 안내를 짧게 기록하며 장문 원문/코드 예제는 재현하지 않음."
       }
+    },
+    {
+      "id": "S139",
+      "title": "Code Review — Claude Code Docs",
+      "author": "Anthropic",
+      "url": "https://code.claude.com/docs/en/code-review",
+      "published_on": null,
+      "checked_on": "2026-10-27",
+      "verification_status": "공식 문서 원문 직접 확인; 제품 실행 없음",
+      "verification_scope": "개요·리뷰4단계·지적 확인의 범위·비실행·권한·서비스/로컬 도구 구분·모델/깊이 설정의 문서 설명",
+      "use": "공식 문서와 책 논조의 비교 및7장 경계 설명",
+      "limit": "문서가 설명하는 기능/제약만 확인. 실제 설치/리뷰 실행/검출률/오탐률/독립성/보편적 조직 성과 미검증. S112 내부 운영 블로그와 별도 자료로 유지.",
+      "usage_review": {
+        "checked_on": "2026-10-27",
+        "direct_quote_words": 0,
+        "files": [
+          "research/claude-code-review-comparison-2026-10-27.md",
+          "research/claims/claude-code-review-comparison.json",
+          "manuscript/chapters/ch07.md",
+          "research/claims/ch07.json"
+        ],
+        "scope": "직접 인용 없이 비교 보고서의 출처별 사실 표·본문의 출처 표시 문단·최소 확인 메모를 사용한다. 새 도구 명령/예제/수치를 전재하지 않고, 저자 표·운영 제안과 문서 사실을 분리한다. 기존 최종 답변과 합산해 출처별 기본200단어 안에서 관리한다."
+      }
+    },
+    {
+      "id": "S140",
+      "title": "Customize Code Review — Claude Code Docs",
+      "author": "Anthropic",
+      "url": "https://code.claude.com/docs/en/code-review-customize",
+      "published_on": null,
+      "checked_on": "2026-10-27",
+      "verification_status": "공식 문서 원문 직접 확인; 제품 실행 없음",
+      "verification_scope": "CLAUDE.md/REVIEW.md의 역할·서비스와 로컬 명령의 차이·지침의 신뢰 브랜치/보호 상태와 적용 범위",
+      "use": "책의 리뷰 논조와 현재 관리형 서비스의 경계 비교 조사. 본문 미인용.",
+      "limit": "문서가 설명하는 기능/제약만 확인. 실제 설치/리뷰 실행/검출률/오탐률/독립성/보편적 조직 성과 미검증. S112 내부 운영 블로그와 별도 자료로 유지.",
+      "usage_review": {
+        "checked_on": "2026-10-27",
+        "direct_quote_words": 0,
+        "files": [
+          "research/claude-code-review-comparison-2026-10-27.md",
+          "research/claims/claude-code-review-comparison.json"
+        ],
+        "scope": "보고서의 출처별 사실 표와 최소 확인 메모 중심으로 요약. 최종 답변의 짧은 대조와 합산하여 출처별 기본200단어 아래로 제한. 원문 예제/구조/명령 전문 전재 없음."
+      }
+    },
+    {
+      "id": "S141",
+      "title": "Read and request reviews on a pull request — Claude Code Docs",
+      "author": "Anthropic",
+      "url": "https://code.claude.com/docs/en/code-review-pull-requests",
+      "published_on": null,
+      "checked_on": "2026-10-27",
+      "verification_status": "공식 문서 원문 직접 확인; 제품 실행 없음",
+      "verification_scope": "지적/반박과 후속 리뷰·체크 상태·자체CI의 결과 해석·판정 누락과결과 재사용의 구분",
+      "use": "공식 문서와 책 논조의 비교 및12장 경계 설명",
+      "limit": "문서가 설명하는 기능/제약만 확인. 실제 설치/리뷰 실행/검출률/오탐률/독립성/보편적 조직 성과 미검증. S112 내부 운영 블로그와 별도 자료로 유지.",
+      "usage_review": {
+        "checked_on": "2026-10-27",
+        "direct_quote_words": 0,
+        "files": [
+          "research/claude-code-review-comparison-2026-10-27.md",
+          "research/claims/claude-code-review-comparison.json",
+          "manuscript/chapters/ch12.md",
+          "research/claims/ch12.json"
+        ],
+        "scope": "직접 인용 없이 비교 보고서의 출처별 사실 표·본문의 출처 표시 문단·최소 확인 메모를 사용한다. 새 도구 명령/예제/수치를 전재하지 않고, 저자 표·운영 제안과 문서 사실을 분리한다. 기존 최종 답변과 합산해 출처별 기본200단어 안에서 관리한다."
+      }
+    },
+    {
+      "id": "S142",
+      "title": "Code Review costs and usage — Claude Code Docs",
+      "author": "Anthropic",
+      "url": "https://code.claude.com/docs/en/code-review-costs",
+      "published_on": null,
+      "checked_on": "2026-10-27",
+      "verification_status": "공식 문서 원문 직접 확인; 제품 실행 없음",
+      "verification_scope": "비용/실행 빈도의 구성·예산/잔액에 따른 생략·이용량 계산과 추정의 범위",
+      "use": "책의 리뷰 논조와 현재 관리형 서비스의 경계 비교 조사. 본문 미인용.",
+      "limit": "문서가 설명하는 기능/제약만 확인. 실제 설치/리뷰 실행/검출률/오탐률/독립성/보편적 조직 성과 미검증. S112 내부 운영 블로그와 별도 자료로 유지.",
+      "usage_review": {
+        "checked_on": "2026-10-27",
+        "direct_quote_words": 0,
+        "files": [
+          "research/claude-code-review-comparison-2026-10-27.md",
+          "research/claims/claude-code-review-comparison.json"
+        ],
+        "scope": "보고서의 출처별 사실 표와 최소 확인 메모 중심으로 요약. 최종 답변의 짧은 대조와 합산하여 출처별 기본200단어 아래로 제한. 원문 예제/구조/명령 전문 전재 없음."
+      }
     }
   ],
   "source_aliases": {

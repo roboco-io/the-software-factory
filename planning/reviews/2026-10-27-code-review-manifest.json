@@ -1,0 +1,19 @@
+{
+  "checked_on": "2026-10-27",
+  "base_commit": "51ceede7fe9997dcf312248917a577b1fd46d9ca",
+  "scope": [
+    "CR01",
+    "CR02"
+  ],
+  "files": {
+    "manuscript/chapters/ch07.md": "9cb09ede4a25e8a98576e04575088b9d1d6274d7436264e08050cc8cbbeace06",
+    "manuscript/chapters/ch12.md": "faea9d97934f818eb5ad45ccef7b695e1682d9f029bd3d545acde76410b5a4d1",
+    "research/claims/ch07.json": "108aa0caf9df691cbf2918f3cbc90a281c81cbe0ab82321125140d8eb13552eb",
+    "research/claims/ch12.json": "2d62c261e7134ad6c71b1ae79bd85c79ba0b24e14d756eb3df10b558ef094b47",
+    "research/sources.json": "d8f9217d3da8f60385925d28c34c236042853e0a1dbba4f49048f4892d0c8ba9",
+    "website/content-manifest.json": "f876a325ec4388ed23571855846547238d9dda6f412149867e4229558522b0a8",
+    "CHANGELOG.md": "a6b05a5638c69c3cc598ef8bfa27ff8059cfe4b48bc1cd1c3347433afb7f77f7"
+  },
+  "old_anchors_preserved": true,
+  "publication": "로컬 반영·미커밋·미배포"
+}

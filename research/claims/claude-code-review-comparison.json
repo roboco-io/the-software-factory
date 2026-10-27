@@ -1,0 +1,107 @@
+{
+  "checked_on": "2026-10-27",
+  "base_commit": "51ceede7fe9997dcf312248917a577b1fd46d9ca",
+  "scope": "지정한 관리형 Code Review 문서와 책의 리뷰/수용/정책/평가 논조 비교",
+  "book_files": {
+    "manuscript/chapters/ch07.md": "c2c1dbc3ca6fd731c389e6f5768bd388654e1e596169829e7aed39dfbf97723a",
+    "manuscript/chapters/ch11.md": "a2ef9884c5e7aa2e93523d5b09c4fc916125f27bef588f918f3b6f229b37dc45",
+    "manuscript/chapters/ch12.md": "9c62885845471c8252c42cc0b8b07ebcb45e4c7126bf75ddb119bea60ddf2d36",
+    "manuscript/chapters/ch17.md": "14ed8d9a44a99e3d5f84042ece41586446151fa64e52271f8fc6ee368b03ab89",
+    "manuscript/chapters/ch19.md": "e77e0bdeabd133985ba4625b0080095a3873edebf56e8dedfc4e653b91a53492",
+    "manuscript/patterns/p07.md": "8f4a95ef0b7b005a074594ddb469c687a279c4034d4b528f3c6d5ea434c2f731"
+  },
+  "reading_scope": "7장 리뷰/독립성 관련 절, 11장 모델/하네스 변경 평가, 12장 권한/자동화·제품과내부병합 구분, 17장 지표 계산 범위, 19장 리뷰기준개선, P07. 전체 원고/외부 근거를 재검증한 것은 아님.",
+  "sources": [
+    "S139",
+    "S140",
+    "S141",
+    "S142"
+  ],
+  "claims": [
+    {
+      "type": "documented_product_scope",
+      "sources": [
+        "S139"
+      ],
+      "claim": "지적의 코드상 확인과 실제 빌드/실행 검증을 구분해야 한다.",
+      "limit": "실행이나 결함 탐지 효과를 직접 검증하지 않음."
+    },
+    {
+      "type": "documented_policy_boundary",
+      "sources": [
+        "S140"
+      ],
+      "claim": "리뷰 지침은 역할과 신뢰 판본/적용 조건이 있다.",
+      "limit": "전체 팩토리 정책 계층·실제 강제성을 동일시하지 않음."
+    },
+    {
+      "type": "documented_result_integration",
+      "sources": [
+        "S141"
+      ],
+      "claim": "서비스 자체의 비차단과 조직CI에 의한정책 집행을 구분한다.",
+      "limit": "실제 병합 조건을 설정·시험하지 않음."
+    },
+    {
+      "type": "book_interpretation",
+      "sources": [
+        "S139",
+        "S140",
+        "S141",
+        "S142"
+      ],
+      "claim": "현재 책의 논조와 대체로 정합적이며 범위 차이와검증 용어를 7·12장에 보완할 수 있다.",
+      "limit": "저자 제안과 제품 효과의 입증은 다르다."
+    }
+  ],
+  "disposition": "비교와7/12장 반영 완료; 선택 제안 CR03/CR04 유지·미커밋·미배포",
+  "manuscript_update": {
+    "date": "2026-10-27",
+    "request": "원고도 수정해줘",
+    "scope": [
+      "CR01",
+      "CR02"
+    ],
+    "before_book_hashes": {
+      "manuscript/chapters/ch07.md": "c2c1dbc3ca6fd731c389e6f5768bd388654e1e596169829e7aed39dfbf97723a",
+      "manuscript/chapters/ch12.md": "9c62885845471c8252c42cc0b8b07ebcb45e4c7126bf75ddb119bea60ddf2d36"
+    },
+    "reading_before": {
+      "ch07": {
+        "revision": "10",
+        "anchors": {
+          "완료 보고를 받은 뒤에도 남는 판단": "s01",
+          "완료 조건마다 증거와 책임을 연결한다": "s02",
+          "수행 기록과 결과 상태를 나누어 본다": "s03",
+          "독립성은 판정자를 따로 두는 데서 끝나지 않는다": "s04",
+          "공개 변경 기록이 보여주는 검증 범위의 질문": "s05",
+          "실행 오류와 재현 증거를 구분하는 구현": "s06",
+          "구현 수용과 사용자 결과의 확인을 구분한다": "s07",
+          "검증 비용과 판정 오류를 함께 관리한다": "s08",
+          "리더는 판정 체계가 놓친 것을 관찰한다": "s09",
+          "출처와 검토": "s10",
+          "리뷰를 수행 중의 검사와 수용 판단으로 나눈다": "s11"
+        }
+      },
+      "ch12": {
+        "revision": "15",
+        "anchors": {
+          "능력의 증거와 행동의 허용을 나눈다": "s01",
+          "실행과 반영, 배포 권한을 따로 본다": "s02",
+          "변경의 위험과 현재 증거를 병합 판단에 연결한다": "s03",
+          "검증을 권한 밖에서 유지할 조건을 정한다": "s04",
+          "제한된 반영에서 운영 증거를 얻는다": "s05",
+          "예외가 정상 경로를 지우지 않게 한다": "s06",
+          "리더는 권한과 결과의 연결을 재검토한다": "s07",
+          "출처와 검토": "s08",
+          "하네스의 허용 판단을 실제 실행 경계와 맞춘다": "s09",
+          "긴급 보안 수정도 위임 경계 안에서 처리한다": "s10",
+          "보안 통제를 생산 흐름의 집행 조건으로 만든다": "s11"
+        }
+      }
+    },
+    "report": "planning/reviews/2026-10-27-code-review-integration.md",
+    "status": "CR01/CR02 반영·변경 범위 자기 검증 완료",
+    "remaining": "CR03/CR04는 선택 제안으로 유지. 다른 장에 중복 내용을 추가하지 않음."
+  }
+}

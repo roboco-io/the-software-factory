@@ -1,0 +1,44 @@
+[
+  {
+    "kind": "desktop",
+    "chapter": 1,
+    "bullet_count": 8,
+    "characters": 524,
+    "overflow": false
+  },
+  {
+    "kind": "desktop",
+    "chapter": 9,
+    "bullet_count": 9,
+    "characters": 704,
+    "overflow": false
+  },
+  {
+    "kind": "desktop",
+    "chapter": 12,
+    "bullet_count": 8,
+    "characters": 646,
+    "overflow": false
+  },
+  {
+    "kind": "mobile-width",
+    "chapter": 1,
+    "bullet_count": 8,
+    "characters": 524,
+    "overflow": false
+  },
+  {
+    "kind": "mobile-width",
+    "chapter": 9,
+    "bullet_count": 9,
+    "characters": 704,
+    "overflow": false
+  },
+  {
+    "kind": "mobile-width",
+    "chapter": 12,
+    "bullet_count": 8,
+    "characters": 646,
+    "overflow": false
+  }
+]

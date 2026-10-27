@@ -1,0 +1,217 @@
+{
+  "checked_on": "2026-10-27",
+  "base_commit": "eca6950698e006e5bf264fae48ffca1f3d6caea5",
+  "format": "본문 내용 중심1~9개항목",
+  "body_review_basis": "이 대화의 완독 판본/후속 보강을 재사용하고 현재 본문 해시와차이를 직접 대조했다.16장은2026-10-24 본문과 같고7/10/12/19장은이후보강을반영했다. 현재 본문 주요 문단도 확인했다.",
+  "chapters": [
+    {
+      "chapter": 1,
+      "path": "manuscript/chapters/ch01.md",
+      "body_sha256": "03bd140c0dc424750115d11b281fc8ac50fcddf1d4068002b710ccffc105945e",
+      "before_file_sha256": "b9d1f946c421914ce21fa9c82fce138df34d042618dabb6ee8ba393a66925178",
+      "after_file_sha256": "71ff5a08df10073b29e6267163b7b0cc7f4a40c38dc771ebe8e0f4645079f667",
+      "bullet_count": 8,
+      "characters": 524,
+      "body_unchanged": true
+    },
+    {
+      "chapter": 2,
+      "path": "manuscript/chapters/ch02.md",
+      "body_sha256": "cf7b5db41a63bfcd8d6ecc217659705f2b09322de05967adf909bce287c1e5a9",
+      "before_file_sha256": "aeb8655ca25ad77720d31ca1ef888d2bbb608d725c5c3fd0e0e765f9b2edcdcd",
+      "after_file_sha256": "5a35ef6404c217c27c8d63d63f2266cad3dcde5548210e75f3c4a28e61271e96",
+      "bullet_count": 7,
+      "characters": 450,
+      "body_unchanged": true
+    },
+    {
+      "chapter": 3,
+      "path": "manuscript/chapters/ch03.md",
+      "body_sha256": "88774ed26178eaca0ff90acc62aa129a77e3060ab78e00e7649ba20199978c54",
+      "before_file_sha256": "acb3d04e93b025b5a665a92609248a705bfa25cb46698e4bf3a5ad33502b247f",
+      "after_file_sha256": "4a2648b7402625d58ce09206022d62854b9418efda8a427b980f0508940e334d",
+      "bullet_count": 9,
+      "characters": 632,
+      "body_unchanged": true
+    },
+    {
+      "chapter": 4,
+      "path": "manuscript/chapters/ch04.md",
+      "body_sha256": "6342a16d610277112e564538443fa538c87b92dd7d4dc5053d14b18438e09156",
+      "before_file_sha256": "22a457bea9bd497baf95fddd9e88d0d0dd56b394e07e48abdd9ce18701a1befe",
+      "after_file_sha256": "905a814abb9c4bc17bc1f43bd468ae4430c178990c2baed5d12c3d089be2926e",
+      "bullet_count": 7,
+      "characters": 494,
+      "body_unchanged": true
+    },
+    {
+      "chapter": 5,
+      "path": "manuscript/chapters/ch05.md",
+      "body_sha256": "16b634fbfd4b7f468343636de09a519bdc80e8cdc203da4991ff86b009304073",
+      "before_file_sha256": "a075885bf1f14a4de4c0859e98ea71d5326fc398419add3d22916ec55ba9635c",
+      "after_file_sha256": "bcb9c365ada7151748b4dcb02f17599d42081b076acebde3402b939535d263a2",
+      "bullet_count": 8,
+      "characters": 537,
+      "body_unchanged": true
+    },
+    {
+      "chapter": 6,
+      "path": "manuscript/chapters/ch06.md",
+      "body_sha256": "1b1219372500e461f944cd98cdfec9414cf89e21a76e703ad5208d337e8cf997",
+      "before_file_sha256": "887e50d29c1edf7d5de4ae620da9bba8dc0442f4a340226981a5bc3fea050d85",
+      "after_file_sha256": "5b1345e3f05ae7b252ffe52588440f1dd1998dabcee76c86b20a3a31a8f8bb3c",
+      "bullet_count": 7,
+      "characters": 444,
+      "body_unchanged": true
+    },
+    {
+      "chapter": 7,
+      "path": "manuscript/chapters/ch07.md",
+      "body_sha256": "54130189f1b4eebc422dc7624b2cd1e8baaf38dd0bb88d92e0b5059b47ff6517",
+      "before_file_sha256": "4e2d5553bfb3478de9ae6e3af74a24bd9139a23c1115a56a43e9d1249f0f7be3",
+      "after_file_sha256": "e8d651d71bfbfc45e21dc70db6320733e64860d7138728d96786cfbc78ccc635",
+      "bullet_count": 8,
+      "characters": 602,
+      "body_unchanged": true
+    },
+    {
+      "chapter": 8,
+      "path": "manuscript/chapters/ch08.md",
+      "body_sha256": "ae7b8f024695f3ed3896ee18f13eb389e7ca9274ede529b8f191447cce0c9652",
+      "before_file_sha256": "1f8a76639c40a13a9212d407dd8a24fd304f052b46a725525aa0ffd99a79225f",
+      "after_file_sha256": "10d31abeacdf40949e5da1481ec60e6e8414554f22d2bff6ad2ffcd6027c62b8",
+      "bullet_count": 8,
+      "characters": 566,
+      "body_unchanged": true
+    },
+    {
+      "chapter": 9,
+      "path": "manuscript/chapters/ch09.md",
+      "body_sha256": "23d7029f28f466deb1b32b3d9ab928356e8e3f20126b807bc22798b6758bc881",
+      "before_file_sha256": "21cbbbffc75b602a8a85c8098d28a98e811024c04c456b41ecd4f35d52dfc335",
+      "after_file_sha256": "37dc0b38519a9a729fef46d847f9ed21c8f997f7884a46594a14bd7bbd69319f",
+      "bullet_count": 9,
+      "characters": 704,
+      "body_unchanged": true
+    },
+    {
+      "chapter": 10,
+      "path": "manuscript/chapters/ch10.md",
+      "body_sha256": "26b52d03eb2823d084904271329d890f1b0b7579de7854197edc99334cdbd0c1",
+      "before_file_sha256": "69d9d31cbff6b1fe8bc25d0109cf11ca43321bd1af03540ee5945fa195cd4a76",
+      "after_file_sha256": "5d1a0a1504b853f046811b8cffc5f685d19c5556dafe8eee55478c3f4acb1bea",
+      "bullet_count": 8,
+      "characters": 570,
+      "body_unchanged": true
+    },
+    {
+      "chapter": 11,
+      "path": "manuscript/chapters/ch11.md",
+      "body_sha256": "a2ef9884c5e7aa2e93523d5b09c4fc916125f27bef588f918f3b6f229b37dc45",
+      "before_file_sha256": "6fa1f2ad91c42bd1333207766f21d8139884e590a24e229ba3228733be726405",
+      "after_file_sha256": "39ae194829a33445a9521ce961706f13f810dc0905176646053cae43f26aba67",
+      "bullet_count": 7,
+      "characters": 520,
+      "body_unchanged": true
+    },
+    {
+      "chapter": 12,
+      "path": "manuscript/chapters/ch12.md",
+      "body_sha256": "d73ba64c6ff338d3f31aeca37fd37e2e9855f22ac54b7eb73e883381b64c6d7b",
+      "before_file_sha256": "2552dffcbb5b6e789d7d5496de42984676907c283f79761b15248e26206cae32",
+      "after_file_sha256": "e4b55576a4996a2f9fb00df93af8a2025e4c31f6172f45f9399c849492545825",
+      "bullet_count": 8,
+      "characters": 646,
+      "body_unchanged": true
+    },
+    {
+      "chapter": 13,
+      "path": "manuscript/chapters/ch13.md",
+      "body_sha256": "1c490db9d0b01069c67a9b9619be96b230e01cf14274f770ec02d54f7d7325d3",
+      "before_file_sha256": "4e1c38c3c6b29182c4431a4768cc98c096478dc235505fb23c1719cba85192cb",
+      "after_file_sha256": "8482e07fc86da76d3d6f9b9b5e0fcb24ee11aa11780cb44ef294562cb7102c4b",
+      "bullet_count": 7,
+      "characters": 554,
+      "body_unchanged": true
+    },
+    {
+      "chapter": 14,
+      "path": "manuscript/chapters/ch14.md",
+      "body_sha256": "e06ac6b76cb5bcd8a2e53db0f74fd947f0f4904b0cf8ba02507ca30322d4e76b",
+      "before_file_sha256": "2cefbf94ea1bf4e82d581e03b9e0fd6d825df2552b4a2ba4f58043d726514a31",
+      "after_file_sha256": "39f44ee847a87f09cdf168a7c05eaf4d6516d95e3625e18a5fa51c71c0af7a66",
+      "bullet_count": 6,
+      "characters": 428,
+      "body_unchanged": true
+    },
+    {
+      "chapter": 15,
+      "path": "manuscript/chapters/ch15.md",
+      "body_sha256": "68b1667747311a66d2b3eac6bf7bf70fbfa6249d3c7e430b935aecd587dd205f",
+      "before_file_sha256": "57d41e80551477137a55366583e145b0e9a9c4b2bce7bef13153d7e16c9a60e2",
+      "after_file_sha256": "3f28fa8569a09dbe2b3a489c41b6ccd0817038a2f7f21ea4cedb48a27f3d01ae",
+      "bullet_count": 7,
+      "characters": 511,
+      "body_unchanged": true
+    },
+    {
+      "chapter": 16,
+      "path": "manuscript/chapters/ch16.md",
+      "body_sha256": "041a6aa3003bcf28d613a38e8bf866ef8c46f92bd0c8e1ecf9f323ec66277859",
+      "before_file_sha256": "0b96e862eadf1aa3467cb7398ec53f83e4eef18a4392e5d4d6835053047f219b",
+      "after_file_sha256": "cb39d9a83f904f3fabd245352fa77f5516781c0d9e6d08da9d2f224493121ff0",
+      "bullet_count": 7,
+      "characters": 547,
+      "body_unchanged": true
+    },
+    {
+      "chapter": 17,
+      "path": "manuscript/chapters/ch17.md",
+      "body_sha256": "14ed8d9a44a99e3d5f84042ece41586446151fa64e52271f8fc6ee368b03ab89",
+      "before_file_sha256": "afd3d44f945f6a9832a6ef43756d9a96befe23669dd7153fb378eaaca7081bea",
+      "after_file_sha256": "5c4d5deddba897229cd651b90a1e6d38871ded82d704453c96f186f1c03f86e6",
+      "bullet_count": 8,
+      "characters": 592,
+      "body_unchanged": true
+    },
+    {
+      "chapter": 18,
+      "path": "manuscript/chapters/ch18.md",
+      "body_sha256": "dc1914911bbadede1615ff916d93575ccaad166b53d16efbcee33800a36a89e9",
+      "before_file_sha256": "242a3b77cce3b423288a78c6801db4424b8f4c3225e34f842e30435d496e8e46",
+      "after_file_sha256": "dfc1e780e7f32e072bf695fc1167156cb30c5793d36147b2547b4b5f7dbd6a93",
+      "bullet_count": 7,
+      "characters": 560,
+      "body_unchanged": true
+    },
+    {
+      "chapter": 19,
+      "path": "manuscript/chapters/ch19.md",
+      "body_sha256": "a6837fd30e2cec05b66edecf98b4416f4e39a73bf822d5881e6fe21b631d1a2b",
+      "before_file_sha256": "c6694c4514102a5ce33c296499042e108dc5acb91e9eb2ee612aa380a64dfe4b",
+      "after_file_sha256": "bb5dd7e3e0e400f67bb0e6b9ca8115e3a1705932ec1c6b3b084b1db409bd2192",
+      "bullet_count": 8,
+      "characters": 627,
+      "body_unchanged": true
+    },
+    {
+      "chapter": 20,
+      "path": "manuscript/chapters/ch20.md",
+      "body_sha256": "16d5b375139f5093e17c83013403dcc004e52158ce125f0141f13b646354cf50",
+      "before_file_sha256": "2ca5b0399f21522fd28cd7a781ca23e4563180fa6ddaae767ebaa0b39830ce42",
+      "after_file_sha256": "769ee32cbfd140522dbee6fc6afa4d7a73a466d46b3831332efa4c35ac1586b0",
+      "bullet_count": 7,
+      "characters": 522,
+      "body_unchanged": true
+    }
+  ],
+  "supporting_files": {
+    "skills/chapter-tldr/SKILL.md": "093bfe9f11cc235e54ccb182c147f6ab07277405265f7639951dbc6d479f1dfc",
+    "skills/chapter-tldr/references/policy.md": "f58b1a6fa1648e61d69a9920c2df0bb940bcc2c8bc4da80aca9a768b2c3bbd6c",
+    "skills/chapter-tldr/scripts/tldr.py": "1cbe11dfd8ca3a098978176831db1448813a9e220e32886e0f63279fc4bd0dfb",
+    "planning/chapter-tldr-manifest.json": "1272166401680a1f1034ed907c1081cf30a7d5b0d4fd61b370a349907ddd7aad",
+    "website/content-manifest.json": "7b1e7d1eb426918a7c8dc469fe9170fc7c038b94feed3a065d41c0a42f4b690b"
+  },
+  "existing_anchors_preserved": true,
+  "publication_status": "로컬 반영·미커밋·미배포"
+}

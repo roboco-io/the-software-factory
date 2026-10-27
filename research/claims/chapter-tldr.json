@@ -34,5 +34,16 @@
   ],
   "review": "planning/reviews/2026-10-27-chapter-tldr-review.md",
   "manifest": "planning/reviews/2026-10-27-chapter-tldr-manifest.json",
-  "status": "본문20장 요약 생성·갱신 도구/CI 자기 검증 완료·미커밋·미배포"
+  "status": "본문 내용 중심 TL;DR 갱신·스킬/도구/화면 자기 검증 완료·미커밋·미배포",
+  "content_outline_update": {
+    "date": "2026-10-27",
+    "author_decision": "D56",
+    "format": "1~9개 내용 중심 불릿; 고정 분류 없음",
+    "scope": "20장 요약·스킬/정책/검사·본문 불변",
+    "report": "planning/reviews/2026-10-27-tldr-content-outline.md",
+    "status": "20장 재작성·변경 범위 자기 검증 완료",
+    "basis": "이 대화에서 완독한 본문 판본과 현재 내용을 직접 대조했다.16개 본문은2026-10-24 검토 판본과해시일치하며 나머지4개는후속보강을읽고대조했다. 기존 세 항목만으로 재작성하지 않았다.",
+    "new_external_sources": [],
+    "manifest": "planning/reviews/2026-10-27-tldr-content-outline-manifest.json"
+  }
 }

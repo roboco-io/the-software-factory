@@ -1,0 +1,28 @@
+{
+  "checked_on": "2026-10-27",
+  "site": "https://factory.roboco.io/",
+  "published_commit": "51f093ad29e7c029b83b780e7849b1e18778e524",
+  "implementation_commit": "6f57ffe",
+  "run_id": 40518487612,
+  "run_url": "https://github.com/roboco-io/the-software-factory/actions/runs/40518487612",
+  "status": "queued",
+  "jobs": {
+    "build": "success",
+    "deploy": "queued",
+    "notify-forum": "not_started"
+  },
+  "pending_deployments": [],
+  "runner_name": null,
+  "public_verification": "not_performed; publication pending",
+  "changelog": "공개 예정 유지",
+  "local_checks": {
+    "python_tests": 10,
+    "web_unit_tests": 37,
+    "e2e_passed": 35,
+    "e2e_intentional_skipped": 1,
+    "chapter_summaries_current": 20,
+    "astro_diagnostics": 0,
+    "built_pages": 56
+  },
+  "next_step": "Wait for run success, compare all 20 public TLDRs to local manuscript, then date the changelog and deploy that update."
+}

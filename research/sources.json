@@ -5088,6 +5088,372 @@
         ],
         "scope": "보고서의 출처별 사실 표와 최소 확인 메모 중심으로 요약. 최종 답변의 짧은 대조와 합산하여 출처별 기본200단어 아래로 제한. 원문 예제/구조/명령 전문 전재 없음."
       }
+    },
+    {
+      "id": "S143",
+      "title": "Pstack — 원본 소개와 플러그인 매니페스트",
+      "author": "Lauren Tan / cursor/plugins",
+      "url": "https://github.com/cursor/plugins/blob/ab69380dd50ee47d426b35cb8369cffdddafc218/pstack/README.md",
+      "published_on": null,
+      "checked_on": "2026-10-27",
+      "revision": "ab69380dd50ee47d426b35cb8369cffdddafc218",
+      "revision_committed_on": "2026-10-26T22:54:41Z",
+      "verification_status": "고정 판본의 스킬/문서 원문 직접 확인; 실행 없음",
+      "verification_scope": "README 앞부분·23개 플레이북 목록, 매니페스트 전체",
+      "supporting_urls": [
+        "https://github.com/cursor/plugins/blob/ab69380dd50ee47d426b35cb8369cffdddafc218/pstack/.cursor-plugin/plugin.json"
+      ],
+      "use": "소프트웨어 팩토리의 검증 자산·제한된 자동 반영·하네스 개선에 대한 조사/제안. 본문 미인용.",
+      "limit": "자연언어 지침의 구조를 확인한 것이며 실제 집행/모델 실행/PR/CI/보안 강제성/생산성 또는 사업 성과는 검증하지 않음. 원본과 미러, 기본/별도 워크플로를 구분.",
+      "usage_review": {
+        "checked_on": "2026-10-27",
+        "direct_quote_words": 0,
+        "files": [
+          "research/pstack-tstack-factory-2026-10-27.md",
+          "research/pstack-tstack-inventory-2026-10-27.json",
+          "research/claims/pstack-tstack-factory.json"
+        ],
+        "scope": "원문 전체/코드/예시를 전재하지 않고 출처별 짧은 사실 문단·확인 메모 중심으로 요약한다. 최종 답변과 합산해 출처별200단어 기본 상한 안에서 사용하고 적용 설계는 저자 제안으로 분리."
+      }
+    },
+    {
+      "id": "S144",
+      "title": "Pstack — Create a verification skill",
+      "author": "Lauren Tan / cursor/plugins",
+      "url": "https://github.com/cursor/plugins/blob/ab69380dd50ee47d426b35cb8369cffdddafc218/pstack/skills/create-verification-skill/SKILL.md",
+      "published_on": null,
+      "checked_on": "2026-10-27",
+      "revision": "ab69380dd50ee47d426b35cb8369cffdddafc218",
+      "revision_committed_on": "2026-10-26T22:54:41Z",
+      "verification_status": "고정 판본의 스킬/문서 원문 직접 확인; 실행 없음",
+      "verification_scope": "본문 전체: 저장소 조사·생성·초기 기능 지도·실행 증명·정리/증거·유지관리 연결",
+      "supporting_urls": [],
+      "use": "확인한 지침의 장별 사례와 팩토리 적용 제안",
+      "limit": "자연언어 지침의 구조를 확인한 것이며 실제 집행/모델 실행/PR/CI/보안 강제성/생산성 또는 사업 성과는 검증하지 않음. 원본과 미러, 기본/별도 워크플로를 구분.",
+      "usage_review": {
+        "checked_on": "2026-10-27",
+        "direct_quote_words": 0,
+        "files": [
+          "research/pstack-tstack-factory-2026-10-27.md",
+          "research/pstack-tstack-inventory-2026-10-27.json",
+          "research/claims/pstack-tstack-factory.json",
+          "manuscript/chapters/ch07.md",
+          "research/claims/ch07.json"
+        ],
+        "scope": "보고서/본문의 출처 표시 사실 문단은 짧게 유지하고 누적 요약량을 함께 대조했다. 원문 전문·예제·명령을 옮기지 않았다. 스킬의 지시와 실제 집행/효과를 구분하고, 이 책의 계약·정책·운영 적용 설계는 저자 제안으로 표시한다."
+      }
+    },
+    {
+      "id": "S145",
+      "title": "Pstack — Maintain a verification skill",
+      "author": "Lauren Tan / cursor/plugins",
+      "url": "https://github.com/cursor/plugins/blob/ab69380dd50ee47d426b35cb8369cffdddafc218/pstack/skills/maintain-verification-skill/SKILL.md",
+      "published_on": null,
+      "checked_on": "2026-10-27",
+      "revision": "ab69380dd50ee47d426b35cb8369cffdddafc218",
+      "revision_committed_on": "2026-10-26T22:54:41Z",
+      "verification_status": "고정 판본의 스킬/문서 원문 직접 확인; 실행 없음",
+      "verification_scope": "본문 전체: 기능별 소스/실행 확인·편집 범위·드리프트/검증 도구/제품 회귀 구분",
+      "supporting_urls": [],
+      "use": "확인한 지침의 장별 사례와 팩토리 적용 제안",
+      "limit": "자연언어 지침의 구조를 확인한 것이며 실제 집행/모델 실행/PR/CI/보안 강제성/생산성 또는 사업 성과는 검증하지 않음. 원본과 미러, 기본/별도 워크플로를 구분.",
+      "usage_review": {
+        "checked_on": "2026-10-27",
+        "direct_quote_words": 0,
+        "files": [
+          "research/pstack-tstack-factory-2026-10-27.md",
+          "research/pstack-tstack-inventory-2026-10-27.json",
+          "research/claims/pstack-tstack-factory.json",
+          "manuscript/chapters/ch10.md",
+          "research/claims/ch10.json"
+        ],
+        "scope": "보고서/본문의 출처 표시 사실 문단은 짧게 유지하고 누적 요약량을 함께 대조했다. 원문 전문·예제·명령을 옮기지 않았다. 스킬의 지시와 실제 집행/효과를 구분하고, 이 책의 계약·정책·운영 적용 설계는 저자 제안으로 표시한다."
+      }
+    },
+    {
+      "id": "S146",
+      "title": "Pstack — Correct",
+      "author": "Lauren Tan / cursor/plugins",
+      "url": "https://github.com/cursor/plugins/blob/ab69380dd50ee47d426b35cb8369cffdddafc218/pstack/skills/correct/SKILL.md",
+      "published_on": null,
+      "checked_on": "2026-10-27",
+      "revision": "ab69380dd50ee47d426b35cb8369cffdddafc218",
+      "revision_committed_on": "2026-10-26T22:54:41Z",
+      "verification_status": "고정 판본의 스킬/문서 원문 직접 확인; 실행 없음",
+      "verification_scope": "본문 전체: 실수 유형·구조/타입/CI/테스트·규칙과 집행의 연결",
+      "supporting_urls": [],
+      "use": "확인한 지침의 장별 사례와 팩토리 적용 제안",
+      "limit": "자연언어 지침의 구조를 확인한 것이며 실제 집행/모델 실행/PR/CI/보안 강제성/생산성 또는 사업 성과는 검증하지 않음. 원본과 미러, 기본/별도 워크플로를 구분.",
+      "usage_review": {
+        "checked_on": "2026-10-27",
+        "direct_quote_words": 0,
+        "files": [
+          "research/pstack-tstack-factory-2026-10-27.md",
+          "research/pstack-tstack-inventory-2026-10-27.json",
+          "research/claims/pstack-tstack-factory.json",
+          "manuscript/chapters/ch19.md",
+          "research/claims/ch19.json"
+        ],
+        "scope": "보고서/본문의 출처 표시 사실 문단은 짧게 유지하고 누적 요약량을 함께 대조했다. 원문 전문·예제·명령을 옮기지 않았다. 스킬의 지시와 실제 집행/효과를 구분하고, 이 책의 계약·정책·운영 적용 설계는 저자 제안으로 표시한다."
+      }
+    },
+    {
+      "id": "S147",
+      "title": "Pstack — Hillclimb playbook",
+      "author": "Lauren Tan / cursor/plugins",
+      "url": "https://github.com/cursor/plugins/blob/ab69380dd50ee47d426b35cb8369cffdddafc218/pstack/skills/poteto-mode/playbooks/hillclimb.md",
+      "published_on": null,
+      "checked_on": "2026-10-27",
+      "revision": "ab69380dd50ee47d426b35cb8369cffdddafc218",
+      "revision_committed_on": "2026-10-26T22:54:41Z",
+      "verification_status": "고정 판본의 스킬/문서 원문 직접 확인; 실행 없음",
+      "verification_scope": "본문 전체: 대표 조건·측정 감도/고정·가설별 측정·회귀·채택/되돌림·종료",
+      "supporting_urls": [],
+      "use": "소프트웨어 팩토리의 검증 자산·제한된 자동 반영·하네스 개선에 대한 조사/제안. 본문 미인용.",
+      "limit": "자연언어 지침의 구조를 확인한 것이며 실제 집행/모델 실행/PR/CI/보안 강제성/생산성 또는 사업 성과는 검증하지 않음. 원본과 미러, 기본/별도 워크플로를 구분.",
+      "usage_review": {
+        "checked_on": "2026-10-27",
+        "direct_quote_words": 0,
+        "files": [
+          "research/pstack-tstack-factory-2026-10-27.md",
+          "research/pstack-tstack-inventory-2026-10-27.json",
+          "research/claims/pstack-tstack-factory.json"
+        ],
+        "scope": "원문 전체/코드/예시를 전재하지 않고 출처별 짧은 사실 문단·확인 메모 중심으로 요약한다. 최종 답변과 합산해 출처별200단어 기본 상한 안에서 사용하고 적용 설계는 저자 제안으로 분리."
+      }
+    },
+    {
+      "id": "S148",
+      "title": "Tstack — README와 라이선스",
+      "author": "Theo Browne / t3dotgg",
+      "url": "https://github.com/t3dotgg/tstack/blob/7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd/README.md",
+      "published_on": null,
+      "checked_on": "2026-10-27",
+      "revision": "7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd",
+      "revision_committed_on": "2026-10-25T02:25:50Z",
+      "verification_status": "고정 판본의 스킬/문서 원문 직접 확인; 실행 없음",
+      "verification_scope": "README와 MIT LICENSE 전체: 스킬 묶음·의존 관계·실행 수단·사용자 설정의 역할",
+      "supporting_urls": [
+        "https://github.com/t3dotgg/tstack/blob/7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd/LICENSE"
+      ],
+      "use": "소프트웨어 팩토리의 검증 자산·제한된 자동 반영·하네스 개선에 대한 조사/제안. 본문 미인용.",
+      "limit": "자연언어 지침의 구조를 확인한 것이며 실제 집행/모델 실행/PR/CI/보안 강제성/생산성 또는 사업 성과는 검증하지 않음. 원본과 미러, 기본/별도 워크플로를 구분.",
+      "usage_review": {
+        "checked_on": "2026-10-27",
+        "direct_quote_words": 0,
+        "files": [
+          "research/pstack-tstack-factory-2026-10-27.md",
+          "research/pstack-tstack-inventory-2026-10-27.json",
+          "research/claims/pstack-tstack-factory.json"
+        ],
+        "scope": "원문 전체/코드/예시를 전재하지 않고 출처별 짧은 사실 문단·확인 메모 중심으로 요약한다. 최종 답변과 합산해 출처별200단어 기본 상한 안에서 사용하고 적용 설계는 저자 제안으로 분리."
+      }
+    },
+    {
+      "id": "S149",
+      "title": "Tstack — Full Send",
+      "author": "Theo Browne / t3dotgg",
+      "url": "https://github.com/t3dotgg/tstack/blob/7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd/skills/full-send/SKILL.md",
+      "published_on": null,
+      "checked_on": "2026-10-27",
+      "revision": "7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd",
+      "revision_committed_on": "2026-10-25T02:25:50Z",
+      "verification_status": "고정 판본의 스킬/문서 원문 직접 확인; 실행 없음",
+      "verification_scope": "본문 전체: 명시적 호출·위임·증거·리뷰/PR/CI/병합·보호 규칙과 별도 질문 범위",
+      "supporting_urls": [],
+      "use": "확인한 지침의 장별 사례와 팩토리 적용 제안",
+      "limit": "자연언어 지침의 구조를 확인한 것이며 실제 집행/모델 실행/PR/CI/보안 강제성/생산성 또는 사업 성과는 검증하지 않음. 원본과 미러, 기본/별도 워크플로를 구분.",
+      "usage_review": {
+        "checked_on": "2026-10-27",
+        "direct_quote_words": 0,
+        "files": [
+          "research/pstack-tstack-factory-2026-10-27.md",
+          "research/pstack-tstack-inventory-2026-10-27.json",
+          "research/claims/pstack-tstack-factory.json",
+          "manuscript/chapters/ch12.md",
+          "research/claims/ch12.json"
+        ],
+        "scope": "보고서/본문의 출처 표시 사실 문단은 짧게 유지하고 누적 요약량을 함께 대조했다. 원문 전문·예제·명령을 옮기지 않았다. 스킬의 지시와 실제 집행/효과를 구분하고, 이 책의 계약·정책·운영 적용 설계는 저자 제안으로 표시한다."
+      }
+    },
+    {
+      "id": "S150",
+      "title": "Tstack — sol-loop",
+      "author": "Theo Browne / t3dotgg",
+      "url": "https://github.com/t3dotgg/tstack/blob/7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd/skills/sol-loop/SKILL.md",
+      "published_on": null,
+      "checked_on": "2026-10-27",
+      "revision": "7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd",
+      "revision_committed_on": "2026-10-25T02:25:50Z",
+      "verification_status": "고정 판본의 스킬/문서 원문 직접 확인; 실행 없음",
+      "verification_scope": "본문 전체: 기본3/조건부5회·판정·지적 처리·한도/분쟁·현재 변경과 기록",
+      "supporting_urls": [],
+      "use": "확인한 지침의 장별 사례와 팩토리 적용 제안",
+      "limit": "자연언어 지침의 구조를 확인한 것이며 실제 집행/모델 실행/PR/CI/보안 강제성/생산성 또는 사업 성과는 검증하지 않음. 원본과 미러, 기본/별도 워크플로를 구분.",
+      "usage_review": {
+        "checked_on": "2026-10-27",
+        "direct_quote_words": 0,
+        "files": [
+          "research/pstack-tstack-factory-2026-10-27.md",
+          "research/pstack-tstack-inventory-2026-10-27.json",
+          "research/claims/pstack-tstack-factory.json",
+          "manuscript/chapters/ch07.md",
+          "research/claims/ch07.json"
+        ],
+        "scope": "보고서/본문의 출처 표시 사실 문단은 짧게 유지하고 누적 요약량을 함께 대조했다. 원문 전문·예제·명령을 옮기지 않았다. 스킬의 지시와 실제 집행/효과를 구분하고, 이 책의 계약·정책·운영 적용 설계는 저자 제안으로 표시한다."
+      }
+    },
+    {
+      "id": "S151",
+      "title": "Tstack — Council",
+      "author": "Theo Browne / t3dotgg",
+      "url": "https://github.com/t3dotgg/tstack/blob/7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd/skills/council/SKILL.md",
+      "published_on": null,
+      "checked_on": "2026-10-27",
+      "revision": "7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd",
+      "revision_committed_on": "2026-10-25T02:25:50Z",
+      "verification_status": "고정 판본의 스킬/문서 원문 직접 확인; 실행 없음",
+      "verification_scope": "본문 전체: 다른 제공자3개·의견/점수·재검토; 명시적 총 반복 상한 없음",
+      "supporting_urls": [],
+      "use": "소프트웨어 팩토리의 검증 자산·제한된 자동 반영·하네스 개선에 대한 조사/제안. 본문 미인용.",
+      "limit": "자연언어 지침의 구조를 확인한 것이며 실제 집행/모델 실행/PR/CI/보안 강제성/생산성 또는 사업 성과는 검증하지 않음. 원본과 미러, 기본/별도 워크플로를 구분.",
+      "usage_review": {
+        "checked_on": "2026-10-27",
+        "direct_quote_words": 0,
+        "files": [
+          "research/pstack-tstack-factory-2026-10-27.md",
+          "research/pstack-tstack-inventory-2026-10-27.json",
+          "research/claims/pstack-tstack-factory.json"
+        ],
+        "scope": "원문 전체/코드/예시를 전재하지 않고 출처별 짧은 사실 문단·확인 메모 중심으로 요약한다. 최종 답변과 합산해 출처별200단어 기본 상한 안에서 사용하고 적용 설계는 저자 제안으로 분리."
+      }
+    },
+    {
+      "id": "S152",
+      "title": "Tstack — Full Stop",
+      "author": "Theo Browne / t3dotgg",
+      "url": "https://github.com/t3dotgg/tstack/blob/7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd/skills/full-stop/SKILL.md",
+      "published_on": null,
+      "checked_on": "2026-10-27",
+      "revision": "7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd",
+      "revision_committed_on": "2026-10-25T02:25:50Z",
+      "verification_status": "고정 판본의 스킬/문서 원문 직접 확인; 실행 없음",
+      "verification_scope": "본문 전체: full-send의 준비·검증/리뷰를 재사용하며 병합/자동병합/기본브랜치 푸시 금지",
+      "supporting_urls": [],
+      "use": "확인한 지침의 장별 사례와 팩토리 적용 제안",
+      "limit": "자연언어 지침의 구조를 확인한 것이며 실제 집행/모델 실행/PR/CI/보안 강제성/생산성 또는 사업 성과는 검증하지 않음. 원본과 미러, 기본/별도 워크플로를 구분.",
+      "usage_review": {
+        "checked_on": "2026-10-27",
+        "direct_quote_words": 0,
+        "files": [
+          "research/pstack-tstack-factory-2026-10-27.md",
+          "research/pstack-tstack-inventory-2026-10-27.json",
+          "research/claims/pstack-tstack-factory.json",
+          "manuscript/chapters/ch12.md",
+          "research/claims/ch12.json"
+        ],
+        "scope": "보고서/본문의 출처 표시 사실 문단은 짧게 유지하고 누적 요약량을 함께 대조했다. 원문 전문·예제·명령을 옮기지 않았다. 스킬의 지시와 실제 집행/효과를 구분하고, 이 책의 계약·정책·운영 적용 설계는 저자 제안으로 표시한다."
+      }
+    },
+    {
+      "id": "S153",
+      "title": "Tstack — Babysit PR",
+      "author": "Theo Browne / t3dotgg",
+      "url": "https://github.com/t3dotgg/tstack/blob/7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd/skills/babysit-pr/SKILL.md",
+      "published_on": null,
+      "checked_on": "2026-10-27",
+      "revision": "7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd",
+      "revision_committed_on": "2026-10-25T02:25:50Z",
+      "verification_status": "고정 판본의 스킬/문서 원문 직접 확인; 실행 없음",
+      "verification_scope": "본문 전체: 감시 주체/수단·현재 푸시의 지적/CI·대기/실패·브랜치 재확인",
+      "supporting_urls": [],
+      "use": "소프트웨어 팩토리의 검증 자산·제한된 자동 반영·하네스 개선에 대한 조사/제안. 본문 미인용.",
+      "limit": "자연언어 지침의 구조를 확인한 것이며 실제 집행/모델 실행/PR/CI/보안 강제성/생산성 또는 사업 성과는 검증하지 않음. 원본과 미러, 기본/별도 워크플로를 구분.",
+      "usage_review": {
+        "checked_on": "2026-10-27",
+        "direct_quote_words": 0,
+        "files": [
+          "research/pstack-tstack-factory-2026-10-27.md",
+          "research/pstack-tstack-inventory-2026-10-27.json",
+          "research/claims/pstack-tstack-factory.json"
+        ],
+        "scope": "원문 전체/코드/예시를 전재하지 않고 출처별 짧은 사실 문단·확인 메모 중심으로 요약한다. 최종 답변과 합산해 출처별200단어 기본 상한 안에서 사용하고 적용 설계는 저자 제안으로 분리."
+      }
+    },
+    {
+      "id": "S154",
+      "title": "Tstack — File PR",
+      "author": "Theo Browne / t3dotgg",
+      "url": "https://github.com/t3dotgg/tstack/blob/7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd/skills/file-pr/SKILL.md",
+      "published_on": null,
+      "checked_on": "2026-10-27",
+      "revision": "7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd",
+      "revision_committed_on": "2026-10-25T02:25:50Z",
+      "verification_status": "고정 판본의 스킬/문서 원문 직접 확인; 실행 없음",
+      "verification_scope": "본문 전체: 문제 중심 PR·변경/증거·모델/하네스 공개와 민감 정보 확인",
+      "supporting_urls": [],
+      "use": "소프트웨어 팩토리의 검증 자산·제한된 자동 반영·하네스 개선에 대한 조사/제안. 본문 미인용.",
+      "limit": "자연언어 지침의 구조를 확인한 것이며 실제 집행/모델 실행/PR/CI/보안 강제성/생산성 또는 사업 성과는 검증하지 않음. 원본과 미러, 기본/별도 워크플로를 구분.",
+      "usage_review": {
+        "checked_on": "2026-10-27",
+        "direct_quote_words": 0,
+        "files": [
+          "research/pstack-tstack-factory-2026-10-27.md",
+          "research/pstack-tstack-inventory-2026-10-27.json",
+          "research/claims/pstack-tstack-factory.json"
+        ],
+        "scope": "원문 전체/코드/예시를 전재하지 않고 출처별 짧은 사실 문단·확인 메모 중심으로 요약한다. 최종 답변과 합산해 출처별200단어 기본 상한 안에서 사용하고 적용 설계는 저자 제안으로 분리."
+      }
+    },
+    {
+      "id": "S155",
+      "title": "Pstack standalone mirror — 출처 구분",
+      "author": "backnotprop",
+      "url": "https://github.com/backnotprop/pstack/blob/main/README.md",
+      "published_on": null,
+      "checked_on": "2026-10-27",
+      "verification_status": "Exa 원문 가져오기의 README 앞부분 확인",
+      "verification_scope": "독립 사용용 미러의 명시와 cursor/plugins/pstack 원본 연결. 전체 README·미러 스킬은 확인하지 않음.",
+      "use": "원본/미러 구분에만 사용",
+      "limit": "고정 커밋 미확인. 기술 분석은 S143~S147의 원본 고정 판본을 기준으로 함.",
+      "usage_review": {
+        "checked_on": "2026-10-27",
+        "direct_quote_words": 0,
+        "files": [
+          "research/pstack-tstack-factory-2026-10-27.md",
+          "research/pstack-tstack-inventory-2026-10-27.json"
+        ],
+        "scope": "미러임과 원본 연결만 최소 의역. 그 외 구현/호환성을 검증한 것으로 쓰지 않음."
+      }
+    },
+    {
+      "id": "S156",
+      "title": "The Software Factory Demo — Pstack/Tstack 적용 이슈의 현재 기반 조사",
+      "author": "ROBOCO / the-software-factory-demo contributors",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/README.md",
+      "published_on": null,
+      "checked_on": "2026-10-27",
+      "revision": "b925518f535b49f3383b23db52cc66e8139ce042",
+      "revision_committed_on": "2026-10-23T08:30:36Z",
+      "supporting_urls": [
+        "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/src/stages/gate.ts",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/.github/workflows/ci.yml",
+        "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/apps/web/e2e/forum-topic.spec.ts",
+        "https://github.com/roboco-io/the-software-factory-demo/issues/79"
+      ],
+      "verification_status": "선택 파일의 문서/정적 코드와 기존 이슈 본문 직접 확인",
+      "verification_scope": "README 전체·gate 전체·CI 전체·포럼 사용자 여정 E2E 전체. #79 본문. 트리는 관련 경로 확인에만 사용.",
+      "use": "적용 계획 이슈#127의 재사용 지점과 선행 작업 구분. 기존 본문의 데모 확인 버전은 올리지 않음.",
+      "limit": "직접 실행·실제 보호 규칙 설정·최신 전체 구현/효과를 검증하지 않음. 기능이 없음을 전수 입증한 것이 아님.",
+      "usage_review": {
+        "checked_on": "2026-10-27",
+        "direct_quote_words": 0,
+        "files": [
+          "planning/demo-pstack-tstack-adoption-issue.md",
+          "research/claims/pstack-tstack-factory.json"
+        ],
+        "scope": "현재 기반의 짧은 사실 설명과 링크만 사용. 구체 적용 단계는 신규 설계 제안이며 기존 구현 사실로 표시하지 않음."
+      }
     }
   ],
   "source_aliases": {

@@ -1,0 +1,286 @@
+[
+  {
+    "kind": "desktop",
+    "chapter": "ch07",
+    "sources": [
+      "S144",
+      "S150"
+    ],
+    "overflow": false,
+    "anchors": [
+      "s12",
+      "s01",
+      "s02",
+      "s03",
+      "s11",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10"
+    ],
+    "forums": [
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s12",
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s01",
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s02",
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s03",
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s11",
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s04",
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s05",
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s06",
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s07",
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s08",
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s09",
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s10"
+    ]
+  },
+  {
+    "kind": "desktop",
+    "chapter": "ch10",
+    "sources": [
+      "S145"
+    ],
+    "overflow": false,
+    "anchors": [
+      "s10",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s08",
+      "s05",
+      "s09",
+      "s06",
+      "s07"
+    ],
+    "forums": [
+      "https://roboco.io/the-software-factory-demo/#/book/ch10?anchor=s10",
+      "https://roboco.io/the-software-factory-demo/#/book/ch10?anchor=s01",
+      "https://roboco.io/the-software-factory-demo/#/book/ch10?anchor=s02",
+      "https://roboco.io/the-software-factory-demo/#/book/ch10?anchor=s03",
+      "https://roboco.io/the-software-factory-demo/#/book/ch10?anchor=s04",
+      "https://roboco.io/the-software-factory-demo/#/book/ch10?anchor=s08",
+      "https://roboco.io/the-software-factory-demo/#/book/ch10?anchor=s05",
+      "https://roboco.io/the-software-factory-demo/#/book/ch10?anchor=s09",
+      "https://roboco.io/the-software-factory-demo/#/book/ch10?anchor=s06",
+      "https://roboco.io/the-software-factory-demo/#/book/ch10?anchor=s07"
+    ]
+  },
+  {
+    "kind": "desktop",
+    "chapter": "ch12",
+    "sources": [
+      "S149",
+      "S152"
+    ],
+    "overflow": false,
+    "anchors": [
+      "s12",
+      "s01",
+      "s11",
+      "s02",
+      "s03",
+      "s04",
+      "s09",
+      "s10",
+      "s05",
+      "s06",
+      "s07",
+      "s08"
+    ],
+    "forums": [
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s12",
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s01",
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s11",
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s02",
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s03",
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s04",
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s09",
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s10",
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s05",
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s06",
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s07",
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s08"
+    ]
+  },
+  {
+    "kind": "desktop",
+    "chapter": "ch19",
+    "sources": [
+      "S146"
+    ],
+    "overflow": false,
+    "anchors": [
+      "s12",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s09",
+      "s10",
+      "s11",
+      "s06",
+      "s07",
+      "s08"
+    ],
+    "forums": [
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s12",
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s01",
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s02",
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s03",
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s04",
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s05",
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s09",
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s10",
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s11",
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s06",
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s07",
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s08"
+    ]
+  },
+  {
+    "kind": "mobile",
+    "chapter": "ch07",
+    "sources": [
+      "S144",
+      "S150"
+    ],
+    "overflow": false,
+    "anchors": [
+      "s12",
+      "s01",
+      "s02",
+      "s03",
+      "s11",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10"
+    ],
+    "forums": [
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s12",
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s01",
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s02",
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s03",
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s11",
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s04",
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s05",
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s06",
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s07",
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s08",
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s09",
+      "https://roboco.io/the-software-factory-demo/#/book/ch07?anchor=s10"
+    ]
+  },
+  {
+    "kind": "mobile",
+    "chapter": "ch10",
+    "sources": [
+      "S145"
+    ],
+    "overflow": false,
+    "anchors": [
+      "s10",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s08",
+      "s05",
+      "s09",
+      "s06",
+      "s07"
+    ],
+    "forums": [
+      "https://roboco.io/the-software-factory-demo/#/book/ch10?anchor=s10",
+      "https://roboco.io/the-software-factory-demo/#/book/ch10?anchor=s01",
+      "https://roboco.io/the-software-factory-demo/#/book/ch10?anchor=s02",
+      "https://roboco.io/the-software-factory-demo/#/book/ch10?anchor=s03",
+      "https://roboco.io/the-software-factory-demo/#/book/ch10?anchor=s04",
+      "https://roboco.io/the-software-factory-demo/#/book/ch10?anchor=s08",
+      "https://roboco.io/the-software-factory-demo/#/book/ch10?anchor=s05",
+      "https://roboco.io/the-software-factory-demo/#/book/ch10?anchor=s09",
+      "https://roboco.io/the-software-factory-demo/#/book/ch10?anchor=s06",
+      "https://roboco.io/the-software-factory-demo/#/book/ch10?anchor=s07"
+    ]
+  },
+  {
+    "kind": "mobile",
+    "chapter": "ch12",
+    "sources": [
+      "S149",
+      "S152"
+    ],
+    "overflow": false,
+    "anchors": [
+      "s12",
+      "s01",
+      "s11",
+      "s02",
+      "s03",
+      "s04",
+      "s09",
+      "s10",
+      "s05",
+      "s06",
+      "s07",
+      "s08"
+    ],
+    "forums": [
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s12",
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s01",
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s11",
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s02",
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s03",
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s04",
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s09",
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s10",
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s05",
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s06",
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s07",
+      "https://roboco.io/the-software-factory-demo/#/book/ch12?anchor=s08"
+    ]
+  },
+  {
+    "kind": "mobile",
+    "chapter": "ch19",
+    "sources": [
+      "S146"
+    ],
+    "overflow": false,
+    "anchors": [
+      "s12",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s09",
+      "s10",
+      "s11",
+      "s06",
+      "s07",
+      "s08"
+    ],
+    "forums": [
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s12",
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s01",
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s02",
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s03",
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s04",
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s05",
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s09",
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s10",
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s11",
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s06",
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s07",
+      "https://roboco.io/the-software-factory-demo/#/book/ch19?anchor=s08"
+    ]
+  }
+]

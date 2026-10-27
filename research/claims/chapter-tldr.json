@@ -1,0 +1,38 @@
+{
+  "checked_on": "2026-10-27",
+  "type": "기존 본문에서 생성한 독자용 요약",
+  "chapters": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "new_external_sources": [],
+  "basis": "기존 완독 기록 및 이후 본문 변경·이번 요약의 중심 주장/리더 판단/관찰과 조건 대조",
+  "limits": "새 수치/사례/보장/패턴을 추가하지 않음. 판본 검사는 최신성만 확인하며 의미 검증·저자 승인·독자 효과를 보장하지 않는다.",
+  "concurrent_body_updates_preserved": [
+    7,
+    10,
+    12,
+    19
+  ],
+  "review": "planning/reviews/2026-10-27-chapter-tldr-review.md",
+  "manifest": "planning/reviews/2026-10-27-chapter-tldr-manifest.json",
+  "status": "본문20장 요약 생성·갱신 도구/CI 자기 검증 완료·미커밋·미배포"
+}

@@ -1,0 +1,104 @@
+{
+  "checked_on": "2026-10-27",
+  "report": "research/pstack-tstack-factory-2026-10-27.md",
+  "claims": [
+    {
+      "type": "source_instruction",
+      "sources": [
+        "S144",
+        "S145"
+      ],
+      "claim": "검증 자산을 만들고 실행해 증명하며 앱 변화에 맞춰 유지하되 제품 회귀와 문서 드리프트를 구분하도록 지시한다.",
+      "limit": "현재 앱/전체 기능/안전성에 대한 실제 검증 아님."
+    },
+    {
+      "type": "source_instruction",
+      "sources": [
+        "S149",
+        "S150",
+        "S151",
+        "S152"
+      ],
+      "claim": "기본 full-send는 sol-loop를 사용하며 한도·증거·권한 조건이 있다. council과 full-stop은 별도 선택이다.",
+      "limit": "모델 합의의 정확성/독립성/일률적 병합 허용을 입증하지 않음."
+    },
+    {
+      "type": "source_instruction",
+      "sources": [
+        "S146",
+        "S147",
+        "S153",
+        "S154"
+      ],
+      "claim": "반복 실수의 집행 개선·측정 규율·현재 변경의 대기/보고를 반복 절차에 포함한다.",
+      "limit": "직접 실행/성과 측정이나 모든 환경의 지원 보장 아님."
+    },
+    {
+      "type": "author_proposal",
+      "sources": [
+        "S143",
+        "S144",
+        "S145",
+        "S146",
+        "S147",
+        "S148",
+        "S149",
+        "S150",
+        "S151",
+        "S152",
+        "S153",
+        "S154"
+      ],
+      "claim": "검증 지도/증거 계약, 드리프트 구분, 제한된 자동 반영, 근거와 한도의 리뷰, 정책/집행 쌍, 사업 결과 관찰로 확장한다.",
+      "limit": "기존 팩토리 원칙에 맞춘 적용 설계이며 저장소가 비즈니스 목표 달성을 입증한 것으로 쓰지 않음."
+    }
+  ],
+  "chapter_candidates": [
+    7,
+    10,
+    12,
+    19,
+    4,
+    17
+  ],
+  "pattern_connections": [
+    "P03",
+    "P06",
+    "P07",
+    "P10",
+    "P11",
+    "P13",
+    "P15"
+  ],
+  "remaining": [
+    "대표 업무와 허용 권한 선정",
+    "현재 하네스 적합성/실행 증거·상태 전달의 소규모 시험",
+    "데모 최신 구현과의 차이 대조"
+  ],
+  "status": "7/10/12/19장 반영 및 이슈#127 생성 완료·책 미커밋/미배포·데모 구현 미수행",
+  "manuscript_update": {
+    "date": "2026-10-27",
+    "chapter_sources": {
+      "7": [
+        "S144",
+        "S150"
+      ],
+      "10": [
+        "S145"
+      ],
+      "12": [
+        "S149",
+        "S152"
+      ],
+      "19": [
+        "S146"
+      ]
+    },
+    "demo_issue": "https://github.com/roboco-io/the-software-factory-demo/issues/127",
+    "demo_baseline": "b925518f535b49f3383b23db52cc66e8139ce042",
+    "demo_current_source": "S156",
+    "scope": "7/10/12/19장·해당 TL;DR·데모 적용 기획 이슈",
+    "status": "본문/TL;DR 검증 완료·이슈#127 생성/본문 확인",
+    "out_of_scope": "데모 구현/실행 승인·원고 커밋/배포"
+  }
+}

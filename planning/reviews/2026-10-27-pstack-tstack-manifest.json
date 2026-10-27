@@ -1,0 +1,38 @@
+{
+  "checked_on": "2026-10-27",
+  "base_commit": "e2d6d663500ea8a22d9e3fe473c9ef44813ad2c0",
+  "before_chapters": {
+    "manuscript/chapters/ch07.md": "581c06ee2750f623a5f4515af4b02390fb0e7a484aa4d69f305ec5c29fba6e0c",
+    "manuscript/chapters/ch10.md": "105c46e1ae57d89c472e7a5797831205208f2aaf31d6c689d78ce224c0c1f239",
+    "manuscript/chapters/ch12.md": "4b1a325cb390a680a033e3c56584c753b801ec5ed6122355dd5f6844a940e51e",
+    "manuscript/chapters/ch19.md": "4d7d49a6ecfff18b5420bb15dd106d33aede939b03d3f0c1afdbbaadb5866393"
+  },
+  "after_files": {
+    "manuscript/chapters/ch07.md": "4e2d5553bfb3478de9ae6e3af74a24bd9139a23c1115a56a43e9d1249f0f7be3",
+    "manuscript/chapters/ch10.md": "69d9d31cbff6b1fe8bc25d0109cf11ca43321bd1af03540ee5945fa195cd4a76",
+    "manuscript/chapters/ch12.md": "2552dffcbb5b6e789d7d5496de42984676907c283f79761b15248e26206cae32",
+    "manuscript/chapters/ch19.md": "c6694c4514102a5ce33c296499042e108dc5acb91e9eb2ee612aa380a64dfe4b",
+    "planning/chapter-tldr-manifest.json": "7fadd9137d21daaea93ffb74eda6b03daf412e4910e58a005032dec6faaaec2e",
+    "website/content-manifest.json": "b2216a4abef87fd56638fe902d0b0d6e2bfbaae4f7907192453072a8f1ac5b84",
+    "planning/demo-pstack-tstack-adoption-issue.md": "a32990cb45ad9272c2c89fe43d4f192f307dd768ff8a7f306a1d9fabedaa5f4c"
+  },
+  "scope": [
+    7,
+    10,
+    12,
+    19
+  ],
+  "other_16_chapters_preserved": true,
+  "existing_anchors_preserved": true,
+  "issue": {
+    "url": "https://github.com/roboco-io/the-software-factory-demo/issues/127",
+    "state": "OPEN",
+    "labels": [
+      "factory:triaged",
+      "type:feature"
+    ],
+    "body_matches_local": true,
+    "approved": false
+  },
+  "publication": "책 미커밋/미배포·이슈 생성 완료"
+}

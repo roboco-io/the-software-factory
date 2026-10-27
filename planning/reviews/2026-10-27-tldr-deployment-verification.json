@@ -1,0 +1,268 @@
+{
+  "checked_on": "2026-10-27",
+  "site": "https://factory.roboco.io",
+  "checks": [
+    {
+      "path": "/book/ch01/",
+      "status": 200,
+      "tldr_matches_local": true,
+      "bullets": 3,
+      "anchor": "s11"
+    },
+    {
+      "path": "/book/ch02/",
+      "status": 200,
+      "tldr_matches_local": true,
+      "bullets": 3,
+      "anchor": "s11"
+    },
+    {
+      "path": "/book/ch03/",
+      "status": 200,
+      "tldr_matches_local": true,
+      "bullets": 3,
+      "anchor": "s14"
+    },
+    {
+      "path": "/book/ch04/",
+      "status": 200,
+      "tldr_matches_local": true,
+      "bullets": 3,
+      "anchor": "s12"
+    },
+    {
+      "path": "/book/ch05/",
+      "status": 200,
+      "tldr_matches_local": true,
+      "bullets": 3,
+      "anchor": "s12"
+    },
+    {
+      "path": "/book/ch06/",
+      "status": 200,
+      "tldr_matches_local": true,
+      "bullets": 3,
+      "anchor": "s11"
+    },
+    {
+      "path": "/book/ch07/",
+      "status": 200,
+      "tldr_matches_local": true,
+      "bullets": 3,
+      "anchor": "s12"
+    },
+    {
+      "path": "/book/ch08/",
+      "status": 200,
+      "tldr_matches_local": true,
+      "bullets": 3,
+      "anchor": "s13"
+    },
+    {
+      "path": "/book/ch09/",
+      "status": 200,
+      "tldr_matches_local": true,
+      "bullets": 3,
+      "anchor": "s20"
+    },
+    {
+      "path": "/book/ch10/",
+      "status": 200,
+      "tldr_matches_local": true,
+      "bullets": 3,
+      "anchor": "s10"
+    },
+    {
+      "path": "/book/ch11/",
+      "status": 200,
+      "tldr_matches_local": true,
+      "bullets": 3,
+      "anchor": "s11"
+    },
+    {
+      "path": "/book/ch12/",
+      "status": 200,
+      "tldr_matches_local": true,
+      "bullets": 3,
+      "anchor": "s12"
+    },
+    {
+      "path": "/book/ch13/",
+      "status": 200,
+      "tldr_matches_local": true,
+      "bullets": 3,
+      "anchor": "s09"
+    },
+    {
+      "path": "/book/ch14/",
+      "status": 200,
+      "tldr_matches_local": true,
+      "bullets": 3,
+      "anchor": "s09"
+    },
+    {
+      "path": "/book/ch15/",
+      "status": 200,
+      "tldr_matches_local": true,
+      "bullets": 3,
+      "anchor": "s09"
+    },
+    {
+      "path": "/book/ch16/",
+      "status": 200,
+      "tldr_matches_local": true,
+      "bullets": 3,
+      "anchor": "s11"
+    },
+    {
+      "path": "/book/ch17/",
+      "status": 200,
+      "tldr_matches_local": true,
+      "bullets": 3,
+      "anchor": "s13"
+    },
+    {
+      "path": "/book/ch18/",
+      "status": 200,
+      "tldr_matches_local": true,
+      "bullets": 3,
+      "anchor": "s11"
+    },
+    {
+      "path": "/book/ch19/",
+      "status": 200,
+      "tldr_matches_local": true,
+      "bullets": 3,
+      "anchor": "s12"
+    },
+    {
+      "path": "/book/ch20/",
+      "status": 200,
+      "tldr_matches_local": true,
+      "bullets": 3,
+      "anchor": "s08"
+    },
+    {
+      "path": "/diagrams/policy-hierarchy.svg",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "f822a386498045a97d1588443c7e9a5e78703ee0f53138aceb8f559d000c8bdd"
+    },
+    {
+      "path": "/diagrams/harness-policy-cycle.svg",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "bf192bb790b74c45f6be161e605cd0e84dafcc2f29645d231542f8caffb264d0"
+    },
+    {
+      "path": "/diagrams/factory-overview.svg",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "499fb8191c02e24982f77d0f8807b1f59bd217c82eb9581463b0b54273728e8f"
+    },
+    {
+      "path": "/diagrams/intent-harness-loops.svg",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "1a375d80af20724f9fc6bcbe865e7d2e1ddd44532c1eb597c469955d3aba9019"
+    },
+    {
+      "path": "/diagrams/automation-routing.svg",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "6c141285ced6aef5d72c7a6f48d7540d08cad20a746b49eac52de555b56aba5e"
+    },
+    {
+      "path": "/diagrams/responsibility-flow.svg",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "9b0cf4ac9849f3a7fcc3233c31fc497f6308ac4099455b08cd302217b19a66ca"
+    },
+    {
+      "path": "/diagrams/adoption-journeys.svg",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "3d774d463b577419698ba7e8906ffec76bd4bc1c4a086af50834dc9ae7789823"
+    },
+    {
+      "path": "/diagrams/measurement-population.svg",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "88ca9da19c112b9e8319da0a76816b8759bcd48356f8fd7e4c18045dc01ad075"
+    },
+    {
+      "path": "/diagrams/demo-flow.svg",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "4b02c0d58936041d65e317bee5ed1e9ee22ebe43af3ac3132ad806b84a27112f"
+    },
+    {
+      "path": "/diagrams/demo-authority-boundary.svg",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "609a3e7ef962bcdb4358c678f6f04102fbe2128fcaa16bba78953c914c8c3884"
+    },
+    {
+      "path": "/diagrams/work-dependencies.svg",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "0c81fefc2f867b40bffdf3e0f23bc9bc48bfb1dc07246807bf907eccdfeb6996"
+    },
+    {
+      "path": "/diagrams/unknown-result-recovery.svg",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "b7c0859ce065c8bbd70f4953546a20ec0704643c95725730195925481403169d"
+    },
+    {
+      "path": "/diagrams/waiting-timeline.svg",
+      "status": 200,
+      "matches_local": true,
+      "sha256": "810b2a3e0efbc66094c0ee57544a5631c3e103f27598a8b0adf2fe361cd681ad"
+    },
+    {
+      "path": "/book/ch07/",
+      "status": 200,
+      "pstack_tstack_content": true
+    },
+    {
+      "path": "/book/ch10/",
+      "status": 200,
+      "pstack_tstack_content": true
+    },
+    {
+      "path": "/book/ch12/",
+      "status": 200,
+      "pstack_tstack_content": true
+    },
+    {
+      "path": "/book/ch19/",
+      "status": 200,
+      "pstack_tstack_content": true
+    },
+    {
+      "path": "/pagefind/pagefind-entry.json",
+      "status": 200,
+      "valid_metadata": true,
+      "language": "ko",
+      "indexed_pages": 53
+    },
+    {
+      "path": "/pagefind/pagefind.ko_6e8dcbd616.pf_meta",
+      "status": 200,
+      "bytes": 547
+    }
+  ],
+  "scope": "실제 공개20장 요약/토론 앵커·도표 원본·Pstack/Tstack 본문; 의미의 정확성/읽기 시간 효과 시험 아님",
+  "published_commit": "9544dedfe64974c23e4d6bf58c7e1bde68b4d6ae",
+  "workflow_run": "https://github.com/roboco-io/the-software-factory/actions/runs/40470361147",
+  "workflow_result": "build/deploy/notify-forum success",
+  "local_verification": {
+    "python_tests": 8,
+    "web_unit_tests": 37,
+    "e2e_passed": 35,
+    "e2e_skipped": 1,
+    "artifact": "정상 검색 metadata를 확인한 고정 복사본",
+    "initial_artifact_failure": "Pagefind entry JSON이0바이트라 검색2개실패. 생성 경위 미확정. 재빌드/고정 산출물 전체 검사는 통과."
+  }
+}

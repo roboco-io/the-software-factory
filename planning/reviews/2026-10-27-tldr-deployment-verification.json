@@ -264,5 +264,22 @@
     "e2e_skipped": 1,
     "artifact": "정상 검색 metadata를 확인한 고정 복사본",
     "initial_artifact_failure": "Pagefind entry JSON이0바이트라 검색2개실패. 생성 경위 미확정. 재빌드/고정 산출물 전체 검사는 통과."
+  },
+  "final_publication_check": {
+    "checked_on": "2026-10-27",
+    "published_commit": "0fba4b85acf9a9070ba6b2885d11a30d68d40f92",
+    "workflow_run": "https://github.com/roboco-io/the-software-factory/actions/runs/40471370536",
+    "workflow_result": "build/deploy/notify-forum success",
+    "http_responses_verified": 40,
+    "tldr_chapters_matched": 20,
+    "svg_originals_matched": 13,
+    "search_metadata_and_language_asset_valid": true,
+    "changelog_publication_date": "2026-10-27",
+    "pending_heading_absent": true
+  },
+  "recovered_failure": {
+    "workflow_run": "https://github.com/roboco-io/the-software-factory/actions/runs/40471121382",
+    "reason": "날짜 기록 커밋의 STATUS가 아직 포함하지 않은 검증 파일을 참조해 링크 검사 실패",
+    "resolution": "0fba4b8에서 참조 파일을 포함한 최신 main을 workflow_dispatch로 전체 재검증·배포했다. 검사를 생략하지 않았다."
   }
 }

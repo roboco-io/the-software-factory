@@ -108,7 +108,7 @@
 
 ## 장별 TL;DR
 
-- 각 본문 장의 첫머리에 TL;DR을 유지한다. [chapter-tldr 스킬](skills/chapter-tldr/SKILL.md)과 [작성·갱신 정책](skills/chapter-tldr/references/policy.md)을 따른다.
+- 각 본문 장의 첫머리에 TL;DR을 유지한다. 각 장의 주요 내용을10개 미만 항목으로 정리하며 고정된 주장·결정·확인 분류를 사용하지 않는다. [chapter-tldr 스킬](skills/chapter-tldr/SKILL.md)과 [작성·갱신 정책](skills/chapter-tldr/references/policy.md)을 따른다.
 - 장의 주장·판단·권한·책임·조건·중요 근거를 바꾸는 작업은 별도 요청을 기다리지 않고 이 스킬을 적용해 본문과 요약을 함께 갱신한다. TL;DR에는 본문에 없는 사실·보장·통계를 추가하지 않는다.
 - 사소한 정리로 요약이 그대로여도 본문을 대조하고 현재 판본과 이유를 기록한다. 이전 해시를 새 본문에 그대로 승인하지 않는다.
 - `scripts/check_project.py`와 웹 빌드는 누락·본문/요약 판본 불일치를 검사한다. 실패하면 스킬로 읽고 재검토한다. 빌드 자체가 모델을 호출하거나 요약의 의미를 검증하는 것은 아니다. 내부 해시·판본 기록을 독자용 책 버전으로 표시하지 않는다.

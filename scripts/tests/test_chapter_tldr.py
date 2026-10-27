@@ -29,6 +29,32 @@ class ChapterTldrTests(unittest.TestCase):
         row = tldr.status(self.root, [n])[0]
         return {'chapter':n,'expected_body_sha256':row['body_sha256'],'expected_tldr_sha256':row['tldr_sha256'],'bullets':['핵심 주장.','리더의 판단.','확인할 조건.'],'reason':'본문의 허용 범위를 확인했다.'}
 
+    def test_content_outline_accepts_variable_counts_and_longer_chapter_notes(self):
+        for count in [1, 5, 9]:
+            bullets = [f'장 내용의 요점 {i}를 설명한다.' for i in range(count)]
+            block = tldr.render(bullets)
+            tldr.check_block(block)
+            self.assertEqual(len(block.splitlines()[2:]), count)
+        # A chapter outline can exceed the former 450-character limit.
+        tldr.check_block(tldr.render(['본문에서 설명한 조건을 빠뜨리지 않고 정리한다. ' * 5] * 5))
+        for bullets in [[], ['요점.'] * 10]:
+            with self.assertRaises(ValueError):
+                tldr.render(bullets)
+
+    def test_legacy_three_role_summary_migrates_without_changing_body(self):
+        body = self.paths[1].read_text()
+        legacy = '## TL;DR\n\n- **핵심:** 기존 주장.\n- **결정:** 기존 판단.\n- **확인:** 기존 조건.'
+        self.paths[1].write_text(tldr.insert(body, legacy))
+        with self.assertRaises(ValueError):
+            tldr.check_block(legacy)
+        update = self.update()
+        update['bullets'] = ['본문의 목적을 정리한다.', '수행 범위를 설명한다.', '증거를 연결한다.', '한계를 남긴다.']
+        tldr.apply(self.root, [update], '2026-10-27')
+        after = self.paths[1].read_text()
+        self.assertEqual(tldr.split(after)[0], body)
+        self.assertNotIn('**핵심:**', after)
+        self.assertEqual(tldr.status(self.root, [1])[0]['status'], 'current')
+
     def test_preserves_body_and_legacy_alias_without_self_staleness(self):
         before = self.paths[1].read_text()
         tldr.apply(self.root, [self.update()], '2026-10-27')

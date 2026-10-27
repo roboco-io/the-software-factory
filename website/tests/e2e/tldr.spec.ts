@@ -7,8 +7,11 @@ test('each chapter opens with a short TL;DR without marking the chapter read',as
   const heading=article.locator('h2').first();
   await expect(heading).toHaveText('TL;DR');
   const summary=article.getByRole('list').first();
-  await expect(summary.locator(':scope > li')).toHaveCount(3);
-  expect((await summary.innerText()).length).toBeLessThanOrEqual(450);
+  const count=await summary.locator(':scope > li').count();
+  expect(count).toBeGreaterThan(0);
+  expect(count).toBeLessThan(10);
+  expect((await summary.innerText()).length).toBeLessThanOrEqual(1200);
+  for(const item of await summary.locator(':scope > li').allTextContents())expect(item).not.toMatch(/^(핵심|주장|결정|확인)\s*[:：]/);
   await expect(page.locator('[data-current-status]')).not.toHaveText('읽음');
   expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(page.viewportSize()!.width+1);
  }

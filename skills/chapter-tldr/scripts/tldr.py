@@ -11,6 +11,8 @@ START = '<!-- chapter-tldr:start -->'
 END = '<!-- chapter-tldr:end -->'
 HEADING = '## TL;DR'
 MANIFEST = 'planning/chapter-tldr-manifest.json'
+MAX_BULLETS = 9
+MAX_CHARACTERS = 1200
 
 
 def digest(text):
@@ -49,20 +51,24 @@ def split(text):
 
 
 def render(bullets):
-    if not isinstance(bullets, list) or len(bullets) != 3:
-        raise ValueError('Exactly three TL;DR bullets are required')
+    if not isinstance(bullets, list) or not 1 <= len(bullets) <= MAX_BULLETS:
+        raise ValueError('TL;DR requires one to nine content bullets')
     if any(not isinstance(b, str) or not b.strip() or '\n' in b or START in b or END in b for b in bullets):
         raise ValueError('Each bullet must be one nonempty line')
-    visible = re.sub(r'\*\*', '', ''.join(bullets))
-    if len(visible) > 450:
-        raise ValueError('TL;DR must be at most 450 characters')
+    for bullet in bullets:
+        plain = re.sub(r'\*\*|__', '', bullet).lstrip()
+        if re.match(r'^(핵심|주장|결정|확인)\s*[:：]', plain):
+            raise ValueError('Summarize chapter content without fixed role labels')
+    visible = re.sub(r'\*\*|__', '', ''.join(bullets))
+    if len(visible) > MAX_CHARACTERS:
+        raise ValueError('TL;DR must be at most 1200 characters')
     return HEADING + '\n\n' + '\n'.join('- ' + b.strip() for b in bullets)
 
 
 def check_block(block):
     lines = block.splitlines()
-    if lines[:2] != [HEADING, ''] or len(lines) != 5 or any(not x.startswith('- ') for x in lines[2:]):
-        raise ValueError('Expected a TL;DR heading and three bullets')
+    if lines[:2] != [HEADING, ''] or any(not x.startswith('- ') for x in lines[2:]):
+        raise ValueError('Expected a TL;DR heading and content bullets')
     render([line[2:] for line in lines[2:]])
 
 

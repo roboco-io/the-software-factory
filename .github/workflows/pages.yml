@@ -12,6 +12,9 @@ on:
       - 'CHANGELOG.md'
       - 'LICENSES/**'
       - 'scripts/check_project.py'
+      - 'skills/chapter-tldr/**'
+      - 'planning/chapter-tldr-manifest.json'
+      - 'scripts/tests/test_chapter_tldr.py'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 permissions:
@@ -41,6 +44,9 @@ jobs:
       - run: npm ci
       - name: Check manuscript references
         run: python3 scripts/check_project.py
+        working-directory: .
+      - name: Test manuscript helpers
+        run: python3 -m unittest discover -s scripts/tests
         working-directory: .
       - run: npm test
       - run: npm run check

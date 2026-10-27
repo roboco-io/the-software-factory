@@ -92,6 +92,15 @@ def check_claim_sources(value, file):
 for file in (ROOT / 'research/claims').rglob('*.json'):
     check_claim_sources(json.loads(file.read_text()), file.relative_to(ROOT))
 
+# The agent writes the summaries; this check only detects missing version reviews.
+sys.path.insert(0, str(ROOT / 'skills/chapter-tldr/scripts'))
+from tldr import status as tldr_status
+try:
+    for row in tldr_status(ROOT):
+        require(row['status'] == 'current', f"ch{row['chapter']:02}: TL;DR {row['status']}; use chapter-tldr skill")
+except (ValueError, OSError) as error:
+    errors.append(f'TL;DR check: {error}')
+
 if errors:
     print('\n'.join(errors), file=sys.stderr)
     raise SystemExit(1)

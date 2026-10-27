@@ -115,5 +115,15 @@
   "scope": "실제 공개 HTTP 응답/원본 일치; 독자 이해/제품 운영 효과 검증 아님",
   "published_commit": "2eefa2dc1419e85176c659ed372e8038b93ed722",
   "workflow_run": "https://github.com/roboco-io/the-software-factory/actions/runs/40423925242",
-  "workflow_result": "build/deploy/notify-forum success"
+  "workflow_result": "build/deploy/notify-forum success",
+  "final_publication_check": {
+    "checked_on": "2026-10-27",
+    "published_commit": "76a3e0b308109296d85772d593a3a980d0976d2f",
+    "workflow_run": "https://github.com/roboco-io/the-software-factory/actions/runs/40424332179",
+    "workflow_result": "build/deploy/notify-forum success",
+    "http_responses_verified": 18,
+    "svg_originals_matched": 13,
+    "changelog_publication_date": "2026-10-27",
+    "pending_heading_absent": true
+  }
 }

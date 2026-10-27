@@ -7,3 +7,5 @@
 - 배포: [40423925242](https://github.com/roboco-io/the-software-factory/actions/runs/40423925242) build/deploy/notify-forum 성공.
 - 공개: [검증 기록](../reviews/2026-10-27-deployment-verification.json)의17개 응답에서 SVG13개 원본·새7/12장 설명/출처·서문 버튼을 확인했다. 실제 독자 이해나 제품/조직 효과를 검증한 것은 아니다.
 - 후속: 공개 확인 후 체인지 로그 날짜를 확정했다. 날짜 기록 반영 배포와 실제 공개 로그/최종 원격 상태를 확인한다.
+
+최종 완료: 기록76a3e0b와 Pages 실행40424332179의 build/deploy/notify-forum 성공. 공개응답18개·SVG13개·7/12장과 출처·서문 연결·2026-10-27 체인지 로그 확인. 최종 검증 기록만 추가 커밋·푸시하며 사이트 변경은 없다.

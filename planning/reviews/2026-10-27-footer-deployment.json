@@ -1,0 +1,26 @@
+{
+  "checked_on": "2026-10-27",
+  "commit": "06bcdfc76d64b5faa13a41ada200808ba63f7a53",
+  "workflow_run": "https://github.com/roboco-io/the-software-factory/actions/runs/40482640997",
+  "workflow_result": "build/deploy/notify-forum success",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "repository_link": true,
+      "feedback_link_preserved": true
+    },
+    {
+      "path": "/book/preface/",
+      "status": 200,
+      "repository_link": true,
+      "feedback_link_preserved": true
+    },
+    {
+      "path": "/book/ch08/",
+      "status": 200,
+      "repository_link": true,
+      "feedback_link_preserved": true
+    }
+  ]
+}

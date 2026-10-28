@@ -390,5 +390,15 @@
     "status": "수정됨·변경 범위 자기 점검 완료",
     "limits": "새 외부 원문·판본 대조를 수행하거나 기존 확인 수준을 높인 것이 아님.",
     "report": "planning/reviews/2026-10-20-reference-book-terminology.md"
+  },
+  "plan_harness_distinction": {
+    "date": "2026-10-28",
+    "author_decision": "D57",
+    "type": "저자 개념 정의·설계 제안",
+    "source_ids": [],
+    "scope": "실행계획은 이번 작업의 경로, 하네스는 정책에 따른 수립·집행·기록·관찰·개선 체계로 구분. 변경된 본문과 요약 대조.",
+    "review": "planning/reviews/2026-10-28-plan-harness.md",
+    "status": "변경 범위 자기 점검 완료·저자 편집 확정 대기",
+    "limits": "새 외부 원문·데모 실행·운영 효과·독립 리뷰 검증 아님. 기존 출처 표식과 확인 범위 유지."
   }
 }

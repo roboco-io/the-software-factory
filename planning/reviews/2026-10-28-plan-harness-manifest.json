@@ -1,0 +1,198 @@
+{
+  "checked_on": "2026-10-28",
+  "base_commit": "0b6d911a273c874858016c47a9e728cbf0626e75",
+  "scope": "전체 용어 용례 검색·수정 관련9장 본문/요약 대조·서문/P02/홈/용어집/도표·판본 연결. 전체 외부 사실의 재검증 아님.",
+  "checks": {
+    "citation_markers_unchanged": true,
+    "existing_anchors_preserved": true,
+    "revisions_incremented_once": [
+      "ch01",
+      "ch02",
+      "ch03",
+      "ch04",
+      "ch07",
+      "ch09",
+      "ch11",
+      "ch12",
+      "ch19",
+      "p02",
+      "preface"
+    ],
+    "pattern_catalog_unchanged": true,
+    "svg_arrow_paths_preserved": 3,
+    "old_stage_phrase_absent_in_manuscript": true
+  },
+  "files": {
+    "manuscript/patterns/p02.md": {
+      "before_sha256": "4c372e7b4a69ed697db81a5c243b0318f7fd32f0095bd188e8f78361d8e2a81e",
+      "sha256": "8d52997ab9547ef363e7a4ab5c38aab13dff56b8995608a506987a64f7c05dd2"
+    },
+    "manuscript/chapters/ch01.md": {
+      "before_sha256": "71ff5a08df10073b29e6267163b7b0cc7f4a40c38dc771ebe8e0f4645079f667",
+      "sha256": "a39b263d665a084361fe019f0b7f94588cdf9933e56f90134da5e90591fb671f"
+    },
+    "manuscript/chapters/ch11.md": {
+      "before_sha256": "39ae194829a33445a9521ce961706f13f810dc0905176646053cae43f26aba67",
+      "sha256": "c9fce5cff68bd4f3c1d1a9152e8491e963fca66ac8d483df967fc3533d5451b3"
+    },
+    "manuscript/chapters/ch04.md": {
+      "before_sha256": "905a814abb9c4bc17bc1f43bd468ae4430c178990c2baed5d12c3d089be2926e",
+      "sha256": "89b802068c7de3f8a597d4ef989c29a91c684eaa3d2e441d2c7ed533e4dafc78"
+    },
+    "manuscript/chapters/ch03.md": {
+      "before_sha256": "4a2648b7402625d58ce09206022d62854b9418efda8a427b980f0508940e334d",
+      "sha256": "e1950faea60940bbcab8aa5fd0fc2fc6ba6b953434f912253eebb6a7758034ea"
+    },
+    "manuscript/chapters/ch07.md": {
+      "before_sha256": "e8d651d71bfbfc45e21dc70db6320733e64860d7138728d96786cfbc78ccc635",
+      "sha256": "fbb2d416fed6417b7e3516a3c1ee4cf6fbf1a53e97c1bfbafb483f9591bf3951"
+    },
+    "manuscript/chapters/ch02.md": {
+      "before_sha256": "5a35ef6404c217c27c8d63d63f2266cad3dcde5548210e75f3c4a28e61271e96",
+      "sha256": "93c6db66950b6a0bcb5350df014f044d646ff8f171d4e1fede4b01c661cb461e"
+    },
+    "manuscript/chapters/ch12.md": {
+      "before_sha256": "e4b55576a4996a2f9fb00df93af8a2025e4c31f6172f45f9399c849492545825",
+      "sha256": "170f260637ff8eac6b32e146fd7bfc06892bbf9e080feec1944adbab9e67503e"
+    },
+    "manuscript/chapters/ch09.md": {
+      "before_sha256": "37dc0b38519a9a729fef46d847f9ed21c8f997f7884a46594a14bd7bbd69319f",
+      "sha256": "dd5208082c0c97f008fab71bea57438c27b7e4b443dda29db18389b2e2e7028c"
+    },
+    "manuscript/chapters/ch19.md": {
+      "before_sha256": "bb5dd7e3e0e400f67bb0e6b9ca8115e3a1705932ec1c6b3b084b1db409bd2192",
+      "sha256": "07e2c93f9d2b2a44005a5136c01c725159c69f18fc97dc777dadfe6c36a16c26"
+    },
+    "manuscript/front-matter/00-preface.md": {
+      "before_sha256": "77c8579e8812556ddde601bfc6da0d92f1afa50c098fe744b85f43735543dce7",
+      "sha256": "40039d00753b38d74fafe0390a14ea4ffabb292f9f08615c473112afcf0ae82c"
+    },
+    "manuscript/figures/README.md": {
+      "before_sha256": "c4ae12740e9184e67b3b1fb565c3763e6cbd0a8b883ead0d2b5c3dbfafc6786b",
+      "sha256": "6bf72484679de5abb7cf98459132c2672eca47f1d498f93e2c954ea6bd79efa1"
+    },
+    "manuscript/figures/harness-policy-cycle.svg": {
+      "before_sha256": "bf192bb790b74c45f6be161e605cd0e84dafcc2f29645d231542f8caffb264d0",
+      "sha256": "90de801de663950eaf142c30d5520b547e8244174a56e2918ccd232d477dd0f3"
+    },
+    "manuscript/figures/factory-overview.svg": {
+      "before_sha256": "499fb8191c02e24982f77d0f8807b1f59bd217c82eb9581463b0b54273728e8f",
+      "sha256": "02a1c87bc368884f2601f62ec2b45bb8dcbaa53cec35dbb93b5d50576278cd0b"
+    },
+    "manuscript/figures/intent-harness-loops.svg": {
+      "before_sha256": "1a375d80af20724f9fc6bcbe865e7d2e1ddd44532c1eb597c469955d3aba9019",
+      "sha256": "98d7eaafed0f0f2cc933822989878ff87bd37526d9738efc1ecc9d28db12dda9"
+    },
+    "website/content-manifest.json": {
+      "before_sha256": "7b1e7d1eb426918a7c8dc469fe9170fc7c038b94feed3a065d41c0a42f4b690b",
+      "sha256": "fc284ccfeb4adf12a66fa49fe24bbc5a2621256993e289a3f93b8ebd68e5fa1f"
+    },
+    "planning/chapter-tldr-manifest.json": {
+      "before_sha256": "1272166401680a1f1034ed907c1081cf30a7d5b0d4fd61b370a349907ddd7aad",
+      "sha256": "137e0da5d7d8a098d695babde3aefbbec1082eb38ce9f03371c549f31adbfd0e"
+    },
+    "AGENTS.md": {
+      "before_sha256": "7ca0a1a7d0ec5d9b872c26c73b73d90757b8e8a11d003474fea8bcefeabe40a1",
+      "sha256": "afd0b059ebd9fac5723d8aaa7a3a3801004b707439fd37a08dfbdad7beb4229a"
+    },
+    "CHANGELOG.md": {
+      "before_sha256": "1fd01313012cc3aff9394df488f3326c5eb0dd78c9e75bf38675df83e6f86af4",
+      "sha256": "1a16735966bfb868e978e5fec94c4c7c807d806b24047b6e66ad158bcd5eef0c"
+    },
+    "STATUS.md": {
+      "before_sha256": "3f6d459570344c0af899f451d81c748e25abca7091d7e1779ad598600576ac26",
+      "sha256": "dcda5bab88aebf5fdeb63454506abbb48755ce56abf887d17c4786595d2e7a7f"
+    },
+    "manuscript/figures/catalog.json": {
+      "before_sha256": "61e8032e0260b0f98d56f09d520a0e585abcb40b0718192e854e084d37d332f9",
+      "sha256": "9b879c379b0ce8683033db14eb275a3ba6d6286ec89734ab0ffc4a0509c834e5"
+    },
+    "planning/book-brief.md": {
+      "before_sha256": "b47ae605bca84fe48385fc8175467db151f8a49dcfd81e67de37c535aa9eda5a",
+      "sha256": "f21eff74a3d95fa3b253b9bfbe13c0d5ce7e970ecc2bfdb82933429209053e4a"
+    },
+    "planning/decisions.md": {
+      "before_sha256": "572b13f96848bdc4736d961543f8bece44146fca39a6b1b901f30b8a0a3ca897",
+      "sha256": "3902059414f2c17022e14d4200b8c697400965912ffc72bdafb6d829369499f5"
+    },
+    "planning/glossary.md": {
+      "before_sha256": "a3c8d33896d870222dab0535b0868cdffc49c5aed0d28d2aadace9dc8ae78985",
+      "sha256": "166411adab717478022c4e834c27b5208261891a664510e8e84e961ea38bd00e"
+    },
+    "planning/review-policies/01-argument.md": {
+      "before_sha256": "d85eb24e0f6c7dedc87fe6c4bff2df9d464531364bb500b0811f8050ccf21d4f",
+      "sha256": "f11002578a27b1a2a8530f3654542d8e16cdc7327ee9018252c741165338060f"
+    },
+    "research/claims/ch01.json": {
+      "before_sha256": "e8da9d1a351676016e6debbcc4afcbf3fe00bcfdd5fdb97a3bce76cc569a92fb",
+      "sha256": "866e58d4e1121296c23bcda047903e2ae0198e08b3a14298f3d89da6ec71bd25"
+    },
+    "research/claims/ch02.json": {
+      "before_sha256": "6f69b33e22f3d5356634a0756620655e5caf4edc4d70f9d22743d076837b0a2f",
+      "sha256": "359fae87341485efb497934949f9d842a3923cae14efbeea9bc92000defff1cb"
+    },
+    "research/claims/ch03.json": {
+      "before_sha256": "b2c64e62411ee239bb70812732663a7d079cf45c9ef62f8a26d3ef25d75bcd16",
+      "sha256": "8816269ea1f389d2baf9aa4dbc8a665ec06748ce32e9ea03e7590d38cd27bf98"
+    },
+    "research/claims/ch04.json": {
+      "before_sha256": "e77b22ae5294e7315783d88e91e5ac069ab1b94912e1d7fb6d6b489c139fd14c",
+      "sha256": "77ed172d94b103a0a0a2b7cd5ba3ee82dd43c1cac4ac9e6d36ccdd23c18d976b"
+    },
+    "research/claims/ch07.json": {
+      "before_sha256": "188769e9d4ce1b5ae9454c3b9448217ef7db7bf7c73973cd4d3d04dc93dbcfd0",
+      "sha256": "9e698a129278b7f954c036db286956c5c52a70ee2c545d7419482ff15bf6604d"
+    },
+    "research/claims/ch09.json": {
+      "before_sha256": "35cc9a5df1b1f7dcb705701516bf5201ff599dc22c9abe27aab0834524f6f86a",
+      "sha256": "707478ddc9107616fa800b57d536866fbd23f1e3d15b5e614a42444d04656cfb"
+    },
+    "research/claims/ch11.json": {
+      "before_sha256": "2dcbb7bd14f9ef39c26c2be80e07523e8b46b1c083230c6dcb98f9d9d361fc0d",
+      "sha256": "81d15fd5688b6ee34e009a0b39eed65b8cddbbd1f345675dd96de58975883487"
+    },
+    "research/claims/ch12.json": {
+      "before_sha256": "b1a7b66b6eea45e0578ccc855182dd11c4f9b2e1e2fa591aee30b70086901af4",
+      "sha256": "429dd6c49b6d015b3fd2e01ea05cc2fba5025100add58f69e15615d3c2555f77"
+    },
+    "research/claims/ch19.json": {
+      "before_sha256": "7d6c94a58b72b78ab8d7d522535f03abaa2ee7d0aa83f9435af3ff95c6e24df3",
+      "sha256": "2403cb58427feb03066c40897734dd2cfc07ee3e7c5f17a631da43f4ffcf90a0"
+    },
+    "research/harness-editorial-note.md": {
+      "before_sha256": "5f31c98f43f1a8f8528faf288eaaf533317c16cb8751133ba9d4fb04931e12af",
+      "sha256": "7842af58d8fcc5ed8f0db9503170977ca13fd395297ae7568d7c8fcb91cf4389"
+    },
+    "website/src/pages/index.astro": {
+      "before_sha256": "b3d410dceffbcad4d0f7670838433a5e3699d7a5bb258e7269dc89e1d166ae4b",
+      "sha256": "c2aabf0acad1601ce63f79374403db43f76dc1a9de7bae7351f59ca2f4dddfca"
+    }
+  },
+  "verification": {
+    "project": "20 chapters / 15 patterns / 156 sources: PASS",
+    "python_tests": 10,
+    "web_unit_tests": 37,
+    "tldr_current": 20,
+    "astro": {
+      "files": 41,
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "build": {
+      "public_pages": 56,
+      "local_links_and_anchors": "PASS"
+    },
+    "focused_e2e": {
+      "passed": 6,
+      "scope": "figures.spec.ts and tldr.spec.ts, desktop/mobile"
+    },
+    "browser": "planning/reviews/2026-10-28-plan-harness-browser.json",
+    "initial_failure": "Concurrent check/build mutated the same generated docs directory. Both sequential retries passed; no product patch."
+  },
+  "limitations": [
+    "No new external-source verification or demo execution",
+    "Author definition and self-review; no independent review or reader-effect test",
+    "No commit/push/deploy in this request"
+  ]
+}

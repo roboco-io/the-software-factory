@@ -1,0 +1,78 @@
+{
+  "checks": [
+    {
+      "kind": "desktop",
+      "chapter": 1,
+      "tldr_items": 8,
+      "page_overflow": false
+    },
+    {
+      "kind": "desktop",
+      "chapter": 3,
+      "tldr_items": 9,
+      "page_overflow": false
+    },
+    {
+      "kind": "desktop",
+      "chapter": 4,
+      "tldr_items": 7,
+      "page_overflow": false
+    },
+    {
+      "kind": "desktop",
+      "chapter": 9,
+      "tldr_items": 9,
+      "page_overflow": false
+    },
+    {
+      "kind": "desktop",
+      "chapter": 12,
+      "tldr_items": 8,
+      "page_overflow": false
+    },
+    {
+      "kind": "desktop",
+      "chapter": 19,
+      "tldr_items": 8,
+      "page_overflow": false
+    },
+    {
+      "kind": "mobile-width",
+      "chapter": 1,
+      "tldr_items": 8,
+      "page_overflow": false
+    },
+    {
+      "kind": "mobile-width",
+      "chapter": 3,
+      "tldr_items": 9,
+      "page_overflow": false
+    },
+    {
+      "kind": "mobile-width",
+      "chapter": 4,
+      "tldr_items": 7,
+      "page_overflow": false
+    },
+    {
+      "kind": "mobile-width",
+      "chapter": 9,
+      "tldr_items": 9,
+      "page_overflow": false
+    },
+    {
+      "kind": "mobile-width",
+      "chapter": 12,
+      "tldr_items": 8,
+      "page_overflow": false
+    },
+    {
+      "kind": "mobile-width",
+      "chapter": 19,
+      "tldr_items": 8,
+      "page_overflow": false
+    }
+  ],
+  "svg_canvas_bounds": 3,
+  "harness_right_box_bounds": "pass"
+}

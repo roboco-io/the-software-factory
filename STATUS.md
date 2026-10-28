@@ -1018,3 +1018,7 @@ D56에 따라 chapter-tldr 스킬/정책/UI설명·검사도구·프로젝트 �
 이전에 대기하던40518487612는2026-10-27 14:35:39 UTC까지 build/deploy/notify-forum이 모두 성공했다. 2026-10-28 실제23응답에서 공개20장 요약이51f093a와 일치하고 검색/풋터도 정상임을 확인했다. [이전 공개 대조](planning/reviews/2026-10-28-prior-tldr-public.json). 이번 수정과 기존 요약의 공개 날짜 기록은 새 공개 확인 뒤 정리한다.
 
 배포 전 전체 E2E35개 통과·의도된 제외1개 확인. 타입 검사와 빌드의 콘텐츠 생성은 순차 수행했다. 배포 진행은 [세션](planning/sessions/2026-10-28-plan-harness-deployment.md)에 기록한다.
+
+## 2026-10-28 실행계획·하네스 원고 공개 확인
+
+f2877d7와5852ffa를 origin/main에 푸시하고 Pages40645775403의 build/deploy/notify-forum 성공 확인. 실제29응답에서20장 요약과 주요 변경 본문·서문/P02/홈·도표3개파일·검색 metadata를 대조했다. [공개 확인](planning/reviews/2026-10-28-plan-harness-deployment-initial.json). 공개가 확인돼 체인지 로그의 D57 항목을2026-10-28로, 이전 TL;DR은 실제 게시 한국 날짜2026-10-27로 옮겼다. 날짜 기록의 공개 반영 후 최종 대조가 남아 있다.

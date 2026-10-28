@@ -1,0 +1,206 @@
+{
+  "checked_on": "2026-10-28",
+  "site": "https://factory.roboco.io",
+  "commit": "69d05728a86224428ad19c4a6490e519bdfe9ba8",
+  "run_id": "40646209024",
+  "scope": "실제 공개20장 요약·변경 본문·서문/P02/홈·도표3개원문·검색파일·체인지로그. 의미와 독자 효과의 독립 검증 아님.",
+  "checks": [
+    {
+      "path": "/book/ch01/",
+      "status": 200,
+      "items": 8,
+      "matches_local": true,
+      "body_distinction_checked": false
+    },
+    {
+      "path": "/book/ch02/",
+      "status": 200,
+      "items": 7,
+      "matches_local": true,
+      "body_distinction_checked": false
+    },
+    {
+      "path": "/book/ch03/",
+      "status": 200,
+      "items": 9,
+      "matches_local": true,
+      "body_distinction_checked": true
+    },
+    {
+      "path": "/book/ch04/",
+      "status": 200,
+      "items": 7,
+      "matches_local": true,
+      "body_distinction_checked": false
+    },
+    {
+      "path": "/book/ch05/",
+      "status": 200,
+      "items": 8,
+      "matches_local": true,
+      "body_distinction_checked": false
+    },
+    {
+      "path": "/book/ch06/",
+      "status": 200,
+      "items": 7,
+      "matches_local": true,
+      "body_distinction_checked": false
+    },
+    {
+      "path": "/book/ch07/",
+      "status": 200,
+      "items": 8,
+      "matches_local": true,
+      "body_distinction_checked": false
+    },
+    {
+      "path": "/book/ch08/",
+      "status": 200,
+      "items": 8,
+      "matches_local": true,
+      "body_distinction_checked": false
+    },
+    {
+      "path": "/book/ch09/",
+      "status": 200,
+      "items": 9,
+      "matches_local": true,
+      "body_distinction_checked": true
+    },
+    {
+      "path": "/book/ch10/",
+      "status": 200,
+      "items": 8,
+      "matches_local": true,
+      "body_distinction_checked": false
+    },
+    {
+      "path": "/book/ch11/",
+      "status": 200,
+      "items": 7,
+      "matches_local": true,
+      "body_distinction_checked": true
+    },
+    {
+      "path": "/book/ch12/",
+      "status": 200,
+      "items": 8,
+      "matches_local": true,
+      "body_distinction_checked": true
+    },
+    {
+      "path": "/book/ch13/",
+      "status": 200,
+      "items": 7,
+      "matches_local": true,
+      "body_distinction_checked": false
+    },
+    {
+      "path": "/book/ch14/",
+      "status": 200,
+      "items": 6,
+      "matches_local": true,
+      "body_distinction_checked": false
+    },
+    {
+      "path": "/book/ch15/",
+      "status": 200,
+      "items": 7,
+      "matches_local": true,
+      "body_distinction_checked": false
+    },
+    {
+      "path": "/book/ch16/",
+      "status": 200,
+      "items": 7,
+      "matches_local": true,
+      "body_distinction_checked": false
+    },
+    {
+      "path": "/book/ch17/",
+      "status": 200,
+      "items": 8,
+      "matches_local": true,
+      "body_distinction_checked": false
+    },
+    {
+      "path": "/book/ch18/",
+      "status": 200,
+      "items": 7,
+      "matches_local": true,
+      "body_distinction_checked": false
+    },
+    {
+      "path": "/book/ch19/",
+      "status": 200,
+      "items": 8,
+      "matches_local": true,
+      "body_distinction_checked": true
+    },
+    {
+      "path": "/book/ch20/",
+      "status": 200,
+      "items": 7,
+      "matches_local": true,
+      "body_distinction_checked": false
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "new_definition_present": true
+    },
+    {
+      "path": "/book/preface/",
+      "status": 200,
+      "new_definition_present": true
+    },
+    {
+      "path": "/patterns/p02/",
+      "status": 200,
+      "new_definition_present": true
+    },
+    {
+      "path": "/diagrams/factory-overview.svg",
+      "status": 200,
+      "matches_local_bytes": true
+    },
+    {
+      "path": "/diagrams/intent-harness-loops.svg",
+      "status": 200,
+      "matches_local_bytes": true
+    },
+    {
+      "path": "/diagrams/harness-policy-cycle.svg",
+      "status": 200,
+      "matches_local_bytes": true
+    },
+    {
+      "path": "/pagefind/pagefind-entry.json",
+      "status": 200,
+      "indexed_pages": 53
+    },
+    {
+      "path": "/pagefind/pagefind.ko_f3c7274dce.pf_meta",
+      "status": 200,
+      "nonempty": true
+    },
+    {
+      "path": "/changelog/",
+      "status": 200,
+      "dated_public_record": true
+    }
+  ],
+  "workflow_result": {
+    "build": "success",
+    "deploy": "success",
+    "notify-forum": "success"
+  },
+  "run_url": "https://github.com/roboco-io/the-software-factory/actions/runs/40646209024",
+  "release_commits": [
+    "f2877d7",
+    "5852ffa",
+    "69d0572"
+  ],
+  "limits": "공개 HTTP 응답과 로컬 원고·도표의 일치 확인. 독립 내용 리뷰·독자 이해·운영 효과 검증은 아님."
+}

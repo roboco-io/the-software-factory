@@ -1022,3 +1022,7 @@ D56에 따라 chapter-tldr 스킬/정책/UI설명·검사도구·프로젝트 �
 ## 2026-10-28 실행계획·하네스 원고 공개 확인
 
 f2877d7와5852ffa를 origin/main에 푸시하고 Pages40645775403의 build/deploy/notify-forum 성공 확인. 실제29응답에서20장 요약과 주요 변경 본문·서문/P02/홈·도표3개파일·검색 metadata를 대조했다. [공개 확인](planning/reviews/2026-10-28-plan-harness-deployment-initial.json). 공개가 확인돼 체인지 로그의 D57 항목을2026-10-28로, 이전 TL;DR은 실제 게시 한국 날짜2026-10-27로 옮겼다. 날짜 기록의 공개 반영 후 최종 대조가 남아 있다.
+
+## 2026-10-28 실행계획·하네스 구분 최종 배포 완료
+
+공개 날짜 기록69d0572를 origin/main에 푸시하고 Pages [40646209024](https://github.com/roboco-io/the-software-factory/actions/runs/40646209024)의 build/deploy/notify-forum 전체 성공을 확인했다. [최종 공개 대조](planning/reviews/2026-10-28-plan-harness-deployment.json): 실제29응답에서20장 요약 일치·주요 변경 본문·서문/P02/홈·도표3개파일 일치·검색metadata/언어파일·10월28일 D57 및10월27일 TL;DR 기록과 공개 예정 표제 부재 확인. 최종 확인 기록만 후속 커밋·푸시하며 웹 파일은 추가 변경하지 않는다. 새 배포의 대기/실패 잔여 항목 없음. 원고 효과·독립 리뷰·저자 편집 확정은 기존 한계를 유지한다.

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="1050" viewBox="0 0 640 1050" role="img" aria-labelledby="title desc">
 <title id="title">같은 관측에서 나뉘는 두 개선 루프</title>
-<desc id="desc">공통 운영 증거를 의도와 하네스 두 경로로 검토한다. 의도는 목표와 성공 기준을, 하네스는 지침과 실행·검증·맥락 공급을 고친다. 각 변경 권한과 평가를 확인하고 다음 실행에 적용한다. 개별 작업 재시도와 구분하며 최상위 원칙을 보존한다.</desc>
+<desc id="desc">공통 운영 증거를 의도와 하네스 두 경로로 검토한다. 의도는 목표와 성공 기준을, 하네스는 지침과 계획 수립·집행·검증·맥락 공급을 고친다. 이번 작업의 계획 조정과 이를 반복 수행할 체계의 변경을 구분한다. 각 변경 권한과 평가를 확인하고 다음 실행에 적용한다. 개별 작업 재시도와 구분하며 최상위 원칙을 보존한다.</desc>
 <defs><marker id="arrow" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" viewBox="0 0 14 14" refX="14" refY="7" orient="auto"><path d="M0 0 L14 7 L0 14 Z" fill="#287d70"/></marker></defs>
 <rect width="640" height="1050" rx="18" fill="#f8fafb"/>
 <g font-family="Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif">
@@ -19,8 +19,8 @@
 <rect x="70" y="475" width="500" height="195" rx="14" fill="#edf5f3" stroke="#86ada5" stroke-width="2"/>
 <text x="320.0" y="515" text-anchor="middle" font-size="29" font-weight="700" fill="#18313b">하네스 개선 루프</text>
 <text x="320.0" y="555" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">질문: 약속을 올바르게 수행했는가?</text>
-<text x="320.0" y="593" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">변경: 지침·맥락·집행·검증</text>
-<text x="320.0" y="631" text-anchor="middle" font-size="26" font-weight="400" fill="#18313b">변경 권한과 별도 평가를 확인</text>
+<text x="320.0" y="593" text-anchor="middle" font-size="24" font-weight="400" fill="#18313b">변경: 지침·계획 수립·집행·검증</text>
+<text x="320.0" y="631" text-anchor="middle" font-size="24" font-weight="400" fill="#18313b">이번 계획 조정과 체계 변경을 구분</text>
 
 <path d="M320 670 V725" fill="none" stroke="#287d70" stroke-width="3"/>
 <circle cx="320" cy="725" r="4" fill="#287d70"/>

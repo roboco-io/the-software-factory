@@ -1026,3 +1026,8 @@ f2877d7와5852ffa를 origin/main에 푸시하고 Pages40645775403의 build/deplo
 ## 2026-10-28 실행계획·하네스 구분 최종 배포 완료
 
 공개 날짜 기록69d0572를 origin/main에 푸시하고 Pages [40646209024](https://github.com/roboco-io/the-software-factory/actions/runs/40646209024)의 build/deploy/notify-forum 전체 성공을 확인했다. [최종 공개 대조](planning/reviews/2026-10-28-plan-harness-deployment.json): 실제29응답에서20장 요약 일치·주요 변경 본문·서문/P02/홈·도표3개파일 일치·검색metadata/언어파일·10월28일 D57 및10월27일 TL;DR 기록과 공개 예정 표제 부재 확인. 최종 확인 기록만 후속 커밋·푸시하며 웹 파일은 추가 변경하지 않는다. 새 배포의 대기/실패 잔여 항목 없음. 원고 효과·독립 리뷰·저자 편집 확정은 기존 한계를 유지한다.
+
+## 2026-11-02 SNS 공유 썸네일에 책 소개 추가
+
+- 사용자 요청과 시안 승인에 따라 기존 코발트 이미지의 제목 블록을 줄이고 책 소개 두 줄을 넣은 `website/public/images/software-factory-social-intro.png`(1734×907)를 추가했다. 공통 Open Graph·Twitter 이미지 URL과 `og:image:alt`를 새 이미지로 바꾸었고, 기존 이미지는 보존했다. 본문·읽기 저장 구조·독자 체인지 로그는 바꾸지 않았다.
+- 단위37·구조20장/15패턴/156출처·56페이지 빌드/출력 검사 통과. 빌드 HTML 55개가 새 URL을 쓰고 옛 코발트 URL 참조는 없다. [적용 기록](planning/sessions/2026-11-02-social-thumbnail-intro.md)에 생성 방법·검증·한계(LinkedIn 작은 썸네일에서는 소개 글자를 읽기 어려움, 기존 게시물의 캐시는 그대로)를 남겼다.

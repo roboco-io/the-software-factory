@@ -1053,3 +1053,7 @@ f2877d7와5852ffa를 origin/main에 푸시하고 Pages40645775403의 build/deplo
 ## 2026-11-06 데모 리뉴얼 안내 최초 공개 확인
 
 a12f903·3b84f7a·d079595를 origin/main에 푸시하고 Pages42165819861의 build/deploy/notify-forum 모두 성공 확인. [공개39응답 대조](planning/reviews/2026-11-06-demo-renewal-deployment-initial.json)에서 원고20장 요약·사례10장·해설9개·관련 링크 안내·출처·검색과 원격SNS이미지 보존을 확인했다. 체인지 로그는 공개 확인 후2026-11-06로 옮겼으며 날짜 기록의 공개 반영이 남았다.
+
+## 2026-11-06 데모 리뉴얼 안내 최종 배포 완료
+
+날짜 기록35e5d50까지 origin/main에 푸시하고 Pages [42166162019](https://github.com/roboco-io/the-software-factory/actions/runs/42166162019)의 build/deploy/notify-forum 모두 성공을 확인했다. [최종 공개39응답 대조](planning/reviews/2026-11-06-demo-renewal-deployment.json):20장 요약·사례10장·해설9개의 리뉴얼/이전 버전 안내와 고정 링크·서문/책소개/추천/출처/토론 안내·원격에서 추가된SNS이미지·검색과11월6일 체인지 로그 확인. 공개 예정 표제 없음. 실제 데모 서비스/새 구조의 검증으로 확대하지 않는다. 최종 확인 기록만 후속 커밋·푸시하며 웹 파일은 추가 변경하지 않는다.

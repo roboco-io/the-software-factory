@@ -1,0 +1,275 @@
+{
+  "checked_on": "2026-11-06",
+  "site": "https://factory.roboco.io",
+  "commit": "35e5d502c6de08a8ec2216107421ff57e98b9c90",
+  "run_id": "42166162019",
+  "scope": "공개 원고20장 요약·사례 안내·해설9개·관련 링크/포럼표시·출처 안내·기존SNS이미지·검색·체인지로그의 HTTP 응답 확인. 데모 서비스나 신규 구현은 접속/실행 검증하지 않음.",
+  "checks": [
+    {
+      "path": "/book/ch01/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 9,
+      "forum_notice": true
+    },
+    {
+      "path": "/book/ch02/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 7,
+      "forum_notice": true
+    },
+    {
+      "path": "/book/ch03/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 9,
+      "forum_notice": true
+    },
+    {
+      "path": "/book/ch04/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 7,
+      "forum_notice": true
+    },
+    {
+      "path": "/book/ch05/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 8,
+      "forum_notice": true
+    },
+    {
+      "path": "/book/ch06/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 7,
+      "forum_notice": true
+    },
+    {
+      "path": "/book/ch07/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 8,
+      "forum_notice": true
+    },
+    {
+      "path": "/book/ch08/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 8,
+      "forum_notice": true
+    },
+    {
+      "path": "/book/ch09/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 9,
+      "forum_notice": true
+    },
+    {
+      "path": "/book/ch10/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 8,
+      "forum_notice": true
+    },
+    {
+      "path": "/book/ch11/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 7,
+      "forum_notice": true
+    },
+    {
+      "path": "/book/ch12/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 8,
+      "forum_notice": true
+    },
+    {
+      "path": "/book/ch13/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 7,
+      "forum_notice": true
+    },
+    {
+      "path": "/book/ch14/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 6,
+      "forum_notice": true
+    },
+    {
+      "path": "/book/ch15/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 7,
+      "forum_notice": true
+    },
+    {
+      "path": "/book/ch16/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 7,
+      "forum_notice": true
+    },
+    {
+      "path": "/book/ch17/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 8,
+      "forum_notice": true
+    },
+    {
+      "path": "/book/ch18/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 7,
+      "forum_notice": true
+    },
+    {
+      "path": "/book/ch19/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 8,
+      "forum_notice": true
+    },
+    {
+      "path": "/book/ch20/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 7,
+      "forum_notice": true
+    },
+    {
+      "path": "/demo/",
+      "status": 200,
+      "renewal_notice": true,
+      "historical_scope": true,
+      "fixed_code_links": true
+    },
+    {
+      "path": "/demo/request/",
+      "status": 200,
+      "renewal_notice": true,
+      "historical_scope": true,
+      "fixed_code_links": true
+    },
+    {
+      "path": "/demo/policy-and-gate/",
+      "status": 200,
+      "renewal_notice": true,
+      "historical_scope": true,
+      "fixed_code_links": true
+    },
+    {
+      "path": "/demo/evidence/",
+      "status": 200,
+      "renewal_notice": true,
+      "historical_scope": true,
+      "fixed_code_links": true
+    },
+    {
+      "path": "/demo/recovery/",
+      "status": 200,
+      "renewal_notice": true,
+      "historical_scope": true,
+      "fixed_code_links": true
+    },
+    {
+      "path": "/demo/execution-authority/",
+      "status": 200,
+      "renewal_notice": true,
+      "historical_scope": true,
+      "fixed_code_links": true
+    },
+    {
+      "path": "/demo/agent-selection/",
+      "status": 200,
+      "renewal_notice": true,
+      "historical_scope": true,
+      "fixed_code_links": true
+    },
+    {
+      "path": "/demo/metrics/",
+      "status": 200,
+      "renewal_notice": true,
+      "historical_scope": true,
+      "fixed_code_links": true
+    },
+    {
+      "path": "/demo/improvement/",
+      "status": 200,
+      "renewal_notice": true,
+      "historical_scope": true,
+      "fixed_code_links": true
+    },
+    {
+      "path": "/book/preface/",
+      "status": 200,
+      "notice_or_preserved_navigation": true
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "notice_or_preserved_navigation": true
+    },
+    {
+      "path": "/guide/",
+      "status": 200,
+      "notice_or_preserved_navigation": true
+    },
+    {
+      "path": "/sources/",
+      "status": 200,
+      "notice_or_preserved_navigation": true
+    },
+    {
+      "path": "/patterns/p02/",
+      "status": 200,
+      "notice_or_preserved_navigation": true
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "notice_or_preserved_navigation": true
+    },
+    {
+      "path": "/images/software-factory-social-intro.png",
+      "status": 200,
+      "remote_thumbnail_preserved": true
+    },
+    {
+      "path": "/pagefind/pagefind-entry.json",
+      "status": 200,
+      "indexed_pages": 53
+    },
+    {
+      "path": "/pagefind/pagefind.ko_f78e58aed9.pf_meta",
+      "status": 200,
+      "nonempty": true
+    },
+    {
+      "path": "/changelog/",
+      "status": 200,
+      "dated_public_record": true
+    }
+  ],
+  "workflow_result": {
+    "build": "success",
+    "deploy": "success",
+    "notify-forum": "success"
+  },
+  "run_url": "https://github.com/roboco-io/the-software-factory/actions/runs/42166162019",
+  "release_commits": [
+    "a12f903",
+    "3b84f7a",
+    "d079595",
+    "35e5d50"
+  ],
+  "remote_change_preserved": "b44c08f: social thumbnail introduction (#7)"
+}

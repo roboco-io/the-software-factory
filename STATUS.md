@@ -1049,3 +1049,7 @@ f2877d7와5852ffa를 origin/main에 푸시하고 Pages40645775403의 build/deplo
 ## 2026-11-06 데모 리뉴얼 안내 배포 준비
 
 사용자 배포 지시에 따라 현재 안내와 검토 기록을 공개한다. origin/main의 b44c08f SNS 썸네일 변경을 먼저 통합했고 로컬 수정/원격 기록·설정·이미지를 보존했다. 구조·Python10개·웹37개·TL;DR20개최신·Astro0진단·56페이지빌드/링크 통과. [배포 세션](planning/sessions/2026-11-06-demo-renewal-deployment.md)에 후속 결과를 남긴다. 공개 확인 뒤 체인지 로그 날짜를 옮기며 실제 데모 가용성/리뉴얼 구현 확인과 구분한다.
+
+## 2026-11-06 데모 리뉴얼 안내 최초 공개 확인
+
+a12f903·3b84f7a·d079595를 origin/main에 푸시하고 Pages42165819861의 build/deploy/notify-forum 모두 성공 확인. [공개39응답 대조](planning/reviews/2026-11-06-demo-renewal-deployment-initial.json)에서 원고20장 요약·사례10장·해설9개·관련 링크 안내·출처·검색과 원격SNS이미지 보존을 확인했다. 체인지 로그는 공개 확인 후2026-11-06로 옮겼으며 날짜 기록의 공개 반영이 남았다.

@@ -1,0 +1,169 @@
+{
+  "date": "2026-11-06",
+  "base_commit": "54eb0e0552583a3e637f9aa85674da268cf899c7",
+  "basis": "저자 안내: 데모는 전면 리뉴얼 중으로 당분간 동작하지 않음",
+  "scope": "이용 안내·이전 버전 사례 표시·관련 서비스/토론 링크·출처 상태·요약 최신성",
+  "preserved": {
+    "historical_external_urls": true,
+    "citation_marks": true,
+    "source_ids_verification_dates_revisions": true,
+    "anchors": true,
+    "reading_revision_increment_once": [
+      "ch01",
+      "ch03",
+      "ch05",
+      "ch07",
+      "ch08",
+      "ch09",
+      "ch11",
+      "ch12",
+      "ch17",
+      "ch19",
+      "demo-agent-selection",
+      "demo-evidence",
+      "demo-execution-authority",
+      "demo-improvement",
+      "demo-index",
+      "demo-metrics",
+      "demo-policy-and-gate",
+      "demo-recovery",
+      "demo-request",
+      "preface"
+    ]
+  },
+  "checks": {
+    "project": "20 chapters / 15 patterns / 156 sources PASS",
+    "python_tests": 10,
+    "web_unit_tests": 37,
+    "tldr_current": 20,
+    "astro_diagnostics": 0,
+    "built_pages": 56,
+    "e2e_passed": 35,
+    "e2e_intentional_skipped": 1,
+    "generated_html": {
+      "demo_pages_with_notice": 9,
+      "case_chapters_with_scope": 10,
+      "service_link_labels": 4,
+      "representative_forum_links": 19,
+      "source_notices": 9
+    }
+  },
+  "browser": [
+    {
+      "width": 390,
+      "route": "/demo/",
+      "page_overflow": false,
+      "screenshot": "/tmp/demo-renewal-390-index.png"
+    },
+    {
+      "width": 390,
+      "route": "/book/ch03/",
+      "page_overflow": false,
+      "screenshot": "/tmp/demo-renewal-390-ch03.png"
+    },
+    {
+      "width": 1440,
+      "route": "/demo/",
+      "page_overflow": false,
+      "screenshot": "/tmp/demo-renewal-1440-index.png"
+    },
+    {
+      "width": 1440,
+      "route": "/book/ch03/",
+      "page_overflow": false,
+      "screenshot": "/tmp/demo-renewal-1440-ch03.png"
+    }
+  ],
+  "files": {
+    "manuscript/demo/policy-and-gate.md": {
+      "before_sha256": "4da3cb9ec811fec35480cb52e15e6c9a420a528e8e402094976774ccb62f2841",
+      "sha256": "714c6bfeb2cb94e7399487cfc20287227870fad6a9bda634a9df1ada6dfcc492"
+    },
+    "manuscript/demo/evidence.md": {
+      "before_sha256": "7e37a0f57f86c441738666ca8c9d11d27ae175a7d8d926d2893194c77e7c6ad3",
+      "sha256": "4a16638834bea4596df05e7dee4d39306a8486b355723b5dccc84c20d202bf23"
+    },
+    "manuscript/demo/agent-selection.md": {
+      "before_sha256": "b2d5e886c03b146b91f816f0ca2d056c6557a236691fef74120f9984a3a859bf",
+      "sha256": "653f2371f9e1205c3454ad7a672513ef50dee85460d3e6a503d3f6257f9d7efb"
+    },
+    "manuscript/demo/recovery.md": {
+      "before_sha256": "21c5b7ee2d44f058034ea2d431a3dca09dfde5f5b180f18c6c1606ac4658c972",
+      "sha256": "dad62efab2dedede936296169acb325929810ff37d33906b9706f44378d9d757"
+    },
+    "manuscript/demo/execution-authority.md": {
+      "before_sha256": "040d6e3c9d352528f2f8f97c46168da1728da4dc282cfcb411f7ee60ad348cef",
+      "sha256": "e221a5feaabc8c6fb57c28a0ea8b07a62bb3ffb94fa4bd52e82804e61cf4b145"
+    },
+    "manuscript/demo/index.md": {
+      "before_sha256": "cb3d66f68b337f8a68a7a068f69f771837cce1f398f27527e97f2e6cf6e80bdd",
+      "sha256": "bec434e86de50cb683dea3ae3a668bf8105d76f5b2811b235344783df180051d"
+    },
+    "manuscript/demo/improvement.md": {
+      "before_sha256": "34e8d2b317ad11067b1ecafe0e18cd57e47848fa93bdb569aec8e24ca9fd8c57",
+      "sha256": "e2cb754ff4e4490e4c77655c90f22288e1d5a1e4db9136dbb2fda8f7c0e89d75"
+    },
+    "manuscript/demo/metrics.md": {
+      "before_sha256": "29980615fc9f3fbc1c73df5d46bbbf0a75710986a4fe74d86f2a04381bf22351",
+      "sha256": "bc45ba43c3b1e3ce21c2083d2a3263bfefa6b2519c97ca14592c13418ecc8aaa"
+    },
+    "manuscript/demo/request.md": {
+      "before_sha256": "e35258ac54952b8e610329598b5d36b050b98aa568ce07563763353345d7a342",
+      "sha256": "8b18119d987be68b48f39d5746f09e05e8bf8d89b3469e30b3b0b8e55ab0130b"
+    },
+    "manuscript/chapters/ch05.md": {
+      "before_sha256": "bcb9c365ada7151748b4dcb02f17599d42081b076acebde3402b939535d263a2",
+      "sha256": "2c6a365bcbe53e5be19a5550e23b98656aba30198b5f97c868c423d9b4a0ea41"
+    },
+    "manuscript/chapters/ch01.md": {
+      "before_sha256": "a39b263d665a084361fe019f0b7f94588cdf9933e56f90134da5e90591fb671f",
+      "sha256": "b6e7f5ec9cbb33ab7e42c83dd209ef1c7457da8732650394d1e837ee41f440aa"
+    },
+    "manuscript/chapters/ch11.md": {
+      "before_sha256": "c9fce5cff68bd4f3c1d1a9152e8491e963fca66ac8d483df967fc3533d5451b3",
+      "sha256": "b5f9674d9e80f1297e0aef4db4eb42d6da068056d07f2a2a5570ea9325486d45"
+    },
+    "manuscript/chapters/ch03.md": {
+      "before_sha256": "e1950faea60940bbcab8aa5fd0fc2fc6ba6b953434f912253eebb6a7758034ea",
+      "sha256": "fb5cd7eb41a30ff0cd84a3d9d466073ff5e5915464c4a44b64873e3638edaf15"
+    },
+    "manuscript/chapters/ch07.md": {
+      "before_sha256": "fbb2d416fed6417b7e3516a3c1ee4cf6fbf1a53e97c1bfbafb483f9591bf3951",
+      "sha256": "25b3554d4230015b89e4be4a2a55876870f08d5926f8c3853b544bf23981b837"
+    },
+    "manuscript/chapters/ch17.md": {
+      "before_sha256": "5c4d5deddba897229cd651b90a1e6d38871ded82d704453c96f186f1c03f86e6",
+      "sha256": "c198699b56c99ea8db6bac8d4dece908867e777396b08b3483e17dfb442d6331"
+    },
+    "manuscript/chapters/ch12.md": {
+      "before_sha256": "170f260637ff8eac6b32e146fd7bfc06892bbf9e080feec1944adbab9e67503e",
+      "sha256": "65668b95568b38cf4667fcfc81a11308ec54b9861a39cc12ab75a34abc02f82f"
+    },
+    "manuscript/chapters/ch09.md": {
+      "before_sha256": "dd5208082c0c97f008fab71bea57438c27b7e4b443dda29db18389b2e2e7028c",
+      "sha256": "7b59faf326dd6cfdae8a8194c3bfc3069d5ebdaf14e3df7eef62c16c627b90c9"
+    },
+    "manuscript/chapters/ch19.md": {
+      "before_sha256": "07e2c93f9d2b2a44005a5136c01c725159c69f18fc97dc777dadfe6c36a16c26",
+      "sha256": "ef7ec4fc569fc01f9f966cd030fd49b2b9bee9d4a230d9de98c6229f3d533e1d"
+    },
+    "manuscript/chapters/ch08.md": {
+      "before_sha256": "10d31abeacdf40949e5da1481ec60e6e8414554f22d2bff6ad2ffcd6027c62b8",
+      "sha256": "cba425ac1b06b17ff73e221619663e3dfb5c0e092f878a7429ad725a88942e1d"
+    },
+    "manuscript/front-matter/00-preface.md": {
+      "before_sha256": "40039d00753b38d74fafe0390a14ea4ffabb292f9f08615c473112afcf0ae82c",
+      "sha256": "eaad2b4e4360378695d50e9189e936663ebd077e44d318d9cd85647bec018752"
+    },
+    "website/content-manifest.json": {
+      "before_sha256": "fc284ccfeb4adf12a66fa49fe24bbc5a2621256993e289a3f93b8ebd68e5fa1f",
+      "sha256": "efc25c4261195393874ca0e4a5cd2858e7520458f4affc71459a09e3b7d716b2"
+    },
+    "research/sources.json": {
+      "before_sha256": "0bb74721e6fb679e205d340e75eb46019caccdcfd7d9aefdb608e0ee27da2500",
+      "sha256": "41b8da6d2607e2ec3ff2ce197996109f1bb85ea7240970ab4ba9697c957ed4d6"
+    }
+  },
+  "publication": "local changes; not committed/pushed/deployed",
+  "limits": "저자 상태 안내의 반영. 외부 가용성·리뉴얼 완료일·새 코드·운영 효과를 확인한 것은 아님. 기존 미커밋 점검 기록 보존."
+}

@@ -1,0 +1,308 @@
+{
+  "reviewed_on": "2026-10-28",
+  "repository": "roboco-io/the-software-factory-demo",
+  "revision": "b925518f535b49f3383b23db52cc66e8139ce042",
+  "book_head": "54eb0e0552583a3e637f9aa85674da268cf899c7",
+  "mode": "점검·개선 제안; 원고/데모 코드/기존 출처 대장 수정·이슈 게시·실행 없음",
+  "previous_book_demo_revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+  "comparison": {
+    "total_commits": 41,
+    "scope": "변경 파일 목록으로 조사 범위를 골랐으며 전체 diff/앱 재검토 아님"
+  },
+  "sources": [
+    {
+      "path": "packages/factory/src/stages/phased.ts",
+      "sha": "0fafd2e88099cb37e367cadef799579dc09dcd40",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/src/stages/phased.ts",
+      "lines": 97,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·호출 경로 직접 읽음"
+    },
+    {
+      "path": "packages/factory/src/stages/protect.ts",
+      "sha": "f66f4c5de5232f011b2730b582ef37612bccf8d5",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/src/stages/protect.ts",
+      "lines": 84,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·호출 경로 직접 읽음"
+    },
+    {
+      "path": "packages/factory/src/stages/gate.ts",
+      "sha": "54e24f15596940086b64a0ac8b403df6473ec0ba",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/src/stages/gate.ts",
+      "lines": 457,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·함수·문서 절 부분 확인; 파일 전체 의미 검증 아님"
+    },
+    {
+      "path": "packages/factory/src/stages/improve.ts",
+      "sha": "106c36bfa93162949dc4f8fb6a79200bd19f1e36",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/src/stages/improve.ts",
+      "lines": 464,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·함수·문서 절 부분 확인; 파일 전체 의미 검증 아님"
+    },
+    {
+      "path": "packages/factory/src/runs/store.ts",
+      "sha": "c6111069e020ef6e9b989d99f044f2c71c0774f0",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/src/runs/store.ts",
+      "lines": 131,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·함수·문서 절 부분 확인; 파일 전체 의미 검증 아님"
+    },
+    {
+      "path": "packages/factory/src/policy/risk.ts",
+      "sha": "00c09f28481259c00bfffdf6c66aad60aba7fa5c",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/src/policy/risk.ts",
+      "lines": 118,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·함수·문서 절 부분 확인; 파일 전체 의미 검증 아님"
+    },
+    {
+      "path": "packages/factory/src/stages/common.ts",
+      "sha": "6ef9b6a362e54e373895812851dcd9297e886bd4",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/src/stages/common.ts",
+      "lines": 220,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·함수·문서 절 부분 확인; 파일 전체 의미 검증 아님"
+    },
+    {
+      "path": "packages/factory/src/stages/implement.ts",
+      "sha": "153169e5a5f2661d8269a977cc88baa43d2dc3f9",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/src/stages/implement.ts",
+      "lines": 463,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·호출 경로 직접 읽음"
+    },
+    {
+      "path": ".github/workflows/factory-implement.yml",
+      "sha": "84bccd3bce0d4a7fb1e2802f79a1394e83635774",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/.github/workflows/factory-implement.yml",
+      "lines": 161,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·호출 경로 직접 읽음"
+    },
+    {
+      "path": "factory/risk-policy.yml",
+      "sha": "b112075eb5a6820eced098e206afe4a92843de74",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/factory/risk-policy.yml",
+      "lines": 66,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·호출 경로 직접 읽음"
+    },
+    {
+      "path": "factory/prompts/implement.md",
+      "sha": "9f4056bfa2d89c57b1dab85b917277762b28b0db",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/factory/prompts/implement.md",
+      "lines": 48,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·호출 경로 직접 읽음"
+    },
+    {
+      "path": "README.md",
+      "sha": "9936c23f9c3bfeabce91f399e48b2f825bcf1f04",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/README.md",
+      "lines": 108,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·함수·문서 절 부분 확인; 파일 전체 의미 검증 아님"
+    },
+    {
+      "path": "docs/security.md",
+      "sha": "19339c8ed12fe9830fbe7721d15d4f0df6378e4c",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/docs/security.md",
+      "lines": 70,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·함수·문서 절 부분 확인; 파일 전체 의미 검증 아님"
+    },
+    {
+      "path": "packages/factory/src/stages/fix.ts",
+      "sha": "4f2bf51ac11a07822ad3de16616f7778bcdd1447",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/src/stages/fix.ts",
+      "lines": 418,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·함수·문서 절 부분 확인; 파일 전체 의미 검증 아님"
+    },
+    {
+      "path": "packages/factory/src/stages/review.ts",
+      "sha": "cdc132dd300aeed7224c5b4131d22f45e4c91fb8",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/src/stages/review.ts",
+      "lines": 363,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·함수·문서 절 부분 확인; 파일 전체 의미 검증 아님"
+    },
+    {
+      "path": "packages/factory/src/stages/postmortem.ts",
+      "sha": "f421c9c387ad6326c591ec2994ad89268d118367",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/src/stages/postmortem.ts",
+      "lines": 533,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·함수·문서 절 부분 확인; 파일 전체 의미 검증 아님"
+    },
+    {
+      "path": "packages/factory/src/stages/collect.ts",
+      "sha": "04910cd06929540ced3dafd417bc6c721a6c4cee",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/src/stages/collect.ts",
+      "lines": 167,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·함수·문서 절 부분 확인; 파일 전체 의미 검증 아님"
+    },
+    {
+      "path": "packages/factory/src/stages/worktree.ts",
+      "sha": "2172289720aed5c1f26ef8fa30c1bc23671d4e62",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/src/stages/worktree.ts",
+      "lines": 52,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·함수·문서 절 부분 확인; 파일 전체 의미 검증 아님"
+    },
+    {
+      "path": "packages/factory/src/agents/budget.ts",
+      "sha": "ef3a01be0acadcfa382306fe5ffc76f75b87af8d",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/src/agents/budget.ts",
+      "lines": 140,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·함수·문서 절 부분 확인; 파일 전체 의미 검증 아님"
+    },
+    {
+      "path": "packages/factory/src/agents/claude.ts",
+      "sha": "d149a1be0e7ded7e0ece13a61da42456cdaf694d",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/src/agents/claude.ts",
+      "lines": 101,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·함수·문서 절 부분 확인; 파일 전체 의미 검증 아님"
+    },
+    {
+      "path": "packages/factory/src/stages/deps.ts",
+      "sha": "8fe30b598cf956a30df380575b4b7eddd6f75e52",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/src/stages/deps.ts",
+      "lines": 70,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·함수·문서 절 부분 확인; 파일 전체 의미 검증 아님"
+    },
+    {
+      "path": "packages/factory/src/main.ts",
+      "sha": "faefa50933cbdb917052a9692de47ba2ee2b179d",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/src/main.ts",
+      "lines": 48,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·함수·문서 절 부분 확인; 파일 전체 의미 검증 아님"
+    },
+    {
+      "path": "packages/factory/test/phased.test.ts",
+      "sha": "a5cf16baf252f7dcfd8fc1c69d26dd70ee3e0faa",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/test/phased.test.ts",
+      "lines": 132,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 테스트 정의/주장 구간 확인, 테스트 실행 아님"
+    },
+    {
+      "path": "packages/factory/test/implement.test.ts",
+      "sha": "238de45dee0ba4faf4bfbe7f628554ef196aa1f8",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/test/implement.test.ts",
+      "lines": 574,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 테스트 정의/주장 구간 확인, 테스트 실행 아님"
+    },
+    {
+      "path": "packages/factory/test/improve.test.ts",
+      "sha": "e612a4b46dac5231222e5e9826fbf03402ea4792",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/test/improve.test.ts",
+      "lines": 554,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 테스트 정의/주장 구간 확인, 테스트 실행 아님"
+    },
+    {
+      "path": "factory/postmortem-policy.yml",
+      "sha": "3c67ac47d5f33f1565570c0822b79d9f7a18e6e6",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/factory/postmortem-policy.yml",
+      "lines": 37,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·함수·문서 절 부분 확인; 파일 전체 의미 검증 아님"
+    },
+    {
+      "path": "docs/operations.md",
+      "sha": "85feba035a7e6b034963456baaaf70bcac3f8eae",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/docs/operations.md",
+      "lines": 178,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·함수·문서 절 부분 확인; 파일 전체 의미 검증 아님"
+    },
+    {
+      "path": "packages/factory/src/postmortem/analysis.ts",
+      "sha": "b1d4b373a95479720e2db3e8be679a59ada9ecc8",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/src/postmortem/analysis.ts",
+      "lines": 88,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·호출 경로 직접 읽음"
+    },
+    {
+      "path": "packages/factory/src/policy/improve-paths.ts",
+      "sha": "cffbafe209ff6c388cbf26c05da996a488c5a329",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/src/policy/improve-paths.ts",
+      "lines": 34,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·호출 경로 직접 읽음"
+    },
+    {
+      "path": "packages/factory/src/agents/prompt.ts",
+      "sha": "bcd113618ba05b550f62f3966e7972d0e0d0baf3",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/b925518f535b49f3383b23db52cc66e8139ce042/packages/factory/src/agents/prompt.ts",
+      "lines": 63,
+      "level": "원문 파일 취득·정적 확인; 실제 실행 미수행",
+      "scope": "관련 정의·함수·문서 절 부분 확인; 파일 전체 의미 검증 아님"
+    }
+  ],
+  "claims": [
+    {
+      "id": "DR01",
+      "type": "정적 관찰",
+      "fact": "계획 파일과 phase 실행기·권한 단계·게시 전 재검증을 분리한다.",
+      "files": [
+        "packages/factory/src/stages/phased.ts",
+        ".github/workflows/factory-implement.yml",
+        "packages/factory/src/stages/protect.ts"
+      ]
+    },
+    {
+      "id": "DR02",
+      "type": "정적 관찰→책 정의와 대조한 해석",
+      "fact": "ImplementPlan은 모델·예산·프롬프트·수용 기준·baseSha를 담고 명시적 작업 단계/의존성/재계획 이력 필드는 없다. 실행 요청서에 가깝다.",
+      "files": [
+        "packages/factory/src/stages/implement.ts"
+      ]
+    },
+    {
+      "id": "DR03",
+      "type": "정적 관찰→가능 영향의 추론",
+      "fact": "각 job의 runtime checkout이 main이고 baseSha와 별개로 하네스/정책 판본을 묶는 공통 실행 식별 필드가 확인되지 않는다. main 변경 중 판본 차이 가능성이 있다.",
+      "files": [
+        ".github/workflows/factory-implement.yml",
+        "packages/factory/src/runs/store.ts"
+      ]
+    },
+    {
+      "id": "DR04",
+      "type": "정적 관찰→설계 제안",
+      "fact": "개선 출력의 rule은 lint/agents/prompt이고 장애 분류는 bot/human regression/external/stall이다. 계획 누락과 집행 결함 구분은 별도 보강할 수 있다.",
+      "files": [
+        "packages/factory/src/stages/improve.ts",
+        "packages/factory/src/postmortem/analysis.ts"
+      ]
+    },
+    {
+      "id": "DR05",
+      "type": "문서상 한계와 정적 관찰→보호 조건 제안",
+      "fact": "job 분리·게시 전 경로 검사는 유지할 통제이며 쓰기 모드의 넓은 도구 권한과 문서상 runner/cache 한계를 완전 격리로 해석하지 않는다.",
+      "files": [
+        "docs/operations.md",
+        "packages/factory/src/agents/claude.ts",
+        "packages/factory/src/stages/protect.ts"
+      ]
+    }
+  ],
+  "limitations": [
+    "새 실행/테스트/권한 설정/운영 성과 확인 없음",
+    "문서의 기존 보안 위험 수용은 사실 확인의 한계로 인용, 안전 보장으로 확대하지 않음",
+    "기존 책의 고정 출처 버전·원고·데모 해설을 이 조사로 일괄 갱신하지 않음",
+    "이 매니페스트는 점검용 출처/주장 기록이며 새 독자용 출처 ID를 등록한 것이 아님"
+  ]
+}

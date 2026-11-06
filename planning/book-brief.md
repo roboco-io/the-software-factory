@@ -38,6 +38,8 @@ D52 저자 진술에 따라 로보코 블로그 글을 뼈대로 주제별 GPT �
 
 ## 구현 예제
 
+2026-11-06 저자 안내: 데모는 전면 리뉴얼 중으로 당분간 이용할 수 없다. 원고·독자용 해설의 예시는 이전 버전의 고정 자료를 기준으로 유지하고 서비스 링크·토론 링크에는 이용 제한을 표시한다. 리뉴얼된 구현의 현재 구조로 읽히게 쓰지 않는다.
+
 공통 구현 예제는 로보코의 [The Software Factory Demo](https://github.com/roboco-io/the-software-factory-demo)다. 고정 버전의 문서·코드·공개 실행 기록을 관련 장의 판단 원리에 연결한다. 설치 튜토리얼과 조직 효과의 입증 사례로 확대하지 않는다. 장별 범위는 [구현 사례 지도](../research/cases/software-factory-demo.md)를 따른다. 독자는 [데모 해설](../manuscript/demo/index.md)에서 흐름과 구현 근거의 관계를 읽을 수 있다. 갱신 작업은 [데모 사례 정책](demo-example-maintenance-policy.md)과 [실행 안내](demo-example-maintenance-runbook.md)를 따른다.
 
 ## 주 독자

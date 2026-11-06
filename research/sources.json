@@ -3834,7 +3834,14 @@
           "result": "기존 해설의 시작 허용·실행/게시 분리·전달물과 보호 검사·남은 한계와 도표를 대조",
           "limit": "최신 브랜치로 판본을 올리지 않음. 직접 실행·전체 보안 강제성·운영 효과 미검증."
         }
-      ]
+      ],
+      "availability_notice": {
+        "reported_on": "2026-11-06",
+        "basis": "저자의 현재 상태 안내",
+        "service_status": "전면 리뉴얼 중·당분간 이용 불가",
+        "example_scope": "리뉴얼 이전 고정 판본의 문서·코드·당시 실행 기록",
+        "verification_limit": "서비스 장애·리뉴얼 완료 시점·신규 구조를 직접 확인한 기록 아님. 기존 코드 확인일과 revision은 유지."
+      }
     },
     {
       "id": "S99",
@@ -3869,6 +3876,13 @@
         "permission_basis": "확인 판본 README의 자체 코드·문서·설정 Apache-2.0 표시와 LICENSE 조항 확인. 저자의 자체 산문·출처 표시로 관계를 해설하며 기본 200단어를 넘는 누적 의역은 이 허락 범위 안에서 관리한다. 제3자 파일·상표·이미지에는 확대하지 않는다.",
         "license_url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/LICENSE",
         "manual_review": "본문·해설·조사 보고서·메타데이터의 중복을 대조하고 같은 코드를 독립 효과 근거로 세지 않는다."
+      },
+      "availability_notice": {
+        "reported_on": "2026-11-06",
+        "basis": "저자의 현재 상태 안내",
+        "service_status": "전면 리뉴얼 중·당분간 이용 불가",
+        "example_scope": "리뉴얼 이전 고정 판본의 문서·코드·당시 실행 기록",
+        "verification_limit": "서비스 장애·리뉴얼 완료 시점·신규 구조를 직접 확인한 기록 아님. 기존 코드 확인일과 revision은 유지."
       }
     },
     {
@@ -3904,6 +3918,13 @@
         "permission_basis": "확인 판본 README의 자체 코드·문서·설정 Apache-2.0 표시와 LICENSE 조항 확인. 저자의 자체 산문·출처 표시로 관계를 해설하며 기본 200단어를 넘는 누적 의역은 이 허락 범위 안에서 관리한다. 제3자 파일·상표·이미지에는 확대하지 않는다.",
         "license_url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/LICENSE",
         "manual_review": "본문·해설·조사 보고서·메타데이터의 중복을 대조하고 같은 코드를 독립 효과 근거로 세지 않는다."
+      },
+      "availability_notice": {
+        "reported_on": "2026-11-06",
+        "basis": "저자의 현재 상태 안내",
+        "service_status": "전면 리뉴얼 중·당분간 이용 불가",
+        "example_scope": "리뉴얼 이전 고정 판본의 문서·코드·당시 실행 기록",
+        "verification_limit": "서비스 장애·리뉴얼 완료 시점·신규 구조를 직접 확인한 기록 아님. 기존 코드 확인일과 revision은 유지."
       }
     },
     {
@@ -3938,6 +3959,13 @@
         "permission_basis": "확인 판본 README의 자체 코드·문서·설정 Apache-2.0 표시와 LICENSE 조항 확인. 저자의 자체 산문·출처 표시로 관계를 해설하며 기본 200단어를 넘는 누적 의역은 이 허락 범위 안에서 관리한다. 제3자 파일·상표·이미지에는 확대하지 않는다.",
         "license_url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/LICENSE",
         "manual_review": "본문·해설·조사 보고서·메타데이터의 중복을 대조하고 같은 코드를 독립 효과 근거로 세지 않는다."
+      },
+      "availability_notice": {
+        "reported_on": "2026-11-06",
+        "basis": "저자의 현재 상태 안내",
+        "service_status": "전면 리뉴얼 중·당분간 이용 불가",
+        "example_scope": "리뉴얼 이전 고정 판본의 문서·코드·당시 실행 기록",
+        "verification_limit": "서비스 장애·리뉴얼 완료 시점·신규 구조를 직접 확인한 기록 아님. 기존 코드 확인일과 revision은 유지."
       }
     },
     {
@@ -3972,6 +4000,13 @@
         "permission_basis": "확인 판본 README의 자체 코드·문서·설정 Apache-2.0 표시와 LICENSE 조항 확인. 저자의 자체 산문·출처 표시로 관계를 해설하며 기본 200단어를 넘는 누적 의역은 이 허락 범위 안에서 관리한다. 제3자 파일·상표·이미지에는 확대하지 않는다.",
         "license_url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/LICENSE",
         "manual_review": "본문·해설·조사 보고서·메타데이터의 중복을 대조하고 같은 코드를 독립 효과 근거로 세지 않는다."
+      },
+      "availability_notice": {
+        "reported_on": "2026-11-06",
+        "basis": "저자의 현재 상태 안내",
+        "service_status": "전면 리뉴얼 중·당분간 이용 불가",
+        "example_scope": "리뉴얼 이전 고정 판본의 문서·코드·당시 실행 기록",
+        "verification_limit": "서비스 장애·리뉴얼 완료 시점·신규 구조를 직접 확인한 기록 아님. 기존 코드 확인일과 revision은 유지."
       }
     },
     {
@@ -4031,7 +4066,14 @@
           "result": "기존 해설의 시작 허용·실행/게시 분리·전달물과 보호 검사·남은 한계와 도표를 대조",
           "limit": "최신 브랜치로 판본을 올리지 않음. 직접 실행·전체 보안 강제성·운영 효과 미검증."
         }
-      ]
+      ],
+      "availability_notice": {
+        "reported_on": "2026-11-06",
+        "basis": "저자의 현재 상태 안내",
+        "service_status": "전면 리뉴얼 중·당분간 이용 불가",
+        "example_scope": "리뉴얼 이전 고정 판본의 문서·코드·당시 실행 기록",
+        "verification_limit": "서비스 장애·리뉴얼 완료 시점·신규 구조를 직접 확인한 기록 아님. 기존 코드 확인일과 revision은 유지."
+      }
     },
     {
       "id": "S104",
@@ -4065,6 +4107,13 @@
         "permission_basis": "확인 판본 README의 자체 코드·문서·설정 Apache-2.0 표시와 LICENSE 조항 확인. 저자의 자체 산문·출처 표시로 관계를 해설하며 기본 200단어를 넘는 누적 의역은 이 허락 범위 안에서 관리한다. 제3자 파일·상표·이미지에는 확대하지 않는다.",
         "license_url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/LICENSE",
         "manual_review": "본문·해설·조사 보고서·메타데이터의 중복을 대조하고 같은 코드를 독립 효과 근거로 세지 않는다."
+      },
+      "availability_notice": {
+        "reported_on": "2026-11-06",
+        "basis": "저자의 현재 상태 안내",
+        "service_status": "전면 리뉴얼 중·당분간 이용 불가",
+        "example_scope": "리뉴얼 이전 고정 판본의 문서·코드·당시 실행 기록",
+        "verification_limit": "서비스 장애·리뉴얼 완료 시점·신규 구조를 직접 확인한 기록 아님. 기존 코드 확인일과 revision은 유지."
       }
     },
     {
@@ -4098,6 +4147,13 @@
         "permission_basis": "확인 판본 README의 자체 코드·문서·설정 Apache-2.0 표시와 LICENSE 조항 확인. 저자의 자체 산문·출처 표시로 관계를 해설하며 기본 200단어를 넘는 누적 의역은 이 허락 범위 안에서 관리한다. 제3자 파일·상표·이미지에는 확대하지 않는다.",
         "license_url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/LICENSE",
         "manual_review": "본문·해설·조사 보고서·메타데이터의 중복을 대조하고 같은 코드를 독립 효과 근거로 세지 않는다."
+      },
+      "availability_notice": {
+        "reported_on": "2026-11-06",
+        "basis": "저자의 현재 상태 안내",
+        "service_status": "전면 리뉴얼 중·당분간 이용 불가",
+        "example_scope": "리뉴얼 이전 고정 판본의 문서·코드·당시 실행 기록",
+        "verification_limit": "서비스 장애·리뉴얼 완료 시점·신규 구조를 직접 확인한 기록 아님. 기존 코드 확인일과 revision은 유지."
       }
     },
     {
@@ -4134,6 +4190,13 @@
         "permission_basis": "확인 판본 README의 자체 코드·문서·설정 Apache-2.0 표시와 LICENSE 조항 확인. 저자의 자체 산문·출처 표시로 관계를 해설하며 기본 200단어를 넘는 누적 의역은 이 허락 범위 안에서 관리한다. 제3자 파일·상표·이미지에는 확대하지 않는다.",
         "license_url": "https://github.com/roboco-io/the-software-factory-demo/blob/5b1927f8328266070c3d0bf98bac194dc21df012/LICENSE",
         "manual_review": "본문·해설·조사 보고서·메타데이터의 중복을 대조하고 같은 코드를 독립 효과 근거로 세지 않는다."
+      },
+      "availability_notice": {
+        "reported_on": "2026-11-06",
+        "basis": "저자의 현재 상태 안내",
+        "service_status": "전면 리뉴얼 중·당분간 이용 불가",
+        "example_scope": "리뉴얼 이전 고정 판본의 문서·코드·당시 실행 기록",
+        "verification_limit": "서비스 장애·리뉴얼 완료 시점·신규 구조를 직접 확인한 기록 아님. 기존 코드 확인일과 revision은 유지."
       }
     },
     {

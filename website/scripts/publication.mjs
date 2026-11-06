@@ -26,7 +26,7 @@ export const FORUM_BASE='https://roboco.io/the-software-factory-demo/';
 const escapeAttr=v=>v.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 export const forumSectionUrl=(docId,anchor)=>`${FORUM_BASE}#/book/${docId}?anchor=${anchor}`;
 // 포럼은 패턴 15개를 문서 patterns 하나로 묶고 패턴 하나를 절 하나(앵커 pNN)로 다룬다. 패턴 페이지는 링크 하나만 둔다.
-const forumLink=(href,text,label)=>`<p data-pagefind-ignore><a class="forum-link" href="${href}" aria-label="${escapeAttr(label)}">${text}</a></p>`;
+const forumLink=(href,text,label)=>`<p data-pagefind-ignore><a class="forum-link" href="${href}" aria-label="${escapeAttr(label)}">${text}</a><small class="forum-status"> · 데모 리뉴얼 중·당분간 이용 불가</small></p>`;
 export function transformMarkdown(text,anchors={},sourcePath='',docId='') {
  const pattern=/^p\d+$/.test(docId);
  const body=text.replace(/^# .+\n/,'').replace(/^상태:.*\n/gm,'')

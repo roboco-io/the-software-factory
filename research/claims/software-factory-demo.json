@@ -166,5 +166,12 @@
       "status": "별도 AI 수정 검증 완료(해당 범위)",
       "verification": "planning/reviews/2026-10-15-demo-examples-verify-initial.md"
     }
-  ]
+  ],
+  "renewal_notice": {
+    "reported_on": "2026-11-06",
+    "basis": "저자의 현재 상태 안내",
+    "service_status": "전면 리뉴얼 중·당분간 이용 불가",
+    "example_scope": "리뉴얼 이전 고정 판본의 문서·코드·당시 실행 기록",
+    "verification_limit": "서비스 장애·리뉴얼 완료 시점·신규 구조를 직접 확인한 기록 아님. 기존 코드 확인일과 revision은 유지."
+  }
 }

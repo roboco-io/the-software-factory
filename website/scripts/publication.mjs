@@ -15,18 +15,18 @@ export function publicLink(target,sourcePath='') {
  else if(/^\.\.\/figures\/[^/]+\.svg$/.test(path)&&diagramFiles.has(path.slice('../figures/'.length))) result='/diagrams/'+path.slice('../figures/'.length);
  else if(path.endsWith('/research/sources.json')) result='/sources/';
  else if(/\/research\/claims\/ch\d{2}\.json$/.test(path)) return '/sources/#refs-'+path.match(/ch\d{2}/)[0];
- else if(path.endsWith('/research/cases/software-factory-demo.md')) return '/sources/#S59';
+ else if(path.endsWith('/research/cases/software-factory-demo.md')) return '/sources/#S157';
  else if(path.endsWith('/research/mcconnell/chapter-map.md')) return '/about/#source-scope';
  else throw Error('Unmapped publication link: '+target);
  if(!result)throw Error('Unmapped publication link: '+target);
  return result+(hash?'#'+hash:'');
 }
 // 책 토론 포럼(데모 서비스)의 절 토론 목록. 문서 ID와 고정 앵커로 연결하므로 제목이 바뀌어도 링크가 유지된다.
-export const FORUM_BASE='https://roboco.io/the-software-factory-demo/';
+export const FORUM_BASE='https://roboco.io/conveyor/';
 const escapeAttr=v=>v.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 export const forumSectionUrl=(docId,anchor)=>`${FORUM_BASE}#/book/${docId}?anchor=${anchor}`;
 // 포럼은 패턴 15개를 문서 patterns 하나로 묶고 패턴 하나를 절 하나(앵커 pNN)로 다룬다. 패턴 페이지는 링크 하나만 둔다.
-const forumLink=(href,text,label)=>`<p data-pagefind-ignore><a class="forum-link" href="${href}" aria-label="${escapeAttr(label)}">${text}</a><small class="forum-status"> · 데모 리뉴얼 중·당분간 이용 불가</small></p>`;
+const forumLink=(href,text,label)=>`<p data-pagefind-ignore><a class="forum-link" href="${href}" aria-label="${escapeAttr(label)}">${text}</a></p>`;
 export function transformMarkdown(text,anchors={},sourcePath='',docId='') {
  const pattern=/^p\d+$/.test(docId);
  const body=text.replace(/^# .+\n/,'').replace(/^상태:.*\n/gm,'')

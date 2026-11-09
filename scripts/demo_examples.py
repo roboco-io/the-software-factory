@@ -8,8 +8,9 @@ import json
 import re
 import subprocess
 
-REPO = re.compile(r'https://github\.com/roboco-io/(?:the-)?software-factory-demo(?:/[^\s)"<>]*)?')
-SITE = re.compile(r'https://roboco\.io/(?:the-)?software-factory-demo(?:/[^\s)"<>]*)?')
+REPO = re.compile(r'https://github\.com/roboco-io/(?:(?:the-)?software-factory-demo|conveyor)(?:/[^\s)"<>]*)?')
+SITE = re.compile(r'https://roboco\.io/(?:(?:the-)?software-factory-demo|conveyor)(?:/[^\s)"<>]*)?')
+PORTAL = re.compile(r'https://software-factory-control\.roboco\.workers\.dev(?:/[^\s)"<>]*)?')
 SOURCE = re.compile(r'\[(S\d+)\]')
 
 
@@ -19,7 +20,7 @@ def sha(path):
 
 def inventory(root):
     data = json.loads((root / 'research/sources.json').read_text())
-    demo_ids = {s['id'] for s in data['sources'] if REPO.search(s.get('url', '')) or SITE.search(s.get('url', ''))}
+    demo_ids = {s['id'] for s in data['sources'] if REPO.search(s.get('url', '')) or SITE.search(s.get('url', '')) or PORTAL.search(s.get('url', ''))}
     paths = sorted(set(root.glob('manuscript/**/*.md')) | set(root.glob('website/src/**/*.astro')) | set(root.glob('website/src/pages/**/*.ts')))
     files, mentions = [], []
     for path in paths:
@@ -30,9 +31,9 @@ def inventory(root):
         for number, line in enumerate(text.splitlines(), 1):
             if re.match(r'^#{1,6} ', line):
                 section = line.lstrip('# ').strip()
-            urls = sorted(set(REPO.findall(line) + SITE.findall(line)))
+            urls = sorted(set(REPO.findall(line) + SITE.findall(line) + PORTAL.findall(line)))
             ids = sorted(set(SOURCE.findall(line)) & demo_ids)
-            if not (urls or ids or '데모' in line or re.search(r'(?:the-)?software-factory-demo', line)):
+            if not (urls or ids or '데모' in line or re.search(r'(?:the-)?software-factory-demo|conveyor|Conveyor', line)):
                 continue
             kind = 'source-list' if re.match(r'^\[S\d+\].*(?:확인 범위|출처 대장)', line) else 'content'
             mentions.append({'path': location, 'line': number, 'section': section, 'kind': kind,

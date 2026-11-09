@@ -40,7 +40,7 @@ bibliography+='## 데모 해설 자료\n\n'+book.demos.map(c=>`<span id="refs-${
 for(const s of sources.filter(s=>cite.has(s.id))) {
  if(!/^https?:\/\//.test(s.url))throw Error('Invalid public source URL '+s.id);
  bibliography+=`<span id="${s.id}"></span>\n\n### ${s.id} · ${safe(s.title)}\n\n[원문 읽기](${s.url})\n\n${safe(s.author??'작성 주체는 원문 참조')}\n\n발표일: ${safe(s.published_on??'미확인')} / 확인일: ${safe(s.checked_on??'미확인')}\n\n**확인 범위:** ${safe(s.verification_scope??s.verification_status)}\n\n**한계:** ${safe(s.limit)}\n\n`;
- if(s.availability_notice)bibliography+=`**서비스 이용 안내(${safe(s.availability_notice.reported_on)}, 저자 안내):** ${safe(s.availability_notice.service_status)}. 이 출처는 리뉴얼 이전 버전의 문서·코드를 확인한 자료입니다.\n\n`;
+ if(s.publication_notice)bibliography+=`**판본 안내(${safe(s.publication_notice.date)}):** ${safe(s.publication_notice.text)}\n\n`;
 }
 write('changelog',{title:'체인지 로그',description:'독자가 알아둘 중요한 변경',tableOfContents:false,prev:false,next:false},read('CHANGELOG.md').replace(/^# .+\n/,''));
 write('sources',{title:'참고문헌',description:'본문의 원문 출처와 확인 범위',tableOfContents:false,prev:false,next:false},bibliography);

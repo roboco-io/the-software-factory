@@ -1,7 +1,7 @@
 {
   "topic": "The Software Factory 구현 예제",
   "checked_on": "2026-10-13",
-  "repository": "https://github.com/roboco-io/the-software-factory-demo",
+  "repository": "https://github.com/roboco-io/conveyor",
   "revision": "25a73b9c342ef380f96ff0d705df9b7ef33dd82c",
   "status": "장별 초고에 반영·내용 검토 대상",
   "claims": [
@@ -172,6 +172,307 @@
     "basis": "저자의 현재 상태 안내",
     "service_status": "전면 리뉴얼 중·당분간 이용 불가",
     "example_scope": "리뉴얼 이전 고정 판본의 문서·코드·당시 실행 기록",
-    "verification_limit": "서비스 장애·리뉴얼 완료 시점·신규 구조를 직접 확인한 기록 아님. 기존 코드 확인일과 revision은 유지."
-  }
+    "verification_limit": "서비스 장애·리뉴얼 완료 시점·신규 구조를 직접 확인한 기록 아님. 기존 코드 확인일과 revision은 유지.",
+    "superseded_on": "2026-11-09"
+  },
+  "renewal_20261109": {
+    "date": "2026-11-09",
+    "repository": "roboco-io/the-software-factory-demo",
+    "revision": "1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a",
+    "legacy_repository": "roboco-io/conveyor",
+    "source_ids": [
+      "S157",
+      "S158",
+      "S159",
+      "S160",
+      "S161",
+      "S162",
+      "S163",
+      "S164",
+      "S165"
+    ],
+    "scope": "과거 기록은 보존하고 새 플랫폼 근거를 별도 판본으로 기록.",
+    "files": [
+      {
+        "path": "docs/design.md",
+        "sha": "01f653e066441ebb1875729ce6a7aa278e6c7155",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/docs/design.md",
+        "lines": 123
+      },
+      {
+        "path": "docs/operations.md",
+        "sha": "fab0883dc3af3be5620dba7a2d79bf1244a066b4",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/docs/operations.md",
+        "lines": 292
+      },
+      {
+        "path": "docs/examples/factory-policy.yml",
+        "sha": "72bb976528d86f781cbc44fde84e4595ac4b7fa7",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/docs/examples/factory-policy.yml",
+        "lines": 34
+      },
+      {
+        "path": "apps/control/src/run-types.ts",
+        "sha": "34685981283abc061ebaae3e21bb0e16d1486c7c",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/run-types.ts",
+        "lines": 68
+      },
+      {
+        "path": "apps/control/src/run-state.ts",
+        "sha": "99ca0e74fdd6a2a9197a7636689a5fda410c60ba",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/run-state.ts",
+        "lines": 52
+      },
+      {
+        "path": "apps/control/src/run-machine.ts",
+        "sha": "151671d8806eba640ed728a036e375f22f207743",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/run-machine.ts",
+        "lines": 1033
+      },
+      {
+        "path": "apps/control/src/policy.ts",
+        "sha": "ba8cddc98ec464da03bae6336eba6f3d3b8ebfce",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/policy.ts",
+        "lines": 228
+      },
+      {
+        "path": "apps/control/src/decision.ts",
+        "sha": "004e6a330443a0e8b577b4b3132499010706387e",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/decision.ts",
+        "lines": 131
+      },
+      {
+        "path": "apps/control/src/config.ts",
+        "sha": "b00fe62303c8433b9f8c47bd2b709460664d77b8",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/config.ts",
+        "lines": 34
+      },
+      {
+        "path": "apps/control/src/sandbox-core.ts",
+        "sha": "b58177d5adef43082a89c6f3f727211bbac4829e",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/sandbox-core.ts",
+        "lines": 319
+      },
+      {
+        "path": "apps/control/src/agent-sandbox.ts",
+        "sha": "7324e50457c23a8b5541c95d65e7bcdc7f6d6964",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/agent-sandbox.ts",
+        "lines": 222
+      },
+      {
+        "path": "apps/control/src/outbound-policy.ts",
+        "sha": "46c93e958fd9fd07d7308d04ef37246472fc0a21",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/outbound-policy.ts",
+        "lines": 136
+      },
+      {
+        "path": "apps/control/src/outbound.ts",
+        "sha": "38b974d68bbd45b4d38db8437150169120044038",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/outbound.ts",
+        "lines": 207
+      },
+      {
+        "path": "apps/control/src/prompt.ts",
+        "sha": "36643db6d4dca3c853df912b724ff23ec92e5b8a",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/prompt.ts",
+        "lines": 61
+      },
+      {
+        "path": "apps/control/src/review-prompt.ts",
+        "sha": "17cff0ecb37fba44062e97615f6445bc5a0fae0f",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/review-prompt.ts",
+        "lines": 76
+      },
+      {
+        "path": "apps/control/src/review-verdict.ts",
+        "sha": "27190e9b24fff37e1ed2b1460cb7b9b9c5a2e667",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/review-verdict.ts",
+        "lines": 143
+      },
+      {
+        "path": "apps/control/src/review.ts",
+        "sha": "2b5b28ff9d88eb1d4c50abb231d4337a4f43e9fa",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/review.ts",
+        "lines": 249
+      },
+      {
+        "path": "apps/control/src/github-publisher.ts",
+        "sha": "5fd9ca345eb7949cfa38d458fe4ac1add0716dde",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/github-publisher.ts",
+        "lines": 361
+      },
+      {
+        "path": "apps/control/src/d1-repo.ts",
+        "sha": "1cf093536c41cbe285ce36004bc3f889951ef745",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/d1-repo.ts",
+        "lines": 251
+      },
+      {
+        "path": "apps/control/src/read-api.test.ts",
+        "sha": "2aa590c23400e6be0a48823bfc1c72a2ecb5cedf",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/read-api.test.ts",
+        "lines": 459
+      },
+      {
+        "path": "apps/control/src/budget-service.ts",
+        "sha": "3b48bf75a57cade81363f18e5e473783f7517977",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/budget-service.ts",
+        "lines": 180
+      },
+      {
+        "path": "apps/control/src/budget.ts",
+        "sha": "89d09eb19a4b845518cfbe56ea2f324e46dd8e3c",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/budget.ts",
+        "lines": 202
+      },
+      {
+        "path": "apps/control/src/usage-meter.ts",
+        "sha": "f8e2994700629b84236177321e0c62fd69b79ea0",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/usage-meter.ts",
+        "lines": 210
+      },
+      {
+        "path": "apps/control/src/outbound-budget.ts",
+        "sha": "1d186e087afa178439da9ed6117ed91151a61553",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/outbound-budget.ts",
+        "lines": 47
+      },
+      {
+        "path": "apps/control/src/issue-run.ts",
+        "sha": "cde69dbe04c593471d41b505b282d6903e7097d7",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/issue-run.ts",
+        "lines": 158
+      },
+      {
+        "path": ".github/workflows/pages.yml",
+        "sha": "2d221e5baf2f78adc4ec1568f55754de264d5dea",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/.github/workflows/pages.yml",
+        "lines": 33
+      },
+      {
+        "path": "apps/site/public/redirect.js",
+        "sha": "e336ea7f99c5ad0ab352a9a6761e1ba3bfb82b98",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/site/public/redirect.js",
+        "lines": 25
+      },
+      {
+        "path": "apps/control/wrangler.jsonc",
+        "sha": "d40f29bafade9c5ef2965d81f5a2d589ef257a40",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/wrangler.jsonc",
+        "lines": 76
+      },
+      {
+        "path": "README.md",
+        "sha": "4b171b22e22ab7b9eba56e477c0825ba19411046",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/README.md",
+        "lines": 69
+      },
+      {
+        "path": "apps/control/src/webhook.ts",
+        "sha": "3107b1125c29f59ce6351aec675bee8e72c70ea5",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/webhook.ts",
+        "lines": 176
+      },
+      {
+        "path": "apps/control/src/read-repo.ts",
+        "sha": "9f9c23152ce9725b5edb3f95ac69a7c9c463c1a4",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/read-repo.ts",
+        "lines": 317
+      },
+      {
+        "path": "apps/control/src/portal-api.ts",
+        "sha": "b32eb4ad1a37937c1e220a155eb672273b14c483",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/portal-api.ts",
+        "lines": 208
+      },
+      {
+        "path": "apps/control/src/roles.ts",
+        "sha": "e5f807d492a5260fa5279a02543f1f4a32dd3983",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/roles.ts",
+        "lines": 25
+      },
+      {
+        "path": "apps/control/src/changes.ts",
+        "sha": "e13b75aacbb6c31e396ce2708f71248dbf0ec7a7",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/changes.ts",
+        "lines": 187
+      },
+      {
+        "path": "apps/control/src/outbound-body.ts",
+        "sha": "d0ecec284d1df561164fdb625e634d280691d590",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/outbound-body.ts",
+        "lines": 245
+      },
+      {
+        "path": "apps/control/src/agent-command.ts",
+        "sha": "8bcf9fc604c4f5fbbf788f4379c765341f4c411f",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/agent-command.ts",
+        "lines": 70
+      },
+      {
+        "path": "apps/control/src/review-command.ts",
+        "sha": "80520d29c7d98653f28aff587284151ca10cb78d",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/review-command.ts",
+        "lines": 75
+      },
+      {
+        "path": "apps/control/src/codex-command.ts",
+        "sha": "24d01751ba96cbd87a6b9cd33ed6e5291928346a",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/codex-command.ts",
+        "lines": 60
+      },
+      {
+        "path": "apps/control/src/run-machine-stop.test.ts",
+        "sha": "c9d2a0aa63f160c7b59d3e17a57589fffeb0b2af",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/run-machine-stop.test.ts",
+        "lines": 375
+      },
+      {
+        "path": "apps/control/src/outbound-policy.test.ts",
+        "sha": "03fa5d8f85dd1baba3d41c697cd28a0b8fc1ea36",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/outbound-policy.test.ts",
+        "lines": 314
+      },
+      {
+        "path": "apps/portal/src/labels.ts",
+        "sha": "931d912d3e2969db15fcd07a5042aa76dc048586",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/portal/src/labels.ts",
+        "lines": 436
+      },
+      {
+        "path": "apps/portal/src/views.ts",
+        "sha": "8ea2c76fea30a3d6b9cfb1e6f8152acb63440f58",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/portal/src/views.ts",
+        "lines": 891
+      },
+      {
+        "path": "apps/site/public/index.html",
+        "sha": "efd1ac6366828a8f42c02f9725a1877471f6ac3d",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/site/public/index.html",
+        "lines": 128
+      },
+      {
+        "path": "apps/control/src/github-pulls.ts",
+        "sha": "66b369370c0903b69283101da7be9297ba902d63",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/github-pulls.ts",
+        "lines": 247
+      },
+      {
+        "path": "apps/control/src/routes.ts",
+        "sha": "a7f7b9fef51859714ca33116fc072d6f48ed2e34",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/routes.ts",
+        "lines": 245
+      },
+      {
+        "path": "apps/control/src/app.ts",
+        "sha": "0bb2d8cc09c1102e6de8a1aea92fbc37ac6abcab",
+        "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/app.ts",
+        "lines": 17
+      }
+    ],
+    "level": "공개 문서/정적 구조와 진입점 HTTP 응답. 실제 실행/효과 검증 없음.",
+    "report": "planning/reviews/2026-11-09-demo-examples-renewal.md"
+  },
+  "original_repository": "https://github.com/roboco-io/the-software-factory-demo",
+  "record_scope": "상위의 commit/revision·checked_on·기존 files/claims는 이전 구현 조사 기록이다. 현재 플랫폼 판본과 근거는 renewal_20261109를 따른다."
 }

@@ -195,6 +195,19 @@
     "reported_on": "2026-11-06",
     "type": "저자 안내에 근거한 서비스 이용 상태와 사례 범위 표시",
     "scope": "데모 서비스 리뉴얼 중·당분간 이용 불가. 사례는 이전 버전 기준. 기존 인용/확인 범위 유지.",
-    "verification": "이용 중단/새 구조를 별도 실행 검증한 것은 아님"
+    "verification": "이용 중단/새 구조를 별도 실행 검증한 것은 아님",
+    "superseded_on": "2026-11-09"
+  },
+  "demo_platform_renewal": {
+    "checked_on": "2026-11-09",
+    "revision": "1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a",
+    "source_ids": [
+      "S161"
+    ],
+    "type": "새 공개 코드의 정적 관찰과 책의 해석을 구분",
+    "scope": "제어 평면/샌드박스/정책 판정/관찰의 현재 사례로 갱신. 과거 Conveyor 실험과 병합/배포/사업 목표 달성을 구분.",
+    "status": "반영 완료; 별도 검증 범위와 결과는 보고서 참조",
+    "limits": "직접 에이전트 실행·로그인·병합·운영/보안 효과 검증 아님",
+    "review": "planning/reviews/2026-11-09-demo-examples-verify-renewal.md"
   }
 }

@@ -1,0 +1,2644 @@
+{
+  "date": "2026-11-09",
+  "mode": "수정 포함; 로컬 반영",
+  "book_base_commit": "0426563d76bea03e7c687c2f79c8243e8a86d0ba",
+  "policy_sha256": "aa8fac2bc7c9e1fa22d4bd432703efd77a7d3e3b5857c69385118050aed4a203",
+  "candidate_repository": "roboco-io/the-software-factory-demo",
+  "candidate_revision": "1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a",
+  "candidate_tree": {
+    "entries": 189,
+    "files": 170,
+    "truncated": false,
+    "paths": [
+      ".github/workflows/ci.yml",
+      ".github/workflows/deploy.yml",
+      ".github/workflows/pages.yml",
+      ".gitignore",
+      ".nvmrc",
+      ".prettierignore",
+      "AGENTS.md",
+      "CLAUDE.md",
+      "README.md",
+      "apps/control/container/Dockerfile",
+      "apps/control/migrations/0001_runs_events.sql",
+      "apps/control/migrations/0002_deliveries.sql",
+      "apps/control/migrations/0003_review_and_merge.sql",
+      "apps/control/migrations/0004_merged_outside_factory.sql",
+      "apps/control/migrations/0005_stopped_by_operator.sql",
+      "apps/control/migrations/0006_console.sql",
+      "apps/control/migrations/0007_budget.sql",
+      "apps/control/package.json",
+      "apps/control/src/agent-command.test.ts",
+      "apps/control/src/agent-command.ts",
+      "apps/control/src/agent-sandbox-runid.test.ts",
+      "apps/control/src/agent-sandbox.ts",
+      "apps/control/src/app.test.ts",
+      "apps/control/src/app.ts",
+      "apps/control/src/auth.test.ts",
+      "apps/control/src/auth.ts",
+      "apps/control/src/budget-service.test.ts",
+      "apps/control/src/budget-service.ts",
+      "apps/control/src/budget.test.ts",
+      "apps/control/src/budget.ts",
+      "apps/control/src/changes.test.ts",
+      "apps/control/src/changes.ts",
+      "apps/control/src/codex-command.test.ts",
+      "apps/control/src/codex-command.ts",
+      "apps/control/src/config.test.ts",
+      "apps/control/src/config.ts",
+      "apps/control/src/d1-budget.test.ts",
+      "apps/control/src/d1-budget.ts",
+      "apps/control/src/d1-console.test.ts",
+      "apps/control/src/d1-repo.test.ts",
+      "apps/control/src/d1-repo.ts",
+      "apps/control/src/d1-stage3.test.ts",
+      "apps/control/src/decision.test.ts",
+      "apps/control/src/decision.ts",
+      "apps/control/src/diagnostics.test.ts",
+      "apps/control/src/diagnostics.ts",
+      "apps/control/src/env.ts",
+      "apps/control/src/github-app.test.ts",
+      "apps/control/src/github-app.ts",
+      "apps/control/src/github-issues.test.ts",
+      "apps/control/src/github-issues.ts",
+      "apps/control/src/github-publisher.test.ts",
+      "apps/control/src/github-publisher.ts",
+      "apps/control/src/github-pulls.test.ts",
+      "apps/control/src/github-pulls.ts",
+      "apps/control/src/http.ts",
+      "apps/control/src/index.ts",
+      "apps/control/src/issue-run.ts",
+      "apps/control/src/neutralize-mentions.ts",
+      "apps/control/src/outbound-body.test.ts",
+      "apps/control/src/outbound-body.ts",
+      "apps/control/src/outbound-budget.test.ts",
+      "apps/control/src/outbound-budget.ts",
+      "apps/control/src/outbound-meter.test.ts",
+      "apps/control/src/outbound-policy.test.ts",
+      "apps/control/src/outbound-policy.ts",
+      "apps/control/src/outbound.ts",
+      "apps/control/src/policy.test.ts",
+      "apps/control/src/policy.ts",
+      "apps/control/src/portal-api.ts",
+      "apps/control/src/pricing.test.ts",
+      "apps/control/src/pricing.ts",
+      "apps/control/src/prompt.test.ts",
+      "apps/control/src/prompt.ts",
+      "apps/control/src/pull-port.ts",
+      "apps/control/src/read-api.test.ts",
+      "apps/control/src/read-console.test.ts",
+      "apps/control/src/read-repo.ts",
+      "apps/control/src/repo-descriptions.test.ts",
+      "apps/control/src/repo-descriptions.ts",
+      "apps/control/src/repo.ts",
+      "apps/control/src/review-command.test.ts",
+      "apps/control/src/review-command.ts",
+      "apps/control/src/review-prompt.test.ts",
+      "apps/control/src/review-prompt.ts",
+      "apps/control/src/review-verdict.test.ts",
+      "apps/control/src/review-verdict.ts",
+      "apps/control/src/review.test.ts",
+      "apps/control/src/review.ts",
+      "apps/control/src/roles.ts",
+      "apps/control/src/routes.test.ts",
+      "apps/control/src/routes.ts",
+      "apps/control/src/run-machine-budget.test.ts",
+      "apps/control/src/run-machine-console.test.ts",
+      "apps/control/src/run-machine-review.test.ts",
+      "apps/control/src/run-machine-stop.test.ts",
+      "apps/control/src/run-machine.test.ts",
+      "apps/control/src/run-machine.ts",
+      "apps/control/src/run-state.test.ts",
+      "apps/control/src/run-state.ts",
+      "apps/control/src/run-types.ts",
+      "apps/control/src/sandbox-core.test.ts",
+      "apps/control/src/sandbox-core.ts",
+      "apps/control/src/sandbox-review.test.ts",
+      "apps/control/src/session.test.ts",
+      "apps/control/src/session.ts",
+      "apps/control/src/signature.test.ts",
+      "apps/control/src/signature.ts",
+      "apps/control/src/testing/api-world.ts",
+      "apps/control/src/testing/d1.ts",
+      "apps/control/src/testing/fake-github.ts",
+      "apps/control/src/testing/machine-harness.ts",
+      "apps/control/src/testing/node.ts",
+      "apps/control/src/testing/pulls-world.ts",
+      "apps/control/src/testing/sign.ts",
+      "apps/control/src/usage-meter.test.ts",
+      "apps/control/src/usage-meter.ts",
+      "apps/control/src/webhook.test.ts",
+      "apps/control/src/webhook.ts",
+      "apps/control/tsconfig.json",
+      "apps/control/wrangler.jsonc",
+      "apps/portal/index.html",
+      "apps/portal/package.json",
+      "apps/portal/public/_headers",
+      "apps/portal/src/api.test.ts",
+      "apps/portal/src/api.ts",
+      "apps/portal/src/app.test.ts",
+      "apps/portal/src/app.ts",
+      "apps/portal/src/budget-notice.test.ts",
+      "apps/portal/src/budget-notice.ts",
+      "apps/portal/src/console-labels.test.ts",
+      "apps/portal/src/console-labels.ts",
+      "apps/portal/src/dom.ts",
+      "apps/portal/src/flow.test.ts",
+      "apps/portal/src/flow.ts",
+      "apps/portal/src/labels.test.ts",
+      "apps/portal/src/labels.ts",
+      "apps/portal/src/main.ts",
+      "apps/portal/src/replay.test.ts",
+      "apps/portal/src/replay.ts",
+      "apps/portal/src/router.test.ts",
+      "apps/portal/src/router.ts",
+      "apps/portal/src/safety.test.ts",
+      "apps/portal/src/style.css",
+      "apps/portal/src/views.ts",
+      "apps/portal/tsconfig.json",
+      "apps/portal/vite.config.ts",
+      "apps/site/package.json",
+      "apps/site/public/404.html",
+      "apps/site/public/index.html",
+      "apps/site/public/redirect.js",
+      "apps/site/public/style.css",
+      "apps/site/test/redirect.test.js",
+      "docs/design.md",
+      "docs/examples/factory-policy.yml",
+      "docs/operations.md",
+      "eslint.config.js",
+      "experiments/sandbox-spike/.gitignore",
+      "experiments/sandbox-spike/Dockerfile",
+      "experiments/sandbox-spike/RESULTS.md",
+      "experiments/sandbox-spike/package-lock.json",
+      "experiments/sandbox-spike/package.json",
+      "experiments/sandbox-spike/src/index.ts",
+      "experiments/sandbox-spike/src/outbound.ts",
+      "experiments/sandbox-spike/src/sandbox.ts",
+      "experiments/sandbox-spike/wrangler.jsonc",
+      "package.json",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "tsconfig.base.json"
+    ]
+  },
+  "legacy_repository": "roboco-io/conveyor",
+  "legacy_revision": "5b1927f8328266070c3d0bf98bac194dc21df012",
+  "source_files": [
+    {
+      "path": "docs/design.md",
+      "sha": "01f653e066441ebb1875729ce6a7aa278e6c7155",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/docs/design.md",
+      "lines": 123
+    },
+    {
+      "path": "docs/operations.md",
+      "sha": "fab0883dc3af3be5620dba7a2d79bf1244a066b4",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/docs/operations.md",
+      "lines": 292
+    },
+    {
+      "path": "docs/examples/factory-policy.yml",
+      "sha": "72bb976528d86f781cbc44fde84e4595ac4b7fa7",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/docs/examples/factory-policy.yml",
+      "lines": 34
+    },
+    {
+      "path": "apps/control/src/run-types.ts",
+      "sha": "34685981283abc061ebaae3e21bb0e16d1486c7c",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/run-types.ts",
+      "lines": 68
+    },
+    {
+      "path": "apps/control/src/run-state.ts",
+      "sha": "99ca0e74fdd6a2a9197a7636689a5fda410c60ba",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/run-state.ts",
+      "lines": 52
+    },
+    {
+      "path": "apps/control/src/run-machine.ts",
+      "sha": "151671d8806eba640ed728a036e375f22f207743",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/run-machine.ts",
+      "lines": 1033
+    },
+    {
+      "path": "apps/control/src/policy.ts",
+      "sha": "ba8cddc98ec464da03bae6336eba6f3d3b8ebfce",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/policy.ts",
+      "lines": 228
+    },
+    {
+      "path": "apps/control/src/decision.ts",
+      "sha": "004e6a330443a0e8b577b4b3132499010706387e",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/decision.ts",
+      "lines": 131
+    },
+    {
+      "path": "apps/control/src/config.ts",
+      "sha": "b00fe62303c8433b9f8c47bd2b709460664d77b8",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/config.ts",
+      "lines": 34
+    },
+    {
+      "path": "apps/control/src/sandbox-core.ts",
+      "sha": "b58177d5adef43082a89c6f3f727211bbac4829e",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/sandbox-core.ts",
+      "lines": 319
+    },
+    {
+      "path": "apps/control/src/agent-sandbox.ts",
+      "sha": "7324e50457c23a8b5541c95d65e7bcdc7f6d6964",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/agent-sandbox.ts",
+      "lines": 222
+    },
+    {
+      "path": "apps/control/src/outbound-policy.ts",
+      "sha": "46c93e958fd9fd07d7308d04ef37246472fc0a21",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/outbound-policy.ts",
+      "lines": 136
+    },
+    {
+      "path": "apps/control/src/outbound.ts",
+      "sha": "38b974d68bbd45b4d38db8437150169120044038",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/outbound.ts",
+      "lines": 207
+    },
+    {
+      "path": "apps/control/src/prompt.ts",
+      "sha": "36643db6d4dca3c853df912b724ff23ec92e5b8a",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/prompt.ts",
+      "lines": 61
+    },
+    {
+      "path": "apps/control/src/review-prompt.ts",
+      "sha": "17cff0ecb37fba44062e97615f6445bc5a0fae0f",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/review-prompt.ts",
+      "lines": 76
+    },
+    {
+      "path": "apps/control/src/review-verdict.ts",
+      "sha": "27190e9b24fff37e1ed2b1460cb7b9b9c5a2e667",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/review-verdict.ts",
+      "lines": 143
+    },
+    {
+      "path": "apps/control/src/review.ts",
+      "sha": "2b5b28ff9d88eb1d4c50abb231d4337a4f43e9fa",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/review.ts",
+      "lines": 249
+    },
+    {
+      "path": "apps/control/src/github-publisher.ts",
+      "sha": "5fd9ca345eb7949cfa38d458fe4ac1add0716dde",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/github-publisher.ts",
+      "lines": 361
+    },
+    {
+      "path": "apps/control/src/d1-repo.ts",
+      "sha": "1cf093536c41cbe285ce36004bc3f889951ef745",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/d1-repo.ts",
+      "lines": 251
+    },
+    {
+      "path": "apps/control/src/read-api.test.ts",
+      "sha": "2aa590c23400e6be0a48823bfc1c72a2ecb5cedf",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/read-api.test.ts",
+      "lines": 459
+    },
+    {
+      "path": "apps/control/src/budget-service.ts",
+      "sha": "3b48bf75a57cade81363f18e5e473783f7517977",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/budget-service.ts",
+      "lines": 180
+    },
+    {
+      "path": "apps/control/src/budget.ts",
+      "sha": "89d09eb19a4b845518cfbe56ea2f324e46dd8e3c",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/budget.ts",
+      "lines": 202
+    },
+    {
+      "path": "apps/control/src/usage-meter.ts",
+      "sha": "f8e2994700629b84236177321e0c62fd69b79ea0",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/usage-meter.ts",
+      "lines": 210
+    },
+    {
+      "path": "apps/control/src/outbound-budget.ts",
+      "sha": "1d186e087afa178439da9ed6117ed91151a61553",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/outbound-budget.ts",
+      "lines": 47
+    },
+    {
+      "path": "apps/control/src/issue-run.ts",
+      "sha": "cde69dbe04c593471d41b505b282d6903e7097d7",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/issue-run.ts",
+      "lines": 158
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "sha": "2d221e5baf2f78adc4ec1568f55754de264d5dea",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/.github/workflows/pages.yml",
+      "lines": 33
+    },
+    {
+      "path": "apps/site/public/redirect.js",
+      "sha": "e336ea7f99c5ad0ab352a9a6761e1ba3bfb82b98",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/site/public/redirect.js",
+      "lines": 25
+    },
+    {
+      "path": "apps/control/wrangler.jsonc",
+      "sha": "d40f29bafade9c5ef2965d81f5a2d589ef257a40",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/wrangler.jsonc",
+      "lines": 76
+    },
+    {
+      "path": "README.md",
+      "sha": "4b171b22e22ab7b9eba56e477c0825ba19411046",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/README.md",
+      "lines": 69
+    },
+    {
+      "path": "apps/control/src/webhook.ts",
+      "sha": "3107b1125c29f59ce6351aec675bee8e72c70ea5",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/webhook.ts",
+      "lines": 176
+    },
+    {
+      "path": "apps/control/src/read-repo.ts",
+      "sha": "9f9c23152ce9725b5edb3f95ac69a7c9c463c1a4",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/read-repo.ts",
+      "lines": 317
+    },
+    {
+      "path": "apps/control/src/portal-api.ts",
+      "sha": "b32eb4ad1a37937c1e220a155eb672273b14c483",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/portal-api.ts",
+      "lines": 208
+    },
+    {
+      "path": "apps/control/src/roles.ts",
+      "sha": "e5f807d492a5260fa5279a02543f1f4a32dd3983",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/roles.ts",
+      "lines": 25
+    },
+    {
+      "path": "apps/control/src/changes.ts",
+      "sha": "e13b75aacbb6c31e396ce2708f71248dbf0ec7a7",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/changes.ts",
+      "lines": 187
+    },
+    {
+      "path": "apps/control/src/outbound-body.ts",
+      "sha": "d0ecec284d1df561164fdb625e634d280691d590",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/outbound-body.ts",
+      "lines": 245
+    },
+    {
+      "path": "apps/control/src/agent-command.ts",
+      "sha": "8bcf9fc604c4f5fbbf788f4379c765341f4c411f",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/agent-command.ts",
+      "lines": 70
+    },
+    {
+      "path": "apps/control/src/review-command.ts",
+      "sha": "80520d29c7d98653f28aff587284151ca10cb78d",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/review-command.ts",
+      "lines": 75
+    },
+    {
+      "path": "apps/control/src/codex-command.ts",
+      "sha": "24d01751ba96cbd87a6b9cd33ed6e5291928346a",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/codex-command.ts",
+      "lines": 60
+    },
+    {
+      "path": "apps/control/src/run-machine-stop.test.ts",
+      "sha": "c9d2a0aa63f160c7b59d3e17a57589fffeb0b2af",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/run-machine-stop.test.ts",
+      "lines": 375
+    },
+    {
+      "path": "apps/control/src/outbound-policy.test.ts",
+      "sha": "03fa5d8f85dd1baba3d41c697cd28a0b8fc1ea36",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/outbound-policy.test.ts",
+      "lines": 314
+    },
+    {
+      "path": "apps/portal/src/labels.ts",
+      "sha": "931d912d3e2969db15fcd07a5042aa76dc048586",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/portal/src/labels.ts",
+      "lines": 436
+    },
+    {
+      "path": "apps/portal/src/views.ts",
+      "sha": "8ea2c76fea30a3d6b9cfb1e6f8152acb63440f58",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/portal/src/views.ts",
+      "lines": 891
+    },
+    {
+      "path": "apps/site/public/index.html",
+      "sha": "efd1ac6366828a8f42c02f9725a1877471f6ac3d",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/site/public/index.html",
+      "lines": 128
+    },
+    {
+      "path": "apps/control/src/github-pulls.ts",
+      "sha": "66b369370c0903b69283101da7be9297ba902d63",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/github-pulls.ts",
+      "lines": 247
+    },
+    {
+      "path": "apps/control/src/routes.ts",
+      "sha": "a7f7b9fef51859714ca33116fc072d6f48ed2e34",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/routes.ts",
+      "lines": 245
+    },
+    {
+      "path": "apps/control/src/app.ts",
+      "sha": "0bb2d8cc09c1102e6de8a1aea92fbc37ac6abcab",
+      "url": "https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/app.ts",
+      "lines": 17
+    }
+  ],
+  "source_read_scope": "46개 취득 파일의 관련 타입/함수/문서절과호출관계. 모든 파일 통독/전체앱감사/실제플랫폼시험 아님.",
+  "access_failures": [
+    {
+      "item": "웹 도구의 세 공개 진입점",
+      "resolution": "읽기전용 HTTP GET으로3개200확인"
+    },
+    {
+      "item": "apps/control/src/read-api.ts",
+      "resolution": "404; 실제read-repo.ts/routes에서현재읽기경로확인"
+    },
+    {
+      "item": "새판본LICENSE",
+      "resolution": "404; 이전Apache-2.0 허락승계없음/짧은자체해설만사용"
+    }
+  ],
+  "public_entry_checks": [
+    {
+      "name": "landing",
+      "url": "https://roboco.io/the-software-factory-demo/",
+      "status": 200,
+      "final_url": "https://roboco.io/the-software-factory-demo/",
+      "title": "소프트웨어 팩토리",
+      "bytes": 4860
+    },
+    {
+      "name": "conveyor",
+      "url": "https://roboco.io/conveyor/",
+      "status": 200,
+      "final_url": "https://roboco.io/conveyor/",
+      "title": "Conveyor — Software Factory Demo",
+      "bytes": 1058
+    },
+    {
+      "name": "portal",
+      "url": "https://software-factory-control.roboco.workers.dev/",
+      "status": 200,
+      "final_url": "https://software-factory-control.roboco.workers.dev/",
+      "title": "Software Factory",
+      "bytes": 522
+    }
+  ],
+  "source_ledger": {
+    "old_ids": 156,
+    "new_ids": [
+      "S157",
+      "S158",
+      "S159",
+      "S160",
+      "S161",
+      "S162",
+      "S163",
+      "S164",
+      "S165"
+    ],
+    "total": 165,
+    "old_verification_dates_and_revisions_preserved": true,
+    "historical_urls_relocated_with_original_urls_recorded": true
+  },
+  "coverage": {
+    "authored_files": 61,
+    "before_mentions": 157,
+    "after_mentions": 106,
+    "original_mention_decisions": [
+      {
+        "before_path": "manuscript/chapters/ch01.md",
+        "before_line": 16,
+        "before_section": "TL;DR",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": "S157",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch01.md",
+        "before_line": 75,
+        "before_section": "구현 예제에서 판단의 연결을 읽는다",
+        "kind": "content",
+        "previous_source_ids": [
+          "S98"
+        ],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": "S157",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch01.md",
+        "before_line": 77,
+        "before_section": "구현 예제에서 판단의 연결을 읽는다",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "관련 장/웹의 예제·출처·진입 링크를 현재 구조에 맞추고 확인 범위를 명시",
+        "current_primary_source": "S157",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch01.md",
+        "before_line": 122,
+        "before_section": "출처와 검토",
+        "kind": "source-list",
+        "previous_source_ids": [
+          "S98"
+        ],
+        "action": "현재 사례의 새 출처 연결과 남는 과거 근거의 범위를 대조",
+        "current_primary_source": "S157",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch03.md",
+        "before_line": 184,
+        "before_section": "정책을 바꾸는 변경도 분류한다",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch03.md",
+        "before_line": 186,
+        "before_section": "정책을 바꾸는 변경도 분류한다",
+        "kind": "content",
+        "previous_source_ids": [
+          "S100"
+        ],
+        "action": "관련 장/웹의 예제·출처·진입 링크를 현재 구조에 맞추고 확인 범위를 명시",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch03.md",
+        "before_line": 226,
+        "before_section": "출처와 검토",
+        "kind": "source-list",
+        "previous_source_ids": [
+          "S100"
+        ],
+        "action": "현재 사례의 새 출처 연결과 남는 과거 근거의 범위를 대조",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch05.md",
+        "before_line": 70,
+        "before_section": "요청을 정리한 결과와 실행 승인을 나눈다",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": "S158",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch05.md",
+        "before_line": 72,
+        "before_section": "요청을 정리한 결과와 실행 승인을 나눈다",
+        "kind": "content",
+        "previous_source_ids": [
+          "S99"
+        ],
+        "action": "관련 장/웹의 예제·출처·진입 링크를 현재 구조에 맞추고 확인 범위를 명시",
+        "current_primary_source": "S158",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch05.md",
+        "before_line": 76,
+        "before_section": "요청을 정리한 결과와 실행 승인을 나눈다",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "관련 장/웹의 예제·출처·진입 링크를 현재 구조에 맞추고 확인 범위를 명시",
+        "current_primary_source": "S158",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch05.md",
+        "before_line": 142,
+        "before_section": "출처와 검토",
+        "kind": "source-list",
+        "previous_source_ids": [
+          "S99"
+        ],
+        "action": "현재 사례의 새 출처 연결과 남는 과거 근거의 범위를 대조",
+        "current_primary_source": "S158",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch07.md",
+        "before_line": 123,
+        "before_section": "실행 오류와 재현 증거를 구분하는 구현",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": "S160",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch07.md",
+        "before_line": 125,
+        "before_section": "실행 오류와 재현 증거를 구분하는 구현",
+        "kind": "content",
+        "previous_source_ids": [
+          "S101"
+        ],
+        "action": "관련 장/웹의 예제·출처·진입 링크를 현재 구조에 맞추고 확인 범위를 명시",
+        "current_primary_source": "S160",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch07.md",
+        "before_line": 127,
+        "before_section": "실행 오류와 재현 증거를 구분하는 구현",
+        "kind": "content",
+        "previous_source_ids": [
+          "S101"
+        ],
+        "action": "관련 장/웹의 예제·출처·진입 링크를 현재 구조에 맞추고 확인 범위를 명시",
+        "current_primary_source": "S160",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch07.md",
+        "before_line": 157,
+        "before_section": "출처와 검토",
+        "kind": "source-list",
+        "previous_source_ids": [
+          "S101",
+          "S59"
+        ],
+        "action": "현재 사례의 새 출처 연결과 남는 과거 근거의 범위를 대조",
+        "current_primary_source": "S160",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch08.md",
+        "before_line": 108,
+        "before_section": "멈춘 범위와 재개할 범위를 구분하는 구현",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": "S161",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch08.md",
+        "before_line": 110,
+        "before_section": "멈춘 범위와 재개할 범위를 구분하는 구현",
+        "kind": "content",
+        "previous_source_ids": [
+          "S102"
+        ],
+        "action": "관련 장/웹의 예제·출처·진입 링크를 현재 구조에 맞추고 확인 범위를 명시",
+        "current_primary_source": "S161",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch08.md",
+        "before_line": 112,
+        "before_section": "멈춘 범위와 재개할 범위를 구분하는 구현",
+        "kind": "content",
+        "previous_source_ids": [
+          "S102"
+        ],
+        "action": "관련 장/웹의 예제·출처·진입 링크를 현재 구조에 맞추고 확인 범위를 명시",
+        "current_primary_source": "S161",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch08.md",
+        "before_line": 142,
+        "before_section": "출처와 검토",
+        "kind": "source-list",
+        "previous_source_ids": [
+          "S102",
+          "S59"
+        ],
+        "action": "현재 사례의 새 출처 연결과 남는 과거 근거의 범위를 대조",
+        "current_primary_source": "S161",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch09.md",
+        "before_line": 216,
+        "before_section": "결과를 만드는 단계와 게시하는 단계를 나눈다",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": "S162",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch09.md",
+        "before_line": 218,
+        "before_section": "결과를 만드는 단계와 게시하는 단계를 나눈다",
+        "kind": "content",
+        "previous_source_ids": [
+          "S103"
+        ],
+        "action": "관련 장/웹의 예제·출처·진입 링크를 현재 구조에 맞추고 확인 범위를 명시",
+        "current_primary_source": "S162",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch09.md",
+        "before_line": 220,
+        "before_section": "결과를 만드는 단계와 게시하는 단계를 나눈다",
+        "kind": "content",
+        "previous_source_ids": [
+          "S103"
+        ],
+        "action": "관련 장/웹의 예제·출처·진입 링크를 현재 구조에 맞추고 확인 범위를 명시",
+        "current_primary_source": "S162",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch09.md",
+        "before_line": 292,
+        "before_section": "출처와 검토",
+        "kind": "source-list",
+        "previous_source_ids": [
+          "S103",
+          "S59"
+        ],
+        "action": "현재 사례의 새 출처 연결과 남는 과거 근거의 범위를 대조",
+        "current_primary_source": "S162",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch11.md",
+        "before_line": 86,
+        "before_section": "역할에 실행 조합을 배정하는 구현",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": "S163",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch11.md",
+        "before_line": 88,
+        "before_section": "역할에 실행 조합을 배정하는 구현",
+        "kind": "content",
+        "previous_source_ids": [
+          "S104"
+        ],
+        "action": "관련 장/웹의 예제·출처·진입 링크를 현재 구조에 맞추고 확인 범위를 명시",
+        "current_primary_source": "S163",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch11.md",
+        "before_line": 90,
+        "before_section": "역할에 실행 조합을 배정하는 구현",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "관련 장/웹의 예제·출처·진입 링크를 현재 구조에 맞추고 확인 범위를 명시",
+        "current_primary_source": "S163",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch11.md",
+        "before_line": 120,
+        "before_section": "출처와 검토",
+        "kind": "source-list",
+        "previous_source_ids": [
+          "S104"
+        ],
+        "action": "현재 사례의 새 출처 연결과 남는 과거 근거의 범위를 대조",
+        "current_primary_source": "S163",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch12.md",
+        "before_line": 72,
+        "before_section": "변경의 위험과 현재 증거를 병합 판단에 연결한다",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch12.md",
+        "before_line": 74,
+        "before_section": "변경의 위험과 현재 증거를 병합 판단에 연결한다",
+        "kind": "content",
+        "previous_source_ids": [
+          "S100"
+        ],
+        "action": "관련 장/웹의 예제·출처·진입 링크를 현재 구조에 맞추고 확인 범위를 명시",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch12.md",
+        "before_line": 76,
+        "before_section": "변경의 위험과 현재 증거를 병합 판단에 연결한다",
+        "kind": "content",
+        "previous_source_ids": [
+          "S100"
+        ],
+        "action": "관련 장/웹의 예제·출처·진입 링크를 현재 구조에 맞추고 확인 범위를 명시",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch12.md",
+        "before_line": 110,
+        "before_section": "하네스의 허용 판단을 실제 실행 경계와 맞춘다",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "관련 장/웹의 예제·출처·진입 링크를 현재 구조에 맞추고 확인 범위를 명시",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch12.md",
+        "before_line": 146,
+        "before_section": "출처와 검토",
+        "kind": "source-list",
+        "previous_source_ids": [
+          "S100",
+          "S59"
+        ],
+        "action": "현재 사례의 새 출처 연결과 남는 과거 근거의 범위를 대조",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch17.md",
+        "before_line": 106,
+        "before_section": "지표 이름보다 계산 대상을 읽는다",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": "S164",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch17.md",
+        "before_line": 108,
+        "before_section": "지표 이름보다 계산 대상을 읽는다",
+        "kind": "content",
+        "previous_source_ids": [
+          "S105"
+        ],
+        "action": "관련 장/웹의 예제·출처·진입 링크를 현재 구조에 맞추고 확인 범위를 명시",
+        "current_primary_source": "S164",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch17.md",
+        "before_line": 164,
+        "before_section": "출처와 검토",
+        "kind": "source-list",
+        "previous_source_ids": [
+          "S105"
+        ],
+        "action": "현재 사례의 새 출처 연결과 남는 과거 근거의 범위를 대조",
+        "current_primary_source": "S164",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch19.md",
+        "before_line": 76,
+        "before_section": "규칙 변경이 실제로 무엇을 더 잡는지 확인한다",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": "S165",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch19.md",
+        "before_line": 78,
+        "before_section": "규칙 변경이 실제로 무엇을 더 잡는지 확인한다",
+        "kind": "content",
+        "previous_source_ids": [
+          "S106"
+        ],
+        "action": "관련 장/웹의 예제·출처·진입 링크를 현재 구조에 맞추고 확인 범위를 명시",
+        "current_primary_source": "S165",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch19.md",
+        "before_line": 80,
+        "before_section": "규칙 변경이 실제로 무엇을 더 잡는지 확인한다",
+        "kind": "content",
+        "previous_source_ids": [
+          "S68"
+        ],
+        "action": "관련 장/웹의 예제·출처·진입 링크를 현재 구조에 맞추고 확인 범위를 명시",
+        "current_primary_source": "S165",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/chapters/ch19.md",
+        "before_line": 144,
+        "before_section": "출처와 검토",
+        "kind": "source-list",
+        "previous_source_ids": [
+          "S106",
+          "S59",
+          "S68"
+        ],
+        "action": "현재 사례의 새 출처 연결과 남는 과거 근거의 범위를 대조",
+        "current_primary_source": "S165",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/agent-selection.md",
+        "before_line": 3,
+        "before_section": "에이전트 선택과 평가",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "예산·위험별조합 선택과미확인범위로 교체",
+        "current_primary_source": "S163",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/agent-selection.md",
+        "before_line": 5,
+        "before_section": "에이전트 선택과 평가",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": "S163",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/agent-selection.md",
+        "before_line": 7,
+        "before_section": "에이전트 선택과 평가",
+        "kind": "content",
+        "previous_source_ids": [
+          "S104"
+        ],
+        "action": "예산·위험별조합 선택과미확인범위로 교체",
+        "current_primary_source": "S163",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/agent-selection.md",
+        "before_line": 11,
+        "before_section": "선언·배정·호출을 함께 읽는다",
+        "kind": "content",
+        "previous_source_ids": [
+          "S104"
+        ],
+        "action": "예산·위험별조합 선택과미확인범위로 교체",
+        "current_primary_source": "S163",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/agent-selection.md",
+        "before_line": 13,
+        "before_section": "선언·배정·호출을 함께 읽는다",
+        "kind": "content",
+        "previous_source_ids": [
+          "S104"
+        ],
+        "action": "예산·위험별조합 선택과미확인범위로 교체",
+        "current_primary_source": "S163",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/agent-selection.md",
+        "before_line": 19,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "예산·위험별조합 선택과미확인범위로 교체",
+        "current_primary_source": "S163",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/agent-selection.md",
+        "before_line": 20,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "예산·위험별조합 선택과미확인범위로 교체",
+        "current_primary_source": "S163",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/agent-selection.md",
+        "before_line": 21,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "예산·위험별조합 선택과미확인범위로 교체",
+        "current_primary_source": "S163",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/agent-selection.md",
+        "before_line": 22,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "예산·위험별조합 선택과미확인범위로 교체",
+        "current_primary_source": "S163",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/agent-selection.md",
+        "before_line": 26,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "예산·위험별조합 선택과미확인범위로 교체",
+        "current_primary_source": "S163",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/agent-selection.md",
+        "before_line": 28,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "예산·위험별조합 선택과미확인범위로 교체",
+        "current_primary_source": "S163",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/agent-selection.md",
+        "before_line": 30,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "예산·위험별조합 선택과미확인범위로 교체",
+        "current_primary_source": "S163",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/evidence.md",
+        "before_line": 3,
+        "before_section": "결과를 판단하는 증거",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "새읽기리뷰/구조화판정/실행증거 범위로 교체",
+        "current_primary_source": "S160",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/evidence.md",
+        "before_line": 5,
+        "before_section": "결과를 판단하는 증거",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": "S160",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/evidence.md",
+        "before_line": 7,
+        "before_section": "결과를 판단하는 증거",
+        "kind": "content",
+        "previous_source_ids": [
+          "S101"
+        ],
+        "action": "새읽기리뷰/구조화판정/실행증거 범위로 교체",
+        "current_primary_source": "S160",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/evidence.md",
+        "before_line": 11,
+        "before_section": "두 버전과 실패의 종류를 연결한다",
+        "kind": "content",
+        "previous_source_ids": [
+          "S101"
+        ],
+        "action": "새읽기리뷰/구조화판정/실행증거 범위로 교체",
+        "current_primary_source": "S160",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/evidence.md",
+        "before_line": 13,
+        "before_section": "두 버전과 실패의 종류를 연결한다",
+        "kind": "content",
+        "previous_source_ids": [
+          "S101"
+        ],
+        "action": "새읽기리뷰/구조화판정/실행증거 범위로 교체",
+        "current_primary_source": "S160",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/evidence.md",
+        "before_line": 27,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "새읽기리뷰/구조화판정/실행증거 범위로 교체",
+        "current_primary_source": "S160",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/evidence.md",
+        "before_line": 28,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "새읽기리뷰/구조화판정/실행증거 범위로 교체",
+        "current_primary_source": "S160",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/evidence.md",
+        "before_line": 29,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "새읽기리뷰/구조화판정/실행증거 범위로 교체",
+        "current_primary_source": "S160",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/evidence.md",
+        "before_line": 33,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [
+          "S101"
+        ],
+        "action": "새읽기리뷰/구조화판정/실행증거 범위로 교체",
+        "current_primary_source": "S160",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/evidence.md",
+        "before_line": 35,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "새읽기리뷰/구조화판정/실행증거 범위로 교체",
+        "current_primary_source": "S160",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/evidence.md",
+        "before_line": 37,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "새읽기리뷰/구조화판정/실행증거 범위로 교체",
+        "current_primary_source": "S160",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/execution-authority.md",
+        "before_line": 3,
+        "before_section": "만드는 권한과 게시하는 권한",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "제어평면/샌드박스/출구/게시경계로 교체",
+        "current_primary_source": "S162",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/execution-authority.md",
+        "before_line": 5,
+        "before_section": "만드는 권한과 게시하는 권한",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": "S162",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/execution-authority.md",
+        "before_line": 7,
+        "before_section": "만드는 권한과 게시하는 권한",
+        "kind": "content",
+        "previous_source_ids": [
+          "S103"
+        ],
+        "action": "제어평면/샌드박스/출구/게시경계로 교체",
+        "current_primary_source": "S162",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/execution-authority.md",
+        "before_line": 11,
+        "before_section": "계획과 결과가 권한 경계를 건넌다",
+        "kind": "content",
+        "previous_source_ids": [
+          "S103"
+        ],
+        "action": "제어평면/샌드박스/출구/게시경계로 교체",
+        "current_primary_source": "S162",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/execution-authority.md",
+        "before_line": 25,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "제어평면/샌드박스/출구/게시경계로 교체",
+        "current_primary_source": "S162",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/execution-authority.md",
+        "before_line": 26,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "제어평면/샌드박스/출구/게시경계로 교체",
+        "current_primary_source": "S162",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/execution-authority.md",
+        "before_line": 27,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "제어평면/샌드박스/출구/게시경계로 교체",
+        "current_primary_source": "S162",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/execution-authority.md",
+        "before_line": 28,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "제어평면/샌드박스/출구/게시경계로 교체",
+        "current_primary_source": "S162",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/execution-authority.md",
+        "before_line": 32,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [
+          "S103"
+        ],
+        "action": "제어평면/샌드박스/출구/게시경계로 교체",
+        "current_primary_source": "S162",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/execution-authority.md",
+        "before_line": 34,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "제어평면/샌드박스/출구/게시경계로 교체",
+        "current_primary_source": "S162",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/execution-authority.md",
+        "before_line": 36,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "제어평면/샌드박스/출구/게시경계로 교체",
+        "current_primary_source": "S162",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/improvement.md",
+        "before_line": 3,
+        "before_section": "관찰을 개선으로 연결하기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "현재관찰과남은자동개선/과거리허설의 구분",
+        "current_primary_source": "S165",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/improvement.md",
+        "before_line": 5,
+        "before_section": "관찰을 개선으로 연결하기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": "S165",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/improvement.md",
+        "before_line": 7,
+        "before_section": "관찰을 개선으로 연결하기",
+        "kind": "content",
+        "previous_source_ids": [
+          "S106"
+        ],
+        "action": "현재관찰과남은자동개선/과거리허설의 구분",
+        "current_primary_source": "S165",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/improvement.md",
+        "before_line": 11,
+        "before_section": "후보에서 평가까지",
+        "kind": "content",
+        "previous_source_ids": [
+          "S106"
+        ],
+        "action": "현재관찰과남은자동개선/과거리허설의 구분",
+        "current_primary_source": "S165",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/improvement.md",
+        "before_line": 13,
+        "before_section": "후보에서 평가까지",
+        "kind": "content",
+        "previous_source_ids": [
+          "S106"
+        ],
+        "action": "현재관찰과남은자동개선/과거리허설의 구분",
+        "current_primary_source": "S165",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/improvement.md",
+        "before_line": 27,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "현재관찰과남은자동개선/과거리허설의 구분",
+        "current_primary_source": "S165",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/improvement.md",
+        "before_line": 28,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "현재관찰과남은자동개선/과거리허설의 구분",
+        "current_primary_source": "S165",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/improvement.md",
+        "before_line": 29,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "현재관찰과남은자동개선/과거리허설의 구분",
+        "current_primary_source": "S165",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/improvement.md",
+        "before_line": 30,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "현재관찰과남은자동개선/과거리허설의 구분",
+        "current_primary_source": "S165",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/improvement.md",
+        "before_line": 34,
+        "before_section": "과거 실행 기록은 별도로 읽는다",
+        "kind": "content",
+        "previous_source_ids": [
+          "S68"
+        ],
+        "action": "당시 Conveyor 역사 사례로 보존; 저장소 이동과 새 플랫폼과의 구분 명시",
+        "current_primary_source": "S165",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/improvement.md",
+        "before_line": 36,
+        "before_section": "과거 실행 기록은 별도로 읽는다",
+        "kind": "content",
+        "previous_source_ids": [
+          "S106"
+        ],
+        "action": "현재관찰과남은자동개선/과거리허설의 구분",
+        "current_primary_source": "S165",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/improvement.md",
+        "before_line": 38,
+        "before_section": "과거 실행 기록은 별도로 읽는다",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "현재관찰과남은자동개선/과거리허설의 구분",
+        "current_primary_source": "S165",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/improvement.md",
+        "before_line": 42,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "현재관찰과남은자동개선/과거리허설의 구분",
+        "current_primary_source": "S165",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/improvement.md",
+        "before_line": 44,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "현재관찰과남은자동개선/과거리허설의 구분",
+        "current_primary_source": "S165",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/improvement.md",
+        "before_line": 46,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "현재관찰과남은자동개선/과거리허설의 구분",
+        "current_primary_source": "S165",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/index.md",
+        "before_line": 1,
+        "before_section": "데모 해설",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "플랫폼과Conveyor/현재경로/과거구현 구분",
+        "current_primary_source": "S157",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/index.md",
+        "before_line": 3,
+        "before_section": "데모 해설",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "플랫폼과Conveyor/현재경로/과거구현 구분",
+        "current_primary_source": "S157",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/index.md",
+        "before_line": 5,
+        "before_section": "데모 해설",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": "S157",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/index.md",
+        "before_line": 7,
+        "before_section": "데모 해설",
+        "kind": "content",
+        "previous_source_ids": [
+          "S98"
+        ],
+        "action": "플랫폼과Conveyor/현재경로/과거구현 구분",
+        "current_primary_source": "S157",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/index.md",
+        "before_line": 11,
+        "before_section": "먼저 볼 흐름",
+        "kind": "content",
+        "previous_source_ids": [
+          "S98"
+        ],
+        "action": "플랫폼과Conveyor/현재경로/과거구현 구분",
+        "current_primary_source": "S157",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/index.md",
+        "before_line": 13,
+        "before_section": "먼저 볼 흐름",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "플랫폼과Conveyor/현재경로/과거구현 구분",
+        "current_primary_source": "S157",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/index.md",
+        "before_line": 17,
+        "before_section": "먼저 볼 흐름",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "플랫폼과Conveyor/현재경로/과거구현 구분",
+        "current_primary_source": "S157",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/index.md",
+        "before_line": 38,
+        "before_section": "자료를 읽는 순서",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "플랫폼과Conveyor/현재경로/과거구현 구분",
+        "current_primary_source": "S157",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/index.md",
+        "before_line": 40,
+        "before_section": "자료를 읽는 순서",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": "S157",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/metrics.md",
+        "before_line": 3,
+        "before_section": "활동과 성과를 구분하는 지표",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "D1상태/사건/토큰기반추정비용으로 교체",
+        "current_primary_source": "S164",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/metrics.md",
+        "before_line": 5,
+        "before_section": "활동과 성과를 구분하는 지표",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": "S164",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/metrics.md",
+        "before_line": 7,
+        "before_section": "활동과 성과를 구분하는 지표",
+        "kind": "content",
+        "previous_source_ids": [
+          "S105"
+        ],
+        "action": "D1상태/사건/토큰기반추정비용으로 교체",
+        "current_primary_source": "S164",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/metrics.md",
+        "before_line": 11,
+        "before_section": "기록에서 숫자가 만들어지는 경로",
+        "kind": "content",
+        "previous_source_ids": [
+          "S105"
+        ],
+        "action": "D1상태/사건/토큰기반추정비용으로 교체",
+        "current_primary_source": "S164",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/metrics.md",
+        "before_line": 13,
+        "before_section": "기록에서 숫자가 만들어지는 경로",
+        "kind": "content",
+        "previous_source_ids": [
+          "S105"
+        ],
+        "action": "D1상태/사건/토큰기반추정비용으로 교체",
+        "current_primary_source": "S164",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/metrics.md",
+        "before_line": 15,
+        "before_section": "기록에서 숫자가 만들어지는 경로",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "D1상태/사건/토큰기반추정비용으로 교체",
+        "current_primary_source": "S164",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/metrics.md",
+        "before_line": 21,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "D1상태/사건/토큰기반추정비용으로 교체",
+        "current_primary_source": "S164",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/metrics.md",
+        "before_line": 22,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "D1상태/사건/토큰기반추정비용으로 교체",
+        "current_primary_source": "S164",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/metrics.md",
+        "before_line": 23,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "D1상태/사건/토큰기반추정비용으로 교체",
+        "current_primary_source": "S164",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/metrics.md",
+        "before_line": 27,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "D1상태/사건/토큰기반추정비용으로 교체",
+        "current_primary_source": "S164",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/metrics.md",
+        "before_line": 29,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "D1상태/사건/토큰기반추정비용으로 교체",
+        "current_primary_source": "S164",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/metrics.md",
+        "before_line": 31,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "D1상태/사건/토큰기반추정비용으로 교체",
+        "current_primary_source": "S164",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/policy-and-gate.md",
+        "before_line": 3,
+        "before_section": "정책과 수용 경계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "저장소 정책/현재SHA/체크출처의새판정으로 교체",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/policy-and-gate.md",
+        "before_line": 5,
+        "before_section": "정책과 수용 경계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/policy-and-gate.md",
+        "before_line": 7,
+        "before_section": "정책과 수용 경계",
+        "kind": "content",
+        "previous_source_ids": [
+          "S100"
+        ],
+        "action": "저장소 정책/현재SHA/체크출처의새판정으로 교체",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/policy-and-gate.md",
+        "before_line": 11,
+        "before_section": "분류에서 반영 판단까지",
+        "kind": "content",
+        "previous_source_ids": [
+          "S100"
+        ],
+        "action": "저장소 정책/현재SHA/체크출처의새판정으로 교체",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/policy-and-gate.md",
+        "before_line": 13,
+        "before_section": "분류에서 반영 판단까지",
+        "kind": "content",
+        "previous_source_ids": [
+          "S100"
+        ],
+        "action": "저장소 정책/현재SHA/체크출처의새판정으로 교체",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/policy-and-gate.md",
+        "before_line": 15,
+        "before_section": "분류에서 반영 판단까지",
+        "kind": "content",
+        "previous_source_ids": [
+          "S100"
+        ],
+        "action": "저장소 정책/현재SHA/체크출처의새판정으로 교체",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/policy-and-gate.md",
+        "before_line": 23,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "저장소 정책/현재SHA/체크출처의새판정으로 교체",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/policy-and-gate.md",
+        "before_line": 24,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "저장소 정책/현재SHA/체크출처의새판정으로 교체",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/policy-and-gate.md",
+        "before_line": 25,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "저장소 정책/현재SHA/체크출처의새판정으로 교체",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/policy-and-gate.md",
+        "before_line": 26,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "저장소 정책/현재SHA/체크출처의새판정으로 교체",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/policy-and-gate.md",
+        "before_line": 28,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "저장소 정책/현재SHA/체크출처의새판정으로 교체",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/policy-and-gate.md",
+        "before_line": 32,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "저장소 정책/현재SHA/체크출처의새판정으로 교체",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/policy-and-gate.md",
+        "before_line": 34,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [
+          "S100"
+        ],
+        "action": "저장소 정책/현재SHA/체크출처의새판정으로 교체",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/policy-and-gate.md",
+        "before_line": 36,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "저장소 정책/현재SHA/체크출처의새판정으로 교체",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/policy-and-gate.md",
+        "before_line": 38,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "저장소 정책/현재SHA/체크출처의새판정으로 교체",
+        "current_primary_source": "S159",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/recovery.md",
+        "before_line": 3,
+        "before_section": "실패에서 복구로",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "중지·종료·재시작의 현재전이로 교체",
+        "current_primary_source": "S161",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/recovery.md",
+        "before_line": 5,
+        "before_section": "실패에서 복구로",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": "S161",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/recovery.md",
+        "before_line": 7,
+        "before_section": "실패에서 복구로",
+        "kind": "content",
+        "previous_source_ids": [
+          "S102"
+        ],
+        "action": "중지·종료·재시작의 현재전이로 교체",
+        "current_primary_source": "S161",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/recovery.md",
+        "before_line": 11,
+        "before_section": "무엇을 멈추고 무엇을 재개하는가",
+        "kind": "content",
+        "previous_source_ids": [
+          "S102"
+        ],
+        "action": "중지·종료·재시작의 현재전이로 교체",
+        "current_primary_source": "S161",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/recovery.md",
+        "before_line": 13,
+        "before_section": "무엇을 멈추고 무엇을 재개하는가",
+        "kind": "content",
+        "previous_source_ids": [
+          "S102"
+        ],
+        "action": "중지·종료·재시작의 현재전이로 교체",
+        "current_primary_source": "S161",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/recovery.md",
+        "before_line": 25,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "중지·종료·재시작의 현재전이로 교체",
+        "current_primary_source": "S161",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/recovery.md",
+        "before_line": 26,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "중지·종료·재시작의 현재전이로 교체",
+        "current_primary_source": "S161",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/recovery.md",
+        "before_line": 27,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "중지·종료·재시작의 현재전이로 교체",
+        "current_primary_source": "S161",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/recovery.md",
+        "before_line": 28,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "중지·종료·재시작의 현재전이로 교체",
+        "current_primary_source": "S161",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/recovery.md",
+        "before_line": 30,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "중지·종료·재시작의 현재전이로 교체",
+        "current_primary_source": "S161",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/recovery.md",
+        "before_line": 34,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "중지·종료·재시작의 현재전이로 교체",
+        "current_primary_source": "S161",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/recovery.md",
+        "before_line": 36,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "중지·종료·재시작의 현재전이로 교체",
+        "current_primary_source": "S161",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/recovery.md",
+        "before_line": 38,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "중지·종료·재시작의 현재전이로 교체",
+        "current_primary_source": "S161",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/request.md",
+        "before_line": 3,
+        "before_section": "요청에서 실행 가능한 작업까지",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "운영자 허용 접수와실행 상태로 교체",
+        "current_primary_source": "S158",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/request.md",
+        "before_line": 5,
+        "before_section": "요청에서 실행 가능한 작업까지",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": "S158",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/request.md",
+        "before_line": 7,
+        "before_section": "요청에서 실행 가능한 작업까지",
+        "kind": "content",
+        "previous_source_ids": [
+          "S99"
+        ],
+        "action": "운영자 허용 접수와실행 상태로 교체",
+        "current_primary_source": "S158",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/request.md",
+        "before_line": 11,
+        "before_section": "요청과 승인을 잇는 흐름",
+        "kind": "content",
+        "previous_source_ids": [
+          "S99"
+        ],
+        "action": "운영자 허용 접수와실행 상태로 교체",
+        "current_primary_source": "S158",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/request.md",
+        "before_line": 13,
+        "before_section": "요청과 승인을 잇는 흐름",
+        "kind": "content",
+        "previous_source_ids": [
+          "S99"
+        ],
+        "action": "운영자 허용 접수와실행 상태로 교체",
+        "current_primary_source": "S158",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/request.md",
+        "before_line": 15,
+        "before_section": "요청과 승인을 잇는 흐름",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "운영자 허용 접수와실행 상태로 교체",
+        "current_primary_source": "S158",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/request.md",
+        "before_line": 21,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "운영자 허용 접수와실행 상태로 교체",
+        "current_primary_source": "S158",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/request.md",
+        "before_line": 22,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "운영자 허용 접수와실행 상태로 교체",
+        "current_primary_source": "S158",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/request.md",
+        "before_line": 23,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "운영자 허용 접수와실행 상태로 교체",
+        "current_primary_source": "S158",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/request.md",
+        "before_line": 24,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "운영자 허용 접수와실행 상태로 교체",
+        "current_primary_source": "S158",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/request.md",
+        "before_line": 26,
+        "before_section": "구현 근거 읽기",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "운영자 허용 접수와실행 상태로 교체",
+        "current_primary_source": "S158",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/request.md",
+        "before_line": 32,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "운영자 허용 접수와실행 상태로 교체",
+        "current_primary_source": "S158",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/demo/request.md",
+        "before_line": 34,
+        "before_section": "리더의 판단과 한계",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "운영자 허용 접수와실행 상태로 교체",
+        "current_primary_source": "S158",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/figures/README.md",
+        "before_line": 25,
+        "before_section": "설명 도표 보강 — 2026-10-24",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "관련 장/웹의 예제·출처·진입 링크를 현재 구조에 맞추고 확인 범위를 명시",
+        "current_primary_source": null,
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/figures/README.md",
+        "before_line": 26,
+        "before_section": "설명 도표 보강 — 2026-10-24",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "관련 장/웹의 예제·출처·진입 링크를 현재 구조에 맞추고 확인 범위를 명시",
+        "current_primary_source": null,
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/figures/README.md",
+        "before_line": 28,
+        "before_section": "설명 도표 보강 — 2026-10-24",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "관련 장/웹의 예제·출처·진입 링크를 현재 구조에 맞추고 확인 범위를 명시",
+        "current_primary_source": null,
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/front-matter/00-preface.md",
+        "before_line": 41,
+        "before_section": "구현을 따라 읽는 공통 예제",
+        "kind": "content",
+        "previous_source_ids": [
+          "S98"
+        ],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": "S157",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "manuscript/front-matter/00-preface.md",
+        "before_line": 43,
+        "before_section": "구현을 따라 읽는 공통 예제",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "관련 장/웹의 예제·출처·진입 링크를 현재 구조에 맞추고 확인 범위를 명시",
+        "current_primary_source": "S157",
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "website/src/pages/about.astro",
+        "before_line": 7,
+        "before_section": "",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": null,
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      },
+      {
+        "before_path": "website/src/pages/guide.astro",
+        "before_line": 12,
+        "before_section": "",
+        "kind": "content",
+        "previous_source_ids": [],
+        "action": "일시 이용 제한 해제; 현재 판본/확인 범위 안내로 대체",
+        "current_primary_source": null,
+        "status": "원고/해설과근거대조 완료; 별도AI검증 범위는 검증보고서 참조"
+      }
+    ],
+    "chapters_and_patterns": [
+      {
+        "path": "manuscript/chapters/ch01.md",
+        "mentions": 5
+      },
+      {
+        "path": "manuscript/chapters/ch02.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/chapters/ch03.md",
+        "mentions": 3
+      },
+      {
+        "path": "manuscript/chapters/ch04.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/chapters/ch05.md",
+        "mentions": 2
+      },
+      {
+        "path": "manuscript/chapters/ch06.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/chapters/ch07.md",
+        "mentions": 3
+      },
+      {
+        "path": "manuscript/chapters/ch08.md",
+        "mentions": 2
+      },
+      {
+        "path": "manuscript/chapters/ch09.md",
+        "mentions": 2
+      },
+      {
+        "path": "manuscript/chapters/ch10.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/chapters/ch11.md",
+        "mentions": 2
+      },
+      {
+        "path": "manuscript/chapters/ch12.md",
+        "mentions": 4
+      },
+      {
+        "path": "manuscript/chapters/ch13.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/chapters/ch14.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/chapters/ch15.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/chapters/ch16.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/chapters/ch17.md",
+        "mentions": 2
+      },
+      {
+        "path": "manuscript/chapters/ch18.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/chapters/ch19.md",
+        "mentions": 4
+      },
+      {
+        "path": "manuscript/chapters/ch20.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/patterns/p01.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/patterns/p02.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/patterns/p03.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/patterns/p04.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/patterns/p05.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/patterns/p06.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/patterns/p07.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/patterns/p08.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/patterns/p09.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/patterns/p10.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/patterns/p11.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/patterns/p12.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/patterns/p13.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/patterns/p14.md",
+        "mentions": 0
+      },
+      {
+        "path": "manuscript/patterns/p15.md",
+        "mentions": 0
+      }
+    ],
+    "additional_manual_scope": [
+      "README.md",
+      "website/src/lib/recommendations.mjs",
+      "website/scripts/publication.mjs",
+      "website/scripts/generate-content.mjs",
+      "SVG2개와catalog",
+      "조사/주장/출처메타데이터"
+    ]
+  },
+  "reading": {
+    "revisions_incremented_once": [
+      "ch01",
+      "ch03",
+      "ch05",
+      "ch07",
+      "ch08",
+      "ch09",
+      "ch11",
+      "ch12",
+      "ch17",
+      "ch19",
+      "demo-agent-selection",
+      "demo-evidence",
+      "demo-execution-authority",
+      "demo-improvement",
+      "demo-index",
+      "demo-metrics",
+      "demo-policy-and-gate",
+      "demo-recovery",
+      "demo-request",
+      "preface"
+    ],
+    "old_anchors_preserved": true,
+    "chapter7_new_heading_reuses_anchor": true,
+    "chapter7_old_slug_alias_preserved": true
+  },
+  "checks": {
+    "project": "20 chapters /15 patterns /165 sources PASS",
+    "python_tests": 10,
+    "web_unit_tests": 37,
+    "tldr_current": 20,
+    "astro": {
+      "files": 41,
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "build_pages": 56,
+    "cited_sources": 103,
+    "links": "PASS",
+    "e2e": {
+      "passed": 35,
+      "intentional_skipped": 1
+    },
+    "final_diagram_e2e": 4,
+    "browser": "planning/reviews/2026-11-09-demo-examples-renewal-browser.json",
+    "final_diagrams": "planning/reviews/2026-11-09-demo-examples-renewal-final-diagrams.json"
+  },
+  "separate_verification": "planning/reviews/2026-11-09-demo-examples-verify-renewal.md",
+  "files": {
+    "CHANGELOG.md": {
+      "before_sha256": null,
+      "sha256": "d91b4c3f1c1dbe5bb199d63a5584dd911907d700ded760b779ab55c64d098529"
+    },
+    "README.md": {
+      "before_sha256": null,
+      "sha256": "85d6c179b19a2070fccc98c29e966388f0cb59d8a3f95035e5666ba3352d8672"
+    },
+    "manuscript/chapters/ch01.md": {
+      "before_sha256": "b6e7f5ec9cbb33ab7e42c83dd209ef1c7457da8732650394d1e837ee41f440aa",
+      "sha256": "78361b6ff233f89b94ed5acccfef61639e448eda0a222bd989f8fe12d8254e67"
+    },
+    "manuscript/chapters/ch03.md": {
+      "before_sha256": "fb5cd7eb41a30ff0cd84a3d9d466073ff5e5915464c4a44b64873e3638edaf15",
+      "sha256": "8b3696aa00cddc950ea5b5e073076a993424c4da10ad62197ec4e3d6ec49b480"
+    },
+    "manuscript/chapters/ch05.md": {
+      "before_sha256": "2c6a365bcbe53e5be19a5550e23b98656aba30198b5f97c868c423d9b4a0ea41",
+      "sha256": "70857eeb299ccb9aac3e459f02927c41e4f465ae3a2f90859ec58ffc5e07f405"
+    },
+    "manuscript/chapters/ch07.md": {
+      "before_sha256": "25b3554d4230015b89e4be4a2a55876870f08d5926f8c3853b544bf23981b837",
+      "sha256": "7614ee9eee7e320d8004f436d9547900f4088227d256bfb0b036f17f9be1572c"
+    },
+    "manuscript/chapters/ch08.md": {
+      "before_sha256": "cba425ac1b06b17ff73e221619663e3dfb5c0e092f878a7429ad725a88942e1d",
+      "sha256": "dcd11679936240c18102f508547e95aa86853112ea395d2f2d2547a4e5dd3b9a"
+    },
+    "manuscript/chapters/ch09.md": {
+      "before_sha256": "7b59faf326dd6cfdae8a8194c3bfc3069d5ebdaf14e3df7eef62c16c627b90c9",
+      "sha256": "dcee4d1278acdf73886bdf6957fca6b35fc9592c7b4a6d174b1bf6a84ca526d7"
+    },
+    "manuscript/chapters/ch11.md": {
+      "before_sha256": "b5f9674d9e80f1297e0aef4db4eb42d6da068056d07f2a2a5570ea9325486d45",
+      "sha256": "1bd829ee5fac6ebb23dc68838cf8938e26b16614150c2647a768509548a0f07d"
+    },
+    "manuscript/chapters/ch12.md": {
+      "before_sha256": "65668b95568b38cf4667fcfc81a11308ec54b9861a39cc12ab75a34abc02f82f",
+      "sha256": "8cc6dcc550c455c08643d3484dcfb2a9e7e24aa413c678801838ae50a9775103"
+    },
+    "manuscript/chapters/ch17.md": {
+      "before_sha256": "c198699b56c99ea8db6bac8d4dece908867e777396b08b3483e17dfb442d6331",
+      "sha256": "315d516982fb35c345bd0c17210789422bfd432482119ca24eb2fe96f737e3aa"
+    },
+    "manuscript/chapters/ch19.md": {
+      "before_sha256": "ef7ec4fc569fc01f9f966cd030fd49b2b9bee9d4a230d9de98c6229f3d533e1d",
+      "sha256": "48353f6ce43ed1169620ffe336c3f457fc9a7db77353b1fda68b311e1d10e9be"
+    },
+    "manuscript/demo/agent-selection.md": {
+      "before_sha256": "653f2371f9e1205c3454ad7a672513ef50dee85460d3e6a503d3f6257f9d7efb",
+      "sha256": "b4fd04df7c214e7afcba155a9414aa20feda836c9d1d0916bed9009d35bb0bf0"
+    },
+    "manuscript/demo/evidence.md": {
+      "before_sha256": "4a16638834bea4596df05e7dee4d39306a8486b355723b5dccc84c20d202bf23",
+      "sha256": "578965d982ac8944a955782761ce7efd4cc472732eccda0a3f69d4f5d91ea5d0"
+    },
+    "manuscript/demo/execution-authority.md": {
+      "before_sha256": "e221a5feaabc8c6fb57c28a0ea8b07a62bb3ffb94fa4bd52e82804e61cf4b145",
+      "sha256": "043da823dc36c88fa3919a31cf8c6a55f34978cac0cbeff497c04ced87de7beb"
+    },
+    "manuscript/demo/improvement.md": {
+      "before_sha256": "e2cb754ff4e4490e4c77655c90f22288e1d5a1e4db9136dbb2fda8f7c0e89d75",
+      "sha256": "d11b5b15d090978d40cac5d30e2b9626a78d761be8c2a6d055fb9c3284bb590b"
+    },
+    "manuscript/demo/index.md": {
+      "before_sha256": "bec434e86de50cb683dea3ae3a668bf8105d76f5b2811b235344783df180051d",
+      "sha256": "73067a79e478eebd59cf2279d90f94a662cba6a2d832ef4564ad544e2c17ca24"
+    },
+    "manuscript/demo/metrics.md": {
+      "before_sha256": "bc45ba43c3b1e3ce21c2083d2a3263bfefa6b2519c97ca14592c13418ecc8aaa",
+      "sha256": "f068ef06bd5908129a5774064695497b7d8f63d26c54c169a42a6988effa0212"
+    },
+    "manuscript/demo/policy-and-gate.md": {
+      "before_sha256": "714c6bfeb2cb94e7399487cfc20287227870fad6a9bda634a9df1ada6dfcc492",
+      "sha256": "524fa2ee90ea4c6a2ba4d7fef792e16685f00f4571dbc4921968f778cfb5bcea"
+    },
+    "manuscript/demo/recovery.md": {
+      "before_sha256": "dad62efab2dedede936296169acb325929810ff37d33906b9706f44378d9d757",
+      "sha256": "6f6d26f71a9f502557b75d287647b0e85a6e8d536ec4be630749ce23d99fca35"
+    },
+    "manuscript/demo/request.md": {
+      "before_sha256": "8b18119d987be68b48f39d5746f09e05e8bf8d89b3469e30b3b0b8e55ab0130b",
+      "sha256": "bffd382f72390501f2583aeca4a625aacc2e11a18e7ca750f22268bdd8419318"
+    },
+    "manuscript/figures/README.md": {
+      "before_sha256": "6bf72484679de5abb7cf98459132c2672eca47f1d498f93e2c954ea6bd79efa1",
+      "sha256": "37314ec31a70a54367b1e7c2ce77d719a9dfbf05e13bbfd53a00024e4d211a4d"
+    },
+    "manuscript/figures/catalog.json": {
+      "before_sha256": null,
+      "sha256": "386aa7391213f58fff57f090f90eeb50982469657034c86553800dcf3ed6fe58"
+    },
+    "manuscript/figures/demo-authority-boundary.svg": {
+      "before_sha256": "609a3e7ef962bcdb4358c678f6f04102fbe2128fcaa16bba78953c914c8c3884",
+      "sha256": "2bd972801e61dd130922b3499501db4c46e0ebf526a2158b5f03f5e81d07c529"
+    },
+    "manuscript/figures/demo-flow.svg": {
+      "before_sha256": "4b02c0d58936041d65e317bee5ed1e9ee22ebe43af3ac3132ad806b84a27112f",
+      "sha256": "dc69e60fdc6e6fae462701b4cc02b05dedd737de6e9654ba348da5d0cd3e51d0"
+    },
+    "manuscript/front-matter/00-preface.md": {
+      "before_sha256": "eaad2b4e4360378695d50e9189e936663ebd077e44d318d9cd85647bec018752",
+      "sha256": "35c8f469da07f61ca2cec5460368dfc14da6d74a397cc40121e3e323cf970d5e"
+    },
+    "planning/book-brief.md": {
+      "before_sha256": null,
+      "sha256": "c383cafcd45dad2e88792397cbc94ef4bfb2fd4e26b88f20651e751bbb6307a4"
+    },
+    "planning/chapter-tldr-manifest.json": {
+      "before_sha256": "ee92bb18f19327063e8b328935cbea23b1f7baf6132073608a2e4789b53e4390",
+      "sha256": "8f09fc88d8685a2aedf1bb9dba1454318786ad806584e3fb5ff2c7490461c68b"
+    },
+    "research/cases/software-factory-demo.md": {
+      "before_sha256": null,
+      "sha256": "eedeac2f0b480586fbd75c594f76f836dec91aa39967ffdce0a64957598f91b0"
+    },
+    "research/claims/ch01.json": {
+      "before_sha256": null,
+      "sha256": "11cd4cced3d434e177e29c1d8f860f588c7de8ab0aa029622f2e0ee31f8480f4"
+    },
+    "research/claims/ch03.json": {
+      "before_sha256": null,
+      "sha256": "096cc23f916b3081b5fa2c8cdcf86febbdac85864fb3ccfe684ef6c2dd89bc1b"
+    },
+    "research/claims/ch05.json": {
+      "before_sha256": null,
+      "sha256": "13943a49d3a40869250fbdd4786b1e9c0387f1843e4db05cca8ecbad0eda3095"
+    },
+    "research/claims/ch07.json": {
+      "before_sha256": null,
+      "sha256": "e41a1f259106e9792f0df6a500cb1cf02a114f2528072cf5943924366eb6c613"
+    },
+    "research/claims/ch08.json": {
+      "before_sha256": null,
+      "sha256": "5eca6420ec0431565ecdd3f9d37e33003b2fd73088dec7185f9f7e2d49ee3a42"
+    },
+    "research/claims/ch09.json": {
+      "before_sha256": null,
+      "sha256": "d195daff0031b092b76ed5eaf82d76fc1f9b98e99c6f9faec569eb804e3d14d1"
+    },
+    "research/claims/ch11.json": {
+      "before_sha256": null,
+      "sha256": "fd97a6d7cb43f0d2a44130e2e32eb4a74129e560f438f1f679519fbb49b34151"
+    },
+    "research/claims/ch12.json": {
+      "before_sha256": null,
+      "sha256": "83863826963d68fe44c496fb50e6e6124104920e17c55cebd4c395dae8aa0bbc"
+    },
+    "research/claims/ch17.json": {
+      "before_sha256": null,
+      "sha256": "ec4ec0c64c966c287f9af93785112529f86af8f081ef5d53ac556349162e3509"
+    },
+    "research/claims/ch19.json": {
+      "before_sha256": null,
+      "sha256": "f1c91b7cd8e7db9aa52b74e334adc4f2cc5a88ff3246584af413480fad27e44a"
+    },
+    "research/claims/software-factory-demo.json": {
+      "before_sha256": null,
+      "sha256": "fd8006365a1a2ddb5256aa24d9e49c77169b41441bdeeeab0201b4d435c7053e"
+    },
+    "research/demo-example-cases.json": {
+      "before_sha256": "8fe8db9c03d24cc61c44d5d0da797d6a321335f440d8d9dd334588f28d72c7d5",
+      "sha256": "a85b1a679fa845a9ae20585b37e365f249c207c60f246f63ee491ddff2c98982"
+    },
+    "research/software-factory-demo-inventory.json": {
+      "before_sha256": null,
+      "sha256": "a51c8cdbe896c28cfdcf7dd86a03e2f646f983e794c9910d3dbd05bcda033bdf"
+    },
+    "research/sources.json": {
+      "before_sha256": "41b8da6d2607e2ec3ff2ce197996109f1bb85ea7240970ab4ba9697c957ed4d6",
+      "sha256": "86da2d8060f54f76ccf25f7e49551506d465d2dba976c76b2f6797202ec3bf35"
+    },
+    "scripts/demo_examples.py": {
+      "before_sha256": null,
+      "sha256": "471d7adb9baf42563b2337fdb3c44046af5e431db9bd29881ee449fd5314864b"
+    },
+    "website/content-manifest.json": {
+      "before_sha256": "efc25c4261195393874ca0e4a5cd2858e7520458f4affc71459a09e3b7d716b2",
+      "sha256": "75363d9dd30f92ce4caefa0ac1a2387006f034eb6a6ac11612360077ad3502b5"
+    },
+    "website/scripts/generate-content.mjs": {
+      "before_sha256": null,
+      "sha256": "ad890eecf3218c857838e22e4dadfa1f14df17a55bf5f540901f3c96aabb00e7"
+    },
+    "website/scripts/publication.mjs": {
+      "before_sha256": null,
+      "sha256": "11990c7b7319284167fe1d6e8d1fbf77a7ef3322ccfdeea84de2ea7185c834a8"
+    },
+    "website/src/lib/recommendations.mjs": {
+      "before_sha256": null,
+      "sha256": "bf128a226efa43240da340f5cea0fb115e01ab511687d1e973f43e02e308503d"
+    },
+    "website/src/pages/about.astro": {
+      "before_sha256": null,
+      "sha256": "1d4ccdabcd13d712d8778cedab8faf1f1fa26d52121bf1e4ce9ffed301267b4f"
+    },
+    "website/src/pages/guide.astro": {
+      "before_sha256": null,
+      "sha256": "5105b7adcd595b24d1894bc7fd2d1718bfd9cfc5d0a84e807145559894648a53"
+    },
+    "website/tests/publication.test.mjs": {
+      "before_sha256": null,
+      "sha256": "ada7a9bbf2d4eb7112bf77f38f3fe8dc0d1483510b2118bce9dbad8d6e6624a2"
+    }
+  },
+  "limits": [
+    "실제데모/LLM/로그인/병합/워크플로/사업/보안효과 검증없음",
+    "별도AI대조이며 인간독립리뷰/저자편집확정아님",
+    "커밋/푸시/배포안함; 독자중요변경공개예정"
+  ],
+  "separate_verification_result": {
+    "status": "완료(변경 범위 별도 AI 정적 대조)",
+    "report": "planning/reviews/2026-11-09-demo-examples-verify-renewal.md",
+    "open_P0": 0,
+    "open_P1": 0,
+    "open_P2": 0,
+    "closed_findings": [
+      "RV-D01",
+      "RV-D02",
+      "RV-D03"
+    ],
+    "limits": "독립 인간 리뷰·실제 플랫폼 실행/로그인/병합·운영 효과·저자 편집 확정 아님"
+  }
+}

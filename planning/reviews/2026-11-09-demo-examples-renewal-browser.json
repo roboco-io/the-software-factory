@@ -1,0 +1,76 @@
+{
+  "checks": [
+    {
+      "width": 390,
+      "route": "/demo/",
+      "overflow": false,
+      "stale_notice": false,
+      "forum_target": "conveyor",
+      "screenshot": "/tmp/renewed-demo-390-demo.png"
+    },
+    {
+      "width": 390,
+      "route": "/demo/execution-authority/",
+      "overflow": false,
+      "stale_notice": false,
+      "forum_target": "conveyor",
+      "screenshot": "/tmp/renewed-demo-390-demo-execution-authority.png"
+    },
+    {
+      "width": 390,
+      "route": "/book/ch07/",
+      "overflow": false,
+      "stale_notice": false,
+      "forum_target": "conveyor",
+      "screenshot": "/tmp/renewed-demo-390-book-ch07.png"
+    },
+    {
+      "width": 390,
+      "route": "/book/ch11/",
+      "overflow": false,
+      "stale_notice": false,
+      "forum_target": "conveyor",
+      "screenshot": "/tmp/renewed-demo-390-book-ch11.png"
+    },
+    {
+      "width": 1440,
+      "route": "/demo/",
+      "overflow": false,
+      "stale_notice": false,
+      "forum_target": "conveyor",
+      "screenshot": "/tmp/renewed-demo-1440-demo.png"
+    },
+    {
+      "width": 1440,
+      "route": "/demo/execution-authority/",
+      "overflow": false,
+      "stale_notice": false,
+      "forum_target": "conveyor",
+      "screenshot": "/tmp/renewed-demo-1440-demo-execution-authority.png"
+    },
+    {
+      "width": 1440,
+      "route": "/book/ch07/",
+      "overflow": false,
+      "stale_notice": false,
+      "forum_target": "conveyor",
+      "screenshot": "/tmp/renewed-demo-1440-book-ch07.png"
+    },
+    {
+      "width": 1440,
+      "route": "/book/ch11/",
+      "overflow": false,
+      "stale_notice": false,
+      "forum_target": "conveyor",
+      "screenshot": "/tmp/renewed-demo-1440-book-ch11.png"
+    },
+    {
+      "diagram": "demo-flow.svg",
+      "text_bounds": "pass"
+    },
+    {
+      "diagram": "demo-authority-boundary.svg",
+      "text_bounds": "pass"
+    }
+  ]
+}

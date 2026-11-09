@@ -1,0 +1,12 @@
+{
+  "checks": [
+    {
+      "diagram": "demo-flow.svg",
+      "text_bounds": "pass"
+    },
+    {
+      "diagram": "demo-authority-boundary.svg",
+      "text_bounds": "pass"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "checked_on": "2026-11-09",
+  "site": "https://factory.roboco.io",
+  "commit": "7dc97d87d7d8077cac91dfa5419b6f51a292301c",
+  "run_id": "42576010484",
+  "demo_evidence_revision": "1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a",
+  "scope": "실제 공개 책의20장 요약/9해설/2도표/새출처·포럼URL/안내해제/검색·기존SNS이미지·체인지로그 확인. 데모 자체의 실행/로그인/병합·사업/보안 효과 검증 아님.",
+  "checks": [
+    {
+      "path": "/book/ch01/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 9,
+      "renewed_forum_target": true
+    },
+    {
+      "path": "/book/ch02/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 7,
+      "renewed_forum_target": true
+    },
+    {
+      "path": "/book/ch03/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 9,
+      "renewed_forum_target": true
+    },
+    {
+      "path": "/book/ch04/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 7,
+      "renewed_forum_target": true
+    },
+    {
+      "path": "/book/ch05/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 8,
+      "renewed_forum_target": true
+    },
+    {
+      "path": "/book/ch06/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 7,
+      "renewed_forum_target": true
+    },
+    {
+      "path": "/book/ch07/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 8,
+      "renewed_forum_target": true
+    },
+    {
+      "path": "/book/ch08/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 8,
+      "renewed_forum_target": true
+    },
+    {
+      "path": "/book/ch09/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 9,
+      "renewed_forum_target": true
+    },
+    {
+      "path": "/book/ch10/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 8,
+      "renewed_forum_target": true
+    },
+    {
+      "path": "/book/ch11/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 8,
+      "renewed_forum_target": true
+    },
+    {
+      "path": "/book/ch12/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 8,
+      "renewed_forum_target": true
+    },
+    {
+      "path": "/book/ch13/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 7,
+      "renewed_forum_target": true
+    },
+    {
+      "path": "/book/ch14/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 6,
+      "renewed_forum_target": true
+    },
+    {
+      "path": "/book/ch15/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 7,
+      "renewed_forum_target": true
+    },
+    {
+      "path": "/book/ch16/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 7,
+      "renewed_forum_target": true
+    },
+    {
+      "path": "/book/ch17/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 8,
+      "renewed_forum_target": true
+    },
+    {
+      "path": "/book/ch18/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 7,
+      "renewed_forum_target": true
+    },
+    {
+      "path": "/book/ch19/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 9,
+      "renewed_forum_target": true
+    },
+    {
+      "path": "/book/ch20/",
+      "status": 200,
+      "summary_matches_local": true,
+      "items": 7,
+      "renewed_forum_target": true
+    },
+    {
+      "path": "/demo/",
+      "status": 200,
+      "current_platform_or_historical_scope": true,
+      "outage_notice_removed": true
+    },
+    {
+      "path": "/demo/request/",
+      "status": 200,
+      "current_platform_or_historical_scope": true,
+      "outage_notice_removed": true
+    },
+    {
+      "path": "/demo/policy-and-gate/",
+      "status": 200,
+      "current_platform_or_historical_scope": true,
+      "outage_notice_removed": true
+    },
+    {
+      "path": "/demo/evidence/",
+      "status": 200,
+      "current_platform_or_historical_scope": true,
+      "outage_notice_removed": true
+    },
+    {
+      "path": "/demo/recovery/",
+      "status": 200,
+      "current_platform_or_historical_scope": true,
+      "outage_notice_removed": true
+    },
+    {
+      "path": "/demo/execution-authority/",
+      "status": 200,
+      "current_platform_or_historical_scope": true,
+      "outage_notice_removed": true
+    },
+    {
+      "path": "/demo/agent-selection/",
+      "status": 200,
+      "current_platform_or_historical_scope": true,
+      "outage_notice_removed": true
+    },
+    {
+      "path": "/demo/metrics/",
+      "status": 200,
+      "current_platform_or_historical_scope": true,
+      "outage_notice_removed": true
+    },
+    {
+      "path": "/demo/improvement/",
+      "status": 200,
+      "current_platform_or_historical_scope": true,
+      "outage_notice_removed": true
+    },
+    {
+      "path": "/book/preface/",
+      "status": 200,
+      "current_scope_and_preserved_navigation": true
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "current_scope_and_preserved_navigation": true
+    },
+    {
+      "path": "/guide/",
+      "status": 200,
+      "current_scope_and_preserved_navigation": true
+    },
+    {
+      "path": "/sources/",
+      "status": 200,
+      "current_scope_and_preserved_navigation": true
+    },
+    {
+      "path": "/patterns/p02/",
+      "status": 200,
+      "current_scope_and_preserved_navigation": true
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "current_scope_and_preserved_navigation": true
+    },
+    {
+      "path": "/diagrams/demo-flow.svg",
+      "status": 200,
+      "matches_local_bytes": true
+    },
+    {
+      "path": "/diagrams/demo-authority-boundary.svg",
+      "status": 200,
+      "matches_local_bytes": true
+    },
+    {
+      "path": "/images/software-factory-social-intro.png",
+      "status": 200,
+      "preserved_social_image": true
+    },
+    {
+      "path": "/pagefind/pagefind-entry.json",
+      "status": 200,
+      "indexed_pages": 53
+    },
+    {
+      "path": "/pagefind/pagefind.ko_70cfcce88e.pf_meta",
+      "status": 200,
+      "nonempty": true
+    },
+    {
+      "path": "/changelog/",
+      "status": 200,
+      "dated_public_record": false
+    }
+  ],
+  "workflow_result": {
+    "build": "success",
+    "deploy": "success",
+    "notify-forum": "success"
+  },
+  "run_url": "https://github.com/roboco-io/the-software-factory/actions/runs/42576010484"
+}

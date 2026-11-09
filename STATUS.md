@@ -1073,3 +1073,7 @@ S157~S165추가·기존156개출처ID/확인일/revision보존·옛고정URL은�
 ## 2026-11-09 리뉴얼 플랫폼 반영 최초 공개 확인
 
 074b744·f55f65f·7dc97d8을origin/main에푸시하고Pages42576010484의build/deploy/notify-forum전체성공확인. [공개41응답대조](planning/reviews/2026-11-09-demo-renewal-deployment-initial.json):20장요약·9해설·2도표·새근거·Conveyor토론주소·이용제한해제·검색과기존SNS이미지확인. 공개가확인돼체인지로그를2026-11-09로옮겼고날짜기록의공개반영이남았다. 실제플랫폼/사업효과검증과구분한다.
+
+## 2026-11-09 리뉴얼 플랫폼 개정 최종 배포 완료
+
+공개날짜기록b746839까지origin/main에푸시했고Pages [42576353325](https://github.com/roboco-io/the-software-factory/actions/runs/42576353325)의build/deploy/notify-forum전체성공확인. [최종공개41응답대조](planning/reviews/2026-11-09-demo-renewal-deployment.json):20장요약·9개현재해설·2도표파일·새출처/과거Conveyor근거·토론주소·일시제한해제·검색/기존SNS이미지·11월9일체인지로그확인. 공개예정표제없음. 실제플랫폼의실행/로그인/사업·보안효과검증으로확대하지않는다. 최종확인기록만후속커밋/푸시하며웹파일추가변경없음.

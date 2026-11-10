@@ -1,0 +1,254 @@
+{
+  "checked_on": "2026-11-10",
+  "site": "https://factory.roboco.io",
+  "commit": "249cf6321337f24c2655f5f7a60d9d15afcf9e4a",
+  "run_id": "42776774725",
+  "expected_links": [
+    [
+      "책 리포",
+      "https://github.com/roboco-io/the-software-factory"
+    ],
+    [
+      "데모 리포",
+      "https://github.com/roboco-io/the-software-factory-demo"
+    ],
+    [
+      "데모 소개 웹",
+      "https://roboco.io/the-software-factory-demo/"
+    ],
+    [
+      "데모 대시보드",
+      "https://software-factory-control.roboco.workers.dev/projects/roboco-io/factory-test-app"
+    ]
+  ],
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "links": [
+        {
+          "label": "책 리포",
+          "href": "https://github.com/roboco-io/the-software-factory",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "label": "데모 리포",
+          "href": "https://github.com/roboco-io/the-software-factory-demo",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "label": "데모 소개 웹",
+          "href": "https://roboco.io/the-software-factory-demo/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "label": "데모 대시보드",
+          "href": "https://software-factory-control.roboco.workers.dev/projects/roboco-io/factory-test-app",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "path": "/book/preface/",
+      "status": 200,
+      "links": [
+        {
+          "label": "책 리포",
+          "href": "https://github.com/roboco-io/the-software-factory",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "label": "데모 리포",
+          "href": "https://github.com/roboco-io/the-software-factory-demo",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "label": "데모 소개 웹",
+          "href": "https://roboco.io/the-software-factory-demo/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "label": "데모 대시보드",
+          "href": "https://software-factory-control.roboco.workers.dev/projects/roboco-io/factory-test-app",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "path": "/book/ch03/",
+      "status": 200,
+      "links": [
+        {
+          "label": "책 리포",
+          "href": "https://github.com/roboco-io/the-software-factory",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "label": "데모 리포",
+          "href": "https://github.com/roboco-io/the-software-factory-demo",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "label": "데모 소개 웹",
+          "href": "https://roboco.io/the-software-factory-demo/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "label": "데모 대시보드",
+          "href": "https://software-factory-control.roboco.workers.dev/projects/roboco-io/factory-test-app",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "path": "/demo/",
+      "status": 200,
+      "links": [
+        {
+          "label": "책 리포",
+          "href": "https://github.com/roboco-io/the-software-factory",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "label": "데모 리포",
+          "href": "https://github.com/roboco-io/the-software-factory-demo",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "label": "데모 소개 웹",
+          "href": "https://roboco.io/the-software-factory-demo/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "label": "데모 대시보드",
+          "href": "https://software-factory-control.roboco.workers.dev/projects/roboco-io/factory-test-app",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "links": [
+        {
+          "label": "책 리포",
+          "href": "https://github.com/roboco-io/the-software-factory",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "label": "데모 리포",
+          "href": "https://github.com/roboco-io/the-software-factory-demo",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "label": "데모 소개 웹",
+          "href": "https://roboco.io/the-software-factory-demo/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "label": "데모 대시보드",
+          "href": "https://software-factory-control.roboco.workers.dev/projects/roboco-io/factory-test-app",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "path": "/guide/",
+      "status": 200,
+      "links": [
+        {
+          "label": "책 리포",
+          "href": "https://github.com/roboco-io/the-software-factory",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "label": "데모 리포",
+          "href": "https://github.com/roboco-io/the-software-factory-demo",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "label": "데모 소개 웹",
+          "href": "https://roboco.io/the-software-factory-demo/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "label": "데모 대시보드",
+          "href": "https://software-factory-control.roboco.workers.dev/projects/roboco-io/factory-test-app",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "path": "/patterns/p02/",
+      "status": 200,
+      "links": [
+        {
+          "label": "책 리포",
+          "href": "https://github.com/roboco-io/the-software-factory",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "label": "데모 리포",
+          "href": "https://github.com/roboco-io/the-software-factory-demo",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "label": "데모 소개 웹",
+          "href": "https://roboco.io/the-software-factory-demo/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "label": "데모 대시보드",
+          "href": "https://software-factory-control.roboco.workers.dev/projects/roboco-io/factory-test-app",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ]
+    },
+    {
+      "path": "/pagefind/pagefind-entry.json",
+      "status": 200,
+      "indexed_pages": 53
+    },
+    {
+      "path": "/pagefind/pagefind.ko_19e0195e34.pf_meta",
+      "status": 200,
+      "nonempty": true
+    }
+  ],
+  "scope": "공개 책의 헤더 링크와 검색 파일 확인. 외부 링크 대상의 로그인/프로젝트 작업은 수행하지 않음.",
+  "workflow_result": {
+    "build": "success",
+    "deploy": "success",
+    "notify-forum": "success"
+  },
+  "run_url": "https://github.com/roboco-io/the-software-factory/actions/runs/42776774725",
+  "browser_report": "planning/reviews/2026-11-10-top-links-deployment-browser.json"
+}

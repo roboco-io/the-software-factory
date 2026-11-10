@@ -1081,3 +1081,7 @@ S157~S165추가·기존156개출처ID/확인일/revision보존·옛고정URL은�
 ## 2026-11-10 공통 헤더 상단 링크 배포 준비
 
 사용자 요청과 위치 확정에 따라 공통 헤더의4개 바로가기와관련검증기록만커밋·배포한다. 별도데모점검자료는이번범위에서제외해작업트리에보존한다. 시작main/origin/main c1e3550일치·원격추가변경없음·헤더코드3개해시가[화면검증](planning/reviews/2026-11-10-top-links-browser.json)과일치한다. 구조20/15/165·Python10개·웹37개·Astro42파일0진단 확인. [배포 세션](planning/sessions/2026-11-10-top-links-deployment.md)에최종검사/공개결과를남긴다. 원고·요약·읽기revision·체인지로그변경없음.
+
+## 2026-11-10 공통 헤더 상단 링크 배포 완료
+
+상단링크관련6개파일을249cf63으로커밋·origin/main푸시했고Pages [42776774725](https://github.com/roboco-io/the-software-factory/actions/runs/42776774725)의build/deploy/notify-forum모두성공확인. [공개9응답확인](planning/reviews/2026-11-10-top-links-deployment.json)에서7페이지의4링크/새탭/rel과검색metadata/언어파일확인. [공개8개화면확인](planning/reviews/2026-11-10-top-links-deployment-browser.json)에서320/1440px·밝은/어두운테마·홈/3장의링크/제목/포커스/본문/모바일목차배치확인. 대시보드는사용자지정factory-test-app주소그대로다. 외부프로젝트작업은수행하지않았다. 별도데모점검자료는이번커밋에서제외해작업트리에보존했고원본해시일치를확인했다. 최종확인기록과STATUS의이배포기록만후속커밋/푸시하며웹추가변경없음.

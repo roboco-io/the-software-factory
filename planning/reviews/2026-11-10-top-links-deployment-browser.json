@@ -1,0 +1,102 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/book/ch03/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/book/ch03/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 1440,
+      "colorScheme": "light",
+      "route": "/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 1440,
+      "colorScheme": "light",
+      "route": "/book/ch03/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 1440,
+      "colorScheme": "dark",
+      "route": "/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 1440,
+      "colorScheme": "dark",
+      "route": "/book/ch03/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    }
+  ],
+  "expected": [
+    [
+      "책 리포",
+      "https://github.com/roboco-io/the-software-factory"
+    ],
+    [
+      "데모 리포",
+      "https://github.com/roboco-io/the-software-factory-demo"
+    ],
+    [
+      "데모 소개 웹",
+      "https://roboco.io/the-software-factory-demo/"
+    ],
+    [
+      "데모 대시보드",
+      "https://software-factory-control.roboco.workers.dev/projects/roboco-io/factory-test-app"
+    ]
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/book/ch03/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 320,
+      "colorScheme": "light",
+      "route": "/demo/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/book/ch03/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 320,
+      "colorScheme": "dark",
+      "route": "/demo/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/book/ch03/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 390,
+      "colorScheme": "light",
+      "route": "/demo/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/book/ch03/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 390,
+      "colorScheme": "dark",
+      "route": "/demo/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 908,
+      "colorScheme": "light",
+      "route": "/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 908,
+      "colorScheme": "light",
+      "route": "/book/ch03/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 908,
+      "colorScheme": "light",
+      "route": "/demo/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 908,
+      "colorScheme": "dark",
+      "route": "/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 908,
+      "colorScheme": "dark",
+      "route": "/book/ch03/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 908,
+      "colorScheme": "dark",
+      "route": "/demo/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 1440,
+      "colorScheme": "light",
+      "route": "/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 1440,
+      "colorScheme": "light",
+      "route": "/book/ch03/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 1440,
+      "colorScheme": "light",
+      "route": "/demo/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 1440,
+      "colorScheme": "dark",
+      "route": "/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 1440,
+      "colorScheme": "dark",
+      "route": "/book/ch03/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    },
+    {
+      "width": 1440,
+      "colorScheme": "dark",
+      "route": "/demo/",
+      "links": 4,
+      "all_visible": true,
+      "page_overflow": false,
+      "focus": true,
+      "content_not_covered": true
+    }
+  ],
+  "expected": [
+    [
+      "책 리포",
+      "https://github.com/roboco-io/the-software-factory"
+    ],
+    [
+      "데모 리포",
+      "https://github.com/roboco-io/the-software-factory-demo"
+    ],
+    [
+      "데모 소개 웹",
+      "https://roboco.io/the-software-factory-demo/"
+    ],
+    [
+      "데모 대시보드",
+      "https://software-factory-control.roboco.workers.dev/projects/roboco-io/factory-test-app"
+    ]
+  ],
+  "checked_on": "2026-11-10",
+  "book_head": "c1e3550887fce3e47db81c5a7748b1eac7d57a03",
+  "files": {
+    "website/src/components/BookHeader.astro": "0c9ebbb4da6c7ee02d41dc8372b0cda3d5f9f30871fc4d5a3a4769d967864095",
+    "website/astro.config.mjs": "2864a137225a8fc64ba8f226bc1868b952f831103ce5e7c6c6dfc7a10ad7de8f",
+    "website/src/styles/book.css": "ec7a1b3723c3b851742729ccf3b21342909400098fc72fec1df18c98603c9f1d"
+  },
+  "verification": {
+    "unit_tests": 37,
+    "astro_files": 42,
+    "astro_diagnostics": 0,
+    "build_pages": 56,
+    "links": "PASS",
+    "e2e_passed": 35,
+    "e2e_intentional_skipped": 1,
+    "final_custom_layout_checks": 24
+  },
+  "publication": "local only; no commit/push/deploy"
+}

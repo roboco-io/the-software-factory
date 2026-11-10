@@ -1,0 +1,25 @@
+---
+import Header from '@astrojs/starlight/components/Header.astro';
+const links = [
+ {label:'책 리포',href:'https://github.com/roboco-io/the-software-factory'},
+ {label:'데모 리포',href:'https://github.com/roboco-io/the-software-factory-demo'},
+ {label:'데모 소개 웹',href:'https://roboco.io/the-software-factory-demo/'},
+ {label:'데모 대시보드',href:'https://software-factory-control.roboco.workers.dev/projects/roboco-io/factory-test-app'},
+];
+---
+<div class="book-header-stack">
+ <nav class="book-quick-links print:hidden" aria-label="책과 데모 바로가기" data-pagefind-ignore>
+  {links.map(({label,href})=><a href={href} target="_blank" rel="noopener noreferrer" aria-label={`${label} (새 탭)`}>{label}</a>)}
+ </nav>
+ <div class="book-header-main"><Header /></div>
+</div>
+<style>
+ .book-header-stack{display:grid;grid-template-rows:1.75rem minmax(0,1fr);height:100%;min-width:0;}
+ .book-header-main{min-height:0;min-width:0;}
+ .book-quick-links{display:flex;align-items:center;gap:.65rem;min-width:0;overflow-x:auto;white-space:nowrap;font-size:.75rem;line-height:1.4;}
+ .book-quick-links a{color:var(--muted);text-decoration:none;flex-shrink:0;display:inline-flex;align-items:center;min-height:1.5rem;padding:.05rem 0;margin:0 2px;}
+ .book-quick-links a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:.2em;}
+ .book-quick-links a:focus-visible{outline:2px solid var(--accent);outline-offset:-1px;border-radius:2px;}
+ @media(max-width:360px){.book-quick-links{font-size:.6875rem;gap:.3rem;}.book-quick-links a{margin:0 1px;}}
+ @media(min-width:50rem){.book-quick-links{font-size:.8125rem;gap:1.25rem;}}
+</style>

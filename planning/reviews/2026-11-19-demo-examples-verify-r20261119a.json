@@ -1,0 +1,132 @@
+{
+ "phase": "complete_for_recorded_files",
+ "verify_id": "r20261119a",
+ "reviewed_on": "2026-11-19",
+ "reviewer_role": "별도 AI 수정 검증자; 작성자와 다른 에이전트(독립 인간 리뷰·저자 편집 확정 아님)",
+ "book_base_commit": "330816a",
+ "platform_previous_confirmed": "1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a",
+ "platform_candidate": "0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6",
+ "file_hashes": {
+  "CHANGELOG.md": "c0d51e2c9c0aca39155a2488c51b09f99f1260cd3ff84270a23f019ff5840ed3",
+  "README.md": "7e465c770b2b3fa6f5ea18f0cd126b5576f18f274a9e60c3033776d4d4a8a14f",
+  "STATUS.md": "4395fa4fcbf64669fd83944f38182303dfa6dd85fd4cca3977383de72823fded",
+  "manuscript/chapters/ch01.md": "16c8f0cf1fce073b792e5b7922b516a7fc7c0c74f4bbe7284f203cd1c60c0abf",
+  "manuscript/chapters/ch05.md": "e634de2a97865f19f35d23ab1106a69c5459a9a10f675b642eb7f772af46bd7f",
+  "manuscript/chapters/ch08.md": "b9d33846745f1bf6ff3a54448ae93771975004e449a9c6eface528a97a5d20a0",
+  "manuscript/chapters/ch09.md": "5ac7ff32f90e7ae66515e94791f64ea95c7092b1cf7a10a56b446e7ac9a2b756",
+  "manuscript/chapters/ch11.md": "5561880e3bab300579ce941b89fdf2fee6548aa7530d257b8cdd0baa0682fb9a",
+  "manuscript/chapters/ch12.md": "d4b6907e8c40f2d62bcd2f054388ce751cba82e200b8a746008436b0f1b5471b",
+  "manuscript/demo/agent-selection.md": "7e9c6b31efdf354ac4b131039e54138b4d83079353e56d25cffccb190b263932",
+  "manuscript/demo/execution-authority.md": "1bbf9a323118136ac70d664ff7697ec280af4b2fbfe1758f072e67a1fc89f475",
+  "manuscript/demo/improvement.md": "f0d984ad7515c5baebaa80276d4602fa30e479b81d05a7f5fda1c1cca8fca7d0",
+  "manuscript/demo/index.md": "1b042196948cabc96991be85e4795ccab2d367c167b6a497c34c7e86ef89ed18",
+  "manuscript/demo/policy-and-gate.md": "0d553fc56bf1f9e68c1d0823785a3e42b2ad834687bcfab1a22b6d13351f22d2",
+  "manuscript/demo/recovery.md": "8cf0d246cc1dc077dd284a146d82e8f372b5ae69df292ebf45bbb9b3996c8af3",
+  "manuscript/demo/request.md": "92fb6e25636cacc983e69246b7ed9a5b1d531a4ba2a704fe497b59ba50e9ded4",
+  "manuscript/figures/README.md": "6ba0a5a5b0336d68ba482990fb71752be62640f1741b90412f72d3b1802f3395",
+  "manuscript/front-matter/00-preface.md": "493d17b97914af85d784d63614ff7c16859232ae1cf97fc27bb51bc046a52558",
+  "planning/chapter-tldr-manifest.json": "14f3f2ffa331a91c8b8300ccbd5dfffe5d66704ef41b9d8f792b205de0696849",
+  "research/cases/software-factory-demo.md": "9306bf2c2d5aebc17754dc4ea74fb8f85173c842e2fe89d604b52d725305bccf",
+  "research/claims/ch01.json": "3b31c56292fe160953c127be0163f69580a3424a2fa288f27b7f0d90caca993d",
+  "research/claims/ch05.json": "69835106b06aa0b0f9b692916044946aab3e60d911663e71fe650ac958a912d4",
+  "research/claims/ch08.json": "bbf99f070e6febd1cf7ec5cfec7ccd01131173dc08c1a274461bc7995263fc6c",
+  "research/claims/ch09.json": "6a60a24e136f75d105e94910fd8b790400eda685a1bb1f3835ef13d3f0775c02",
+  "research/claims/ch11.json": "dfab20140a0da8fd973c923f0d77f4b5d40cdfeaf32dfee4d012793d9ea2d6eb",
+  "research/claims/ch12.json": "20d97fe6f948c4c19388ed280705f5c44dc1ad3c47cf1459d48257950edd8d94",
+  "research/claims/software-factory-demo.json": "2bf03090d0fdedae528305dcd821c3ed532e6fcf308f6a0495d7e9a2e6106cf8",
+  "research/demo-example-cases.json": "0c49d47a49a9da4fec991134d78e24fe8be27dbe0caa31e683e06157cb8d98b0",
+  "research/software-factory-demo-inventory.json": "60afe8453bb5fe9f1f91962ea7819411f46ba947ed88111c20999b90f6d506b4",
+  "research/sources.json": "cc4214f45284eaef6ac435b44c67c3b19cd369f60a3d72f13be59629ed33f251",
+  "website/content-manifest.json": "ee2f8c952ce3493233db038e1f667a734d2aac617b29af511549d4628c8bb62c",
+  "website/src/pages/about.astro": "e565e3498d1a167346a81549fae4cf02e1110a06567c5a2c46fd6b8f3bcd3db2",
+  "website/src/pages/guide.astro": "612a56595dcb4d215a3527c3532fc5681d320f6e043885ff43989e5b7dbbb503",
+  "planning/reviews/2026-11-19-demo-examples-r20261119a-after-inventory.json": "2245997b8705844ad7930a70a484e11fc326c809ec8befd1758a00dc446dfa01",
+  "planning/reviews/2026-11-19-demo-examples-r20261119a-inventory.json": "595f0be9bc8d464d1bc0da2b380ad2982eb866d9c1b51f37ba28acf4d86c9402",
+  "planning/reviews/2026-11-19-demo-examples-r20261119a-manifest.json": "f0cfa894bfc45cc173e33a983cb0729fca869fabbc45e8ab827bfac4bfb3465c",
+  "planning/reviews/2026-11-19-demo-examples-r20261119a.md": "e7db86a80e03dd978f05b2a7535c6e4a11ff456b4faadc171ea29ecf3827f980",
+  "planning/sessions/2026-11-19-demo-refresh.md": "1a570e8c6f053e9a7cd8c60352d4273ad0149918b6e2eed000e0221e7504c214"
+ },
+ "findings": [
+  {
+   "id": "RV-V01",
+   "priority": "P2",
+   "status": "열림",
+   "location": "manuscript/demo/execution-authority.md:35",
+   "problem": "DNS 실험을 '표식 37개 중 0건'으로만 서술해 플랫폼 기록이 적은 관측 한계(확인 창 약 2-3분 40초, 사용 전 확인 조회가 16:32:44 이후 사라져 로그 보존이 완전하다고 단정하지 않음, 실험 컨테이너는 에이전트·키 없이 모든 요청을 403으로 거부하는 출구로 시작)가 빠져 결과가 실제보다 강하게 읽힌다.",
+   "evidence": "experiments/dns-exfil/RESULTS.md:28, 43 @0c1b2ec",
+   "fix": "해당 단락에 확인 창이 수 분이고 로그 보존이 완전하지 않다는 기록, 실험 컨테이너 구성(에이전트 없음, 출구는 전부 거부)을 한 문장으로 추가",
+   "acceptance": "문장이 RESULTS.md 28·43행의 한계와 일치"
+  },
+  {
+   "id": "RV-V02",
+   "priority": "P2",
+   "status": "열림",
+   "location": "manuscript/demo/execution-authority.md:39",
+   "problem": "'예비 구현 엔진 ... 도 시험하지 않았다'가 인젝션 시험의 남은 범위임을 밝히지 않아, 같은 책 agent-selection.md:30의 11-09 실서비스 확인 서술과 모순되는 것처럼 읽힌다.",
+   "evidence": "experiments/injection/RESULTS.md:65; docs/status.md:96 (인젝션 시험의 남은 범위), docs/status.md:47",
+   "fix": "'인젝션 시험에서는' 한정어를 넣어 예비 엔진 항목을 인젝션 범위로 한정",
+   "acceptance": "두 페이지가 서로 모순되지 않음"
+  },
+  {
+   "id": "RV-V03",
+   "priority": "P2",
+   "status": "열림",
+   "location": "manuscript/demo/policy-and-gate.md:13,15; agent-selection.md:9; execution-authority.md:39",
+   "problem": "문장의 내용이 들어 있는 파일을 그 페이지 근거 표가 연결하지 않는다. Dependabot의 실제 실행 없음·가짜 GitHub 시험·실제 PR 응답 판정은 operations.md 358-365행에만 있고 표는 status.md를 '확인 상태'로 연결한다(status.md는 '동작하지 않는다'까지만). Codex에서 pi로의 교체는 design.md:19-21에만 있고 표에 없다. 출구 본문 검사 범위는 operations.md '알려진 제약'에만 있다.",
+   "evidence": "docs/operations.md:358,359,365; docs/design.md:21; docs/status.md:89-91",
+   "fix": "각 근거 표에 operations.md 또는 design.md 행을 더하거나 문장에 출처 문서를 명시. S159·S162·S163 confirmed_editions에는 이미 포함",
+   "acceptance": "각 문장의 출처 파일이 같은 페이지에서 클릭 가능"
+  },
+  {
+   "id": "RV-V04",
+   "priority": "P3",
+   "status": "열림",
+   "location": "manuscript/chapters/ch03.md:184-186",
+   "problem": "정책의 T3·보호 경로가 프로그램에도 남는다는 서술이 유지되는데 Dependabot 경로는 저장소 정책이 T3으로 둔 의존성 파일도 예외로 병합한다(비활성). 사례 지도는 정책 영향을 3·12장으로 적었으나 3장은 미변경.",
+   "evidence": "docs/operations.md:358",
+   "fix": "3장에 우회·별도 경로 확인을 이미 요구하는 186행에 정책 해설 링크 한 문장 추가 또는 변경 불필요 사유 기록",
+   "acceptance": "사유 기록 또는 문장 추가"
+  },
+  {
+   "id": "RV-V05",
+   "priority": "P3",
+   "status": "열림",
+   "location": "manuscript/demo/recovery.md:30",
+   "problem": "중지와 병합의 순서 미시험 항목은 status.md가 4절(포털과 인증)의 실행별 중지로 적은 것인데 '전체 중지에 대해' 단락에 놓였다.",
+   "evidence": "docs/status.md:78, 101",
+   "fix": "'실행별 중지(전체 중지가 재사용)'로 귀속 명시",
+   "acceptance": "귀속 일치"
+  },
+  {
+   "id": "RV-V06",
+   "priority": "P3",
+   "status": "열림",
+   "location": "manuscript/chapters/ch01.md:79; website/src/pages/about.astro; manuscript/front-matter/00-preface.md:43",
+   "problem": "HTTP 응답 확인 문장에 날짜가 없고(실제는 11-09 확인, 이번 미재확인), ch01·서문은 기준일 문구가 바뀌었으나 독서 revision을 올리지 않았다(보고서 저자 판단 5와 같은 항목).",
+   "evidence": "demo/index.md:34",
+   "fix": "날짜 명시 또는 저자 결정 기록",
+   "acceptance": "저자 결정 기록"
+  }
+ ],
+ "open_counts": {
+  "P0": 0,
+  "P1": 0,
+  "P2": 3,
+  "P3": 3
+ },
+ "checks": {
+  "check_project.py": "PASS: 20 chapters, 15 patterns, 165 sources",
+  "git diff --check": "출력 없음",
+  "npm run build": "PASS TL;DR 20, 56 public HTML pages",
+  "demo links": "48개 저장소 링크 모두 해당 커밋에 존재",
+  "sources.json": "S157-S165 165건 유지, 기존 필드 불변, confirmed_editions blob SHA·이전 SHA가 후보·1a8d3f3a와 일치",
+  "manifest hashes": "유지관리자 manifest의 33개 파일 해시가 현재 파일과 일치"
+ },
+ "not_compared": [
+  "플랫폼 실서비스 확인(11-06~14) 재현·HTTP 응답",
+  "docs/design.md 전체 diff, guest-demo.md 본문 전체",
+  "포털 UI·브라우저·모바일",
+  "website/src/content 생성물",
+  "research/demo-example-cases.json·inventory의 139개 언급 전수"
+ ]
+}

@@ -1085,3 +1085,7 @@ S157~S165추가·기존156개출처ID/확인일/revision보존·옛고정URL은�
 ## 2026-11-10 공통 헤더 상단 링크 배포 완료
 
 상단링크관련6개파일을249cf63으로커밋·origin/main푸시했고Pages [42776774725](https://github.com/roboco-io/the-software-factory/actions/runs/42776774725)의build/deploy/notify-forum모두성공확인. [공개9응답확인](planning/reviews/2026-11-10-top-links-deployment.json)에서7페이지의4링크/새탭/rel과검색metadata/언어파일확인. [공개8개화면확인](planning/reviews/2026-11-10-top-links-deployment-browser.json)에서320/1440px·밝은/어두운테마·홈/3장의링크/제목/포커스/본문/모바일목차배치확인. 대시보드는사용자지정factory-test-app주소그대로다. 외부프로젝트작업은수행하지않았다. 별도데모점검자료는이번커밋에서제외해작업트리에보존했고원본해시일치를확인했다. 최종확인기록과STATUS의이배포기록만후속커밋/푸시하며웹추가변경없음.
+
+## 2026-11-19 데모 후속 점검(r20261119a)
+
+책 330816a 기준 워크트리 `docs/demo-refresh-2026-11-19`에서 플랫폼 후보 0c1b2ecb(2026-11-17, 이전 확인 1a8d3f3a 이후 27개 커밋)를 고정해 영향받는 해설 7개(소개·요청·정책·복구·권한·에이전트 선택·개선)와 5·8·9·11·12장을 고쳤다. 증거·지표 해설과 도표 2개는 대조 결과 유지했다. 전체 중지·예산 한도 변경은 배포된 기능이고 게스트 요청 심사·Dependabot 점검은 후보에서 동작하지 않아 운영 사례로 쓰지 않았다. 플랫폼의 DNS·인젝션 시험과 실서비스 확인은 플랫폼 소유자의 보고로 귀속했으며 이 책이 재현하지 않았다. 후보 전체를 검증하지 않았고 서비스를 실행하지 않았다. 출처 ID는 유지하고 7개 출처에 후보 판본을 추가했다. [보고서](planning/reviews/2026-11-19-demo-examples-r20261119a.md)·[manifest](planning/reviews/2026-11-19-demo-examples-r20261119a-manifest.json)·[세션](planning/sessions/2026-11-19-demo-refresh.md). 자기 점검이며 별도 검증·저자 판단 6건·모바일/E2E 미수행은 보고서에 있다. 별도 검증 의견 6건(P2 3·P3 3)은 수정 완료·재검증 대기(3장 Dependabot 언급은 저자 판단). 미커밋·미배포. CHANGELOG는 ‘공개 예정’에만 기록했다.

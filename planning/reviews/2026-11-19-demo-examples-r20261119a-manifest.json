@@ -1,0 +1,1470 @@
+{
+  "run": {
+    "run_id": "r20261119a",
+    "checked_on": "2026-11-19",
+    "mode": "수정 포함(저자 요청, 로컬 미커밋)",
+    "scope": "책 전체(서문·20장·15패턴·직접 작성 웹 페이지·manuscript/demo/)",
+    "agent": "demo-example-maintainer(자기 점검; 별도 검증자는 호출자가 수행)"
+  },
+  "book": {
+    "worktree": "/Users/dohyunjung/Workspace/roboco-io/education/idd-book-demo-refresh",
+    "branch": "docs/demo-refresh-2026-11-19",
+    "base_commit": "330816a02ef201aef3cb78ea3774c03cd98a0baf",
+    "uncommitted_at_start": "없음(git status 비어 있음)",
+    "policy_sha256": "aa8fac2bc7c9e1fa22d4bd432703efd77a7d3e3b5857c69385118050aed4a203",
+    "policy_file": "planning/demo-example-maintenance-policy.md"
+  },
+  "platform": {
+    "repository": "roboco-io/the-software-factory-demo",
+    "previous_confirmed_commit": "1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a",
+    "previous_confirmed_date": "2026-11-09",
+    "candidate_commit": "0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6",
+    "candidate_date": "2026-11-17",
+    "candidate_fixed": true,
+    "candidate_checkout": "/Users/dohyunjung/Workspace/roboco-io/demos/tsfd-book-candidate",
+    "commits_between": 27,
+    "commit_list": [
+      "0c1b2ec 2026-11-17T09:41:52+09:00 chore(control): conveyor의 게스트 접수를 실서비스 확인 전까지 닫음 (#57)",
+      "20e3682 2026-11-16T09:39:11+09:00 fix(control): Dependabot 판정을 서명된 커밋 메시지 기준으로 바꾸고 lockfile 대조를 더함 (#55)",
+      "830d9f6 2026-11-15T12:15:55+09:00 feat(control): Dependabot 보안 업데이트를 매일 점검해 자동 병합 (#52)",
+      "5500a87 2026-11-15T08:58:59+09:00 feat(control): conveyor를 게스트 요청에 공개 (#51)",
+      "e5ca14d 2026-11-14T16:03:49+09:00 feat(control): 게스트 심사를 웹훅에 연결 (#50)",
+      "f60f671 2026-11-14T14:21:22+09:00 docs: README를 현재 기능에 맞게 갱신 (#49)",
+      "48f17f2 2026-11-14T14:14:55+09:00 feat(control): 게스트 심사의 사전 검사와 쿼터, 판정 검사, 심사 기록 (#47)",
+      "645d37c 2026-11-14T08:16:47+09:00 docs: 전체 중지의 실서비스 확인 기록 (#46)",
+      "9df3e0d 2026-11-14T08:11:51+09:00 feat: 운영자가 배포 없이 팩토리 전체를 멈추고 다시 시작한다 (#45)",
+      "eb990f8 2026-11-11T11:12:37+09:00 docs: 7단계 인젝션 시험 결과와 공개 조건 현황 (#44)",
+      "f5c6bbc 2026-11-11T10:41:43+09:00 docs: 진행 상태의 원본을 하나로 두고 CI로 정렬을 강제한다 (#43)",
+      "83b459f 2026-11-11T08:47:06+09:00 feat: 운영자가 배포 없이 예산 한도를 바꾼다 (#42)",
+      "e075c3f 2026-11-11T08:26:51+09:00 chore(control): OpenAI 한도를 50으로 되돌림 (#41)",
+      "843c0b3 2026-11-11T08:19:34+09:00 chore(control): Anthropic 리뷰 시험을 위해 OpenAI 한도를 잠시 0으로 (#40)",
+      "4d4c046 2026-11-11T08:14:23+09:00 docs(experiments): DNS 유출 실험의 목적을 RESULTS.md에 적음 (#39)",
+      "bc97f7f 2026-11-11T08:13:29+09:00 fix(control): Anthropic 리뷰에서 pi의 beta 전용 기능을 끈다 (#38)",
+      "853d36e 2026-11-10T19:43:11+09:00 experiments: 에이전트 컨테이너 DNS 유출 실험 (7단계 선행 조건) (#35)",
+      "f5481f2 2026-11-10T17:00:24+09:00 chore(control): 두 계정의 월 상한을 $50으로 되돌림 (#37)",
+      "6a86877 2026-11-10T16:30:47+09:00 chore(control): 소진 경로 시험을 위해 OpenAI 월 상한도 잠시 $5로 낮춤 (#34)",
+      "b0ebee4 2026-11-10T16:25:34+09:00 chore(control): awaiting_engine 시험을 위해 Anthropic 월 상한을 잠시 $5로 낮춤 (#33)",
+      "caa7d4f 2026-11-10T16:21:42+09:00 docs(design): 5-6단계 실서비스 확인 결과 반영 (#32)",
+      "e6e02a6 2026-11-10T16:16:37+09:00 docs: README를 현재 상태에 맞게 고침 (#31)",
+      "8ee7bfc 2026-11-10T15:27:10+09:00 docs: 게스트 데모 기획 추가 (#17)",
+      "b243f2d 2026-11-10T15:27:04+09:00 feat(portal): 요약 카드와 단계별 멈춤 숫자로 실행 목록 필터링 (#16)",
+      "989c7e4 2026-11-09T16:47:53+09:00 chore(control): Anthropic 월 상한을 $50으로 되돌림 (#30)",
+      "04e09b5 2026-11-09T16:41:36+09:00 chore(control): pi 재확인을 위해 Anthropic 월 상한을 잠시 $5로 낮춤 (#29)",
+      "40ca941 2026-11-09T16:38:56+09:00 fix(control): 예비 구현 엔진을 pi로 교체하고 에이전트 실패 진단 추가 (#28)"
+    ],
+    "candidate_head_check": "0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6"
+  },
+  "inventory": {
+    "before": "planning/reviews/2026-11-19-demo-examples-r20261119a-inventory.json",
+    "after": "planning/reviews/2026-11-19-demo-examples-r20261119a-after-inventory.json",
+    "before_mentions": 110,
+    "after_mentions": 139,
+    "before_files": 62,
+    "after_files": 62,
+    "semantics_verified": false,
+    "note": "스캐너의 unreviewed는 발견 상태이며 의미 검증이 아니다."
+  },
+  "mention_decisions": {
+    "counts": {
+      "유지": 46,
+      "본문 보완": 63,
+      "저자 판단 대기": 1
+    },
+    "items": [
+      {
+        "path": "manuscript/chapters/ch01.md",
+        "line": 16,
+        "section": "TL;DR",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/chapters/ch01.md",
+        "line": 75,
+        "section": "구현 예제에서 판단의 연결을 읽는다",
+        "kind": "content",
+        "source_ids": [
+          "S157"
+        ],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/chapters/ch01.md",
+        "line": 77,
+        "section": "구현 예제에서 판단의 연결을 읽는다",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "확인 기준일 문구를 11-09 출발·11-17 갱신으로 정리"
+      },
+      {
+        "path": "manuscript/chapters/ch01.md",
+        "line": 79,
+        "section": "구현 예제에서 판단의 연결을 읽는다",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/chapters/ch01.md",
+        "line": 124,
+        "section": "출처와 검토",
+        "kind": "source-list",
+        "source_ids": [
+          "S157"
+        ],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/chapters/ch03.md",
+        "line": 184,
+        "section": "정책을 바꾸는 변경도 분류한다",
+        "kind": "content",
+        "source_ids": [
+          "S159"
+        ],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/chapters/ch03.md",
+        "line": 186,
+        "section": "정책을 바꾸는 변경도 분류한다",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/chapters/ch03.md",
+        "line": 223,
+        "section": "출처와 검토",
+        "kind": "source-list",
+        "source_ids": [
+          "S159"
+        ],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/chapters/ch05.md",
+        "line": 70,
+        "section": "요청을 정리한 결과와 실행 승인을 나눈다",
+        "kind": "content",
+        "source_ids": [
+          "S158"
+        ],
+        "decision": "본문 보완",
+        "reason": "장의 짧은 데모 문단에 후보 판본 사실 1-2문장 보완"
+      },
+      {
+        "path": "manuscript/chapters/ch05.md",
+        "line": 135,
+        "section": "출처와 검토",
+        "kind": "source-list",
+        "source_ids": [
+          "S158"
+        ],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/chapters/ch07.md",
+        "line": 125,
+        "section": "리뷰 판정과 실행 증거를 구분하는 구현",
+        "kind": "content",
+        "source_ids": [
+          "S160"
+        ],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/chapters/ch07.md",
+        "line": 127,
+        "section": "리뷰 판정과 실행 증거를 구분하는 구현",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/chapters/ch07.md",
+        "line": 156,
+        "section": "출처와 검토",
+        "kind": "source-list",
+        "source_ids": [
+          "S160",
+          "S59"
+        ],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/chapters/ch08.md",
+        "line": 108,
+        "section": "멈춘 범위와 재개할 범위를 구분하는 구현",
+        "kind": "content",
+        "source_ids": [
+          "S161"
+        ],
+        "decision": "본문 보완",
+        "reason": "장의 짧은 데모 문단에 후보 판본 사실 1-2문장 보완"
+      },
+      {
+        "path": "manuscript/chapters/ch08.md",
+        "line": 139,
+        "section": "출처와 검토",
+        "kind": "source-list",
+        "source_ids": [
+          "S161",
+          "S59"
+        ],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/chapters/ch09.md",
+        "line": 216,
+        "section": "결과를 만드는 단계와 게시하는 단계를 나눈다",
+        "kind": "content",
+        "source_ids": [
+          "S162"
+        ],
+        "decision": "본문 보완",
+        "reason": "장의 짧은 데모 문단에 후보 판본 사실 1-2문장 보완"
+      },
+      {
+        "path": "manuscript/chapters/ch09.md",
+        "line": 289,
+        "section": "출처와 검토",
+        "kind": "source-list",
+        "source_ids": [
+          "S162",
+          "S59"
+        ],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/chapters/ch11.md",
+        "line": 87,
+        "section": "역할에 실행 조합을 배정하는 구현",
+        "kind": "content",
+        "source_ids": [
+          "S163"
+        ],
+        "decision": "본문 보완",
+        "reason": "장의 짧은 데모 문단에 후보 판본 사실 1-2문장 보완"
+      },
+      {
+        "path": "manuscript/chapters/ch11.md",
+        "line": 118,
+        "section": "출처와 검토",
+        "kind": "source-list",
+        "source_ids": [
+          "S163"
+        ],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/chapters/ch12.md",
+        "line": 72,
+        "section": "변경의 위험과 현재 증거를 병합 판단에 연결한다",
+        "kind": "content",
+        "source_ids": [
+          "S159"
+        ],
+        "decision": "본문 보완",
+        "reason": "장의 짧은 데모 문단에 후보 판본 사실 1-2문장 보완"
+      },
+      {
+        "path": "manuscript/chapters/ch12.md",
+        "line": 74,
+        "section": "변경의 위험과 현재 증거를 병합 판단에 연결한다",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/chapters/ch12.md",
+        "line": 108,
+        "section": "하네스의 허용 판단을 실제 실행 경계와 맞춘다",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/chapters/ch12.md",
+        "line": 144,
+        "section": "출처와 검토",
+        "kind": "source-list",
+        "source_ids": [
+          "S159",
+          "S59"
+        ],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/chapters/ch17.md",
+        "line": 106,
+        "section": "지표 이름보다 계산 대상을 읽는다",
+        "kind": "content",
+        "source_ids": [
+          "S164"
+        ],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/chapters/ch17.md",
+        "line": 161,
+        "section": "출처와 검토",
+        "kind": "source-list",
+        "source_ids": [
+          "S164"
+        ],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/chapters/ch19.md",
+        "line": 16,
+        "section": "TL;DR",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/chapters/ch19.md",
+        "line": 77,
+        "section": "규칙 변경이 실제로 무엇을 더 잡는지 확인한다",
+        "kind": "content",
+        "source_ids": [
+          "S165"
+        ],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/chapters/ch19.md",
+        "line": 79,
+        "section": "규칙 변경이 실제로 무엇을 더 잡는지 확인한다",
+        "kind": "content",
+        "source_ids": [
+          "S68"
+        ],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/chapters/ch19.md",
+        "line": 143,
+        "section": "출처와 검토",
+        "kind": "source-list",
+        "source_ids": [
+          "S165",
+          "S59",
+          "S68"
+        ],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/demo/agent-selection.md",
+        "line": 3,
+        "section": "에이전트 선택과 평가",
+        "kind": "content",
+        "source_ids": [
+          "S163"
+        ],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/agent-selection.md",
+        "line": 7,
+        "section": "선언·배정·호출을 함께 읽는다",
+        "kind": "content",
+        "source_ids": [
+          "S163"
+        ],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/agent-selection.md",
+        "line": 17,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/agent-selection.md",
+        "line": 18,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/agent-selection.md",
+        "line": 19,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/agent-selection.md",
+        "line": 20,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/agent-selection.md",
+        "line": 28,
+        "section": "리더의 판단과 한계",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/evidence.md",
+        "line": 3,
+        "section": "결과를 판단하는 증거",
+        "kind": "content",
+        "source_ids": [
+          "S160"
+        ],
+        "decision": "유지",
+        "reason": "후보와 대조했으나 설명이 달라지지 않아 11-09 판본 유지"
+      },
+      {
+        "path": "manuscript/demo/evidence.md",
+        "line": 7,
+        "section": "두 버전과 실패의 종류를 연결한다",
+        "kind": "content",
+        "source_ids": [
+          "S160"
+        ],
+        "decision": "유지",
+        "reason": "후보와 대조했으나 설명이 달라지지 않아 11-09 판본 유지"
+      },
+      {
+        "path": "manuscript/demo/evidence.md",
+        "line": 23,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보와 대조했으나 설명이 달라지지 않아 11-09 판본 유지"
+      },
+      {
+        "path": "manuscript/demo/evidence.md",
+        "line": 24,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보와 대조했으나 설명이 달라지지 않아 11-09 판본 유지"
+      },
+      {
+        "path": "manuscript/demo/evidence.md",
+        "line": 25,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보와 대조했으나 설명이 달라지지 않아 11-09 판본 유지"
+      },
+      {
+        "path": "manuscript/demo/evidence.md",
+        "line": 26,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보와 대조했으나 설명이 달라지지 않아 11-09 판본 유지"
+      },
+      {
+        "path": "manuscript/demo/evidence.md",
+        "line": 34,
+        "section": "리더의 판단과 한계",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보와 대조했으나 설명이 달라지지 않아 11-09 판본 유지"
+      },
+      {
+        "path": "manuscript/demo/execution-authority.md",
+        "line": 3,
+        "section": "만드는 권한과 게시하는 권한",
+        "kind": "content",
+        "source_ids": [
+          "S162"
+        ],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/execution-authority.md",
+        "line": 7,
+        "section": "계획과 결과가 권한 경계를 건넌다",
+        "kind": "content",
+        "source_ids": [
+          "S162"
+        ],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/execution-authority.md",
+        "line": 23,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/execution-authority.md",
+        "line": 24,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/execution-authority.md",
+        "line": 25,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/execution-authority.md",
+        "line": 26,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/execution-authority.md",
+        "line": 34,
+        "section": "리더의 판단과 한계",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/improvement.md",
+        "line": 3,
+        "section": "관찰을 개선으로 연결하기",
+        "kind": "content",
+        "source_ids": [
+          "S165"
+        ],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/improvement.md",
+        "line": 7,
+        "section": "후보에서 평가까지",
+        "kind": "content",
+        "source_ids": [
+          "S165"
+        ],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/improvement.md",
+        "line": 17,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/improvement.md",
+        "line": 18,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/improvement.md",
+        "line": 19,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/improvement.md",
+        "line": 23,
+        "section": "과거 실행 기록은 별도로 읽는다",
+        "kind": "content",
+        "source_ids": [
+          "S68"
+        ],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/improvement.md",
+        "line": 25,
+        "section": "과거 실행 기록은 별도로 읽는다",
+        "kind": "content",
+        "source_ids": [
+          "S106"
+        ],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/improvement.md",
+        "line": 33,
+        "section": "리더의 판단과 한계",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/index.md",
+        "line": 1,
+        "section": "데모 해설",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/index.md",
+        "line": 3,
+        "section": "데모 해설",
+        "kind": "content",
+        "source_ids": [
+          "S157"
+        ],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/index.md",
+        "line": 7,
+        "section": "먼저 볼 흐름",
+        "kind": "content",
+        "source_ids": [
+          "S157"
+        ],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/index.md",
+        "line": 9,
+        "section": "먼저 볼 흐름",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/index.md",
+        "line": 15,
+        "section": "먼저 볼 흐름",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/index.md",
+        "line": 32,
+        "section": "자료를 읽는 순서",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/index.md",
+        "line": 34,
+        "section": "자료를 읽는 순서",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/index.md",
+        "line": 38,
+        "section": "이전 구현과 현재 플랫폼을 구분한다",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/index.md",
+        "line": 40,
+        "section": "이전 구현과 현재 플랫폼을 구분한다",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/metrics.md",
+        "line": 3,
+        "section": "활동과 성과를 구분하는 지표",
+        "kind": "content",
+        "source_ids": [
+          "S164"
+        ],
+        "decision": "유지",
+        "reason": "후보와 대조했으나 설명이 달라지지 않아 11-09 판본 유지"
+      },
+      {
+        "path": "manuscript/demo/metrics.md",
+        "line": 7,
+        "section": "기록에서 숫자가 만들어지는 경로",
+        "kind": "content",
+        "source_ids": [
+          "S164"
+        ],
+        "decision": "유지",
+        "reason": "후보와 대조했으나 설명이 달라지지 않아 11-09 판본 유지"
+      },
+      {
+        "path": "manuscript/demo/metrics.md",
+        "line": 17,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보와 대조했으나 설명이 달라지지 않아 11-09 판본 유지"
+      },
+      {
+        "path": "manuscript/demo/metrics.md",
+        "line": 18,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보와 대조했으나 설명이 달라지지 않아 11-09 판본 유지"
+      },
+      {
+        "path": "manuscript/demo/metrics.md",
+        "line": 19,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보와 대조했으나 설명이 달라지지 않아 11-09 판본 유지"
+      },
+      {
+        "path": "manuscript/demo/metrics.md",
+        "line": 20,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보와 대조했으나 설명이 달라지지 않아 11-09 판본 유지"
+      },
+      {
+        "path": "manuscript/demo/metrics.md",
+        "line": 28,
+        "section": "리더의 판단과 한계",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보와 대조했으나 설명이 달라지지 않아 11-09 판본 유지"
+      },
+      {
+        "path": "manuscript/demo/policy-and-gate.md",
+        "line": 3,
+        "section": "정책과 수용 경계",
+        "kind": "content",
+        "source_ids": [
+          "S159"
+        ],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/policy-and-gate.md",
+        "line": 7,
+        "section": "분류에서 반영 판단까지",
+        "kind": "content",
+        "source_ids": [
+          "S159"
+        ],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/policy-and-gate.md",
+        "line": 11,
+        "section": "분류에서 반영 판단까지",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/policy-and-gate.md",
+        "line": 17,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/policy-and-gate.md",
+        "line": 18,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/policy-and-gate.md",
+        "line": 19,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/policy-and-gate.md",
+        "line": 20,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/policy-and-gate.md",
+        "line": 28,
+        "section": "리더의 판단과 한계",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/recovery.md",
+        "line": 3,
+        "section": "실패에서 복구로",
+        "kind": "content",
+        "source_ids": [
+          "S161"
+        ],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/recovery.md",
+        "line": 7,
+        "section": "무엇을 멈추고 무엇을 재개하는가",
+        "kind": "content",
+        "source_ids": [
+          "S161"
+        ],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/recovery.md",
+        "line": 11,
+        "section": "무엇을 멈추고 무엇을 재개하는가",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/recovery.md",
+        "line": 17,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/recovery.md",
+        "line": 18,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/recovery.md",
+        "line": 19,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/recovery.md",
+        "line": 20,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/recovery.md",
+        "line": 28,
+        "section": "리더의 판단과 한계",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/request.md",
+        "line": 3,
+        "section": "요청에서 실행 가능한 작업까지",
+        "kind": "content",
+        "source_ids": [
+          "S158"
+        ],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/request.md",
+        "line": 7,
+        "section": "요청과 승인을 잇는 흐름",
+        "kind": "content",
+        "source_ids": [
+          "S158"
+        ],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/request.md",
+        "line": 17,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/request.md",
+        "line": 18,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/request.md",
+        "line": 19,
+        "section": "구현 근거 읽기",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/request.md",
+        "line": 23,
+        "section": "리더의 판단과 한계",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/demo/request.md",
+        "line": 27,
+        "section": "리더의 판단과 한계",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "후보 판본(0c1b2ec) 대조 결과를 해설에 반영"
+      },
+      {
+        "path": "manuscript/figures/README.md",
+        "line": 25,
+        "section": "설명 도표 보강 — 2026-10-24",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/figures/README.md",
+        "line": 26,
+        "section": "설명 도표 보강 — 2026-10-24",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/figures/README.md",
+        "line": 28,
+        "section": "설명 도표 보강 — 2026-10-24",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/figures/README.md",
+        "line": 44,
+        "section": "2026-11-09 리뉴얼 데모",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/figures/README.md",
+        "line": 46,
+        "section": "2026-11-09 리뉴얼 데모",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/front-matter/00-preface.md",
+        "line": 41,
+        "section": "구현을 따라 읽는 공통 예제",
+        "kind": "content",
+        "source_ids": [
+          "S157"
+        ],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "manuscript/front-matter/00-preface.md",
+        "line": 43,
+        "section": "구현을 따라 읽는 공통 예제",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "확인 기준일 문구를 11-09 출발·11-17 갱신으로 정리"
+      },
+      {
+        "path": "website/src/components/BookHeader.astro",
+        "line": 5,
+        "section": "",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "website/src/components/BookHeader.astro",
+        "line": 6,
+        "section": "",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "website/src/components/BookHeader.astro",
+        "line": 7,
+        "section": "",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "저자 판단 대기",
+        "reason": "대시보드 링크가 factory-test-app를 가리킴. 2026-11-10 기록상 의도적 대상이라 변경하지 않음"
+      },
+      {
+        "path": "website/src/components/BookHeader.astro",
+        "line": 11,
+        "section": "",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "유지",
+        "reason": "후보 대조 결과 설명이 달라지지 않음. 도표·링크·출처 ID 유지"
+      },
+      {
+        "path": "website/src/pages/about.astro",
+        "line": 7,
+        "section": "",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "확인 기준일 문구 갱신"
+      },
+      {
+        "path": "website/src/pages/guide.astro",
+        "line": 12,
+        "section": "",
+        "kind": "content",
+        "source_ids": [],
+        "decision": "본문 보완",
+        "reason": "확인 기준일 문구 갱신"
+      }
+    ]
+  },
+  "case_decisions": {
+    "changed": {
+      "index": "S157",
+      "request": "S158",
+      "policy-and-gate": "S159",
+      "recovery": "S161",
+      "execution-authority": "S162",
+      "agent-selection": "S163",
+      "improvement": "S165"
+    },
+    "kept": {
+      "evidence": "S160",
+      "metrics": "S164"
+    },
+    "chapters_edited": [
+      "ch05",
+      "ch08",
+      "ch09",
+      "ch11",
+      "ch12"
+    ],
+    "chapters_date_wording_only": [
+      "ch01",
+      "preface"
+    ],
+    "chapters_kept": [
+      "ch03",
+      "ch07",
+      "ch17",
+      "ch19"
+    ],
+    "figures_kept": [
+      "demo-flow.svg",
+      "demo-authority-boundary.svg"
+    ]
+  },
+  "reading_revisions": {
+    "incremented_once": [
+      "demo-index",
+      "demo-request",
+      "demo-policy-and-gate",
+      "demo-recovery",
+      "demo-execution-authority",
+      "demo-agent-selection",
+      "demo-improvement",
+      "ch05",
+      "ch08",
+      "ch09",
+      "ch11",
+      "ch12"
+    ],
+    "not_incremented": [
+      "preface",
+      "ch01 (기준일 문구만 바뀜)",
+      "demo-evidence",
+      "demo-metrics"
+    ],
+    "new_anchor": {
+      "demo-request": {
+        "게스트 요청 심사는 코드로만 있고 접수는 닫혀 있다": "s04"
+      }
+    },
+    "old_anchors_preserved": true
+  },
+  "tldr": {
+    "reviewed_chapters": [
+      1,
+      5,
+      8,
+      9,
+      11,
+      12
+    ],
+    "result": "6개 장 본문 변경을 대조했고 기존 요약이 본문과 일치해 문구를 유지하고 판본 기록만 갱신(2026-11-19)"
+  },
+  "source_ledger": {
+    "ids_kept": "S157-S165 유지, 새 ID 발급 없음",
+    "confirmed_editions_added_to": [
+      "S157",
+      "S158",
+      "S159",
+      "S161",
+      "S162",
+      "S163",
+      "S165"
+    ],
+    "followup_checks_added_to": [
+      "S160",
+      "S164"
+    ],
+    "old_edition_records_preserved": true,
+    "license": "후보 루트에 LICENSE 없음. 이전 Apache-2.0 허락을 승계하지 않고 짧은 자체 해설과 근거 링크만 사용"
+  },
+  "files": {
+    "README.md": {
+      "before_sha256": "85d6c179b19a2070fccc98c29e966388f0cb59d8a3f95035e5666ba3352d8672",
+      "after_sha256": "7e465c770b2b3fa6f5ea18f0cd126b5576f18f274a9e60c3033776d4d4a8a14f"
+    },
+    "STATUS.md": {
+      "before_sha256": "27dc785a2aa2f87d924b4826072c124f89a31459ddc46dfd3fe78e4b7d6deb26",
+      "after_sha256": "b71c63eb0dbe8b78e929e59288c7ede7d3a1ee535b84ae665038d0998f5b097b"
+    },
+    "manuscript/chapters/ch01.md": {
+      "before_sha256": "78361b6ff233f89b94ed5acccfef61639e448eda0a222bd989f8fe12d8254e67",
+      "after_sha256": "eece242c303c4822e99682f672a3d3584bff218dd2aff85afb8dfe5a0b488eee"
+    },
+    "manuscript/chapters/ch05.md": {
+      "before_sha256": "70857eeb299ccb9aac3e459f02927c41e4f465ae3a2f90859ec58ffc5e07f405",
+      "after_sha256": "e634de2a97865f19f35d23ab1106a69c5459a9a10f675b642eb7f772af46bd7f"
+    },
+    "manuscript/chapters/ch08.md": {
+      "before_sha256": "dcd11679936240c18102f508547e95aa86853112ea395d2f2d2547a4e5dd3b9a",
+      "after_sha256": "b9d33846745f1bf6ff3a54448ae93771975004e449a9c6eface528a97a5d20a0"
+    },
+    "manuscript/chapters/ch09.md": {
+      "before_sha256": "dcee4d1278acdf73886bdf6957fca6b35fc9592c7b4a6d174b1bf6a84ca526d7",
+      "after_sha256": "5ac7ff32f90e7ae66515e94791f64ea95c7092b1cf7a10a56b446e7ac9a2b756"
+    },
+    "manuscript/chapters/ch11.md": {
+      "before_sha256": "1bd829ee5fac6ebb23dc68838cf8938e26b16614150c2647a768509548a0f07d",
+      "after_sha256": "5561880e3bab300579ce941b89fdf2fee6548aa7530d257b8cdd0baa0682fb9a"
+    },
+    "manuscript/chapters/ch12.md": {
+      "before_sha256": "8cc6dcc550c455c08643d3484dcfb2a9e7e24aa413c678801838ae50a9775103",
+      "after_sha256": "d4b6907e8c40f2d62bcd2f054388ce751cba82e200b8a746008436b0f1b5471b"
+    },
+    "manuscript/demo/agent-selection.md": {
+      "before_sha256": "b4fd04df7c214e7afcba155a9414aa20feda836c9d1d0916bed9009d35bb0bf0",
+      "after_sha256": "b5c0a2a55dc2377dbb25b6276beda1fec305480c8a162814ae4c1f35cf08cb66"
+    },
+    "manuscript/demo/execution-authority.md": {
+      "before_sha256": "043da823dc36c88fa3919a31cf8c6a55f34978cac0cbeff497c04ced87de7beb",
+      "after_sha256": "652d671a02e4816e7e5fdf3f47b62fee7cc96e888060b792ef7adedea571e1fc"
+    },
+    "manuscript/demo/improvement.md": {
+      "before_sha256": "d11b5b15d090978d40cac5d30e2b9626a78d761be8c2a6d055fb9c3284bb590b",
+      "after_sha256": "f0d984ad7515c5baebaa80276d4602fa30e479b81d05a7f5fda1c1cca8fca7d0"
+    },
+    "manuscript/demo/index.md": {
+      "before_sha256": "73067a79e478eebd59cf2279d90f94a662cba6a2d832ef4564ad544e2c17ca24",
+      "after_sha256": "1b042196948cabc96991be85e4795ccab2d367c167b6a497c34c7e86ef89ed18"
+    },
+    "manuscript/demo/policy-and-gate.md": {
+      "before_sha256": "524fa2ee90ea4c6a2ba4d7fef792e16685f00f4571dbc4921968f778cfb5bcea",
+      "after_sha256": "021d7740920c7d97c99a22aa431c5c3fdb953ddf69d7f9517edd0178e879e45b"
+    },
+    "manuscript/demo/recovery.md": {
+      "before_sha256": "6f6d26f71a9f502557b75d287647b0e85a6e8d536ec4be630749ce23d99fca35",
+      "after_sha256": "3609d468d9b28f23f8c046b8db338cd615ab4ffaca744b0550f21b7dca2a22e4"
+    },
+    "manuscript/demo/request.md": {
+      "before_sha256": "bffd382f72390501f2583aeca4a625aacc2e11a18e7ca750f22268bdd8419318",
+      "after_sha256": "92fb6e25636cacc983e69246b7ed9a5b1d531a4ba2a704fe497b59ba50e9ded4"
+    },
+    "manuscript/figures/README.md": {
+      "before_sha256": "37314ec31a70a54367b1e7c2ce77d719a9dfbf05e13bbfd53a00024e4d211a4d",
+      "after_sha256": "6ba0a5a5b0336d68ba482990fb71752be62640f1741b90412f72d3b1802f3395"
+    },
+    "manuscript/front-matter/00-preface.md": {
+      "before_sha256": "35c8f469da07f61ca2cec5460368dfc14da6d74a397cc40121e3e323cf970d5e",
+      "after_sha256": "493d17b97914af85d784d63614ff7c16859232ae1cf97fc27bb51bc046a52558"
+    },
+    "planning/chapter-tldr-manifest.json": {
+      "before_sha256": "8f09fc88d8685a2aedf1bb9dba1454318786ad806584e3fb5ff2c7490461c68b",
+      "after_sha256": "0a1f3fdbf129d983ae6405a14a038d366a0ca613d4bf7c18e8b36d852a7f131e"
+    },
+    "planning/sessions/2026-11-19-demo-refresh.md": {
+      "before_sha256": null,
+      "after_sha256": "0e391aa7bb0b3d2bece7705307644eb08f2b581cf9c738c588fde3179c0897ec"
+    },
+    "research/cases/software-factory-demo.md": {
+      "before_sha256": "eedeac2f0b480586fbd75c594f76f836dec91aa39967ffdce0a64957598f91b0",
+      "after_sha256": "9306bf2c2d5aebc17754dc4ea74fb8f85173c842e2fe89d604b52d725305bccf"
+    },
+    "research/claims/ch01.json": {
+      "before_sha256": "11cd4cced3d434e177e29c1d8f860f588c7de8ab0aa029622f2e0ee31f8480f4",
+      "after_sha256": "3b31c56292fe160953c127be0163f69580a3424a2fa288f27b7f0d90caca993d"
+    },
+    "research/claims/ch05.json": {
+      "before_sha256": "13943a49d3a40869250fbdd4786b1e9c0387f1843e4db05cca8ecbad0eda3095",
+      "after_sha256": "69835106b06aa0b0f9b692916044946aab3e60d911663e71fe650ac958a912d4"
+    },
+    "research/claims/ch08.json": {
+      "before_sha256": "5eca6420ec0431565ecdd3f9d37e33003b2fd73088dec7185f9f7e2d49ee3a42",
+      "after_sha256": "bbf99f070e6febd1cf7ec5cfec7ccd01131173dc08c1a274461bc7995263fc6c"
+    },
+    "research/claims/ch09.json": {
+      "before_sha256": "d195daff0031b092b76ed5eaf82d76fc1f9b98e99c6f9faec569eb804e3d14d1",
+      "after_sha256": "6a60a24e136f75d105e94910fd8b790400eda685a1bb1f3835ef13d3f0775c02"
+    },
+    "research/claims/ch11.json": {
+      "before_sha256": "fd97a6d7cb43f0d2a44130e2e32eb4a74129e560f438f1f679519fbb49b34151",
+      "after_sha256": "dfab20140a0da8fd973c923f0d77f4b5d40cdfeaf32dfee4d012793d9ea2d6eb"
+    },
+    "research/claims/ch12.json": {
+      "before_sha256": "83863826963d68fe44c496fb50e6e6124104920e17c55cebd4c395dae8aa0bbc",
+      "after_sha256": "20d97fe6f948c4c19388ed280705f5c44dc1ad3c47cf1459d48257950edd8d94"
+    },
+    "research/claims/software-factory-demo.json": {
+      "before_sha256": "fd8006365a1a2ddb5256aa24d9e49c77169b41441bdeeeab0201b4d435c7053e",
+      "after_sha256": "2bf03090d0fdedae528305dcd821c3ed532e6fcf308f6a0495d7e9a2e6106cf8"
+    },
+    "research/demo-example-cases.json": {
+      "before_sha256": "a85b1a679fa845a9ae20585b37e365f249c207c60f246f63ee491ddff2c98982",
+      "after_sha256": "0c49d47a49a9da4fec991134d78e24fe8be27dbe0caa31e683e06157cb8d98b0"
+    },
+    "research/software-factory-demo-inventory.json": {
+      "before_sha256": "a51c8cdbe896c28cfdcf7dd86a03e2f646f983e794c9910d3dbd05bcda033bdf",
+      "after_sha256": "60afe8453bb5fe9f1f91962ea7819411f46ba947ed88111c20999b90f6d506b4"
+    },
+    "research/sources.json": {
+      "before_sha256": "86da2d8060f54f76ccf25f7e49551506d465d2dba976c76b2f6797202ec3bf35",
+      "after_sha256": "cc4214f45284eaef6ac435b44c67c3b19cd369f60a3d72f13be59629ed33f251"
+    },
+    "website/content-manifest.json": {
+      "before_sha256": "75363d9dd30f92ce4caefa0ac1a2387006f034eb6a6ac11612360077ad3502b5",
+      "after_sha256": "ee2f8c952ce3493233db038e1f667a734d2aac617b29af511549d4628c8bb62c"
+    },
+    "website/src/pages/about.astro": {
+      "before_sha256": "1d4ccdabcd13d712d8778cedab8faf1f1fa26d52121bf1e4ce9ffed301267b4f",
+      "after_sha256": "c3171f33c6a56f38b7d12c134a68c34a37d1e8e0016a7989a07e1fa5ac790d37"
+    },
+    "website/src/pages/guide.astro": {
+      "before_sha256": "5105b7adcd595b24d1894bc7fd2d1718bfd9cfc5d0a84e807145559894648a53",
+      "after_sha256": "612a56595dcb4d215a3527c3532fc5681d320f6e043885ff43989e5b7dbbb503"
+    }
+  },
+  "checks": [
+    {
+      "command": "python3 scripts/demo_examples.py --run-id r20261119a --output <새 경로>",
+      "result": "PASS",
+      "output": "수정 전 `Scanned 62 files; 110 mentions.`, 수정 후 `Scanned 62 files; 139 mentions.`(생성본, 의미 검증 아님)"
+    },
+    {
+      "command": "python3 scripts/check_project.py",
+      "result": "PASS",
+      "output": "`PASS: 20 chapters, 15 patterns, 165 sources; JSON and local links valid`"
+    },
+    {
+      "command": "git diff --check",
+      "result": "PASS",
+      "output": "출력 없음(추적 파일 기준)"
+    },
+    {
+      "command": "cd website && npm ci",
+      "result": "PASS",
+      "output": "`added 453 packages, and audited 454 packages`; 취약점 3건(보통 2·높음 1) 경고는 기존 의존성에서 나옴, 변경하지 않음"
+    },
+    {
+      "command": "cd website && npm run build (TL;DR 검사·콘텐츠 생성·Astro 빌드·출력 검사)",
+      "result": "PASS",
+      "output": "`PASS: 20 chapter TL;DRs match reviewed body and summary versions.` / `[build] Complete!` / `PASS: 56 public HTML pages; local links and anchors; no internal review paths.`"
+    },
+    {
+      "command": "cd website && npm test",
+      "result": "PASS",
+      "output": "`ℹ tests 37` `ℹ pass 37` `ℹ fail 0`"
+    },
+    {
+      "command": "python3 -m unittest discover -s scripts/tests",
+      "result": "PASS",
+      "output": "`Ran 10 tests` `OK`"
+    },
+    {
+      "command": "python3 skills/chapter-tldr/scripts/tldr.py check --root .",
+      "result": "PASS",
+      "output": "`PASS: 20 chapter TL;DRs match reviewed body and summary versions.`"
+    },
+    {
+      "command": "후보 링크 존재 확인(git cat-file -e)",
+      "result": "PASS",
+      "output": "해설 9개의 저장소 링크 48개 모두 존재(후보 40, 11-09 고정 8)"
+    },
+    {
+      "command": "모바일·브라우저·E2E 표시 검사",
+      "result": "미수행",
+      "output": "이번 실행에서 수행하지 않음"
+    }
+  ],
+  "author_judgement": [
+    "게스트 요청 심사를 어디까지 설명할지(현재: 요청 해설 1절·5장 1문장·소개 1문단. 권고 유지, 실제 요청 처리 확인 뒤 확장)",
+    "헤더 데모 대시보드 링크 대상(factory-test-app vs conveyor). 2026-11-10 기록상 의도적 대상이라 변경하지 않음",
+    "Dependabot 점검을 12장·정책 해설에 계속 둘지",
+    "DNS·인젝션 시험 기록(플랫폼 보고)의 인용 강도",
+    "서문·1장 reading revision을 기준일 문구 변경으로 올릴지",
+    "CHANGELOG 공개 예정 항목의 공개 시점과 날짜",
+    "3장 184-186행에 비활성 Dependabot 경로(저장소 정책 T3 의존성 파일의 예외 병합)를 언급할지"
+  ],
+  "unconfirmed": [
+    "플랫폼의 실서비스 확인(2026-11-06~14)은 플랫폼 소유자의 보고이며 재현·호출하지 않음",
+    "소개·포털·Conveyor HTTP 응답은 이번에 다시 확인하지 않음(11-09 확인 유지)",
+    "docs/design.md·docs/operations.md 전후 diff 출력이 잘려 앞부분만 읽음. 후보의 해당 절을 직접 읽음",
+    "triage-service.ts·guest-policy.ts·dependabot.ts·guest-demo.md는 관련 구간만 읽음",
+    "모바일·브라우저·E2E 표시 검사 미수행",
+    "플랫폼 status.md의 8단계(책 개정) 미착수 표기와 책의 11-09 개정 사이의 불일치(책이 고칠 항목 아님)"
+  ],
+  "commit_or_push": "없음. 모든 변경은 워크트리에 미커밋 상태",
+  "separate_verification": {
+    "status": "호출자가 수행 예정",
+    "self_check": true
+  },
+  "verification_followup": {
+    "verifier_report": "planning/reviews/2026-11-19-demo-examples-verify-r20261119a.md",
+    "findings": {
+      "RV-V01": "수정 완료, 검증 대기",
+      "RV-V02": "수정 완료, 검증 대기",
+      "RV-V03": "수정 완료, 검증 대기",
+      "RV-V05": "수정 완료, 검증 대기",
+      "RV-V06": "수정 완료, 검증 대기"
+    },
+    "RV-V04": "3장 미변경. 저자 판단 항목 7로 기록(수정 완료가 아니라 저자 판단 대기)",
+    "RV-V06_note": "서문·README에는 날짜 없는 응답 확인 문장이 없어 변경하지 않음. 서문·1장 reading revision은 올리지 않음",
+    "content_manifest_changes": "없음(이미 올린 revision 범위 안의 변경)"
+  }
+}

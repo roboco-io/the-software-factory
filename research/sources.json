@@ -5794,7 +5794,62 @@
         "direct_quote_words": 0,
         "scope": "짧은 자체 해설·판단 질문·고정 원문 링크. 코드/문서 전문·제3자 도표 복제 없음. 파일별 중복 사실과 누적 요약 범위를 검토.",
         "permission_basis": "저자의 리뉴얼 자료 확인 및 책 반영 요청에 따른 자체 요약. 새 판본에 LICENSE 파일이 확인되지 않아 이전 Apache-2.0 허락을 승계하지 않음. 일반 출처별 요약 상한 범위로 제한."
-      }
+      },
+      "confirmed_editions": [
+        {
+          "edition_id": "2026-11-17-0c1b2ec",
+          "run_id": "r20261119a",
+          "revision": "0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6",
+          "revision_committed_on": "2026-11-17T00:41:52Z",
+          "previous_confirmed_revision": "1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a",
+          "checked_on": "2026-11-19",
+          "status": "후보 판본의 관련 부분 대조; 후보 전체 검증 아님",
+          "verification_status": "공개 문서·정적 코드의 관련 부분 직접 대조와 플랫폼 기록의 내용 대조",
+          "verification_scope": "플랫폼 개요와 확인 상태. 후보 판본의 현재 상태 문서가 진행 상태와 실서비스 확인의 유일한 원본이라는 선언, 전체 중지·게스트 심사·Dependabot 점검의 확인 상태 요약. 플랫폼 소유자의 보고를 서술한 것이며 책이 재현한 결과가 아님.",
+          "evidence_files": [
+            {
+              "path": "docs/status.md",
+              "blob_sha": "71ebc359a113e91b6cb075006ebc6733777da0e2",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/status.md",
+              "lines": 113,
+              "previous_blob_sha": null,
+              "change_since_1a8d3f3": "신규",
+              "read_scope": "전체"
+            },
+            {
+              "path": "docs/design.md",
+              "blob_sha": "5231ddf6fbacc5e5863351b92087c91ecbc039dd",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/design.md",
+              "lines": 126,
+              "previous_blob_sha": "01f653e066441ebb1875729ce6a7aa278e6c7155",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "전후 diff 앞부분과 6절·118행 부근"
+            },
+            {
+              "path": "apps/control/wrangler.jsonc",
+              "blob_sha": "4d896dc6bbc7bc968b0d2c829aed05a0f3911f6a",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/wrangler.jsonc",
+              "lines": 89,
+              "previous_blob_sha": "d40f29bafade9c5ef2965d81f5a2d589ef257a40",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "전후 diff와 변수 주석"
+            }
+          ],
+          "limit": "설치·에이전트 실행·로그인·병합·운영/보안 효과를 직접 시험하지 않음. 플랫폼의 실서비스 확인 기록은 플랫폼 소유자의 보고이며 책이 재현하지 않음. 후보 판본 전체를 검증한 것이 아니라 영향받는 사례의 관련 부분만 대조함. 게스트 심사·Dependabot 점검은 구현이 진행 중이거나 비활성인 상태임.",
+          "usage_review": {
+            "checked_on": "2026-11-19",
+            "files": [
+              "manuscript/demo/index.md",
+              "manuscript/chapters/ch01.md",
+              "manuscript/front-matter/00-preface.md"
+            ],
+            "direct_quote_words": 0,
+            "scope": "짧은 자체 해설·판단 질문·고정 원문 링크. 코드/문서 전문 복제 없음. 기존 11-09 판본 사용과 판본별로 구분해 누적.",
+            "permission_basis": "저자의 책 반영 요청에 따른 자체 요약. 후보 판본에도 LICENSE 파일이 확인되지 않아 이전 Apache-2.0 허락을 승계하지 않음. 일반 출처별 요약 상한 범위로 제한하고 원문 직접 인용 없음."
+          },
+          "note": "기존 url·revision·evidence_files는 2026-11-09 판본 기록이며 보존한다. 위 사용 위치의 현재 설명은 이 판본을 기준으로 한다."
+        }
+      ]
     },
     {
       "id": "S158",
@@ -5861,7 +5916,133 @@
         "direct_quote_words": 0,
         "scope": "짧은 자체 해설·판단 질문·고정 원문 링크. 코드/문서 전문·제3자 도표 복제 없음. 파일별 중복 사실과 누적 요약 범위를 검토.",
         "permission_basis": "저자의 리뉴얼 자료 확인 및 책 반영 요청에 따른 자체 요약. 새 판본에 LICENSE 파일이 확인되지 않아 이전 Apache-2.0 허락을 승계하지 않음. 일반 출처별 요약 상한 범위로 제한."
-      }
+      },
+      "confirmed_editions": [
+        {
+          "edition_id": "2026-11-17-0c1b2ec",
+          "run_id": "r20261119a",
+          "revision": "0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6",
+          "revision_committed_on": "2026-11-17T00:41:52Z",
+          "previous_confirmed_revision": "1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a",
+          "checked_on": "2026-11-19",
+          "status": "후보 판본의 관련 부분 대조; 후보 전체 검증 아님",
+          "verification_status": "공개 문서·정적 코드의 관련 부분 직접 대조와 플랫폼 기록의 내용 대조",
+          "verification_scope": "운영자 라벨 경로와 별도 게스트 심사 경로의 진입 조건, 심사 순서, 판정 형식 검사, 접수 대상 설정이 비어 있음, 2026-11-15 개방과 2026-11-17 폐쇄의 플랫폼 기록. 게스트 심사는 가짜 서비스로만 시험했고 실제 요청 처리 기록이 없음.",
+          "evidence_files": [
+            {
+              "path": "apps/control/src/webhook.ts",
+              "blob_sha": "fb22b8ab969d1e71b915be503caba437bed72d47",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/webhook.ts",
+              "lines": 320,
+              "previous_blob_sha": "3107b1125c29f59ce6351aec675bee8e72c70ea5",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "전체 통독"
+            },
+            {
+              "path": "apps/control/src/run-machine.ts",
+              "blob_sha": "44df669dc36b04937aed0fd85cc8f510ea4f8551",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/run-machine.ts",
+              "lines": 1068,
+              "previous_blob_sha": "151671d8806eba640ed728a036e375f22f207743",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "전후 diff"
+            },
+            {
+              "path": "apps/control/src/prompt.ts",
+              "blob_sha": "36643db6d4dca3c853df912b724ff23ec92e5b8a",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/prompt.ts",
+              "lines": 60,
+              "previous_blob_sha": "36643db6d4dca3c853df912b724ff23ec92e5b8a",
+              "change_since_1a8d3f3": "동일",
+              "read_scope": "전후 blob 동일 확인; 후보에서 다시 읽지 않음"
+            },
+            {
+              "path": "apps/control/src/triage-service.ts",
+              "blob_sha": "5710ba0f3e1e088baad2770c6c756c35ff72354f",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/triage-service.ts",
+              "lines": 384,
+              "previous_blob_sha": null,
+              "change_since_1a8d3f3": "신규",
+              "read_scope": "실행 시작·결과 처리 구간과 운영 문서의 처리 순서 대조"
+            },
+            {
+              "path": "apps/control/src/triage-verdict.ts",
+              "blob_sha": "03b5344f018b6714f3a9392b5477e344a5bf5a3a",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/triage-verdict.ts",
+              "lines": 84,
+              "previous_blob_sha": null,
+              "change_since_1a8d3f3": "신규",
+              "read_scope": "전체"
+            },
+            {
+              "path": "apps/control/src/triage-precheck.ts",
+              "blob_sha": "762b136132cc4f355b88ec86ac3122af0ad02169",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/triage-precheck.ts",
+              "lines": 130,
+              "previous_blob_sha": null,
+              "change_since_1a8d3f3": "신규",
+              "read_scope": "사전 검사 조건 구간"
+            },
+            {
+              "path": "apps/control/src/guest-policy.ts",
+              "blob_sha": "213aa9d7cb7d3c7bd6b6a44629738e8bb45d6b04",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/guest-policy.ts",
+              "lines": 139,
+              "previous_blob_sha": null,
+              "change_since_1a8d3f3": "신규",
+              "read_scope": "정책 형식 앞부분"
+            },
+            {
+              "path": "apps/control/wrangler.jsonc",
+              "blob_sha": "4d896dc6bbc7bc968b0d2c829aed05a0f3911f6a",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/wrangler.jsonc",
+              "lines": 89,
+              "previous_blob_sha": "d40f29bafade9c5ef2965d81f5a2d589ef257a40",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "전후 diff와 변수 주석"
+            },
+            {
+              "path": "docs/status.md",
+              "blob_sha": "71ebc359a113e91b6cb075006ebc6733777da0e2",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/status.md",
+              "lines": 113,
+              "previous_blob_sha": null,
+              "change_since_1a8d3f3": "신규",
+              "read_scope": "전체"
+            },
+            {
+              "path": "docs/operations.md",
+              "blob_sha": "6929a5081c6b59f0f2a5fc891029f9ad1b4321fb",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/operations.md",
+              "lines": 376,
+              "previous_blob_sha": "fab0883dc3af3be5620dba7a2d79bf1244a066b4",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "게스트 심사·전체 중지 절"
+            },
+            {
+              "path": "docs/guest-demo.md",
+              "blob_sha": "ac5aa9a0286d1d1ff24101007fb873b9c522c57c",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/guest-demo.md",
+              "lines": 330,
+              "previous_blob_sha": null,
+              "change_since_1a8d3f3": "신규",
+              "read_scope": "앞 40줄(배경·결정 표)"
+            }
+          ],
+          "limit": "설치·에이전트 실행·로그인·병합·운영/보안 효과를 직접 시험하지 않음. 플랫폼의 실서비스 확인 기록은 플랫폼 소유자의 보고이며 책이 재현하지 않음. 후보 판본 전체를 검증한 것이 아니라 영향받는 사례의 관련 부분만 대조함. 게스트 심사·Dependabot 점검은 구현이 진행 중이거나 비활성인 상태임.",
+          "usage_review": {
+            "checked_on": "2026-11-19",
+            "files": [
+              "manuscript/demo/request.md",
+              "manuscript/chapters/ch05.md"
+            ],
+            "direct_quote_words": 0,
+            "scope": "짧은 자체 해설·판단 질문·고정 원문 링크. 코드/문서 전문 복제 없음. 기존 11-09 판본 사용과 판본별로 구분해 누적.",
+            "permission_basis": "저자의 책 반영 요청에 따른 자체 요약. 후보 판본에도 LICENSE 파일이 확인되지 않아 이전 Apache-2.0 허락을 승계하지 않음. 일반 출처별 요약 상한 범위로 제한하고 원문 직접 인용 없음."
+          },
+          "note": "기존 url·revision·evidence_files는 2026-11-09 판본 기록이며 보존한다. 위 사용 위치의 현재 설명은 이 판본을 기준으로 한다."
+        }
+      ]
     },
     {
       "id": "S159",
@@ -5921,7 +6102,115 @@
         "direct_quote_words": 0,
         "scope": "짧은 자체 해설·판단 질문·고정 원문 링크. 코드/문서 전문·제3자 도표 복제 없음. 파일별 중복 사실과 누적 요약 범위를 검토.",
         "permission_basis": "저자의 리뉴얼 자료 확인 및 책 반영 요청에 따른 자체 요약. 새 판본에 LICENSE 파일이 확인되지 않아 이전 Apache-2.0 허락을 승계하지 않음. 일반 출처별 요약 상한 범위로 제한."
-      }
+      },
+      "confirmed_editions": [
+        {
+          "edition_id": "2026-11-17-0c1b2ec",
+          "run_id": "r20261119a",
+          "revision": "0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6",
+          "revision_committed_on": "2026-11-17T00:41:52Z",
+          "previous_confirmed_revision": "1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a",
+          "checked_on": "2026-11-19",
+          "status": "후보 판본의 관련 부분 대조; 후보 전체 검증 아님",
+          "verification_status": "공개 문서·정적 코드의 관련 부분 직접 대조와 플랫폼 기록의 내용 대조",
+          "verification_scope": "병합 판정 함수와 별도 Dependabot 점검 경로의 구분, 점검 조건, 대상 설정이 없어 동작하지 않음, 실제 GitHub·예약 실행 미수행, 서명 조건 위조 가능성 미확인의 플랫폼 기록.",
+          "evidence_files": [
+            {
+              "path": "docs/examples/factory-policy.yml",
+              "blob_sha": "72bb976528d86f781cbc44fde84e4595ac4b7fa7",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/examples/factory-policy.yml",
+              "lines": 33,
+              "previous_blob_sha": "72bb976528d86f781cbc44fde84e4595ac4b7fa7",
+              "change_since_1a8d3f3": "동일",
+              "read_scope": "전후 blob 동일 확인; 후보에서 다시 읽지 않음"
+            },
+            {
+              "path": "apps/control/src/policy.ts",
+              "blob_sha": "ba8cddc98ec464da03bae6336eba6f3d3b8ebfce",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/policy.ts",
+              "lines": 227,
+              "previous_blob_sha": "ba8cddc98ec464da03bae6336eba6f3d3b8ebfce",
+              "change_since_1a8d3f3": "동일",
+              "read_scope": "전후 blob 동일 확인; 후보에서 다시 읽지 않음"
+            },
+            {
+              "path": "apps/control/src/decision.ts",
+              "blob_sha": "dc99bca982f44afda2c2039cab76694b12eedff9",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/decision.ts",
+              "lines": 140,
+              "previous_blob_sha": "004e6a330443a0e8b577b4b3132499010706387e",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "전후 diff"
+            },
+            {
+              "path": "apps/control/src/github-pulls.ts",
+              "blob_sha": "66b369370c0903b69283101da7be9297ba902d63",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/github-pulls.ts",
+              "lines": 246,
+              "previous_blob_sha": "66b369370c0903b69283101da7be9297ba902d63",
+              "change_since_1a8d3f3": "동일",
+              "read_scope": "전후 blob 동일 확인; 후보에서 다시 읽지 않음"
+            },
+            {
+              "path": "apps/control/src/dependabot.ts",
+              "blob_sha": "96eb2b59cba2c284fadd2e4811c706a0a0685da5",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/dependabot.ts",
+              "lines": 273,
+              "previous_blob_sha": null,
+              "change_since_1a8d3f3": "신규",
+              "read_scope": "앞 60줄(타입과 판정 입력)과 운영 문서의 병합 조건 대조"
+            },
+            {
+              "path": "apps/control/src/scheduled.ts",
+              "blob_sha": "60f6fdd12eedc81bf9625803a06de81b0b0d148a",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/scheduled.ts",
+              "lines": 71,
+              "previous_blob_sha": null,
+              "change_since_1a8d3f3": "신규",
+              "read_scope": "전체"
+            },
+            {
+              "path": "apps/control/wrangler.jsonc",
+              "blob_sha": "4d896dc6bbc7bc968b0d2c829aed05a0f3911f6a",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/wrangler.jsonc",
+              "lines": 89,
+              "previous_blob_sha": "d40f29bafade9c5ef2965d81f5a2d589ef257a40",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "전후 diff와 변수 주석"
+            },
+            {
+              "path": "docs/status.md",
+              "blob_sha": "71ebc359a113e91b6cb075006ebc6733777da0e2",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/status.md",
+              "lines": 113,
+              "previous_blob_sha": null,
+              "change_since_1a8d3f3": "신규",
+              "read_scope": "전체"
+            },
+            {
+              "path": "docs/operations.md",
+              "blob_sha": "6929a5081c6b59f0f2a5fc891029f9ad1b4321fb",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/operations.md",
+              "lines": 376,
+              "previous_blob_sha": "fab0883dc3af3be5620dba7a2d79bf1244a066b4",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "Dependabot 절"
+            }
+          ],
+          "limit": "설치·에이전트 실행·로그인·병합·운영/보안 효과를 직접 시험하지 않음. 플랫폼의 실서비스 확인 기록은 플랫폼 소유자의 보고이며 책이 재현하지 않음. 후보 판본 전체를 검증한 것이 아니라 영향받는 사례의 관련 부분만 대조함. 게스트 심사·Dependabot 점검은 구현이 진행 중이거나 비활성인 상태임.",
+          "usage_review": {
+            "checked_on": "2026-11-19",
+            "files": [
+              "manuscript/demo/policy-and-gate.md",
+              "manuscript/chapters/ch12.md"
+            ],
+            "direct_quote_words": 0,
+            "scope": "짧은 자체 해설·판단 질문·고정 원문 링크. 코드/문서 전문 복제 없음. 기존 11-09 판본 사용과 판본별로 구분해 누적.",
+            "permission_basis": "저자의 책 반영 요청에 따른 자체 요약. 후보 판본에도 LICENSE 파일이 확인되지 않아 이전 Apache-2.0 허락을 승계하지 않음. 일반 출처별 요약 상한 범위로 제한하고 원문 직접 인용 없음."
+          },
+          "note": "기존 url·revision·evidence_files는 2026-11-09 판본 기록이며 보존한다. 위 사용 위치의 현재 설명은 이 판본을 기준으로 한다."
+        }
+      ]
     },
     {
       "id": "S160",
@@ -5980,7 +6269,18 @@
         "direct_quote_words": 0,
         "scope": "짧은 자체 해설·판단 질문·고정 원문 링크. 코드/문서 전문·제3자 도표 복제 없음. 파일별 중복 사실과 누적 요약 범위를 검토.",
         "permission_basis": "저자의 리뉴얼 자료 확인 및 책 반영 요청에 따른 자체 요약. 새 판본에 LICENSE 파일이 확인되지 않아 이전 Apache-2.0 허락을 승계하지 않음. 일반 출처별 요약 상한 범위로 제한."
-      }
+      },
+      "followup_checks": [
+        {
+          "checked_on": "2026-11-19",
+          "run_id": "r20261119a",
+          "purpose": "후보 판본과 확인 판본의 변경 영향 대조",
+          "revision": "0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6",
+          "previous_confirmed_revision": "1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a",
+          "result": "결과를 판단하는 증거 페이지의 인용 파일(review-command.ts, review-prompt.ts, review-verdict.ts, decision.ts)을 후보와 대조했다. review-prompt.ts·review-verdict.ts는 동일, review-command.ts는 Anthropic 모델 리뷰용 호환 설정과 실패 로그만, decision.ts는 함수 내보내기와 필수 체크 집계 함수만 추가되어 페이지 설명이 달라지지 않았다.",
+          "limit": "판본·인용 링크·본문을 바꾸지 않음. 후보 전체나 실제 실행을 검증한 것이 아님."
+        }
+      ]
     },
     {
       "id": "S161",
@@ -6039,7 +6339,106 @@
         "direct_quote_words": 0,
         "scope": "짧은 자체 해설·판단 질문·고정 원문 링크. 코드/문서 전문·제3자 도표 복제 없음. 파일별 중복 사실과 누적 요약 범위를 검토.",
         "permission_basis": "저자의 리뉴얼 자료 확인 및 책 반영 요청에 따른 자체 요약. 새 판본에 LICENSE 파일이 확인되지 않아 이전 Apache-2.0 허락을 승계하지 않음. 일반 출처별 요약 상한 범위로 제한."
-      }
+      },
+      "confirmed_editions": [
+        {
+          "edition_id": "2026-11-17-0c1b2ec",
+          "run_id": "r20261119a",
+          "revision": "0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6",
+          "revision_committed_on": "2026-11-17T00:41:52Z",
+          "previous_confirmed_revision": "1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a",
+          "checked_on": "2026-11-19",
+          "status": "후보 판본의 관련 부분 대조; 후보 전체 검증 아님",
+          "verification_status": "공개 문서·정적 코드의 관련 부분 직접 대조와 플랫폼 기록의 내용 대조",
+          "verification_scope": "실행별 중지와 팩토리 전체 중지의 순서·범위·한계, 상태 기록의 추가 전용 성질, 2026-11-14 배포 뒤 확인과 남은 확인 항목의 플랫폼 기록.",
+          "evidence_files": [
+            {
+              "path": "apps/control/src/run-state.ts",
+              "blob_sha": "99ca0e74fdd6a2a9197a7636689a5fda410c60ba",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/run-state.ts",
+              "lines": 51,
+              "previous_blob_sha": "99ca0e74fdd6a2a9197a7636689a5fda410c60ba",
+              "change_since_1a8d3f3": "동일",
+              "read_scope": "전후 blob 동일 확인; 후보에서 다시 읽지 않음"
+            },
+            {
+              "path": "apps/control/src/run-machine.ts",
+              "blob_sha": "44df669dc36b04937aed0fd85cc8f510ea4f8551",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/run-machine.ts",
+              "lines": 1068,
+              "previous_blob_sha": "151671d8806eba640ed728a036e375f22f207743",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "전후 diff"
+            },
+            {
+              "path": "apps/control/src/factory-switch.ts",
+              "blob_sha": "ffbe6a92dd1e8b8a63269da77f9055b449ce8921",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/factory-switch.ts",
+              "lines": 136,
+              "previous_blob_sha": null,
+              "change_since_1a8d3f3": "신규",
+              "read_scope": "전체"
+            },
+            {
+              "path": "apps/control/src/run-machine-stop.test.ts",
+              "blob_sha": "c9d2a0aa63f160c7b59d3e17a57589fffeb0b2af",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/run-machine-stop.test.ts",
+              "lines": 374,
+              "previous_blob_sha": "c9d2a0aa63f160c7b59d3e17a57589fffeb0b2af",
+              "change_since_1a8d3f3": "동일",
+              "read_scope": "전후 blob 동일 확인; 후보에서 다시 읽지 않음"
+            },
+            {
+              "path": "apps/portal/src/labels.ts",
+              "blob_sha": "931d912d3e2969db15fcd07a5042aa76dc048586",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/portal/src/labels.ts",
+              "lines": 435,
+              "previous_blob_sha": "931d912d3e2969db15fcd07a5042aa76dc048586",
+              "change_since_1a8d3f3": "동일",
+              "read_scope": "전후 blob 동일 확인; 후보에서 다시 읽지 않음"
+            },
+            {
+              "path": "apps/control/migrations/0009_factory_switch.sql",
+              "blob_sha": "0aa92e713637f72d60f6d8bddd728aae01f75f70",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/migrations/0009_factory_switch.sql",
+              "lines": 23,
+              "previous_blob_sha": null,
+              "change_since_1a8d3f3": "신규",
+              "read_scope": "전체"
+            },
+            {
+              "path": "docs/status.md",
+              "blob_sha": "71ebc359a113e91b6cb075006ebc6733777da0e2",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/status.md",
+              "lines": 113,
+              "previous_blob_sha": null,
+              "change_since_1a8d3f3": "신규",
+              "read_scope": "전체"
+            },
+            {
+              "path": "docs/operations.md",
+              "blob_sha": "6929a5081c6b59f0f2a5fc891029f9ad1b4321fb",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/operations.md",
+              "lines": 376,
+              "previous_blob_sha": "fab0883dc3af3be5620dba7a2d79bf1244a066b4",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "전체 중지·실행 중지 절"
+            }
+          ],
+          "limit": "설치·에이전트 실행·로그인·병합·운영/보안 효과를 직접 시험하지 않음. 플랫폼의 실서비스 확인 기록은 플랫폼 소유자의 보고이며 책이 재현하지 않음. 후보 판본 전체를 검증한 것이 아니라 영향받는 사례의 관련 부분만 대조함. 게스트 심사·Dependabot 점검은 구현이 진행 중이거나 비활성인 상태임.",
+          "usage_review": {
+            "checked_on": "2026-11-19",
+            "files": [
+              "manuscript/demo/recovery.md",
+              "manuscript/chapters/ch08.md"
+            ],
+            "direct_quote_words": 0,
+            "scope": "짧은 자체 해설·판단 질문·고정 원문 링크. 코드/문서 전문 복제 없음. 기존 11-09 판본 사용과 판본별로 구분해 누적.",
+            "permission_basis": "저자의 책 반영 요청에 따른 자체 요약. 후보 판본에도 LICENSE 파일이 확인되지 않아 이전 Apache-2.0 허락을 승계하지 않음. 일반 출처별 요약 상한 범위로 제한하고 원문 직접 인용 없음."
+          },
+          "note": "기존 url·revision·evidence_files는 2026-11-09 판본 기록이며 보존한다. 위 사용 위치의 현재 설명은 이 판본을 기준으로 한다."
+        }
+      ]
     },
     {
       "id": "S162",
@@ -6114,7 +6513,133 @@
         "direct_quote_words": 0,
         "scope": "짧은 자체 해설·판단 질문·고정 원문 링크. 코드/문서 전문·제3자 도표 복제 없음. 파일별 중복 사실과 누적 요약 범위를 검토.",
         "permission_basis": "저자의 리뉴얼 자료 확인 및 책 반영 요청에 따른 자체 요약. 새 판본에 LICENSE 파일이 확인되지 않아 이전 Apache-2.0 허락을 승계하지 않음. 일반 출처별 요약 상한 범위로 제한."
-      }
+      },
+      "confirmed_editions": [
+        {
+          "edition_id": "2026-11-17-0c1b2ec",
+          "run_id": "r20261119a",
+          "revision": "0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6",
+          "revision_committed_on": "2026-11-17T00:41:52Z",
+          "previous_confirmed_revision": "1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a",
+          "checked_on": "2026-11-19",
+          "status": "후보 판본의 관련 부분 대조; 후보 전체 검증 아님",
+          "verification_status": "공개 문서·정적 코드의 관련 부분 직접 대조와 플랫폼 기록의 내용 대조",
+          "verification_scope": "출구·샌드박스·게시 경계는 전후 동일 또는 변경 부분 대조. 플랫폼의 2026-11-10 DNS 실험과 2026-11-11 인젝션 시험 기록의 내용, 하지 않은 시험, 루트 실행, 출구 본문 검사의 범위. 책이 시험을 재현하지 않음.",
+          "evidence_files": [
+            {
+              "path": "apps/control/src/agent-sandbox.ts",
+              "blob_sha": "f179be8f73d48a8da6784f41089b954ab3d9b3d5",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/agent-sandbox.ts",
+              "lines": 228,
+              "previous_blob_sha": "7324e50457c23a8b5541c95d65e7bcdc7f6d6964",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "전후 diff"
+            },
+            {
+              "path": "apps/control/src/outbound-policy.ts",
+              "blob_sha": "46c93e958fd9fd07d7308d04ef37246472fc0a21",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/outbound-policy.ts",
+              "lines": 135,
+              "previous_blob_sha": "46c93e958fd9fd07d7308d04ef37246472fc0a21",
+              "change_since_1a8d3f3": "동일",
+              "read_scope": "전후 blob 동일 확인; 후보에서 다시 읽지 않음"
+            },
+            {
+              "path": "apps/control/src/changes.ts",
+              "blob_sha": "e13b75aacbb6c31e396ce2708f71248dbf0ec7a7",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/changes.ts",
+              "lines": 186,
+              "previous_blob_sha": "e13b75aacbb6c31e396ce2708f71248dbf0ec7a7",
+              "change_since_1a8d3f3": "동일",
+              "read_scope": "전후 blob 동일 확인; 후보에서 다시 읽지 않음"
+            },
+            {
+              "path": "apps/control/src/github-publisher.ts",
+              "blob_sha": "5fd9ca345eb7949cfa38d458fe4ac1add0716dde",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/github-publisher.ts",
+              "lines": 360,
+              "previous_blob_sha": "5fd9ca345eb7949cfa38d458fe4ac1add0716dde",
+              "change_since_1a8d3f3": "동일",
+              "read_scope": "전후 blob 동일 확인; 후보에서 다시 읽지 않음"
+            },
+            {
+              "path": "apps/control/src/outbound-body.ts",
+              "blob_sha": "5b0e4a5f69560d9a6a55e2a7938274a59b771c81",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/outbound-body.ts",
+              "lines": 266,
+              "previous_blob_sha": "d0ecec284d1df561164fdb625e634d280691d590",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "전후 diff"
+            },
+            {
+              "path": "apps/control/container/Dockerfile",
+              "blob_sha": "ce567b942af262042eb861a8525d1b36971741ff",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/container/Dockerfile",
+              "lines": 24,
+              "previous_blob_sha": "57db0c1242cb6af5f846daf4e99d7bf9160c596d",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "전후 diff와 USER 지정 검색"
+            },
+            {
+              "path": "docs/status.md",
+              "blob_sha": "71ebc359a113e91b6cb075006ebc6733777da0e2",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/status.md",
+              "lines": 113,
+              "previous_blob_sha": null,
+              "change_since_1a8d3f3": "신규",
+              "read_scope": "전체"
+            },
+            {
+              "path": "docs/operations.md",
+              "blob_sha": "6929a5081c6b59f0f2a5fc891029f9ad1b4321fb",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/operations.md",
+              "lines": 376,
+              "previous_blob_sha": "fab0883dc3af3be5620dba7a2d79bf1244a066b4",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "알려진 제약·엔진 요청 형식 절"
+            },
+            {
+              "path": "docs/design.md",
+              "blob_sha": "5231ddf6fbacc5e5863351b92087c91ecbc039dd",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/design.md",
+              "lines": 126,
+              "previous_blob_sha": "01f653e066441ebb1875729ce6a7aa278e6c7155",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "6절 공개 조건(68행)과 0단계 제약(118행)"
+            },
+            {
+              "path": "experiments/dns-exfil/RESULTS.md",
+              "blob_sha": "d8c06a5a88bdb63bca539c16a07ded9e38521d18",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/experiments/dns-exfil/RESULTS.md",
+              "lines": 105,
+              "previous_blob_sha": null,
+              "change_since_1a8d3f3": "신규",
+              "read_scope": "앞 60줄과 범위 밖·제안 절"
+            },
+            {
+              "path": "experiments/injection/RESULTS.md",
+              "blob_sha": "debcd2bd1eecca4771802fd0614ba4c245113334",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/experiments/injection/RESULTS.md",
+              "lines": 108,
+              "previous_blob_sha": null,
+              "change_since_1a8d3f3": "신규",
+              "read_scope": "전체(표의 긴 줄은 앞 900자까지 읽음)"
+            }
+          ],
+          "limit": "설치·에이전트 실행·로그인·병합·운영/보안 효과를 직접 시험하지 않음. 플랫폼의 실서비스 확인 기록은 플랫폼 소유자의 보고이며 책이 재현하지 않음. 후보 판본 전체를 검증한 것이 아니라 영향받는 사례의 관련 부분만 대조함. 게스트 심사·Dependabot 점검은 구현이 진행 중이거나 비활성인 상태임.",
+          "usage_review": {
+            "checked_on": "2026-11-19",
+            "files": [
+              "manuscript/demo/execution-authority.md",
+              "manuscript/chapters/ch09.md"
+            ],
+            "direct_quote_words": 0,
+            "scope": "짧은 자체 해설·판단 질문·고정 원문 링크. 코드/문서 전문 복제 없음. 기존 11-09 판본 사용과 판본별로 구분해 누적.",
+            "permission_basis": "저자의 책 반영 요청에 따른 자체 요약. 후보 판본에도 LICENSE 파일이 확인되지 않아 이전 Apache-2.0 허락을 승계하지 않음. 일반 출처별 요약 상한 범위로 제한하고 원문 직접 인용 없음."
+          },
+          "note": "기존 url·revision·evidence_files는 2026-11-09 판본 기록이며 보존한다. 위 사용 위치의 현재 설명은 이 판본을 기준으로 한다."
+        }
+      ]
     },
     {
       "id": "S163",
@@ -6189,7 +6714,115 @@
         "direct_quote_words": 0,
         "scope": "짧은 자체 해설·판단 질문·고정 원문 링크. 코드/문서 전문·제3자 도표 복제 없음. 파일별 중복 사실과 누적 요약 범위를 검토.",
         "permission_basis": "저자의 리뉴얼 자료 확인 및 책 반영 요청에 따른 자체 요약. 새 판본에 LICENSE 파일이 확인되지 않아 이전 Apache-2.0 허락을 승계하지 않음. 일반 출처별 요약 상한 범위로 제한."
-      }
+      },
+      "confirmed_editions": [
+        {
+          "edition_id": "2026-11-17-0c1b2ec",
+          "run_id": "r20261119a",
+          "revision": "0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6",
+          "revision_committed_on": "2026-11-17T00:41:52Z",
+          "previous_confirmed_revision": "1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a",
+          "checked_on": "2026-11-19",
+          "status": "후보 판본의 관련 부분 대조; 후보 전체 검증 아님",
+          "verification_status": "공개 문서·정적 코드의 관련 부분 직접 대조와 플랫폼 기록의 내용 대조",
+          "verification_scope": "예산 한도의 운영자 변경과 호출별 적용, 대체 구현 도구가 pi로 바뀐 코드와 문서, 단일 엔진 리뷰의 Anthropic 호환 설정, 2026-11-09~11 실서비스 확인과 남은 확인 항목의 플랫폼 기록.",
+          "evidence_files": [
+            {
+              "path": "apps/control/src/budget.ts",
+              "blob_sha": "d324fa1456351f4eb80a61d137b20629e9346d20",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/budget.ts",
+              "lines": 259,
+              "previous_blob_sha": "89d09eb19a4b845518cfbe56ea2f324e46dd8e3c",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "전후 diff"
+            },
+            {
+              "path": "apps/control/src/budget-service.ts",
+              "blob_sha": "d5bb4ac80ba819234eb98a63bb8e30815559dbab",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/budget-service.ts",
+              "lines": 181,
+              "previous_blob_sha": "3b48bf75a57cade81363f18e5e473783f7517977",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "전후 diff"
+            },
+            {
+              "path": "apps/control/src/agent-command.ts",
+              "blob_sha": "8bcf9fc604c4f5fbbf788f4379c765341f4c411f",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/agent-command.ts",
+              "lines": 69,
+              "previous_blob_sha": "8bcf9fc604c4f5fbbf788f4379c765341f4c411f",
+              "change_since_1a8d3f3": "동일",
+              "read_scope": "전후 blob 동일 확인; 후보에서 다시 읽지 않음"
+            },
+            {
+              "path": "apps/control/src/pi-implement-command.ts",
+              "blob_sha": "be074eebabfd132472b67d9ce7ddb6363068530b",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/pi-implement-command.ts",
+              "lines": 74,
+              "previous_blob_sha": null,
+              "change_since_1a8d3f3": "신규",
+              "read_scope": "앞 40줄"
+            },
+            {
+              "path": "apps/control/src/review-command.ts",
+              "blob_sha": "feebd31a461abdd8320c8642d271d53183713236",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/review-command.ts",
+              "lines": 95,
+              "previous_blob_sha": "80520d29c7d98653f28aff587284151ca10cb78d",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "전후 diff"
+            },
+            {
+              "path": "apps/control/src/config.ts",
+              "blob_sha": "e812b09042bd374c6fdb8e71a468c11a799b160a",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/config.ts",
+              "lines": 33,
+              "previous_blob_sha": "b00fe62303c8433b9f8c47bd2b709460664d77b8",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "전후 diff"
+            },
+            {
+              "path": "docs/status.md",
+              "blob_sha": "71ebc359a113e91b6cb075006ebc6733777da0e2",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/status.md",
+              "lines": 113,
+              "previous_blob_sha": null,
+              "change_since_1a8d3f3": "신규",
+              "read_scope": "전체"
+            },
+            {
+              "path": "docs/operations.md",
+              "blob_sha": "6929a5081c6b59f0f2a5fc891029f9ad1b4321fb",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/operations.md",
+              "lines": 376,
+              "previous_blob_sha": "fab0883dc3af3be5620dba7a2d79bf1244a066b4",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "예산과 엔진 전환 절"
+            },
+            {
+              "path": "docs/design.md",
+              "blob_sha": "5231ddf6fbacc5e5863351b92087c91ecbc039dd",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/design.md",
+              "lines": 126,
+              "previous_blob_sha": "01f653e066441ebb1875729ce6a7aa278e6c7155",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "전후 diff 앞부분(구현 엔진 변경 문장)"
+            }
+          ],
+          "limit": "설치·에이전트 실행·로그인·병합·운영/보안 효과를 직접 시험하지 않음. 플랫폼의 실서비스 확인 기록은 플랫폼 소유자의 보고이며 책이 재현하지 않음. 후보 판본 전체를 검증한 것이 아니라 영향받는 사례의 관련 부분만 대조함. 게스트 심사·Dependabot 점검은 구현이 진행 중이거나 비활성인 상태임.",
+          "usage_review": {
+            "checked_on": "2026-11-19",
+            "files": [
+              "manuscript/demo/agent-selection.md",
+              "manuscript/chapters/ch11.md"
+            ],
+            "direct_quote_words": 0,
+            "scope": "짧은 자체 해설·판단 질문·고정 원문 링크. 코드/문서 전문 복제 없음. 기존 11-09 판본 사용과 판본별로 구분해 누적.",
+            "permission_basis": "저자의 책 반영 요청에 따른 자체 요약. 후보 판본에도 LICENSE 파일이 확인되지 않아 이전 Apache-2.0 허락을 승계하지 않음. 일반 출처별 요약 상한 범위로 제한하고 원문 직접 인용 없음."
+          },
+          "note": "기존 url·revision·evidence_files는 2026-11-09 판본 기록이며 보존한다. 위 사용 위치의 현재 설명은 이 판본을 기준으로 한다."
+        }
+      ]
     },
     {
       "id": "S164",
@@ -6256,7 +6889,18 @@
         "direct_quote_words": 0,
         "scope": "짧은 자체 해설·판단 질문·고정 원문 링크. 코드/문서 전문·제3자 도표 복제 없음. 파일별 중복 사실과 누적 요약 범위를 검토.",
         "permission_basis": "저자의 리뉴얼 자료 확인 및 책 반영 요청에 따른 자체 요약. 새 판본에 LICENSE 파일이 확인되지 않아 이전 Apache-2.0 허락을 승계하지 않음. 일반 출처별 요약 상한 범위로 제한."
-      }
+      },
+      "followup_checks": [
+        {
+          "checked_on": "2026-11-19",
+          "run_id": "r20261119a",
+          "purpose": "후보 판본과 확인 판본의 변경 영향 대조",
+          "revision": "0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6",
+          "previous_confirmed_revision": "1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a",
+          "result": "활동과 성과를 구분하는 지표 페이지의 인용 파일(d1-repo.ts, read-repo.ts, usage-meter.ts)은 후보와 동일하고, 인용한 docs/operations.md의 비용 측정과 한계 서술도 후보에서 유지됨을 확인했다. 페이지 설명이 달라지지 않았다.",
+          "limit": "판본·인용 링크·본문을 바꾸지 않음. 후보 전체나 실제 실행을 검증한 것이 아님."
+        }
+      ]
     },
     {
       "id": "S165",
@@ -6307,7 +6951,78 @@
         "direct_quote_words": 0,
         "scope": "짧은 자체 해설·판단 질문·고정 원문 링크. 코드/문서 전문·제3자 도표 복제 없음. 파일별 중복 사실과 누적 요약 범위를 검토.",
         "permission_basis": "저자의 리뉴얼 자료 확인 및 책 반영 요청에 따른 자체 요약. 새 판본에 LICENSE 파일이 확인되지 않아 이전 Apache-2.0 허락을 승계하지 않음. 일반 출처별 요약 상한 범위로 제한."
-      }
+      },
+      "confirmed_editions": [
+        {
+          "edition_id": "2026-11-17-0c1b2ec",
+          "run_id": "r20261119a",
+          "revision": "0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6",
+          "revision_committed_on": "2026-11-17T00:41:52Z",
+          "previous_confirmed_revision": "1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a",
+          "checked_on": "2026-11-19",
+          "status": "후보 판본의 관련 부분 대조; 후보 전체 검증 아님",
+          "verification_status": "공개 문서·정적 코드의 관련 부분 직접 대조와 플랫폼 기록의 내용 대조",
+          "verification_scope": "확인 상태 문서가 확인·미확인의 유일한 원본으로 이동한 구조, 관찰만으로 원인을 알 수 없었던 실패의 기록, 성공률·리뷰 차단율 미측정과 실행 20건의 플랫폼 기록. 개선 루프는 후보 판본에서도 찾지 못함.",
+          "evidence_files": [
+            {
+              "path": "docs/status.md",
+              "blob_sha": "71ebc359a113e91b6cb075006ebc6733777da0e2",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/status.md",
+              "lines": 113,
+              "previous_blob_sha": null,
+              "change_since_1a8d3f3": "신규",
+              "read_scope": "전체"
+            },
+            {
+              "path": "docs/design.md",
+              "blob_sha": "5231ddf6fbacc5e5863351b92087c91ecbc039dd",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/design.md",
+              "lines": 126,
+              "previous_blob_sha": "01f653e066441ebb1875729ce6a7aa278e6c7155",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "전후 diff 앞부분"
+            },
+            {
+              "path": "apps/control/src/read-repo.ts",
+              "blob_sha": "9f9c23152ce9725b5edb3f95ac69a7c9c463c1a4",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/read-repo.ts",
+              "lines": 316,
+              "previous_blob_sha": "9f9c23152ce9725b5edb3f95ac69a7c9c463c1a4",
+              "change_since_1a8d3f3": "동일",
+              "read_scope": "전후 blob 동일 확인; 후보에서 다시 읽지 않음"
+            },
+            {
+              "path": "docs/operations.md",
+              "blob_sha": "6929a5081c6b59f0f2a5fc891029f9ad1b4321fb",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/operations.md",
+              "lines": 376,
+              "previous_blob_sha": "fab0883dc3af3be5620dba7a2d79bf1244a066b4",
+              "change_since_1a8d3f3": "변경",
+              "read_scope": "알려진 제약·비용 측정 절"
+            },
+            {
+              "path": "experiments/injection/RESULTS.md",
+              "blob_sha": "debcd2bd1eecca4771802fd0614ba4c245113334",
+              "url": "https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/experiments/injection/RESULTS.md",
+              "lines": 108,
+              "previous_blob_sha": null,
+              "change_since_1a8d3f3": "신규",
+              "read_scope": "전체(표의 긴 줄은 앞 900자까지 읽음)"
+            }
+          ],
+          "limit": "설치·에이전트 실행·로그인·병합·운영/보안 효과를 직접 시험하지 않음. 플랫폼의 실서비스 확인 기록은 플랫폼 소유자의 보고이며 책이 재현하지 않음. 후보 판본 전체를 검증한 것이 아니라 영향받는 사례의 관련 부분만 대조함. 게스트 심사·Dependabot 점검은 구현이 진행 중이거나 비활성인 상태임.",
+          "usage_review": {
+            "checked_on": "2026-11-19",
+            "files": [
+              "manuscript/demo/improvement.md"
+            ],
+            "direct_quote_words": 0,
+            "scope": "짧은 자체 해설·판단 질문·고정 원문 링크. 코드/문서 전문 복제 없음. 기존 11-09 판본 사용과 판본별로 구분해 누적.",
+            "permission_basis": "저자의 책 반영 요청에 따른 자체 요약. 후보 판본에도 LICENSE 파일이 확인되지 않아 이전 Apache-2.0 허락을 승계하지 않음. 일반 출처별 요약 상한 범위로 제한하고 원문 직접 인용 없음."
+          },
+          "note": "기존 url·revision·evidence_files는 2026-11-09 판본 기록이며 보존한다. 위 사용 위치의 현재 설명은 이 판본을 기준으로 한다."
+        }
+      ]
     }
   ],
   "source_aliases": {

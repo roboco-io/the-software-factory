@@ -6,6 +6,8 @@
 
 운영자의 중지 요청은 표시를 남기고 상태 기계가 처리하도록 깨운다. 이미 진행 중인 작업이 끝나야 PR과 샌드박스 상태를 확인할 수 있으므로 즉시 모든 외부 행동을 취소했다는 뜻은 아니다. 병합을 이미 시도한 시점 이후에는 중지 요청으로 그 병합을 되돌리지 않는다.[S161]
 
+운영자는 배포 없이 팩토리 전체를 멈추는 스위치도 쓸 수 있다. 이 중지는 두 일을 순서대로 한다. 먼저 중지 상태를 기록해 그 뒤에 들어오는 실행 요청을 받지 않게 하고, 그다음 끝나지 않은 모든 실행에 실행별 중지와 같은 요청을 보낸다. 각 실행은 다음 확인 시점에 멈추며, 이미 GitHub에 보낸 병합과 이미 열린 PR은 되돌리지 않는다. 일부 실행에 요청을 보내지 못해도 중지 상태는 유지되고 실패한 건수가 남는다. 다시 시작하면 새 요청을 받지만 멈춘 동안 거절한 요청을 자동으로 다시 실행하지는 않으므로, 운영자가 대상 이슈의 실행 라벨을 다시 붙여야 한다. 중지와 재시작은 운영자 ID와 시각이 붙은, 수정·삭제할 수 없는 기록으로 남는다.[S161]
+
 PR 생성 전에 실패한 실행과 PR이 생긴 뒤 사람 확인으로 끝난 실행도 다르다. 전자는 조건을 갖춰 다시 시작할 수 있지만, 후자는 기존 PR을 사람이 처리해야 하며 같은 요청에 두 번째 PR을 만드는 경로로 읽지 않는다. 승인을 기다리는 상태와 사람에게 넘긴 종료 상태를 구분해야 한다.
 
 일반 재시도·상태 정리와 서비스의 롤백은 별도로 판단한다. 현재 플랫폼의 `merged`는 병합 상태이며 배포나 데이터 복구의 완료가 아니다. 이전 데모의 실패율 차단기나 자동 수정 반복을 새 플랫폼의 기능으로 가져오지 않는다.
@@ -14,15 +16,19 @@ PR 생성 전에 실패한 실행과 PR이 생긴 뒤 사람 확인으로 끝난
 
 | 확인할 대상 | 역할과 확인할 사실 | 구현 근거 |
 |---|---|---|
-| 상태와 종료 | 대기·실패·사람 이관의 다른 의미 | [전이 규칙 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/run-state.ts) |
-| 중지와 정리 | 요청 시점·병합 시도·샌드박스 종료 | [중지 경로 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/run-machine.ts) |
-| 정의된 시험 | 중지와 경합의 기대 동작 | [시험 조건 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/run-machine-stop.test.ts) |
-| 후속 행동 표시 | 현재 상태에 맞는 운영자 안내 | [화면의 판단 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/portal/src/labels.ts) |
+| 상태와 종료 | 대기·실패·사람 이관의 다른 의미 | [전이 규칙 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/run-state.ts) |
+| 중지와 정리 | 요청 시점·병합 시도·샌드박스 종료 | [중지 경로 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/run-machine.ts) |
+| 팩토리 전체 중지 | 상태 기록, 진행 중 실행에 보내는 중지 요청, 실패 건수 | [전체 중지 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/factory-switch.ts) |
+| 정의된 시험 | 중지와 경합의 기대 동작 | [시험 조건 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/run-machine-stop.test.ts) |
+| 후속 행동 표시 | 현재 상태에 맞는 운영자 안내 | [화면의 판단 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/portal/src/labels.ts) |
+| 확인 상태 | 전체 중지의 확인과 남은 항목을 적는 플랫폼의 문서 | [현재 상태 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/status.md) |
 
 ## 리더의 판단과 한계
 
 여기서 시험 코드를 읽은 것은 이번 책 갱신에서 시험을 실행했다는 뜻이 아니다. 종료 표시와 샌드박스 정리, 외부 시스템의 실제 상태를 함께 확인해야 한다. 보안 노출이나 이미 전달한 결과는 상태 변경만으로 회수되지 않는다.
 
-2026년 11월 9일 확인한 리뉴얼 플랫폼의 고정 판본을 기준으로 썼다. 문서·코드의 정적 구조를 확인했으며, 에이전트 실행·로그인·병합을 직접 시험하거나 운영 효과를 검증한 결과는 아니다.
+전체 중지에 대해 플랫폼의 현재 상태 문서는 2026년 11월 14일의 배포 뒤 상태 조회가 실행 가능 상태를 돌려주고 익명의 중지 요청이 거부되어 상태가 바뀌지 않은 것을 확인했다고 적는다. 같은 문서는 운영자로 로그인해 화면의 버튼을 눌렀을 때 진행 중인 실행이 실제로 멈추는지는 시험으로만 확인했다고 적고, 실행별 중지(전체 중지가 같은 경로를 재사용한다)와 병합이 거의 동시에 일어날 때의 순서도 실제 실행 환경에서 만들어 보지 않았다고 적는다. 이는 플랫폼 소유자의 보고이며 이 책이 재현한 것이 아니다. 중지 스위치가 있다는 사실을 모든 외부 효과의 회수나 서비스 복구로 읽지 않는다.
+
+2026년 11월 17일의 플랫폼 커밋(2026년 11월 19일 확인)을 기준으로 썼다. 문서·코드의 정적 구조와 플랫폼이 남긴 확인 기록의 내용을 읽었으며, 이 책이 에이전트 실행·로그인·병합을 직접 시험하거나 운영 효과를 검증한 결과는 아니다.
 
 [8장으로 돌아가기](../chapters/ch08.md) · [데모 해설 목록](index.md)

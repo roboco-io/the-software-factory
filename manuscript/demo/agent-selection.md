@@ -6,6 +6,10 @@
 
 구현은 우선할 계정에 예산 여유가 있는지 확인하고, 부족하면 정해 둔 다른 조합을 검토한다. 리뷰는 가능한 경우 구현과 다른 공급사의 조합을 선택한다. 한 공급사만 남으면 낮은 위험 변경에 한해 같은 공급사의 다른 모델을 새 세션에서 쓰고 그 사실을 표시한다.[S163]
 
+우선 조합은 Claude Code가 Anthropic 모델로 구현하는 것이고, 그 계정이 한도에 닿으면 대체 조합으로 OpenAI 모델을 pi라는 다른 에이전트 도구가 구현한다. 플랫폼 문서에 따르면 처음 계획한 대체 도구는 실서비스 시험에서 모델을 호출하기 전에 실패해 pi로 바꿨다. 선택 규칙이 코드에 있어도 전환 경로의 도구가 실제 환경에서 시작되는지는 따로 확인해야 한다는 예다.[S163]
+
+운영자는 월 한도와 실행 1건의 상한을 배포 없이 바꿀 수 있다. 제어 평면은 변경을 운영자 ID와 시각이 붙은 새 기록으로 추가하고, 모델을 호출할 때마다 가장 최근 기록을 읽는다. 따라서 변경은 다음 모델 호출부터 적용된다. 범위를 벗어난 값은 저장하지 않으며, 운영자가 아닌 호출은 거부한다.[S163]
+
 한 공급사만 남은 상태에서 T2·T3 변경은 다른 리뷰 조합을 기다린다. 위험·정책을 확인하지 못한 경우에는 자동 진행하지 않고 해당 보류·사람 확인 경로로 넘긴다. 예산이 부족하다는 이유로 모든 변경의 검토 조건을 낮추지는 않는다. 지출을 확인하지 못한 경우에도 이를 0 지출로 취급하지 않으며, 정한 조건으로 새 실행을 제한한다.
 
 이 배정은 업무 능력의 검증과 별개다. 같은 공급사의 다른 모델이 새 세션에서 검토한 결과를 완전히 독립된 검증이라고 부르지 않는다. 조합을 바꿀 때 대표 실패와 정상 과제, 추가 대기와 비용을 다시 확인해야 한다.
@@ -14,15 +18,20 @@
 
 | 확인할 대상 | 역할과 확인할 사실 | 구현 근거 |
 |---|---|---|
-| 배정 기준 | 예산·역할·위험별 조합 선택 | [선택 조건 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/budget.ts) |
-| 예산 서비스 | 지출과 예약·새 실행의 관계 | [예산 연결 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/budget-service.ts) |
-| 구현 도구 | 선택한 모델과 호출 조건 | [구현 호출 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/agent-command.ts) |
-| 리뷰 도구 | 새 세션·읽기 도구의 배치 | [검토 호출 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/review-command.ts) |
+| 배정 기준 | 예산·역할·위험별 조합 선택, 운영자가 바꾼 한도의 적용 | [선택 조건 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/budget.ts) |
+| 예산 서비스 | 지출과 예약·새 실행의 관계, 호출마다 한도를 읽는 연결 | [예산 연결 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/budget-service.ts) |
+| 구현 도구 | Anthropic 모델의 구현 호출 조건 | [구현 호출 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/agent-command.ts) |
+| 대체 구현 도구 | OpenAI 모델을 pi로 실행하는 조건 | [대체 구현 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/pi-implement-command.ts) |
+| 리뷰 도구 | 새 세션·읽기 도구의 배치, Anthropic 모델 리뷰의 호환 설정 | [검토 호출 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/review-command.ts) |
+| 설계 기록 | 처음 계획한 대체 도구가 실서비스 시험에서 실패해 pi로 바꾼 기록 | [설계 이유 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/design.md) |
+| 확인 상태 | 실서비스 확인과 남은 항목을 적는 플랫폼의 문서 | [현재 상태 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/status.md) |
 
 ## 리더의 판단과 한계
 
-문서의 단계 표와 후속 코드의 구현 시점이 다를 수 있어 이번 해설은 확인한 코드의 조건을 기준으로 한다. 엔진 전환의 코드가 있다는 사실을 모든 조합의 실서비스 성공으로 바꾸지 않는다. 고정 모델명·요금·기본 예산을 조직의 추천값으로 제시하지 않는다.
+플랫폼 저장소의 현재 상태 문서는 전환 경로의 일부를 실서비스에서 확인했다고 날짜와 함께 기록한다. 이 절의 기록은 플랫폼 소유자의 보고이며 이 책이 재현한 것이 아니다. 기록은 Anthropic 한도를 잠시 낮춘 상태에서 대체 구현과 단일 엔진 리뷰, 낮은 위험 변경의 자동 병합을 확인했다고 적는다(2026년 11월 9일). 두 계정이 모두 소진된 경로에서 새 실행의 거절과 포털 안내, 소진 이슈 등록, 리뷰 엔진을 기다리는 상태와 한도를 복구한 뒤의 재개를 확인했고(11월 10일), Anthropic 모델이 리뷰하는 경로의 실행도 확인했다고 한다(11월 11일). 그 경로의 첫 실행은 리뷰 결과가 유효하지 않아 실패했으며 코드를 고쳐 다시 확인했다.
 
-2026년 11월 9일 확인한 리뉴얼 플랫폼의 고정 판본을 기준으로 썼다. 문서·코드의 정적 구조를 확인했으며, 에이전트 실행·로그인·병합을 직접 시험하거나 운영 효과를 검증한 결과는 아니다.
+같은 문서에는 아직 확인하지 않은 항목도 남아 있다. 추정 지출과 공급사 청구액의 차이, 포털의 한도 변경 화면을 운영자로 저장하는 동작, 두 실행이 동시에 시작할 때 예약 확인이 서로를 보지 못하는 경우, 고정한 Claude Code가 실제로 보내는 요청 형식이다. 모델과 에이전트 도구를 올리면 출구의 요청 검사와 어긋나 실패할 수 있다는 점도 운영 문서가 따로 경고한다. 그래서 이 해설은 확인한 코드의 조건과 플랫폼의 기록을 구분해 읽는다. 일부 경로가 확인됐다는 사실을 모든 조합의 실서비스 성공으로 바꾸지 않는다. 고정 모델명·요금·기본 예산을 조직의 추천값으로 제시하지 않는다.
+
+2026년 11월 17일의 플랫폼 커밋(2026년 11월 19일 확인)을 기준으로 썼다. 문서·코드의 정적 구조와 플랫폼이 남긴 확인 기록의 내용을 읽었으며, 이 책이 에이전트 실행·로그인·병합을 직접 시험하거나 운영 효과를 검증한 결과는 아니다.
 
 [11장으로 돌아가기](../chapters/ch11.md) · [데모 해설 목록](index.md)

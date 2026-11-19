@@ -419,5 +419,18 @@
     "status": "반영 완료; 별도 검증 범위와 결과는 보고서 참조",
     "limits": "직접 에이전트 실행·로그인·병합·운영/보안 효과 검증 아님",
     "review": "planning/reviews/2026-11-09-demo-examples-verify-renewal.md"
+  },
+  "demo_platform_followup_20261119": {
+    "checked_on": "2026-11-19",
+    "run_id": "r20261119a",
+    "revision": "0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6",
+    "source_ids": [
+      "S162"
+    ],
+    "type": "정적 코드 구조 관찰과 플랫폼 기록 서술을 책의 해석과 구분",
+    "scope": "추가한 본문: 플랫폼의 DNS 실험·인젝션 시험 기록이 있고 실제 키 부재 확인·비루트 실행은 하지 않았다는 한 문장",
+    "status": "반영 완료; 별도 검증은 호출자가 수행",
+    "limits": "직접 에이전트 실행·로그인·병합·운영/보안 효과 검증 아님. 후보 판본 전체 검증 아님.",
+    "report": "planning/reviews/2026-11-19-demo-examples-r20261119a.md"
   }
 }

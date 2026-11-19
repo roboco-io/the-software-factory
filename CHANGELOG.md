@@ -2,6 +2,10 @@
 
 책을 다시 읽거나 활용할 때 알아둘 중요한 변화를 기록합니다.
 
+## 공개 예정
+
+- **데모 해설을 2026년 11월 17일의 플랫폼 판본으로 갱신했습니다.** [요청](https://factory.roboco.io/demo/request/)·[정책과 수용 경계](https://factory.roboco.io/demo/policy-and-gate/)·[복구](https://factory.roboco.io/demo/recovery/)·[권한](https://factory.roboco.io/demo/execution-authority/)·[에이전트 선택](https://factory.roboco.io/demo/agent-selection/)·[개선](https://factory.roboco.io/demo/improvement/) 해설과 5·8·9·11·12장의 관련 문단을 고쳤습니다. 플랫폼에 팩토리 전체 중지, 배포 없는 예산 한도 변경, 게스트 요청 심사, Dependabot 보안 업데이트 병합 점검이 추가되었습니다. 게스트 심사는 접수가 닫혀 있고 실제 요청을 처리한 적이 없으며, Dependabot 점검은 대상 저장소가 없어 동작하지 않으므로 운영 사례로 읽지 않습니다. 플랫폼이 기록한 DNS 실험·인젝션 시험·실서비스 확인은 플랫폼 소유자의 보고이며 이 책이 재현한 결과가 아닙니다.
+
 ## 2026-11-09 · 리뉴얼 플랫폼 반영
 
 - **리뉴얼된 소프트웨어 팩토리를 공통 예제로 반영했습니다.** [데모 해설](https://factory.roboco.io/demo/)과 관련 장·도표를 제어 평면·구현/리뷰 샌드박스·저장소 정책·병합 판정·실행 기록의 새 구조로 갱신했습니다. 플랫폼과 관리 대상 Conveyor를 구분하고, 과거 자기개선 실험은 당시 사례로 남겼습니다. 일시 이용 불가 안내를 해제하고 소개·포털·토론 링크를 새 위치에 연결했습니다. 구현 설명은 실제 실행이나 사업 성과의 검증과 구분합니다.

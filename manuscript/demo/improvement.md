@@ -6,6 +6,8 @@
 
 현재 포털의 실패·대기 이유와 실행 사건은 사람이 바꿀 대상을 조사하는 근거가 된다. 이 자료를 다음 요구와 회귀 과제로 연결하는 것은 책이 제안하는 운영이다. 플랫폼이 이미 원인을 확정하고 정책·하네스를 자동으로 수정한다는 구현 사실로 쓰지 않는다.[S165]
 
+플랫폼의 인젝션 시험 기록에는 관찰 자료만으로 원인을 가릴 수 없었던 사례가 있다. 한 실행이 출구 핸들러가 요청 하나를 거부한 뒤 실패했는데, 거부한 모델의 이름이 기록에 남지 않아 에이전트가 어떤 모델을 왜 호출했는지 알 수 없었다. 기록은 원인을 알려면 거부한 모델 이름을 고정된 형식으로 남겨야 한다고 적고, 플랫폼의 현재 상태 문서도 이를 남은 일로 둔다. 실패가 있었다는 사실보다 실패의 원인을 구분할 기록이 없다는 점이 먼저 고쳐야 할 대상이 된 예다. 이는 플랫폼 소유자의 시험 기록이며 이 책이 재현한 것이 아니다.[S165]
+
 필요한 작업을 이번 계획에서 빠뜨렸는지, 반복 계획 수립의 입력이 부족했는지, 명확한 정책의 집행이 실패했는지 나눈다. 관찰된 증상만으로 프롬프트를 늘리거나 판정 기준을 낮추지 않는다. 변경 권한을 확인하고 같은 실패와 정상 조건으로 효과를 다시 검토한다.
 
 [4장의 두 개선 루프](../chapters/ch04.md#fig-4-1)는 이 판단을 의도와 하네스의 변경으로 나누는 책의 제안이다. 운영자가 기록을 보고 다음 행동을 선택할 수 있다는 것과 개선 루프 전체를 자동화했다는 것은 다른 확인 상태다.
@@ -14,9 +16,11 @@
 
 | 확인할 대상 | 역할과 확인할 사실 | 구현 근거 |
 |---|---|---|
-| 구현 범위 | 현재 구조와 남은 단계 | [설계 범위 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/docs/design.md) |
-| 관찰 모델 | 상태·사유·사람 확인 대상 | [관측 경로 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/apps/control/src/read-repo.ts) |
-| 현재 운영 조건 | 확인한 기능과 남은 실서비스 검증 | [한계 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/1a8d3f3a0edbeb0cba6f03b8658a08ee8127ef4a/docs/operations.md) |
+| 확인 상태 | 현재 단계, 실서비스에서 확인한 것과 남은 항목(플랫폼이 밝힌 유일한 원본) | [현재 상태 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/status.md) |
+| 설계 이유 | 구조와 판단의 이유. 진행 상태는 이 문서에 적지 않는다 | [설계 이유 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/design.md) |
+| 관찰 모델 | 상태·사유·사람 확인 대상 | [관측 경로 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/apps/control/src/read-repo.ts) |
+| 코드의 제약 | 확인 여부와 관계없이 코드가 가진 제약과 동작 | [운영 조건 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/docs/operations.md) |
+| 관찰의 빈틈 | 인젝션 시험에서 원인을 알 수 없었던 실패와 하지 않은 시험 | [시험 기록 읽기](https://github.com/roboco-io/the-software-factory-demo/blob/0c1b2ecbacfbead6f29fe39ab84e35b5bcf4e6e6/experiments/injection/RESULTS.md) |
 
 ## 과거 실행 기록은 별도로 읽는다
 
@@ -26,8 +30,8 @@
 
 ## 리더의 판단과 한계
 
-자기개선의 목표를 새 플랫폼의 완성된 기능으로 소급하지 않는다. 정책 안의 자동 개선을 허용하려면 변경 대상·별도 평가·실제 권한·복구 조건을 갖춰야 한다. 현재의 관찰 자료만으로 운영 결함의 장기 감소를 주장하지 않는다.
+자기개선의 목표를 새 플랫폼의 완성된 기능으로 소급하지 않는다. 정책 안의 자동 개선을 허용하려면 변경 대상·별도 평가·실제 권한·복구 조건을 갖춰야 한다. 플랫폼도 성공률과 리뷰어의 차단율은 아직 측정하지 않았고 지금까지의 실행이 20건이라고 적는다(2026년 11월 17일 기준). 현재의 관찰 자료만으로 운영 결함의 장기 감소를 주장하지 않는다.
 
-2026년 11월 9일 확인한 리뉴얼 플랫폼의 고정 판본을 기준으로 썼다. 문서·코드의 정적 구조를 확인했으며, 에이전트 실행·로그인·병합을 직접 시험하거나 운영 효과를 검증한 결과는 아니다.
+2026년 11월 17일의 플랫폼 커밋(2026년 11월 19일 확인)을 기준으로 썼다. 문서·코드의 정적 구조와 플랫폼이 남긴 기록의 내용을 읽었으며, 이 책이 에이전트 실행·로그인·병합을 직접 시험하거나 운영 효과를 검증한 결과는 아니다.
 
 [19장으로 돌아가기](../chapters/ch19.md) · [데모 해설 목록](index.md)

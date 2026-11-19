@@ -3,10 +3,10 @@
   "chapters": {
     "ch01": {
       "path": "manuscript/chapters/ch01.md",
-      "body_sha256": "62fd7c58b329e62a38ce2a47aa486c9f1fbc8d60f1eff9918157bdb2dfa86f8f",
+      "body_sha256": "786b25e91d932f8af9fed16f23107488cd7561c693c7c3a043e3a87badbbd478",
       "tldr_sha256": "5565702dcf43b9ea030f9e9aefc9df42ac63a94d3e0d5c7517b04ba404f639d2",
-      "reviewed_on": "2026-11-09",
-      "reason": "새 판본의 본문 사례와 기존 논증·요약을 대조했다. 리뉴얼 플랫폼과 관리 대상 Conveyor, 현재 구현·과거 실행·책의 제안을 구분한다. 관련 내용 항목을 갱신해 현재 증거와 범위에 맞췄다."
+      "reviewed_on": "2026-11-19",
+      "reason": "HTTP 응답 확인의 날짜(2026-11-09, 재확인 없음)를 본문에 명시했다. 장의 주장·판단은 그대로라 기존 항목을 유지했다."
     },
     "ch02": {
       "path": "manuscript/chapters/ch02.md",
@@ -31,10 +31,10 @@
     },
     "ch05": {
       "path": "manuscript/chapters/ch05.md",
-      "body_sha256": "860f69cb0227967b9ebde0172767aa0a9435fd5f91a6226e24828cdc76e9ede1",
+      "body_sha256": "3208287bfcf67197215f7a5a96b8e22f72bdec286e92cc978d1ef47fb7cf9835",
       "tldr_sha256": "9e206e94948ba819a638dda1e00c470b0bc25e09b729f6d146b9194ac1d16089",
-      "reviewed_on": "2026-11-09",
-      "reason": "새 판본의 본문 사례와 기존 논증·요약을 대조했다. 리뉴얼 플랫폼과 관리 대상 Conveyor, 현재 구현·과거 실행·책의 제안을 구분한다. 관련 내용 항목을 갱신해 현재 증거와 범위에 맞췄다."
+      "reviewed_on": "2026-11-19",
+      "reason": "본문에 게스트 심사 경로가 닫혀 있고 실행한 적이 없어 시작 판단 자동화의 사례로 쓰지 않는다는 한 문장을 더했다. 요약의 요점(입력·형식·권한 확인은 목표의 적절성 판단과 다르다)은 그대로라 기존 항목을 유지했다."
     },
     "ch06": {
       "path": "manuscript/chapters/ch06.md",
@@ -52,17 +52,17 @@
     },
     "ch08": {
       "path": "manuscript/chapters/ch08.md",
-      "body_sha256": "1771ca0cebbca143780da7ee138ae46b3e8f5b10a4ec99fa5278647b228e97a7",
+      "body_sha256": "02b96d91b269f1b482bc6c82134bef7724b0ecf7e0f29d77e0bdfc37d7c4b89a",
       "tldr_sha256": "c83780cd17a17c5c4b20f54add50e66727fe028d1e20018d24f4f8ce6cf5454c",
-      "reviewed_on": "2026-11-09",
-      "reason": "새 판본의 본문 사례와 기존 논증·요약을 대조했다. 리뉴얼 플랫폼과 관리 대상 Conveyor, 현재 구현·과거 실행·책의 제안을 구분한다. 데모 구현은 바뀌었으나 장 고유의 정책/복구/책임/권한/측정 원리를 담은 기존 요약은 유효해 그대로 유지한다."
+      "reviewed_on": "2026-11-19",
+      "reason": "본문에 팩토리 전체 중지 사례 한 문장을 더했다. 요약의 일곱째 항목(새 작업 차단, 진행 중 실행 취소, 외부 효과 복구는 다른 조치)이 이를 이미 포함해 기존 항목을 유지했다."
     },
     "ch09": {
       "path": "manuscript/chapters/ch09.md",
-      "body_sha256": "7d28b3e039b55762ccdf2de5644e768da78c110c014e5e55017037f2eb83db16",
+      "body_sha256": "06dcbc42010f9c9eadb09b83738794a856880287bdaa294a4c2bb59442b2a99a",
       "tldr_sha256": "5af363ee861d59fef9a91a97349100abfcf2954c86575194da051e96fb5bcbe9",
-      "reviewed_on": "2026-11-09",
-      "reason": "새 판본의 본문 사례와 기존 논증·요약을 대조했다. 리뉴얼 플랫폼과 관리 대상 Conveyor, 현재 구현·과거 실행·책의 제안을 구분한다. 데모 구현은 바뀌었으나 장 고유의 정책/복구/책임/권한/측정 원리를 담은 기존 요약은 유효해 그대로 유지한다."
+      "reviewed_on": "2026-11-19",
+      "reason": "본문에 플랫폼의 DNS·인젝션 시험 기록과 그 한계를 한 문장 더했다. 요약의 일곱째 항목(권한과 전달물 확인)과 장의 주장이 달라지지 않아 기존 항목을 유지했다."
     },
     "ch10": {
       "path": "manuscript/chapters/ch10.md",
@@ -73,17 +73,17 @@
     },
     "ch11": {
       "path": "manuscript/chapters/ch11.md",
-      "body_sha256": "14417640f45122f55fa7556100acdc162b6780144c31269c27386f6336f0bb4b",
+      "body_sha256": "62f7311d0b1e6af4a2e3eaaf0226a6fea33eb679144639df0863efd283f1dc26",
       "tldr_sha256": "bb187cd3b443b755b834d2967c15f0b8470a794a049e7041096bacb8f63136c9",
-      "reviewed_on": "2026-11-09",
-      "reason": "별도 검증의 P2를 반영해 고위험의 엔진 대기와 정책/위험 미확인의 보류·사람 경로를 구분했다. 기존 요약은 조건부 조합 선택과 적격성/실서비스 성공의 차이를 정확히 담아 그대로 유지한다."
+      "reviewed_on": "2026-11-19",
+      "reason": "본문에 운영자의 한도 변경과 플랫폼 기록의 전환 확인 범위를 더했다. 요약의 여덟째 항목(대체 조합이 있다는 사실을 모든 전환의 운영 성공으로 읽지 않는다)과 일치해 기존 항목을 유지했다."
     },
     "ch12": {
       "path": "manuscript/chapters/ch12.md",
-      "body_sha256": "fae32bbd92fee5a08b15b3c0fc1d751552f373baf96463ebf3cfe2cae70d09e2",
+      "body_sha256": "c37bd2c08f3c075e553c056eb2719e8e5ed94da218433d44864304e685765aad",
       "tldr_sha256": "7f5dd6d9a68ee3c8868aaf566087abfe945960bf57aaba9b3ad21e8c01c4f1ac",
-      "reviewed_on": "2026-11-09",
-      "reason": "새 판본의 본문 사례와 기존 논증·요약을 대조했다. 리뉴얼 플랫폼과 관리 대상 Conveyor, 현재 구현·과거 실행·책의 제안을 구분한다. 데모 구현은 바뀌었으나 장 고유의 정책/복구/책임/권한/측정 원리를 담은 기존 요약은 유효해 그대로 유지한다."
+      "reviewed_on": "2026-11-19",
+      "reason": "본문에 별도 병합 경로도 확인해야 한다는 사례 문장을 더했다. 장의 기존 판단(직접 병합·우회 경로를 함께 확인한다)과 같은 요점이라 기존 항목을 유지했다."
     },
     "ch13": {
       "path": "manuscript/chapters/ch13.md",

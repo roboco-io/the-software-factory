@@ -40,7 +40,7 @@
 
 로보코의 [Software Factory 플랫폼](https://github.com/roboco-io/the-software-factory-demo)은 여러 저장소의 이슈 구현·리뷰·병합을 연결하는 공개 구현체다. 리뉴얼 뒤 이전 예제 서비스는 [Conveyor](https://roboco.io/conveyor/)라는 별도 프로젝트로 남아 그 관리 대상이 되었다.[S157] 이 책은 플랫폼과 관리 대상을 구분해 직관적인 이해를 돕는 공통 예시로 활용한다.
 
-[플랫폼 소개](https://roboco.io/the-software-factory-demo/)·[실행 포털](https://software-factory-control.roboco.workers.dev/projects/roboco-io/conveyor)과 [데모 해설](../demo/index.md)을 함께 읽을 수 있다. 해설은 2026년 11월 9일 확인한 새 플랫폼의 문서·코드 구조를 기준으로 하고, 과거 실행 기록은 당시 Conveyor 판본으로 구분한다. 리뉴얼은 모든 계획 기능과 공개 체험·자동 자기개선·사업 목표 달성이 검증됐다는 뜻이 아니다. 확인한 구현과 이 책의 제안, 실제 운영 효과를 나누어 읽는다.
+[플랫폼 소개](https://roboco.io/the-software-factory-demo/)·[실행 포털](https://software-factory-control.roboco.workers.dev/projects/roboco-io/conveyor)과 [데모 해설](../demo/index.md)을 함께 읽을 수 있다. 해설은 2026년 11월 9일 확인한 새 플랫폼의 문서·코드 구조에서 출발하고 이후 설명이 달라진 부분은 2026년 11월 17일의 플랫폼 커밋(11월 19일 확인)으로 다시 읽었으며, 과거 실행 기록은 당시 Conveyor 판본으로 구분한다. 리뉴얼은 모든 계획 기능과 공개 체험·자동 자기개선·사업 목표 달성이 검증됐다는 뜻이 아니다. 확인한 구현과 이 책의 제안, 실제 운영 효과를 나누어 읽는다.
 
 ## 기획의 기준과 생각의 출발점
 

@@ -68,7 +68,7 @@ python3 scripts/check_project.py
 
 전체 초고 작성과 남은 검토 범위: [통합 검토 기록](planning/draft-review-2026-10-12.md).
 
-공통 구현 예제는 [Software Factory 플랫폼](https://github.com/roboco-io/the-software-factory-demo)과 관리 대상 [Conveyor](https://roboco.io/conveyor/)다. [데모 해설](https://factory.roboco.io/demo/)은 2026-11-09 확인한 새 플랫폼의 문서·코드를 기준으로 하며, 이전 구현의 실행 기록은 당시 사례로 구분한다. 현재 근거와 한계는 [구현 사례 지도](research/cases/software-factory-demo.md)에 기록한다.
+공통 구현 예제는 [Software Factory 플랫폼](https://github.com/roboco-io/the-software-factory-demo)과 관리 대상 [Conveyor](https://roboco.io/conveyor/)다. [데모 해설](https://factory.roboco.io/demo/)은 2026-11-09 확인에서 출발해 변경이 있던 부분은 2026-11-17 플랫폼 커밋(2026-11-19 확인)으로 갱신한 새 플랫폼의 문서·코드를 기준으로 하며, 이전 구현의 실행 기록은 당시 사례로 구분한다. 현재 근거와 한계는 [구현 사례 지도](research/cases/software-factory-demo.md)에 기록한다.
 
 ## 라이선스
 
